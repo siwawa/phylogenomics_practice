@@ -1,0 +1,12 @@
+Target_Clade	Accession	RefSeq_Status	Coverage	N50	Genome_Size	TaxID	Organism_Name
+Euteleostomi	GCF_000001405.40	reference genome	na	57879411	3099441038	9606	Homo sapiens
+Euteleostomi	GCF_000001635.27	reference genome	na	59462871	2728206152	10090	Mus musculus
+Euteleostomi	GCF_016700215.2	reference genome	102.01	17744542	1050511239	9031	Gallus gallus
+Euteleostomi	GCF_000004195.4	reference genome	111.5	14634335	1451283599	8364	Xenopus tropicalis
+Euteleostomi	GCA_051020865.1	reference genome	101	16043130	342830278	99883	Tetraodon nigroviridis
+Euteleostomi	GCF_040954835.1	reference genome	50.38	20019514	1200589847	7918	Lepisosteus oculatus
+Euteleostomi	GCF_047496885.1	reference genome	34.5	3187150	6451259511	75743	Scyliorhinus torazame
+Euteleostomi	GCF_011386835.1	reference genome	20.5	13370154	2372089908	8478	Chrysemys picta bellii
+Euteleostomi	GCF_037176945.1	reference genome	41.94	42076942	2947609019	7897	Latimeria chalumnae
+Euteleostomi	GCF_016835505.1	reference genome	64	4528139	3673863536	55291	Polypterus senegalus
+Euteleostomi	GCF_902713425.1	reference genome	61	8776027	1899794300	7906	Acipenser ruthenus

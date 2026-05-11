@@ -1,0 +1,460 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: /rna/liha/phylogenomics_practice/UCE/Aligned_fasta/uce-4738_aligned_modified.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 111061
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 41 sequences with 203 nucleotide sites
+Number of constant sites: 11 (= 5.41872% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 11 (= 5.41872% of all sites)
+Number of parsimony informative sites: 188
+Number of distinct site patterns: 193
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+R4            -6152.093   12482.187 +    0.254   12623.957 +    0.192   12777.062 +    0.258
+TVMe+R4           -6152.287   12482.575 +    0.209   12624.344 +    0.158   12777.450 +    0.213
+TVMe+R4           -6152.287   12482.575 +    0.209   12624.344 +    0.158   12777.450 +    0.213
+TVM+R3            -6158.784   12491.568 -  0.00233   12624.716 +    0.131   12779.817 +   0.0651
+TVMe+R3           -6158.796   12491.593 -   0.0023   12624.740 +    0.129   12779.841 +   0.0643
+TVMe+R3           -6158.796   12491.593 -   0.0023   12624.740 +    0.129   12779.841 +   0.0643
+GTR+R4            -6151.924   12483.848 +    0.111   12630.098 -  0.00888   12782.037 -   0.0214
+SYM+R4            -6152.047   12484.093 +   0.0979   12630.343 -  0.00786   12782.282 -    0.019
+SYM+R4            -6152.047   12484.093 +   0.0979   12630.343 -  0.00786   12782.282 -    0.019
+TVM+I+R3          -6157.565   12491.131 -   0.0029   12628.534 -   0.0194   12782.693 -   0.0155
+TVMe+I+R3         -6157.566   12491.131 -   0.0029   12628.535 -   0.0194   12782.693 -   0.0154
+TVMe+I+R3         -6157.566   12491.131 -   0.0029   12628.535 -   0.0194   12782.693 -   0.0154
+GTR+R3            -6158.752   12493.504 - 0.000885   12630.907 -  0.00593   12785.066 -  0.00472
+SYM+R3            -6158.761   12493.523 - 0.000877   12630.926 -  0.00587   12785.085 -  0.00467
+SYM+R3            -6158.761   12493.523 - 0.000877   12630.926 -  0.00587   12785.085 -  0.00467
+SYM+I+R3          -6157.511   12493.021 -  0.00113   12634.791 -  0.00085   12787.897 -  0.00115
+SYM+I+R3          -6157.511   12493.021 -  0.00113   12634.791 -  0.00085   12787.897 -  0.00115
+GTR+I+R3          -6157.511   12493.022 -  0.00113   12634.792 -  0.00085   12787.897 -  0.00114
+TPM3u+R3          -6174.270   12518.539 - 3.24e-09   12643.496 - 1.09e-05   12800.162 - 2.49e-06
+TPM3+R3           -6174.290   12518.581 - 3.17e-09   12643.538 - 1.07e-05   12800.203 - 2.44e-06
+TPM3+R3           -6174.290   12518.581 - 3.17e-09   12643.538 - 1.07e-05   12800.203 - 2.44e-06
+TPM3u+R4          -6170.059   12514.118 - 2.96e-08   12647.266 - 1.66e-06   12802.367 - 8.26e-07
+TPM3+R4           -6170.118   12514.235 - 2.79e-08   12647.383 - 1.57e-06   12802.484 - 7.79e-07
+TPM3+R4           -6170.118   12514.235 - 2.79e-08   12647.383 - 1.57e-06   12802.484 - 7.79e-07
+TPM3u+I+R3        -6172.985   12517.971 - 4.31e-09   12646.971 - 1.93e-06   12802.906 -  6.3e-07
+TPM3+I+R3         -6172.991   12517.981 - 4.28e-09   12646.981 - 1.92e-06   12802.917 - 6.27e-07
+TPM3+I+R3         -6172.991   12517.981 - 4.28e-09   12646.981 - 1.92e-06   12802.917 - 6.27e-07
+TIM3+R3           -6174.119   12520.237 - 1.39e-09   12649.237 -  6.2e-07   12805.173 - 2.03e-07
+TIM3e+R3          -6174.132   12520.263 - 1.37e-09   12649.263 - 6.12e-07   12805.199 -    2e-07
+TIM3e+R3          -6174.132   12520.263 - 1.37e-09   12649.263 - 6.12e-07   12805.199 -    2e-07
+TIM3+R4           -6169.993   12515.985 - 1.16e-08   12653.389 - 7.78e-08   12807.547 - 6.19e-08
+TIM3e+R4          -6170.039   12516.078 - 1.11e-08   12653.481 - 7.43e-08   12807.640 - 5.91e-08
+TIM3e+R4          -6170.039   12516.078 - 1.11e-08   12653.481 - 7.43e-08   12807.640 - 5.91e-08
+TIM3+I+R3         -6172.961   12519.922 - 1.62e-09   12653.070 - 9.13e-08   12808.171 - 4.53e-08
+TIM3e+I+R3        -6172.967   12519.934 - 1.61e-09   12653.082 - 9.07e-08   12808.183 - 4.51e-08
+TIM3e+I+R3        -6172.967   12519.934 - 1.61e-09   12653.082 - 9.07e-08   12808.183 - 4.51e-08
+TVM+F+R3          -6165.939   12511.878 - 9.06e-08   12658.128 - 7.28e-09   12810.067 - 1.76e-08
+TVM+F+R4          -6162.314   12508.627 -  4.6e-07   12664.191 - 3.51e-10   12813.442 - 3.25e-09
+TVM+F+I+R3        -6165.007   12512.013 - 8.47e-08   12662.860 - 6.83e-10   12813.515 - 3.13e-09
+GTR+F+R3          -6165.031   12512.062 - 8.27e-08   12662.909 - 6.67e-10   12813.564 - 3.06e-09
+TPM2u+R3          -6181.488   12532.976 - 2.38e-12   12657.933 - 8.02e-09   12814.598 - 1.82e-09
+TPM2+R3           -6181.508   12533.017 - 2.33e-12   12657.974 - 7.86e-09   12814.639 - 1.79e-09
+TPM2+R3           -6181.508   12533.017 - 2.33e-12   12657.974 - 7.86e-09   12814.639 - 1.79e-09
+GTR+F+R4          -6161.341   12508.681 - 4.48e-07   12669.085 - 3.04e-11   12816.809 - 6.03e-10
+GTR+F+I+R3        -6164.273   12512.546 - 6.49e-08   12668.110 - 4.95e-11   12817.361 - 4.58e-10
+TPM2u+I+R3        -6180.422   12532.844 - 2.54e-12   12661.844 - 1.14e-09   12817.780 - 3.72e-10
+TPM2+I+R3         -6180.426   12532.853 - 2.53e-12   12661.853 - 1.13e-09   12817.788 -  3.7e-10
+TPM2+I+R3         -6180.426   12532.853 - 2.53e-12   12661.853 - 1.13e-09   12817.788 -  3.7e-10
+TPM2u+R4          -6177.899   12529.797 - 1.16e-11   12662.945 - 6.55e-10   12818.046 - 3.25e-10
+TPM2+R4           -6177.991   12529.983 - 1.06e-11   12663.130 - 5.97e-10   12818.232 - 2.96e-10
+TPM2+R4           -6177.991   12529.983 - 1.06e-11   12663.130 - 5.97e-10   12818.232 - 2.96e-10
+TPM3u+F+R3        -6175.365   12526.730 -  5.4e-11   12664.134 - 3.61e-10   12818.293 - 2.87e-10
+TIM2+R3           -6181.086   12534.172 - 1.31e-12   12663.172 - 5.84e-10   12819.108 - 1.91e-10
+TIM2e+R3          -6181.099   12534.199 - 1.29e-12   12663.199 - 5.77e-10   12819.135 - 1.89e-10
+TIM2e+R3          -6181.099   12534.199 - 1.29e-12   12663.199 - 5.77e-10   12819.135 - 1.89e-10
+TPM3u+F+I+R3      -6174.258   12526.515 - 6.01e-11   12668.285 - 4.53e-11   12821.391 - 6.11e-11
+TIM3+F+R3         -6174.290   12526.580 - 5.82e-11   12668.350 - 4.39e-11   12821.455 - 5.91e-11
+TIM2+R4           -6177.006   12530.012 - 1.05e-11   12667.415 -    7e-11   12821.574 - 5.57e-11
+TIM2e+R4          -6177.079   12530.158 - 9.72e-12   12667.561 - 6.51e-11   12821.720 - 5.18e-11
+TIM2e+R4          -6177.079   12530.158 - 9.72e-12   12667.561 - 6.51e-11   12821.720 - 5.18e-11
+TPM2u+F+R3        -6177.090   12530.180 - 9.61e-12   12667.584 - 6.44e-11   12821.743 - 5.12e-11
+TIM2+I+R3         -6179.997   12533.993 - 1.43e-12   12667.141 - 8.03e-11   12822.242 - 3.99e-11
+TIM2e+I+R3        -6179.999   12533.999 - 1.42e-12   12667.147 - 8.01e-11   12822.248 - 3.98e-11
+TIM2e+I+R3        -6179.999   12533.999 - 1.42e-12   12667.147 - 8.01e-11   12822.248 - 3.98e-11
+TPM3u+F+R4        -6172.540   12525.079 - 1.23e-10   12671.329 - 9.89e-12   12823.268 - 2.39e-11
+TIM3+F+I+R3       -6173.401   12526.802 - 5.21e-11   12673.052 - 4.18e-12   12824.990 - 1.01e-11
+TPM2u+F+I+R3      -6176.259   12530.518 - 8.12e-12   12672.288 - 6.13e-12   12825.393 - 8.25e-12
+TIM3+F+R4         -6171.183   12524.366 - 1.76e-10   12675.213 - 1.42e-12   12825.868 - 6.51e-12
+TIM2+F+R3         -6176.538   12531.076 - 6.14e-12   12672.846 - 4.63e-12   12825.951 - 6.24e-12
+TPM2u+F+R4        -6174.634   12529.268 - 1.52e-11   12675.518 - 1.22e-12   12827.456 - 2.94e-12
+TIM2+F+I+R3       -6175.831   12531.662 - 4.58e-12   12677.912 - 3.68e-13   12829.851 - 8.89e-13
+TIM2+F+R4         -6173.478   12528.956 - 1.77e-11   12679.803 - 1.43e-13   12830.458 - 6.56e-13
+HKY+F+R3          -6186.597   12547.193 - 1.94e-15   12680.341 - 1.09e-13   12835.442 - 5.43e-14
+K3Pu+F+R3         -6185.261   12546.522 - 2.72e-15   12683.925 - 1.82e-14   12838.084 - 1.45e-14
+HKY+F+I+R3        -6185.529   12547.058 - 2.08e-15   12684.462 - 1.39e-14   12838.620 - 1.11e-14
+TN+F+R3           -6185.860   12547.721 - 1.49e-15   12685.124 -    1e-14   12839.283 - 7.95e-15
+HKY+R3            -6196.905   12561.810 -  1.3e-18   12682.827 - 3.15e-14   12840.120 - 5.23e-15
+K2P+R3            -6196.961   12561.921 - 1.23e-18   12682.938 - 2.98e-14   12840.230 - 4.95e-15
+K2P+R3            -6196.961   12561.921 - 1.23e-18   12682.938 - 2.98e-14   12840.230 - 4.95e-15
+K3Pu+R3           -6194.921   12559.842 - 3.48e-18   12684.800 - 1.18e-14   12841.465 - 2.67e-15
+K3P+R3            -6194.947   12559.894 - 3.39e-18   12684.851 - 1.15e-14   12841.516 -  2.6e-15
+K3P+R3            -6194.947   12559.894 - 3.39e-18   12684.851 - 1.15e-14   12841.516 -  2.6e-15
+K3Pu+F+I+R3       -6184.350   12546.700 - 2.49e-15   12688.470 - 1.88e-15   12841.575 - 2.53e-15
+TIM+F+R3          -6184.534   12547.068 - 2.07e-15   12688.838 - 1.56e-15   12841.943 -  2.1e-15
+TN+F+I+R3         -6184.962   12547.925 - 1.35e-15   12689.694 - 1.02e-15   12842.800 - 1.37e-15
+HKY+I+R3          -6195.772   12561.545 - 1.49e-18   12686.502 - 5.02e-15   12843.167 - 1.14e-15
+K2P+I+R3          -6195.784   12561.569 - 1.47e-18   12686.526 - 4.96e-15   12843.191 - 1.13e-15
+K2P+I+R3          -6195.784   12561.569 - 1.47e-18   12686.526 - 4.96e-15   12843.191 - 1.13e-15
+HKY+F+R4          -6185.204   12548.408 - 1.06e-15   12690.178 - 7.99e-16   12843.283 - 1.08e-15
+K3Pu+I+R3         -6193.927   12559.854 - 3.46e-18   12688.854 - 1.55e-15   12844.789 - 5.07e-16
+K3P+I+R3          -6193.933   12559.866 - 3.44e-18   12688.866 - 1.54e-15   12844.802 - 5.04e-16
+K3P+I+R3          -6193.933   12559.866 - 3.44e-18   12688.866 - 1.54e-15   12844.802 - 5.04e-16
+TN+R3             -6196.640   12563.281 - 6.24e-19   12688.238 - 2.11e-15   12844.903 - 4.79e-16
+TNe+R3            -6196.667   12563.333 - 6.08e-19   12688.291 - 2.05e-15   12844.956 - 4.66e-16
+TNe+R3            -6196.667   12563.333 - 6.08e-19   12688.291 - 2.05e-15   12844.956 - 4.66e-16
+K3Pu+F+R4         -6183.477   12546.953 - 2.19e-15   12693.203 - 1.76e-16   12845.142 - 4.25e-16
+TIM+F+I+R3        -6183.788   12547.577 -  1.6e-15   12693.827 - 1.29e-16   12845.765 - 3.11e-16
+TIM+R3            -6194.694   12561.387 - 1.61e-18   12690.387 - 7.19e-16   12846.323 - 2.35e-16
+TIMe+R3           -6194.711   12561.422 - 1.58e-18   12690.422 - 7.07e-16   12846.358 - 2.31e-16
+TIMe+R3           -6194.711   12561.422 - 1.58e-18   12690.422 - 7.07e-16   12846.358 - 2.31e-16
+TN+F+R4           -6184.159   12548.318 - 1.11e-15   12694.568 - 8.89e-17   12846.507 - 2.15e-16
+HKY+R4            -6195.170   12562.339 - 9.99e-19   12691.339 - 4.47e-16   12847.275 - 1.46e-16
+K2P+R4            -6195.345   12562.690 - 8.38e-19   12691.690 - 3.75e-16   12847.626 - 1.23e-16
+K2P+R4            -6195.345   12562.690 - 8.38e-19   12691.690 - 3.75e-16   12847.626 - 1.23e-16
+K3Pu+R4           -6192.774   12559.549 - 4.03e-18   12692.697 - 2.27e-16   12847.798 - 1.13e-16
+TIM+F+R4          -6182.184   12546.369 - 2.93e-15   12697.216 - 2.37e-17   12847.871 - 1.09e-16
+K3P+R4            -6192.858   12559.716 - 3.71e-18   12692.863 - 2.09e-16   12847.964 - 1.04e-16
+K3P+R4            -6192.858   12559.716 - 3.71e-18   12692.863 - 2.09e-16   12847.964 - 1.04e-16
+TN+I+R3           -6195.560   12563.120 - 6.76e-19   12692.120 - 3.02e-16   12848.056 -  9.9e-17
+TNe+I+R3          -6195.562   12563.125 - 6.75e-19   12692.125 - 3.02e-16   12848.060 - 9.88e-17
+TNe+I+R3          -6195.562   12563.125 - 6.75e-19   12692.125 - 3.02e-16   12848.060 - 9.88e-17
+TIM+I+R3          -6193.714   12561.428 - 1.58e-18   12694.576 - 8.86e-17   12849.677 -  4.4e-17
+TIMe+I+R3         -6193.719   12561.439 - 1.57e-18   12694.586 - 8.81e-17   12849.687 - 4.38e-17
+TIMe+I+R3         -6193.719   12561.439 - 1.57e-18   12694.586 - 8.81e-17   12849.687 - 4.38e-17
+TN+R4             -6194.668   12563.335 - 6.07e-19   12696.483 - 3.41e-17   12851.584 -  1.7e-17
+TIM+R4            -6192.046   12560.092 - 3.07e-18   12697.495 - 2.06e-17   12851.654 - 1.64e-17
+TIMe+R4           -6192.117   12560.235 - 2.86e-18   12697.638 - 1.92e-17   12851.797 - 1.52e-17
+TIMe+R4           -6192.117   12560.235 - 2.86e-18   12697.638 - 1.92e-17   12851.797 - 1.52e-17
+TNe+R4            -6194.783   12563.567 - 5.41e-19   12696.715 - 3.04e-17   12851.816 - 1.51e-17
+TNe+R4            -6194.783   12563.567 - 5.41e-19   12696.715 - 3.04e-17   12851.816 - 1.51e-17
+F81+F+R3          -6244.118   12660.237 - 5.51e-40   12789.237 - 2.47e-37   12945.173 - 8.07e-38
+F81+F+I+R3        -6243.176   12660.352 -  5.2e-40   12793.500 - 2.93e-38   12948.601 - 1.45e-38
+F81+R3            -6255.050   12676.100 - 1.98e-43   12793.277 - 3.27e-38   12951.096 - 4.17e-39
+JC+R3             -6255.201   12676.401 -  1.7e-43   12793.578 - 2.81e-38   12951.397 - 3.59e-39
+JC+R3             -6255.201   12676.401 -  1.7e-43   12793.578 - 2.81e-38   12951.397 - 3.59e-39
+F81+I+R3          -6253.897   12675.795 - 2.31e-43   12796.812 - 5.59e-39   12954.104 - 9.28e-40
+JC+I+R3           -6253.916   12675.831 - 2.27e-43   12796.848 - 5.49e-39   12954.140 - 9.11e-40
+JC+I+R3           -6253.916   12675.831 - 2.27e-43   12796.848 - 5.49e-39   12954.140 - 9.11e-40
+F81+F+R4          -6243.588   12663.176 - 1.27e-40   12800.579 - 8.49e-40   12954.738 - 6.76e-40
+F81+R4            -6254.239   12678.479 - 6.03e-44   12803.436 - 2.04e-40   12960.101 - 4.63e-41
+JC+R4             -6254.345   12678.690 - 5.42e-44   12803.648 - 1.83e-40   12960.313 - 4.16e-41
+JC+R4             -6254.345   12678.690 - 5.42e-44   12803.648 - 1.83e-40   12960.313 - 4.16e-41
+JC+I+R4           -6253.504   12679.008 - 4.63e-44   12808.008 - 2.07e-41   12963.944 - 6.77e-42
+JC+I+G4           -6267.741   12697.483 -  4.5e-48   12807.268 -    3e-41   12965.852 - 2.61e-42
+JC+G4             -6271.940   12703.880 - 1.84e-49   12810.110 - 7.24e-42   12968.937 - 5.58e-43
+JC+I+R2           -6300.367   12764.735 - 1.12e-62   12878.168 -  1.2e-56   13036.418 - 1.24e-57
+JC+R2             -6317.100   12796.200 - 1.65e-69   12905.985 -  1.1e-62   13064.569 - 9.55e-64
+JC+I              -6418.988   12997.977 - 2.52e-113   13104.206 - 9.94e-106   13263.033 - 7.66e-107
+JC                -6487.100   13132.200 - 1.8e-142   13234.964 - 4.01e-134   13393.943 - 2.87e-135
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+R4
+
+Rate parameter R:
+
+  A-C: 1.0005
+  A-G: 2.3789
+  A-T: 1.6910
+  C-G: 0.4844
+  C-T: 2.3789
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2808
+  pi(C) = 0.211
+  pi(G) = 0.2448
+  pi(T) = 0.2633
+
+Rate matrix Q:
+
+  A    -1.088    0.1853    0.5112    0.3909
+  C    0.2466   -0.9007    0.1041    0.5499
+  G    0.5864   0.08974   -0.9073    0.2312
+  T    0.4169    0.4407    0.2149    -1.072
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.1518,0.07377) (0.3653,0.5333) (0.3632,1.115) (0.1197,3.251)
+
+ Category  Relative_rate  Proportion
+  1         0.07377        0.1518
+  2         0.5333         0.3653
+  3         1.115          0.3632
+  4         3.251          0.1197
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -6156.4648 (s.e. 187.7886)
+Unconstrained log-likelihood (without tree): -1063.6714
+Number of free parameters (#branches + #model parameters): 92
+Akaike information criterion (AIC) score: 12496.9295
+Corrected Akaike information criterion (AICc) score: 12652.4931
+Bayesian information criterion (BIC) score: 12801.7445
+
+Total tree length (sum of branch lengths): 15.8160
+Sum of internal branch lengths: 6.5235 (41.2461% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0049) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Urochordata_aplidium_pallidum' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----Urochordata_aplidium_pallidum
+|
+|                                   +--Urochordata_aplidium_turbinatum
+|  +--------------------------------| (100)
+|  |                                |                 +---Urochordata_ascidiella_scabra
+|  |                                |              +--| (88)
+|  |                                |              |  +--Urochordata_phallusia_fumigata
+|  |                                |           +--| (86)
+|  |                                |           |  |        +--Cephalochordata_branchiostoma_belcheri
+|  |                                |           |  |  +-----| (100)
+|  |                                |           |  |  |     +--Cephalochordata_branchiostoma_lanceolatum
+|  |                                |           |  +--| (87)
+|  |                                |           |     +--Urochordata_phallusia_philippinensis
+|  |                                |        +--| (45)
+|  |                                |        |  |     +--Urochordata_diplosoma_listerianum
+|  |                                |        |  |  +--| (66)
+|  |                                |        |  |  |  +-------Cyclostomata_eptatretus_burgeri
+|  |                                |        |  +--| (34)
+|  |                                |        |     +--Urochordata_diplosoma_virens
+|  |                                |     +--| (52)
+|  |                                |     |  +---Urochordata_lissoclinum_perforatum
+|  |                                |  +--| (79)
+|  |                                |  |  +----Urochordata_clavelina_lepadiformis
+|  |                                +**| (20)
+|  |                                   |                    +---Urochordata_botrylloides_diegensis
+|  |                                   |                 +--| (82)
+|  |                                   |                 |  +--Urochordata_styela_plicata
+|  |                                   |              +--| (94)
+|  |                                   |              |  +--Urochordata_styela_clava
+|  |                                   |           +--| (83)
+|  |                                   |           |  |     +---------Urochordata_mesochordaeus_erythrocephalus
+|  |                                   |           |  +-----| (99)
+|  |                                   |           |        +-----Urochordata_oikopleura_albicans
+|  |                                   |        +--| (52)
+|  |                                   |        |  +--Urochordata_polycarpa_mamillaris
+|  |                                   |     +--| (50)
+|  |                                   |     |  +--Urochordata_halocynthia_papillosa
+|  |                                   |  +--| (66)
+|  |                                   |  |  +---Urochordata_ciona_intestinalis
+|  |                                   +--| (68)
+|  |                                      +--Urochordata_microcosmus_polymorphus
++--| (69)
+|  |           +--Urochordata_ascidia_mentula
+|  |        +--| (57)
+|  |        |  |         +**Cyclostomata_eptatretus_atami
+|  |        |  |      +--| (100)
+|  |        |  |      |  +--Cyclostomata_eptatretus_okinoseanus
+|  |        |  +------| (100)
+|  |        |         +--Cyclostomata_myxine_glutinosa
+|  |     +--| (15)
+|  |     |  +-----Urochordata_corella_eumyota
+|  |  +--| (28)
+|  |  |  +-------Cyclostomata_lampetra_auremensis
+|  +**| (40)
+|     |  +---------Cyclostomata_lethenteron_reissneri
+|     +--| (40)
+|        +--Urochordata_perophora_annectens
+|
+|           +--Urochordata_asterocarpa_humilis
+|        +--| (48)
+|        |  +---Urochordata_salpa_aspera
+|     +--| (53)
+|     |  +--Urochordata_diazona_violacea
+|  +--| (82)
+|  |  |              +---Urochordata_botrylloides_israeliense
+|  |  |           +--| (67)
+|  |  |           |  +---Urochordata_botrylloides_violaceus
+|  |  |        +--| (62)
+|  |  |        |  +--Urochordata_didemnum_vexillum
+|  |  |     +--| (38)
+|  |  |     |  |  +---Urochordata_ciona_savignyi
+|  |  |     |  +--| (91)
+|  |  |     |     +---Urochordata_distaplia_bermudensis
+|  |  |  +--| (47)
+|  |  |  |  |  +--Urochordata_halocynthia_aurantium
+|  |  |  |  +--| (97)
+|  |  |  |     +--Urochordata_halocynthia_roretzi
+|  |  +--| (21)
+|  |     +---Urochordata_trididemnum_miniatum
++--| (59)
+   +--Cephalochordata_branchiostoma_floridae
+
+Tree in newick format:
+
+(Urochordata_aplidium_pallidum:0.2960847996,((Urochordata_aplidium_turbinatum:0.1797592247,((((((Urochordata_ascidiella_scabra:0.2730293163,Urochordata_phallusia_fumigata:0.1993399709)88:0.0785999834,((Cephalochordata_branchiostoma_belcheri:0.0542646936,Cephalochordata_branchiostoma_lanceolatum:0.0670822834)100:0.3657825559,Urochordata_phallusia_philippinensis:0.1213299819)87:0.1143314940)86:0.1593078380,((Urochordata_diplosoma_listerianum:0.2246003495,Cyclostomata_eptatretus_burgeri:0.4731354440)66:0.1122666178,Urochordata_diplosoma_virens:0.2027402424)34:0.0497842864)45:0.0314264105,Urochordata_lissoclinum_perforatum:0.2904753719)52:0.0573818720,Urochordata_clavelina_lepadiformis:0.3084581551)79:0.1093973840,(((((((Urochordata_botrylloides_diegensis:0.2703835983,Urochordata_styela_plicata:0.1153834141)82:0.0757070063,Urochordata_styela_clava:0.1460477161)94:0.0812209562,(Urochordata_mesochordaeus_erythrocephalus:0.6274242040,Urochordata_oikopleura_albicans:0.3581200047)99:0.3938589119)83:0.0724231336,Urochordata_polycarpa_mamillaris:0.2089585150)52:0.0546987067,Urochordata_halocynthia_papillosa:0.1946319376)50:0.0320652437,Urochordata_ciona_intestinalis:0.2416604438)66:0.0831257366,Urochordata_microcosmus_polymorphus:0.1687258680)68:0.1493722744)20:0.0000021035)100:1.9628621070,((((Urochordata_ascidia_mentula:0.1006030929,((Cyclostomata_eptatretus_atami:0.0000010213,Cyclostomata_eptatretus_okinoseanus:0.0053297256)100:0.0552834726,Cyclostomata_myxine_glutinosa:0.1757262643)100:0.4555435579)57:0.1852839674,Urochordata_corella_eumyota:0.3517627530)15:0.0825100661,Cyclostomata_lampetra_auremensis:0.4781051848)28:0.0801726101,(Cyclostomata_lethenteron_reissneri:0.6057363202,Urochordata_perophora_annectens:0.1545333563)40:0.2271108261)40:0.0000027796)69:0.1212633552,((((Urochordata_asterocarpa_humilis:0.2262286969,Urochordata_salpa_aspera:0.2607377514)48:0.1259063079,Urochordata_diazona_violacea:0.1232184687)53:0.0954440977,(((((Urochordata_botrylloides_israeliense:0.2403664543,Urochordata_botrylloides_violaceus:0.2470566841)67:0.1354918296,Urochordata_didemnum_vexillum:0.2167738823)62:0.1266504252,(Urochordata_ciona_savignyi:0.2468044471,Urochordata_distaplia_bermudensis:0.2876300005)91:0.1649734595)38:0.0695560107,(Urochordata_halocynthia_aurantium:0.0107165974,Urochordata_halocynthia_roretzi:0.0332908251)97:0.1822459293)47:0.1238917657,Urochordata_trididemnum_miniatum:0.2872652551)21:0.0319166644)82:0.1975791922,Cephalochordata_branchiostoma_floridae:0.2190141516)59:0.0790494722);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -6156.543750
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----Urochordata_aplidium_pallidum
+|
+|                                      +--Urochordata_aplidium_turbinatum
+|                                   +--| (56)
+|                                   |  |              +---Urochordata_ascidiella_scabra
+|                                   |  |           +--| (88)
+|                                   |  |           |  +--Urochordata_phallusia_fumigata
+|                                   |  |        +--| (86)
+|                                   |  |        |  |        +--Cephalochordata_branchiostoma_belcheri
+|                                   |  |        |  |  +-----| (100)
+|                                   |  |        |  |  |     +--Cephalochordata_branchiostoma_lanceolatum
+|                                   |  |        |  +--| (87)
+|                                   |  |        |     +--Urochordata_phallusia_philippinensis
+|                                   |  |     +--| (45)
+|                                   |  |     |  |     +--Urochordata_diplosoma_listerianum
+|                                   |  |     |  |  +--| (66)
+|                                   |  |     |  |  |  +-------Cyclostomata_eptatretus_burgeri
+|                                   |  |     |  +--| (34)
+|                                   |  |     |     +--Urochordata_diplosoma_virens
+|                                   |  |  +--| (52)
+|                                   |  |  |  +----Urochordata_lissoclinum_perforatum
+|                                   |  +--| (79)
+|                                   |     +----Urochordata_clavelina_lepadiformis
+|  +--------------------------------| (100)
+|  |                                |                    +---Urochordata_botrylloides_diegensis
+|  |                                |                 +--| (82)
+|  |                                |                 |  +--Urochordata_styela_plicata
+|  |                                |              +--| (94)
+|  |                                |              |  +--Urochordata_styela_clava
+|  |                                |           +--| (83)
+|  |                                |           |  |     +---------Urochordata_mesochordaeus_erythrocephalus
+|  |                                |           |  +-----| (99)
+|  |                                |           |        +-----Urochordata_oikopleura_albicans
+|  |                                |        +--| (52)
+|  |                                |        |  +--Urochordata_polycarpa_mamillaris
+|  |                                |     +--| (50)
+|  |                                |     |  +--Urochordata_halocynthia_papillosa
+|  |                                |  +--| (66)
+|  |                                |  |  +---Urochordata_ciona_intestinalis
+|  |                                +--| (68)
+|  |                                   +--Urochordata_microcosmus_polymorphus
++--| (69)
+|  |           +--Urochordata_ascidia_mentula
+|  |        +--| (57)
+|  |        |  |         +--Cyclostomata_eptatretus_atami
+|  |        |  |      +--| (100)
+|  |        |  |      |  +--Cyclostomata_eptatretus_okinoseanus
+|  |        |  +------| (100)
+|  |        |         +--Cyclostomata_myxine_glutinosa
+|  |     +--| (20)
+|  |     |  +------Cyclostomata_lampetra_auremensis
+|  |  +--| (28)
+|  |  |  +-----Urochordata_corella_eumyota
+|  +--| (40)
+|     |   +---------Cyclostomata_lethenteron_reissneri
+|     +---| (40)
+|         +--Urochordata_perophora_annectens
+|
+|              +--Urochordata_asterocarpa_humilis
+|           +--| (48)
+|           |  +---Urochordata_salpa_aspera
+|        +--| (53)
+|        |  +--Urochordata_diazona_violacea
+|     +--| (31)
+|     |  +----Urochordata_trididemnum_miniatum
+|  +--| (82)
+|  |  |           +---Urochordata_botrylloides_israeliense
+|  |  |        +--| (67)
+|  |  |        |  +---Urochordata_botrylloides_violaceus
+|  |  |     +--| (62)
+|  |  |     |  +--Urochordata_didemnum_vexillum
+|  |  |  +--| (38)
+|  |  |  |  |  +---Urochordata_ciona_savignyi
+|  |  |  |  +--| (91)
+|  |  |  |     +---Urochordata_distaplia_bermudensis
+|  |  +--| (47)
+|  |     |  +--Urochordata_halocynthia_aurantium
+|  |     +--| (97)
+|  |        +--Urochordata_halocynthia_roretzi
++--| (59)
+   +---Cephalochordata_branchiostoma_floridae
+
+
+Consensus tree in newick format: 
+
+(Urochordata_aplidium_pallidum:0.2970117827,(((Urochordata_aplidium_turbinatum:0.1794876653,(((((Urochordata_ascidiella_scabra:0.2731397482,Urochordata_phallusia_fumigata:0.1991925627)88:0.0788616814,((Cephalochordata_branchiostoma_belcheri:0.0542114349,Cephalochordata_branchiostoma_lanceolatum:0.0671300673)100:0.3653297610,Urochordata_phallusia_philippinensis:0.1213647332)87:0.1141637875)86:0.1589480549,((Urochordata_diplosoma_listerianum:0.2248844022,Cyclostomata_eptatretus_burgeri:0.4732661382)66:0.1116578872,Urochordata_diplosoma_virens:0.2026734979)34:0.0502598369)45:0.0312700721,Urochordata_lissoclinum_perforatum:0.2904657757)52:0.0578168615,Urochordata_clavelina_lepadiformis:0.3081548237)79:0.1101845886)56:0.0000021250,(((((((Urochordata_botrylloides_diegensis:0.2708152612,Urochordata_styela_plicata:0.1154314576)82:0.0754690403,Urochordata_styela_clava:0.1459724284)94:0.0808037487,(Urochordata_mesochordaeus_erythrocephalus:0.6236949043,Urochordata_oikopleura_albicans:0.3595898616)99:0.3936709480)83:0.0728369153,Urochordata_polycarpa_mamillaris:0.2088261059)52:0.0550250998,Urochordata_halocynthia_papillosa:0.1944478905)50:0.0320585934,Urochordata_ciona_intestinalis:0.2417284478)66:0.0829769067,Urochordata_microcosmus_polymorphus:0.1686950400)68:0.1493637090)100:1.9439366892,((((Urochordata_ascidia_mentula:0.1092298372,((Cyclostomata_eptatretus_atami:0.0000022104,Cyclostomata_eptatretus_okinoseanus:0.0053267958)100:0.0589655051,Cyclostomata_myxine_glutinosa:0.1708906271)100:0.4350397390)57:0.1703698958,Cyclostomata_lampetra_auremensis:0.4468065302)20:0.0975176433,Urochordata_corella_eumyota:0.3710049042)28:0.0872020148,(Cyclostomata_lethenteron_reissneri:0.6120851702,Urochordata_perophora_annectens:0.1514984738)40:0.2332848194)40:0.0000027099)69:0.1204555159,(((((Urochordata_asterocarpa_humilis:0.2276085161,Urochordata_salpa_aspera:0.2614451905)48:0.1270759804,Urochordata_diazona_violacea:0.1225241193)53:0.0931455464,Urochordata_trididemnum_miniatum:0.2997017040)31:0.0483838680,((((Urochordata_botrylloides_israeliense:0.2439605899,Urochordata_botrylloides_violaceus:0.2408943370)67:0.1412228071,Urochordata_didemnum_vexillum:0.2087148910)62:0.1418502766,(Urochordata_ciona_savignyi:0.2556957736,Urochordata_distaplia_bermudensis:0.2789717083)91:0.1538599161)38:0.0508939574,(Urochordata_halocynthia_aurantium:0.0101487306,Urochordata_halocynthia_roretzi:0.0338527720)97:0.1986542341)47:0.1245963284)82:0.1591929930,Cephalochordata_branchiostoma_floridae:0.2317689035)59:0.0773258024);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /rna/liha/phylogenomics_practice/UCE/Tree/uce-4738_aligned/uce-4738_aligned.treefile -m "TVM{1.00048,2.37886,1.69103,0.484391}+F{0.280814,0.211034,0.244815,0.263336}+R4{0.151819,0.0737653,0.365258,0.533326,0.363206,1.11459,0.119716,3.2508}" --length 203
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /rna/liha/phylogenomics_practice/UCE/Aligned_fasta/uce-4738_aligned_modified.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /rna/liha/phylogenomics_practice/UCE/Aligned_fasta/uce-4738_aligned_modified.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri May  8 14:05:57 2026
+Total CPU time used: 263.436372 seconds (0h:4m:23s)
+Total wall-clock time used: 182.6536399 seconds (0h:3m:2s)
+

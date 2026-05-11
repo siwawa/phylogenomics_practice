@@ -1,0 +1,19 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    dicer (AVX512, FMA3, 314 GB RAM)
+Command: iqtree3 -s /rna/liha/phylogenomics_practice/UCE/Aligned_fasta/uce-9071_aligned.fasta -B 1000 --prefix /rna/liha/phylogenomics_practice/UCE/Tree/uce-9071 -T AUTO
+Seed:    308288 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 24 18:44:01 2026
+Kernel:  AVX+FMA - auto-detect threads (128 CPU cores detected)
+
+Reading alignment file /rna/liha/phylogenomics_practice/UCE/Aligned_fasta/uce-9071_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.00225456 secs using 78.68% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0122193 secs using 9649% CPU
+Alignment has 60 sequences with 3524 columns, 3172 distinct patterns
+2376 parsimony-informative, 605 singleton sites, 543 constant sites
+ERROR: Duplicated sequence name pristiophorus_japonicus
+ERROR: Please rename sequences listed above!

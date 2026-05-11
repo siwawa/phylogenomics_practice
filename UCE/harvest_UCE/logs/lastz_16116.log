@@ -1,0 +1,5021 @@
+Job started on dicer at Fri Apr 24 03:49:04 PM KST 2026
+[Info] Removing existing output directory: /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output
+[Info] Removing existing database file: /rna/liha/phylogenomics_practice/UCE/harvest_UCE/uce_search.sqlite
+========================================================
+ Target Taxa: Branchiostoma_floridae Branchiostoma_lanceolatum Branchiostoma_belcheri Ciona_intestinalis Styela_clava Styela_plicata Halocynthia_roretzi Botryllus_schlosseri Thalia_democratica Oikopleura_dioica Ascidia_mentula Ciona_savignyi Phallusia_mammillata Botrylloides_diegensis Boltenia_villosa Oikopleura_longicauda Diplosoma_listerianum Clavelina_lepadiformis Halocynthia_papillosa Ascidiella_aspersa Halocynthia_aurantium Aplidium_elegans Diplosoma_spongiforme Diplosoma_virens Corella_eumyota Didemnum_molle Pycnoclavella_producta Phallusia_fumigata Microcosmus_squamiger Microcosmus_polymorphus Didemnum_vexillum Trididemnum_clinides Salpa_thompsoni Botrylloides_violaceus Asterocarpa_humilis Trididemnum_nubilum Trididemnum_miniatum Salpa_aspera Ascidiella_scabra Lissoclinum_perforatum Phallusia_philippinensis Symplegma_brakenhielmi Distaplia_bermudensis Oikopleura_albicans Botrylloides_israeliense Bathochordaeus_stygius Oikopleura_vanhoeffeni Polycarpa_mamillaris Mesochordaeus_erythrocephalus Aplidium_turbinatum Perophora_annectens Aplidium_pallidum Diazona_violacea Corella_parallelogramma Lampetra_planeri Lethenteron_reissneri Mordacia_mordax Lampetra_fluviatilis Eptatretus_burgeri Petromyzon_marinus Eptatretus_okinoseanus Myxine_glutinosa Eptatretus_atami Lampetra_richardsoni Geotria_australis Lampetra_auremensis Eudontomyzon_morii Entosphenus_tridentatus Hydrolagus_mirabilis Pristiophorus_japonicus Lethenteron_camtschaticum Stegostoma_tigrinum Heterodontus_francisci Leucoraja_erinaceus Hydrolagus_colliei Raja_brachyura Heptranchias_perlo Homo_sapiens Mobula_birostris Okamejei_kenojei Mobula_hypostoma Torpedo_marmorata Gallus_gallus Mus_musculus Xenopus_tropicalis Tetraodon_nigroviridis Lepisosteus_oculatus Scyliorhinus_torazame Latimeria_chalumnae Chrysemys_picta_bellii Polypterus_senegalus Acipenser_ruthenus 
+ Cores to use: 32
+========================================================
+ Running LASTZ to find UCEs...
+
+Running against Branchiostoma_floridae.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 20 queries...
+	/tmp/tmp54SX33.fasta
+	/tmp/tmpgtuy1f.fasta
+	/tmp/tmp12LDyt.fasta
+	/tmp/tmpE8cio1.fasta
+	/tmp/tmpSJGuKQ.fasta
+	/tmp/tmpjMZEcM.fasta
+	/tmp/tmpSA8Lig.fasta
+	/tmp/tmp2qGLSW.fasta
+	/tmp/tmpU96vgk.fasta
+	/tmp/tmpfp6_6v.fasta
+	/tmp/tmprkKdPB.fasta
+	/tmp/tmpVBDT6J.fasta
+	/tmp/tmpZOWME9.fasta
+	/tmp/tmpgU5Rr2.fasta
+	/tmp/tmpNhIK4r.fasta
+	/tmp/tmpG_vOHZ.fasta
+	/tmp/tmp_U8NhH.fasta
+	/tmp/tmpLsNHpV.fasta
+	/tmp/tmpSwtjoC.fasta
+	/tmp/tmpc7vXFG.fasta
+
+Writing the results file...
+	/tmp/tmpsqhamD.lastz
+	/tmp/tmpa7zHgU.lastz
+	/tmp/tmpKvHr9F.lastz
+	/tmp/tmpWi4obn.lastz
+	/tmp/tmp5fciI6.lastz
+	/tmp/tmpWGJ5vJ.lastz
+	/tmp/tmpNHm_00.lastz
+	/tmp/tmppDVex0.lastz
+	/tmp/tmpiEMdxt.lastz
+	/tmp/tmpLEFTYu.lastz
+	/tmp/tmpKDpVfj.lastz
+	/tmp/tmpMbHb12.lastz
+	/tmp/tmpurDv_u.lastz
+	/tmp/tmpFzWiwA.lastz
+	/tmp/tmpnUzKUK.lastz
+	/tmp/tmpc8QHND.lastz
+	/tmp/tmpRCmalj.lastz
+	/tmp/tmp7G9JTd.lastz
+	/tmp/tmpWxAA94.lastz
+	/tmp/tmppB9l45.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Branchiostoma_floridae.lastz
+Creating Branchiostoma_floridae table
+Inserting data to Branchiostoma_floridae table
+
+Running against Branchiostoma_lanceolatum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 20 queries...
+	/tmp/tmpjEXyTZ.fasta
+	/tmp/tmpqL6Kd_.fasta
+	/tmp/tmplBV4Rm.fasta
+	/tmp/tmpJYoekT.fasta
+	/tmp/tmpCh56fK.fasta
+	/tmp/tmpolnkqt.fasta
+	/tmp/tmp5jJPjv.fasta
+	/tmp/tmpSooMDY.fasta
+	/tmp/tmpnXCJQo.fasta
+	/tmp/tmpXmgKR8.fasta
+	/tmp/tmpUnlSX3.fasta
+	/tmp/tmp6cSJ4o.fasta
+	/tmp/tmpxwVBeB.fasta
+	/tmp/tmp_LeotO.fasta
+	/tmp/tmpVJl2EZ.fasta
+	/tmp/tmpa1WD75.fasta
+	/tmp/tmpED62q1.fasta
+	/tmp/tmpY9uHsy.fasta
+	/tmp/tmp_A6Fy_.fasta
+
+Writing the results file...
+	/tmp/tmp1PK3KV.lastz
+	/tmp/tmpT9FX4r.lastz
+	/tmp/tmpzlJap2.lastz
+	/tmp/tmpUJzjHC.lastz
+	/tmp/tmpFIUKom.lastz
+	/tmp/tmpqQDp2t.lastz
+	/tmp/tmpmHYztF.lastz
+	/tmp/tmpq1BYVz.lastz
+	/tmp/tmpfFLMzR.lastz
+	/tmp/tmpig4r76.lastz
+	/tmp/tmpqct3H8.lastz
+	/tmp/tmp03ngXx.lastz
+	/tmp/tmpXADbKX.lastz
+	/tmp/tmpD1DDW_.lastz
+	/tmp/tmpI8mO43.lastz
+	/tmp/tmp1weN52.lastz
+	/tmp/tmpE3o1Ou.lastz
+	/tmp/tmpJUFxuO.lastz
+	/tmp/tmp58pCJS.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Branchiostoma_lanceolatum.lastz
+Creating Branchiostoma_lanceolatum table
+Inserting data to Branchiostoma_lanceolatum table
+
+Running against Branchiostoma_belcheri.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 38 queries...
+	/tmp/tmpWctRKX.fasta
+	/tmp/tmpCCFj5k.fasta
+	/tmp/tmp3OWgaT.fasta
+	/tmp/tmp8Xd9Wg.fasta
+	/tmp/tmp0RhPFF.fasta
+	/tmp/tmpHE_aJm.fasta
+	/tmp/tmpRZNPK1.fasta
+	/tmp/tmpbuZBp9.fasta
+	/tmp/tmpqQw8rG.fasta
+	/tmp/tmpBZIW1P.fasta
+	/tmp/tmpUKdXtg.fasta
+	/tmp/tmp4QzYdR.fasta
+	/tmp/tmpQ0lKuU.fasta
+	/tmp/tmpZIUTaP.fasta
+	/tmp/tmp1YF9Uy.fasta
+	/tmp/tmpGbUk2y.fasta
+	/tmp/tmpN4JuOx.fasta
+	/tmp/tmp3rPgH1.fasta
+	/tmp/tmpcPZOGx.fasta
+	/tmp/tmpmC1RdR.fasta
+	/tmp/tmpQSnaKx.fasta
+	/tmp/tmpOmxebE.fasta
+	/tmp/tmpuv_jOl.fasta
+	/tmp/tmpTa4ISg.fasta
+	/tmp/tmpBE0auV.fasta
+	/tmp/tmp_RGeRz.fasta
+	/tmp/tmpI7VvYu.fasta
+	/tmp/tmpz65bHm.fasta
+	/tmp/tmpxb70tj.fasta
+	/tmp/tmpR5UBVX.fasta
+	/tmp/tmpFW7Frn.fasta
+	/tmp/tmpANTlD0.fasta
+	/tmp/tmphw9fkR.fasta
+	/tmp/tmpKVjYVG.fasta
+	/tmp/tmp_hRZ0n.fasta
+	/tmp/tmpuMgMMn.fasta
+	/tmp/tmpLXmnsj.fasta
+	/tmp/tmphOZEH8.fasta
+
+Writing the results file...
+	/tmp/tmp5Gf19l.lastz
+	/tmp/tmpcH4OF8.lastz
+	/tmp/tmpOz_wNT.lastz
+	/tmp/tmpqu1bnS.lastz
+	/tmp/tmpK3uEI6.lastz
+	/tmp/tmpsL0rWp.lastz
+	/tmp/tmpB7zSIR.lastz
+	/tmp/tmpUEJa2E.lastz
+	/tmp/tmpWcSTMv.lastz
+	/tmp/tmpoml6bf.lastz
+	/tmp/tmpOIW5q6.lastz
+	/tmp/tmp3j8ymV.lastz
+	/tmp/tmp8ndTFB.lastz
+	/tmp/tmp23ay3B.lastz
+	/tmp/tmpzXtPFh.lastz
+	/tmp/tmpKE4DRw.lastz
+	/tmp/tmpiwu8SQ.lastz
+	/tmp/tmpiQG83f.lastz
+	/tmp/tmpkOqibA.lastz
+	/tmp/tmpL_bfP_.lastz
+	/tmp/tmp92Fzv5.lastz
+	/tmp/tmpyC9PAR.lastz
+	/tmp/tmpg9n4RV.lastz
+	/tmp/tmpsdFBxn.lastz
+	/tmp/tmpZ6N07Z.lastz
+	/tmp/tmpCmI5ti.lastz
+	/tmp/tmpqVCDxQ.lastz
+	/tmp/tmptP3K4t.lastz
+	/tmp/tmp2znC2f.lastz
+	/tmp/tmp_Aktb5.lastz
+	/tmp/tmpQg1TVi.lastz
+	/tmp/tmplYY7Ar.lastz
+	/tmp/tmpFzckp_.lastz
+	/tmp/tmpW4UKkk.lastz
+	/tmp/tmpzrU4zn.lastz
+	/tmp/tmpNQSc7g.lastz
+	/tmp/tmpYY2jW6.lastz
+	/tmp/tmp8R4qd5.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Branchiostoma_belcheri.lastz
+Creating Branchiostoma_belcheri table
+Inserting data to Branchiostoma_belcheri table
+
+Running against Ciona_intestinalis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 10 queries...
+	/tmp/tmp8zZL2v.fasta
+	/tmp/tmpMX_olC.fasta
+	/tmp/tmpB8b2H5.fasta
+	/tmp/tmpeUi789.fasta
+	/tmp/tmprAXSW8.fasta
+	/tmp/tmpImWgiF.fasta
+	/tmp/tmpyZtjxt.fasta
+	/tmp/tmpuoSCWY.fasta
+	/tmp/tmpI03L5B.fasta
+
+Writing the results file...
+	/tmp/tmpumuRVk.lastz
+	/tmp/tmpNgxMYI.lastz
+	/tmp/tmpO1op2L.lastz
+	/tmp/tmpSL8REo.lastz
+	/tmp/tmpzl2JHF.lastz
+	/tmp/tmplDPTqD.lastz
+	/tmp/tmpBk6YqJ.lastz
+	/tmp/tmpnZisZ3.lastz
+	/tmp/tmpZNxN03.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Ciona_intestinalis.lastz
+Creating Ciona_intestinalis table
+Inserting data to Ciona_intestinalis table
+
+Running against Styela_clava.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 16 queries...
+	/tmp/tmpqI60lv.fasta
+	/tmp/tmpSA2n50.fasta
+	/tmp/tmplHbb_U.fasta
+	/tmp/tmpPUAX2r.fasta
+	/tmp/tmpYabUik.fasta
+	/tmp/tmpRLs_b2.fasta
+	/tmp/tmpgiW81h.fasta
+	/tmp/tmpGvS0RC.fasta
+	/tmp/tmpsU5Bcc.fasta
+	/tmp/tmpDelM3t.fasta
+	/tmp/tmpxZhcPm.fasta
+	/tmp/tmp3FSBMk.fasta
+	/tmp/tmpC0uQYT.fasta
+	/tmp/tmpPdd8X5.fasta
+	/tmp/tmphXJ0lr.fasta
+
+Writing the results file...
+	/tmp/tmpiVzzBP.lastz
+	/tmp/tmpNai453.lastz
+	/tmp/tmpkBmjWM.lastz
+	/tmp/tmpqcFZzB.lastz
+	/tmp/tmp94vvDF.lastz
+	/tmp/tmpUreat8.lastz
+	/tmp/tmpKmOg7u.lastz
+	/tmp/tmpMtt_jj.lastz
+	/tmp/tmpmX3pSd.lastz
+	/tmp/tmp9q6vMF.lastz
+	/tmp/tmphNUrl0.lastz
+	/tmp/tmpdy4iYR.lastz
+	/tmp/tmpqzLpyx.lastz
+	/tmp/tmpCBjuks.lastz
+	/tmp/tmp3MuyY3.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Styela_clava.lastz
+Creating Styela_clava table
+Inserting data to Styela_clava table
+
+Running against Styela_plicata.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 18 queries...
+	/tmp/tmp1TbT2z.fasta
+	/tmp/tmp9ENrDJ.fasta
+	/tmp/tmpB4NJuj.fasta
+	/tmp/tmpbXTxLu.fasta
+	/tmp/tmpSSkcxY.fasta
+	/tmp/tmprHMF6y.fasta
+	/tmp/tmpc_rJP1.fasta
+	/tmp/tmpWKSuhJ.fasta
+	/tmp/tmp2UJ7gO.fasta
+	/tmp/tmp11x9LZ.fasta
+	/tmp/tmp2ZuwP9.fasta
+	/tmp/tmpSkqLEp.fasta
+	/tmp/tmp7PE3YR.fasta
+	/tmp/tmpmwNvYz.fasta
+	/tmp/tmpqKj2bS.fasta
+
+Writing the results file...
+	/tmp/tmpvvvj01.lastz
+	/tmp/tmpfxeKfj.lastz
+	/tmp/tmpkaA8UI.lastz
+	/tmp/tmpGZnOBQ.lastz
+	/tmp/tmprg8NoZ.lastz
+	/tmp/tmpLdP8KU.lastz
+	/tmp/tmpOIXgnu.lastz
+	/tmp/tmpuSMH3b.lastz
+	/tmp/tmpQ_pWK8.lastz
+	/tmp/tmpGUNJZA.lastz
+	/tmp/tmpsRUU54.lastz
+	/tmp/tmpTUPnf_.lastz
+	/tmp/tmpGSJqOJ.lastz
+	/tmp/tmpjKwf8f.lastz
+	/tmp/tmplNzKVb.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Styela_plicata.lastz
+Creating Styela_plicata table
+Inserting data to Styela_plicata table
+
+Running against Halocynthia_roretzi.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 12 queries...
+	/tmp/tmpn0RQnf.fasta
+	/tmp/tmpW5wyGg.fasta
+	/tmp/tmp3zL6fO.fasta
+	/tmp/tmpdN1BqM.fasta
+	/tmp/tmpihl8Up.fasta
+	/tmp/tmpXclshi.fasta
+	/tmp/tmpsWxKkx.fasta
+	/tmp/tmpaU1Sx0.fasta
+	/tmp/tmp9R2B2S.fasta
+	/tmp/tmpYFcrBo.fasta
+	/tmp/tmpJqw9wh.fasta
+	/tmp/tmpmG4qCW.fasta
+
+Writing the results file...
+	/tmp/tmpl8j87x.lastz
+	/tmp/tmp7T84Pl.lastz
+	/tmp/tmpVdmU9e.lastz
+	/tmp/tmpSpYdSV.lastz
+	/tmp/tmpmYClku.lastz
+	/tmp/tmpn2qL94.lastz
+	/tmp/tmpsfKyud.lastz
+	/tmp/tmpymTloz.lastz
+	/tmp/tmpEV2fjc.lastz
+	/tmp/tmpVORqUv.lastz
+	/tmp/tmpNviP4e.lastz
+	/tmp/tmpK6YMRY.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Halocynthia_roretzi.lastz
+Creating Halocynthia_roretzi table
+Inserting data to Halocynthia_roretzi table
+
+Running against Botryllus_schlosseri.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 17 queries...
+	/tmp/tmp8DOTSj.fasta
+	/tmp/tmpkLOcWk.fasta
+	/tmp/tmpZJ8wFZ.fasta
+	/tmp/tmpuQ_jdC.fasta
+	/tmp/tmpOlverv.fasta
+	/tmp/tmpSYa_Gi.fasta
+	/tmp/tmpwD3QyB.fasta
+	/tmp/tmpRW1G2g.fasta
+	/tmp/tmpXIADRZ.fasta
+	/tmp/tmp76TwkX.fasta
+	/tmp/tmpIFV7Qw.fasta
+	/tmp/tmpWTQWQY.fasta
+	/tmp/tmpWMSjOo.fasta
+	/tmp/tmp33iji8.fasta
+	/tmp/tmp2qzVyc.fasta
+
+Writing the results file...
+	/tmp/tmpF5ARJJ.lastz
+	/tmp/tmpwYq9Tj.lastz
+	/tmp/tmpxz2SN7.lastz
+	/tmp/tmpdOWT1r.lastz
+	/tmp/tmp77faKY.lastz
+	/tmp/tmpoGfQQW.lastz
+	/tmp/tmp5n42iL.lastz
+	/tmp/tmpMXKNuI.lastz
+	/tmp/tmpqaBqD1.lastz
+	/tmp/tmphSBaIH.lastz
+	/tmp/tmpf0GVLf.lastz
+	/tmp/tmpbmfpg4.lastz
+	/tmp/tmpTVoAJh.lastz
+	/tmp/tmpWY3siF.lastz
+	/tmp/tmp_WCqt3.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Botryllus_schlosseri.lastz
+Creating Botryllus_schlosseri table
+Inserting data to Botryllus_schlosseri table
+
+Running against Thalia_democratica.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 14 queries...
+	/tmp/tmp5UqfMs.fasta
+	/tmp/tmpS4etWG.fasta
+	/tmp/tmpF3bsSg.fasta
+	/tmp/tmpOH4ou7.fasta
+	/tmp/tmpqo2vXc.fasta
+	/tmp/tmpoOPpfJ.fasta
+	/tmp/tmpDmC6sz.fasta
+
+Writing the results file...
+	/tmp/tmpDAfv66.lastz
+	/tmp/tmpAnatjO.lastz
+	/tmp/tmp5yKoSE.lastz
+	/tmp/tmpInnj2l.lastz
+	/tmp/tmptSAdGb.lastz
+	/tmp/tmpvcY6Pp.lastz
+	/tmp/tmpmkJrCa.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Thalia_democratica.lastz
+Creating Thalia_democratica table
+Inserting data to Thalia_democratica table
+
+Running against Oikopleura_dioica.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 4 queries...
+	/tmp/tmpbyPBz2.fasta
+	/tmp/tmpHEXBxe.fasta
+	/tmp/tmpgTKV1T.fasta
+	/tmp/tmpeb0O7C.fasta
+
+Writing the results file...
+	/tmp/tmpACOSpJ.lastz
+	/tmp/tmpJ7QG83.lastz
+	/tmp/tmpxVfnm0.lastz
+	/tmp/tmpNI12WR.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Oikopleura_dioica.lastz
+Creating Oikopleura_dioica table
+Inserting data to Oikopleura_dioica table
+
+Running against Ascidia_mentula.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 10 queries...
+	/tmp/tmpQTzQG5.fasta
+	/tmp/tmpI3TGEA.fasta
+	/tmp/tmp7REbOC.fasta
+	/tmp/tmpn2XawO.fasta
+	/tmp/tmpvy8txH.fasta
+	/tmp/tmpNsLCMt.fasta
+	/tmp/tmpf9u4Ua.fasta
+	/tmp/tmpQsQQYN.fasta
+	/tmp/tmpxA_NxX.fasta
+
+Writing the results file...
+	/tmp/tmpjgj3cQ.lastz
+	/tmp/tmpWwNJyt.lastz
+	/tmp/tmpI5wfC7.lastz
+	/tmp/tmpOBNPSA.lastz
+	/tmp/tmpxJUwUM.lastz
+	/tmp/tmp8pjphZ.lastz
+	/tmp/tmp8Z6xx_.lastz
+	/tmp/tmp5TnRmT.lastz
+	/tmp/tmp5Xgv8K.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Ascidia_mentula.lastz
+Creating Ascidia_mentula table
+Inserting data to Ascidia_mentula table
+
+Running against Ciona_savignyi.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 13 queries...
+	/tmp/tmp0O_cWP.fasta
+	/tmp/tmpYLotPe.fasta
+	/tmp/tmpVHK4LW.fasta
+	/tmp/tmpZcl4Ul.fasta
+	/tmp/tmpnQ7Bbm.fasta
+	/tmp/tmpSA0wdV.fasta
+	/tmp/tmp75RoA5.fasta
+	/tmp/tmpI0KDIT.fasta
+	/tmp/tmphX7Z7t.fasta
+	/tmp/tmprzPTYJ.fasta
+	/tmp/tmp8zp1xn.fasta
+
+Writing the results file...
+	/tmp/tmprbWuw5.lastz
+	/tmp/tmpPzB4oi.lastz
+	/tmp/tmphgKFTb.lastz
+	/tmp/tmpE1hzgM.lastz
+	/tmp/tmpCHGSFC.lastz
+	/tmp/tmpAmdnVc.lastz
+	/tmp/tmp4eVVF5.lastz
+	/tmp/tmpkSECa2.lastz
+	/tmp/tmpLzDYHM.lastz
+	/tmp/tmpcWiR_p.lastz
+	/tmp/tmp4l5xCd.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Ciona_savignyi.lastz
+Creating Ciona_savignyi table
+Inserting data to Ciona_savignyi table
+
+Running against Phallusia_mammillata.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 9 queries...
+	/tmp/tmpQbetkC.fasta
+	/tmp/tmpu9e7A6.fasta
+	/tmp/tmpiu7RfS.fasta
+	/tmp/tmpK7T_F0.fasta
+	/tmp/tmpkrQfHb.fasta
+	/tmp/tmp9OPHal.fasta
+	/tmp/tmpPeinrK.fasta
+	/tmp/tmpHAR2bi.fasta
+
+Writing the results file...
+	/tmp/tmpi3RY9E.lastz
+	/tmp/tmpyTI_WV.lastz
+	/tmp/tmpFQFeYq.lastz
+	/tmp/tmp2YrV8M.lastz
+	/tmp/tmpNXZJeG.lastz
+	/tmp/tmpDNTqsF.lastz
+	/tmp/tmpJoAman.lastz
+	/tmp/tmpZdQyeg.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Phallusia_mammillata.lastz
+Creating Phallusia_mammillata table
+Inserting data to Phallusia_mammillata table
+
+Running against Botrylloides_diegensis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 15 queries...
+	/tmp/tmpkbPxxS.fasta
+	/tmp/tmpcimoIB.fasta
+	/tmp/tmpDNkUGF.fasta
+	/tmp/tmp2TQ46n.fasta
+	/tmp/tmpVCidV9.fasta
+	/tmp/tmpVH4oIE.fasta
+	/tmp/tmpXW4BxN.fasta
+	/tmp/tmpF7cQK7.fasta
+	/tmp/tmpQTHsVq.fasta
+	/tmp/tmpH6KUPI.fasta
+	/tmp/tmp3eiVr_.fasta
+	/tmp/tmpLZTAu8.fasta
+	/tmp/tmpgiGIlB.fasta
+
+Writing the results file...
+	/tmp/tmpbl_EcQ.lastz
+	/tmp/tmpicL65z.lastz
+	/tmp/tmpvYZ2HN.lastz
+	/tmp/tmprjYS5y.lastz
+	/tmp/tmpMhNYe1.lastz
+	/tmp/tmpfxqxrI.lastz
+	/tmp/tmpVb5AfK.lastz
+	/tmp/tmp0Bokcf.lastz
+	/tmp/tmpaA8tpR.lastz
+	/tmp/tmp4PdTry.lastz
+	/tmp/tmpGmKDNU.lastz
+	/tmp/tmpvhzTE4.lastz
+	/tmp/tmpWz4Of5.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Botrylloides_diegensis.lastz
+Creating Botrylloides_diegensis table
+Inserting data to Botrylloides_diegensis table
+
+Running against Boltenia_villosa.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 34 queries...
+	/tmp/tmpGqBhz2.fasta
+	/tmp/tmpbgAT4t.fasta
+	/tmp/tmpIWML2A.fasta
+	/tmp/tmpKlJ1Rp.fasta
+	/tmp/tmprSuTpH.fasta
+	/tmp/tmpVdsUhd.fasta
+	/tmp/tmpKUffvS.fasta
+	/tmp/tmpqpc3HF.fasta
+	/tmp/tmpFCQEzJ.fasta
+	/tmp/tmpgFDO63.fasta
+	/tmp/tmp34kLwy.fasta
+	/tmp/tmpJRs7h5.fasta
+	/tmp/tmpmaTmU9.fasta
+	/tmp/tmpNSdgz5.fasta
+	/tmp/tmpZdOEkp.fasta
+	/tmp/tmpQF9uPb.fasta
+	/tmp/tmpVIvscQ.fasta
+	/tmp/tmpXqYVCR.fasta
+	/tmp/tmp792t09.fasta
+	/tmp/tmpIaaCEs.fasta
+	/tmp/tmpJ5A5sP.fasta
+	/tmp/tmp4m8a4s.fasta
+	/tmp/tmplGoFTh.fasta
+	/tmp/tmp7f4jwK.fasta
+	/tmp/tmpNs3cnp.fasta
+	/tmp/tmpJz5PdF.fasta
+	/tmp/tmpEnwAN2.fasta
+
+Writing the results file...
+	/tmp/tmpnY4sNE.lastz
+	/tmp/tmpB1u352.lastz
+	/tmp/tmpjZcKvq.lastz
+	/tmp/tmp2C02i6.lastz
+	/tmp/tmpjhJVZ6.lastz
+	/tmp/tmp9CM5sU.lastz
+	/tmp/tmpGgv9WZ.lastz
+	/tmp/tmpcyJMUs.lastz
+	/tmp/tmpqFoIJ_.lastz
+	/tmp/tmpkftG7H.lastz
+	/tmp/tmpmCa0U4.lastz
+	/tmp/tmpEHsis2.lastz
+	/tmp/tmpiRRhT9.lastz
+	/tmp/tmpqgEmt2.lastz
+	/tmp/tmpzt0LIK.lastz
+	/tmp/tmpSAYI7E.lastz
+	/tmp/tmpJ2prMH.lastz
+	/tmp/tmpZ5_2QN.lastz
+	/tmp/tmpwb1pYV.lastz
+	/tmp/tmpcZrDft.lastz
+	/tmp/tmp_jrbQS.lastz
+	/tmp/tmpyUDkOn.lastz
+	/tmp/tmpACgF4U.lastz
+	/tmp/tmpgVE_Ez.lastz
+	/tmp/tmpqTWKTh.lastz
+	/tmp/tmpRJaGII.lastz
+	/tmp/tmpchMxHf.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Boltenia_villosa.lastz
+Creating Boltenia_villosa table
+Inserting data to Boltenia_villosa table
+
+Running against Oikopleura_longicauda.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 31 queries...
+	/tmp/tmpBGg0_4.fasta
+	/tmp/tmpyjBskj.fasta
+	/tmp/tmpsEebDM.fasta
+	/tmp/tmpcRZ4HV.fasta
+	/tmp/tmpiXIMwy.fasta
+	/tmp/tmpeY9j6I.fasta
+	/tmp/tmp5yD_ep.fasta
+	/tmp/tmpujdomN.fasta
+	/tmp/tmpFFPXPd.fasta
+	/tmp/tmpH4qlac.fasta
+	/tmp/tmpaAARR3.fasta
+	/tmp/tmpj9Aapt.fasta
+	/tmp/tmpY3FrIM.fasta
+	/tmp/tmpY5pIRW.fasta
+	/tmp/tmppX9awu.fasta
+	/tmp/tmpqaQhv5.fasta
+	/tmp/tmp2RghN2.fasta
+	/tmp/tmpeOPuU3.fasta
+	/tmp/tmp_h2gvN.fasta
+	/tmp/tmpQ0i46O.fasta
+	/tmp/tmpRTG2zi.fasta
+	/tmp/tmpLRyiLX.fasta
+
+Writing the results file...
+	/tmp/tmphoaa6f.lastz
+	/tmp/tmp8JRzFx.lastz
+	/tmp/tmpiGohfl.lastz
+	/tmp/tmpwsqtKW.lastz
+	/tmp/tmp8NzF44.lastz
+	/tmp/tmpsjWF42.lastz
+	/tmp/tmpx2cUad.lastz
+	/tmp/tmp5Imuzh.lastz
+	/tmp/tmpzDAm3R.lastz
+	/tmp/tmpMdEBS7.lastz
+	/tmp/tmplvURos.lastz
+	/tmp/tmpKvZLsN.lastz
+	/tmp/tmphV0_q3.lastz
+	/tmp/tmplT36na.lastz
+	/tmp/tmpSymqXA.lastz
+	/tmp/tmpwpZDiD.lastz
+	/tmp/tmpQYSTR3.lastz
+	/tmp/tmpwLLJxh.lastz
+	/tmp/tmpTxf7Pe.lastz
+	/tmp/tmpollxL2.lastz
+	/tmp/tmp9c0v_O.lastz
+	/tmp/tmp3Co6GC.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Oikopleura_longicauda.lastz
+Creating Oikopleura_longicauda table
+Inserting data to Oikopleura_longicauda table
+
+Running against Diplosoma_listerianum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 16 queries...
+	/tmp/tmpgXum18.fasta
+	/tmp/tmpTNRQCk.fasta
+	/tmp/tmpRZD1bn.fasta
+	/tmp/tmp9kAsUw.fasta
+	/tmp/tmpCPlSgm.fasta
+	/tmp/tmpCKSJSE.fasta
+	/tmp/tmpi5OGhE.fasta
+	/tmp/tmpmKarWu.fasta
+	/tmp/tmpcTZYLn.fasta
+	/tmp/tmpEtS8pe.fasta
+	/tmp/tmpJw9tCM.fasta
+	/tmp/tmp3tfy8s.fasta
+	/tmp/tmpCQKdll.fasta
+	/tmp/tmpeNwx0_.fasta
+
+Writing the results file...
+	/tmp/tmptit3Mc.lastz
+	/tmp/tmpWZfCyw.lastz
+	/tmp/tmpI95GqR.lastz
+	/tmp/tmpV7higt.lastz
+	/tmp/tmp5Uf7OA.lastz
+	/tmp/tmpe1FjUV.lastz
+	/tmp/tmpQoyekt.lastz
+	/tmp/tmp6XNknC.lastz
+	/tmp/tmptGactE.lastz
+	/tmp/tmpexHO_1.lastz
+	/tmp/tmptRDuqd.lastz
+	/tmp/tmp4joA9q.lastz
+	/tmp/tmpdqeRBn.lastz
+	/tmp/tmpxn4u9D.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Diplosoma_listerianum.lastz
+Creating Diplosoma_listerianum table
+Inserting data to Diplosoma_listerianum table
+
+Running against Clavelina_lepadiformis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 10 queries...
+	/tmp/tmpWB70uA.fasta
+	/tmp/tmpOmfKig.fasta
+	/tmp/tmpaJTtP_.fasta
+	/tmp/tmpT2R_20.fasta
+	/tmp/tmp2Mf_vf.fasta
+	/tmp/tmpXfB1_n.fasta
+	/tmp/tmpo167Fd.fasta
+	/tmp/tmp_xoEu4.fasta
+	/tmp/tmps7rhas.fasta
+
+Writing the results file...
+	/tmp/tmp0pgRVv.lastz
+	/tmp/tmpwXTak_.lastz
+	/tmp/tmpkxJvXF.lastz
+	/tmp/tmpQsYVJM.lastz
+	/tmp/tmpPwB80T.lastz
+	/tmp/tmp0gh1b1.lastz
+	/tmp/tmp2jxPoP.lastz
+	/tmp/tmpFhMlKn.lastz
+	/tmp/tmp2vFt70.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Clavelina_lepadiformis.lastz
+Creating Clavelina_lepadiformis table
+Inserting data to Clavelina_lepadiformis table
+
+Running against Halocynthia_papillosa.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 9 queries...
+	/tmp/tmpEyBTro.fasta
+	/tmp/tmpVr2iN_.fasta
+	/tmp/tmpP4eIFM.fasta
+	/tmp/tmp1nlaNO.fasta
+	/tmp/tmpRtQJjd.fasta
+	/tmp/tmpFJeMTU.fasta
+	/tmp/tmpeGII_R.fasta
+	/tmp/tmpxdwN3t.fasta
+
+Writing the results file...
+	/tmp/tmphtZFdi.lastz
+	/tmp/tmpPu9vaQ.lastz
+	/tmp/tmphVj1Wr.lastz
+	/tmp/tmpBmhgtG.lastz
+	/tmp/tmpuoE1yQ.lastz
+	/tmp/tmpUi7ygX.lastz
+	/tmp/tmpIGobQw.lastz
+	/tmp/tmpwlCOAD.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Halocynthia_papillosa.lastz
+Creating Halocynthia_papillosa table
+Inserting data to Halocynthia_papillosa table
+
+Running against Ascidiella_aspersa.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 10 queries...
+	/tmp/tmpr9n8T7.fasta
+	/tmp/tmpNvIWhk.fasta
+	/tmp/tmpanZ6vM.fasta
+	/tmp/tmpOtIGSL.fasta
+	/tmp/tmpzZg05F.fasta
+	/tmp/tmp1Q4JeB.fasta
+	/tmp/tmpsILr5n.fasta
+	/tmp/tmpj7CrF7.fasta
+	/tmp/tmpy_6wgW.fasta
+
+Writing the results file...
+	/tmp/tmpTtCw4K.lastz
+	/tmp/tmpUX56a9.lastz
+	/tmp/tmpaE2qlU.lastz
+	/tmp/tmpzN6Ip6.lastz
+	/tmp/tmpuKAeww.lastz
+	/tmp/tmpRK2dwx.lastz
+	/tmp/tmprxzJwC.lastz
+	/tmp/tmpBZKv3J.lastz
+	/tmp/tmpfJFBy0.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Ascidiella_aspersa.lastz
+Creating Ascidiella_aspersa table
+Inserting data to Ascidiella_aspersa table
+
+Running against Halocynthia_aurantium.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 13 queries...
+	/tmp/tmpnszfaV.fasta
+	/tmp/tmpV6n2Qf.fasta
+	/tmp/tmptuaA66.fasta
+	/tmp/tmpaoK8hz.fasta
+	/tmp/tmp2GrN4q.fasta
+	/tmp/tmpu2h54K.fasta
+	/tmp/tmp4FISF2.fasta
+	/tmp/tmpN_txCv.fasta
+	/tmp/tmpCoqWI7.fasta
+	/tmp/tmpaezSJO.fasta
+	/tmp/tmpmX_fEH.fasta
+	/tmp/tmpH8B9If.fasta
+
+Writing the results file...
+	/tmp/tmpxd2RT8.lastz
+	/tmp/tmpO74B5f.lastz
+	/tmp/tmpkZVgM0.lastz
+	/tmp/tmpTs1iXT.lastz
+	/tmp/tmpM88g5d.lastz
+	/tmp/tmpSAEokW.lastz
+	/tmp/tmpGo2mKA.lastz
+	/tmp/tmpJnlwQg.lastz
+	/tmp/tmp_dcmgO.lastz
+	/tmp/tmph1mHLn.lastz
+	/tmp/tmpZK7vk8.lastz
+	/tmp/tmpOVRqSA.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Halocynthia_aurantium.lastz
+Creating Halocynthia_aurantium table
+Inserting data to Halocynthia_aurantium table
+
+Running against Aplidium_elegans.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 20 queries...
+	/tmp/tmpZSTsgE.fasta
+	/tmp/tmpUTgZZq.fasta
+	/tmp/tmpwn1P3B.fasta
+	/tmp/tmpi6mer2.fasta
+	/tmp/tmpEN6x5Q.fasta
+	/tmp/tmpB0BP9x.fasta
+	/tmp/tmpkyVoOH.fasta
+	/tmp/tmp6Uz5xQ.fasta
+	/tmp/tmplSpzTX.fasta
+	/tmp/tmppTjTw2.fasta
+	/tmp/tmpAqEiPI.fasta
+	/tmp/tmpyjbQ9u.fasta
+	/tmp/tmpopasBB.fasta
+	/tmp/tmp5WkuXK.fasta
+	/tmp/tmprwYd9e.fasta
+	/tmp/tmp3n4a_d.fasta
+	/tmp/tmpGmY2BM.fasta
+	/tmp/tmpUbLt_e.fasta
+
+Writing the results file...
+	/tmp/tmpEV1XEe.lastz
+	/tmp/tmp2F1jwy.lastz
+	/tmp/tmpF9U6Pz.lastz
+	/tmp/tmpXwWm2i.lastz
+	/tmp/tmp09rOxJ.lastz
+	/tmp/tmpoceBk1.lastz
+	/tmp/tmpJgimAA.lastz
+	/tmp/tmpGzFFQ4.lastz
+	/tmp/tmpPrzfBO.lastz
+	/tmp/tmpBWh0xA.lastz
+	/tmp/tmpZTBqGQ.lastz
+	/tmp/tmp2hJ2QJ.lastz
+	/tmp/tmpYjQ1r9.lastz
+	/tmp/tmpjoPUQd.lastz
+	/tmp/tmpahqxpK.lastz
+	/tmp/tmp24Bbzf.lastz
+	/tmp/tmpamRre6.lastz
+	/tmp/tmpoGAMrc.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Aplidium_elegans.lastz
+Creating Aplidium_elegans table
+Inserting data to Aplidium_elegans table
+
+Running against Diplosoma_spongiforme.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 17 queries...
+	/tmp/tmpCI555Z.fasta
+	/tmp/tmpwUy9Ry.fasta
+	/tmp/tmpcD_1Iw.fasta
+	/tmp/tmp2dm6aq.fasta
+	/tmp/tmpwYrRdx.fasta
+	/tmp/tmp45Y79U.fasta
+	/tmp/tmprPKVMz.fasta
+	/tmp/tmpCyX9Dp.fasta
+	/tmp/tmpCS77gN.fasta
+	/tmp/tmp_ss7eJ.fasta
+	/tmp/tmpMsoP9A.fasta
+	/tmp/tmp3iyIcx.fasta
+	/tmp/tmpfzdmrR.fasta
+	/tmp/tmpcvzNW4.fasta
+	/tmp/tmpO4wH7M.fasta
+	/tmp/tmpZsNoEO.fasta
+
+Writing the results file...
+	/tmp/tmpyyhrxW.lastz
+	/tmp/tmpYahprV.lastz
+	/tmp/tmpNXu8UD.lastz
+	/tmp/tmpIp2kZn.lastz
+	/tmp/tmpNqFs9g.lastz
+	/tmp/tmplMoY23.lastz
+	/tmp/tmp5FZ13a.lastz
+	/tmp/tmpfYrzw6.lastz
+	/tmp/tmppa1qVq.lastz
+	/tmp/tmpZjjBHt.lastz
+	/tmp/tmpYRlRnU.lastz
+	/tmp/tmpSM05X4.lastz
+	/tmp/tmpNOHwDC.lastz
+	/tmp/tmpu1dGUa.lastz
+	/tmp/tmplbY_EO.lastz
+	/tmp/tmpNUcYAc.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Diplosoma_spongiforme.lastz
+Creating Diplosoma_spongiforme table
+Inserting data to Diplosoma_spongiforme table
+
+Running against Diplosoma_virens.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 20 queries...
+	/tmp/tmppidwhl.fasta
+	/tmp/tmpcyeGet.fasta
+	/tmp/tmpji8FOK.fasta
+	/tmp/tmph76P9t.fasta
+	/tmp/tmp9sD3Fz.fasta
+	/tmp/tmpA9MEQM.fasta
+	/tmp/tmpzTVnFC.fasta
+	/tmp/tmpTS68Hm.fasta
+	/tmp/tmpAKeUYb.fasta
+	/tmp/tmpwf6NDM.fasta
+	/tmp/tmp81LWMc.fasta
+	/tmp/tmpS_2f6P.fasta
+	/tmp/tmpqh5pYB.fasta
+	/tmp/tmpVHOKAv.fasta
+	/tmp/tmpppx9ZA.fasta
+
+Writing the results file...
+	/tmp/tmp9fSrVv.lastz
+	/tmp/tmpENkb2N.lastz
+	/tmp/tmpa_vOyE.lastz
+	/tmp/tmpk0Pbx4.lastz
+	/tmp/tmpyjSbd2.lastz
+	/tmp/tmpdYne9o.lastz
+	/tmp/tmpkmhU3k.lastz
+	/tmp/tmpBKIPk2.lastz
+	/tmp/tmptEq3cw.lastz
+	/tmp/tmpFfB_J1.lastz
+	/tmp/tmpyTS5eb.lastz
+	/tmp/tmpg36Ueg.lastz
+	/tmp/tmpXpIsJr.lastz
+	/tmp/tmpaV9yZ3.lastz
+	/tmp/tmpk7zos_.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Diplosoma_virens.lastz
+Creating Diplosoma_virens table
+Inserting data to Diplosoma_virens table
+
+Running against Corella_eumyota.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 8 queries...
+	/tmp/tmp9Qcnbk.fasta
+	/tmp/tmpCfXUIH.fasta
+	/tmp/tmpsICUOs.fasta
+	/tmp/tmpsAz4Lq.fasta
+	/tmp/tmpaTXT0n.fasta
+	/tmp/tmpvW6LCj.fasta
+	/tmp/tmpqD55Kn.fasta
+
+Writing the results file...
+	/tmp/tmpF_ocxp.lastz
+	/tmp/tmpGwD_sS.lastz
+	/tmp/tmpqx8IZo.lastz
+	/tmp/tmpJVNrxy.lastz
+	/tmp/tmpO2YTwU.lastz
+	/tmp/tmpEJjoUV.lastz
+	/tmp/tmpIoUGJb.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Corella_eumyota.lastz
+Creating Corella_eumyota table
+Inserting data to Corella_eumyota table
+
+Running against Didemnum_molle.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 86 queries...
+	/tmp/tmpVmCiJg.fasta
+	/tmp/tmpgKcgsU.fasta
+	/tmp/tmpk7mBMY.fasta
+	/tmp/tmpBNSlIZ.fasta
+	/tmp/tmp3g8SYK.fasta
+	/tmp/tmpNF3yk6.fasta
+	/tmp/tmpQmhmUZ.fasta
+	/tmp/tmpxvthgT.fasta
+	/tmp/tmpoT2cQt.fasta
+	/tmp/tmpcGvK5b.fasta
+	/tmp/tmphiOfec.fasta
+	/tmp/tmpNPdBXt.fasta
+	/tmp/tmp6FAmsd.fasta
+	/tmp/tmpIzUZsq.fasta
+	/tmp/tmpBJ0f1O.fasta
+	/tmp/tmp7V9GzE.fasta
+	/tmp/tmpPz9Nhq.fasta
+	/tmp/tmpThCnwR.fasta
+	/tmp/tmp1QTS58.fasta
+	/tmp/tmpd_k395.fasta
+	/tmp/tmpButD1b.fasta
+	/tmp/tmpLLt0yU.fasta
+	/tmp/tmpDfoN_S.fasta
+	/tmp/tmpq532wq.fasta
+	/tmp/tmpUHsIbf.fasta
+	/tmp/tmpZjUrtk.fasta
+	/tmp/tmpoaqdFW.fasta
+	/tmp/tmpsq_HS2.fasta
+
+Writing the results file...
+	/tmp/tmppwqrYa.lastz
+	/tmp/tmpZja8mw.lastz
+	/tmp/tmpmLCqNA.lastz
+	/tmp/tmp_OSa5Z.lastz
+	/tmp/tmpSsdnyG.lastz
+	/tmp/tmpgRwGTg.lastz
+	/tmp/tmpgjmvDh.lastz
+	/tmp/tmp6z_nMf.lastz
+	/tmp/tmpX0ugr0.lastz
+	/tmp/tmpxEeQA9.lastz
+	/tmp/tmpfLVBPn.lastz
+	/tmp/tmpZVT8nF.lastz
+	/tmp/tmpnW960m.lastz
+	/tmp/tmp6MwV9f.lastz
+	/tmp/tmpRktLhN.lastz
+	/tmp/tmpEqPlG5.lastz
+	/tmp/tmpYB4WL0.lastz
+	/tmp/tmp7Xt7FN.lastz
+	/tmp/tmp18KisC.lastz
+	/tmp/tmptzpBTF.lastz
+	/tmp/tmpG8TdRT.lastz
+	/tmp/tmpb3Rtoy.lastz
+	/tmp/tmpF4fVFY.lastz
+	/tmp/tmp3Y0n62.lastz
+	/tmp/tmpQSctUW.lastz
+	/tmp/tmpTfWwKl.lastz
+	/tmp/tmpIA1HWk.lastz
+	/tmp/tmpLvTJo0.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Didemnum_molle.lastz
+Creating Didemnum_molle table
+Inserting data to Didemnum_molle table
+
+Running against Pycnoclavella_producta.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 12 queries...
+	/tmp/tmpkbSsIC.fasta
+	/tmp/tmpi8COFR.fasta
+	/tmp/tmpfYjxEd.fasta
+	/tmp/tmpqOiZWu.fasta
+	/tmp/tmpTUuezw.fasta
+	/tmp/tmps0IAUM.fasta
+	/tmp/tmp2U46RG.fasta
+	/tmp/tmp5l6CEX.fasta
+	/tmp/tmppJiYCg.fasta
+	/tmp/tmp3sZtW1.fasta
+	/tmp/tmpoxHrn4.fasta
+
+Writing the results file...
+	/tmp/tmpKb474S.lastz
+	/tmp/tmpJwwuP4.lastz
+	/tmp/tmps2fXEs.lastz
+	/tmp/tmpM52M4K.lastz
+	/tmp/tmp37B3r5.lastz
+	/tmp/tmpMkdSrA.lastz
+	/tmp/tmp6A_9OC.lastz
+	/tmp/tmp1egoaD.lastz
+	/tmp/tmpdYwdRu.lastz
+	/tmp/tmppTvFpo.lastz
+	/tmp/tmpO41Z5R.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Pycnoclavella_producta.lastz
+Creating Pycnoclavella_producta table
+Inserting data to Pycnoclavella_producta table
+
+Running against Phallusia_fumigata.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 8 queries...
+	/tmp/tmpxDGzg3.fasta
+	/tmp/tmpXJo5eV.fasta
+	/tmp/tmp7qqFqu.fasta
+	/tmp/tmpxybd2A.fasta
+	/tmp/tmpHBzeYa.fasta
+	/tmp/tmpEC76DF.fasta
+	/tmp/tmpVHU13e.fasta
+	/tmp/tmpjYj03p.fasta
+
+Writing the results file...
+	/tmp/tmpwSN4EG.lastz
+	/tmp/tmpYPIIzN.lastz
+	/tmp/tmpUsiQ0x.lastz
+	/tmp/tmp8QGZHf.lastz
+	/tmp/tmpxjyNod.lastz
+	/tmp/tmpayELzl.lastz
+	/tmp/tmpPP12Uc.lastz
+	/tmp/tmpzy_zJM.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Phallusia_fumigata.lastz
+Creating Phallusia_fumigata table
+Inserting data to Phallusia_fumigata table
+
+Running against Microcosmus_squamiger.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 11 queries...
+	/tmp/tmpVZS1uo.fasta
+	/tmp/tmpHuATf8.fasta
+	/tmp/tmpOxyImp.fasta
+	/tmp/tmpFUZwMr.fasta
+	/tmp/tmpliNf3k.fasta
+	/tmp/tmprUORE0.fasta
+	/tmp/tmp8uQOv4.fasta
+	/tmp/tmpIqVJZo.fasta
+	/tmp/tmpSHBFJq.fasta
+	/tmp/tmpEhOHSp.fasta
+
+Writing the results file...
+	/tmp/tmpwICIIv.lastz
+	/tmp/tmp7bibyz.lastz
+	/tmp/tmpQOp1u3.lastz
+	/tmp/tmpVW4lKz.lastz
+	/tmp/tmpVJNnkG.lastz
+	/tmp/tmpZFhvVG.lastz
+	/tmp/tmpIMgH7R.lastz
+	/tmp/tmp_ohUwF.lastz
+	/tmp/tmpVEUZ2s.lastz
+	/tmp/tmpV20Aaz.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Microcosmus_squamiger.lastz
+Creating Microcosmus_squamiger table
+Inserting data to Microcosmus_squamiger table
+
+Running against Microcosmus_polymorphus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 13 queries...
+	/tmp/tmpQoqIoG.fasta
+	/tmp/tmp7axEt2.fasta
+	/tmp/tmpdBW50o.fasta
+	/tmp/tmpYl0WWR.fasta
+	/tmp/tmp_0PtWl.fasta
+	/tmp/tmpCT9h6V.fasta
+	/tmp/tmpEDkrXS.fasta
+	/tmp/tmpLNqQsG.fasta
+	/tmp/tmprZz8sW.fasta
+	/tmp/tmpMTDugZ.fasta
+	/tmp/tmpY4dkdC.fasta
+	/tmp/tmp8m1WtO.fasta
+
+Writing the results file...
+	/tmp/tmpKe6clb.lastz
+	/tmp/tmpwtN3cL.lastz
+	/tmp/tmpSDf4w_.lastz
+	/tmp/tmp9njkrD.lastz
+	/tmp/tmph1Cjzu.lastz
+	/tmp/tmpDsTmdK.lastz
+	/tmp/tmplXYpqS.lastz
+	/tmp/tmpb83PHu.lastz
+	/tmp/tmppW9YOJ.lastz
+	/tmp/tmpwj9kdu.lastz
+	/tmp/tmpv8R5iN.lastz
+	/tmp/tmpHGQff_.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Microcosmus_polymorphus.lastz
+Creating Microcosmus_polymorphus table
+Inserting data to Microcosmus_polymorphus table
+
+Running against Didemnum_vexillum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 20 queries...
+	/tmp/tmpnctNEd.fasta
+	/tmp/tmpeISlmJ.fasta
+	/tmp/tmpnppsCC.fasta
+	/tmp/tmplKO5qy.fasta
+	/tmp/tmpBXy5_5.fasta
+	/tmp/tmpegokOz.fasta
+	/tmp/tmpC6PbQH.fasta
+	/tmp/tmp4o5Z89.fasta
+	/tmp/tmp6rfoCm.fasta
+	/tmp/tmpCTX37B.fasta
+	/tmp/tmpyHCcy6.fasta
+	/tmp/tmp9WNHQx.fasta
+	/tmp/tmpKzFG5O.fasta
+	/tmp/tmpIytWHO.fasta
+	/tmp/tmp2ATWsY.fasta
+	/tmp/tmpckShCz.fasta
+	/tmp/tmpvkIm5u.fasta
+
+Writing the results file...
+	/tmp/tmp7iCvxf.lastz
+	/tmp/tmpzgk5JI.lastz
+	/tmp/tmppqCxFQ.lastz
+	/tmp/tmpqfefdh.lastz
+	/tmp/tmpQl1Qw3.lastz
+	/tmp/tmpA1Jzxi.lastz
+	/tmp/tmpc8NNAX.lastz
+	/tmp/tmpqcii4K.lastz
+	/tmp/tmpQlCmao.lastz
+	/tmp/tmpL1bONC.lastz
+	/tmp/tmpEJmfIF.lastz
+	/tmp/tmp58_KRh.lastz
+	/tmp/tmpqNQrcf.lastz
+	/tmp/tmp6QWGtF.lastz
+	/tmp/tmpfhZCM3.lastz
+	/tmp/tmploSNJC.lastz
+	/tmp/tmpmGxcN7.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Didemnum_vexillum.lastz
+Creating Didemnum_vexillum table
+Inserting data to Didemnum_vexillum table
+
+Running against Trididemnum_clinides.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 24 queries...
+	/tmp/tmpT0j91N.fasta
+	/tmp/tmpix8sVN.fasta
+	/tmp/tmpwxhnD6.fasta
+	/tmp/tmpZW10rG.fasta
+	/tmp/tmpOzwt3Q.fasta
+	/tmp/tmpjQwAHi.fasta
+	/tmp/tmpmKt_pl.fasta
+	/tmp/tmp4xfrjo.fasta
+	/tmp/tmpDO94x3.fasta
+	/tmp/tmp_CB8d0.fasta
+	/tmp/tmp41sfOT.fasta
+	/tmp/tmpIdnrNT.fasta
+	/tmp/tmplH8AgK.fasta
+	/tmp/tmpnptxac.fasta
+	/tmp/tmp6aj9vv.fasta
+	/tmp/tmppw50M0.fasta
+	/tmp/tmpcfTCYE.fasta
+	/tmp/tmpZzA6ez.fasta
+	/tmp/tmpi4LN_O.fasta
+	/tmp/tmp1PkDt6.fasta
+
+Writing the results file...
+	/tmp/tmp_WjRNq.lastz
+	/tmp/tmp7Nc7RR.lastz
+	/tmp/tmpP6CGQq.lastz
+	/tmp/tmpXczuke.lastz
+	/tmp/tmpirA6_a.lastz
+	/tmp/tmpzGvhtU.lastz
+	/tmp/tmpfjm9Ml.lastz
+	/tmp/tmp0kyR2z.lastz
+	/tmp/tmpSuZifK.lastz
+	/tmp/tmpt6qyae.lastz
+	/tmp/tmpb02vrt.lastz
+	/tmp/tmps1ttH2.lastz
+	/tmp/tmpbFzPpw.lastz
+	/tmp/tmpnVNzDY.lastz
+	/tmp/tmph7TDqx.lastz
+	/tmp/tmpwf46t9.lastz
+	/tmp/tmp4fsrCt.lastz
+	/tmp/tmpMEyoSS.lastz
+	/tmp/tmpHlojDO.lastz
+	/tmp/tmpSgcLiX.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Trididemnum_clinides.lastz
+Creating Trididemnum_clinides table
+Inserting data to Trididemnum_clinides table
+
+Running against Salpa_thompsoni.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 74 queries...
+	/tmp/tmp95xjLe.fasta
+	/tmp/tmpnabfZZ.fasta
+	/tmp/tmpXKN7xN.fasta
+	/tmp/tmpp_11FC.fasta
+	/tmp/tmp56sRPK.fasta
+	/tmp/tmpsZIDVI.fasta
+	/tmp/tmpg8aevy.fasta
+	/tmp/tmpjxI1e8.fasta
+	/tmp/tmpgA_aIT.fasta
+	/tmp/tmpPcD5_S.fasta
+	/tmp/tmpKDRdxS.fasta
+	/tmp/tmptObtSi.fasta
+	/tmp/tmpLIY_fr.fasta
+	/tmp/tmpq9gTV_.fasta
+	/tmp/tmpDsQ2QB.fasta
+	/tmp/tmpv3o_PB.fasta
+	/tmp/tmpN0QXzv.fasta
+	/tmp/tmpZCiYjb.fasta
+	/tmp/tmpFq90tm.fasta
+	/tmp/tmpY8Ih8e.fasta
+	/tmp/tmpRVxLlV.fasta
+	/tmp/tmppfuG4m.fasta
+	/tmp/tmpV9yYCZ.fasta
+	/tmp/tmphML4_V.fasta
+	/tmp/tmpuy9c9M.fasta
+	/tmp/tmpMMyomi.fasta
+	/tmp/tmp1_3Lni.fasta
+	/tmp/tmpdiePOV.fasta
+	/tmp/tmp5oEdmA.fasta
+	/tmp/tmpJ5Pnz9.fasta
+
+Writing the results file...
+	/tmp/tmpi_9HYA.lastz
+	/tmp/tmpEBYG_E.lastz
+	/tmp/tmpQnKx8h.lastz
+	/tmp/tmpTv4y5t.lastz
+	/tmp/tmpuXQ8sr.lastz
+	/tmp/tmpmPH33q.lastz
+	/tmp/tmpZ2uSXJ.lastz
+	/tmp/tmpLyJ2jt.lastz
+	/tmp/tmpjp9SxH.lastz
+	/tmp/tmp0xfg9d.lastz
+	/tmp/tmpiFt6sq.lastz
+	/tmp/tmpTxF6fr.lastz
+	/tmp/tmpQXk_mo.lastz
+	/tmp/tmpRxzvje.lastz
+	/tmp/tmpNbSaCJ.lastz
+	/tmp/tmp1Vom0F.lastz
+	/tmp/tmpJb4Up2.lastz
+	/tmp/tmpJnsJYX.lastz
+	/tmp/tmpUj7mkM.lastz
+	/tmp/tmp2UXMnZ.lastz
+	/tmp/tmprRN8ZJ.lastz
+	/tmp/tmpIakI_h.lastz
+	/tmp/tmpQxMTC3.lastz
+	/tmp/tmpkwoMxt.lastz
+	/tmp/tmpNAQ7Qy.lastz
+	/tmp/tmpQjmK2O.lastz
+	/tmp/tmp_lqrwB.lastz
+	/tmp/tmpK1S_oH.lastz
+	/tmp/tmpGyP0zT.lastz
+	/tmp/tmpFB4Ub2.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Salpa_thompsoni.lastz
+Creating Salpa_thompsoni table
+Inserting data to Salpa_thompsoni table
+
+Running against Botrylloides_violaceus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 10 queries...
+	/tmp/tmpArZ_EG.fasta
+	/tmp/tmpVjRJvC.fasta
+	/tmp/tmpGZSLnA.fasta
+	/tmp/tmp1ddkQF.fasta
+	/tmp/tmpNI5XbX.fasta
+	/tmp/tmp_G2MFM.fasta
+	/tmp/tmpVtUl8W.fasta
+	/tmp/tmp7l4fkG.fasta
+	/tmp/tmpvEZ32A.fasta
+
+Writing the results file...
+	/tmp/tmp3XWxQh.lastz
+	/tmp/tmpVvVY8W.lastz
+	/tmp/tmpIBio9y.lastz
+	/tmp/tmpeGleZn.lastz
+	/tmp/tmp1GkRQh.lastz
+	/tmp/tmpx8QE8z.lastz
+	/tmp/tmpBg7lqC.lastz
+	/tmp/tmpj_ivUK.lastz
+	/tmp/tmp5c_s9E.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Botrylloides_violaceus.lastz
+Creating Botrylloides_violaceus table
+Inserting data to Botrylloides_violaceus table
+
+Running against Asterocarpa_humilis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 17 queries...
+	/tmp/tmp3MVBca.fasta
+	/tmp/tmpRz_W0V.fasta
+	/tmp/tmputP93X.fasta
+	/tmp/tmp8TzeX3.fasta
+	/tmp/tmp6VflEF.fasta
+	/tmp/tmpTYuz4w.fasta
+	/tmp/tmp8wb0SB.fasta
+	/tmp/tmpgGLzPh.fasta
+	/tmp/tmp1qry2_.fasta
+	/tmp/tmp8ns44v.fasta
+	/tmp/tmpnkgHDu.fasta
+	/tmp/tmpYwsQmA.fasta
+	/tmp/tmpCKN49u.fasta
+	/tmp/tmp90LSDy.fasta
+	/tmp/tmpTbOtcE.fasta
+
+Writing the results file...
+	/tmp/tmpp2MubQ.lastz
+	/tmp/tmpAudq0c.lastz
+	/tmp/tmpwXr0h_.lastz
+	/tmp/tmplA6Vik.lastz
+	/tmp/tmpOH4Hk0.lastz
+	/tmp/tmpFWZws1.lastz
+	/tmp/tmpls3NUr.lastz
+	/tmp/tmp7oB4Id.lastz
+	/tmp/tmpA3Dyze.lastz
+	/tmp/tmpjtY0Or.lastz
+	/tmp/tmpMBMWZH.lastz
+	/tmp/tmpRWDvaA.lastz
+	/tmp/tmpTP2geI.lastz
+	/tmp/tmpyFnMfm.lastz
+	/tmp/tmpALMDXQ.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Asterocarpa_humilis.lastz
+Creating Asterocarpa_humilis table
+Inserting data to Asterocarpa_humilis table
+
+Running against Trididemnum_nubilum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 23 queries...
+	/tmp/tmpZpIpBm.fasta
+	/tmp/tmppSACZb.fasta
+	/tmp/tmpjMj4Nl.fasta
+	/tmp/tmp8hZ91A.fasta
+	/tmp/tmpLiYOS1.fasta
+	/tmp/tmp3BoZkn.fasta
+	/tmp/tmpMW1Wuj.fasta
+	/tmp/tmpz8jW8m.fasta
+	/tmp/tmpYZQVP0.fasta
+	/tmp/tmpS6Xzca.fasta
+	/tmp/tmpxUIWHc.fasta
+	/tmp/tmp1qjJCi.fasta
+	/tmp/tmpTrDFxH.fasta
+	/tmp/tmpH6Mm_7.fasta
+	/tmp/tmpMdzkoi.fasta
+	/tmp/tmpU9KkBh.fasta
+	/tmp/tmpiOI6Dw.fasta
+	/tmp/tmpMGlniV.fasta
+	/tmp/tmpR6TzSx.fasta
+	/tmp/tmpJuc85R.fasta
+	/tmp/tmpdNq1Di.fasta
+
+Writing the results file...
+	/tmp/tmpWF0gjG.lastz
+	/tmp/tmpGJNFVc.lastz
+	/tmp/tmpxGjX9f.lastz
+	/tmp/tmp9gzt1W.lastz
+	/tmp/tmpbabXDl.lastz
+	/tmp/tmp03GYaC.lastz
+	/tmp/tmpamuV6U.lastz
+	/tmp/tmp2E7Bt3.lastz
+	/tmp/tmpD6ujVL.lastz
+	/tmp/tmpyEYQft.lastz
+	/tmp/tmpRRJ2o6.lastz
+	/tmp/tmpOQ8UOh.lastz
+	/tmp/tmp6WVDVs.lastz
+	/tmp/tmphoRcVF.lastz
+	/tmp/tmp9p0e95.lastz
+	/tmp/tmpb2eNyO.lastz
+	/tmp/tmpsR4gp1.lastz
+	/tmp/tmpL7BCvF.lastz
+	/tmp/tmpa3wXhk.lastz
+	/tmp/tmpUNjyuL.lastz
+	/tmp/tmplJwpXe.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Trididemnum_nubilum.lastz
+Creating Trididemnum_nubilum table
+Inserting data to Trididemnum_nubilum table
+
+Running against Trididemnum_miniatum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 23 queries...
+	/tmp/tmpHMJ_K0.fasta
+	/tmp/tmpGkFjCo.fasta
+	/tmp/tmp9ZC9pN.fasta
+	/tmp/tmpny0jDl.fasta
+	/tmp/tmp0UOuW1.fasta
+	/tmp/tmp0RGGY0.fasta
+	/tmp/tmpGsxRPW.fasta
+	/tmp/tmpg8j41V.fasta
+	/tmp/tmpv1k7Dn.fasta
+	/tmp/tmpKgr497.fasta
+	/tmp/tmpK3Chm_.fasta
+	/tmp/tmpuX5aSf.fasta
+	/tmp/tmpULJppO.fasta
+	/tmp/tmp9hvusG.fasta
+	/tmp/tmpdKMzn2.fasta
+	/tmp/tmpus7nwZ.fasta
+	/tmp/tmp2L8V0K.fasta
+	/tmp/tmpTSQmjy.fasta
+	/tmp/tmpuv2t2Z.fasta
+	/tmp/tmpAY1ZEk.fasta
+
+Writing the results file...
+	/tmp/tmpP8_yn8.lastz
+	/tmp/tmp2oHhOa.lastz
+	/tmp/tmpvaT6Th.lastz
+	/tmp/tmpX7OL_N.lastz
+	/tmp/tmpzQkZI6.lastz
+	/tmp/tmp73aRuH.lastz
+	/tmp/tmpBgh7N_.lastz
+	/tmp/tmpu1agEQ.lastz
+	/tmp/tmpgvfwbk.lastz
+	/tmp/tmpxmW0hP.lastz
+	/tmp/tmpExz76_.lastz
+	/tmp/tmpXPUYvQ.lastz
+	/tmp/tmpkbgZHy.lastz
+	/tmp/tmp0t6xB6.lastz
+	/tmp/tmpVsutNU.lastz
+	/tmp/tmpW5tjUJ.lastz
+	/tmp/tmpkoWEwn.lastz
+	/tmp/tmpdovgwQ.lastz
+	/tmp/tmpz6uSOl.lastz
+	/tmp/tmpHNxgcp.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Trididemnum_miniatum.lastz
+Creating Trididemnum_miniatum table
+Inserting data to Trididemnum_miniatum table
+
+Running against Salpa_aspera.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 90 queries...
+	/tmp/tmp74s4wO.fasta
+	/tmp/tmpbHAIel.fasta
+	/tmp/tmpu7kGf2.fasta
+	/tmp/tmpqbdqy2.fasta
+	/tmp/tmpfpa3Mc.fasta
+	/tmp/tmpV5lgDd.fasta
+	/tmp/tmpotaHkz.fasta
+	/tmp/tmpnTj0JB.fasta
+	/tmp/tmp4bR5pu.fasta
+	/tmp/tmpZwzMD6.fasta
+	/tmp/tmpO9vP9D.fasta
+	/tmp/tmpzWhUzv.fasta
+	/tmp/tmpPidg3P.fasta
+	/tmp/tmpCAPNvV.fasta
+	/tmp/tmpXvc9lO.fasta
+	/tmp/tmpF37BoO.fasta
+	/tmp/tmpAGSQ3P.fasta
+	/tmp/tmp4xD4hc.fasta
+	/tmp/tmpEtndCR.fasta
+	/tmp/tmpbpo105.fasta
+	/tmp/tmpJeurN9.fasta
+	/tmp/tmpkLYsHi.fasta
+	/tmp/tmpGsOblE.fasta
+	/tmp/tmp0awz9H.fasta
+	/tmp/tmpSAwPG9.fasta
+	/tmp/tmpbjqt_K.fasta
+	/tmp/tmpdJO8wn.fasta
+	/tmp/tmpyNdWEP.fasta
+	/tmp/tmpJVMhfC.fasta
+
+Writing the results file...
+	/tmp/tmpQb8QOL.lastz
+	/tmp/tmp_o92nQ.lastz
+	/tmp/tmpUm3mgC.lastz
+	/tmp/tmpaTJurd.lastz
+	/tmp/tmpK885Ku.lastz
+	/tmp/tmpZauOsm.lastz
+	/tmp/tmpRVfHj1.lastz
+	/tmp/tmp6iLnsX.lastz
+	/tmp/tmpZsl3JG.lastz
+	/tmp/tmpG5KZxc.lastz
+	/tmp/tmpaNgI6E.lastz
+	/tmp/tmpWXJUdG.lastz
+	/tmp/tmpONnRx8.lastz
+	/tmp/tmpygxBwx.lastz
+	/tmp/tmpSBbUJ_.lastz
+	/tmp/tmp_FGKmh.lastz
+	/tmp/tmpf7YMIS.lastz
+	/tmp/tmpgxTxai.lastz
+	/tmp/tmpyXiRVJ.lastz
+	/tmp/tmpvQh8wR.lastz
+	/tmp/tmpkkyT_p.lastz
+	/tmp/tmpJovusO.lastz
+	/tmp/tmpCMxx_j.lastz
+	/tmp/tmp10vnay.lastz
+	/tmp/tmphP985M.lastz
+	/tmp/tmpAWtQ0M.lastz
+	/tmp/tmphuWLAO.lastz
+	/tmp/tmpKJ7mJ4.lastz
+	/tmp/tmpmcUkyY.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Salpa_aspera.lastz
+Creating Salpa_aspera table
+Inserting data to Salpa_aspera table
+
+Running against Ascidiella_scabra.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 10 queries...
+	/tmp/tmpKGv1i1.fasta
+	/tmp/tmpGMOneR.fasta
+	/tmp/tmpgxdS1T.fasta
+	/tmp/tmpMDbsu_.fasta
+	/tmp/tmpMpR5Zd.fasta
+	/tmp/tmpvXwWgR.fasta
+	/tmp/tmpByn27N.fasta
+
+Writing the results file...
+	/tmp/tmphqYZt2.lastz
+	/tmp/tmpRAPMVv.lastz
+	/tmp/tmpUXfhzR.lastz
+	/tmp/tmpU7kAiT.lastz
+	/tmp/tmpejA91c.lastz
+	/tmp/tmp7KwMk3.lastz
+	/tmp/tmpmvtfvV.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Ascidiella_scabra.lastz
+Creating Ascidiella_scabra table
+Inserting data to Ascidiella_scabra table
+
+Running against Lissoclinum_perforatum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 21 queries...
+	/tmp/tmp4FroZY.fasta
+	/tmp/tmpBm1VRY.fasta
+	/tmp/tmpPy2FHY.fasta
+	/tmp/tmpayVS4E.fasta
+	/tmp/tmpf0nZEY.fasta
+	/tmp/tmptNxfTs.fasta
+	/tmp/tmpWMU7io.fasta
+	/tmp/tmpqZrpaK.fasta
+	/tmp/tmphykBVB.fasta
+	/tmp/tmp3T9mqd.fasta
+	/tmp/tmpmVOlXH.fasta
+	/tmp/tmpizLLHS.fasta
+	/tmp/tmp5YRkrH.fasta
+	/tmp/tmp2qLMyt.fasta
+	/tmp/tmpkfcBOa.fasta
+	/tmp/tmpdffOyI.fasta
+
+Writing the results file...
+	/tmp/tmpc2Yhmp.lastz
+	/tmp/tmp7FfMy_.lastz
+	/tmp/tmp4oCQzd.lastz
+	/tmp/tmpvAAFmp.lastz
+	/tmp/tmpJzycem.lastz
+	/tmp/tmpGRpByI.lastz
+	/tmp/tmp_IsAPC.lastz
+	/tmp/tmpyfstdF.lastz
+	/tmp/tmpWyPlW1.lastz
+	/tmp/tmpfA_egX.lastz
+	/tmp/tmpHPGcWc.lastz
+	/tmp/tmpbsbujl.lastz
+	/tmp/tmpRNoW81.lastz
+	/tmp/tmpErGLHI.lastz
+	/tmp/tmp9bvSnT.lastz
+	/tmp/tmpMnSUEb.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Lissoclinum_perforatum.lastz
+Creating Lissoclinum_perforatum table
+Inserting data to Lissoclinum_perforatum table
+
+Running against Phallusia_philippinensis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 15 queries...
+	/tmp/tmpN2JNeG.fasta
+	/tmp/tmpBwe6_q.fasta
+	/tmp/tmpXRQeDK.fasta
+	/tmp/tmpMdOeXc.fasta
+	/tmp/tmpFGjpLI.fasta
+	/tmp/tmpPgKht_.fasta
+	/tmp/tmpm2Fwjw.fasta
+	/tmp/tmpTyYt4W.fasta
+	/tmp/tmpJkEIBf.fasta
+	/tmp/tmpYbTU1M.fasta
+	/tmp/tmppjtKTo.fasta
+	/tmp/tmpAIzbtG.fasta
+	/tmp/tmpAp5CoJ.fasta
+	/tmp/tmpCaB5P7.fasta
+	/tmp/tmpBV1Zy5.fasta
+
+Writing the results file...
+	/tmp/tmpjaFSgH.lastz
+	/tmp/tmpjwoasl.lastz
+	/tmp/tmpbfkbcE.lastz
+	/tmp/tmpfKSVKv.lastz
+	/tmp/tmpR1LOwb.lastz
+	/tmp/tmp4Mb4x7.lastz
+	/tmp/tmpgHRioF.lastz
+	/tmp/tmpWQdNML.lastz
+	/tmp/tmpx_i_vp.lastz
+	/tmp/tmpHT_jM0.lastz
+	/tmp/tmpbkJV0o.lastz
+	/tmp/tmpcLrs69.lastz
+	/tmp/tmpIvA3NX.lastz
+	/tmp/tmpcD9YOY.lastz
+	/tmp/tmpAroJqS.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Phallusia_philippinensis.lastz
+Creating Phallusia_philippinensis table
+Inserting data to Phallusia_philippinensis table
+
+Running against Symplegma_brakenhielmi.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 17 queries...
+	/tmp/tmp6ALwcz.fasta
+	/tmp/tmp2LwMcx.fasta
+	/tmp/tmp6zIpvv.fasta
+	/tmp/tmpzPBqZU.fasta
+	/tmp/tmpNdIgXk.fasta
+	/tmp/tmpSUlcn0.fasta
+	/tmp/tmpUMgYp4.fasta
+	/tmp/tmpuAJhbP.fasta
+	/tmp/tmpLvSDpB.fasta
+	/tmp/tmpVShA6o.fasta
+	/tmp/tmpKsp6jN.fasta
+	/tmp/tmp6w3q5G.fasta
+	/tmp/tmpr8OC42.fasta
+	/tmp/tmpgIgMS3.fasta
+	/tmp/tmp_K_fp3.fasta
+	/tmp/tmpzfGUZM.fasta
+	/tmp/tmpHuxlea.fasta
+
+Writing the results file...
+	/tmp/tmpBwqiUw.lastz
+	/tmp/tmpx8IFHT.lastz
+	/tmp/tmpbdpxCu.lastz
+	/tmp/tmpf11GNk.lastz
+	/tmp/tmpp6829N.lastz
+	/tmp/tmpT0GOPa.lastz
+	/tmp/tmpJtKhDJ.lastz
+	/tmp/tmplz9Wcc.lastz
+	/tmp/tmp2oqAS1.lastz
+	/tmp/tmp9nF6Jj.lastz
+	/tmp/tmpGrwwoC.lastz
+	/tmp/tmp3yXwvm.lastz
+	/tmp/tmpyib403.lastz
+	/tmp/tmpLx3Jlp.lastz
+	/tmp/tmpjBL2uL.lastz
+	/tmp/tmpuwv9Hf.lastz
+	/tmp/tmpusAd_G.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Symplegma_brakenhielmi.lastz
+Creating Symplegma_brakenhielmi table
+Inserting data to Symplegma_brakenhielmi table
+
+Running against Distaplia_bermudensis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 12 queries...
+	/tmp/tmpEymN9W.fasta
+	/tmp/tmpI8Ckm9.fasta
+	/tmp/tmpc5Iow1.fasta
+	/tmp/tmpz2bcL1.fasta
+	/tmp/tmpQiiNz5.fasta
+	/tmp/tmpLgPEbM.fasta
+	/tmp/tmp4aaBAm.fasta
+	/tmp/tmp1hDDXR.fasta
+	/tmp/tmpDeqJeJ.fasta
+	/tmp/tmpEIR6eM.fasta
+	/tmp/tmpPN0nvg.fasta
+
+Writing the results file...
+	/tmp/tmpKxmSsO.lastz
+	/tmp/tmpDadzcu.lastz
+	/tmp/tmpKOLcOr.lastz
+	/tmp/tmpALjZNT.lastz
+	/tmp/tmpqxUsi2.lastz
+	/tmp/tmpC2LvEA.lastz
+	/tmp/tmp5MxwKG.lastz
+	/tmp/tmpGy4idH.lastz
+	/tmp/tmpUwcen1.lastz
+	/tmp/tmpgGrBWb.lastz
+	/tmp/tmpDulWuf.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Distaplia_bermudensis.lastz
+Creating Distaplia_bermudensis table
+Inserting data to Distaplia_bermudensis table
+
+Running against Oikopleura_albicans.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 36 queries...
+	/tmp/tmpZwdXoP.fasta
+	/tmp/tmp3UTVOV.fasta
+	/tmp/tmplcvo2P.fasta
+	/tmp/tmpggwRpr.fasta
+	/tmp/tmpAH9gq_.fasta
+	/tmp/tmp4nMcFd.fasta
+	/tmp/tmp0mrQwV.fasta
+	/tmp/tmptVPtxJ.fasta
+	/tmp/tmpMRInNF.fasta
+	/tmp/tmpZ3DgYV.fasta
+	/tmp/tmpmtO9nz.fasta
+	/tmp/tmpXvckKV.fasta
+	/tmp/tmpEhDFCt.fasta
+	/tmp/tmpJks874.fasta
+	/tmp/tmpnpuzs5.fasta
+
+Writing the results file...
+	/tmp/tmpXRb4yi.lastz
+	/tmp/tmpCR64yW.lastz
+	/tmp/tmp7rxZk8.lastz
+	/tmp/tmpyY0kJQ.lastz
+	/tmp/tmpEMBuDu.lastz
+	/tmp/tmpri6kuP.lastz
+	/tmp/tmpLCAf2U.lastz
+	/tmp/tmpnGS1hC.lastz
+	/tmp/tmpSrO24L.lastz
+	/tmp/tmp659v1c.lastz
+	/tmp/tmp7c3V6R.lastz
+	/tmp/tmpUi5TUb.lastz
+	/tmp/tmpAR8TRJ.lastz
+	/tmp/tmp2C0vF0.lastz
+	/tmp/tmpFDeccz.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Oikopleura_albicans.lastz
+Creating Oikopleura_albicans table
+Inserting data to Oikopleura_albicans table
+
+Running against Botrylloides_israeliense.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 17 queries...
+	/tmp/tmpGw7dUP.fasta
+	/tmp/tmpCm6l0i.fasta
+	/tmp/tmp3NMSw6.fasta
+	/tmp/tmpaGeJKu.fasta
+	/tmp/tmpPooM1K.fasta
+	/tmp/tmpAdzwVm.fasta
+	/tmp/tmprWwe7c.fasta
+	/tmp/tmp2aVZvv.fasta
+	/tmp/tmpM55lh6.fasta
+	/tmp/tmpOZd492.fasta
+	/tmp/tmpOavo3H.fasta
+	/tmp/tmpZ6KO9z.fasta
+	/tmp/tmpqPndGT.fasta
+	/tmp/tmpHZ1XLe.fasta
+	/tmp/tmpEU64sZ.fasta
+	/tmp/tmpr92PSS.fasta
+
+Writing the results file...
+	/tmp/tmpg5BBDp.lastz
+	/tmp/tmpjONFrN.lastz
+	/tmp/tmpE1vn16.lastz
+	/tmp/tmpLeeVIW.lastz
+	/tmp/tmpMjSxk7.lastz
+	/tmp/tmpjDVtCf.lastz
+	/tmp/tmpIYGxUn.lastz
+	/tmp/tmpkp_I_P.lastz
+	/tmp/tmp1Hi83S.lastz
+	/tmp/tmpoRSUed.lastz
+	/tmp/tmpJQ5CpL.lastz
+	/tmp/tmp22mWra.lastz
+	/tmp/tmpjZlKAx.lastz
+	/tmp/tmpb6zSUC.lastz
+	/tmp/tmps_omLj.lastz
+	/tmp/tmpFa11j2.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Botrylloides_israeliense.lastz
+Creating Botrylloides_israeliense table
+Inserting data to Botrylloides_israeliense table
+
+Running against Bathochordaeus_stygius.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 40 queries...
+	/tmp/tmp3XUUuV.fasta
+	/tmp/tmpSZ08dY.fasta
+	/tmp/tmpfEtOzd.fasta
+	/tmp/tmpMG4nPs.fasta
+	/tmp/tmp5k5jQX.fasta
+
+Writing the results file...
+	/tmp/tmpHL31fH.lastz
+	/tmp/tmpNKUy8f.lastz
+	/tmp/tmp19yrzK.lastz
+	/tmp/tmpHifqU8.lastz
+	/tmp/tmp1_HIzO.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Bathochordaeus_stygius.lastz
+Creating Bathochordaeus_stygius table
+Inserting data to Bathochordaeus_stygius table
+
+Running against Oikopleura_vanhoeffeni.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 64 queries...
+	/tmp/tmp3Kwi8C.fasta
+	/tmp/tmpbaNkFZ.fasta
+	/tmp/tmpGH0puz.fasta
+	/tmp/tmpmoIXEh.fasta
+	/tmp/tmp6Tm09C.fasta
+	/tmp/tmpMXAEDh.fasta
+	/tmp/tmp0r3G4Y.fasta
+	/tmp/tmpTybq5E.fasta
+	/tmp/tmphyOHLj.fasta
+	/tmp/tmpvQy1fW.fasta
+	/tmp/tmp7aPBK3.fasta
+	/tmp/tmpAkzqOu.fasta
+
+Writing the results file...
+	/tmp/tmplYV0fP.lastz
+	/tmp/tmp8ypv67.lastz
+	/tmp/tmpcEo9ns.lastz
+	/tmp/tmpcrIu21.lastz
+	/tmp/tmp40lXJd.lastz
+	/tmp/tmp3v2wKl.lastz
+	/tmp/tmpzToVOB.lastz
+	/tmp/tmpil1xjO.lastz
+	/tmp/tmpjbiRAp.lastz
+	/tmp/tmpWOT9lU.lastz
+	/tmp/tmpb8fGgG.lastz
+	/tmp/tmp7riDwJ.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Oikopleura_vanhoeffeni.lastz
+Creating Oikopleura_vanhoeffeni table
+Inserting data to Oikopleura_vanhoeffeni table
+
+Running against Polycarpa_mamillaris.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 20 queries...
+	/tmp/tmpXD6qXu.fasta
+	/tmp/tmpJJhTfA.fasta
+	/tmp/tmpS5i3ul.fasta
+	/tmp/tmpXkUmJn.fasta
+	/tmp/tmpBxyg5Q.fasta
+	/tmp/tmp_C1QAQ.fasta
+	/tmp/tmpRu9RsT.fasta
+	/tmp/tmpu9kMiG.fasta
+	/tmp/tmpuife9Z.fasta
+	/tmp/tmpiY7CUp.fasta
+	/tmp/tmpyZcLS2.fasta
+	/tmp/tmpW6pP8O.fasta
+	/tmp/tmpLXhJCg.fasta
+	/tmp/tmpdKO8AG.fasta
+	/tmp/tmpMljT8a.fasta
+
+Writing the results file...
+	/tmp/tmpxyJNNd.lastz
+	/tmp/tmpT18noj.lastz
+	/tmp/tmpXD0zKJ.lastz
+	/tmp/tmprIeJSy.lastz
+	/tmp/tmpaiIcUW.lastz
+	/tmp/tmpqmPNFE.lastz
+	/tmp/tmpGAuVb0.lastz
+	/tmp/tmpQkUQOn.lastz
+	/tmp/tmplwjYIw.lastz
+	/tmp/tmpeJZbPs.lastz
+	/tmp/tmpFbL89t.lastz
+	/tmp/tmpsX5N2V.lastz
+	/tmp/tmpAB2CkL.lastz
+	/tmp/tmp6PVEu5.lastz
+	/tmp/tmpod1Vps.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Polycarpa_mamillaris.lastz
+Creating Polycarpa_mamillaris table
+Inserting data to Polycarpa_mamillaris table
+
+Running against Mesochordaeus_erythrocephalus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 88 queries...
+	/tmp/tmpMxKaK8.fasta
+	/tmp/tmpJTNlF_.fasta
+	/tmp/tmpGseg5X.fasta
+	/tmp/tmpNmM3Dn.fasta
+	/tmp/tmplUfCvv.fasta
+	/tmp/tmpjguPHu.fasta
+	/tmp/tmpaoTfCR.fasta
+	/tmp/tmpjRs7mo.fasta
+	/tmp/tmpX25N7G.fasta
+	/tmp/tmpn6C8xj.fasta
+
+Writing the results file...
+	/tmp/tmpjKH4xV.lastz
+	/tmp/tmpNtS3yc.lastz
+	/tmp/tmpfVOSqa.lastz
+	/tmp/tmpdn7QDF.lastz
+	/tmp/tmpA8uQzF.lastz
+	/tmp/tmpWQPp0V.lastz
+	/tmp/tmp45Auhh.lastz
+	/tmp/tmp8yXNGt.lastz
+	/tmp/tmpWgrVI1.lastz
+	/tmp/tmp8lTuyx.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Mesochordaeus_erythrocephalus.lastz
+Creating Mesochordaeus_erythrocephalus table
+Inserting data to Mesochordaeus_erythrocephalus table
+
+Running against Aplidium_turbinatum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 18 queries...
+	/tmp/tmpNlfUWe.fasta
+	/tmp/tmpZvo3mh.fasta
+	/tmp/tmppfhm9z.fasta
+	/tmp/tmpIWtza0.fasta
+	/tmp/tmpJYLf8N.fasta
+	/tmp/tmp0DHQ41.fasta
+	/tmp/tmpARX48J.fasta
+	/tmp/tmp64CBet.fasta
+	/tmp/tmp7EYMS9.fasta
+	/tmp/tmpFRhI6M.fasta
+	/tmp/tmpTDrCs2.fasta
+	/tmp/tmpe19Qw0.fasta
+	/tmp/tmp6HhhT1.fasta
+	/tmp/tmpSPX42Y.fasta
+	/tmp/tmpD7J8EQ.fasta
+	/tmp/tmpBE3p_H.fasta
+	/tmp/tmp2MakJz.fasta
+
+Writing the results file...
+	/tmp/tmpEjKDYD.lastz
+	/tmp/tmpp5d8ke.lastz
+	/tmp/tmpt8P5Z1.lastz
+	/tmp/tmpOFX4Iy.lastz
+	/tmp/tmpYumxlK.lastz
+	/tmp/tmplTk4UK.lastz
+	/tmp/tmpbXuDJW.lastz
+	/tmp/tmpojE17p.lastz
+	/tmp/tmpXaOcqh.lastz
+	/tmp/tmp32mzOw.lastz
+	/tmp/tmpv2XL0M.lastz
+	/tmp/tmp7u_eSa.lastz
+	/tmp/tmpjVjl8j.lastz
+	/tmp/tmp3JPliP.lastz
+	/tmp/tmpeWXqdv.lastz
+	/tmp/tmpt9r4FF.lastz
+	/tmp/tmp50LVcG.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Aplidium_turbinatum.lastz
+Creating Aplidium_turbinatum table
+Inserting data to Aplidium_turbinatum table
+
+Running against Perophora_annectens.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 44 queries...
+	/tmp/tmp3ZySL6.fasta
+	/tmp/tmpUiXJIU.fasta
+	/tmp/tmpmmLKrf.fasta
+	/tmp/tmp4CVGf7.fasta
+	/tmp/tmpIc8jil.fasta
+	/tmp/tmpE8AUC0.fasta
+	/tmp/tmpQQ2rCY.fasta
+	/tmp/tmp2RE8Ba.fasta
+	/tmp/tmpiEaBb3.fasta
+	/tmp/tmpTztYfz.fasta
+	/tmp/tmpI0MJzO.fasta
+	/tmp/tmpcNvhGY.fasta
+	/tmp/tmpYwkCz3.fasta
+	/tmp/tmpefFkpG.fasta
+	/tmp/tmp3SMMC9.fasta
+	/tmp/tmpw1nCnW.fasta
+	/tmp/tmpFPGp8K.fasta
+	/tmp/tmpD5IIs5.fasta
+	/tmp/tmp2B9R9s.fasta
+	/tmp/tmpfNXzBm.fasta
+	/tmp/tmpERpuNC.fasta
+	/tmp/tmpSeRHUV.fasta
+	/tmp/tmpSkxNzO.fasta
+	/tmp/tmpNTbwQv.fasta
+	/tmp/tmpXvo_HZ.fasta
+	/tmp/tmpjJsmz3.fasta
+	/tmp/tmpeuHs_N.fasta
+	/tmp/tmp8vSYxr.fasta
+
+Writing the results file...
+	/tmp/tmptIAZ36.lastz
+	/tmp/tmp6yI2jy.lastz
+	/tmp/tmpKlKIsM.lastz
+	/tmp/tmpxetf8U.lastz
+	/tmp/tmptBSgG0.lastz
+	/tmp/tmpe_D9TQ.lastz
+	/tmp/tmput1MV_.lastz
+	/tmp/tmpvPfSvV.lastz
+	/tmp/tmpJb3PB1.lastz
+	/tmp/tmpmoRFew.lastz
+	/tmp/tmpcixS7K.lastz
+	/tmp/tmp0pv9Yy.lastz
+	/tmp/tmpVRHuGj.lastz
+	/tmp/tmp9E0CAU.lastz
+	/tmp/tmpNj5eN4.lastz
+	/tmp/tmp5Zo6lb.lastz
+	/tmp/tmpgHtVRi.lastz
+	/tmp/tmpYABUoJ.lastz
+	/tmp/tmpRSmVDf.lastz
+	/tmp/tmpq_onYY.lastz
+	/tmp/tmpYgyiRH.lastz
+	/tmp/tmps6CseL.lastz
+	/tmp/tmpQeRfSt.lastz
+	/tmp/tmpp5PzbP.lastz
+	/tmp/tmpS3Nh1Y.lastz
+	/tmp/tmp39svjK.lastz
+	/tmp/tmpjot0Nd.lastz
+	/tmp/tmpEDztgZ.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Perophora_annectens.lastz
+Creating Perophora_annectens table
+Inserting data to Perophora_annectens table
+
+Running against Aplidium_pallidum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 19 queries...
+	/tmp/tmpAhONBv.fasta
+	/tmp/tmpHW4bmQ.fasta
+	/tmp/tmpW7LWz1.fasta
+	/tmp/tmpiDzYTt.fasta
+	/tmp/tmpzUbtCq.fasta
+	/tmp/tmp_jXcMc.fasta
+	/tmp/tmpl3iIuV.fasta
+	/tmp/tmplYe_zV.fasta
+	/tmp/tmpD2VFL4.fasta
+	/tmp/tmptu3u4Z.fasta
+	/tmp/tmpJDLf8_.fasta
+	/tmp/tmpxcAtm7.fasta
+	/tmp/tmpLhBSqr.fasta
+	/tmp/tmpaZDnfR.fasta
+	/tmp/tmp3VLiT0.fasta
+	/tmp/tmp1UNicJ.fasta
+
+Writing the results file...
+	/tmp/tmpqQc1NA.lastz
+	/tmp/tmpTKy4gz.lastz
+	/tmp/tmp5hC_6e.lastz
+	/tmp/tmpwAA7uX.lastz
+	/tmp/tmpOqZaKY.lastz
+	/tmp/tmpGuoleP.lastz
+	/tmp/tmpZZrTCR.lastz
+	/tmp/tmpmWchF_.lastz
+	/tmp/tmpo4YT4Q.lastz
+	/tmp/tmpLYXkMO.lastz
+	/tmp/tmpQpNe2I.lastz
+	/tmp/tmp5uudy0.lastz
+	/tmp/tmpDCTPxf.lastz
+	/tmp/tmpkr9TLm.lastz
+	/tmp/tmpdJg8X7.lastz
+	/tmp/tmp6wu0yp.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Aplidium_pallidum.lastz
+Creating Aplidium_pallidum table
+Inserting data to Aplidium_pallidum table
+
+Running against Diazona_violacea.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 11 queries...
+	/tmp/tmpjomogw.fasta
+	/tmp/tmp5QJAy6.fasta
+	/tmp/tmpn07RfS.fasta
+	/tmp/tmpYGruoy.fasta
+	/tmp/tmpWI4_BK.fasta
+	/tmp/tmp8EL1a6.fasta
+	/tmp/tmpVNL4P2.fasta
+	/tmp/tmpCKWTe_.fasta
+	/tmp/tmpyNUgXX.fasta
+	/tmp/tmppGCsCG.fasta
+	/tmp/tmpA8SCs2.fasta
+
+Writing the results file...
+	/tmp/tmp04z76t.lastz
+	/tmp/tmpU1VjSn.lastz
+	/tmp/tmpwKPlsK.lastz
+	/tmp/tmpdzZ2Es.lastz
+	/tmp/tmpCBCkud.lastz
+	/tmp/tmpETYsTw.lastz
+	/tmp/tmpT8uD8O.lastz
+	/tmp/tmpKZLm3i.lastz
+	/tmp/tmpjzMqS9.lastz
+	/tmp/tmpHNIyGZ.lastz
+	/tmp/tmpysGVV0.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Diazona_violacea.lastz
+Creating Diazona_violacea table
+Inserting data to Diazona_violacea table
+
+Running against Corella_parallelogramma.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 7 queries...
+	/tmp/tmpYTE4BA.fasta
+	/tmp/tmpgDGcJW.fasta
+	/tmp/tmpsUe_Pg.fasta
+	/tmp/tmpJrgxhh.fasta
+	/tmp/tmpp4_Fpj.fasta
+	/tmp/tmp6AMfqy.fasta
+	/tmp/tmpZxOmAb.fasta
+
+Writing the results file...
+	/tmp/tmpyTxdv9.lastz
+	/tmp/tmprEtOAs.lastz
+	/tmp/tmpyssG1U.lastz
+	/tmp/tmpH1UxSO.lastz
+	/tmp/tmpSRXsHw.lastz
+	/tmp/tmpL3yeKH.lastz
+	/tmp/tmpbmFyIj.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Corella_parallelogramma.lastz
+Creating Corella_parallelogramma table
+Inserting data to Corella_parallelogramma table
+
+Running against Lampetra_planeri.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 61 queries...
+	/tmp/tmpyZzv1E.fasta
+	/tmp/tmpCUQ0c6.fasta
+	/tmp/tmpXgEKYB.fasta
+	/tmp/tmpQJDj3r.fasta
+	/tmp/tmpE0IUuQ.fasta
+	/tmp/tmpcs9XlK.fasta
+	/tmp/tmpgztjBT.fasta
+	/tmp/tmpDC64Sz.fasta
+	/tmp/tmpodvvXT.fasta
+	/tmp/tmpQMs1aL.fasta
+	/tmp/tmpDE3XfF.fasta
+	/tmp/tmpYAGJr8.fasta
+	/tmp/tmpaH_cUj.fasta
+	/tmp/tmppHxfN5.fasta
+	/tmp/tmpZemrAW.fasta
+	/tmp/tmp55IeP8.fasta
+	/tmp/tmp2PNrWs.fasta
+	/tmp/tmpLDYF7M.fasta
+	/tmp/tmpBWM3bJ.fasta
+	/tmp/tmp_qwVfJ.fasta
+	/tmp/tmpzwJmJT.fasta
+	/tmp/tmpY2QunC.fasta
+	/tmp/tmp3bkHMe.fasta
+	/tmp/tmp1v3L7u.fasta
+	/tmp/tmpyz2HvC.fasta
+	/tmp/tmpN2ksjJ.fasta
+	/tmp/tmp9tezOZ.fasta
+	/tmp/tmpTSuSQE.fasta
+	/tmp/tmpUM9iag.fasta
+	/tmp/tmp8PTLBI.fasta
+	/tmp/tmpjC_MR8.fasta
+	/tmp/tmpH7viNo.fasta
+	/tmp/tmpsLJeks.fasta
+	/tmp/tmpUmG4bq.fasta
+	/tmp/tmpVxVhrt.fasta
+	/tmp/tmpbzPKH5.fasta
+	/tmp/tmpbrUJQX.fasta
+	/tmp/tmpaBW6TY.fasta
+	/tmp/tmpTAoWfu.fasta
+
+Writing the results file...
+	/tmp/tmpIhwgkI.lastz
+	/tmp/tmpdwvXIu.lastz
+	/tmp/tmppPlUwJ.lastz
+	/tmp/tmpSVDMaH.lastz
+	/tmp/tmp0Nh_fR.lastz
+	/tmp/tmpFh7pAi.lastz
+	/tmp/tmpHFPkCl.lastz
+	/tmp/tmpckuBW_.lastz
+	/tmp/tmpCTNTuU.lastz
+	/tmp/tmp6nZprg.lastz
+	/tmp/tmpztFR2R.lastz
+	/tmp/tmprs4gn7.lastz
+	/tmp/tmpWIU4KR.lastz
+	/tmp/tmp8XmYKC.lastz
+	/tmp/tmpevGBZs.lastz
+	/tmp/tmpTfXCap.lastz
+	/tmp/tmpF9iSVx.lastz
+	/tmp/tmpaW1XuV.lastz
+	/tmp/tmpGSIoPz.lastz
+	/tmp/tmpZBSpg6.lastz
+	/tmp/tmpFSUZZI.lastz
+	/tmp/tmpWeuDek.lastz
+	/tmp/tmp8LcDVE.lastz
+	/tmp/tmpszbQXY.lastz
+	/tmp/tmpF8M8NR.lastz
+	/tmp/tmpH8a9Tk.lastz
+	/tmp/tmpMZtPXH.lastz
+	/tmp/tmpwmFoao.lastz
+	/tmp/tmpjlecKq.lastz
+	/tmp/tmpRi4VSR.lastz
+	/tmp/tmpgVHp9Y.lastz
+	/tmp/tmpxmj414.lastz
+	/tmp/tmpHQjuVN.lastz
+	/tmp/tmpe5H_hJ.lastz
+	/tmp/tmpbMhXqB.lastz
+	/tmp/tmpzxwK5g.lastz
+	/tmp/tmpDjY4MP.lastz
+	/tmp/tmp3A1_zc.lastz
+	/tmp/tmpRyErgr.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Lampetra_planeri.lastz
+Creating Lampetra_planeri table
+Inserting data to Lampetra_planeri table
+
+Running against Lethenteron_reissneri.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 72 queries...
+	/tmp/tmpMo7H6F.fasta
+	/tmp/tmpE14FZ4.fasta
+	/tmp/tmpCGwlHS.fasta
+	/tmp/tmpuVGMbN.fasta
+	/tmp/tmpL4vDJB.fasta
+	/tmp/tmpwGbEkP.fasta
+	/tmp/tmpzV4o5N.fasta
+	/tmp/tmpFUXSNt.fasta
+	/tmp/tmpIkSCuU.fasta
+	/tmp/tmpEaAeez.fasta
+	/tmp/tmpXaea7g.fasta
+	/tmp/tmpBqlb9s.fasta
+	/tmp/tmpZiMX5Z.fasta
+	/tmp/tmpB5GcCD.fasta
+	/tmp/tmp2ekmiS.fasta
+	/tmp/tmprD_j7P.fasta
+	/tmp/tmpDJeoYe.fasta
+	/tmp/tmpaS_3r9.fasta
+	/tmp/tmpFHQHyb.fasta
+	/tmp/tmp5IYIkj.fasta
+	/tmp/tmpnU6jPg.fasta
+	/tmp/tmpHI_zNc.fasta
+	/tmp/tmpmIp5Hi.fasta
+	/tmp/tmpD19IQQ.fasta
+	/tmp/tmp7XSe_z.fasta
+	/tmp/tmp6nwbty.fasta
+	/tmp/tmpIDdacw.fasta
+	/tmp/tmp3E76QH.fasta
+	/tmp/tmpOEUhcX.fasta
+	/tmp/tmpcXmozt.fasta
+	/tmp/tmptpDDgR.fasta
+	/tmp/tmpCXgAfS.fasta
+	/tmp/tmpvGdLx6.fasta
+	/tmp/tmpW0fL8k.fasta
+	/tmp/tmphFWcIO.fasta
+	/tmp/tmpO3mlaM.fasta
+	/tmp/tmpzU9HkF.fasta
+	/tmp/tmp6lm4FN.fasta
+	/tmp/tmpBYLJpt.fasta
+	/tmp/tmpkMYvpY.fasta
+	/tmp/tmpr5R2Iw.fasta
+
+Writing the results file...
+	/tmp/tmp8M7o33.lastz
+	/tmp/tmpaASDIg.lastz
+	/tmp/tmpVsfQpE.lastz
+	/tmp/tmp9zannE.lastz
+	/tmp/tmptwtACO.lastz
+	/tmp/tmp3GYP13.lastz
+	/tmp/tmprwblua.lastz
+	/tmp/tmpXpgo5f.lastz
+	/tmp/tmpGf6hmv.lastz
+	/tmp/tmpeVvfk3.lastz
+	/tmp/tmpaeNOZt.lastz
+	/tmp/tmp1j59cU.lastz
+	/tmp/tmptXhg5f.lastz
+	/tmp/tmpYEet4H.lastz
+	/tmp/tmpohow3Q.lastz
+	/tmp/tmpFRSubQ.lastz
+	/tmp/tmpgp5XLW.lastz
+	/tmp/tmp_NqrEI.lastz
+	/tmp/tmpAzMuxh.lastz
+	/tmp/tmpYNhnBC.lastz
+	/tmp/tmpoSKPGZ.lastz
+	/tmp/tmptxSLd9.lastz
+	/tmp/tmpqWrLMV.lastz
+	/tmp/tmpjdPBdm.lastz
+	/tmp/tmpg5rnA1.lastz
+	/tmp/tmpQHqmgf.lastz
+	/tmp/tmpfcgkCn.lastz
+	/tmp/tmpojSj_h.lastz
+	/tmp/tmpuaoDfv.lastz
+	/tmp/tmpALEsKw.lastz
+	/tmp/tmpdyoqly.lastz
+	/tmp/tmpzNQasI.lastz
+	/tmp/tmposSyJ0.lastz
+	/tmp/tmpCF5ljU.lastz
+	/tmp/tmpU7Qy1P.lastz
+	/tmp/tmp1k2BQB.lastz
+	/tmp/tmp8xd4as.lastz
+	/tmp/tmpkLkLTu.lastz
+	/tmp/tmpv0w35W.lastz
+	/tmp/tmpq0rlnv.lastz
+	/tmp/tmppPwE4G.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Lethenteron_reissneri.lastz
+Creating Lethenteron_reissneri table
+Inserting data to Lethenteron_reissneri table
+
+Running against Mordacia_mordax.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 33 queries...
+	/tmp/tmpBdIISe.fasta
+	/tmp/tmpbYxOxn.fasta
+	/tmp/tmpDY8WUe.fasta
+	/tmp/tmpeH6oQ6.fasta
+	/tmp/tmpllfEms.fasta
+	/tmp/tmpQePR0K.fasta
+	/tmp/tmpV1Rkgl.fasta
+	/tmp/tmpgeoKQk.fasta
+	/tmp/tmp5dc8_h.fasta
+	/tmp/tmpWDON1W.fasta
+	/tmp/tmpzySiuv.fasta
+	/tmp/tmpCvZr_a.fasta
+	/tmp/tmpZd51GL.fasta
+	/tmp/tmpuMCaUQ.fasta
+	/tmp/tmpZwrmLk.fasta
+	/tmp/tmpFp__ZI.fasta
+	/tmp/tmp_hipjN.fasta
+	/tmp/tmpalCfU5.fasta
+	/tmp/tmpJHjI5_.fasta
+	/tmp/tmp2eqNdv.fasta
+	/tmp/tmpduwGMk.fasta
+	/tmp/tmpBoQ24L.fasta
+	/tmp/tmp3eeI9W.fasta
+	/tmp/tmp3bmPcI.fasta
+	/tmp/tmpSAqxzi.fasta
+	/tmp/tmpC50FI6.fasta
+
+Writing the results file...
+	/tmp/tmpq8iWxf.lastz
+	/tmp/tmpsLT3t_.lastz
+	/tmp/tmpLyegiZ.lastz
+	/tmp/tmpgOzlJy.lastz
+	/tmp/tmpkyyGL9.lastz
+	/tmp/tmpdnzJjP.lastz
+	/tmp/tmpFyC4ik.lastz
+	/tmp/tmpVzr4Nf.lastz
+	/tmp/tmp8hc8IH.lastz
+	/tmp/tmp7CZFUs.lastz
+	/tmp/tmpLCZ700.lastz
+	/tmp/tmpfjVDI9.lastz
+	/tmp/tmpjeV74C.lastz
+	/tmp/tmpYLOlCf.lastz
+	/tmp/tmpGHiU5B.lastz
+	/tmp/tmpCTKa0L.lastz
+	/tmp/tmp0QWG93.lastz
+	/tmp/tmpx_e1u2.lastz
+	/tmp/tmp8mgQh9.lastz
+	/tmp/tmpaEneEy.lastz
+	/tmp/tmpZP_DDj.lastz
+	/tmp/tmpNV_9_k.lastz
+	/tmp/tmpETAYEo.lastz
+	/tmp/tmp62YeNv.lastz
+	/tmp/tmpImXlOY.lastz
+	/tmp/tmpqg2tKa.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Mordacia_mordax.lastz
+Creating Mordacia_mordax table
+Inserting data to Mordacia_mordax table
+
+Running against Lampetra_fluviatilis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 66 queries...
+	/tmp/tmpxYdOmt.fasta
+	/tmp/tmp_XOtmu.fasta
+	/tmp/tmpKTCYes.fasta
+	/tmp/tmphBcIaw.fasta
+	/tmp/tmpg48hvU.fasta
+	/tmp/tmpM1zNDA.fasta
+	/tmp/tmpv2ct01.fasta
+	/tmp/tmpaq3ETo.fasta
+	/tmp/tmpSLsYOq.fasta
+	/tmp/tmpXfw57M.fasta
+	/tmp/tmpQJcjHJ.fasta
+	/tmp/tmpmxj2rV.fasta
+	/tmp/tmpTwG6gi.fasta
+	/tmp/tmp7lEvq7.fasta
+	/tmp/tmp1zOxco.fasta
+	/tmp/tmphUY33r.fasta
+	/tmp/tmpJjNtjz.fasta
+	/tmp/tmpJoz_N_.fasta
+	/tmp/tmp8_ICQK.fasta
+	/tmp/tmp6UNYeg.fasta
+	/tmp/tmpCNaCJr.fasta
+	/tmp/tmp45JzIg.fasta
+	/tmp/tmpG8hO48.fasta
+	/tmp/tmpTybZvV.fasta
+	/tmp/tmpIg4YGV.fasta
+	/tmp/tmpWXnhiV.fasta
+	/tmp/tmpU3fQ2R.fasta
+	/tmp/tmpJDqrIb.fasta
+	/tmp/tmpOeDkhl.fasta
+	/tmp/tmpjQRgfj.fasta
+	/tmp/tmpIfSm1n.fasta
+	/tmp/tmpmmucEt.fasta
+	/tmp/tmpybbnBA.fasta
+	/tmp/tmp0oV1J1.fasta
+	/tmp/tmpWJcUvy.fasta
+	/tmp/tmponLXjC.fasta
+	/tmp/tmpziaKK_.fasta
+	/tmp/tmpSkowIe.fasta
+	/tmp/tmpXvYL97.fasta
+	/tmp/tmpGw5G3X.fasta
+
+Writing the results file...
+	/tmp/tmpCWWZ_o.lastz
+	/tmp/tmp4HpgWN.lastz
+	/tmp/tmpg2SjvI.lastz
+	/tmp/tmpH5TCs2.lastz
+	/tmp/tmp6cM_Ws.lastz
+	/tmp/tmpW2GYS6.lastz
+	/tmp/tmpRCLaFl.lastz
+	/tmp/tmpMOh_n8.lastz
+	/tmp/tmpFT30r2.lastz
+	/tmp/tmpApq2T4.lastz
+	/tmp/tmpTrdTy1.lastz
+	/tmp/tmpQIbWDv.lastz
+	/tmp/tmp2Pjkyr.lastz
+	/tmp/tmpLzeLPN.lastz
+	/tmp/tmpPvijhp.lastz
+	/tmp/tmpSbLl33.lastz
+	/tmp/tmp5A_chJ.lastz
+	/tmp/tmp0Krsua.lastz
+	/tmp/tmpVCr76L.lastz
+	/tmp/tmpzd24JE.lastz
+	/tmp/tmpE3buZa.lastz
+	/tmp/tmp8LmEGi.lastz
+	/tmp/tmpUKgdCM.lastz
+	/tmp/tmpjjyl6B.lastz
+	/tmp/tmpAPUxEC.lastz
+	/tmp/tmpaKga2Q.lastz
+	/tmp/tmpiXBAcr.lastz
+	/tmp/tmp5DRU7F.lastz
+	/tmp/tmpt1U190.lastz
+	/tmp/tmpVvqbns.lastz
+	/tmp/tmpj3wpcO.lastz
+	/tmp/tmpvwIGsk.lastz
+	/tmp/tmpJuS3eX.lastz
+	/tmp/tmp6Sy3KA.lastz
+	/tmp/tmphht_S4.lastz
+	/tmp/tmpHCVbQW.lastz
+	/tmp/tmpLfco79.lastz
+	/tmp/tmp6glXuU.lastz
+	/tmp/tmp4Ojhvm.lastz
+	/tmp/tmpTuGr_L.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Lampetra_fluviatilis.lastz
+Creating Lampetra_fluviatilis table
+Inserting data to Lampetra_fluviatilis table
+
+Running against Eptatretus_burgeri.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 22 queries...
+	/tmp/tmpOTTw_N.fasta
+	/tmp/tmp1LR5uP.fasta
+	/tmp/tmpJdL2eA.fasta
+	/tmp/tmpOkWOTv.fasta
+	/tmp/tmpWCHWXi.fasta
+	/tmp/tmpfKe8A6.fasta
+	/tmp/tmp3f7QJ5.fasta
+	/tmp/tmpRJs97y.fasta
+	/tmp/tmpFDFBlX.fasta
+	/tmp/tmp3pMB2C.fasta
+	/tmp/tmpRKj_82.fasta
+	/tmp/tmpF1OEZD.fasta
+	/tmp/tmpBa62Nl.fasta
+	/tmp/tmp1A8Sit.fasta
+	/tmp/tmpYFvgcR.fasta
+	/tmp/tmpzZwsQG.fasta
+	/tmp/tmpTZWWCt.fasta
+	/tmp/tmpyajyq4.fasta
+
+Writing the results file...
+	/tmp/tmpggfd1K.lastz
+	/tmp/tmpBQ1HyH.lastz
+	/tmp/tmpk_yRI0.lastz
+	/tmp/tmpnlOxxe.lastz
+	/tmp/tmpT4bDsl.lastz
+	/tmp/tmpCvY9cI.lastz
+	/tmp/tmpldWW1N.lastz
+	/tmp/tmpkqs_dJ.lastz
+	/tmp/tmptdlGiq.lastz
+	/tmp/tmpjWOKYQ.lastz
+	/tmp/tmpHzLGdS.lastz
+	/tmp/tmpPfYEhs.lastz
+	/tmp/tmpKXd9BM.lastz
+	/tmp/tmpqqyLSP.lastz
+	/tmp/tmpdQ0kBR.lastz
+	/tmp/tmpYebHkx.lastz
+	/tmp/tmpSWDxW0.lastz
+	/tmp/tmpIoPGXD.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Eptatretus_burgeri.lastz
+Creating Eptatretus_burgeri table
+Inserting data to Eptatretus_burgeri table
+
+Running against Petromyzon_marinus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 102 queries...
+	/tmp/tmptPCZOX.fasta
+	/tmp/tmpkBnVN5.fasta
+	/tmp/tmpzswm9F.fasta
+	/tmp/tmpJPALA3.fasta
+	/tmp/tmpNbOft0.fasta
+	/tmp/tmppvxIQB.fasta
+	/tmp/tmpnXZ1EO.fasta
+	/tmp/tmpWsJcXD.fasta
+	/tmp/tmpW6CVAz.fasta
+	/tmp/tmp0Vlcsh.fasta
+	/tmp/tmp5RLhwK.fasta
+	/tmp/tmpJjTAQY.fasta
+	/tmp/tmpJMNg6G.fasta
+	/tmp/tmpS6fhtA.fasta
+	/tmp/tmplWDv9e.fasta
+	/tmp/tmpJIH4RM.fasta
+	/tmp/tmp7ClSVr.fasta
+	/tmp/tmpIRqTMU.fasta
+	/tmp/tmpaCrMRZ.fasta
+	/tmp/tmpPDsQMb.fasta
+	/tmp/tmprcy0w9.fasta
+	/tmp/tmpaFVxcY.fasta
+	/tmp/tmpwmFqky.fasta
+	/tmp/tmpabojLy.fasta
+	/tmp/tmphoIgFg.fasta
+	/tmp/tmpK_iloK.fasta
+	/tmp/tmpKiVG72.fasta
+	/tmp/tmp4_E24k.fasta
+	/tmp/tmpDmOhtz.fasta
+	/tmp/tmpQXkUdO.fasta
+	/tmp/tmp3cXhzh.fasta
+	/tmp/tmpTFOoQ0.fasta
+	/tmp/tmpzLW25r.fasta
+	/tmp/tmp7RFStg.fasta
+	/tmp/tmppHKhcM.fasta
+	/tmp/tmpaJut2J.fasta
+	/tmp/tmpZgchCY.fasta
+	/tmp/tmpvp_SPX.fasta
+	/tmp/tmpMNXT4U.fasta
+	/tmp/tmpeqctXx.fasta
+	/tmp/tmpk96Fyd.fasta
+	/tmp/tmpxcfk4j.fasta
+	/tmp/tmpfu386u.fasta
+	/tmp/tmpNel4M4.fasta
+	/tmp/tmpr0goJm.fasta
+	/tmp/tmpq9PvDS.fasta
+	/tmp/tmpfFma6F.fasta
+	/tmp/tmpV0RbNC.fasta
+	/tmp/tmpO7Zi5B.fasta
+	/tmp/tmpgi5bxq.fasta
+	/tmp/tmpXxysm0.fasta
+	/tmp/tmpHIpxVA.fasta
+	/tmp/tmp9586Ik.fasta
+
+Writing the results file...
+	/tmp/tmpiqUFsw.lastz
+	/tmp/tmp7hkpgI.lastz
+	/tmp/tmpYtIEyA.lastz
+	/tmp/tmpQjKn8c.lastz
+	/tmp/tmp0dyODa.lastz
+	/tmp/tmpb6SehQ.lastz
+	/tmp/tmpvuC5WO.lastz
+	/tmp/tmpPwSptj.lastz
+	/tmp/tmpl5fRgH.lastz
+	/tmp/tmpEbU9zH.lastz
+	/tmp/tmpNWnr2W.lastz
+	/tmp/tmpme45xN.lastz
+	/tmp/tmp9obLak.lastz
+	/tmp/tmpfUSy2l.lastz
+	/tmp/tmpDRB0Vz.lastz
+	/tmp/tmpovcUvb.lastz
+	/tmp/tmpiKPqkI.lastz
+	/tmp/tmpkLwhDH.lastz
+	/tmp/tmp4BaQO8.lastz
+	/tmp/tmpfGtXiF.lastz
+	/tmp/tmpvaR2gi.lastz
+	/tmp/tmp7KOqUl.lastz
+	/tmp/tmpYLQkSZ.lastz
+	/tmp/tmpCF9OPF.lastz
+	/tmp/tmpEW9lHV.lastz
+	/tmp/tmpT8lgrD.lastz
+	/tmp/tmp5HRS5w.lastz
+	/tmp/tmpxyWrWF.lastz
+	/tmp/tmpx3lhBq.lastz
+	/tmp/tmpM2sYc1.lastz
+	/tmp/tmpzuU9i7.lastz
+	/tmp/tmpIM0796.lastz
+	/tmp/tmp2hrK_E.lastz
+	/tmp/tmpj_zU5x.lastz
+	/tmp/tmp9KiZ47.lastz
+	/tmp/tmpRmfnQx.lastz
+	/tmp/tmpTMx5ns.lastz
+	/tmp/tmpvm8WGh.lastz
+	/tmp/tmpTR_AQu.lastz
+	/tmp/tmpqlSWI6.lastz
+	/tmp/tmpGlOKYb.lastz
+	/tmp/tmpDlf0K4.lastz
+	/tmp/tmpmoAd6W.lastz
+	/tmp/tmp_MF08F.lastz
+	/tmp/tmp4xataY.lastz
+	/tmp/tmpQyO2Jo.lastz
+	/tmp/tmph828Ev.lastz
+	/tmp/tmpBEJTW6.lastz
+	/tmp/tmpCUjmsy.lastz
+	/tmp/tmpEOn9AD.lastz
+	/tmp/tmpVOIaQh.lastz
+	/tmp/tmpVrbzwQ.lastz
+	/tmp/tmpxIQ2CR.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Petromyzon_marinus.lastz
+Creating Petromyzon_marinus table
+Inserting data to Petromyzon_marinus table
+
+Running against Eptatretus_okinoseanus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 21 queries...
+	/tmp/tmpr4SUSI.fasta
+	/tmp/tmpkw86UV.fasta
+	/tmp/tmpbl8UUM.fasta
+	/tmp/tmpBvb4uc.fasta
+	/tmp/tmpGobBcL.fasta
+	/tmp/tmpGq3kuL.fasta
+	/tmp/tmpfvAL6G.fasta
+	/tmp/tmp3GQFdd.fasta
+	/tmp/tmp7rXHCX.fasta
+	/tmp/tmpGl4Mps.fasta
+	/tmp/tmpmAdyU5.fasta
+	/tmp/tmpj3GtLr.fasta
+	/tmp/tmptOAXZK.fasta
+	/tmp/tmp2IJCYT.fasta
+	/tmp/tmpSCwJS0.fasta
+	/tmp/tmpHKIDBF.fasta
+	/tmp/tmpaNPHco.fasta
+
+Writing the results file...
+	/tmp/tmpLTq547.lastz
+	/tmp/tmpTyAx9h.lastz
+	/tmp/tmphz_aL8.lastz
+	/tmp/tmp8APODg.lastz
+	/tmp/tmpG4TDDF.lastz
+	/tmp/tmpkMErdh.lastz
+	/tmp/tmpQcOOG4.lastz
+	/tmp/tmpHDFbAq.lastz
+	/tmp/tmpeaMaqQ.lastz
+	/tmp/tmpRdAT12.lastz
+	/tmp/tmpml3A4x.lastz
+	/tmp/tmpOI1H54.lastz
+	/tmp/tmpxn9Ftn.lastz
+	/tmp/tmpQ6sClM.lastz
+	/tmp/tmppNIGMY.lastz
+	/tmp/tmpvHl18w.lastz
+	/tmp/tmp3vWJAk.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Eptatretus_okinoseanus.lastz
+Creating Eptatretus_okinoseanus table
+Inserting data to Eptatretus_okinoseanus table
+
+Running against Myxine_glutinosa.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 51 queries...
+	/tmp/tmp12ASBB.fasta
+	/tmp/tmp91byct.fasta
+	/tmp/tmpTAnvq4.fasta
+	/tmp/tmpQkt42u.fasta
+	/tmp/tmpiRzbkz.fasta
+	/tmp/tmpTi9I4U.fasta
+	/tmp/tmpkX85MP.fasta
+	/tmp/tmp1IGAPR.fasta
+	/tmp/tmpIoTUSp.fasta
+	/tmp/tmpppplFI.fasta
+	/tmp/tmpNHAcI0.fasta
+	/tmp/tmpqo6_Uz.fasta
+	/tmp/tmpHifpaw.fasta
+	/tmp/tmpU4kH2q.fasta
+
+Writing the results file...
+	/tmp/tmpORW9Uh.lastz
+	/tmp/tmp3ZeYlt.lastz
+	/tmp/tmpw1wMaF.lastz
+	/tmp/tmprJ_0Pk.lastz
+	/tmp/tmpquTKlA.lastz
+	/tmp/tmps1AVlz.lastz
+	/tmp/tmpTxWlCv.lastz
+	/tmp/tmplGeM5S.lastz
+	/tmp/tmpAbBECr.lastz
+	/tmp/tmpV1YsR9.lastz
+	/tmp/tmptGObmo.lastz
+	/tmp/tmpgbSufz.lastz
+	/tmp/tmpccgmZr.lastz
+	/tmp/tmppu2Mzs.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Myxine_glutinosa.lastz
+Creating Myxine_glutinosa table
+Inserting data to Myxine_glutinosa table
+
+Running against Eptatretus_atami.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 22 queries...
+	/tmp/tmpfJNAVT.fasta
+	/tmp/tmphbWdUw.fasta
+	/tmp/tmpAqRVYz.fasta
+	/tmp/tmpMngdMc.fasta
+	/tmp/tmphOb5Uf.fasta
+	/tmp/tmpgy8Kmg.fasta
+	/tmp/tmpsCcQGw.fasta
+	/tmp/tmpOyg04F.fasta
+	/tmp/tmplDFcP_.fasta
+	/tmp/tmpH6cldt.fasta
+	/tmp/tmpSLGlEQ.fasta
+	/tmp/tmpbNfeQU.fasta
+	/tmp/tmpo79Jrr.fasta
+	/tmp/tmpdRnhe1.fasta
+	/tmp/tmpjr4EWZ.fasta
+	/tmp/tmp0vE5_I.fasta
+
+Writing the results file...
+	/tmp/tmp177KZU.lastz
+	/tmp/tmp2PeTBN.lastz
+	/tmp/tmpZqBR0A.lastz
+	/tmp/tmpXDRNIJ.lastz
+	/tmp/tmp6IDGsR.lastz
+	/tmp/tmpQOnWYo.lastz
+	/tmp/tmp9QIrJb.lastz
+	/tmp/tmp3TlT4C.lastz
+	/tmp/tmpavaaq6.lastz
+	/tmp/tmpbFu5mm.lastz
+	/tmp/tmpME4lbD.lastz
+	/tmp/tmpYplR5l.lastz
+	/tmp/tmpJOjLA7.lastz
+	/tmp/tmp2U2fGw.lastz
+	/tmp/tmp6ttI8v.lastz
+	/tmp/tmpWfpXJb.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Eptatretus_atami.lastz
+Creating Eptatretus_atami table
+Inserting data to Eptatretus_atami table
+
+Running against Lampetra_richardsoni.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 76 queries...
+	/tmp/tmpw9Dlwp.fasta
+	/tmp/tmpG4LV03.fasta
+	/tmp/tmpAuh17Y.fasta
+	/tmp/tmpMr1k2L.fasta
+	/tmp/tmpTgbYNE.fasta
+	/tmp/tmpJWcIp9.fasta
+	/tmp/tmpecjQLH.fasta
+	/tmp/tmp0E5SrI.fasta
+	/tmp/tmpxdMIxZ.fasta
+	/tmp/tmpMAzsVC.fasta
+	/tmp/tmpp8u7mD.fasta
+	/tmp/tmpGjLMFe.fasta
+	/tmp/tmpXF54ew.fasta
+	/tmp/tmpH_mkNo.fasta
+	/tmp/tmpqURk9Y.fasta
+	/tmp/tmpzSBrq4.fasta
+	/tmp/tmpw44158.fasta
+	/tmp/tmpVdDBeP.fasta
+	/tmp/tmpP3FviK.fasta
+	/tmp/tmpjT_MJ1.fasta
+	/tmp/tmpD0gi4Q.fasta
+	/tmp/tmpIA5uY5.fasta
+	/tmp/tmpCNZdax.fasta
+	/tmp/tmpTBwB3i.fasta
+	/tmp/tmpXKo8VD.fasta
+	/tmp/tmpBSOJQU.fasta
+	/tmp/tmpt2Wu0n.fasta
+	/tmp/tmpX1KKeO.fasta
+	/tmp/tmpxqwriC.fasta
+	/tmp/tmp5V4JfB.fasta
+	/tmp/tmp6D_s5l.fasta
+	/tmp/tmpjuO7Rj.fasta
+	/tmp/tmpYH9iOd.fasta
+	/tmp/tmpn6MMzy.fasta
+	/tmp/tmpgCmGnb.fasta
+	/tmp/tmpJ3jFTX.fasta
+	/tmp/tmpG7eMyk.fasta
+	/tmp/tmpmusXhy.fasta
+	/tmp/tmpb_LKBs.fasta
+	/tmp/tmpQZlB0j.fasta
+	/tmp/tmp1xt_yc.fasta
+	/tmp/tmpFT2o5v.fasta
+
+Writing the results file...
+	/tmp/tmple3qPZ.lastz
+	/tmp/tmpkxnQop.lastz
+	/tmp/tmprBbYha.lastz
+	/tmp/tmpRDbwWu.lastz
+	/tmp/tmpFYgWYG.lastz
+	/tmp/tmpjL85DD.lastz
+	/tmp/tmpLRJflg.lastz
+	/tmp/tmpwlU01t.lastz
+	/tmp/tmpLsCNdq.lastz
+	/tmp/tmpwHPF_2.lastz
+	/tmp/tmp3nJdeT.lastz
+	/tmp/tmp7Kgg7q.lastz
+	/tmp/tmpV5YD2d.lastz
+	/tmp/tmphuRCUP.lastz
+	/tmp/tmpl8j_bI.lastz
+	/tmp/tmpEEKkyo.lastz
+	/tmp/tmpQhdGGw.lastz
+	/tmp/tmpobj7Z2.lastz
+	/tmp/tmpxRdWQf.lastz
+	/tmp/tmpbmeZ3q.lastz
+	/tmp/tmp3O_wa5.lastz
+	/tmp/tmpWntTCI.lastz
+	/tmp/tmpnG5Sw_.lastz
+	/tmp/tmpTVOkBa.lastz
+	/tmp/tmp3FuY61.lastz
+	/tmp/tmpxXS2kD.lastz
+	/tmp/tmpPJFcgH.lastz
+	/tmp/tmpaFkyVp.lastz
+	/tmp/tmpBZHOXV.lastz
+	/tmp/tmpvOCKnV.lastz
+	/tmp/tmpeqbueB.lastz
+	/tmp/tmpob54Zi.lastz
+	/tmp/tmp2DcbNu.lastz
+	/tmp/tmppOipK6.lastz
+	/tmp/tmpXYtD07.lastz
+	/tmp/tmpDb16FI.lastz
+	/tmp/tmpeLC9TU.lastz
+	/tmp/tmptHaNEa.lastz
+	/tmp/tmpPU9Ywu.lastz
+	/tmp/tmp0ffOTU.lastz
+	/tmp/tmppEXusS.lastz
+	/tmp/tmpBf3kkf.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Lampetra_richardsoni.lastz
+Creating Lampetra_richardsoni table
+Inserting data to Lampetra_richardsoni table
+
+Running against Geotria_australis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 39 queries...
+	/tmp/tmpxwaygm.fasta
+	/tmp/tmpVCZRUv.fasta
+	/tmp/tmp3r1B2m.fasta
+	/tmp/tmpfS0Kp_.fasta
+	/tmp/tmpNU5ZNE.fasta
+	/tmp/tmpO53jsF.fasta
+	/tmp/tmpRoOZIQ.fasta
+	/tmp/tmpjldJSw.fasta
+	/tmp/tmpwdbm1k.fasta
+	/tmp/tmptfyIky.fasta
+	/tmp/tmppW0_Ka.fasta
+	/tmp/tmpGHdXyo.fasta
+	/tmp/tmpopG8at.fasta
+	/tmp/tmpBGqeEf.fasta
+	/tmp/tmpSPscCo.fasta
+	/tmp/tmpgZ2bic.fasta
+	/tmp/tmpENJynZ.fasta
+	/tmp/tmpyBzixC.fasta
+	/tmp/tmpHt152i.fasta
+	/tmp/tmpUMnIVf.fasta
+	/tmp/tmp7gnzvW.fasta
+	/tmp/tmpJewoCi.fasta
+	/tmp/tmpdO6xuS.fasta
+	/tmp/tmp2j0nLw.fasta
+	/tmp/tmpj35hR8.fasta
+	/tmp/tmp467Ly5.fasta
+	/tmp/tmpmKs8R1.fasta
+	/tmp/tmpjr1UTT.fasta
+	/tmp/tmp4nOUHT.fasta
+	/tmp/tmp16wrL_.fasta
+	/tmp/tmpLwExJw.fasta
+
+Writing the results file...
+	/tmp/tmps_rcph.lastz
+	/tmp/tmpDkACCQ.lastz
+	/tmp/tmp1osiji.lastz
+	/tmp/tmp4lX70s.lastz
+	/tmp/tmpP1nKwf.lastz
+	/tmp/tmpfwxaeY.lastz
+	/tmp/tmpos8Pzo.lastz
+	/tmp/tmp6rF3QB.lastz
+	/tmp/tmpHxFajw.lastz
+	/tmp/tmpZKt_Mx.lastz
+	/tmp/tmpitX6qU.lastz
+	/tmp/tmpwufYxM.lastz
+	/tmp/tmpfz4thN.lastz
+	/tmp/tmpZayH3S.lastz
+	/tmp/tmpV56qkV.lastz
+	/tmp/tmp1r1sl2.lastz
+	/tmp/tmpeCEvdC.lastz
+	/tmp/tmpyfDq9_.lastz
+	/tmp/tmp5kyDZs.lastz
+	/tmp/tmp1hn1KH.lastz
+	/tmp/tmps_Bbb8.lastz
+	/tmp/tmpbeEWIe.lastz
+	/tmp/tmp0KXBz_.lastz
+	/tmp/tmp9_mEsK.lastz
+	/tmp/tmp3T46R3.lastz
+	/tmp/tmpwNIxXl.lastz
+	/tmp/tmpQCSMuw.lastz
+	/tmp/tmpvbwCtC.lastz
+	/tmp/tmp6IYVEh.lastz
+	/tmp/tmp3QXB6w.lastz
+	/tmp/tmptqdfKW.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Geotria_australis.lastz
+Creating Geotria_australis table
+Inserting data to Geotria_australis table
+
+Running against Lampetra_auremensis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 82 queries...
+	/tmp/tmp0ew1vr.fasta
+	/tmp/tmpM6rOgb.fasta
+	/tmp/tmpdOSaWZ.fasta
+	/tmp/tmptQrFrz.fasta
+	/tmp/tmptauRnM.fasta
+	/tmp/tmpI53Q58.fasta
+	/tmp/tmp5u1xZk.fasta
+	/tmp/tmp8VU7uo.fasta
+	/tmp/tmp2rYPbq.fasta
+	/tmp/tmpPWeSBK.fasta
+	/tmp/tmpgWUdj1.fasta
+	/tmp/tmpHzz8lt.fasta
+	/tmp/tmpa01SpX.fasta
+	/tmp/tmp9CDfdU.fasta
+	/tmp/tmpThL6P4.fasta
+	/tmp/tmpgmoEDF.fasta
+	/tmp/tmp02KOz0.fasta
+	/tmp/tmpcCmRqC.fasta
+	/tmp/tmp0Q_e51.fasta
+	/tmp/tmpcLMcA5.fasta
+	/tmp/tmpe1aduI.fasta
+	/tmp/tmpBSt1Ln.fasta
+	/tmp/tmp1jIC23.fasta
+	/tmp/tmpAXrO7e.fasta
+	/tmp/tmpffiJER.fasta
+	/tmp/tmpzUzmCW.fasta
+	/tmp/tmpz_9PMA.fasta
+	/tmp/tmpU1PEJb.fasta
+	/tmp/tmpzd5ByZ.fasta
+	/tmp/tmpTkaspV.fasta
+	/tmp/tmpEZz4nS.fasta
+	/tmp/tmpVpnXqT.fasta
+	/tmp/tmpdoN2Ko.fasta
+	/tmp/tmpaecIo6.fasta
+	/tmp/tmp2ER6v7.fasta
+	/tmp/tmpek686h.fasta
+	/tmp/tmpHcW6nI.fasta
+	/tmp/tmp1_jZbA.fasta
+	/tmp/tmpMWO8zI.fasta
+	/tmp/tmpcOIVWK.fasta
+	/tmp/tmpsc1rkB.fasta
+	/tmp/tmpmjFguW.fasta
+	/tmp/tmpSlZ6qs.fasta
+	/tmp/tmpdZBG2S.fasta
+	/tmp/tmpDzrB8Y.fasta
+	/tmp/tmp_AHhNu.fasta
+	/tmp/tmpiTPYLX.fasta
+
+Writing the results file...
+	/tmp/tmpFwN5QR.lastz
+	/tmp/tmpeiDDHs.lastz
+	/tmp/tmpPGt3bF.lastz
+	/tmp/tmpDs5_Vz.lastz
+	/tmp/tmpB8uBle.lastz
+	/tmp/tmp6NcNae.lastz
+	/tmp/tmpVGth2Q.lastz
+	/tmp/tmpl7YZgs.lastz
+	/tmp/tmpmyqQod.lastz
+	/tmp/tmpYBo8kj.lastz
+	/tmp/tmpYuM007.lastz
+	/tmp/tmpEG7FXC.lastz
+	/tmp/tmpMoAHq9.lastz
+	/tmp/tmpFlAmzl.lastz
+	/tmp/tmpmJ_rOr.lastz
+	/tmp/tmpGHYcBu.lastz
+	/tmp/tmp9Qxgkn.lastz
+	/tmp/tmpdSw_5t.lastz
+	/tmp/tmpcv2gM6.lastz
+	/tmp/tmperLCyS.lastz
+	/tmp/tmpNctxzw.lastz
+	/tmp/tmp0hbXgo.lastz
+	/tmp/tmpGRTVFy.lastz
+	/tmp/tmpuAMaXu.lastz
+	/tmp/tmpePYoLc.lastz
+	/tmp/tmpmyQovo.lastz
+	/tmp/tmpuD_IBk.lastz
+	/tmp/tmpp63t3o.lastz
+	/tmp/tmpjpxtvO.lastz
+	/tmp/tmpSy4VJG.lastz
+	/tmp/tmpDmJDSe.lastz
+	/tmp/tmp8Tiy84.lastz
+	/tmp/tmppSCmUa.lastz
+	/tmp/tmpSlRQKx.lastz
+	/tmp/tmpWk5eEP.lastz
+	/tmp/tmpA3xDx6.lastz
+	/tmp/tmpFCqIy7.lastz
+	/tmp/tmpqPyJ17.lastz
+	/tmp/tmpFLDGqj.lastz
+	/tmp/tmpn6CouP.lastz
+	/tmp/tmpTOA1wE.lastz
+	/tmp/tmpl7Qq6R.lastz
+	/tmp/tmpDTIx6I.lastz
+	/tmp/tmpKuuR0S.lastz
+	/tmp/tmpAX6b8X.lastz
+	/tmp/tmpUMPijJ.lastz
+	/tmp/tmpLwXc7G.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Lampetra_auremensis.lastz
+Creating Lampetra_auremensis table
+Inserting data to Lampetra_auremensis table
+
+Running against Eudontomyzon_morii.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 63 queries...
+	/tmp/tmpWXrT9K.fasta
+	/tmp/tmpZyXvi1.fasta
+	/tmp/tmpGdznft.fasta
+	/tmp/tmpxR5RUq.fasta
+	/tmp/tmpftUJev.fasta
+	/tmp/tmpX6Xinu.fasta
+	/tmp/tmpMnl3fw.fasta
+	/tmp/tmpFn63F3.fasta
+	/tmp/tmpt5ZbLc.fasta
+	/tmp/tmp9PNsuj.fasta
+	/tmp/tmpDfZiGL.fasta
+	/tmp/tmp8F0F5b.fasta
+	/tmp/tmpx7zIbq.fasta
+	/tmp/tmprkso0y.fasta
+	/tmp/tmpXNVz7P.fasta
+	/tmp/tmpdPI0do.fasta
+	/tmp/tmpj3y3b2.fasta
+	/tmp/tmpKWsj4a.fasta
+	/tmp/tmpX34YEc.fasta
+	/tmp/tmpMyxI8l.fasta
+	/tmp/tmprUUFZT.fasta
+	/tmp/tmp4VFt5K.fasta
+	/tmp/tmp3Qkt8v.fasta
+	/tmp/tmpUAt3HM.fasta
+	/tmp/tmpAQpQW9.fasta
+	/tmp/tmpbd43Zo.fasta
+	/tmp/tmpRLmx5v.fasta
+	/tmp/tmpmaqHv_.fasta
+	/tmp/tmpjVnCvj.fasta
+	/tmp/tmpz7KvvY.fasta
+	/tmp/tmpg0JgrZ.fasta
+	/tmp/tmpvAAXKQ.fasta
+	/tmp/tmposyM7R.fasta
+	/tmp/tmpfNr41n.fasta
+	/tmp/tmpiLpr1m.fasta
+	/tmp/tmpSvoRrT.fasta
+	/tmp/tmp_sSeuU.fasta
+	/tmp/tmph4guU2.fasta
+	/tmp/tmpHz9PQH.fasta
+
+Writing the results file...
+	/tmp/tmpbI_ydX.lastz
+	/tmp/tmpIZg7Kc.lastz
+	/tmp/tmpSTF4gu.lastz
+	/tmp/tmpyB3FS6.lastz
+	/tmp/tmpgzGpjp.lastz
+	/tmp/tmpC8n_XY.lastz
+	/tmp/tmpRttPhV.lastz
+	/tmp/tmpZMviyB.lastz
+	/tmp/tmpj6R_Hd.lastz
+	/tmp/tmpxj52ni.lastz
+	/tmp/tmp16Oyxq.lastz
+	/tmp/tmpr5OENX.lastz
+	/tmp/tmpsxy4Wu.lastz
+	/tmp/tmpepBtcz.lastz
+	/tmp/tmpDq3s9z.lastz
+	/tmp/tmpcnOeuu.lastz
+	/tmp/tmpuSyOHL.lastz
+	/tmp/tmprrbho9.lastz
+	/tmp/tmpK9nTho.lastz
+	/tmp/tmpKVbIWn.lastz
+	/tmp/tmpXEuKFV.lastz
+	/tmp/tmpnysoma.lastz
+	/tmp/tmpNMzb9p.lastz
+	/tmp/tmptRPwY3.lastz
+	/tmp/tmpgzFrIB.lastz
+	/tmp/tmplASCdk.lastz
+	/tmp/tmpqDO4FP.lastz
+	/tmp/tmpFFcCCq.lastz
+	/tmp/tmpakczhm.lastz
+	/tmp/tmpItqZuJ.lastz
+	/tmp/tmpkXRg6C.lastz
+	/tmp/tmpliIoP6.lastz
+	/tmp/tmprBbsID.lastz
+	/tmp/tmpnpNt2S.lastz
+	/tmp/tmp52rWsq.lastz
+	/tmp/tmpYv_YzV.lastz
+	/tmp/tmp8uNVXn.lastz
+	/tmp/tmpZsh2ik.lastz
+	/tmp/tmppKW7cM.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Eudontomyzon_morii.lastz
+Creating Eudontomyzon_morii table
+Inserting data to Eudontomyzon_morii table
+
+Running against Entosphenus_tridentatus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 63 queries...
+	/tmp/tmpuMC93L.fasta
+	/tmp/tmpVbvyaP.fasta
+	/tmp/tmptrWG_7.fasta
+	/tmp/tmpbOroV6.fasta
+	/tmp/tmpRvfpmr.fasta
+	/tmp/tmp_XSZ68.fasta
+	/tmp/tmp_k1cEC.fasta
+	/tmp/tmp_zUKsq.fasta
+	/tmp/tmp3qvqxy.fasta
+	/tmp/tmpeIcHkj.fasta
+	/tmp/tmpN2VxB_.fasta
+	/tmp/tmp4mHoJ7.fasta
+	/tmp/tmpnY1pO5.fasta
+	/tmp/tmpSpAZnq.fasta
+	/tmp/tmp_ulLI7.fasta
+	/tmp/tmpp25Kd1.fasta
+	/tmp/tmpXT6tim.fasta
+	/tmp/tmpkJWpn9.fasta
+	/tmp/tmpd5Ip1R.fasta
+	/tmp/tmpXcfjvC.fasta
+	/tmp/tmpJTSFpq.fasta
+	/tmp/tmpH1EzEE.fasta
+	/tmp/tmppel6dV.fasta
+	/tmp/tmpaZmTl6.fasta
+	/tmp/tmpcDMNgl.fasta
+	/tmp/tmpGBjAEy.fasta
+	/tmp/tmp43OJW2.fasta
+	/tmp/tmpHLkR5T.fasta
+	/tmp/tmp3pLZGz.fasta
+	/tmp/tmpbZaEhv.fasta
+	/tmp/tmpGeXYOH.fasta
+	/tmp/tmp8bMMOZ.fasta
+	/tmp/tmpnabjKC.fasta
+	/tmp/tmp2yOAre.fasta
+	/tmp/tmpMhmNqR.fasta
+	/tmp/tmp4XKQtD.fasta
+	/tmp/tmpA859cM.fasta
+	/tmp/tmpNbRCze.fasta
+	/tmp/tmpdMbVPK.fasta
+	/tmp/tmpiAzNbY.fasta
+
+Writing the results file...
+	/tmp/tmp6eImnY.lastz
+	/tmp/tmp0xq0aJ.lastz
+	/tmp/tmpiiihY1.lastz
+	/tmp/tmpNViboZ.lastz
+	/tmp/tmpJKJOts.lastz
+	/tmp/tmpvZedBq.lastz
+	/tmp/tmpjYbhl3.lastz
+	/tmp/tmpGTEfwa.lastz
+	/tmp/tmp2MHRpq.lastz
+	/tmp/tmpOq9GBi.lastz
+	/tmp/tmpMj3Ach.lastz
+	/tmp/tmpJpt2vA.lastz
+	/tmp/tmpvlc_AI.lastz
+	/tmp/tmpVQpLe1.lastz
+	/tmp/tmpHVeVUF.lastz
+	/tmp/tmp_ad7QV.lastz
+	/tmp/tmpprljGI.lastz
+	/tmp/tmpmLB_XS.lastz
+	/tmp/tmpNsfU6c.lastz
+	/tmp/tmp1jhtyH.lastz
+	/tmp/tmpBaoYSe.lastz
+	/tmp/tmpiNmnE4.lastz
+	/tmp/tmpZo4QOz.lastz
+	/tmp/tmpucb4E5.lastz
+	/tmp/tmpL4dclP.lastz
+	/tmp/tmpa_UEnP.lastz
+	/tmp/tmpMdl4WN.lastz
+	/tmp/tmpB8Hgud.lastz
+	/tmp/tmpDYmuZM.lastz
+	/tmp/tmpyQwhRT.lastz
+	/tmp/tmpDZYjiL.lastz
+	/tmp/tmpwox6m_.lastz
+	/tmp/tmplLSjvd.lastz
+	/tmp/tmpyV57ty.lastz
+	/tmp/tmpBT69tQ.lastz
+	/tmp/tmplGTXj7.lastz
+	/tmp/tmpzBnROE.lastz
+	/tmp/tmpVtS39O.lastz
+	/tmp/tmpXrr6X9.lastz
+	/tmp/tmpEjbfAy.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Entosphenus_tridentatus.lastz
+Creating Entosphenus_tridentatus table
+Inserting data to Entosphenus_tridentatus table
+
+Running against Hydrolagus_mirabilis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 92 queries...
+	/tmp/tmpMfQ57Z.fasta
+	/tmp/tmpCgMded.fasta
+	/tmp/tmpcHqi5h.fasta
+	/tmp/tmpCah7SI.fasta
+	/tmp/tmpPqp5l9.fasta
+	/tmp/tmpOIJTls.fasta
+	/tmp/tmp0PE2wj.fasta
+	/tmp/tmpKPkv7l.fasta
+	/tmp/tmpKppnxB.fasta
+	/tmp/tmpZtaC4X.fasta
+	/tmp/tmp4bpcFP.fasta
+	/tmp/tmpci8pFL.fasta
+	/tmp/tmp5JsRda.fasta
+	/tmp/tmpzyZs1p.fasta
+	/tmp/tmp1_aNfu.fasta
+	/tmp/tmp2FCXQT.fasta
+	/tmp/tmpze35Ur.fasta
+	/tmp/tmpm6dym1.fasta
+	/tmp/tmpErb3Bb.fasta
+	/tmp/tmp4JdNxx.fasta
+	/tmp/tmpOY8T_F.fasta
+	/tmp/tmpLAsZ22.fasta
+	/tmp/tmpxOEVMm.fasta
+	/tmp/tmpVWZ18V.fasta
+	/tmp/tmpI1EK4N.fasta
+	/tmp/tmpxA0pyn.fasta
+	/tmp/tmptTOf8v.fasta
+	/tmp/tmpsvtcpY.fasta
+	/tmp/tmpSkBOo9.fasta
+	/tmp/tmp3NvyDY.fasta
+	/tmp/tmpzrNzPa.fasta
+	/tmp/tmpBirZE0.fasta
+	/tmp/tmpGzavsG.fasta
+	/tmp/tmp3z7VQG.fasta
+	/tmp/tmpYWQScA.fasta
+	/tmp/tmpmmVkFO.fasta
+	/tmp/tmpbXsnpj.fasta
+	/tmp/tmpuAOxBk.fasta
+	/tmp/tmpTnuFMD.fasta
+	/tmp/tmpJ7KsFa.fasta
+	/tmp/tmpCEzrCU.fasta
+	/tmp/tmprAYUa2.fasta
+	/tmp/tmpXQ9AHF.fasta
+	/tmp/tmpsm34G1.fasta
+	/tmp/tmpspXYak.fasta
+	/tmp/tmp8Mmsz5.fasta
+	/tmp/tmpbRJZ70.fasta
+	/tmp/tmp8YhIYS.fasta
+	/tmp/tmpanPXmZ.fasta
+	/tmp/tmpGSFn7S.fasta
+	/tmp/tmp2G0JCC.fasta
+	/tmp/tmpauKFig.fasta
+	/tmp/tmpU17W0l.fasta
+	/tmp/tmphDqBG0.fasta
+	/tmp/tmpn3xtgQ.fasta
+	/tmp/tmpE0AzX8.fasta
+	/tmp/tmpaz4tKn.fasta
+	/tmp/tmpZkG4T5.fasta
+
+Writing the results file...
+	/tmp/tmp_wNTUm.lastz
+	/tmp/tmpgvaF_F.lastz
+	/tmp/tmpxrEamt.lastz
+	/tmp/tmpKp_mXX.lastz
+	/tmp/tmpjT7dQI.lastz
+	/tmp/tmpxPPiBW.lastz
+	/tmp/tmpydSyiL.lastz
+	/tmp/tmp4ihhZI.lastz
+	/tmp/tmpnbnseM.lastz
+	/tmp/tmp60yYdS.lastz
+	/tmp/tmp3T4m4s.lastz
+	/tmp/tmpicpZdW.lastz
+	/tmp/tmpgTtrPN.lastz
+	/tmp/tmpKOj22A.lastz
+	/tmp/tmpHlrKFp.lastz
+	/tmp/tmpG6b0lC.lastz
+	/tmp/tmphaZCEo.lastz
+	/tmp/tmpxfLnK8.lastz
+	/tmp/tmpoDomoM.lastz
+	/tmp/tmpflQs1w.lastz
+	/tmp/tmpoLtZbU.lastz
+	/tmp/tmpcUoYCX.lastz
+	/tmp/tmp8jcMyr.lastz
+	/tmp/tmpV_RDLy.lastz
+	/tmp/tmpEHIlVP.lastz
+	/tmp/tmpocXFP1.lastz
+	/tmp/tmpt00Qdw.lastz
+	/tmp/tmpBRaLYS.lastz
+	/tmp/tmpLmCndE.lastz
+	/tmp/tmpAG78y0.lastz
+	/tmp/tmpRZguFZ.lastz
+	/tmp/tmp0Q88Fl.lastz
+	/tmp/tmpsIyauW.lastz
+	/tmp/tmpmoRjlG.lastz
+	/tmp/tmpxL86Bs.lastz
+	/tmp/tmpmiSaKz.lastz
+	/tmp/tmpUnvX8V.lastz
+	/tmp/tmptPP74d.lastz
+	/tmp/tmpSIVAL6.lastz
+	/tmp/tmpLIKO9s.lastz
+	/tmp/tmp9DKwqu.lastz
+	/tmp/tmpVBj4__.lastz
+	/tmp/tmpLd8O7D.lastz
+	/tmp/tmpGhP4OI.lastz
+	/tmp/tmp9P1YpB.lastz
+	/tmp/tmpXKzJMQ.lastz
+	/tmp/tmpfu9abA.lastz
+	/tmp/tmp_Hf5sp.lastz
+	/tmp/tmpQLtJIU.lastz
+	/tmp/tmpnBUnz_.lastz
+	/tmp/tmpgGQGyW.lastz
+	/tmp/tmpNE1N3s.lastz
+	/tmp/tmpZWffws.lastz
+	/tmp/tmpDvexWq.lastz
+	/tmp/tmpJAe4oz.lastz
+	/tmp/tmpMdCqDS.lastz
+	/tmp/tmpouVzP7.lastz
+	/tmp/tmpS8Vvc9.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Hydrolagus_mirabilis.lastz
+Creating Hydrolagus_mirabilis table
+Inserting data to Hydrolagus_mirabilis table
+
+Running against Pristiophorus_japonicus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 91 queries...
+	/tmp/tmpvNlaxL.fasta
+	/tmp/tmpX7M6XH.fasta
+	/tmp/tmphvSFWA.fasta
+	/tmp/tmpLugteA.fasta
+	/tmp/tmponJM5o.fasta
+	/tmp/tmpYbA_d_.fasta
+	/tmp/tmpOHHsjp.fasta
+	/tmp/tmpBo1BDa.fasta
+	/tmp/tmpvHP7wU.fasta
+	/tmp/tmp19FZ5v.fasta
+	/tmp/tmp0_fKtt.fasta
+	/tmp/tmpscohNa.fasta
+	/tmp/tmpMNOH31.fasta
+	/tmp/tmprzksEc.fasta
+	/tmp/tmpZ3CDFR.fasta
+	/tmp/tmpOFv6H3.fasta
+	/tmp/tmpIj1zcK.fasta
+	/tmp/tmpz7gfOQ.fasta
+	/tmp/tmpoC6Yiw.fasta
+	/tmp/tmpMo57qy.fasta
+	/tmp/tmp7AY4Qz.fasta
+	/tmp/tmpOhSs5u.fasta
+	/tmp/tmpTMwzjY.fasta
+	/tmp/tmp3Q31IB.fasta
+	/tmp/tmpzgSReh.fasta
+	/tmp/tmpkaTwC3.fasta
+	/tmp/tmp5xtCsF.fasta
+	/tmp/tmplXTQk7.fasta
+	/tmp/tmpymC3zA.fasta
+	/tmp/tmp6hpWxG.fasta
+	/tmp/tmpsKBxXd.fasta
+
+Writing the results file...
+	/tmp/tmpqoqxVd.lastz
+	/tmp/tmps6s_uV.lastz
+	/tmp/tmplZLF_U.lastz
+	/tmp/tmpXzk1ZX.lastz
+	/tmp/tmpayQNRA.lastz
+	/tmp/tmp4XlETd.lastz
+	/tmp/tmpgNT9tf.lastz
+	/tmp/tmpC_iSL0.lastz
+	/tmp/tmpImyZut.lastz
+	/tmp/tmpMPwp9d.lastz
+	/tmp/tmpT0NYxV.lastz
+	/tmp/tmpEWK4CW.lastz
+	/tmp/tmpwOIHhN.lastz
+	/tmp/tmpeuM26N.lastz
+	/tmp/tmpszFt1w.lastz
+	/tmp/tmpZNHZIT.lastz
+	/tmp/tmpnXE5z5.lastz
+	/tmp/tmpPnLgKY.lastz
+	/tmp/tmpTCMtjy.lastz
+	/tmp/tmpNnqfAJ.lastz
+	/tmp/tmp80phxq.lastz
+	/tmp/tmpgpOuJr.lastz
+	/tmp/tmpVgeT97.lastz
+	/tmp/tmpvkKsQE.lastz
+	/tmp/tmpFvgM6q.lastz
+	/tmp/tmpoh7ZKn.lastz
+	/tmp/tmpxNko2f.lastz
+	/tmp/tmpAxu9qZ.lastz
+	/tmp/tmpedxbvr.lastz
+	/tmp/tmpSw6jE3.lastz
+	/tmp/tmpuC44sV.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Pristiophorus_japonicus.lastz
+Creating Pristiophorus_japonicus table
+Inserting data to Pristiophorus_japonicus table
+
+Running against Lethenteron_camtschaticum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 74 queries...
+	/tmp/tmpuoge4i.fasta
+	/tmp/tmpsvVn6d.fasta
+	/tmp/tmpl2glhW.fasta
+	/tmp/tmpl3k3cL.fasta
+	/tmp/tmpNC5uJw.fasta
+	/tmp/tmprdBEPo.fasta
+	/tmp/tmphExWga.fasta
+	/tmp/tmpFLUXBA.fasta
+	/tmp/tmpIE6TtI.fasta
+	/tmp/tmpwqbtF1.fasta
+	/tmp/tmppEHCYf.fasta
+	/tmp/tmpKktuSQ.fasta
+	/tmp/tmpWvPM20.fasta
+	/tmp/tmpgdWWfa.fasta
+	/tmp/tmpN3_yoB.fasta
+	/tmp/tmpghQBEE.fasta
+	/tmp/tmptqd4yX.fasta
+	/tmp/tmpxwblms.fasta
+	/tmp/tmpJnYJxf.fasta
+	/tmp/tmp7_ZYLr.fasta
+	/tmp/tmp3Tt_Er.fasta
+	/tmp/tmpq6vaFg.fasta
+	/tmp/tmpgPCzBb.fasta
+	/tmp/tmpchCrYW.fasta
+	/tmp/tmpfDJiO1.fasta
+	/tmp/tmpqoxjYH.fasta
+	/tmp/tmplrWTrX.fasta
+	/tmp/tmpahWx9p.fasta
+	/tmp/tmp8Tbc8g.fasta
+	/tmp/tmp_v01BD.fasta
+	/tmp/tmpq0rZJi.fasta
+	/tmp/tmp_lqi81.fasta
+	/tmp/tmpCzVP0f.fasta
+	/tmp/tmpOiCbCu.fasta
+	/tmp/tmpBnxJmU.fasta
+	/tmp/tmppjpUZd.fasta
+	/tmp/tmpjgjto2.fasta
+	/tmp/tmpwFk9DK.fasta
+	/tmp/tmpFxTWqo.fasta
+	/tmp/tmpQOuhr4.fasta
+	/tmp/tmpeSmVD7.fasta
+	/tmp/tmpf8G7ft.fasta
+	/tmp/tmpUPVdiN.fasta
+	/tmp/tmp0DFWrV.fasta
+	/tmp/tmpn9Ch6U.fasta
+	/tmp/tmp3Fyjpm.fasta
+	/tmp/tmpRojiKc.fasta
+
+Writing the results file...
+	/tmp/tmpCt67LS.lastz
+	/tmp/tmpQt5jAd.lastz
+	/tmp/tmpnsCoo1.lastz
+	/tmp/tmpUYyPyN.lastz
+	/tmp/tmpPucnm7.lastz
+	/tmp/tmpbm6rX7.lastz
+	/tmp/tmpOCem_V.lastz
+	/tmp/tmpoJOWhP.lastz
+	/tmp/tmpZLUctO.lastz
+	/tmp/tmpwUT4j4.lastz
+	/tmp/tmpsd5yvk.lastz
+	/tmp/tmpphdXN3.lastz
+	/tmp/tmpt7t4EN.lastz
+	/tmp/tmpFAUaqx.lastz
+	/tmp/tmpPoETgG.lastz
+	/tmp/tmpVeAIh6.lastz
+	/tmp/tmpSHwW82.lastz
+	/tmp/tmpZafbtQ.lastz
+	/tmp/tmpM6jM66.lastz
+	/tmp/tmp7sWihy.lastz
+	/tmp/tmpeNuQaI.lastz
+	/tmp/tmp2sw_o1.lastz
+	/tmp/tmpaKr8kE.lastz
+	/tmp/tmpyBTtDc.lastz
+	/tmp/tmpeCpfBf.lastz
+	/tmp/tmpCSVfb_.lastz
+	/tmp/tmpR82nJM.lastz
+	/tmp/tmpSqqygD.lastz
+	/tmp/tmph5Mtt8.lastz
+	/tmp/tmp5hJF95.lastz
+	/tmp/tmpME1tC8.lastz
+	/tmp/tmpg18JuU.lastz
+	/tmp/tmp2NTYlO.lastz
+	/tmp/tmpCTVTeR.lastz
+	/tmp/tmp947ytE.lastz
+	/tmp/tmp8PvLWn.lastz
+	/tmp/tmpreO19e.lastz
+	/tmp/tmpj70JjK.lastz
+	/tmp/tmpQAHZA8.lastz
+	/tmp/tmpP3gQQi.lastz
+	/tmp/tmpD56NLY.lastz
+	/tmp/tmpNP2hzM.lastz
+	/tmp/tmpQZ4fVt.lastz
+	/tmp/tmpy0Z5WN.lastz
+	/tmp/tmpS1FjO3.lastz
+	/tmp/tmp4jw0Jb.lastz
+	/tmp/tmpivrHXb.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Lethenteron_camtschaticum.lastz
+Creating Lethenteron_camtschaticum table
+Inserting data to Lethenteron_camtschaticum table
+
+Running against Stegostoma_tigrinum.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 57 queries...
+	/tmp/tmpJPO1d3.fasta
+	/tmp/tmp4UHdfA.fasta
+	/tmp/tmpxXQoGA.fasta
+	/tmp/tmpNBypY5.fasta
+	/tmp/tmpZOjd0S.fasta
+	/tmp/tmpLnMR1w.fasta
+	/tmp/tmpO5l8ae.fasta
+	/tmp/tmpNwybu8.fasta
+	/tmp/tmpb0tbdD.fasta
+	/tmp/tmpBlcHc5.fasta
+	/tmp/tmpbhZRnQ.fasta
+	/tmp/tmpNDDgYu.fasta
+	/tmp/tmp7XVXrm.fasta
+	/tmp/tmpxIjjPO.fasta
+	/tmp/tmp6X6OB8.fasta
+	/tmp/tmp5sYfN3.fasta
+	/tmp/tmpxJeH68.fasta
+	/tmp/tmpZiPfJ2.fasta
+	/tmp/tmppEOk1N.fasta
+	/tmp/tmpfeFjhN.fasta
+	/tmp/tmp3SCZv5.fasta
+	/tmp/tmpYQFzaq.fasta
+	/tmp/tmpmTpPNu.fasta
+	/tmp/tmpnxFF0L.fasta
+	/tmp/tmpwj5047.fasta
+	/tmp/tmpPzxP_p.fasta
+	/tmp/tmpTSw12x.fasta
+	/tmp/tmpcyyaeT.fasta
+	/tmp/tmpGV9HOx.fasta
+	/tmp/tmpGpbmao.fasta
+	/tmp/tmpCQiUM4.fasta
+	/tmp/tmp5B4faf.fasta
+	/tmp/tmpaWjNjm.fasta
+	/tmp/tmpue5KPv.fasta
+	/tmp/tmp46YCNO.fasta
+	/tmp/tmpLwGmS_.fasta
+	/tmp/tmpdIG4FY.fasta
+	/tmp/tmppF0Snf.fasta
+
+Writing the results file...
+	/tmp/tmpqUWOVk.lastz
+	/tmp/tmphTgKPX.lastz
+	/tmp/tmpyqdiOX.lastz
+	/tmp/tmpgrgjuS.lastz
+	/tmp/tmpCdfWGQ.lastz
+	/tmp/tmpDAloEt.lastz
+	/tmp/tmpfrwHZ3.lastz
+	/tmp/tmptuwUaI.lastz
+	/tmp/tmpeWXgcd.lastz
+	/tmp/tmpGchlCg.lastz
+	/tmp/tmpycIIB2.lastz
+	/tmp/tmpuqmCa9.lastz
+	/tmp/tmpIvU6a4.lastz
+	/tmp/tmpiWWwsW.lastz
+	/tmp/tmpM5uK2h.lastz
+	/tmp/tmpnHMy0a.lastz
+	/tmp/tmpTzGp8H.lastz
+	/tmp/tmpsay9WY.lastz
+	/tmp/tmpz6LHj6.lastz
+	/tmp/tmp5MnEWS.lastz
+	/tmp/tmp3DAz6N.lastz
+	/tmp/tmpK21dws.lastz
+	/tmp/tmphNe2Cw.lastz
+	/tmp/tmpHovs6P.lastz
+	/tmp/tmpL7RNGT.lastz
+	/tmp/tmp7Z98jM.lastz
+	/tmp/tmpyoPIG6.lastz
+	/tmp/tmpUr97OW.lastz
+	/tmp/tmpGZLqR0.lastz
+	/tmp/tmpd2Vk7_.lastz
+	/tmp/tmpe4ERyN.lastz
+	/tmp/tmpOisT3y.lastz
+	/tmp/tmp4xbGXK.lastz
+	/tmp/tmpTjffJU.lastz
+	/tmp/tmpiNHX7f.lastz
+	/tmp/tmpaMk8DR.lastz
+	/tmp/tmpysp0MH.lastz
+	/tmp/tmpaqKT3T.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Stegostoma_tigrinum.lastz
+Creating Stegostoma_tigrinum table
+Inserting data to Stegostoma_tigrinum table
+
+Running against Heterodontus_francisci.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 157 queries...
+	/tmp/tmpyPp4cE.fasta
+	/tmp/tmpbkq8_f.fasta
+	/tmp/tmpFBBj6j.fasta
+	/tmp/tmpRxTMMg.fasta
+	/tmp/tmp4Jb3dj.fasta
+	/tmp/tmppAtJSy.fasta
+	/tmp/tmph4n7DG.fasta
+	/tmp/tmpPCMvGA.fasta
+	/tmp/tmp18k6Zv.fasta
+	/tmp/tmpwMIOUn.fasta
+	/tmp/tmpyWSKUE.fasta
+	/tmp/tmpD68VoN.fasta
+	/tmp/tmpJVO7Y4.fasta
+	/tmp/tmp8Qm0k0.fasta
+	/tmp/tmp6lCyHr.fasta
+	/tmp/tmp1aVHoV.fasta
+	/tmp/tmpGVLI3J.fasta
+	/tmp/tmpopvdG4.fasta
+	/tmp/tmppP8WtK.fasta
+	/tmp/tmpcIzmqk.fasta
+	/tmp/tmpZ34iat.fasta
+	/tmp/tmp5ZP6xC.fasta
+	/tmp/tmp8UlYIq.fasta
+	/tmp/tmplZyOr1.fasta
+	/tmp/tmpZsmAqS.fasta
+	/tmp/tmpdVdpw8.fasta
+	/tmp/tmp6VeKF6.fasta
+	/tmp/tmpt1IjAv.fasta
+	/tmp/tmp1jrsyu.fasta
+	/tmp/tmpRuw3iD.fasta
+	/tmp/tmp9htdHS.fasta
+	/tmp/tmp4DCgO6.fasta
+	/tmp/tmpT63gsP.fasta
+	/tmp/tmp5PhoJY.fasta
+	/tmp/tmpM2cTkq.fasta
+	/tmp/tmpC09TR7.fasta
+	/tmp/tmpElV3tg.fasta
+	/tmp/tmph_bNVj.fasta
+	/tmp/tmpy9dM6a.fasta
+	/tmp/tmptPh6du.fasta
+	/tmp/tmpa9PkfR.fasta
+	/tmp/tmpV3SX5W.fasta
+	/tmp/tmpIujJ6U.fasta
+	/tmp/tmpaEIR0y.fasta
+	/tmp/tmpKfvCRQ.fasta
+	/tmp/tmpsGHe6C.fasta
+
+Writing the results file...
+	/tmp/tmpMYYvnK.lastz
+	/tmp/tmpZxZyxC.lastz
+	/tmp/tmpxSWCFT.lastz
+	/tmp/tmpPGMt9l.lastz
+	/tmp/tmpwSBgRy.lastz
+	/tmp/tmpym9o3v.lastz
+	/tmp/tmpEuT2oM.lastz
+	/tmp/tmphrm0Qg.lastz
+	/tmp/tmpfpTIDS.lastz
+	/tmp/tmp2neMnZ.lastz
+	/tmp/tmp5sro6e.lastz
+	/tmp/tmpg39Tbl.lastz
+	/tmp/tmpez68vP.lastz
+	/tmp/tmp8CmJHz.lastz
+	/tmp/tmpVvVVZa.lastz
+	/tmp/tmpDAe1nD.lastz
+	/tmp/tmpvPbBik.lastz
+	/tmp/tmpgeh5ZZ.lastz
+	/tmp/tmpADYOeB.lastz
+	/tmp/tmpVXfx9z.lastz
+	/tmp/tmpyXPeTF.lastz
+	/tmp/tmpdUNHBm.lastz
+	/tmp/tmpoM1SzQ.lastz
+	/tmp/tmpbwsDZt.lastz
+	/tmp/tmp0MsIGf.lastz
+	/tmp/tmpRZ1BIB.lastz
+	/tmp/tmpF0tHu6.lastz
+	/tmp/tmp1mEs9t.lastz
+	/tmp/tmpgoO6A2.lastz
+	/tmp/tmpaoDfJX.lastz
+	/tmp/tmpjU5npG.lastz
+	/tmp/tmpLauWLw.lastz
+	/tmp/tmpULjG7f.lastz
+	/tmp/tmpILZhS3.lastz
+	/tmp/tmpthMEDm.lastz
+	/tmp/tmpB8iEew.lastz
+	/tmp/tmpNr0wNI.lastz
+	/tmp/tmpuNjViI.lastz
+	/tmp/tmpDvSBL3.lastz
+	/tmp/tmpor1kdl.lastz
+	/tmp/tmpV7WAoA.lastz
+	/tmp/tmphiPWNw.lastz
+	/tmp/tmpFZFKqA.lastz
+	/tmp/tmpSGWrLu.lastz
+	/tmp/tmpr8r93w.lastz
+	/tmp/tmpVIUdfB.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Heterodontus_francisci.lastz
+Creating Heterodontus_francisci table
+Inserting data to Heterodontus_francisci table
+
+Running against Leucoraja_erinaceus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 51 queries...
+	/tmp/tmpCCBHZA.fasta
+	/tmp/tmpaPfYxV.fasta
+	/tmp/tmpYZM6cG.fasta
+	/tmp/tmprMdoDK.fasta
+	/tmp/tmpFZRp0C.fasta
+	/tmp/tmpW9RrZW.fasta
+	/tmp/tmpuBkXnd.fasta
+	/tmp/tmpfRq_oX.fasta
+	/tmp/tmpiIM75j.fasta
+	/tmp/tmpt6uMPd.fasta
+	/tmp/tmp3p6_SJ.fasta
+	/tmp/tmpL8RcJW.fasta
+	/tmp/tmpZ3PPqZ.fasta
+	/tmp/tmpKICKcB.fasta
+	/tmp/tmpQeJJE_.fasta
+	/tmp/tmpoot5Qy.fasta
+	/tmp/tmpxecTi9.fasta
+	/tmp/tmp9yPrjs.fasta
+	/tmp/tmpRIsxe1.fasta
+	/tmp/tmp2CuPmi.fasta
+	/tmp/tmpgAZDCQ.fasta
+	/tmp/tmpRxbOb4.fasta
+	/tmp/tmpfui2tq.fasta
+	/tmp/tmpWGh_O0.fasta
+	/tmp/tmpGYu7DH.fasta
+	/tmp/tmpLaTIbJ.fasta
+	/tmp/tmpRWJ96q.fasta
+	/tmp/tmpmAq2O9.fasta
+	/tmp/tmpSGh_ow.fasta
+	/tmp/tmpdp1kfQ.fasta
+	/tmp/tmpsZoFNV.fasta
+	/tmp/tmploWrxn.fasta
+	/tmp/tmpjd3oXc.fasta
+	/tmp/tmpOfi1OJ.fasta
+	/tmp/tmpypAmQN.fasta
+
+Writing the results file...
+	/tmp/tmp0WPRcl.lastz
+	/tmp/tmpHuvvjc.lastz
+	/tmp/tmpYhosT5.lastz
+	/tmp/tmp11UiwE.lastz
+	/tmp/tmpUf5yby.lastz
+	/tmp/tmpYpK6bw.lastz
+	/tmp/tmpuYKB4c.lastz
+	/tmp/tmpav8Rrd.lastz
+	/tmp/tmpj5mW4k.lastz
+	/tmp/tmpM2QQdN.lastz
+	/tmp/tmpuvv0_f.lastz
+	/tmp/tmpb7_mdL.lastz
+	/tmp/tmpIceAN6.lastz
+	/tmp/tmpJE6lfw.lastz
+	/tmp/tmpiBAcB8.lastz
+	/tmp/tmpLGBWbK.lastz
+	/tmp/tmpFB_8vz.lastz
+	/tmp/tmpdXnD3P.lastz
+	/tmp/tmpj6xnca.lastz
+	/tmp/tmpLPOCRG.lastz
+	/tmp/tmp4pOFr8.lastz
+	/tmp/tmpKkSV21.lastz
+	/tmp/tmpMUNKe_.lastz
+	/tmp/tmpoXCJmT.lastz
+	/tmp/tmpFlpSns.lastz
+	/tmp/tmpjDWXa5.lastz
+	/tmp/tmpkxN5EY.lastz
+	/tmp/tmpVKYBan.lastz
+	/tmp/tmpxVfCH3.lastz
+	/tmp/tmpA2bwyy.lastz
+	/tmp/tmpsaWAUA.lastz
+	/tmp/tmpu2Pljw.lastz
+	/tmp/tmpkjDqCj.lastz
+	/tmp/tmpcnBpaK.lastz
+	/tmp/tmpymcp8D.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Leucoraja_erinaceus.lastz
+Creating Leucoraja_erinaceus table
+Inserting data to Leucoraja_erinaceus table
+
+Running against Hydrolagus_colliei.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 30 queries...
+	/tmp/tmpNqhfyK.fasta
+	/tmp/tmp9Qtv7c.fasta
+	/tmp/tmpihyHVO.fasta
+	/tmp/tmp_vBrux.fasta
+	/tmp/tmpvys6Mt.fasta
+	/tmp/tmpiY7KXA.fasta
+	/tmp/tmpaJyEAs.fasta
+	/tmp/tmpMbvFqr.fasta
+	/tmp/tmprc0wyJ.fasta
+	/tmp/tmpSlkNE8.fasta
+	/tmp/tmp2cY4hC.fasta
+	/tmp/tmpiUMuPn.fasta
+	/tmp/tmpndJMnW.fasta
+	/tmp/tmpDU3vCE.fasta
+	/tmp/tmpj7Cyc5.fasta
+	/tmp/tmpViBjT0.fasta
+	/tmp/tmpDw59Kh.fasta
+	/tmp/tmp5LKXmR.fasta
+	/tmp/tmpFiJzsg.fasta
+	/tmp/tmpODcKs0.fasta
+	/tmp/tmpvmYDYV.fasta
+	/tmp/tmpv0Y1Gm.fasta
+	/tmp/tmp28wL_6.fasta
+	/tmp/tmpVDEsuU.fasta
+	/tmp/tmpqO9SP7.fasta
+	/tmp/tmp_SY0mN.fasta
+	/tmp/tmp1JdJw5.fasta
+
+Writing the results file...
+	/tmp/tmpENaxPY.lastz
+	/tmp/tmp0gc3t2.lastz
+	/tmp/tmpLZJEHn.lastz
+	/tmp/tmpas0rux.lastz
+	/tmp/tmprB9Pkk.lastz
+	/tmp/tmpwvbMMx.lastz
+	/tmp/tmprraaWf.lastz
+	/tmp/tmpOxXYHK.lastz
+	/tmp/tmplizxC0.lastz
+	/tmp/tmpBYqAuY.lastz
+	/tmp/tmpm7zSBx.lastz
+	/tmp/tmpdMw0A6.lastz
+	/tmp/tmpKnaWtk.lastz
+	/tmp/tmp1LAonh.lastz
+	/tmp/tmpdTQSos.lastz
+	/tmp/tmpCHlJmL.lastz
+	/tmp/tmpINFwEm.lastz
+	/tmp/tmp01fcHI.lastz
+	/tmp/tmpY_1743.lastz
+	/tmp/tmphh34Nd.lastz
+	/tmp/tmpBz5gJG.lastz
+	/tmp/tmpQDlRfq.lastz
+	/tmp/tmpAJv_iV.lastz
+	/tmp/tmpJVFUth.lastz
+	/tmp/tmp5AmGcC.lastz
+	/tmp/tmpCEzT2n.lastz
+	/tmp/tmpRMB5bf.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Hydrolagus_colliei.lastz
+Creating Hydrolagus_colliei table
+Inserting data to Hydrolagus_colliei table
+
+Running against Raja_brachyura.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 51 queries...
+	/tmp/tmppxWbN0.fasta
+	/tmp/tmpImPyOR.fasta
+	/tmp/tmpKYVbsU.fasta
+	/tmp/tmp0Ruj6L.fasta
+	/tmp/tmpq4MgW1.fasta
+	/tmp/tmp6QCHe4.fasta
+	/tmp/tmp2khmSU.fasta
+	/tmp/tmpmQTxyK.fasta
+	/tmp/tmpwFs16Z.fasta
+	/tmp/tmpf2lUJ_.fasta
+	/tmp/tmpoXbXD_.fasta
+	/tmp/tmpwEZGeo.fasta
+	/tmp/tmpVhBorQ.fasta
+	/tmp/tmpzJc6fA.fasta
+	/tmp/tmpWsdeAk.fasta
+	/tmp/tmpeYi6s5.fasta
+	/tmp/tmp0ySd0z.fasta
+	/tmp/tmppZkeXU.fasta
+	/tmp/tmpThFvZM.fasta
+	/tmp/tmppEO4Nl.fasta
+	/tmp/tmp_buLuA.fasta
+	/tmp/tmpdD8zFd.fasta
+	/tmp/tmpwAZSzD.fasta
+	/tmp/tmpgedhkM.fasta
+	/tmp/tmpv3lA4e.fasta
+	/tmp/tmpHv9GwI.fasta
+	/tmp/tmpRJRqiO.fasta
+	/tmp/tmpvyQeTN.fasta
+	/tmp/tmp_VUx4Z.fasta
+	/tmp/tmpAWJ1QI.fasta
+	/tmp/tmpw8hcYE.fasta
+	/tmp/tmp59_rYX.fasta
+	/tmp/tmpiqfaI8.fasta
+	/tmp/tmpSgyqRS.fasta
+	/tmp/tmpQ04H2R.fasta
+	/tmp/tmpPEwiF_.fasta
+	/tmp/tmpfwUJ57.fasta
+	/tmp/tmpRa1s_f.fasta
+	/tmp/tmpIa3ACa.fasta
+	/tmp/tmpROn6uo.fasta
+	/tmp/tmpscwsfe.fasta
+
+Writing the results file...
+	/tmp/tmpT_JjCb.lastz
+	/tmp/tmprjGr6l.lastz
+	/tmp/tmpQ_2esl.lastz
+	/tmp/tmpYWf5tU.lastz
+	/tmp/tmpP9sgpT.lastz
+	/tmp/tmpYjNFBC.lastz
+	/tmp/tmpguElKU.lastz
+	/tmp/tmp4NpUHu.lastz
+	/tmp/tmpqKI9b_.lastz
+	/tmp/tmpeYrOjV.lastz
+	/tmp/tmpaVnjGp.lastz
+	/tmp/tmpN0HJs2.lastz
+	/tmp/tmp4A99lk.lastz
+	/tmp/tmpPHJURS.lastz
+	/tmp/tmpWFkI6S.lastz
+	/tmp/tmpdVCFra.lastz
+	/tmp/tmpT77UT6.lastz
+	/tmp/tmpckzv2w.lastz
+	/tmp/tmpe74M2V.lastz
+	/tmp/tmp3q_8zx.lastz
+	/tmp/tmpsJD3Nh.lastz
+	/tmp/tmpOvEC71.lastz
+	/tmp/tmpJIl4Rq.lastz
+	/tmp/tmpmdqPaQ.lastz
+	/tmp/tmpWn9gAk.lastz
+	/tmp/tmpVptAIX.lastz
+	/tmp/tmpThg0BG.lastz
+	/tmp/tmpiC5u4K.lastz
+	/tmp/tmpyzyfQS.lastz
+	/tmp/tmp7CKFDX.lastz
+	/tmp/tmpjGnZXB.lastz
+	/tmp/tmp7OO_WB.lastz
+	/tmp/tmpF8mwaq.lastz
+	/tmp/tmpszdE7V.lastz
+	/tmp/tmpy7P7l_.lastz
+	/tmp/tmp5FR4Hl.lastz
+	/tmp/tmpMEoCcs.lastz
+	/tmp/tmpyZS5yk.lastz
+	/tmp/tmpqIR_zS.lastz
+	/tmp/tmp9AFYSH.lastz
+	/tmp/tmpnCNU5o.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Raja_brachyura.lastz
+Creating Raja_brachyura table
+Inserting data to Raja_brachyura table
+
+Running against Heptranchias_perlo.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 74 queries...
+	/tmp/tmpOASntY.fasta
+	/tmp/tmpEU3_Cx.fasta
+	/tmp/tmpEB9iKe.fasta
+	/tmp/tmp1nzyxW.fasta
+	/tmp/tmp2clGOG.fasta
+	/tmp/tmp2pF6IH.fasta
+	/tmp/tmpt1QWFt.fasta
+	/tmp/tmp2UMQeF.fasta
+	/tmp/tmp78IFUJ.fasta
+	/tmp/tmpzIdkKF.fasta
+	/tmp/tmpVp6iYv.fasta
+	/tmp/tmplohFt9.fasta
+	/tmp/tmpifSOPB.fasta
+	/tmp/tmpbyP1oy.fasta
+	/tmp/tmptvpazb.fasta
+	/tmp/tmpaP7pDM.fasta
+	/tmp/tmpEL60gi.fasta
+	/tmp/tmpshL_x8.fasta
+	/tmp/tmpzSJZnC.fasta
+	/tmp/tmpFQZOnd.fasta
+	/tmp/tmpPp3u2J.fasta
+	/tmp/tmpsuok6T.fasta
+	/tmp/tmpTLK5le.fasta
+	/tmp/tmp9aCWnB.fasta
+	/tmp/tmpMxdR0n.fasta
+	/tmp/tmpH0_aVy.fasta
+	/tmp/tmpad7ta2.fasta
+	/tmp/tmpTVFasj.fasta
+	/tmp/tmpTUpyJp.fasta
+	/tmp/tmpyv_cU7.fasta
+	/tmp/tmpCjes9Q.fasta
+	/tmp/tmpztnBE4.fasta
+	/tmp/tmpsCdyu2.fasta
+	/tmp/tmp8FVgYW.fasta
+	/tmp/tmpKezDyn.fasta
+	/tmp/tmpnMEvJE.fasta
+	/tmp/tmphN16PT.fasta
+	/tmp/tmpDTJS8g.fasta
+	/tmp/tmp0XsvsL.fasta
+	/tmp/tmp20K5f9.fasta
+	/tmp/tmp4L0Vk8.fasta
+	/tmp/tmpIHgiU1.fasta
+	/tmp/tmpomd2tw.fasta
+	/tmp/tmpzShLJI.fasta
+	/tmp/tmpREpUHG.fasta
+
+Writing the results file...
+	/tmp/tmpWRuxmS.lastz
+	/tmp/tmpFx_wzD.lastz
+	/tmp/tmpA9E6bV.lastz
+	/tmp/tmp4HR416.lastz
+	/tmp/tmpxwKwjk.lastz
+	/tmp/tmphVdJxg.lastz
+	/tmp/tmpovtFcS.lastz
+	/tmp/tmpl2bP4M.lastz
+	/tmp/tmpM4iVsk.lastz
+	/tmp/tmpdYzntD.lastz
+	/tmp/tmpiW6w0q.lastz
+	/tmp/tmpK4SyGK.lastz
+	/tmp/tmpHsHeRa.lastz
+	/tmp/tmpKUMkMM.lastz
+	/tmp/tmpld4MEr.lastz
+	/tmp/tmpJAWnqJ.lastz
+	/tmp/tmpRQg5dY.lastz
+	/tmp/tmpARR8Tv.lastz
+	/tmp/tmpnUvYFz.lastz
+	/tmp/tmpV5qmV7.lastz
+	/tmp/tmpbWaSHB.lastz
+	/tmp/tmpf3Nd1X.lastz
+	/tmp/tmphuIcRI.lastz
+	/tmp/tmpUHB8_b.lastz
+	/tmp/tmpJOhWas.lastz
+	/tmp/tmpzp9CrI.lastz
+	/tmp/tmplZYCtL.lastz
+	/tmp/tmp1SfX1w.lastz
+	/tmp/tmpONWpPT.lastz
+	/tmp/tmpjtfZdE.lastz
+	/tmp/tmpuKzYpv.lastz
+	/tmp/tmpotdWBR.lastz
+	/tmp/tmpRoIyQU.lastz
+	/tmp/tmpuad3_H.lastz
+	/tmp/tmpKb4zxN.lastz
+	/tmp/tmp_IopZi.lastz
+	/tmp/tmpL1lZJ8.lastz
+	/tmp/tmpmOBvU2.lastz
+	/tmp/tmpGbUQvB.lastz
+	/tmp/tmpYb21AX.lastz
+	/tmp/tmplUQf1H.lastz
+	/tmp/tmpjDdsIi.lastz
+	/tmp/tmpAdzjje.lastz
+	/tmp/tmpmRisUT.lastz
+	/tmp/tmpe7h_lR.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Heptranchias_perlo.lastz
+Creating Heptranchias_perlo table
+Inserting data to Heptranchias_perlo table
+
+Running against Homo_sapiens.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 34 queries...
+	/tmp/tmpuZlO0o.fasta
+	/tmp/tmpgAt9E9.fasta
+	/tmp/tmpCMJAcT.fasta
+	/tmp/tmpNnOMCM.fasta
+	/tmp/tmpc_XRIM.fasta
+	/tmp/tmpPB6yaH.fasta
+	/tmp/tmpMkCzAo.fasta
+	/tmp/tmpk2Asjf.fasta
+	/tmp/tmpj7BxO9.fasta
+	/tmp/tmp9Cp6VH.fasta
+	/tmp/tmpRtNRRY.fasta
+	/tmp/tmpKjmHQH.fasta
+	/tmp/tmpVh5KZi.fasta
+	/tmp/tmpT6t5R7.fasta
+	/tmp/tmptOo4rX.fasta
+	/tmp/tmpD7UhUt.fasta
+	/tmp/tmpAKNlBE.fasta
+	/tmp/tmpdCUBtV.fasta
+	/tmp/tmpDB9G89.fasta
+	/tmp/tmplgO9Kx.fasta
+	/tmp/tmpmx3Zjr.fasta
+	/tmp/tmpvXs27n.fasta
+	/tmp/tmpmoQpII.fasta
+	/tmp/tmpaVE0Hf.fasta
+	/tmp/tmpt3yQ6E.fasta
+	/tmp/tmptDfdnV.fasta
+	/tmp/tmpmo4Xsr.fasta
+	/tmp/tmplIEPxx.fasta
+	/tmp/tmptLIIXg.fasta
+	/tmp/tmpJSHR_R.fasta
+
+Writing the results file...
+	/tmp/tmpVmBDP6.lastz
+	/tmp/tmpjfxfsk.lastz
+	/tmp/tmpcUknzT.lastz
+	/tmp/tmpXgLtcA.lastz
+	/tmp/tmpBNeLDX.lastz
+	/tmp/tmpqZJ1Kj.lastz
+	/tmp/tmpb9HVWd.lastz
+	/tmp/tmpYc39dW.lastz
+	/tmp/tmp_6tlqW.lastz
+	/tmp/tmp1O2eG4.lastz
+	/tmp/tmpbEgQNp.lastz
+	/tmp/tmp3zFA_q.lastz
+	/tmp/tmp_taNgG.lastz
+	/tmp/tmpXCXTEO.lastz
+	/tmp/tmpbcomlu.lastz
+	/tmp/tmpklZh3x.lastz
+	/tmp/tmpnEZHog.lastz
+	/tmp/tmpsbLPQa.lastz
+	/tmp/tmpZEZ75r.lastz
+	/tmp/tmpu11mwM.lastz
+	/tmp/tmp5Kz0hc.lastz
+	/tmp/tmpfqGUBn.lastz
+	/tmp/tmpMniinh.lastz
+	/tmp/tmpoTfgy2.lastz
+	/tmp/tmp1od2wL.lastz
+	/tmp/tmpnJpjX6.lastz
+	/tmp/tmpVuvpFn.lastz
+	/tmp/tmpT7U1w0.lastz
+	/tmp/tmp63IPVB.lastz
+	/tmp/tmpT_7DGT.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Homo_sapiens.lastz
+Creating Homo_sapiens table
+Inserting data to Homo_sapiens table
+
+Running against Mobula_birostris.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 61 queries...
+	/tmp/tmpB7WWOZ.fasta
+	/tmp/tmp_YIhKC.fasta
+	/tmp/tmpzBGkwc.fasta
+	/tmp/tmpxGl4XR.fasta
+	/tmp/tmpFiI9cE.fasta
+	/tmp/tmpewJiZA.fasta
+	/tmp/tmpSNEWDf.fasta
+	/tmp/tmpqOUq3D.fasta
+	/tmp/tmpsxqLeU.fasta
+	/tmp/tmp0Kw4tI.fasta
+	/tmp/tmpimFsqk.fasta
+	/tmp/tmp0NRaj4.fasta
+	/tmp/tmpXKrjzN.fasta
+	/tmp/tmpCTVxVF.fasta
+	/tmp/tmpuwdMn9.fasta
+	/tmp/tmpJ5Vf1F.fasta
+	/tmp/tmpW2AAkL.fasta
+	/tmp/tmpUeZzKN.fasta
+	/tmp/tmpiODIei.fasta
+	/tmp/tmpWjr33w.fasta
+	/tmp/tmp0KIbGT.fasta
+	/tmp/tmps9gpZr.fasta
+	/tmp/tmpYlAreo.fasta
+	/tmp/tmpPvm7C0.fasta
+	/tmp/tmpaX8Ch4.fasta
+	/tmp/tmpMNi6WM.fasta
+	/tmp/tmpXsJXkT.fasta
+	/tmp/tmpc6RGXe.fasta
+	/tmp/tmpzFckSO.fasta
+	/tmp/tmpJuEqcZ.fasta
+	/tmp/tmphzRAEe.fasta
+	/tmp/tmpMZ_Auc.fasta
+
+Writing the results file...
+	/tmp/tmpPNCW1J.lastz
+	/tmp/tmpm1cHPO.lastz
+	/tmp/tmp_MAy30.lastz
+	/tmp/tmpijOwnC.lastz
+	/tmp/tmpJ0SnDo.lastz
+	/tmp/tmpvCfvyO.lastz
+	/tmp/tmpjc0cjy.lastz
+	/tmp/tmpGDHh37.lastz
+	/tmp/tmpLhrkE_.lastz
+	/tmp/tmpKwuZwB.lastz
+	/tmp/tmp0El_Yr.lastz
+	/tmp/tmp5JA6Mu.lastz
+	/tmp/tmp6Mx_yU.lastz
+	/tmp/tmphF00CV.lastz
+	/tmp/tmpH8Uk8x.lastz
+	/tmp/tmpYZ5q2T.lastz
+	/tmp/tmpu1yiOh.lastz
+	/tmp/tmpOcv1o4.lastz
+	/tmp/tmpXgrFhM.lastz
+	/tmp/tmparm7Ea.lastz
+	/tmp/tmpJXtWDL.lastz
+	/tmp/tmpRKG6ll.lastz
+	/tmp/tmpmoouyj.lastz
+	/tmp/tmpupiSfD.lastz
+	/tmp/tmptYSQS2.lastz
+	/tmp/tmpAJjh_m.lastz
+	/tmp/tmpv6JlF0.lastz
+	/tmp/tmpM0IAzv.lastz
+	/tmp/tmpw0p8oO.lastz
+	/tmp/tmpm1QmeX.lastz
+	/tmp/tmpKYzez4.lastz
+	/tmp/tmpB6u1Z7.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Mobula_birostris.lastz
+Creating Mobula_birostris table
+Inserting data to Mobula_birostris table
+
+Running against Okamejei_kenojei.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 50 queries...
+	/tmp/tmpJ35RPK.fasta
+	/tmp/tmpxtA8V1.fasta
+	/tmp/tmpV2Bg7E.fasta
+	/tmp/tmpAKnhCr.fasta
+	/tmp/tmpn4CiVF.fasta
+	/tmp/tmpbR27xC.fasta
+	/tmp/tmpoeND7R.fasta
+	/tmp/tmpLj6khN.fasta
+	/tmp/tmpoizlwE.fasta
+	/tmp/tmpWcniRt.fasta
+	/tmp/tmpDpcftL.fasta
+	/tmp/tmpWHBT1M.fasta
+	/tmp/tmp4uxOqz.fasta
+	/tmp/tmpUWkXi7.fasta
+	/tmp/tmprKEmwl.fasta
+	/tmp/tmpyoDniu.fasta
+	/tmp/tmpCt7mQ7.fasta
+	/tmp/tmpiXvdFC.fasta
+	/tmp/tmpkcyUPw.fasta
+	/tmp/tmpZpmlyv.fasta
+	/tmp/tmpxpiWpv.fasta
+	/tmp/tmpPpKuuL.fasta
+	/tmp/tmpee4FPM.fasta
+	/tmp/tmpyRg9Xz.fasta
+	/tmp/tmpdOBcU6.fasta
+	/tmp/tmpmmAkX6.fasta
+	/tmp/tmpsfyfv_.fasta
+	/tmp/tmp3UBFpW.fasta
+	/tmp/tmpzNYxlH.fasta
+	/tmp/tmpM5m0hA.fasta
+	/tmp/tmp_F0bKD.fasta
+	/tmp/tmpOhJhYV.fasta
+	/tmp/tmp5a2ecr.fasta
+	/tmp/tmp2lAKG0.fasta
+	/tmp/tmpVzn6V3.fasta
+
+Writing the results file...
+	/tmp/tmpAVE5nJ.lastz
+	/tmp/tmpQlrpaL.lastz
+	/tmp/tmpwYOmID.lastz
+	/tmp/tmpHpJap9.lastz
+	/tmp/tmpzx_gQI.lastz
+	/tmp/tmp4QYSI1.lastz
+	/tmp/tmp35BHRf.lastz
+	/tmp/tmpfgbBSN.lastz
+	/tmp/tmpUWRNdM.lastz
+	/tmp/tmpBhdZ2w.lastz
+	/tmp/tmphVZFWe.lastz
+	/tmp/tmp4ZDt8v.lastz
+	/tmp/tmpewcSVo.lastz
+	/tmp/tmp3uRv6T.lastz
+	/tmp/tmpdSuBZw.lastz
+	/tmp/tmpmBH_p5.lastz
+	/tmp/tmpyGJ73J.lastz
+	/tmp/tmpiQya2b.lastz
+	/tmp/tmp1JpBgL.lastz
+	/tmp/tmpFuOoQW.lastz
+	/tmp/tmpC49Ory.lastz
+	/tmp/tmpSR5sTu.lastz
+	/tmp/tmpX64Ncv.lastz
+	/tmp/tmpktYcEt.lastz
+	/tmp/tmp3BSZVM.lastz
+	/tmp/tmpYgby65.lastz
+	/tmp/tmpP0zENh.lastz
+	/tmp/tmp_PWLTW.lastz
+	/tmp/tmpd41Sn3.lastz
+	/tmp/tmpJflFBx.lastz
+	/tmp/tmpZvVeIq.lastz
+	/tmp/tmproiAWB.lastz
+	/tmp/tmpYm6DQm.lastz
+	/tmp/tmp2ms5Ed.lastz
+	/tmp/tmpA7YPu1.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Okamejei_kenojei.lastz
+Creating Okamejei_kenojei table
+Inserting data to Okamejei_kenojei table
+
+Running against Mobula_hypostoma.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 36 queries...
+	/tmp/tmpSElku_.fasta
+	/tmp/tmpzz1cnb.fasta
+	/tmp/tmp0ZOjqi.fasta
+	/tmp/tmpCIx546.fasta
+	/tmp/tmp7ZomLA.fasta
+	/tmp/tmpdAhy4p.fasta
+	/tmp/tmpYtww8n.fasta
+	/tmp/tmpW9Dgo1.fasta
+	/tmp/tmpJxDvdS.fasta
+	/tmp/tmp9JctEz.fasta
+	/tmp/tmpbm7Vvt.fasta
+	/tmp/tmpMXqAHK.fasta
+	/tmp/tmpCgopz5.fasta
+	/tmp/tmpKrwkH2.fasta
+	/tmp/tmpkKiGTz.fasta
+	/tmp/tmpV175a_.fasta
+	/tmp/tmp_jL4CO.fasta
+	/tmp/tmp8XVx8J.fasta
+	/tmp/tmpPiRbSb.fasta
+	/tmp/tmp7xnrk_.fasta
+	/tmp/tmpJxIKG1.fasta
+	/tmp/tmprHZGuf.fasta
+	/tmp/tmpJ4aJic.fasta
+	/tmp/tmpOH5nOo.fasta
+	/tmp/tmpfkGc9U.fasta
+	/tmp/tmpeXq5Cc.fasta
+	/tmp/tmpBjbGap.fasta
+	/tmp/tmpQWdh3N.fasta
+	/tmp/tmpWXxUsE.fasta
+	/tmp/tmpmDLUG5.fasta
+	/tmp/tmpBjWswH.fasta
+	/tmp/tmphMqC8j.fasta
+
+Writing the results file...
+	/tmp/tmpjANa29.lastz
+	/tmp/tmp4EgSJp.lastz
+	/tmp/tmpteIjfD.lastz
+	/tmp/tmpB3vo1B.lastz
+	/tmp/tmptJ51wD.lastz
+	/tmp/tmpEJouqO.lastz
+	/tmp/tmpwWHDF0.lastz
+	/tmp/tmpyYOqVP.lastz
+	/tmp/tmp_keO1e.lastz
+	/tmp/tmpwsWPNZ.lastz
+	/tmp/tmpQsghcy.lastz
+	/tmp/tmph9HHcg.lastz
+	/tmp/tmpW2NG7S.lastz
+	/tmp/tmpQ174iD.lastz
+	/tmp/tmpOxWn8l.lastz
+	/tmp/tmpQ7ylJU.lastz
+	/tmp/tmpnXyxX1.lastz
+	/tmp/tmpInoZx6.lastz
+	/tmp/tmpjg30hp.lastz
+	/tmp/tmp9nLmcP.lastz
+	/tmp/tmpjMB_lY.lastz
+	/tmp/tmpc5q76h.lastz
+	/tmp/tmpXoX4nb.lastz
+	/tmp/tmplbjeRy.lastz
+	/tmp/tmpyIJT56.lastz
+	/tmp/tmpJAzQ9Z.lastz
+	/tmp/tmpXMGT2z.lastz
+	/tmp/tmplmOB82.lastz
+	/tmp/tmpxdwqCZ.lastz
+	/tmp/tmpRigx1t.lastz
+	/tmp/tmpH8ncrt.lastz
+	/tmp/tmpjp3xlS.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Mobula_hypostoma.lastz
+Creating Mobula_hypostoma table
+Inserting data to Mobula_hypostoma table
+
+Running against Torpedo_marmorata.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 171 queries...
+	/tmp/tmpfIhTwz.fasta
+	/tmp/tmpQeVFNj.fasta
+	/tmp/tmpmJGbcM.fasta
+	/tmp/tmp1Qi8IH.fasta
+	/tmp/tmpbB_nZN.fasta
+	/tmp/tmpFlW0G6.fasta
+	/tmp/tmpP7TJe9.fasta
+	/tmp/tmpfXaPSl.fasta
+	/tmp/tmpC9LNr8.fasta
+	/tmp/tmppQXMZM.fasta
+	/tmp/tmpaUYP30.fasta
+	/tmp/tmpWexM6R.fasta
+	/tmp/tmp1QWDSB.fasta
+	/tmp/tmplQaEnv.fasta
+	/tmp/tmpmM9SVZ.fasta
+	/tmp/tmpb57D3G.fasta
+	/tmp/tmpHl9vl5.fasta
+	/tmp/tmpngrEjc.fasta
+	/tmp/tmp4XRauc.fasta
+	/tmp/tmpDpB09V.fasta
+	/tmp/tmpuUjPU2.fasta
+	/tmp/tmp2b9vi0.fasta
+	/tmp/tmpKE_rp8.fasta
+	/tmp/tmps60LTI.fasta
+	/tmp/tmpleSDkI.fasta
+	/tmp/tmp5OU4ZH.fasta
+	/tmp/tmp6hqyx9.fasta
+	/tmp/tmp5g7WuN.fasta
+	/tmp/tmp9mChu6.fasta
+	/tmp/tmpcOkLYy.fasta
+	/tmp/tmpzTddSf.fasta
+	/tmp/tmp08nI66.fasta
+	/tmp/tmpAoYJob.fasta
+	/tmp/tmpYNTjBL.fasta
+	/tmp/tmpSqjybX.fasta
+
+Writing the results file...
+	/tmp/tmpOGy73b.lastz
+	/tmp/tmp77wWCw.lastz
+	/tmp/tmpIE0rID.lastz
+	/tmp/tmpQY3Ytl.lastz
+	/tmp/tmpclo0ux.lastz
+	/tmp/tmpypW1wL.lastz
+	/tmp/tmpuRGuCP.lastz
+	/tmp/tmp089IrZ.lastz
+	/tmp/tmpiZQfAY.lastz
+	/tmp/tmpzOhQyF.lastz
+	/tmp/tmpxxnxGg.lastz
+	/tmp/tmpWtmlK2.lastz
+	/tmp/tmp8OEYM4.lastz
+	/tmp/tmpsTwu3h.lastz
+	/tmp/tmpAh_zzP.lastz
+	/tmp/tmp0pjDES.lastz
+	/tmp/tmpEEVUMV.lastz
+	/tmp/tmp2ct4jl.lastz
+	/tmp/tmpFL37oi.lastz
+	/tmp/tmpWX7h4s.lastz
+	/tmp/tmp78GAtf.lastz
+	/tmp/tmpsEtot1.lastz
+	/tmp/tmpMHS0A_.lastz
+	/tmp/tmpCfBIi7.lastz
+	/tmp/tmp0Nwa3a.lastz
+	/tmp/tmph2ML1R.lastz
+	/tmp/tmprBGR9O.lastz
+	/tmp/tmpSubjgt.lastz
+	/tmp/tmpvwrlLv.lastz
+	/tmp/tmpmI0xiP.lastz
+	/tmp/tmp5vl10X.lastz
+	/tmp/tmpzgmY6u.lastz
+	/tmp/tmpuTXPfG.lastz
+	/tmp/tmpBj6c7H.lastz
+	/tmp/tmpMcOx6h.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Torpedo_marmorata.lastz
+Creating Torpedo_marmorata table
+Inserting data to Torpedo_marmorata table
+
+Running against Gallus_gallus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 23 queries...
+	/tmp/tmphYaqUG.fasta
+	/tmp/tmpaZi7P9.fasta
+	/tmp/tmpoqnxfc.fasta
+	/tmp/tmp4W3L7t.fasta
+	/tmp/tmpxc8HKY.fasta
+	/tmp/tmpJdrstS.fasta
+	/tmp/tmpZQHaHE.fasta
+	/tmp/tmpziGnoF.fasta
+	/tmp/tmpt0Gxw4.fasta
+	/tmp/tmpE3yCjt.fasta
+	/tmp/tmp_0uUxy.fasta
+	/tmp/tmpCuLAn5.fasta
+	/tmp/tmp65k4Ca.fasta
+	/tmp/tmpiA03vF.fasta
+	/tmp/tmpsl3sJc.fasta
+	/tmp/tmpEcyWNC.fasta
+	/tmp/tmpye89S5.fasta
+	/tmp/tmpc7lQ_X.fasta
+	/tmp/tmpSlEzEh.fasta
+	/tmp/tmp2LIVER.fasta
+	/tmp/tmph7ak8V.fasta
+	/tmp/tmpoAXr8t.fasta
+
+Writing the results file...
+	/tmp/tmpo0t9IS.lastz
+	/tmp/tmpCt8eQd.lastz
+	/tmp/tmp3gVcfP.lastz
+	/tmp/tmpozKF1h.lastz
+	/tmp/tmp1l8Zyh.lastz
+	/tmp/tmpDEtre5.lastz
+	/tmp/tmpkG4ytO.lastz
+	/tmp/tmp1MWeAB.lastz
+	/tmp/tmp7aHEDl.lastz
+	/tmp/tmpXt6DqP.lastz
+	/tmp/tmpip06gc.lastz
+	/tmp/tmpOgL4cG.lastz
+	/tmp/tmppd493k.lastz
+	/tmp/tmpam47dk.lastz
+	/tmp/tmpjG_32s.lastz
+	/tmp/tmpPWjAyy.lastz
+	/tmp/tmp7njxYO.lastz
+	/tmp/tmpSPKKYE.lastz
+	/tmp/tmpCFq8aJ.lastz
+	/tmp/tmpIMq4L2.lastz
+	/tmp/tmpj9nnz9.lastz
+	/tmp/tmpQMnj5X.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Gallus_gallus.lastz
+Creating Gallus_gallus table
+Inserting data to Gallus_gallus table
+
+Running against Mus_musculus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 21 queries...
+	/tmp/tmp54_Kyt.fasta
+	/tmp/tmp_ltyil.fasta
+	/tmp/tmpzm5VOt.fasta
+	/tmp/tmpiOgzSj.fasta
+	/tmp/tmpAwbIPB.fasta
+	/tmp/tmpa3h4n0.fasta
+	/tmp/tmp95Xd3X.fasta
+	/tmp/tmpOtIc5M.fasta
+	/tmp/tmpZbk01L.fasta
+	/tmp/tmpZ7wH5z.fasta
+	/tmp/tmpKLiXFv.fasta
+	/tmp/tmp6my_7L.fasta
+	/tmp/tmpT7kqrY.fasta
+	/tmp/tmpaBo3fC.fasta
+	/tmp/tmpKTTn3Y.fasta
+	/tmp/tmp_u6amu.fasta
+	/tmp/tmp5g06mi.fasta
+	/tmp/tmp9fD8uK.fasta
+	/tmp/tmpO1MEOu.fasta
+	/tmp/tmp0huaYL.fasta
+
+Writing the results file...
+	/tmp/tmpbGmCb1.lastz
+	/tmp/tmpZSD_Jm.lastz
+	/tmp/tmprot6mN.lastz
+	/tmp/tmpkE_cRu.lastz
+	/tmp/tmpdZA29H.lastz
+	/tmp/tmp8pXgJf.lastz
+	/tmp/tmpgRW76F.lastz
+	/tmp/tmpX1ou0S.lastz
+	/tmp/tmpP9p3H0.lastz
+	/tmp/tmpykRqyl.lastz
+	/tmp/tmpZQ8erF.lastz
+	/tmp/tmp685vcs.lastz
+	/tmp/tmp3nVl55.lastz
+	/tmp/tmpaA_0pJ.lastz
+	/tmp/tmpW7qLN5.lastz
+	/tmp/tmpeJWQ2G.lastz
+	/tmp/tmpvXoqgQ.lastz
+	/tmp/tmprHI_lg.lastz
+	/tmp/tmpquXdSI.lastz
+	/tmp/tmp80oyTj.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Mus_musculus.lastz
+Creating Mus_musculus table
+Inserting data to Mus_musculus table
+
+Running against Xenopus_tropicalis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 11 queries...
+	/tmp/tmpt3jCao.fasta
+	/tmp/tmp0XT8TE.fasta
+	/tmp/tmpWaZg_l.fasta
+	/tmp/tmp8SB3dI.fasta
+	/tmp/tmpdWN7sB.fasta
+	/tmp/tmpH82FEI.fasta
+	/tmp/tmpmBgO80.fasta
+	/tmp/tmpGmJsLh.fasta
+	/tmp/tmpaVqOrS.fasta
+	/tmp/tmpbOLO_v.fasta
+
+Writing the results file...
+	/tmp/tmpZBL3_6.lastz
+	/tmp/tmpb1igPN.lastz
+	/tmp/tmpkCqdul.lastz
+	/tmp/tmpXtmXME.lastz
+	/tmp/tmpsVfx8A.lastz
+	/tmp/tmpt_NFK_.lastz
+	/tmp/tmpP1cAGu.lastz
+	/tmp/tmpGy05AZ.lastz
+	/tmp/tmppQoK0S.lastz
+	/tmp/tmpJ1wHwy.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Xenopus_tropicalis.lastz
+Creating Xenopus_tropicalis table
+Inserting data to Xenopus_tropicalis table
+
+Running against Tetraodon_nigroviridis.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 21 queries...
+	/tmp/tmpbKHACS.fasta
+	/tmp/tmplKMdvN.fasta
+	/tmp/tmp9I9Cqf.fasta
+	/tmp/tmpFEBVdf.fasta
+	/tmp/tmpKce5Gr.fasta
+	/tmp/tmpF9rYvT.fasta
+	/tmp/tmpxDTkMq.fasta
+	/tmp/tmptpTdTe.fasta
+	/tmp/tmpgFEecm.fasta
+	/tmp/tmplCbWri.fasta
+	/tmp/tmp35VFBW.fasta
+	/tmp/tmp7jiin2.fasta
+	/tmp/tmpg0o4lN.fasta
+	/tmp/tmpmKzBYA.fasta
+	/tmp/tmp4uPmVh.fasta
+	/tmp/tmpvL4UP2.fasta
+	/tmp/tmpAQ9qRm.fasta
+	/tmp/tmp7_FA_y.fasta
+	/tmp/tmpUj933N.fasta
+	/tmp/tmprC7FnE.fasta
+	/tmp/tmpAqbBHj.fasta
+
+Writing the results file...
+	/tmp/tmpjA2fGb.lastz
+	/tmp/tmpMSVbEK.lastz
+	/tmp/tmpdDAFHe.lastz
+	/tmp/tmp7m4AwB.lastz
+	/tmp/tmpXntTWJ.lastz
+	/tmp/tmpT29RRZ.lastz
+	/tmp/tmpfnKfTb.lastz
+	/tmp/tmp6AqmFE.lastz
+	/tmp/tmpUDoZUN.lastz
+	/tmp/tmpY8UaIz.lastz
+	/tmp/tmph4OKPS.lastz
+	/tmp/tmpWRQVSm.lastz
+	/tmp/tmp3mkUCs.lastz
+	/tmp/tmp0WnUMq.lastz
+	/tmp/tmpd4czAe.lastz
+	/tmp/tmpopDlXK.lastz
+	/tmp/tmp_Edg_M.lastz
+	/tmp/tmpPy7Yp8.lastz
+	/tmp/tmpTVQqJW.lastz
+	/tmp/tmp8kCaqs.lastz
+	/tmp/tmpy2Wiwk.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Tetraodon_nigroviridis.lastz
+Creating Tetraodon_nigroviridis table
+Inserting data to Tetraodon_nigroviridis table
+
+Running against Lepisosteus_oculatus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 35 queries...
+	/tmp/tmpKFPr7O.fasta
+	/tmp/tmpd__zFT.fasta
+	/tmp/tmpNeAOa5.fasta
+	/tmp/tmpnWo8YE.fasta
+	/tmp/tmpm65kJH.fasta
+	/tmp/tmpKHjQnx.fasta
+	/tmp/tmpIJL0ci.fasta
+	/tmp/tmpT3jSET.fasta
+	/tmp/tmpIFVefl.fasta
+	/tmp/tmp36PopU.fasta
+	/tmp/tmpm9Boku.fasta
+	/tmp/tmpqWYxDB.fasta
+	/tmp/tmp6khibS.fasta
+	/tmp/tmpzDsjEP.fasta
+	/tmp/tmp06aUic.fasta
+	/tmp/tmpRixGmT.fasta
+	/tmp/tmp3mKKMn.fasta
+	/tmp/tmpv97SFg.fasta
+	/tmp/tmp4LIKMr.fasta
+	/tmp/tmpZkyIdR.fasta
+	/tmp/tmptV1SBS.fasta
+	/tmp/tmpRxcNpx.fasta
+	/tmp/tmpOfE3lC.fasta
+	/tmp/tmps6SJIY.fasta
+	/tmp/tmp9VJ3Pz.fasta
+	/tmp/tmpkYrGQr.fasta
+	/tmp/tmpat9rFm.fasta
+	/tmp/tmpcDES9w.fasta
+
+Writing the results file...
+	/tmp/tmpeQo4T9.lastz
+	/tmp/tmpJCjMmE.lastz
+	/tmp/tmpA5flkM.lastz
+	/tmp/tmpPUG5k6.lastz
+	/tmp/tmp9lUcAT.lastz
+	/tmp/tmpV2lltt.lastz
+	/tmp/tmpCl5x4L.lastz
+	/tmp/tmp6coDjd.lastz
+	/tmp/tmpqX4SUJ.lastz
+	/tmp/tmpiW01r7.lastz
+	/tmp/tmpMX3NL8.lastz
+	/tmp/tmpf1cZZR.lastz
+	/tmp/tmp54BTXN.lastz
+	/tmp/tmpl6ItUq.lastz
+	/tmp/tmpZ0w0N9.lastz
+	/tmp/tmptisv8K.lastz
+	/tmp/tmpJnzSf6.lastz
+	/tmp/tmpWhIgQ1.lastz
+	/tmp/tmpFK1X24.lastz
+	/tmp/tmp49vgo8.lastz
+	/tmp/tmpLmBWUe.lastz
+	/tmp/tmpV3tKfL.lastz
+	/tmp/tmp8jMqvu.lastz
+	/tmp/tmp5rl6ni.lastz
+	/tmp/tmpU5OmHO.lastz
+	/tmp/tmpw2teC4.lastz
+	/tmp/tmpqSqfFx.lastz
+	/tmp/tmpqfcEDI.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Lepisosteus_oculatus.lastz
+Creating Lepisosteus_oculatus table
+Inserting data to Lepisosteus_oculatus table
+
+Running against Scyliorhinus_torazame.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 49 queries...
+	/tmp/tmpesmY_0.fasta
+	/tmp/tmpDK4h8i.fasta
+	/tmp/tmpvyTlEd.fasta
+	/tmp/tmpkvbCpZ.fasta
+	/tmp/tmpDK6ah0.fasta
+	/tmp/tmpsktTDU.fasta
+	/tmp/tmpwjRLTa.fasta
+	/tmp/tmpNjo4SM.fasta
+	/tmp/tmpR8H95y.fasta
+	/tmp/tmptrXaqp.fasta
+	/tmp/tmpRGDQ9e.fasta
+	/tmp/tmpDMtLGN.fasta
+	/tmp/tmpbPryZ4.fasta
+	/tmp/tmpOokZfv.fasta
+	/tmp/tmpESMo1y.fasta
+	/tmp/tmpg7nfJB.fasta
+	/tmp/tmpbDnmus.fasta
+	/tmp/tmpdrKugv.fasta
+	/tmp/tmpDZS3i0.fasta
+	/tmp/tmpZNwPnA.fasta
+	/tmp/tmpttNVtY.fasta
+	/tmp/tmpt3BY0G.fasta
+	/tmp/tmp0sC2jm.fasta
+	/tmp/tmpDss71M.fasta
+	/tmp/tmpDVssWE.fasta
+	/tmp/tmpmz2vJx.fasta
+	/tmp/tmpryoZrC.fasta
+
+Writing the results file...
+	/tmp/tmpGJSK8G.lastz
+	/tmp/tmpV3ExuH.lastz
+	/tmp/tmpNIFeNv.lastz
+	/tmp/tmpjYfm1B.lastz
+	/tmp/tmp9LQYO_.lastz
+	/tmp/tmp4ktZJ_.lastz
+	/tmp/tmpmjnF9J.lastz
+	/tmp/tmp_jX6kA.lastz
+	/tmp/tmpUHxG1e.lastz
+	/tmp/tmpxzRBbN.lastz
+	/tmp/tmpdrAaIN.lastz
+	/tmp/tmpNb6q4j.lastz
+	/tmp/tmpHp8hWL.lastz
+	/tmp/tmp9fCICB.lastz
+	/tmp/tmpGqLDPq.lastz
+	/tmp/tmpNgU3ZO.lastz
+	/tmp/tmpPBpkWf.lastz
+	/tmp/tmpl_2xmP.lastz
+	/tmp/tmpvfnwkk.lastz
+	/tmp/tmpVmyesY.lastz
+	/tmp/tmpGvjQgz.lastz
+	/tmp/tmpn3EhCk.lastz
+	/tmp/tmpEuyhJE.lastz
+	/tmp/tmpHahdjJ.lastz
+	/tmp/tmpjihdL9.lastz
+	/tmp/tmp5CK1VD.lastz
+	/tmp/tmpFU5WAH.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Scyliorhinus_torazame.lastz
+Creating Scyliorhinus_torazame table
+Inserting data to Scyliorhinus_torazame table
+
+Running against Latimeria_chalumnae.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 31 queries...
+	/tmp/tmpYDQfHy.fasta
+	/tmp/tmp3CTvUj.fasta
+	/tmp/tmp_PviiW.fasta
+	/tmp/tmpG3I6HH.fasta
+	/tmp/tmpgypUYR.fasta
+	/tmp/tmplTHPgg.fasta
+	/tmp/tmpN0maQW.fasta
+	/tmp/tmpjo7Fk6.fasta
+	/tmp/tmpx119WQ.fasta
+	/tmp/tmp3xK7Wk.fasta
+	/tmp/tmpdAn_r0.fasta
+	/tmp/tmpytfuwv.fasta
+	/tmp/tmpX2ShUa.fasta
+	/tmp/tmp3Sv_mb.fasta
+	/tmp/tmpW92L_8.fasta
+	/tmp/tmpyQRdZj.fasta
+	/tmp/tmpK7UdBy.fasta
+	/tmp/tmpaOEf77.fasta
+	/tmp/tmpD7vZe2.fasta
+	/tmp/tmpwFaiKI.fasta
+	/tmp/tmpLpQYEf.fasta
+	/tmp/tmpLyxxfg.fasta
+	/tmp/tmpzOMERD.fasta
+	/tmp/tmpCfnzG4.fasta
+	/tmp/tmpsgLJyf.fasta
+	/tmp/tmpcq_Lc0.fasta
+	/tmp/tmpNZFYaA.fasta
+
+Writing the results file...
+	/tmp/tmpEioXXs.lastz
+	/tmp/tmp9d2PZx.lastz
+	/tmp/tmp3vw5YI.lastz
+	/tmp/tmpS1Gbhi.lastz
+	/tmp/tmpXWVd5t.lastz
+	/tmp/tmpLMzg16.lastz
+	/tmp/tmpIMnaMr.lastz
+	/tmp/tmpfMR58n.lastz
+	/tmp/tmpd41ZCP.lastz
+	/tmp/tmpcyattM.lastz
+	/tmp/tmpajwpOV.lastz
+	/tmp/tmpPtLctQ.lastz
+	/tmp/tmpJMLsxK.lastz
+	/tmp/tmp74iDzl.lastz
+	/tmp/tmp_AU8UL.lastz
+	/tmp/tmpu7sunh.lastz
+	/tmp/tmpEIAepY.lastz
+	/tmp/tmpmIDwcA.lastz
+	/tmp/tmp4nFNWg.lastz
+	/tmp/tmpAOMZAo.lastz
+	/tmp/tmpn0pD_h.lastz
+	/tmp/tmp_Q9PQY.lastz
+	/tmp/tmpPrcfR6.lastz
+	/tmp/tmpaQCUwi.lastz
+	/tmp/tmpEiIJ2z.lastz
+	/tmp/tmptcYdGw.lastz
+	/tmp/tmpprdjbG.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Latimeria_chalumnae.lastz
+Creating Latimeria_chalumnae table
+Inserting data to Latimeria_chalumnae table
+
+Running against Chrysemys_picta_bellii.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 30 queries...
+	/tmp/tmpN02ZNc.fasta
+	/tmp/tmpjZ9Ti9.fasta
+	/tmp/tmpKchbTc.fasta
+	/tmp/tmpFNW4Yg.fasta
+	/tmp/tmpuhLlu2.fasta
+	/tmp/tmpXuY1x0.fasta
+	/tmp/tmpX9EuXM.fasta
+	/tmp/tmpqXfIYd.fasta
+	/tmp/tmp4UmWan.fasta
+	/tmp/tmpLUYfDh.fasta
+	/tmp/tmpIRJB_9.fasta
+	/tmp/tmpWtyyfc.fasta
+	/tmp/tmpNuzjFH.fasta
+	/tmp/tmp7ZN9zj.fasta
+	/tmp/tmpW37XOU.fasta
+	/tmp/tmpakLxCA.fasta
+	/tmp/tmpADZpcb.fasta
+	/tmp/tmpBUm9rZ.fasta
+	/tmp/tmpyRI0VT.fasta
+	/tmp/tmp9QklGy.fasta
+	/tmp/tmp0Y2DRz.fasta
+	/tmp/tmpbZsicJ.fasta
+	/tmp/tmpUer4uW.fasta
+	/tmp/tmpJ2MWCO.fasta
+
+Writing the results file...
+	/tmp/tmpgmfn_F.lastz
+	/tmp/tmpgUYbGM.lastz
+	/tmp/tmpTtQ1SG.lastz
+	/tmp/tmpKu4qb6.lastz
+	/tmp/tmpktRKdp.lastz
+	/tmp/tmpMJ36lU.lastz
+	/tmp/tmpZAQisI.lastz
+	/tmp/tmpwSRfau.lastz
+	/tmp/tmphYiKVJ.lastz
+	/tmp/tmpqBrop9.lastz
+	/tmp/tmpjxu2LA.lastz
+	/tmp/tmp1zZlev.lastz
+	/tmp/tmpm9d52n.lastz
+	/tmp/tmp1VbH2D.lastz
+	/tmp/tmpWEzxDx.lastz
+	/tmp/tmpc9bENE.lastz
+	/tmp/tmprGZe_F.lastz
+	/tmp/tmprkRJlQ.lastz
+	/tmp/tmpdBiKZ5.lastz
+	/tmp/tmpHI2LdJ.lastz
+	/tmp/tmpYjTlh4.lastz
+	/tmp/tmp5P6Kly.lastz
+	/tmp/tmp8wiLKq.lastz
+	/tmp/tmpa10wsZ.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Chrysemys_picta_bellii.lastz
+Creating Chrysemys_picta_bellii table
+Inserting data to Chrysemys_picta_bellii table
+
+Running against Polypterus_senegalus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 33 queries...
+	/tmp/tmpNwU1eP.fasta
+	/tmp/tmpZ9F0WD.fasta
+	/tmp/tmpowP1sG.fasta
+	/tmp/tmpDtI1QJ.fasta
+	/tmp/tmpbEr0Km.fasta
+	/tmp/tmpKRgqDu.fasta
+	/tmp/tmpS3ZRMA.fasta
+	/tmp/tmphcd4Ak.fasta
+	/tmp/tmpVmiU7b.fasta
+	/tmp/tmpiD3eOy.fasta
+	/tmp/tmpdFfiuN.fasta
+	/tmp/tmp1acElV.fasta
+	/tmp/tmpHJz1eH.fasta
+	/tmp/tmpLJzUWN.fasta
+	/tmp/tmpgsb6Y3.fasta
+	/tmp/tmpEdXXtN.fasta
+	/tmp/tmpIsdi9P.fasta
+	/tmp/tmpYv3B0M.fasta
+
+Writing the results file...
+	/tmp/tmpMxufeO.lastz
+	/tmp/tmpFMwiLb.lastz
+	/tmp/tmpbZSgdw.lastz
+	/tmp/tmptISsMy.lastz
+	/tmp/tmpyGML07.lastz
+	/tmp/tmppolkGY.lastz
+	/tmp/tmp39d5qG.lastz
+	/tmp/tmpJo5OeZ.lastz
+	/tmp/tmpCF2rWS.lastz
+	/tmp/tmpXkxkC1.lastz
+	/tmp/tmpwFi0kE.lastz
+	/tmp/tmpqbAb1c.lastz
+	/tmp/tmpDVL43A.lastz
+	/tmp/tmpySiqPZ.lastz
+	/tmp/tmp6rY0nl.lastz
+	/tmp/tmpyytQnc.lastz
+	/tmp/tmpvOZlO9.lastz
+	/tmp/tmp1bkBzK.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Polypterus_senegalus.lastz
+Creating Polypterus_senegalus table
+Inserting data to Polypterus_senegalus table
+
+Running against Acipenser_ruthenus.2bit
+Running with the --huge option.  Chunking files into 10000000 bp...
+Running the targets against 58 queries...
+	/tmp/tmpr3OW8k.fasta
+	/tmp/tmpT2ZWGv.fasta
+	/tmp/tmpm_Fwxg.fasta
+	/tmp/tmplKS_X9.fasta
+	/tmp/tmp8KmyXB.fasta
+	/tmp/tmpWhA9bn.fasta
+	/tmp/tmpmkEJYL.fasta
+	/tmp/tmpvZYptw.fasta
+	/tmp/tmpVDaFqY.fasta
+	/tmp/tmpBh99X1.fasta
+	/tmp/tmpdvuKMB.fasta
+	/tmp/tmpwm5X2Q.fasta
+	/tmp/tmpF8Souf.fasta
+	/tmp/tmpyBCxaA.fasta
+	/tmp/tmp4PMdmC.fasta
+	/tmp/tmp47RP0J.fasta
+	/tmp/tmprHHGgw.fasta
+	/tmp/tmp3snC5A.fasta
+	/tmp/tmpLTH8i7.fasta
+	/tmp/tmpQl9q1j.fasta
+	/tmp/tmpi40zPX.fasta
+	/tmp/tmpoYoyEC.fasta
+	/tmp/tmp6avmyL.fasta
+	/tmp/tmpo6Jxqm.fasta
+	/tmp/tmpc61AeC.fasta
+	/tmp/tmpRGCBmz.fasta
+	/tmp/tmpaSmVTW.fasta
+	/tmp/tmpzFS1qs.fasta
+	/tmp/tmpAi2ADS.fasta
+	/tmp/tmpIK5TcS.fasta
+	/tmp/tmpZ0uXHg.fasta
+	/tmp/tmpbcJsHj.fasta
+	/tmp/tmpdHMPMc.fasta
+	/tmp/tmpBtnVK0.fasta
+	/tmp/tmpupOgoQ.fasta
+	/tmp/tmpvsrCiL.fasta
+	/tmp/tmpdHaFs7.fasta
+	/tmp/tmp1lOTDi.fasta
+	/tmp/tmpKM0sPf.fasta
+	/tmp/tmpOYxPGE.fasta
+	/tmp/tmpbvHt1X.fasta
+	/tmp/tmp0wlMVQ.fasta
+	/tmp/tmpnTkkDC.fasta
+	/tmp/tmpCrt4U8.fasta
+	/tmp/tmp5TXLhX.fasta
+	/tmp/tmphceat_.fasta
+	/tmp/tmpDrintA.fasta
+	/tmp/tmp7saIGD.fasta
+	/tmp/tmpBWZsIh.fasta
+	/tmp/tmpXIhtwp.fasta
+	/tmp/tmpwQDFIq.fasta
+	/tmp/tmpeELQvH.fasta
+	/tmp/tmptjIRXK.fasta
+	/tmp/tmphvH1Ov.fasta
+
+Writing the results file...
+	/tmp/tmpNkfacZ.lastz
+	/tmp/tmpeeKULl.lastz
+	/tmp/tmpReVoQg.lastz
+	/tmp/tmpSXuG6Q.lastz
+	/tmp/tmpYbadUw.lastz
+	/tmp/tmpobwcfd.lastz
+	/tmp/tmpwTpaVy.lastz
+	/tmp/tmpMK8XJ4.lastz
+	/tmp/tmpqjbtEy.lastz
+	/tmp/tmpkFwhcI.lastz
+	/tmp/tmpfKwPuM.lastz
+	/tmp/tmpr97JrU.lastz
+	/tmp/tmpRy0pc0.lastz
+	/tmp/tmptgXJ1o.lastz
+	/tmp/tmpc1ntAb.lastz
+	/tmp/tmpPyjKPT.lastz
+	/tmp/tmp9o8QiI.lastz
+	/tmp/tmppxTxdg.lastz
+	/tmp/tmpN8q7vr.lastz
+	/tmp/tmprZDGrQ.lastz
+	/tmp/tmpFdIxgk.lastz
+	/tmp/tmpNDOMpi.lastz
+	/tmp/tmp4MQ8yF.lastz
+	/tmp/tmpiQB577.lastz
+	/tmp/tmp1v52n7.lastz
+	/tmp/tmpLy_N4Y.lastz
+	/tmp/tmp_A5oRJ.lastz
+	/tmp/tmpFcXVQA.lastz
+	/tmp/tmpt5MXRA.lastz
+	/tmp/tmpGjlYmA.lastz
+	/tmp/tmp7zHiaX.lastz
+	/tmp/tmpsjGJSS.lastz
+	/tmp/tmpaBBFxs.lastz
+	/tmp/tmpAl9yrR.lastz
+	/tmp/tmpovld8y.lastz
+	/tmp/tmpoQtaK4.lastz
+	/tmp/tmpT5jw25.lastz
+	/tmp/tmplgXnFl.lastz
+	/tmp/tmppFuJcw.lastz
+	/tmp/tmpZVwdx3.lastz
+	/tmp/tmpNo4pqe.lastz
+	/tmp/tmpWuHDrF.lastz
+	/tmp/tmp2Y9gWa.lastz
+	/tmp/tmpYhpL3t.lastz
+	/tmp/tmpGEuvqH.lastz
+	/tmp/tmpwsvdHt.lastz
+	/tmp/tmpdUu5Ek.lastz
+	/tmp/tmp2VV0RD.lastz
+	/tmp/tmp0jZbq1.lastz
+	/tmp/tmpVjra_g.lastz
+	/tmp/tmpDfY_BD.lastz
+	/tmp/tmpiRQLIA.lastz
+	/tmp/tmpV4OcSQ.lastz
+	/tmp/tmpabU2zO.lastz
+Cleaning up the chunked files...
+Cleaning /rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Acipenser_ruthenus.lastz
+Creating Acipenser_ruthenus table
+Inserting data to Acipenser_ruthenus table
+All tasks completed at Fri Apr 24 04:36:49 PM KST 2026

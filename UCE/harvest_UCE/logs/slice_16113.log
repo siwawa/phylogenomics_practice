@@ -1,0 +1,215 @@
+Job started on guanine at Fri Apr 24 03:06:49 PM KST 2026
+========================================================
+ Creating taxon_set.conf automatically...
+[scaffolds]
+Branchiostoma_floridae:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Branchiostoma_floridae/Branchiostoma_floridae.2bit
+Branchiostoma_lanceolatum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Branchiostoma_lanceolatum/Branchiostoma_lanceolatum.2bit
+Branchiostoma_belcheri:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Branchiostoma_belcheri/Branchiostoma_belcheri.2bit
+Ciona_intestinalis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Ciona_intestinalis/Ciona_intestinalis.2bit
+Styela_clava:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Styela_clava/Styela_clava.2bit
+Styela_plicata:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Styela_plicata/Styela_plicata.2bit
+Halocynthia_roretzi:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Halocynthia_roretzi/Halocynthia_roretzi.2bit
+Botryllus_schlosseri:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Botryllus_schlosseri/Botryllus_schlosseri.2bit
+Thalia_democratica:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Thalia_democratica/Thalia_democratica.2bit
+Oikopleura_dioica:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Oikopleura_dioica/Oikopleura_dioica.2bit
+Ascidia_mentula:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Ascidia_mentula/Ascidia_mentula.2bit
+Ciona_savignyi:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Ciona_savignyi/Ciona_savignyi.2bit
+Phallusia_mammillata:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Phallusia_mammillata/Phallusia_mammillata.2bit
+Botrylloides_diegensis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Botrylloides_diegensis/Botrylloides_diegensis.2bit
+Boltenia_villosa:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Boltenia_villosa/Boltenia_villosa.2bit
+Oikopleura_longicauda:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Oikopleura_longicauda/Oikopleura_longicauda.2bit
+Diplosoma_listerianum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Diplosoma_listerianum/Diplosoma_listerianum.2bit
+Clavelina_lepadiformis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Clavelina_lepadiformis/Clavelina_lepadiformis.2bit
+Halocynthia_papillosa:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Halocynthia_papillosa/Halocynthia_papillosa.2bit
+Ascidiella_aspersa:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Ascidiella_aspersa/Ascidiella_aspersa.2bit
+Halocynthia_aurantium:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Halocynthia_aurantium/Halocynthia_aurantium.2bit
+Aplidium_elegans:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Aplidium_elegans/Aplidium_elegans.2bit
+Diplosoma_spongiforme:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Diplosoma_spongiforme/Diplosoma_spongiforme.2bit
+Diplosoma_virens:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Diplosoma_virens/Diplosoma_virens.2bit
+Corella_eumyota:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Corella_eumyota/Corella_eumyota.2bit
+Didemnum_molle:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Didemnum_molle/Didemnum_molle.2bit
+Pycnoclavella_producta:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Pycnoclavella_producta/Pycnoclavella_producta.2bit
+Phallusia_fumigata:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Phallusia_fumigata/Phallusia_fumigata.2bit
+Microcosmus_squamiger:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Microcosmus_squamiger/Microcosmus_squamiger.2bit
+Microcosmus_polymorphus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Microcosmus_polymorphus/Microcosmus_polymorphus.2bit
+Didemnum_vexillum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Didemnum_vexillum/Didemnum_vexillum.2bit
+Trididemnum_clinides:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Trididemnum_clinides/Trididemnum_clinides.2bit
+Salpa_thompsoni:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Salpa_thompsoni/Salpa_thompsoni.2bit
+Botrylloides_violaceus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Botrylloides_violaceus/Botrylloides_violaceus.2bit
+Asterocarpa_humilis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Asterocarpa_humilis/Asterocarpa_humilis.2bit
+Trididemnum_nubilum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Trididemnum_nubilum/Trididemnum_nubilum.2bit
+Trididemnum_miniatum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Trididemnum_miniatum/Trididemnum_miniatum.2bit
+Salpa_aspera:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Salpa_aspera/Salpa_aspera.2bit
+Ascidiella_scabra:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Ascidiella_scabra/Ascidiella_scabra.2bit
+Lissoclinum_perforatum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Lissoclinum_perforatum/Lissoclinum_perforatum.2bit
+Phallusia_philippinensis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Phallusia_philippinensis/Phallusia_philippinensis.2bit
+Symplegma_brakenhielmi:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Symplegma_brakenhielmi/Symplegma_brakenhielmi.2bit
+Distaplia_bermudensis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Distaplia_bermudensis/Distaplia_bermudensis.2bit
+Oikopleura_albicans:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Oikopleura_albicans/Oikopleura_albicans.2bit
+Botrylloides_israeliense:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Botrylloides_israeliense/Botrylloides_israeliense.2bit
+Bathochordaeus_stygius:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Bathochordaeus_stygius/Bathochordaeus_stygius.2bit
+Oikopleura_vanhoeffeni:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Oikopleura_vanhoeffeni/Oikopleura_vanhoeffeni.2bit
+Polycarpa_mamillaris:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Polycarpa_mamillaris/Polycarpa_mamillaris.2bit
+Mesochordaeus_erythrocephalus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Mesochordaeus_erythrocephalus/Mesochordaeus_erythrocephalus.2bit
+Aplidium_turbinatum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Aplidium_turbinatum/Aplidium_turbinatum.2bit
+Perophora_annectens:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Perophora_annectens/Perophora_annectens.2bit
+Aplidium_pallidum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Aplidium_pallidum/Aplidium_pallidum.2bit
+Diazona_violacea:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Diazona_violacea/Diazona_violacea.2bit
+Corella_parallelogramma:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Corella_parallelogramma/Corella_parallelogramma.2bit
+Lampetra_planeri:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Lampetra_planeri/Lampetra_planeri.2bit
+Lethenteron_reissneri:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Lethenteron_reissneri/Lethenteron_reissneri.2bit
+Mordacia_mordax:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Mordacia_mordax/Mordacia_mordax.2bit
+Lampetra_fluviatilis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Lampetra_fluviatilis/Lampetra_fluviatilis.2bit
+Eptatretus_burgeri:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Eptatretus_burgeri/Eptatretus_burgeri.2bit
+Petromyzon_marinus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Petromyzon_marinus/Petromyzon_marinus.2bit
+Eptatretus_okinoseanus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Eptatretus_okinoseanus/Eptatretus_okinoseanus.2bit
+Myxine_glutinosa:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Myxine_glutinosa/Myxine_glutinosa.2bit
+Eptatretus_atami:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Eptatretus_atami/Eptatretus_atami.2bit
+Lampetra_richardsoni:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Lampetra_richardsoni/Lampetra_richardsoni.2bit
+Geotria_australis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Geotria_australis/Geotria_australis.2bit
+Lampetra_auremensis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Lampetra_auremensis/Lampetra_auremensis.2bit
+Eudontomyzon_morii:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Eudontomyzon_morii/Eudontomyzon_morii.2bit
+Entosphenus_tridentatus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Entosphenus_tridentatus/Entosphenus_tridentatus.2bit
+Hydrolagus_mirabilis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Hydrolagus_mirabilis/Hydrolagus_mirabilis.2bit
+Pristiophorus_japonicus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Pristiophorus_japonicus/Pristiophorus_japonicus.2bit
+Lethenteron_camtschaticum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Lethenteron_camtschaticum/Lethenteron_camtschaticum.2bit
+Stegostoma_tigrinum:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Stegostoma_tigrinum/Stegostoma_tigrinum.2bit
+Heterodontus_francisci:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Heterodontus_francisci/Heterodontus_francisci.2bit
+Leucoraja_erinaceus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Leucoraja_erinaceus/Leucoraja_erinaceus.2bit
+Hydrolagus_colliei:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Hydrolagus_colliei/Hydrolagus_colliei.2bit
+Raja_brachyura:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Raja_brachyura/Raja_brachyura.2bit
+Heptranchias_perlo:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Heptranchias_perlo/Heptranchias_perlo.2bit
+Homo_sapiens:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Homo_sapiens/Homo_sapiens.2bit
+Mobula_birostris:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Mobula_birostris/Mobula_birostris.2bit
+Okamejei_kenojei:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Okamejei_kenojei/Okamejei_kenojei.2bit
+Mobula_hypostoma:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Mobula_hypostoma/Mobula_hypostoma.2bit
+Torpedo_marmorata:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Torpedo_marmorata/Torpedo_marmorata.2bit
+Gallus_gallus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Gallus_gallus/Gallus_gallus.2bit
+Mus_musculus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Mus_musculus/Mus_musculus.2bit
+Xenopus_tropicalis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Xenopus_tropicalis/Xenopus_tropicalis.2bit
+Tetraodon_nigroviridis:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Tetraodon_nigroviridis/Tetraodon_nigroviridis.2bit
+Lepisosteus_oculatus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Lepisosteus_oculatus/Lepisosteus_oculatus.2bit
+Scyliorhinus_torazame:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Scyliorhinus_torazame/Scyliorhinus_torazame.2bit
+Latimeria_chalumnae:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Latimeria_chalumnae/Latimeria_chalumnae.2bit
+Chrysemys_picta_bellii:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Chrysemys_picta_bellii/Chrysemys_picta_bellii.2bit
+Polypterus_senegalus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Polypterus_senegalus/Polypterus_senegalus.2bit
+Acipenser_ruthenus:/rna/liha/phylogenomics_practice/UCE/harvest_UCE/03-two-bit/Acipenser_ruthenus/Acipenser_ruthenus.2bit
+========================================================
+ Extracting UCE loci and filtering paralogs...
+2026-04-24 15:06:50,083 - Phyluce - INFO - =================== Starting Phyluce: Slice Sequence ===================
+2026-04-24 15:06:50,084 - Phyluce - INFO - ------------ Working on Branchiostoma_floridae genome -----------
+2026-04-24 15:06:50,085 - Phyluce - INFO - Reading Branchiostoma_floridae genome
+2026-04-24 15:06:50,528 - Phyluce - INFO - Branchiostoma_floridae: 133 uces, 0 dupes, 133 non-dupes, 0 orient drop, 0 length drop, 133 written
+2026-04-24 15:06:50,528 - Phyluce - INFO - ---------- Working on Branchiostoma_lanceolatum genome ----------
+2026-04-24 15:06:50,529 - Phyluce - INFO - Reading Branchiostoma_lanceolatum genome
+2026-04-24 15:06:50,974 - Phyluce - INFO - Branchiostoma_lanceolatum: 136 uces, 0 dupes, 136 non-dupes, 0 orient drop, 0 length drop, 136 written
+2026-04-24 15:06:50,974 - Phyluce - INFO - ------------ Working on Branchiostoma_belcheri genome -----------
+2026-04-24 15:06:50,975 - Phyluce - INFO - Reading Branchiostoma_belcheri genome
+2026-04-24 15:06:51,388 - Phyluce - INFO - Branchiostoma_belcheri: 126 uces, 2 dupes, 124 non-dupes, 0 orient drop, 2 length drop, 122 written
+2026-04-24 15:06:51,388 - Phyluce - INFO - -------------- Working on Ciona_intestinalis genome -------------
+2026-04-24 15:06:51,388 - Phyluce - INFO - Reading Ciona_intestinalis genome
+2026-04-24 15:06:51,555 - Phyluce - INFO - Ciona_intestinalis: 45 uces, 1 dupes, 44 non-dupes, 0 orient drop, 1 length drop, 43 written
+2026-04-24 15:06:51,555 - Phyluce - INFO - ----------------- Working on Styela_clava genome ----------------
+2026-04-24 15:06:51,556 - Phyluce - INFO - Reading Styela_clava genome
+2026-04-24 15:06:51,814 - Phyluce - INFO - Styela_clava: 60 uces, 0 dupes, 60 non-dupes, 0 orient drop, 0 length drop, 60 written
+2026-04-24 15:06:51,814 - Phyluce - INFO - ---------------- Working on Styela_plicata genome ---------------
+2026-04-24 15:06:51,814 - Phyluce - INFO - Reading Styela_plicata genome
+2026-04-24 15:06:52,192 - Phyluce - INFO - Styela_plicata: 58 uces, 0 dupes, 58 non-dupes, 3 orient drop, 1 length drop, 54 written
+2026-04-24 15:06:52,192 - Phyluce - INFO - ------------- Working on Halocynthia_roretzi genome -------------
+2026-04-24 15:06:52,193 - Phyluce - INFO - Reading Halocynthia_roretzi genome
+2026-04-24 15:06:52,619 - Phyluce - INFO - Halocynthia_roretzi: 47 uces, 0 dupes, 47 non-dupes, 0 orient drop, 0 length drop, 47 written
+2026-04-24 15:06:52,619 - Phyluce - INFO - ------------- Working on Botryllus_schlosseri genome ------------
+2026-04-24 15:06:52,619 - Phyluce - INFO - Reading Botryllus_schlosseri genome
+2026-04-24 15:06:52,791 - Phyluce - INFO - Botryllus_schlosseri: 43 uces, 0 dupes, 43 non-dupes, 0 orient drop, 0 length drop, 43 written
+2026-04-24 15:06:52,791 - Phyluce - INFO - -------------- Working on Thalia_democratica genome -------------
+2026-04-24 15:06:52,791 - Phyluce - INFO - Reading Thalia_democratica genome
+2026-04-24 15:06:53,137 - Phyluce - INFO - Thalia_democratica: 15 uces, 1 dupes, 14 non-dupes, 1 orient drop, 0 length drop, 13 written
+2026-04-24 15:06:53,137 - Phyluce - INFO - -------------- Working on Oikopleura_dioica genome --------------
+2026-04-24 15:06:53,137 - Phyluce - INFO - Reading Oikopleura_dioica genome
+2026-04-24 15:06:53,374 - Phyluce - INFO - Oikopleura_dioica: 20 uces, 0 dupes, 20 non-dupes, 1 orient drop, 0 length drop, 19 written
+2026-04-24 15:06:53,374 - Phyluce - INFO - --------------- Working on Ascidia_mentula genome ---------------
+2026-04-24 15:06:53,374 - Phyluce - INFO - Reading Ascidia_mentula genome
+2026-04-24 15:06:53,504 - Phyluce - INFO - Ascidia_mentula: 52 uces, 0 dupes, 52 non-dupes, 0 orient drop, 1 length drop, 51 written
+2026-04-24 15:06:53,504 - Phyluce - INFO - ---------------- Working on Ciona_savignyi genome ---------------
+2026-04-24 15:06:53,504 - Phyluce - INFO - Reading Ciona_savignyi genome
+2026-04-24 15:06:53,657 - Phyluce - INFO - Ciona_savignyi: 40 uces, 2 dupes, 38 non-dupes, 0 orient drop, 0 length drop, 38 written
+2026-04-24 15:06:53,657 - Phyluce - INFO - ------------- Working on Phallusia_mammillata genome ------------
+2026-04-24 15:06:53,657 - Phyluce - INFO - Reading Phallusia_mammillata genome
+2026-04-24 15:06:53,820 - Phyluce - INFO - Phallusia_mammillata: 51 uces, 0 dupes, 51 non-dupes, 0 orient drop, 0 length drop, 51 written
+2026-04-24 15:06:53,820 - Phyluce - INFO - ------------ Working on Botrylloides_diegensis genome -----------
+2026-04-24 15:06:53,820 - Phyluce - INFO - Reading Botrylloides_diegensis genome
+2026-04-24 15:06:53,998 - Phyluce - INFO - Botrylloides_diegensis: 53 uces, 0 dupes, 53 non-dupes, 0 orient drop, 0 length drop, 53 written
+2026-04-24 15:06:53,998 - Phyluce - INFO - --------------- Working on Boltenia_villosa genome --------------
+2026-04-24 15:06:53,998 - Phyluce - INFO - Reading Boltenia_villosa genome
+2026-04-24 15:06:55,405 - Phyluce - INFO - Boltenia_villosa: 50 uces, 12 dupes, 38 non-dupes, 0 orient drop, 0 length drop, 38 written
+2026-04-24 15:06:55,405 - Phyluce - INFO - ------------ Working on Oikopleura_longicauda genome ------------
+2026-04-24 15:06:55,405 - Phyluce - INFO - Reading Oikopleura_longicauda genome
+2026-04-24 15:06:57,387 - Phyluce - INFO - Oikopleura_longicauda: 29 uces, 11 dupes, 18 non-dupes, 0 orient drop, 0 length drop, 18 written
+2026-04-24 15:06:57,387 - Phyluce - INFO - ------------ Working on Diplosoma_listerianum genome ------------
+2026-04-24 15:06:57,387 - Phyluce - INFO - Reading Diplosoma_listerianum genome
+2026-04-24 15:06:57,558 - Phyluce - INFO - Diplosoma_listerianum: 44 uces, 3 dupes, 41 non-dupes, 0 orient drop, 0 length drop, 41 written
+2026-04-24 15:06:57,559 - Phyluce - INFO - ------------ Working on Clavelina_lepadiformis genome -----------
+2026-04-24 15:06:57,559 - Phyluce - INFO - Reading Clavelina_lepadiformis genome
+2026-04-24 15:06:57,693 - Phyluce - INFO - Clavelina_lepadiformis: 43 uces, 0 dupes, 43 non-dupes, 0 orient drop, 1 length drop, 42 written
+2026-04-24 15:06:57,694 - Phyluce - INFO - ------------ Working on Halocynthia_papillosa genome ------------
+2026-04-24 15:06:57,694 - Phyluce - INFO - Reading Halocynthia_papillosa genome
+2026-04-24 15:06:57,873 - Phyluce - INFO - Halocynthia_papillosa: 52 uces, 0 dupes, 52 non-dupes, 0 orient drop, 0 length drop, 52 written
+2026-04-24 15:06:57,873 - Phyluce - INFO - -------------- Working on Ascidiella_aspersa genome -------------
+2026-04-24 15:06:57,873 - Phyluce - INFO - Reading Ascidiella_aspersa genome
+2026-04-24 15:06:58,072 - Phyluce - INFO - Ascidiella_aspersa: 41 uces, 0 dupes, 41 non-dupes, 0 orient drop, 0 length drop, 41 written
+2026-04-24 15:06:58,072 - Phyluce - INFO - ------------ Working on Halocynthia_aurantium genome ------------
+2026-04-24 15:06:58,073 - Phyluce - INFO - Reading Halocynthia_aurantium genome
+2026-04-24 15:06:58,292 - Phyluce - INFO - Halocynthia_aurantium: 46 uces, 2 dupes, 44 non-dupes, 0 orient drop, 0 length drop, 44 written
+2026-04-24 15:06:58,292 - Phyluce - INFO - --------------- Working on Aplidium_elegans genome --------------
+2026-04-24 15:06:58,292 - Phyluce - INFO - Reading Aplidium_elegans genome
+2026-04-24 15:06:58,535 - Phyluce - INFO - Aplidium_elegans: 49 uces, 5 dupes, 44 non-dupes, 0 orient drop, 1 length drop, 43 written
+2026-04-24 15:06:58,535 - Phyluce - INFO - ------------ Working on Diplosoma_spongiforme genome ------------
+2026-04-24 15:06:58,535 - Phyluce - INFO - Reading Diplosoma_spongiforme genome
+2026-04-24 15:06:58,795 - Phyluce - INFO - Diplosoma_spongiforme: 39 uces, 3 dupes, 36 non-dupes, 2 orient drop, 2 length drop, 32 written
+2026-04-24 15:06:58,796 - Phyluce - INFO - --------------- Working on Diplosoma_virens genome --------------
+2026-04-24 15:06:58,796 - Phyluce - INFO - Reading Diplosoma_virens genome
+2026-04-24 15:06:59,314 - Phyluce - INFO - Diplosoma_virens: 38 uces, 2 dupes, 36 non-dupes, 0 orient drop, 1 length drop, 35 written
+2026-04-24 15:06:59,315 - Phyluce - INFO - --------------- Working on Corella_eumyota genome ---------------
+2026-04-24 15:06:59,315 - Phyluce - INFO - Reading Corella_eumyota genome
+2026-04-24 15:06:59,644 - Phyluce - INFO - Corella_eumyota: 44 uces, 0 dupes, 44 non-dupes, 0 orient drop, 1 length drop, 43 written
+2026-04-24 15:06:59,644 - Phyluce - INFO - ---------------- Working on Didemnum_molle genome ---------------
+2026-04-24 15:06:59,645 - Phyluce - INFO - Reading Didemnum_molle genome
+2026-04-24 15:06:59,766 - Phyluce - INFO - Didemnum_molle: 33 uces, 3 dupes, 30 non-dupes, 0 orient drop, 0 length drop, 30 written
+2026-04-24 15:06:59,766 - Phyluce - INFO - ------------ Working on Pycnoclavella_producta genome -----------
+2026-04-24 15:06:59,766 - Phyluce - INFO - Reading Pycnoclavella_producta genome
+2026-04-24 15:06:59,969 - Phyluce - INFO - Pycnoclavella_producta: 51 uces, 3 dupes, 48 non-dupes, 0 orient drop, 0 length drop, 48 written
+2026-04-24 15:06:59,969 - Phyluce - INFO - -------------- Working on Phallusia_fumigata genome -------------
+2026-04-24 15:06:59,969 - Phyluce - INFO - Reading Phallusia_fumigata genome
+2026-04-24 15:07:00,200 - Phyluce - INFO - Phallusia_fumigata: 52 uces, 0 dupes, 52 non-dupes, 0 orient drop, 1 length drop, 51 written
+2026-04-24 15:07:00,200 - Phyluce - INFO - ------------ Working on Microcosmus_squamiger genome ------------
+2026-04-24 15:07:00,200 - Phyluce - INFO - Reading Microcosmus_squamiger genome
+2026-04-24 15:07:00,333 - Phyluce - INFO - Microcosmus_squamiger: 49 uces, 0 dupes, 49 non-dupes, 0 orient drop, 0 length drop, 49 written
+2026-04-24 15:07:00,333 - Phyluce - INFO - ----------- Working on Microcosmus_polymorphus genome -----------
+2026-04-24 15:07:00,334 - Phyluce - INFO - Reading Microcosmus_polymorphus genome
+2026-04-24 15:07:00,542 - Phyluce - INFO - Microcosmus_polymorphus: 64 uces, 0 dupes, 64 non-dupes, 1 orient drop, 0 length drop, 63 written
+2026-04-24 15:07:00,542 - Phyluce - INFO - -------------- Working on Didemnum_vexillum genome --------------
+2026-04-24 15:07:00,543 - Phyluce - INFO - Reading Didemnum_vexillum genome
+2026-04-24 15:07:00,962 - Phyluce - INFO - Didemnum_vexillum: 41 uces, 3 dupes, 38 non-dupes, 0 orient drop, 1 length drop, 37 written
+2026-04-24 15:07:00,962 - Phyluce - INFO - ------------- Working on Trididemnum_clinides genome ------------
+2026-04-24 15:07:00,963 - Phyluce - INFO - Reading Trididemnum_clinides genome
+2026-04-24 15:07:01,358 - Phyluce - INFO - Trididemnum_clinides: 40 uces, 4 dupes, 36 non-dupes, 0 orient drop, 0 length drop, 36 written
+2026-04-24 15:07:01,358 - Phyluce - INFO - --------------- Working on Salpa_thompsoni genome ---------------
+2026-04-24 15:07:01,359 - Phyluce - INFO - Reading Salpa_thompsoni genome
+2026-04-24 15:07:01,689 - Phyluce - INFO - Salpa_thompsoni: 33 uces, 2 dupes, 31 non-dupes, 1 orient drop, 0 length drop, 30 written
+2026-04-24 15:07:01,689 - Phyluce - INFO - ------------ Working on Botrylloides_violaceus genome -----------
+2026-04-24 15:07:01,690 - Phyluce - INFO - Reading Botrylloides_violaceus genome
+2026-04-24 15:07:01,806 - Phyluce - INFO - Botrylloides_violaceus: 51 uces, 0 dupes, 51 non-dupes, 0 orient drop, 0 length drop, 51 written
+2026-04-24 15:07:01,806 - Phyluce - INFO - ------------- Working on Asterocarpa_humilis genome -------------
+2026-04-24 15:07:01,807 - Phyluce - INFO - Reading Asterocarpa_humilis genome
+Traceback (most recent call last):
+  File "/rna/liha/miniconda3/envs/phyluce/bin/phyluce_probe_slice_sequence_from_genomes", line 348, in <module>
+    main()
+  File "/rna/liha/miniconda3/envs/phyluce/bin/phyluce_probe_slice_sequence_from_genomes", line 287, in main
+    all_uce_names, uce_matches, orientation = parse_lastz_file(lz, args.contig_orient, regex)
+  File "/rna/liha/miniconda3/envs/phyluce/bin/phyluce_probe_slice_sequence_from_genomes", line 228, in parse_lastz_file
+    for lz in lastz.Reader(lz, long_format=True):
+  File "/rna/liha/miniconda3/envs/phyluce/lib/python2.7/site-packages/phyluce/lastz.py", line 109, in __init__
+    self.file = open(lastz_file, 'rU')
+IOError: [Errno 2] No such file or directory: '/rna/liha/phylogenomics_practice/UCE/harvest_UCE/04-lastz-output/metazoan_probes-70.fasta_v_Asterocarpa_humilis.lastz.clean'
+Exception AttributeError: "Reader instance has no attribute 'file'" in <bound method Reader.__del__ of <phyluce.lastz.Reader instance at 0x7747f5a1dd88>> ignored
+All tasks completed at Fri Apr 24 03:07:03 PM KST 2026

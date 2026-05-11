@@ -1,0 +1,552 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: /rna/liha/phylogenomics_practice/UCE/Aligned_fasta/uce-9089_aligned.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 345830
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 63 sequences with 4049 nucleotide sites
+Number of constant sites: 932 (= 23.018% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 932 (= 23.018% of all sites)
+Number of parsimony informative sites: 2217
+Number of distinct site patterns: 3186
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM2u+F+I+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM2u+F+I+R4     -65400.078  131070.156 -  0.00215  131079.540 -  0.00294  131921.497 +    0.775
+HKY+F+I+R4       -65406.314  131080.628 - 1.15e-05  131089.872 - 1.68e-05  131925.662 +   0.0966
+K3Pu+F+I+R4      -65402.504  131075.009 -  0.00019  131084.393 -  0.00026  131926.349 +   0.0685
+TVM+F+I+R4       -65395.177  131064.353 -   0.0392  131074.021 -   0.0464  131928.306 -   0.0258
+TIM2+F+I+R4      -65399.951  131071.901 - 0.000899  131081.427 -  0.00114  131929.548 -   0.0138
+TPM3u+F+I+R4     -65404.313  131078.627 - 3.12e-05  131088.011 - 4.26e-05  131929.967 -   0.0112
+TPM2u+F+I+R5     -65397.224  131068.448 -  0.00506  131078.116 -  0.00599  131932.401 -  0.00332
+TN+F+I+R4        -65406.073  131082.146 - 5.36e-06  131091.530 - 7.32e-06  131933.486 -  0.00193
+TIM+F+I+R4       -65402.378  131076.756 - 7.94e-05  131086.281 - 0.000101  131934.402 -  0.00122
+TVM+F+I+R5       -65390.691  131059.383 +     0.47  131069.339 +    0.482  131935.948 - 0.000564
+GTR+F+I+R4       -65394.941  131065.882 -   0.0182  131075.694 -   0.0201  131936.141 - 0.000512
+TIM3+F+I+R4      -65404.073  131080.145 - 1.46e-05  131089.671 - 1.86e-05  131937.792 - 0.000224
+K3Pu+F+I+R5      -65399.939  131073.877 - 0.000335  131083.545 - 0.000397  131937.830 -  0.00022
+TIM2+F+I+R5      -65395.996  131067.993 -  0.00635  131077.805 -    0.007  131938.252 - 0.000178
+TPM2u+F+R6       -65396.015  131068.029 -  0.00623  131077.841 -  0.00688  131938.288 - 0.000175
+TPM3u+F+I+R5     -65401.332  131076.664 - 8.31e-05  131086.332 - 9.85e-05  131940.617 - 5.47e-05
+HKY+F+I+R5       -65405.643  131083.286 - 3.03e-06  131092.812 - 3.86e-06  131940.933 - 4.67e-05
+K3Pu+F+R6        -65397.901  131071.801 - 0.000945  131081.613 -  0.00104  131942.061 - 2.66e-05
+HKY+F+R6         -65402.227  131078.454 -  3.4e-05  131088.122 - 4.02e-05  131942.407 - 2.23e-05
+TIM+F+I+R5       -65398.600  131073.200 -  0.00047  131083.012 - 0.000518  131943.459 - 1.32e-05
+GTR+F+I+R5       -65390.295  131060.590 +    0.257  131070.692 +    0.245  131943.462 - 1.32e-05
+TVM+F+R6         -65391.044  131062.087 +    0.122  131072.190 +    0.116  131944.959 - 6.23e-06
+TPM3u+F+R6       -65399.680  131075.359 -  0.00016  131085.171 - 0.000176  131945.618 - 4.48e-06
+TIM2+F+R6        -65395.641  131069.282 -  0.00333  131079.238 -  0.00342  131945.847 -    4e-06
+TIM3+F+I+R5      -65400.128  131076.257 - 0.000102  131086.069 - 0.000112  131946.516 - 2.86e-06
+TN+F+I+R5        -65404.975  131083.951 - 2.17e-06  131093.619 - 2.58e-06  131947.904 - 1.43e-06
+TIM+F+R6         -65397.547  131073.094 - 0.000495  131083.050 - 0.000508  131949.659 - 5.95e-07
+TN+F+R6          -65401.887  131079.774 - 1.76e-05  131089.586 - 1.94e-05  131950.033 - 4.93e-07
+GTR+F+R6         -65390.646  131063.293 +   0.0666  131073.542 +    0.059  131952.470 - 1.46e-07
+TIM3+F+R6        -65399.327  131076.654 - 8.35e-05  131086.610 - 8.57e-05  131953.219 -    1e-07
+TVM+I+R4         -65574.685  131417.371 - 8.63e-79  131426.615 - 1.26e-78  132262.405 - 7.28e-75
+TVMe+I+R4        -65574.776  131417.552 - 7.89e-79  131426.795 - 1.16e-78  132262.586 - 6.65e-75
+TVMe+I+R4        -65574.776  131417.552 - 7.89e-79  131426.795 - 1.16e-78  132262.586 - 6.65e-75
+GTR+I+R4         -65574.523  131419.046 - 3.74e-79  131428.430 -  5.1e-79  132270.386 - 1.35e-76
+SYM+I+R4         -65574.600  131419.199 - 3.46e-79  131428.584 - 4.73e-79  132270.540 - 1.25e-76
+SYM+I+R4         -65574.600  131419.199 - 3.46e-79  131428.584 - 4.73e-79  132270.540 - 1.25e-76
+TVM+I+R5         -65570.929  131413.858 -    5e-78  131423.384 - 6.36e-78  132271.505 -  7.7e-77
+TVMe+I+R5        -65571.010  131414.020 - 4.61e-78  131423.546 - 5.87e-78  132271.667 -  7.1e-77
+TVMe+I+R5        -65571.010  131414.020 - 4.61e-78  131423.546 - 5.87e-78  132271.667 -  7.1e-77
+GTR+I+R5         -65570.571  131415.142 - 2.63e-78  131424.810 - 3.12e-78  132279.095 - 1.73e-78
+SYM+I+R5         -65570.639  131415.278 - 2.46e-78  131424.946 - 2.91e-78  132279.231 - 1.62e-78
+SYM+I+R5         -65570.639  131415.278 - 2.46e-78  131424.946 - 2.91e-78  132279.231 - 1.62e-78
+TVM+R6           -65570.907  131415.813 - 1.88e-78  131425.481 - 2.23e-78  132279.766 - 1.24e-78
+TVMe+R6          -65570.987  131415.974 - 1.74e-78  131425.642 - 2.06e-78  132279.927 - 1.14e-78
+TVMe+R6          -65570.987  131415.974 - 1.74e-78  131425.642 - 2.06e-78  132279.927 - 1.14e-78
+GTR+R6           -65570.660  131417.320 - 8.86e-79  131427.132 - 9.77e-79  132287.579 - 2.49e-80
+SYM+R6           -65570.735  131417.470 - 8.22e-79  131427.281 - 9.06e-79  132287.729 - 2.31e-80
+SYM+R6           -65570.735  131417.470 - 8.22e-79  131427.281 - 9.06e-79  132287.729 - 2.31e-80
+TPM2u+I+R4       -65624.226  131512.451 - 1.95e-99  131521.417 - 3.28e-99  132344.873 - 9.01e-93
+TPM2+I+R4        -65624.322  131512.644 - 1.77e-99  131521.610 - 2.98e-99  132345.065 - 8.18e-93
+TPM2+I+R4        -65624.322  131512.644 - 1.77e-99  131521.610 - 2.98e-99  132345.065 - 8.18e-93
+TIM2+I+R4        -65623.273  131512.545 - 1.86e-99  131521.650 - 2.92e-99  132351.273 - 3.67e-94
+TIM2e+I+R4       -65623.369  131512.739 - 1.69e-99  131521.843 - 2.65e-99  132351.467 - 3.33e-94
+TIM2e+I+R4       -65623.369  131512.739 - 1.69e-99  131521.843 - 2.65e-99  132351.467 - 3.33e-94
+TPM2u+I+R5       -65620.959  131509.917 - 6.92e-99  131519.161 - 1.01e-98  132354.951 - 5.84e-95
+TPM2+I+R5        -65621.059  131510.118 - 6.26e-99  131519.361 - 9.17e-99  132355.152 - 5.28e-95
+TPM2+I+R5        -65621.059  131510.118 - 6.26e-99  131519.361 - 9.17e-99  132355.152 - 5.28e-95
+TIM2+I+R5        -65619.877  131509.754 - 7.51e-99  131519.138 - 1.03e-98  132361.094 -  2.7e-96
+TIM2e+I+R5       -65619.967  131509.934 - 6.86e-99  131519.318 - 9.37e-99  132361.275 - 2.47e-96
+TIM2e+I+R5       -65619.967  131509.934 - 6.86e-99  131519.318 - 9.37e-99  132361.275 - 2.47e-96
+TPM2u+R6         -65620.533  131511.065 -  3.9e-99  131520.449 - 5.32e-99  132362.406 -  1.4e-96
+TPM2+R6          -65620.621  131511.243 - 3.57e-99  131520.627 - 4.87e-99  132362.583 - 1.28e-96
+TPM2+R6          -65620.621  131511.243 - 3.57e-99  131520.627 - 4.87e-99  132362.583 - 1.28e-96
+TIM2+R6          -65619.509  131511.017 - 3.99e-99  131520.543 - 5.08e-99  132368.664 - 6.14e-98
+TIM2e+R6         -65619.595  131511.190 - 3.66e-99  131520.716 - 4.66e-99  132368.837 - 5.63e-98
+TIM2e+R6         -65619.595  131511.190 - 3.66e-99  131520.716 - 4.66e-99  132368.837 - 5.63e-98
+TPM3u+I+R4       -65645.266  131554.532 - 1.42e-108  131563.498 - 2.39e-108  132386.954 - 6.56e-102
+TPM3+I+R4        -65645.374  131554.748 - 1.27e-108  131563.715 - 2.14e-108  132387.170 - 5.89e-102
+TPM3+I+R4        -65645.374  131554.748 - 1.27e-108  131563.715 - 2.14e-108  132387.170 - 5.89e-102
+TIM3+I+R4        -65644.350  131554.699 - 1.31e-108  131563.804 - 2.05e-108  132393.427 - 2.58e-103
+TIM3e+I+R4       -65644.455  131554.910 - 1.17e-108  131564.015 - 1.85e-108  132393.638 - 2.32e-103
+TIM3e+I+R4       -65644.455  131554.910 - 1.17e-108  131564.015 - 1.85e-108  132393.638 - 2.32e-103
+TPM3u+I+R5       -65641.763  131551.525 - 6.38e-108  131560.769 - 9.35e-108  132396.559 - 5.38e-104
+TPM3+I+R5        -65641.846  131551.692 - 5.87e-108  131560.936 - 8.6e-108  132396.726 - 4.95e-104
+TPM3+I+R5        -65641.846  131551.692 - 5.87e-108  131560.936 - 8.6e-108  132396.726 - 4.95e-104
+TIM3+I+R5        -65640.550  131551.100 - 7.89e-108  131560.485 - 1.08e-107  132402.441 - 2.84e-105
+TIM3e+I+R5       -65640.631  131551.262 - 7.28e-108  131560.646 - 9.94e-108  132402.602 - 2.62e-105
+TIM3e+I+R5       -65640.631  131551.262 - 7.28e-108  131560.646 - 9.94e-108  132402.602 - 2.62e-105
+TPM3u+R6         -65640.647  131551.293 - 7.17e-108  131560.678 - 9.79e-108  132402.634 - 2.58e-105
+TPM3+R6          -65640.741  131551.483 - 6.52e-108  131560.867 - 8.9e-108  132402.823 - 2.35e-105
+TPM3+R6          -65640.741  131551.483 - 6.52e-108  131560.867 - 8.9e-108  132402.823 - 2.35e-105
+K3Pu+I+R4        -65654.196  131572.391 - 1.88e-112  131581.357 - 3.16e-112  132404.813 - 8.69e-106
+K3P+I+R4         -65654.298  131572.595 - 1.7e-112  131581.562 - 2.86e-112  132405.017 - 7.84e-106
+K3P+I+R4         -65654.298  131572.595 - 1.7e-112  131581.562 - 2.86e-112  132405.017 - 7.84e-106
+TIM+I+R4         -65652.778  131571.556 - 2.85e-112  131580.660 - 4.48e-112  132410.284 - 5.63e-107
+TIM3+R6          -65640.329  131552.658 - 3.62e-108  131562.183 - 4.61e-108  132410.304 - 5.58e-107
+TIMe+I+R4        -65652.862  131571.723 - 2.62e-112  131580.828 - 4.12e-112  132410.451 - 5.18e-107
+TIMe+I+R4        -65652.862  131571.723 - 2.62e-112  131580.828 - 4.12e-112  132410.451 - 5.18e-107
+TIM3e+R6         -65640.425  131552.849 - 3.29e-108  131562.375 - 4.19e-108  132410.496 - 5.07e-107
+TIM3e+R6         -65640.425  131552.849 - 3.29e-108  131562.375 - 4.19e-108  132410.496 - 5.07e-107
+K3Pu+I+R5        -65651.321  131570.642 - 4.51e-112  131579.886 - 6.6e-112  132415.676 - 3.8e-108
+K3P+I+R5         -65651.400  131570.800 - 4.16e-112  131580.044 - 6.1e-112  132415.834 - 3.51e-108
+K3P+I+R5         -65651.400  131570.800 - 4.16e-112  131580.044 - 6.1e-112  132415.834 - 3.51e-108
+K3Pu+R6          -65649.983  131569.966 - 6.32e-112  131579.350 - 8.63e-112  132421.306 - 2.28e-109
+K3P+R6           -65650.065  131570.130 - 5.82e-112  131579.514 - 7.95e-112  132421.471 - 2.1e-109
+K3P+R6           -65650.065  131570.130 - 5.82e-112  131579.514 - 7.95e-112  132421.471 - 2.1e-109
+TIM+I+R5         -65650.070  131570.139 - 5.79e-112  131579.523 - 7.91e-112  132421.480 - 2.09e-109
+TIMe+I+R5        -65650.135  131570.271 - 5.42e-112  131579.655 - 7.41e-112  132421.611 - 1.95e-109
+TIMe+I+R5        -65650.135  131570.271 - 5.42e-112  131579.655 - 7.41e-112  132421.611 - 1.95e-109
+TIM+R6           -65648.710  131569.420 - 8.3e-112  131578.945 - 1.06e-111  132427.067 - 1.28e-110
+TIMe+R6          -65648.775  131569.551 - 7.77e-112  131579.077 - 9.89e-112  132427.198 - 1.2e-110
+TIMe+R6          -65648.775  131569.551 - 7.77e-112  131579.077 - 9.89e-112  132427.198 - 1.2e-110
+HKY+I+R4         -65680.808  131623.615 - 1.41e-123  131632.445 - 2.55e-123  132449.731 - 1.53e-115
+K2P+I+R4         -65680.918  131623.836 - 1.27e-123  131632.666 - 2.28e-123  132449.952 - 1.37e-115
+K2P+I+R4         -65680.918  131623.836 - 1.27e-123  131632.666 - 2.28e-123  132449.952 - 1.37e-115
+TN+I+R4          -65678.748  131621.497 - 4.08e-123  131630.463 - 6.87e-123  132453.919 - 1.89e-116
+TNe+I+R4         -65678.834  131621.669 - 3.74e-123  131630.635 - 6.3e-123  132454.090 - 1.73e-116
+TNe+I+R4         -65678.834  131621.669 - 3.74e-123  131630.635 - 6.3e-123  132454.090 - 1.73e-116
+HKY+I+R5         -65680.271  131626.542 - 3.27e-124  131635.647 - 5.14e-124  132465.270 - 6.47e-119
+K2P+I+R5         -65680.380  131626.761 - 2.94e-124  131635.865 - 4.61e-124  132465.489 - 5.8e-119
+K2P+I+R5         -65680.380  131626.761 - 2.94e-124  131635.865 - 4.61e-124  132465.489 - 5.8e-119
+HKY+R6           -65676.498  131620.996 - 5.24e-123  131630.239 - 7.68e-123  132466.030 - 4.42e-119
+K2P+R6           -65676.611  131621.223 - 4.68e-123  131630.467 - 6.86e-123  132466.257 - 3.95e-119
+K2P+R6           -65676.611  131621.223 - 4.68e-123  131630.467 - 6.86e-123  132466.257 - 3.95e-119
+TN+I+R5          -65678.011  131624.021 - 1.15e-123  131633.265 - 1.69e-123  132469.055 - 9.74e-120
+TNe+I+R5         -65678.101  131624.202 - 1.06e-123  131633.445 - 1.55e-123  132469.236 - 8.9e-120
+TNe+I+R5         -65678.101  131624.202 - 1.06e-123  131633.445 - 1.55e-123  132469.236 - 8.9e-120
+TN+R6            -65675.056  131620.111 - 8.16e-123  131629.495 - 1.11e-122  132471.451 - 2.94e-120
+TNe+R6           -65675.125  131620.249 - 7.62e-123  131629.633 - 1.04e-122  132471.589 - 2.74e-120
+TNe+R6           -65675.125  131620.249 - 7.62e-123  131629.633 - 1.04e-122  132471.589 - 2.74e-120
+F81+F+I+R4       -66183.691  132633.383 -        0  132642.487 -        0  133472.111 -        0
+F81+F+I+R5       -66182.761  132635.523 -        0  132644.907 -        0  133486.863 -        0
+F81+F+R6         -66179.160  132630.319 -        0  132639.845 -        0  133487.966 -        0
+F81+I+R4         -66355.285  132970.570 -        0  132979.263 -        0  133790.379 -        0
+F81+I+R5         -66353.436  132970.872 -        0  132979.838 -        0  133803.293 -        0
+JC+I+R5          -66353.553  132971.107 -        0  132980.073 -        0  133803.528 -        0
+JC+I+R5          -66353.553  132971.107 -        0  132980.073 -        0  133803.528 -        0
+F81+R6           -66350.084  132966.167 -        0  132975.272 -        0  133804.895 -        0
+JC+R6            -66350.203  132966.407 -        0  132975.511 -        0  133805.135 -        0
+JC+R6            -66350.203  132966.407 -        0  132975.511 -        0  133805.135 -        0
+JC+I+R4          -66365.082  132990.164 -        0  132998.857 -        0  133809.973 -        0
+JC+I+R4          -66365.082  132990.164 -        0  132998.857 -        0  133809.973 -        0
+JC+R5            -66363.120  132988.241 -        0  132997.070 -        0  133814.356 -        0
+JC+I+R6          -66353.116  132974.232 -        0  132983.476 -        0  133819.267 -        0
+JC+R7            -66349.111  132968.222 -        0  132977.606 -        0  133819.563 -        0
+JC+I+R3          -66385.596  133027.191 -        0  133035.616 -        0  133834.388 -        0
+JC+R4            -66385.802  133029.605 -        0  133038.163 -        0  133843.108 -        0
+JC+R3            -66419.785  133093.571 -        0  133101.863 -        0  133894.462 -        0
+JC+I+R2          -66480.235  133212.471 -        0  133220.631 -        0  134007.055 -        0
+JC+R2            -66531.253  133312.507 -        0  133320.536 -        0  134100.785 -        0
+JC+I+G4          -66533.058  133316.116 -        0  133324.146 -        0  134104.395 -        0
+JC+G4            -66596.321  133440.642 -        0  133448.542 -        0  134222.614 -        0
+JC+I             -67440.312  135128.623 -        0  135136.524 -        0  135910.595 -        0
+JC               -67666.223  135578.446 -        0  135586.217 -        0  136354.111 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM2u+F+I+R4
+
+Rate parameter R:
+
+  A-C: 1.1667
+  A-G: 2.8372
+  A-T: 1.1667
+  C-G: 1.0000
+  C-T: 2.8372
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2785
+  pi(C) = 0.2228
+  pi(G) = 0.2209
+  pi(T) = 0.2778
+
+Rate matrix Q:
+
+  A   -0.9711    0.2085    0.5027      0.26
+  C    0.2606     -1.07    0.1772    0.6322
+  G    0.6338    0.1787    -1.035    0.2228
+  T    0.2606    0.5069    0.1772   -0.9447
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.002027
+Site proportion and rates:  (0.03192,0.05663) (0.1486,0.3314) (0.3187,0.7589) (0.4988,1.418)
+
+ Category  Relative_rate  Proportion
+  0         0              0.002027
+  1         0.05663        0.03192
+  2         0.3314         0.1486
+  3         0.7589         0.3187
+  4         1.418          0.4988
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -65390.3798 (s.e. 1053.7591)
+Unconstrained log-likelihood (without tree): -31505.4328
+Number of free parameters (#branches + #model parameters): 135
+Akaike information criterion (AIC) score: 131050.7595
+Corrected Akaike information criterion (AICc) score: 131060.1436
+Bayesian information criterion (BIC) score: 131902.0999
+
+Total tree length (sum of branch lengths): 37.7621
+Sum of internal branch lengths: 10.8119 (28.6317% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'branchiostoma_floridae' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---------------branchiostoma_floridae
+|
+|                                                    +-----------------branchiostoma_lanceolatum
+|                                                 +--| (99)
+|                                                 |  |                +**lampetra_fluviatilis
+|                                                 |  |             +--| (100)
+|                                                 |  |             |  +**lampetra_planeri
+|                                                 |  |          +--| (25)
+|                                                 |  |          |  |  +--lethenteron_reissneri
+|                                                 |  |          |  +--| (99)
+|                                                 |  |          |     +--lethenteron_camtschaticum
+|                                                 |  |    +-----| (100)
+|                                                 |  |    |     +**lampetra_richardsoni
+|                                                 |  +----| (100)
+|                                                 |       +-----------geotria_australis
+|                                              +--| (88)
+|                                              |  |               +--eptatretus_burgeri
+|                                              |  |            +--| (100)
+|                                              |  |            |  +--eptatretus_okinoseanus
+|                                              |  |         +--| (100)
+|                                              |  |         |  +--eptatretus_atami
+|                                              |  +---------| (100)
+|                                              |            +--myxine_glutinosa
+|                                           +--| (94)
+|                                           |  |           +---botrylloides_violaceus
+|                                           |  |        +--| (97)
+|                                           |  |        |  +--leucoraja_erinaceus
+|                                           |  |     +--| (97)
+|                                           |  |     |  +----hydrolagus_colliei
+|                                           |  |  +--| (96)
+|                                           |  |  |  +-------mus_musculus
+|                                           |  +--| (92)
+|                                           |     +------gallus_gallus
+|                                        +--| (83)
+|                                        |  |  +-------botryllus_schlosseri
+|                                        |  +--| (93)
+|                                        |     |  +------microcosmus_squamiger
+|                                        |     +--| (97)
+|                                        |        +-------microcosmus_polymorphus
+|                                     +--| (80)
+|                                     |  |         +----oikopleura_dioica
+|                                     |  |     +---| (100)
+|                                     |  |     |   +-----oikopleura_longicauda
+|                                     |  |  +--| (80)
+|                                     |  |  |  +-----diazona_violacea
+|                                     |  +--| (79)
+|                                     |     |  +----ascidia_mentula
+|                                     |     +--| (100)
+|                                     |        |  +--phallusia_mammillata
+|                                     |        +--| (100)
+|                                     |           +--phallusia_fumigata
+|                  +------------------| (100)
+|                  |                  |        +----------diplosoma_listerianum
+|                  |                  |     +--| (63)
+|                  |                  |     |  +---------trididemnum_nubilum
+|                  |                  |  +--| (36)
+|                  |                  |  |  |  +----ascidiella_aspersa
+|                  |                  |  |  +--| (100)
+|                  |                  |  |     +----ascidiella_scabra
+|                  |                  +--| (61)
+|                  |                     |     +----------pycnoclavella_producta
+|                  |                     |  +--| (72)
+|                  |                     |  |  |  +---------didemnum_vexillum
+|                  |                     |  |  +--| (84)
+|                  |                     |  |     +----------trididemnum_miniatum
+|                  |                     +--| (64)
+|                  |                        +----------distaplia_bermudensis
+|               +--| (62)
+|               |  |              +------styela_plicata
+|               |  |           +--| (97)
+|               |  |           |  +------polycarpa_mamillaris
+|               |  |        +--| (97)
+|               |  |        |  +----boltenia_villosa
+|               |  |     +--| (91)
+|               |  |     |  |  +--------botrylloides_diegensis
+|               |  |     |  +--| (91)
+|               |  |     |     +-----asterocarpa_humilis
+|               |  |  +--| (44)
+|               |  |  |  +---------mesochordaeus_erythrocephalus
+|               |  +--| (38)
+|               |     |      +----------diplosoma_spongiforme
+|               |     |  +---| (97)
+|               |     |  |   +-------diplosoma_virens
+|               |     +--| (61)
+|               |        |  +------------didemnum_molle
+|               |        +--| (68)
+|               |           |  +---------corella_eumyota
+|               |           +--| (84)
+|               |              +-----------perophora_annectens
+|           +---| (99)
+|           |   |         +--halocynthia_roretzi
+|           |   |      +--| (100)
+|           |   |      |  +--halocynthia_aurantium
+|           |   |  +---| (100)
+|           |   |  |   +--halocynthia_papillosa
+|           |   +--| (71)
+|           |      +-------phallusia_philippinensis
+|        +--| (46)
+|        |  |     +---------------mordacia_mordax
+|        |  |  +--| (52)
+|        |  |  |  |           +--entosphenus_tridentatus
+|        |  |  |  +-----------| (100)
+|        |  |  |              |  +--eudontomyzon_morii
+|        |  |  |              +--| (99)
+|        |  |  |                 +--lampetra_auremensis
+|        |  +--| (49)
+|        |     +------------latimeria_chalumnae
+|     +--| (57)
+|     |  |     +------------hydrolagus_mirabilis
+|     |  |  +--| (97)
+|     |  |  |  |           +--mobula_hypostoma
+|     |  |  |  |     +-----| (100)
+|     |  |  |  |     |     +--mobula_birostris
+|     |  |  |  |  +--| (94)
+|     |  |  |  |  |  +----homo_sapiens
+|     |  |  |  +--| (94)
+|     |  |  |     +--chrysemys_picta_bellii
+|     |  +--| (74)
+|     |     +-----lepisosteus_oculatus
+|  +--| (53)
+|  |  +------polypterus_senegalus
++--| (36)
+|  +-------xenopus_tropicalis
+|
++-------------scyliorhinus_torazame
+
+Tree in newick format:
+
+(branchiostoma_floridae:1.0540400255,((((((((((((branchiostoma_lanceolatum:1.1575660940,((((lampetra_fluviatilis:0.0000013665,lampetra_planeri:0.0000013665)100:0.0193267635,(lethenteron_reissneri:0.0193287914,lethenteron_camtschaticum:0.0380534278)99:0.0359373093)25:0.0226984492,lampetra_richardsoni:0.0000032155)100:0.4188041365,geotria_australis:0.8067628694)100:0.3513815251)99:0.2144686034,(((eptatretus_burgeri:0.0297771255,eptatretus_okinoseanus:0.0110039886)100:0.0201805685,eptatretus_atami:0.0148449445)100:0.1323358699,myxine_glutinosa:0.0706897902)100:0.6605524213)88:0.0454938774,((((botrylloides_violaceus:0.3008214525,leucoraja_erinaceus:0.1738041290)97:0.1930559096,hydrolagus_colliei:0.3623335687)97:0.1954192960,mus_musculus:0.5256291215)96:0.1866769248,gallus_gallus:0.4725221613)92:0.1769304613)94:0.1595311659,(botryllus_schlosseri:0.5255919914,(microcosmus_squamiger:0.5021779954,microcosmus_polymorphus:0.5658264982)97:0.1119361168)93:0.1148160826)83:0.1393507503,(((oikopleura_dioica:0.3298264364,oikopleura_longicauda:0.4317169080)100:0.3121280448,diazona_violacea:0.3862714308)80:0.0836465014,(ascidia_mentula:0.3578886431,(phallusia_mammillata:0.1913901503,phallusia_fumigata:0.2309200647)100:0.2013123807)100:0.2072013795)79:0.0816040257)80:0.0655353920,(((diplosoma_listerianum:0.7182703231,trididemnum_nubilum:0.6853942001)63:0.1645418083,(ascidiella_aspersa:0.3832214628,ascidiella_scabra:0.3837609399)100:0.2478361002)36:0.0467035317,((pycnoclavella_producta:0.7429738780,(didemnum_vexillum:0.6970217675,trididemnum_miniatum:0.7254343303)84:0.0507928290)72:0.0949363743,distaplia_bermudensis:0.7464356470)64:0.1109045977)61:0.0607311019)100:1.2548267700,(((((styela_plicata:0.5083790684,polycarpa_mamillaris:0.4658031809)97:0.1042061397,boltenia_villosa:0.3644603624)97:0.0915676629,(botrylloides_diegensis:0.5840370468,asterocarpa_humilis:0.4005096826)91:0.1009781466)91:0.0686765513,mesochordaeus_erythrocephalus:0.6547743700)44:0.0492272536,((diplosoma_spongiforme:0.7092733728,diplosoma_virens:0.5188931676)97:0.2871061369,(didemnum_molle:0.8961648338,(corella_eumyota:0.6619496982,perophora_annectens:0.7864235679)84:0.1267724390)68:0.0903861311)61:0.0748336793)38:0.0816187188)62:0.0278604855,(((halocynthia_roretzi:0.0409496377,halocynthia_aurantium:0.0231107183)100:0.1174814612,halocynthia_papillosa:0.1325566341)100:0.2823425902,phallusia_philippinensis:0.5152512058)71:0.0851570174)99:0.2984244962,((mordacia_mordax:1.0475238619,(entosphenus_tridentatus:0.0094885270,(eudontomyzon_morii:0.0279440820,lampetra_auremensis:0.0335922346)99:0.0199336616)100:0.8290553004)52:0.2434398460,latimeria_chalumnae:0.8913806883)49:0.1391024334)46:0.1092201612,((hydrolagus_mirabilis:0.8907060162,(((mobula_hypostoma:0.1999153680,mobula_birostris:0.0131369524)100:0.4410423952,homo_sapiens:0.3785311270)94:0.2236167307,chrysemys_picta_bellii:0.1371817611)94:0.0826480575)97:0.1796128157,lepisosteus_oculatus:0.4430048025)74:0.1159219503)57:0.1155498854,polypterus_senegalus:0.4935651506)53:0.1378947940,xenopus_tropicalis:0.5564787987)36:0.1259761030,scyliorhinus_torazame:0.9045356488);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -65390.417093
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------branchiostoma_floridae
+|
+|                                                    +-----------------branchiostoma_lanceolatum
+|                                                 +--| (99)
+|                                                 |  |                +--lampetra_fluviatilis
+|                                                 |  |             +--| (100)
+|                                                 |  |             |  +--lampetra_planeri
+|                                                 |  |          +--| (75)
+|                                                 |  |          |  +--lampetra_richardsoni
+|                                                 |  |    +-----| (100)
+|                                                 |  |    |     |  +--lethenteron_reissneri
+|                                                 |  |    |     +--| (99)
+|                                                 |  |    |        +--lethenteron_camtschaticum
+|                                                 |  +----| (100)
+|                                                 |       +-----------geotria_australis
+|                                              +--| (88)
+|                                              |  |               +--eptatretus_burgeri
+|                                              |  |            +--| (100)
+|                                              |  |            |  +--eptatretus_okinoseanus
+|                                              |  |         +--| (100)
+|                                              |  |         |  +--eptatretus_atami
+|                                              |  +---------| (100)
+|                                              |            +--myxine_glutinosa
+|                                           +--| (94)
+|                                           |  |           +---botrylloides_violaceus
+|                                           |  |        +--| (97)
+|                                           |  |        |  +--leucoraja_erinaceus
+|                                           |  |     +--| (97)
+|                                           |  |     |  +----hydrolagus_colliei
+|                                           |  |  +--| (96)
+|                                           |  |  |  +-------mus_musculus
+|                                           |  +--| (92)
+|                                           |     +------gallus_gallus
+|                                        +--| (83)
+|                                        |  |  +-------botryllus_schlosseri
+|                                        |  +--| (93)
+|                                        |     |  +------microcosmus_squamiger
+|                                        |     +--| (97)
+|                                        |        +-------microcosmus_polymorphus
+|                                     +--| (80)
+|                                     |  |         +----oikopleura_dioica
+|                                     |  |     +---| (100)
+|                                     |  |     |   +-----oikopleura_longicauda
+|                                     |  |  +--| (80)
+|                                     |  |  |  +-----diazona_violacea
+|                                     |  +--| (79)
+|                                     |     |  +----ascidia_mentula
+|                                     |     +--| (100)
+|                                     |        |  +--phallusia_mammillata
+|                                     |        +--| (100)
+|                                     |           +--phallusia_fumigata
+|                  +------------------| (100)
+|                  |                  |        +----------diplosoma_listerianum
+|                  |                  |     +--| (63)
+|                  |                  |     |  +---------trididemnum_nubilum
+|                  |                  |  +--| (36)
+|                  |                  |  |  |  +----ascidiella_aspersa
+|                  |                  |  |  +--| (100)
+|                  |                  |  |     +----ascidiella_scabra
+|                  |                  +--| (61)
+|                  |                     |     +----------pycnoclavella_producta
+|                  |                     |  +--| (72)
+|                  |                     |  |  |  +---------didemnum_vexillum
+|                  |                     |  |  +--| (84)
+|                  |                     |  |     +----------trididemnum_miniatum
+|                  |                     +--| (64)
+|                  |                        +----------distaplia_bermudensis
+|               +--| (62)
+|               |  |              +------styela_plicata
+|               |  |           +--| (97)
+|               |  |           |  +------polycarpa_mamillaris
+|               |  |        +--| (97)
+|               |  |        |  +----boltenia_villosa
+|               |  |     +--| (91)
+|               |  |     |  |  +--------botrylloides_diegensis
+|               |  |     |  +--| (91)
+|               |  |     |     +-----asterocarpa_humilis
+|               |  |  +--| (44)
+|               |  |  |  +---------mesochordaeus_erythrocephalus
+|               |  +--| (38)
+|               |     |      +----------diplosoma_spongiforme
+|               |     |  +---| (97)
+|               |     |  |   +-------diplosoma_virens
+|               |     +--| (61)
+|               |        |  +------------didemnum_molle
+|               |        +--| (68)
+|               |           |  +---------corella_eumyota
+|               |           +--| (84)
+|               |              +-----------perophora_annectens
+|           +---| (99)
+|           |   |         +--halocynthia_roretzi
+|           |   |      +--| (100)
+|           |   |      |  +--halocynthia_aurantium
+|           |   |  +---| (100)
+|           |   |  |   +--halocynthia_papillosa
+|           |   +--| (71)
+|           |      +-------phallusia_philippinensis
+|        +--| (46)
+|        |  |     +---------------mordacia_mordax
+|        |  |  +--| (52)
+|        |  |  |  |           +--entosphenus_tridentatus
+|        |  |  |  +-----------| (100)
+|        |  |  |              |  +--eudontomyzon_morii
+|        |  |  |              +--| (99)
+|        |  |  |                 +--lampetra_auremensis
+|        |  +--| (49)
+|        |     +------------latimeria_chalumnae
+|     +--| (57)
+|     |  |     +------------hydrolagus_mirabilis
+|     |  |  +--| (97)
+|     |  |  |  |           +--mobula_hypostoma
+|     |  |  |  |     +-----| (100)
+|     |  |  |  |     |     +--mobula_birostris
+|     |  |  |  |  +--| (94)
+|     |  |  |  |  |  +----homo_sapiens
+|     |  |  |  +--| (94)
+|     |  |  |     +--chrysemys_picta_bellii
+|     |  +--| (74)
+|     |     +-----lepisosteus_oculatus
+|  +--| (53)
+|  |  +------polypterus_senegalus
++--| (36)
+|  +-------xenopus_tropicalis
+|
++-------------scyliorhinus_torazame
+
+
+Consensus tree in newick format: 
+
+(branchiostoma_floridae:1.0519400082,((((((((((((branchiostoma_lanceolatum:1.1614373455,((((lampetra_fluviatilis:0.0000029223,lampetra_planeri:0.0000029223)100:0.0190807934,lampetra_richardsoni:0.0226791404)75:0.0162246276,(lethenteron_reissneri:0.0193940195,lethenteron_camtschaticum:0.0381445327)99:0.0193171791)100:0.4102007575,geotria_australis:0.8286360944)100:0.3404839105)99:0.2123537695,(((eptatretus_burgeri:0.0297264434,eptatretus_okinoseanus:0.0109854784)100:0.0201244830,eptatretus_atami:0.0148442723)100:0.1312265313,myxine_glutinosa:0.0714471135)100:0.6716453106)88:0.0373955798,((((botrylloides_violaceus:0.2999361519,leucoraja_erinaceus:0.1735823119)97:0.1931061569,hydrolagus_colliei:0.3614179595)97:0.1949110668,mus_musculus:0.5243926368)96:0.1860235408,gallus_gallus:0.4711871616)92:0.1793014472)94:0.1574092021,(botryllus_schlosseri:0.5229225625,(microcosmus_squamiger:0.5000069418,microcosmus_polymorphus:0.5655371764)97:0.1134795719)93:0.1124568070)83:0.1401614112,(((oikopleura_dioica:0.3299106515,oikopleura_longicauda:0.4302737694)100:0.3115606658,diazona_violacea:0.3854071604)80:0.0838859754,(ascidia_mentula:0.3572243928,(phallusia_mammillata:0.1911346173,phallusia_fumigata:0.2306268393)100:0.2010259320)100:0.2068563626)79:0.0825128607)80:0.0657476713,(((diplosoma_listerianum:0.7167700117,trididemnum_nubilum:0.6847484507)63:0.1626900837,(ascidiella_aspersa:0.3825670453,ascidiella_scabra:0.3828142112)100:0.2479120729)36:0.0466716771,((pycnoclavella_producta:0.7411844822,(didemnum_vexillum:0.6949686685,trididemnum_miniatum:0.7247974754)84:0.0506828416)72:0.0958137763,distaplia_bermudensis:0.7442333643)64:0.1104971829)61:0.0602411889)100:1.2512832235,(((((styela_plicata:0.5076283658,polycarpa_mamillaris:0.4648585811)97:0.1043602224,boltenia_villosa:0.3637344607)97:0.0915445536,(botrylloides_diegensis:0.5833834144,asterocarpa_humilis:0.3995931656)91:0.1011187139)91:0.0685450628,mesochordaeus_erythrocephalus:0.6536084231)44:0.0492337341,((diplosoma_spongiforme:0.7082017710,diplosoma_virens:0.5177691375)97:0.2868657494,(didemnum_molle:0.8948351800,(corella_eumyota:0.6612161678,perophora_annectens:0.7853340141)84:0.1264402174)68:0.0906824173)61:0.0748193378)38:0.0806846794)62:0.0283184776,(((halocynthia_roretzi:0.0409066671,halocynthia_aurantium:0.0230797498)100:0.1173004257,halocynthia_papillosa:0.1324767824)100:0.2817255822,phallusia_philippinensis:0.5149630593)71:0.0855045445)99:0.2977577851,((mordacia_mordax:1.0455160245,(entosphenus_tridentatus:0.0093307644,(eudontomyzon_morii:0.0279015169,lampetra_auremensis:0.0335455703)99:0.0200424614)100:0.8271619899)52:0.2438421604,latimeria_chalumnae:0.8892051732)49:0.1395702811)46:0.1090043960,((hydrolagus_mirabilis:0.8895949474,(((mobula_hypostoma:0.1996126543,mobula_birostris:0.0131361103)100:0.4401583278,homo_sapiens:0.3776432140)94:0.2238773635,chrysemys_picta_bellii:0.1370767708)94:0.0827742460)97:0.1786837920,lepisosteus_oculatus:0.4427055313)74:0.1165976438)57:0.1155701636,polypterus_senegalus:0.4930075018)53:0.1377519587,xenopus_tropicalis:0.5556750393)36:0.1280900903,scyliorhinus_torazame:0.9012707326);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /rna/liha/phylogenomics_practice/UCE/Tree/uce-9089.treefile -m "TPM2u{1.16666,2.8372}+F{0.27853,0.222764,0.220892,0.277814}+I{0.00202663}+R4{0.0319213,0.056628,0.1486,0.33138,0.318687,0.758927,0.498766,1.41768}" --length 4049
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /rna/liha/phylogenomics_practice/UCE/Aligned_fasta/uce-9089_aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /rna/liha/phylogenomics_practice/UCE/Aligned_fasta/uce-9089_aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 24 18:55:24 2026
+Total CPU time used: 867.994931 seconds (0h:14m:27s)
+Total wall-clock time used: 683.0954916 seconds (0h:11m:23s)
+

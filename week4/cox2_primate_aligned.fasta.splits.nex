@@ -1,0 +1,83 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=14;
+TAXLABELS
+[1] 'Carlito_syrichta'
+[2] 'Cheirogaleus_medius'
+[3] 'Chlorocebus_aethiops'
+[4] 'Daubentonia_madagascariensis'
+[5] 'Galago_senegalensis'
+[6] 'Gorilla_gorilla'
+[7] 'Homo_sapiens'
+[8] 'Lagothrix_lagothricha'
+[9] 'Lemur_catta'
+[10] 'Macaca_mulatta'
+[11] 'Nycticebus_coucang'
+[12] 'Pan_paniscus'
+[13] 'Papio_anubis'
+[14] 'Symphalangus_syndactylus'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=14 nsplits=54;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 9,
+	80	 2 9,
+	100	 4,
+	16	 2 4 9,
+	100	 5,
+	100	 11,
+	100	 5 11,
+	95	 2 4 5 9 11,
+	100	 3,
+	100	 10,
+	100	 13,
+	79	 10 13,
+	100	 3 10 13,
+	100	 6,
+	100	 7,
+	100	 12,
+	95	 7 12,
+	99	 6 7 12,
+	100	 14,
+	81	 6 7 12 14,
+	100	 1 2 4 5 8 9 11,
+	100	 8,
+	100	 1 2 4 5 9 11,
+	100	 1,
+	12	 2 5 11,
+	75	 2 5 9 11,
+	2	 1 2 5 9 11,
+	4	 3 13,
+	15	 3 6 7 10 12 13,
+	4	 6 12,
+	8	 4 5 11,
+	2	 2 4 5 11,
+	6	 4 9,
+	17	 3 10,
+	2	 6 7,
+	3	 1 4,
+	0	 6 7 8 12 14,
+	1	 5 9 11,
+	4	 3 10 13 14,
+	0	 1 4 5 11,
+	0	 2 4,
+	0	 1 4 5 9 11,
+	0	 4 5 9 11,
+	0	 3 6 10 13,
+	0	 6 14,
+	0	 1 5 11,
+	0	 6 7 10 12 14,
+	0	 1 2 4 9,
+	0	 3 7 10 12 13 14,
+	0	 6 7 10 12 13 14,
+	0	 1 8,
+	0	 3 6 10 13 14,
+	0	 7 12 14,
+;
+END; [Splits]
+
