@@ -80,7 +80,7 @@ Chondrichthyes	GCA_977017645.1	reference genome	30	3050324	6221090334	7788	Torpe
 Chondrichthyes	GCF_044704955.1	reference genome	43.2	1893048	5923050865	55135	Pristiophorus japonicus
 Chondrichthyes	GCF_963921235.1	reference genome	100	23327000	3475679493	723540	Mobula hypostoma
 Chondrichthyes	GCF_030028105.1	reference genome	32	7300797	4014635230	1983395	Mobula birostris
-Euteleostomi	GCF_047496885.1	reference genome	34.5	3187150	6451259511	75743	Scyliorhinus torazame
+Chondrichthyes	GCF_047496885.1	reference genome	34.5	3187150	6451259511	75743	Scyliorhinus torazame
 Euteleostomi	GCF_000001405.40	reference genome	na	57879411	3099441038	9606	Homo sapiens
 Euteleostomi	GCF_000001635.27	reference genome	na	59462871	2728206152	10090	Mus musculus
 Euteleostomi	GCF_016700215.2	reference genome	102.01	17744542	1050511239	9031	Gallus gallus

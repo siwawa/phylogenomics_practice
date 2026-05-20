@@ -1,2 +1,5 @@
 actinopterygian_probes.fasta is Actinopterygians 0.5Kv1, from Faircloth et al, 2013. 
 tetrapod_probes.fasta is Tetrapods-UCE-5Kv1, from Faircloth et al, 2012. 
+metazoan_probes-70.fasta is metazoa-v1-master-70.fasta, from Derkarabetian et al, 2025. 
+
+metazoan_probes-70 was decided for use, but was not satisfying.

@@ -1,5 +1,5 @@
-## This script compares the well-known species tree of mammals 
-## with my NJ tree (geneious) and ML tree (IQ-TREE) made from COX2 sequences of the same species. 
+## This script visualizes the trees generated from manually chosen(that seems to have better alignment) UCE loci, with and without filtering columns of low alignment quality. 
+## With either being filtered or not, the resulting trees are not well resolved, likely due to the low number of informative sites. 
 
 # Libraries
 library(tidyverse, quietly = TRUE) 
@@ -13,7 +13,7 @@ library(ggtree)
 
 
 # UCE-1216 without filtering columns of low alignment quality 
-uce_1216 <- read.tree("/rna/liha/phylogenomics_practice/UCE/Tree/uce-1216.treefile")
+uce_1216 <- read.tree("/rna/liha/phylogenomics_practice/UCE/Tree/uce-1216_aligned/uce-1216.treefile")
 species_info <- fread("/rna/liha/phylogenomics_practice/UCE/harvest_UCE/00-species/species.tsv", header = TRUE, stringsAsFactors = FALSE) 
 
     # Organize species names for readability

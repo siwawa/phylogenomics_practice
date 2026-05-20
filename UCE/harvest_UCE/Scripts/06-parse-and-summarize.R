@@ -1,3 +1,5 @@
+## This script parses the LASTZ output files to extract UCE identities for each species, generates summary statistics by target clade, and extracts FASTA sequences for the top UCEs. 
+
 library(data.table)
 library(Biostrings) 
 
