@@ -1,4 +1,4 @@
-## This script compares the well-known species tree of mammals 
+## This script compares the well-known species tree of mammals(Alvarez-Carretero et al. 2022) 
 ## with my NJ tree (geneious) and ML tree (IQ-TREE) made from COX2 sequences of the same species. 
 
 # Libraries
@@ -13,20 +13,27 @@ library(ggtree)
 
 
 ## Well known phylogeny of mammals from Alvarez-Carretero et al. 2022 
-well_known_tree <- read.tree("/rna/liha/selection_project/Data/Species_Phylogeny/Final/mammalia_Alvarez-Carretero_2022_parsed.nwk") 
-well_known_tree$tip.label <- gsub("_", " ", well_known_tree$tip.label)
+     well_known_tree <- read.tree("/rna/liha/selection_project/Data/Species_Phylogeny/Final/mammalia_Alvarez-Carretero_2022_parsed.nwk") 
+     well_known_tree$tip.label <- gsub("_", " ", well_known_tree$tip.label)
 
-# only retain species used for phylogenomics practice 
-target_species <- readLines("/rna/liha/phylogenomics_practice/week3/species.txt")
-target_species <- gsub("_", " ", target_species)
-target_species <- trimws(target_species)
+     # only retain species used for phylogenomics practice 
+     target_species <- readLines("/rna/liha/phylogenomics_practice/week3/species.txt")
+     target_species <- gsub("_", " ", target_species)
+     target_species <- trimws(target_species)
 
-valid_species <- intersect(target_species, well_known_tree$tip.label)
-missing_species <- setdiff(target_species, well_known_tree$tip.label)
+     valid_species <- intersect(target_species, well_known_tree$tip.label)
+     missing_species <- setdiff(target_species, well_known_tree$tip.label)
 
-well_known_tree <- keep.tip(well_known_tree, valid_species)
+     well_known_tree <- keep.tip(well_known_tree, valid_species)
 
-write.tree(well_known_tree, "/rna/liha/phylogenomics_practice/week4/well_known_tree.nwk")
+     write.tree(well_known_tree, "/rna/liha/phylogenomics_practice/week4/well_known_tree.nwk")
+
+
+
+
+
+
+
 
 
 
@@ -34,9 +41,6 @@ write.tree(well_known_tree, "/rna/liha/phylogenomics_practice/week4/well_known_t
 ## NJ Tree(geneious) made from COX2 sequences of the same species
 cox2_nj_tree <- read.tree("/rna/liha/phylogenomics_practice/week3/cox2_primate_njtree.newick") 
 cox2_nj_tree$tip.label <- gsub("_", " ", cox2_nj_tree$tip.label) 
-
-
-
 
 
 ## ML Tree (IQ-tree) made from COX2 sequences of the same species 
