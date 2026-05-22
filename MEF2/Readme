@@ -1,0 +1,28 @@
+Reconstructing tree for MEF2(Myocyte-specific enhancer factor 2) gene family across chordates. 
+Known to have at least 4 paralogs, MEF2A, MEF2B, MEF2C, MEF2D. 
+The family is well conserved, with even yeast having a homolog. 
+
+
+
+The family has many isoforms, which makes it hard to build protein trees and translation alignments. 
+The longest isoform was used to retain all possible coding regions, and only the common region between homologs would be used. 
+Homologs would be searched through BLASTP, with known species that reflect the diversity of chordata.(and outgroups!) 
+
+
+
+
+
+
+** The project was canceled due to: 
+Too little information is presumed to exist to infer gene history. 
+Conserved regions are too conserved, while unconserved regions are too unconserved. 
+Using nucleotides of coding regions for translation alignment would not also be feasible as those regions would change even faster than the exon regions.  
+
+Also, BLAST db nomenclature is not to be trusted. 
+Genes are named in conventions that does not integrate phylogenetic information. 
+(They at least seems to reflect sequence similarity, but who knows?)
+
+
+
+
+(I spent almost 3 hours searching homologs in BLASTP for nothing... but learning is costly... )
