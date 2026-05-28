@@ -10,7 +10,7 @@ OUTPUT_FILE="/rna/liha/phylogenomics_practice/UCE/harvest_UCE/00-species/gnathos
 CUTOFF_DATE="2015-01-01"
 TARGET_CLADE="Gnathostomes"
 
-# 분석 대상 13종 리스트 (추천드린 외군 포함)
+# 분석 대상 13종 리스트
 SPECIES_LIST=(
     "Homo sapiens"
     "Mus musculus"

@@ -1,5 +1,5 @@
 ## This script parses the LASTZ output files to extract UCE identities for each species, generates summary statistics by target clade, and extracts FASTA sequences for the top UCEs. 
-
+library(tidyverse)
 library(data.table)
 library(Biostrings) 
 
@@ -136,3 +136,196 @@ for (i in 1:nrow(valid_species)) {
 }
 
 cat(sprintf("Successfully saved %d UCE alignments in %s\n", length(target_uces), out_uce_dir))
+
+
+
+
+
+fasta_dir <- "/rna/liha/phylogenomics_practice/UCE/harvest_UCE/05-fasta-output"
+species_file <- "/rna/liha/phylogenomics_practice/UCE/harvest_UCE/00-species/species.tsv"
+
+# 종 정보 불러오기
+species_info <- read_tsv(species_file) %>%
+  mutate(species = tolower(gsub(" ", "_", Organism_Name))) 
+
+# 각 fasta 파일에서 ">" 로 시작하는 줄 수 = UCE 개수
+fasta_files <- list.files(fasta_dir, pattern = "\\.fasta$", full.names = TRUE)
+
+uce_counts <- tibble(
+  file = fasta_files,
+  species = gsub("\\.fasta$", "", basename(fasta_files))
+) %>%
+  mutate(
+    n_uce = map_int(file, ~ {
+      lines <- readLines(.x)
+      sum(str_starts(lines, ">"))
+    })
+  ) %>%
+  select(species, n_uce)
+
+# species 정보와 합치기
+result <- left_join(uce_counts, species_info, by = "species")
+
+# 결과 출력
+print(result %>% arrange(desc(n_uce)), n = Inf)
+
+result_sorted <- result %>%
+  arrange(Target_Clade, n_uce) %>%
+  mutate(species = factor(species, levels = species))
+
+ggplot(result_sorted,
+       aes(x = species, y = n_uce, fill = Target_Clade)) +
+  geom_col(width = 0.7) +
+  coord_flip() +
+  facet_grid(Target_Clade ~ .,
+             scales = "free_y",
+             space = "free_y") +
+  scale_fill_brewer(palette = "Set2") + 
+  labs(
+    x = NULL,
+    y = "Number of UCEs",
+    title = "UCE recovery per species",
+    fill = "Target Clade"
+  ) +
+  theme_bw(base_size = 14)
+  theme(
+    axis.text.y = element_text(size = 15),
+    axis.text.x = element_text(size = 15),
+    strip.text = element_text(size = 15, face = "bold"),
+    legend.position = "none"
+  )
+
+
+ggsave("UCE_recovery_per_species.png", width = 24, height = 20)
+
+
+
+
+
+
+
+
+
+
+
+
+# UCE 길이 분포
+library(tidyverse)
+
+fasta_dir <- "/rna/liha/phylogenomics_practice/UCE/harvest_UCE/05-fasta-output"
+species_file <- "/rna/liha/phylogenomics_practice/UCE/harvest_UCE/00-species/species.tsv"
+
+# 종 정보 불러오기
+species_info <- read_tsv(species_file) %>%
+  mutate(species = tolower(gsub(" ", "_", Organism_Name)))
+
+# fasta 파일 목록
+fasta_files <- list.files(fasta_dir, pattern = "\\.fasta$", full.names = TRUE)
+
+# UCE statistics 계산
+uce_stats <- tibble(
+  file = fasta_files,
+  species = gsub("\\.fasta$", "", basename(fasta_files))
+) %>%
+  mutate(
+
+    seq_lengths = map(file, ~ {
+
+      lines <- readLines(.x)
+
+      header_idx <- which(str_starts(lines, ">"))
+
+      lengths <- map_int(seq_along(header_idx), function(i) {
+
+        start <- header_idx[i] + 1
+
+        end <- if (i < length(header_idx)) {
+          header_idx[i + 1] - 1
+        } else {
+          length(lines)
+        }
+
+        seq <- paste(lines[start:end], collapse = "")
+        nchar(seq)
+      })
+
+      lengths
+    }),
+
+    n_uce = map_int(seq_lengths, length),
+
+    # median + IQR
+    median_uce_length = map_dbl(seq_lengths, median),
+
+    q1 = map_dbl(seq_lengths, ~ quantile(.x, 0.25)),
+
+    q3 = map_dbl(seq_lengths, ~ quantile(.x, 0.75)),
+
+    iqr = q3 - q1
+  ) %>%
+  select(
+    species,
+    n_uce,
+    median_uce_length,
+    q1,
+    q3,
+    iqr
+  )
+
+# metadata merge
+result <- left_join(uce_stats, species_info, by = "species")
+
+# plotting용 정렬
+result_sorted <- result %>%
+  arrange(Target_Clade, median_uce_length) %>%
+  mutate(species = factor(species, levels = species))
+
+# Plot
+ggplot(result_sorted,
+       aes(x = species,
+           y = median_uce_length,
+           fill = Target_Clade)) +
+
+  geom_col(width = 0.7) +
+
+  geom_errorbar(aes(ymin = q1,
+                    ymax = q3),
+                width = 0.2,
+                linewidth = 0.4) +
+
+  geom_hline(yintercept = 1000,
+            color = "red",
+            linewidth = 0.8,
+            linetype = "dashed") + 
+
+  coord_flip(ylim = c(650, NA)) + 
+ 
+  scale_fill_brewer(palette = "Set2") +
+
+  labs(
+    x = NULL,
+    y = "Median UCE length (bp)",
+    title = "Median harvested UCE length per species"
+  ) +
+
+  theme_bw() +
+
+  theme(
+    panel.grid.major.y = element_blank(),
+    axis.text.y = element_text(size = 6),
+    panel.background = element_rect(fill = "white"),
+    plot.background = element_rect(fill = "white")
+  )
+
+ggsave("UCE_median_length_per_species.png",
+       width = 24,
+       height = 20)
+
+
+
+
+plot(result_sorted$N50, result_sorted$median_uce_length)
+plot(log10(result_sorted$N50), result_sorted$median_uce_length)
+
+
+plot(result_sorted$Coverage, result_sorted$n_uce)
