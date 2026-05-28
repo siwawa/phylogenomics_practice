@@ -1,0 +1,45 @@
+# UCE Phylogenomics Project
+
+## Overview
+This project attempted to recover ultraconserved element (UCE) loci from 
+published genome assemblies across major chordate lineages using the universal 
+Metazoan UCE probe set (Metazoa_Final_red70; Derkarabetian et al. 2025).
+
+## Status
+**Closed.** UCE alignments were poorly resolved, possibly reflecting the 
+challenges of applying a Metazoa-wide probe set to a chordate-focused dataset. 
+
+The red70 probe set targets 466 loci recovered in at least 70% of the 58 
+reference genomes used in probe design. Given that only 466 out of 2,146 
+loci met this threshold, it may imply that broadly conserved UCEs across 
+Metazoa are relatively limited in number. 
+
+While this filtering was intended to maximize universality across Metazoa, 
+it might have come at the cost of excluding loci that are specifically conserved 
+within chordate lineages, leaving too few informative sites for reliable 
+phylogenetic inference at this scale. 
+
+
+## Target Taxa
+92 genome assemblies spanning five clades:
+- Cephalochordata (n=3)
+- Urochordata (n=51)
+- Cyclostomata (n=15)
+- Chondrichthyes (n=13)
+- Euteleostomi (n=10)
+
+All assemblies were obtained from NCBI.
+
+## Probe Set
+Metazoa_Final_red70 (Derkarabetian et al. 2025, Genome Biology and Evolution)
+- 5,098 probes targeting 466 loci
+
+## Directory Structure
+- harvest_UCE/   : LASTZ output and sliced FASTA sequences per genome
+- Aligned_fasta/ : Multiple sequence alignments per UCE locus
+- Unaligned_fasta/ : Raw FASTA sequences per UCE locus
+- Tree/          : Phylogenetic tree files
+- Scripts/       : Analysis scripts
+- 06-summary_table.tsv : UCE recovery summary by target clade
+
+
