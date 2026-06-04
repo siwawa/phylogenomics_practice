@@ -1,0 +1,1 @@
+NP_004778.1	UYK51625.1	19.824	227	14	0.097	25.8	NADH dehydrogenase subunit 5 [Didemnum vexillum]

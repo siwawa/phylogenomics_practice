@@ -1,0 +1,1 @@
+NP_004778.1	QFR55955.1	43.750	16	1	9.4	17.7	cytochrome oxidase subunit I, partial [Botrylloides diegensis]

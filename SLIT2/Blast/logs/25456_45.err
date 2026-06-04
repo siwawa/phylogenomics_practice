@@ -1,0 +1,3 @@
+Error: NCBI C++ Exception:
+    T0 "/opt/conda/conda-bld/blast_1754905306566/work/c++/src/serial/rpcbase.cpp", line 270: Error: (CRPCClientException::eFailed) ncbi::CRPCClient_Base::x_Ask() - Connection stream is in bad state (Blast4-request)
+

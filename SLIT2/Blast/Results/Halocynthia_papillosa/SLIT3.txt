@@ -1,0 +1,4 @@
+NP_001258875.2	CAQ68501.1	26.786	56	3	3.1	20.8	cytochrome b [Halocynthia papillosa]
+NP_001258875.2	ABW24128.1	30.000	40	2	8.4	19.2	cytochrome c oxidase subunit I, partial [Halocynthia pyriformis]
+NP_001258875.2	NP_038239.1	32.143	28	2	8.5	19.2	cytochrome c oxidase subunit I [Halocynthia roretzi]
+NP_001258875.2	AGV38651.1	30.000	40	2	9.3	18.9	cytochrome oxidase subunit 1, partial [Halocynthia papillosa]
