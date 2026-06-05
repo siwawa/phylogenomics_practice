@@ -1,3 +1,0 @@
-NP_003052.2	XP_032904544.1	31.884	69	6	1.6	23.1	collagen alpha-1(V) chain isoform X3 [Amblyraja radiata]
-NP_003052.2	XP_032904544.1	24.138	29	6	3.2	22.3	collagen alpha-1(V) chain isoform X3 [Amblyraja radiata]
-NP_003052.2	XP_055513240.1	40.000	35	2	3.6	21.9	collagen alpha-1(I) chain-like isoform X1 [Leucoraja erinaceus]

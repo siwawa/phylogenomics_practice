@@ -1,2 +1,0 @@
-NP_003052.2	P86415.1	43.750	16	1	0.95	19.6	RecName: Full=Halocyntin [Halocynthia papillosa]
-NP_003052.2	CAQ68500.1	46.154	13	1	7.2	19.2	cytochrome c oxidase subunit II [Halocynthia papillosa]

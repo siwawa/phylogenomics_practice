@@ -1,6 +1,0 @@
-NP_003052.2	P21564.1	20.455	88	6	0.86	25.0	RecName: Full=Chloride channel protein; AltName: Full=ClC-0 [Torpedo marmorata]
-NP_003052.2	XP_069776079.1	27.273	55	3	2.1	23.5	acetylcholine receptor subunit epsilon [Narcine bancroftii]
-NP_003052.2	2BG9_A	22.115	104	7	4.5	22.3	Chain A, ACETYLCHOLINE RECEPTOR PROTEIN, ALPHA CHAIN [Torpedo marmorata]
-NP_003052.2	Q03637.1	30.612	49	2	6.8	21.9	RecName: Full=Acetylcholinesterase collagenic tail peptide; AltName: Full=AChE Q subunit; Flags: Precursor [Torpedo marmorata]
-NP_003052.2	6G1U_A	23.602	161	10	8.3	21.6	Chain A, Acetylcholinesterase [Tetronarce californica]
-NP_003052.2	2BG9_E	25.000	56	3	8.5	21.6	Chain E, ACETYLCHOLINE RECEPTOR PROTEIN, GAMMA CHAIN [Torpedo marmorata]

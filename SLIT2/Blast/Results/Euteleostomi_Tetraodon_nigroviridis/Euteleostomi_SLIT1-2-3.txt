@@ -1,0 +1,1 @@
+NP_004778.1	YP_009305204.1	39.394	33	2	2.8	23.1	NADH dehydrogenase subunit 2 [Tetraodon nigroviridis]

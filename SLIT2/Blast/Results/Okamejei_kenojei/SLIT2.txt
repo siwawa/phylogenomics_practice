@@ -1,8 +1,0 @@
-NP_004778.1	XP_055513240.1	25.532	47	7	2.4	22.7	collagen alpha-1(I) chain-like isoform X1 [Leucoraja erinaceus]
-NP_004778.1	XP_055513240.1	28.723	94	7	3.1	22.3	collagen alpha-1(I) chain-like isoform X1 [Leucoraja erinaceus]
-NP_004778.1	XP_055513240.1	28.571	28	7	7.9	20.8	collagen alpha-1(I) chain-like isoform X1 [Leucoraja erinaceus]
-NP_004778.1	NP_008057.1	47.619	21	1	2.5	22.3	NADH dehydrogenase subunit 2 [Amblyraja radiata]
-NP_004778.1	XP_032904544.1	75.000	12	4	3.9	21.9	collagen alpha-1(V) chain isoform X3 [Amblyraja radiata]
-NP_004778.1	XP_032904544.1	38.235	34	4	6.4	21.2	collagen alpha-1(V) chain isoform X3 [Amblyraja radiata]
-NP_004778.1	XP_032904544.1	57.143	14	4	9.7	20.8	collagen alpha-1(V) chain isoform X3 [Amblyraja radiata]
-NP_004778.1	WLO97394.1	32.353	34	2	9.6	20.4	immunoglobulin NAR2 heavy chain CH3-transmembrane form [Okamejei kenojei]

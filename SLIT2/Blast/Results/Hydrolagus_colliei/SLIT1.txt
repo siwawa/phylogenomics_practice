@@ -1,1 +1,0 @@
-NP_003052.2	AAC12886.1	38.710	31	2	2.2	21.2	immunoglobulin heavy chain variable region, partial [Hydrolagus colliei]

@@ -1,2 +1,0 @@
-Warning: [blastp] ASN.1 parse error
-/var/spool/slurmd/job25548/slurm_script: line 35: 52930 Segmentation fault      (core dumped) blastp -query "$QUERY" -db nr_cluster_seq -remote -entrez_query "txid${TAXID}[Organism]" -out "${SPECIES_DIR}/${QUERY_PTN}.txt" -outfmt "6 qseqid saccver pident length qcovs evalue bitscore stitle" -max_target_seqs 10

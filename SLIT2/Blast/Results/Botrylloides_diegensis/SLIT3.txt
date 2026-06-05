@@ -1,7 +1,0 @@
-NP_001258875.2	XDP64963.1	35.714	28	2	3.4	19.2	cytochrome c oxidase subunit I, partial [Symplegma sp.]
-NP_001258875.2	UUY85399.1	35.714	28	2	4.3	18.9	cytochrome c oxidase subunit I, partial [Botryllus sp. t MN-2022]
-NP_001258875.2	QFR55955.1	32.143	28	2	5.7	18.1	cytochrome oxidase subunit I, partial [Botrylloides diegensis]
-NP_001258875.2	QFR03329.1	32.143	28	2	5.7	18.1	cytochrome oxidase subunit I, partial [Botrylloides leachii]
-NP_001258875.2	QTK13619.1	32.143	28	2	6.2	18.1	cytochrome oxidase subunit I, partial [Microcosmus sp. SLL-2021]
-NP_001258875.2	AHD26763.1	32.143	28	2	6.3	18.1	cytochrome oxidase subunit I, partial [Botrylloides leachii]
-NP_001258875.2	QRH87686.1	32.143	28	2	6.5	18.1	cytochrome c oxidase subunit I, partial [Botrylloides diegensis]

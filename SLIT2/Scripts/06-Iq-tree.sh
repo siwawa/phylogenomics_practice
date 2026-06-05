@@ -2,8 +2,8 @@
 #SBATCH --job-name=SLIT_Tree
 #SBATCH --nodes=1                 
 #SBATCH --ntasks=1               
-#SBATCH --cpus-per-task=16       
-#SBATCH --mem=16G                 
+#SBATCH --cpus-per-task=64       
+#SBATCH --mem=64G                 
 #SBATCH --output=/rna/liha/phylogenomics_practice/SLIT2/logs/iqtree_%j.log    
 #SBATCH --error=/rna/liha/phylogenomics_practice/SLIT2/logs/iqtree_%j.log      
 
@@ -33,7 +33,7 @@ echo "Starting IQ-TREE analysis for SLIT..."
 # 4. IQ-TREE 실행
 # -T AUTO를 사용하되, Slurm에서 할당한 코어 수를 넘지 못하도록 안전장치 추가
 iqtree3 -s "$INPUT_FASTA" \
-        -B 10000 \
+        -B 5000 \
         --prefix "$OUT_PREFIX" \
         -T AUTO \
         --threads-max $SLURM_CPUS_PER_TASK

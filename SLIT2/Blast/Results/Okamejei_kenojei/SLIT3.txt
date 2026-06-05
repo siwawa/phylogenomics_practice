@@ -1,5 +1,0 @@
-NP_001258875.2	XP_032904544.1	23.636	55	3	1.3	23.5	collagen alpha-1(V) chain isoform X3 [Amblyraja radiata]
-NP_001258875.2	NP_008059.1	34.043	47	3	3.8	21.6	cytochrome c oxidase subunit II [Amblyraja radiata]
-NP_001258875.2	XP_055513240.1	57.143	14	1	5.4	21.6	collagen alpha-1(I) chain-like isoform X1 [Leucoraja erinaceus]
-NP_001258875.2	BAE16361.1	46.154	26	2	5.5	21.2	type II procollagen alpha 1 chain, partial [Okamejei kenojei]
-NP_001258875.2	WLO97391.1	26.087	46	3	6.4	21.2	immunoglobulin NAR1 heavy chain transmembrane form, partial [Okamejei kenojei]

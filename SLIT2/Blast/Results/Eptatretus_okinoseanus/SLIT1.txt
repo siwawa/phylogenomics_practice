@@ -1,1 +1,0 @@
-NP_003052.2	BAG34677.1	27.778	36	2	7.8	16.5	lactate dehydrogenase [Eptatretus okinoseanus]

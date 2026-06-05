@@ -1,5 +1,0 @@
-Warning: [blastp] conversion_warning: Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/ 
-Warning: [blastp] conversion_warning: Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/ 
-Error: NCBI C++ Exception:
-    T0 "/opt/conda/conda-bld/blast_1754905306566/work/c++/src/serial/rpcbase.cpp", line 270: Error: (CRPCClientException::eFailed) ncbi::CRPCClient_Base::x_Ask() - Connection stream is in bad state (Blast4-request)
-

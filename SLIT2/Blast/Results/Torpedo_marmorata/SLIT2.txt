@@ -1,4 +1,0 @@
-NP_004778.1	2BG9_E	25.806	124	7	0.074	28.1	Chain E, ACETYLCHOLINE RECEPTOR PROTEIN, GAMMA CHAIN [Torpedo marmorata]
-NP_004778.1	XP_069776079.1	25.000	96	5	0.12	27.7	acetylcholine receptor subunit epsilon [Narcine bancroftii]
-NP_004778.1	AAD50298.1	30.952	42	3	5.3	22.3	inorganic pyrophosphatase [Torpedo marmorata]
-NP_004778.1	P12705.1	25.000	28	2	6.0	20.8	RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Torpedo marmorata]

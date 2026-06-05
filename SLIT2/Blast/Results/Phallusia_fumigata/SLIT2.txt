@@ -1,1 +1,0 @@
-NP_004778.1	YP_001481154.1	52.381	21	1	4.7	20.4	NADH dehydrogenase subunit 4 [Phallusia fumigata]
