@@ -1,0 +1,3 @@
+[SLIT2] Submitting BLAST SLURM array 2-71%3. Existing .done files will be skipped by /rna/liha/phylogenomics_practice/SLIT2/Scripts/01-Blastp-against-species.sh.
+[SLIT2] RUN: sbatch --array=2-71%3 --wait /rna/liha/phylogenomics_practice/SLIT2/Scripts/01-Blastp-against-species.sh
+Submitted batch job 25717

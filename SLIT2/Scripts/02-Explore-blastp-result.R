@@ -65,6 +65,7 @@ p3 <- ggplot(df_plot, aes(x = -log10(evalue))) +
        x = "-log10(E-Value)",
        y = "Count")
 print(p3) 
+ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/E-value_Distribution.png", plot = p3, width = 8, height = 5)
 
 # Plot 3: E-value vs Aligned Length
 df_plot4 <- df_clean[evalue < 1e-80]
@@ -82,6 +83,7 @@ p4 <- ggplot(df_plot4, aes(x = length, y = -log10(evalue))) +
        y = "-log10(E-Value)") +
   theme(plot.title = element_text(size = 14))
 print(p4)
+ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/E-value_vs_Aligned_Length.png", plot = p4, width = 8, height = 5) 
 
 
 # ==========================================
@@ -110,54 +112,5 @@ ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/SLIT_Hit_Count
 
 df_hits <- df_hits %>% select(qseqid, saccver, pident, length, qcovs, evalue, bitscore, stitle, source_file, organism, filepath)
 fwrite(df_hits, file = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/Blast-high-scoring-hits.txt", sep = "\t")
-
-
-
-
-
-
-
-
-
-
-
-
-# PLOT 7: Counts of hits per species
-library(Biostrings)
-
-fasta_path <- "/rna/liha/phylogenomics_practice/SLIT2/Scripts/SLIT-homologs.fasta"
-a <- readAAStringSet(fasta_path, format = "fasta")
-
-# 2. 헤더 파싱 (Clade를 지우지 않고 살려서 라벨로 만듭니다)
-organism_raw <- sub("_H[0-9]+_.*", "", names(a))
-
-# 첫 번째 언더바만 " - " 로 바꾸고, 나머지 언더바는 공백으로 바꿈
-# 결과: "Cephalochordata_Branchiostoma_belcheri" -> "Cephalochordata - Branchiostoma belcheri"
-extracted_species <- gsub("_", " ", sub("_", " - ", organism_raw))
-
-# 3. 카운트
-df_counts <- as.data.table(table(extracted_species))
-setnames(df_counts, c("extracted_species", "N"), c("target_species", "count"))
-
-# 4. ★ 수정된 핵심 로직: 계통수 레퍼런스 리스트 순서에 맞게 Factor 지정 ★
-# species_list에서도 위와 똑같은 형태("Clade - Genus species")로 글자를 합쳐서 레벨을 만듭니다.
-ordered_levels <- paste(species_list$Target_Clade, species_list$Organism_Name, sep = " - ")
-df_counts[, target_species := factor(target_species, levels = ordered_levels)]
-
-# 5. 막대 그래프 생성
-plot_7 <- ggplot(df_counts, aes(x = target_species, y = count)) +
-  geom_bar(stat = "identity", fill = "steelblue", color = "black", alpha = 0.8) +
-  coord_flip() + 
-  scale_y_continuous(breaks = function(x) seq(0, max(x, na.rm = TRUE), by = 1)) + 
-  theme_minimal() +
-  labs(title = "Counts of SLIT Homologs per Species",
-       x = "Clade & Species",
-       y = "Number of Homologs") +
-  theme(axis.text.y = element_text(face = "italic", size = 10), 
-        panel.grid.minor.x = element_blank()) 
-
-# 그래프 출력
-print(plot_7)
-
 
 

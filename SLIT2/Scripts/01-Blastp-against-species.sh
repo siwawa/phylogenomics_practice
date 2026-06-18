@@ -32,13 +32,11 @@ if [[ -f "$DONE_FILE" ]]; then
 else
     echo "Array task ${SLURM_ARRAY_TASK_ID} | taxid: ${SPECIES_SAFE}"
 
-    # 💡 단일 통합 쿼리 파일 지정
     QUERY="${QUERY_DIR}/SLIT1-2-3.fasta"
 
     echo "Running BLASTP: SLIT1-2-3 x ${SPECIES_SAFE}"
 
     # Output format: QueryID, TargetID, PID, Alignment length, E-value, Bitscore, Subject title
-    # 💡 반복문 제거 및 출력 파일 이름 통일
     blastp \
         -query "$QUERY" \
         -db refseq_protein \
@@ -53,7 +51,7 @@ else
     touch "$DONE_FILE"
 fi
 
-# 💡 메일 발송 버그 수정: 완료된 파일 수와 '헤더를 제외한' 데이터 줄 수 비교
+
 N_DONE=$(find "$DONE_DIR" -name "*.done" | wc -l)
 N_TOTAL=$(tail -n +2 "$SPECIES_FILE" | wc -l)
 

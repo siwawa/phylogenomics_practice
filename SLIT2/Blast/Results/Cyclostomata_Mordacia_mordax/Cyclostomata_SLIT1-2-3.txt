@@ -1,0 +1,6 @@
+NP_003052.2	YP_010587542.1	52.941	17	1	3.4	19.6	NADH dehydrogenase subunit 4L [Mordacia mordax]
+NP_004778.1	YP_010587535.1	41.176	17	2	2.5	20.8	NADH dehydrogenase subunit 2 [Mordacia mordax]
+NP_004778.1	YP_010587535.1	57.895	19	2	3.9	20.4	NADH dehydrogenase subunit 2 [Mordacia mordax]
+NP_004778.1	YP_010587537.1	32.353	34	2	4.3	20.0	cytochrome c oxidase subunit II [Mordacia mordax]
+NP_004778.1	YP_010587534.1	34.286	35	2	7.4	19.2	NADH dehydrogenase subunit 1 [Mordacia mordax]
+NP_001258875.2	YP_010587534.1	26.786	56	4	9.0	18.9	NADH dehydrogenase subunit 1 [Mordacia mordax]
