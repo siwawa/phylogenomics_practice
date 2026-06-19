@@ -1,30 +1,45 @@
 #!/bin/bash
+# The script generates NCBI assembly-summarized data. 
+# For species in SPECIES_LIST and TARGET_CLADE, the species metainformation is extracted. 
+# Certain cutoffs are applied only to include quality genomes. 
 
-# NCBI 데이터셋 요약 정보 추출용 스크립트
 source ~/miniconda3/etc/profile.d/conda.sh 
 conda activate NCBI-download
 echo "Job started on $(hostname) at $(date)" 
 
 # 출력 경로 및 설정
-OUTPUT_FILE="/rna/liha/phylogenomics_practice/UCE/harvest_UCE/00-species/gnathostome_reference.tsv"
+OUTPUT_FILE="/rna/liha/phylogenomics_practice/UCE/harvest_UCE/00-species/fish_reference.tsv"
 CUTOFF_DATE="2015-01-01"
 TARGET_CLADE="Gnathostomes"
 
 # 분석 대상 13종 리스트
 SPECIES_LIST=(
-    "Homo sapiens"
-    "Mus musculus"
-    "Gallus gallus"
-    "Xenopus tropicalis"
-    "Tetraodon nigroviridis"
-    "Lepisosteus oculatus"
-    "Scyliorhinus torazame"
-    "Callorhinchus milii"
-    "Chrysemys picta bellii"
-    "Latimeria chalumnae"
-    "Polypterus senegalus"
-    "Acipenser ruthenus"
-    "Amia calva"
+    # Amphibia
+    "Xenopus laevis"
+
+    # Gadiformes, 명태목
+    "Gadus morhua"
+    "Theragra chalcogramma"
+
+    # Salmoniformes, 연어목
+    "Salmo salar"
+    "Oncorhynchus mykiss"
+
+    # Scombriformes, 고등어목
+    "Scomber japonicus"
+    "Thunnus albacares"
+
+    # Carangiformes, 전갱이목, 광어 포함
+    "Paralichthys olivaceus"
+    "Seriola dumerili"
+
+    # Eupercaria, 돌돔 포함
+    "Oplegnathus fasciatus"
+    "Sparus aurata"
+
+    # Cichliformes, 시클리드목
+    "Oreochromis niloticus"
+    "Maylandia zebra"
 )
 
 # 헤더 작성

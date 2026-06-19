@@ -1,0 +1,14 @@
+Target_Clade	Accession	RefSeq_Status	Coverage	N50	Genome_Size	TaxID	Organism_Name
+Gnathostomes	GCF_017654675.1	reference genome	28.5	22451507	2742451793	8355	Xenopus laevis
+Gnathostomes	GCF_902167405.1	reference genome	83	1015663	669949713	8049	Gadus morhua
+Gnathostomes	GCF_026213295.1	reference genome	61.77	358862	629920150	1042646	Gadus chalcogrammus
+Gnathostomes	GCF_965601325.1	reference genome	40	90035114	2825041709	8030	Salmo salar
+Gnathostomes	GCF_013265735.2	reference genome	111.6	15579713	2341671972	8022	Oncorhynchus mykiss
+Gnathostomes	GCF_027409825.1	reference genome	49.19	4898551	828681152	13676	Scomber japonicus
+Gnathostomes	GCF_914725855.1	reference genome	45	26795544	792101331	8236	Thunnus albacares
+Gnathostomes	GCF_024713975.1	reference genome	83	24354382	588170514	8255	Paralichthys olivaceus
+Gnathostomes	GCF_002260705.1	reference genome	210	249755	677669644	41447	Seriola dumerili
+Gnathostomes	GCA_003416845.1	reference genome	292	29992	766301214	163134	Oplegnathus fasciatus
+Gnathostomes	GCF_900880675.2	reference genome	56	2862625	833578411	8175	Sparus aurata
+Gnathostomes	GCF_001858045.2	reference genome	44	2923640	1005664923	8128	Oreochromis niloticus
+Gnathostomes	GCF_041146795.1	reference genome	90	31124463	962175383	106582	Maylandia zebra
