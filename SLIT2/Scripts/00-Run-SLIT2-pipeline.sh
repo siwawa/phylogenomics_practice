@@ -6,6 +6,9 @@ set -euo pipefail
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SCRIPTS_DIR="${BASE_DIR}/Scripts"
 
+R_ENV_NAME="r_env"
+RSCRIPT_CMD=(conda run -n "$R_ENV_NAME" Rscript)
+
 SPECIES_FILE="${SCRIPTS_DIR}/species.txt"
 BLAST_SCRIPT="${SCRIPTS_DIR}/01-Blastp-against-species.sh"
 EXPLORE_SCRIPT="${SCRIPTS_DIR}/02-Explore-blastp-result.R"
@@ -236,7 +239,7 @@ run_explore() {
     [[ "$(blast_result_count)" -gt 0 ]] || die "No BLAST result tables found under ${BLAST_RESULTS_DIR}."
 
     if [[ "$DRY_RUN" -eq 1 ]]; then
-        run_cmd Rscript "$EXPLORE_SCRIPT"
+        run_cmd "${RSCRIPT_CMD[@]}" "$EXPLORE_SCRIPT"
         return
     fi
 
@@ -246,7 +249,7 @@ run_explore() {
 
     log "RUN: Rscript ${EXPLORE_SCRIPT}"
     set +e
-    Rscript "$EXPLORE_SCRIPT"
+    run_cmd "${RSCRIPT_CMD[@]}" "$EXPLORE_SCRIPT"
     status=$?
     set -e
 
@@ -302,7 +305,7 @@ run_count_homologs() {
         return
     fi
 
-    run_cmd Rscript "$COUNT_HOMOLOGS_SCRIPT"
+    run_cmd "${RSCRIPT_CMD[@]}" "$COUNT_HOMOLOGS_SCRIPT"
     require_file "$HOMOLOG_COUNTS_PNG" "homolog-count plot"
 }
 
@@ -390,7 +393,7 @@ run_compare_tree() {
     fi
 
     require_file "$RAW_TREE_FILE" "tree file for plotting"
-    run_cmd Rscript "$COMPARE_TREE_SCRIPT"
+    run_cmd "${RSCRIPT_CMD[@]}" "$COMPARE_TREE_SCRIPT"
     require_file "$TREE_PDF" "tree-comparison PDF"
 }
 
