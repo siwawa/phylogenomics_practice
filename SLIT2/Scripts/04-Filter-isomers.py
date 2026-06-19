@@ -7,19 +7,19 @@ metadata_file = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/Blast-high-scori
 fasta_file = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/Blast-high-scoring-hits.fasta"
 output_fasta = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/SLIT-homologs.fasta"
 
-print("0. 메타데이터 파일에서 Accession과 Organism 정보 매핑 중...")
-# 공백/탭 상관없이 테이블을 읽어옵니다.
+print("0. Loading accession-to-organism metadata...")
+# Read the metadata table from the tab-delimited file.
 try:
     meta_df = pd.read_csv(metadata_file, sep='\t')
-    # Accession(saccver)을 키(Key)로, organism(Clade_Species)을 값(Value)으로 하는 딕셔너리 생성
+    # Map each accession (saccver) to its organism label.
     acc_to_organism = dict(zip(meta_df['saccver'], meta_df['organism']))
-    print(f"-> 총 {len(acc_to_organism)}개의 고유 매핑 정보를 불러왔습니다.\n")
+    print(f"-> Loaded {len(acc_to_organism)} unique metadata mappings.\n")
 except Exception as e:
-    print(f"메타데이터 파일을 읽는 데 실패했습니다: {e}")
+    print(f"Failed to read the metadata file: {e}")
     exit(1)
 
 
-print("1. FASTA 파일에서 서열, 길이, Accession 추출 중...")
+print("1. Extracting sequences, lengths, and accessions from FASTA...")
 sequences = {}
 current_id = ""
 
@@ -27,18 +27,17 @@ with open(fasta_file, "r") as f:
     for line in f:
         line = line.strip()
         if line.startswith(">"):
-            # '>XP_019635574.1 ...' 에서 오직 Accession 번호만 추출
+            # Keep only the accession from headers such as '>XP_019635574.1 ...'.
             current_id = line.split()[0][1:]
             sequences[current_id] = ""
         else:
             sequences[current_id] += line
 
-print(acc_to_organism)
 
-# 데이터프레임 생성 (메타데이터 딕셔너리에서 organism 매핑)
+# Build a dataframe and add organism labels from the metadata mapping.
 data = []
 for acc, seq in sequences.items():
-    # 딕셔너리에 매핑 정보가 있으면 가져오고, 없으면 예외 처리
+    # Use a fallback label when metadata is missing.
     organism_name = acc_to_organism.get(acc, "Unknown_Clade_Species")
     data.append({
         "saccver": acc, 
@@ -48,10 +47,10 @@ for acc, seq in sequences.items():
     })
 
 df = pd.DataFrame(data)
-print(f"-> 총 {len(df)}개의 단백질 서열을 확인했습니다.\n")
+print(f"-> Found {len(df)} protein sequences.\n")
 
 
-print("2. NCBI 서버에서 각 단백질의 Gene ID 추적 중 (약 1~2분 소요)...")
+print("2. Looking up Gene IDs for each protein through NCBI; this may take 1-2 minutes...")
 gene_ids = []
 for index, acc in enumerate(df['saccver']):
     base_acc = acc.split('.')[0] 
@@ -65,7 +64,7 @@ for index, acc in enumerate(df['saccver']):
         if link is not None:
             gene_id = link.text
         else:
-            print(f"   -> Info: {acc}는 등록된 Gene ID가 없습니다 (독립 서열로 취급).")
+            print(f"   -> Info: {acc} has no registered Gene ID; treating it as an independent sequence.")
             gene_id = f"NoGeneID_{acc}" 
             
     except Exception as e:
@@ -74,33 +73,33 @@ for index, acc in enumerate(df['saccver']):
     gene_ids.append(gene_id)
     
     if (index + 1) % 10 == 0:
-        print(f"   [{index + 1}/{len(df)}] 매핑 완료...")
+        print(f"   [{index + 1}/{len(df)}] mappings completed...")
     time.sleep(0.4) 
 
 df['GeneID'] = gene_ids
 
 
-print("\n3. Isoform 제거 및 Paralog 넘버링 (H1, H2...) 적용 중...")
-# 1) GeneID로 묶고 가장 긴 서열(Isoform 대표) 1개만 남기기
+print("\n3. Removing isoforms and assigning paralog labels (H1, H2...)...")
+# 1) Group by GeneID and keep the longest sequence as the isoform representative.
 filtered_df = df.sort_values('length', ascending=False).groupby('GeneID').head(1)
 
-# 2) organism(분류군_학명) 기준으로 그룹화하여 넘버링(H1, H2...) 부여
+# 2) Group by organism and assign H labels in descending length order.
 filtered_df = filtered_df.sort_values(by=['organism', 'length'], ascending=[True, False])
 filtered_df['H_num'] = filtered_df.groupby('organism').cumcount() + 1
 filtered_df['H_label'] = 'H' + filtered_df['H_num'].astype(str)
 
-print(f"-> 필터링 결과: {len(df)}개 -> {len(filtered_df)}개로 정리되었습니다.\n")
+print(f"-> Filtered {len(df)} sequences down to {len(filtered_df)}.\n")
 
 
-print("4. 최종 FASTA 파일 저장 중...")
+print("4. Writing the final FASTA file...")
 with open(output_fasta, "w") as f_out:
     for _, row in filtered_df.iterrows():
-        # 새 FASTA 헤더 포맷: >Target_Clade_Binomial_name_H1_geneID original_acc:XP_...
-        header = f">{row['organism']}_{row['H_label']}_{row['GeneID']} original_acc:{row['saccver']}"
+        # New FASTA header format: >Target_Clade_Binomial_name_H1_geneID_original_acc_XP_...
+        header = f">{row['organism']}_{row['H_label']}_{row['GeneID']}_original_acc_{row['saccver']}"
         f_out.write(header + "\n")
         
         seq = row['sequence']
         for i in range(0, len(seq), 80):
             f_out.write(seq[i:i+80] + "\n")
 
-print(f"🎉 모든 작업이 완료되었습니다! 파일 위치: {output_fasta}")
+print(f"Done. Output FASTA: {output_fasta}")

@@ -12,17 +12,17 @@ conda activate iqtree
 
 echo "Job started on $(hostname) at $(date)" 
 
-# 1. 경로 및 파일 설정 (이전 MAFFT 결과물 기준)
+# 1. Set paths for the previous MAFFT alignment output.
 BASE_DIR="/rna/liha/phylogenomics_practice/SLIT2"
 INPUT_FASTA="${BASE_DIR}/Alignments/SLIT_aligned.fasta"
 OUTPUT_DIR="${BASE_DIR}/Tree"  
 
-# 2. 출력 폴더 생성 및 Prefix 지정
+# 2. Create the output directory and define the IQ-TREE prefix.
 mkdir -p "$OUTPUT_DIR"
 OUT_PREFIX="${OUTPUT_DIR}/SLIT" 
 
-# 3. 기존 파일 정리 (클린업 로직)
-# IQ-TREE는 동일한 Prefix의 파일이 존재하면 에러를 뿜거나 실행을 멈춥니다.
+# 3. Remove old files with the same prefix before starting.
+# IQ-TREE can fail or stop when files with the same prefix already exist.
 if ls ${OUT_PREFIX}.* 1> /dev/null 2>&1; then
     echo "Old tree files found for ${OUT_PREFIX}. Cleaning up..."
     rm -f ${OUT_PREFIX}.*
@@ -30,12 +30,12 @@ fi
 
 echo "Starting IQ-TREE analysis for SLIT..." 
 
-# 4. IQ-TREE 실행
-# -T AUTO를 사용하되, Slurm에서 할당한 코어 수를 넘지 못하도록 안전장치 추가
+# 4. Run IQ-TREE.
+# Use -T AUTO while capping threads at the CPU count allocated by SLURM.
 iqtree3 -s "$INPUT_FASTA" \
         -B 5000 \
         --prefix "$OUT_PREFIX" \
         -T AUTO \
         --threads-max $SLURM_CPUS_PER_TASK
 
-echo "All IQ-TREE tasks completed successfully at $(date)!"
+echo "IQ-TREE analysis completed at $(date)."

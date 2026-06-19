@@ -1,10 +1,11 @@
-library(data.table)
-library(ggplot2)
-library(dplyr)
+suppressWarnings(suppressPackageStartupMessages({
+  library(data.table)
+  library(ggplot2)
+  library(dplyr)
+})) 
 
-# ==========================================
-# 1. Data Loading & Preprocessing
-# ==========================================
+
+## 1. Data Loading & Preprocessing
 
 # Setup directories and load reference lists
 base_dir <- "/rna/liha/phylogenomics_practice/SLIT2/Blast/Results"

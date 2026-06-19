@@ -1,6 +1,8 @@
-library(data.table)
-library(ggplot2)
-library(Biostrings)
+suppressWarnings(suppressPackageStartupMessages({
+  library(data.table)
+  library(ggplot2)
+  library(Biostrings)
+})) 
 
 # Define project paths.
 base_dir <- "/rna/liha/phylogenomics_practice/SLIT2"
