@@ -70,5 +70,6 @@ ggsave(
   plot = plot_homolog_counts,
   width = 10,
   height = 6,
-  dpi = 300
+  dpi = 300, 
+  bg = "white"
 )

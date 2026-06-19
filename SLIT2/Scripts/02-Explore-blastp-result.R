@@ -38,11 +38,10 @@ df_clean <- df[actual_species == target_species]
 
 
 
-# ==========================================
-# 2. Data Visualization
-# ==========================================
+# 2. Plotting BLAST Results
 
 # Plot 1: Bit Score Distribution
+# Unused. 
 df_bit <- df_clean[bitscore >= 300]
 p1 <- ggplot(df_bit, aes(x = bitscore)) +
   geom_histogram(fill = "steelblue", color = "black", bins = 30) +
@@ -66,7 +65,7 @@ p3 <- ggplot(df_plot, aes(x = -log10(evalue))) +
        x = "-log10(E-Value)",
        y = "Count")
 print(p3) 
-ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/E-value_Distribution.png", plot = p3, width = 8, height = 5)
+ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/E-value_Distribution.png", plot = p3, width = 8, height = 5, bg = "white")
 
 # Plot 3: E-value vs Aligned Length
 df_plot4 <- df_clean[evalue < 1e-80]
@@ -84,13 +83,11 @@ p4 <- ggplot(df_plot4, aes(x = length, y = -log10(evalue))) +
        y = "-log10(E-Value)") +
   theme(plot.title = element_text(size = 14))
 print(p4)
-ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/E-value_vs_Aligned_Length.png", plot = p4, width = 8, height = 5) 
+ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/E-value_vs_Aligned_Length.png", plot = p4, width = 8, height = 5, bg = "white") 
 
 
-# ==========================================
+
 # 3. Organism Hit Counts
-# ==========================================
-
 # Align target_species order with the phylogenetic reference list
 df_clean[, target_species := factor(target_species, levels = species_list$Organism_Name)]
 
@@ -107,7 +104,7 @@ total_hits <- ggplot(df_hits, aes(x = target_species)) +
        y = "Count") + 
   scale_x_discrete(drop = FALSE)  # Display organisms with zero hits 
 print(total_hits)
-ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/SLIT_Hit_Counts.png", plot = total_hits, width = 10, height = 6)
+ggsave(filename = "/rna/liha/phylogenomics_practice/SLIT2/Scripts/SLIT_Hit_Counts.png", plot = total_hits, width = 10, height = 6, bg = "white")
 
 
 
