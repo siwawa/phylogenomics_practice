@@ -1,0 +1,6 @@
+NP_003052.2	YP_010500845.1	29.730	37	4	1.2	22.3	NADH dehydrogenase subunit 2 [Lampetra richardsoni]
+NP_003052.2	YP_010500845.1	36.000	25	4	9.1	19.2	NADH dehydrogenase subunit 2 [Lampetra richardsoni]
+NP_004778.1	YP_010500845.1	36.585	41	5	0.27	24.3	NADH dehydrogenase subunit 2 [Lampetra richardsoni]
+NP_004778.1	YP_010500845.1	39.286	28	5	1.8	21.6	NADH dehydrogenase subunit 2 [Lampetra richardsoni]
+NP_004778.1	YP_010500845.1	66.667	12	5	9.1	19.2	NADH dehydrogenase subunit 2 [Lampetra richardsoni]
+NP_001258875.2	YP_010500844.1	27.586	58	4	4.5	20.4	NADH dehydrogenase subunit 1 [Lampetra richardsoni]

@@ -1,0 +1,2 @@
+NP_003052.2	YP_001974624.1	23.256	43	2	6.4	20.0	cytochrome c oxidase subunit III [Oplegnathus fasciatus]
+NP_004778.1	YP_001974628.1	40.000	25	2	7.6	20.0	NADH dehydrogenase subunit 5 [Oplegnathus fasciatus]
