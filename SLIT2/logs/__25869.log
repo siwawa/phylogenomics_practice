@@ -1,0 +1,2 @@
+[SLIT2] RUN: sbatch --wait /rna/liha/phylogenomics_practice/SLIT2/Scripts/06-Align-PRANK.sh
+Submitted batch job 25870

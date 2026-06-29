@@ -1,0 +1,76 @@
+Job started on pichu at Fri Jun 19 04:39:35 PM KST 2026
+Starting SLIT alignment with PRANK...
+Input: /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_initial.fas
+Output prefix: /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_prank
+PRANK-safe input: /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_prank_input.fasta
+Warning autodetection suggests DNA but protein model forced.
+Correcting (arbitrarily) for multifurcating nodes.
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83587
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83457
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83370
+
+
+Writing
+ - alignment to '/rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_prank.best.fas'
+
+Alignment completed successfully! Output saved to: /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_aligned.fasta
+Job ended at Fri Jun 19 05:45:19 PM KST 2026
+/var/spool/slurmd/job25817/slurm_script: line 86: N_DONE: unbound variable
+Email sent to siwawa@snu.ac.kr

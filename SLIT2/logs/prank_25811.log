@@ -1,0 +1,30 @@
+Job started on pichu at Fri Jun 19 11:14:40 AM KST 2026
+Starting SLIT alignment with PRANK...
+Input: /rna/liha/phylogenomics_practice/SLIT2/Scripts/SLIT-homologs.fasta
+Output prefix: /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_prank
+Warning autodetection suggests DNA but protein model forced.
+Warning: sequence names changed.
+
+Correcting (arbitrarily) for multifurcating nodes.
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 82815
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83187
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83031
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83102
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 83127
+
+
+Writing
+ - alignment to '/rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_prank.best.fas'
+
+Alignment completed successfully! Output saved to: /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_aligned.fasta
+Job ended at Fri Jun 19 12:36:45 PM KST 2026
