@@ -9,7 +9,10 @@
 
 cd /rna/liha/phylogenomics_practice/SLIT2/Scripts
 
+export SLIT_INPUT_FASTA="/rna/liha/phylogenomics_practice/SLIT2/Scripts/SLIT-homologs-removed-divergent.fasta"
+
 bash 00-Run-SLIT2-pipeline.sh \
-  --from blast \
+  --from align \
   --to compare_tree \
   --aligner prank \
+  --force-local

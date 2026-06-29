@@ -15,7 +15,7 @@ conda activate alignments
 echo "Job started on $(hostname) at $(date)"
 
 BASE_DIR="/rna/liha/phylogenomics_practice/SLIT2"
-INPUT_FILE="${BASE_DIR}/Scripts/SLIT-homologs.fasta"
+INPUT_FILE="${SLIT_INPUT_FASTA:-${BASE_DIR}/Scripts/SLIT-homologs.fasta}"
 OUTPUT_DIR="${BASE_DIR}/Alignments"
 OUTPUT_PREFIX="${OUTPUT_DIR}/SLIT_prank"
 OUTPUT_FILE="${OUTPUT_DIR}/SLIT_aligned.fasta"
@@ -66,6 +66,7 @@ trap send_mail EXIT
 prank \
     -d="$PRANK_INPUT_FILE" \
     -o="$OUTPUT_PREFIX" \
+    -iterate="30" \
     -protein \
     -quiet
 

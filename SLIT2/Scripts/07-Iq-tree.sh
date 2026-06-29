@@ -14,7 +14,7 @@ echo "Job started on $(hostname) at $(date)"
 
 # 1. Set paths for the previous MAFFT alignment output.
 BASE_DIR="/rna/liha/phylogenomics_practice/SLIT2"
-INPUT_FASTA="${BASE_DIR}/Alignments/SLIT_aligned.fasta"
+INPUT_FASTA="${BASE_DIR}/Alignments/SLIT_alignment.fas"
 OUTPUT_DIR="${BASE_DIR}/Tree"  
 
 # 2. Create the output directory and define the IQ-TREE prefix.
