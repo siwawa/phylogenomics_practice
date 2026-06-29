@@ -1,0 +1,802 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_alignment.fas
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (5000 replicates)
+Random seed number: 958244
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 121 sequences with 2392 amino-acid sites
+Number of constant sites: 752 (= 31.4381% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 752 (= 31.4381% of all sites)
+Number of parsimony informative sites: 1443
+Number of distinct site patterns: 2026
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: Q.PLANT+I+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+Q.PLANT+I+R6     -87775.587  176051.174 +        1  176109.791 +        1  177496.145 +    0.952
+Q.PLANT+I+R5     -87786.363  176068.726 - 0.000154  176126.357 - 0.000253  177502.138 -   0.0476
+Q.PLANT+R6       -87792.881  176083.762 - 8.38e-08  176141.886 - 1.07e-07  177522.954 - 1.44e-06
+JTT+I+R5         -87974.243  176444.487 - 3.92e-86  176502.118 - 6.41e-86  177877.898 - 1.21e-83
+JTT+I+R6         -87966.849  176433.697 - 8.63e-84  176492.315 - 8.63e-84  177878.668 - 8.22e-84
+JTT+R6           -87971.910  176441.821 - 1.49e-85  176499.944 -  1.9e-85  177881.012 - 2.55e-84
+JTTDCMUT+I+R6    -87984.167  176468.334 -  2.6e-91  176526.952 -  2.6e-91  177913.306 - 2.47e-91
+JTTDCMUT+R6      -87988.119  176474.238 - 1.36e-92  176532.362 - 1.74e-92  177913.430 - 2.33e-91
+JTTDCMUT+I+R5    -87994.531  176485.063 - 6.06e-95  176542.694 - 9.91e-95  177918.474 - 1.87e-92
+Q.MAMMAL+I+R5    -88020.906  176537.811 - 2.13e-106  176595.443 - 3.48e-106  177971.223 - 6.56e-104
+Q.MAMMAL+I+R6    -88014.240  176528.480 - 2.26e-104  176587.097 - 2.26e-104  177973.451 - 2.15e-104
+Q.MAMMAL+R6      -88023.008  176544.015 - 9.57e-108  176602.138 - 1.22e-107  177983.206 - 1.64e-106
+Q.INSECT+I+R6    -88263.511  177027.022 - 1.25e-212  177085.640 - 1.25e-212  178471.993 - 1.19e-212
+Q.INSECT+I+R5    -88271.564  177039.128 - 2.94e-215  177096.760 - 4.81e-215  178472.540 - 9.06e-213
+Q.INSECT+R6      -88274.805  177047.609 - 4.23e-217  177105.733 - 5.42e-217  178486.801 - 7.26e-216
+Q.BIRD+I+R6      -88326.483  177152.966 - 5.61e-240  177211.584 - 5.61e-240  178597.938 - 5.34e-240
+Q.BIRD+I+R5      -88336.052  177168.105 - 2.89e-243  177225.736 - 4.74e-243  178601.516 - 8.92e-241
+Q.BIRD+R6        -88335.182  177168.363 - 2.54e-243  177226.486 - 3.26e-243  178607.555 - 4.36e-242
+Q.PFAM+I+R6      -88728.140  177956.280 -        0  178014.898 -        0  179401.251 -        0
+Q.PFAM+I+R5      -88739.657  177975.315 -        0  178032.946 -        0  179408.726 -        0
+Q.PFAM+R6        -88742.984  177983.968 -        0  178042.091 -        0  179423.159 -        0
+LG+I+R6          -88745.750  177991.499 -        0  178050.117 -        0  179436.470 -        0
+LG+I+R5          -88757.833  178011.667 -        0  178069.298 -        0  179445.078 -        0
+LG+R6            -88754.367  178006.733 -        0  178064.857 -        0  179445.925 -        0
+JTTDCMUT+F+R6    -88681.149  177898.298 -        0  177966.213 -        0  179447.307 -        0
+JTTDCMUT+F+I+R6  -88678.720  177895.440 -        0  177963.894 -        0  179450.229 -        0
+JTTDCMUT+F+I+R5  -88687.153  177908.306 -        0  177975.684 -        0  179451.535 -        0
+LG+I+R7          -88745.683  177995.365 -        0  178054.978 -        0  179451.896 -        0
+LG+I+R4          -88770.216  178032.433 -        0  178089.087 -        0  179454.284 -        0
+LG+R7            -88753.351  178008.703 -        0  178067.817 -        0  179459.454 -        0
+LG+R5            -88768.913  178031.825 -        0  178088.967 -        0  179459.457 -        0
+JTT+F+R6         -88688.879  177913.757 -        0  177981.672 -        0  179462.766 -        0
+JTT+F+I+R6       -88685.154  177908.309 -        0  177976.763 -        0  179463.098 -        0
+JTT+F+I+R5       -88694.751  177923.503 -        0  177990.881 -        0  179466.732 -        0
+Q.YEAST+I+R6     -88792.241  178084.481 -        0  178143.099 -        0  179529.453 -        0
+FLU+F+I+R6       -88718.344  177974.688 -        0  178043.142 -        0  179529.477 -        0
+Q.YEAST+I+R5     -88803.317  178102.635 -        0  178160.266 -        0  179536.046 -        0
+LG+I+G4          -88830.738  178143.476 -        0  178197.729 -        0  179536.428 -        0
+FLU+F+R6         -88728.123  177992.245 -        0  178060.160 -        0  179541.254 -        0
+FLU+F+I+R5       -88733.477  178000.953 -        0  178068.332 -        0  179544.182 -        0
+Q.YEAST+R6       -88806.479  178110.958 -        0  178169.081 -        0  179550.149 -        0
+LG+R4            -88823.494  178136.987 -        0  178193.157 -        0  179553.059 -        0
+LG+G4            -88934.954  178349.908 -        0  178403.688 -        0  179737.080 -        0
+WAG+I+R6         -88905.520  178311.039 -        0  178369.657 -        0  179756.010 -        0
+WAG+I+R5         -88915.457  178326.914 -        0  178384.546 -        0  179760.326 -        0
+WAG+R6           -88912.617  178323.234 -        0  178381.357 -        0  179762.425 -        0
+LG+I+R3          -88955.573  178399.145 -        0  178454.832 -        0  179809.437 -        0
+FLU+I+R6         -88948.880  178397.759 -        0  178456.377 -        0  179842.730 -        0
+FLU+R6           -88956.712  178411.424 -        0  178469.547 -        0  179850.615 -        0
+FLU+I+R5         -88966.817  178429.634 -        0  178487.266 -        0  179863.046 -        0
+Q.MAMMAL+F+I+R6  -89057.270  178652.540 -        0  178720.994 -        0  180207.329 -        0
+Q.MAMMAL+F+I+R5  -89066.280  178666.559 -        0  178733.938 -        0  180209.788 -        0
+Q.MAMMAL+F+R6    -89062.997  178661.994 -        0  178729.910 -        0  180211.004 -        0
+Q.PLANT+F+I+R6   -89076.198  178690.395 -        0  178758.850 -        0  180245.184 -        0
+Q.PLANT+F+I+R5   -89084.806  178703.612 -        0  178770.991 -        0  180246.842 -        0
+Q.PLANT+F+R6     -89085.509  178707.018 -        0  178774.934 -        0  180256.028 -        0
+LG+R3            -89183.362  178852.725 -        0  178907.931 -        0  180257.237 -        0
+DAYHOFF+I+R6     -89166.294  178832.588 -        0  178891.206 -        0  180277.559 -        0
+DAYHOFF+R6       -89173.702  178845.404 -        0  178903.527 -        0  180284.595 -        0
+VT+I+R6          -89170.949  178841.898 -        0  178900.515 -        0  180286.869 -        0
+VT+R6            -89176.474  178850.948 -        0  178909.071 -        0  180290.139 -        0
+VT+I+R5          -89181.443  178858.886 -        0  178916.517 -        0  180292.297 -        0
+DCMUT+I+R6       -89177.836  178855.671 -        0  178914.289 -        0  180300.643 -        0
+DAYHOFF+I+R5     -89186.654  178869.307 -        0  178926.939 -        0  180302.719 -        0
+DCMUT+R6         -89184.245  178866.490 -        0  178924.613 -        0  180305.682 -        0
+DCMUT+I+R5       -89189.433  178874.867 -        0  178932.498 -        0  180308.278 -        0
+Q.INSECT+F+I+R6  -89235.508  179009.017 -        0  179077.471 -        0  180563.806 -        0
+Q.INSECT+F+R6    -89243.136  179022.271 -        0  179090.187 -        0  180571.281 -        0
+Q.INSECT+F+I+R5  -89247.555  179029.111 -        0  179096.489 -        0  180572.340 -        0
+Q.BIRD+F+I+R6    -89295.206  179128.412 -        0  179196.866 -        0  180683.201 -        0
+Q.BIRD+F+R6      -89300.344  179136.687 -        0  179204.602 -        0  180685.696 -        0
+LG+I+R2          -89404.654  179293.307 -        0  179348.036 -        0  180692.039 -        0
+Q.BIRD+F+I+R5    -89307.421  179148.842 -        0  179216.221 -        0  180692.071 -        0
+HIVB+I+R5        -89464.573  179425.146 -        0  179482.778 -        0  180858.558 -        0
+HIVB+I+R6        -89457.190  179414.379 -        0  179472.997 -        0  180859.351 -        0
+HIVB+R6          -89467.558  179433.115 -        0  179491.239 -        0  180872.307 -        0
+DAYHOFF+F+I+R6   -89395.921  179329.842 -        0  179398.296 -        0  180884.631 -        0
+DAYHOFF+F+R6     -89400.583  179337.167 -        0  179405.082 -        0  180886.176 -        0
+DAYHOFF+F+I+R5   -89405.425  179344.851 -        0  179412.229 -        0  180888.080 -        0
+DCMUT+F+R6       -89410.247  179356.494 -        0  179424.409 -        0  180905.503 -        0
+DCMUT+F+I+R6     -89406.521  179351.043 -        0  179419.497 -        0  180905.832 -        0
+DCMUT+F+I+R5     -89415.808  179365.616 -        0  179432.995 -        0  180908.845 -        0
+WAG+F+I+R6       -89426.609  179391.217 -        0  179459.672 -        0  180946.006 -        0
+WAG+F+R6         -89432.653  179401.305 -        0  179469.220 -        0  180950.314 -        0
+WAG+F+I+R5       -89436.813  179407.627 -        0  179475.005 -        0  180950.856 -        0
+CPREV+I+R6       -89553.739  179607.478 -        0  179666.096 -        0  181052.450 -        0
+CPREV+I+R5       -89563.034  179622.067 -        0  179679.698 -        0  181055.479 -        0
+CPREV+R6         -89571.249  179640.499 -        0  179698.622 -        0  181079.690 -        0
+LG+F+I+R6        -89550.649  179639.298 -        0  179707.752 -        0  181194.087 -        0
+LG+F+R6          -89557.944  179651.889 -        0  179719.804 -        0  181200.898 -        0
+LG+F+I+R5        -89564.383  179662.766 -        0  179730.144 -        0  181205.995 -        0
+Q.YEAST+F+I+R6   -89730.038  179998.076 -        0  180066.531 -        0  181552.866 -        0
+Q.YEAST+F+I+R5   -89739.697  180013.393 -        0  180080.772 -        0  181556.622 -        0
+Q.YEAST+F+R6     -89737.092  180010.184 -        0  180078.100 -        0  181559.194 -        0
+Q.PFAM+F+I+R6    -89757.766  180053.533 -        0  180121.987 -        0  181608.322 -        0
+Q.PFAM+F+I+R5    -89771.056  180076.113 -        0  180143.491 -        0  181619.342 -        0
+Q.PFAM+F+R6      -89768.290  180072.579 -        0  180140.495 -        0  181621.589 -        0
+RTREV+I+R6       -89838.804  180177.608 -        0  180236.226 -        0  181622.579 -        0
+RTREV+I+R5       -89853.238  180202.476 -        0  180260.108 -        0  181635.888 -        0
+RTREV+R6         -89853.303  180204.607 -        0  180262.730 -        0  181643.798 -        0
+LG+R2            -89911.404  180304.807 -        0  180359.060 -        0  181697.759 -        0
+VT+F+I+R6        -89947.782  180433.563 -        0  180502.017 -        0  181988.352 -        0
+VT+F+R6          -89952.224  180440.447 -        0  180508.362 -        0  181989.456 -        0
+VT+F+I+R5        -89956.518  180447.036 -        0  180514.414 -        0  181990.265 -        0
+HIVB+F+I+R6      -89953.475  180444.949 -        0  180513.403 -        0  181999.738 -        0
+HIVB+F+I+R5      -89961.500  180457.001 -        0  180524.379 -        0  182000.230 -        0
+HIVB+F+R6        -89964.666  180465.331 -        0  180533.246 -        0  182014.340 -        0
+FLAVI+R6         -90041.186  180580.373 -        0  180638.496 -        0  182019.564 -        0
+FLAVI+I+R6       -90037.701  180575.402 -        0  180634.019 -        0  182020.373 -        0
+FLAVI+I+R5       -90060.725  180617.450 -        0  180675.081 -        0  182050.861 -        0
+MTINV+F+I+R6     -90132.077  180802.153 -        0  180870.607 -        0  182356.942 -        0
+MTINV+F+R6       -90136.817  180809.633 -        0  180877.548 -        0  182358.642 -        0
+MTINV+F+I+R5     -90146.588  180827.175 -        0  180894.554 -        0  182370.405 -        0
+MTMET+F+I+R6     -90156.669  180851.338 -        0  180919.793 -        0  182406.127 -        0
+MTMET+F+R6       -90161.612  180859.224 -        0  180927.139 -        0  182408.233 -        0
+MTMET+F+I+R5     -90171.206  180876.412 -        0  180943.791 -        0  182419.641 -        0
+PMB+I+R5         -90338.018  181172.036 -        0  181229.667 -        0  182605.447 -        0
+PMB+I+R6         -90330.655  181161.310 -        0  181219.928 -        0  182606.281 -        0
+PMB+R6           -90335.957  181169.913 -        0  181228.036 -        0  182609.105 -        0
+FLAVI+F+I+R6     -90342.125  181222.250 -        0  181290.705 -        0  182777.039 -        0
+FLAVI+F+R6       -90350.430  181236.860 -        0  181304.775 -        0  182785.869 -        0
+FLAVI+F+I+R5     -90355.450  181244.900 -        0  181312.279 -        0  182788.130 -        0
+RTREV+F+I+R6     -90375.560  181289.120 -        0  181357.574 -        0  182843.909 -        0
+RTREV+F+R6       -90386.366  181308.732 -        0  181376.648 -        0  182857.742 -        0
+RTREV+F+I+R5     -90392.269  181318.537 -        0  181385.916 -        0  182861.767 -        0
+BLOSUM62+R6      -90542.277  181582.555 -        0  181640.678 -        0  183021.746 -        0
+BLOSUM62+I+R6    -90539.967  181579.934 -        0  181638.551 -        0  183024.905 -        0
+BLOSUM62+I+R5    -90551.069  181598.137 -        0  181655.769 -        0  183031.549 -        0
+PMB+F+I+R5       -90910.286  182354.572 -        0  182421.950 -        0  183897.801 -        0
+PMB+F+I+R6       -90903.372  182344.744 -        0  182413.198 -        0  183899.533 -        0
+PMB+F+R6         -90908.937  182353.874 -        0  182421.790 -        0  183902.884 -        0
+MTREV+F+I+R6     -90917.542  182373.084 -        0  182441.538 -        0  183927.873 -        0
+BLOSUM62+F+R6    -90922.925  182381.851 -        0  182449.766 -        0  183930.860 -        0
+MTREV+F+I+R5     -90927.083  182388.166 -        0  182455.545 -        0  183931.395 -        0
+BLOSUM62+F+I+R6  -90920.028  182378.057 -        0  182446.511 -        0  183932.846 -        0
+BLOSUM62+F+I+R5  -90929.949  182393.898 -        0  182461.277 -        0  183937.127 -        0
+MTREV+F+R6       -90932.091  182400.182 -        0  182468.097 -        0  183949.191 -        0
+CPREV+F+I+R6     -90931.094  182400.188 -        0  182468.642 -        0  183954.977 -        0
+CPREV+F+I+R5     -90944.691  182423.383 -        0  182490.761 -        0  183966.612 -        0
+CPREV+F+R6       -90946.027  182428.054 -        0  182495.969 -        0  183977.063 -        0
+MTVER+F+I+R6     -91061.450  182660.900 -        0  182729.354 -        0  184215.689 -        0
+MTVER+F+R6       -91069.327  182674.653 -        0  182742.568 -        0  184223.662 -        0
+MTVER+F+I+R5     -91081.219  182696.439 -        0  182763.817 -        0  184239.668 -        0
+MTZOA+F+I+R6     -91172.662  182883.325 -        0  182951.779 -        0  184438.114 -        0
+MTZOA+F+R6       -91181.244  182898.487 -        0  182966.402 -        0  184447.496 -        0
+MTZOA+F+I+R5     -91186.901  182907.802 -        0  182975.181 -        0  184451.032 -        0
+HIVW+F+I+R6      -91427.840  183393.680 -        0  183462.134 -        0  184948.469 -        0
+HIVW+F+I+R5      -91435.892  183405.784 -        0  183473.163 -        0  184949.013 -        0
+HIVW+F+R6        -91436.150  183408.300 -        0  183476.215 -        0  184957.309 -        0
+MTZOA+I+R6       -91525.067  183550.133 -        0  183608.751 -        0  184995.104 -        0
+MTZOA+R6         -91533.167  183564.333 -        0  183622.456 -        0  185003.524 -        0
+MTZOA+I+R5       -91545.775  183587.550 -        0  183645.182 -        0  185020.962 -        0
+MTMAM+F+I+R6     -91491.692  183521.384 -        0  183589.838 -        0  185076.173 -        0
+MTMAM+F+R6       -91502.196  183540.391 -        0  183608.306 -        0  185089.400 -        0
+MTMAM+F+I+R5     -91514.977  183563.954 -        0  183631.333 -        0  185107.183 -        0
+MTMET+R6         -91888.547  184275.093 -        0  184333.217 -        0  185714.285 -        0
+MTMET+I+R6       -91885.506  184271.012 -        0  184329.630 -        0  185715.984 -        0
+MTMET+I+R5       -91899.478  184294.956 -        0  184352.588 -        0  185728.368 -        0
+MTVER+R6         -92201.496  184900.991 -        0  184959.114 -        0  186340.182 -        0
+MTVER+I+R6       -92197.876  184895.752 -        0  184954.370 -        0  186340.724 -        0
+MTVER+I+R5       -92213.098  184922.196 -        0  184979.828 -        0  186355.608 -        0
+LG+I             -92340.451  185160.902 -        0  185214.681 -        0  186548.074 -        0
+HIVW+I+R6        -92310.599  185121.198 -        0  185179.815 -        0  186566.169 -        0
+HIVW+R6          -92316.588  185131.177 -        0  185189.300 -        0  186570.368 -        0
+HIVW+I+R5        -92320.510  185137.019 -        0  185194.651 -        0  186570.431 -        0
+MTREV+R6         -92333.204  185164.408 -        0  185222.531 -        0  186603.600 -        0
+MTREV+I+R6       -92331.541  185163.082 -        0  185221.699 -        0  186608.053 -        0
+MTREV+I+R5       -92347.298  185190.596 -        0  185248.227 -        0  186624.007 -        0
+MTART+F+I+R6     -92706.014  185950.028 -        0  186018.482 -        0  187504.817 -        0
+MTART+F+R6       -92716.794  185969.588 -        0  186037.503 -        0  187518.597 -        0
+MTART+F+I+R5     -92724.502  185983.003 -        0  186050.382 -        0  187526.233 -        0
+MTINV+R6         -92837.413  186172.827 -        0  186230.950 -        0  187612.018 -        0
+MTINV+I+R6       -92833.949  186167.897 -        0  186226.515 -        0  187612.869 -        0
+MTINV+I+R5       -92847.602  186191.205 -        0  186248.836 -        0  187624.616 -        0
+MTMAM+I+R6       -93314.767  187129.533 -        0  187188.151 -        0  188574.504 -        0
+MTMAM+R6         -93330.256  187158.512 -        0  187216.635 -        0  188597.703 -        0
+MTMAM+I+R5       -93347.718  187191.437 -        0  187249.068 -        0  188624.848 -        0
+LG               -94009.370  188496.740 -        0  188550.048 -        0  189878.132 -        0
+MTART+I+R6       -94026.887  188553.775 -        0  188612.392 -        0  189998.746 -        0
+MTART+R6         -94045.496  188588.991 -        0  188647.114 -        0  190028.183 -        0
+MTART+I+R5       -94059.318  188614.636 -        0  188672.268 -        0  190048.048 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.PLANT+I+R6
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+FreeRate with 6 categories
+Proportion of invariable sites: 0.0963
+Site proportion and rates:  (0.1432,0.1043) (0.1917,0.3473) (0.2050,0.6916) (0.2200,1.4498) (0.0905,2.5721) (0.0534,4.2173)
+
+ Category  Relative_rate  Proportion
+  0         0              0.0963
+  1         0.1043         0.1432
+  2         0.3473         0.1917
+  3         0.6916         0.2050
+  4         1.4498         0.2200
+  5         2.5721         0.0905
+  6         4.2173         0.0534
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -87748.3548 (s.e. 1876.1846)
+Unconstrained log-likelihood (without tree): -17717.6018
+Number of free parameters (#branches + #model parameters): 250
+Akaike information criterion (AIC) score: 175996.7097
+Corrected Akaike information criterion (AICc) score: 176055.3271
+Bayesian information criterion (BIC) score: 177441.6809
+
+Total tree length (sum of branch lengths): 19.4852
+Sum of internal branch lengths: 10.5339 (54.0612% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Urochordata_Aplidium_turbinatum_H1_145771367_original_acc_XP_082439248.1_' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----Urochordata_Aplidium_turbinatum_H1_145771367_original_acc_XP_082439248.1_
+|
++------Urochordata_Aplidium_turbinatum_H2_145781066_original_acc_XP_082448928.1_
+|
+|       +---------Urochordata_Ciona_intestinalis_H1_100184475_original_acc_XP_078487724.1_
+|    +--| (84)
+|    |  +-------Urochordata_Corella_eumyota_H1_145744549_original_acc_XP_082418549.1_
++----| (100)
+     |     +-------------------------Urochordata_Ascidia_mentula_H1_145910708_original_acc_XP_082854049.1_
+     |  +--| (93)
+     |  |  |                                          +--Urochordata_Thalia_democratica_H1_145831289_original_acc_XP_082794610.1_
+     |  |  |                                     +----| (100)
+     |  |  |                                     |    +--Urochordata_Thalia_democratica_H4_145846959_original_acc_XP_082809594.1_
+     |  |  |                  +------------------| (100)
+     |  |  |                  |                  +------Urochordata_Thalia_democratica_H3_145832390_original_acc_XP_082795834.1_
+     |  |  +------------------| (100)
+     |  |                     +------------------------Urochordata_Thalia_democratica_H2_145831392_original_acc_XP_082794771.1_
+     +--| (93)
+        |               +--------Urochordata_Botryllus_schlosseri_H1_145440221_original_acc_XP_080173917.1_
+        |    +----------| (100)
+        |    |          +-----Urochordata_Styela_clava_H1_120338737_original_acc_XP_039262600.2_
+        +----| (100)
+             |                                              +--Chondrichthyes_Pristiophorus_japonicus_H1_139243298_original_acc_XP_070726855.1_
+             |                                           +--| (97)
+             |                                           |  |  +--Chondrichthyes_Heterodontus_francisci_H2_137372992_original_acc_XP_067893698.1_
+             |                                           |  +--| (98)
+             |                                           |     |  +--Chondrichthyes_Scyliorhinus_torazame_H1_140408781_original_acc_XP_072352572.1_
+             |                                           |     +--| (100)
+             |                                           |        +--Chondrichthyes_Stegostoma_tigrinum_H1_125459782_original_acc_XP_048402591.1_
+             |                                        +--| (96)
+             |                                        |  +--Chondrichthyes_Heptranchias_perlo_H1_137324680_original_acc_XP_067845369.1_
+             |                                     +--| (100)
+             |                                     |  |     +--Chondrichthyes_Leucoraja_erinaceus_H1_129698904_original_acc_XP_055494309.1_
+             |                                     |  |  +--| (100)
+             |                                     |  |  |  +--Chondrichthyes_Raja_brachyura_H3_145365659_original_acc_XP_080077501.1_
+             |                                     |  +--| (100)
+             |                                     |     |  +--Chondrichthyes_Mobula_birostris_H1_140195140_original_acc_XP_072109062.1_
+             |                                     |     +--| (100)
+             |                                     |        +--Chondrichthyes_Mobula_hypostoma_H1_134344107_original_acc_XP_062899450.1_
+             |                                  +--| (100)
+             |                                  |  +--Chondrichthyes_Callorhinchus_milii_H1_103175815_original_acc_XP_042196883.1_
+             |                               +--| (100)
+             |                               |  |              +--Euteleostomi_Anolis_carolinensis_H1_100558087_original_acc_XP_062838202.1_
+             |                               |  |           +--| (100)
+             |                               |  |           |  +--Euteleostomi_Gallus_gallus_H2_373967_original_acc_XP_046771295.1_
+             |                               |  |        +--| (100)
+             |                               |  |        |  |  +--Euteleostomi_Homo_sapiens_H2_9353_original_acc_XP_005248268.1_
+             |                               |  |        |  +--| (100)
+             |                               |  |        |     +--Euteleostomi_Mus_musculus_H1_20563_original_acc_NP_001278156.1_
+             |                               |  |     +--| (100)
+             |                               |  |     |  |  +--Euteleostomi_Xenopus_laevis_H1_108698051_original_acc_XP_041444148.1_
+             |                               |  |     |  +--| (100)
+             |                               |  |     |     |  +--Euteleostomi_Xenopus_laevis_H2_394404_original_acc_XP_041429371.1_
+             |                               |  |     |     +--| (93)
+             |                               |  |     |        +--Euteleostomi_Xenopus_tropicalis_H1_100492007_original_acc_XP_031751209.1_
+             |                               |  |  +--| (98)
+             |                               |  |  |  +--Euteleostomi_Latimeria_chalumnae_H2_102367424_original_acc_XP_064419706.1_
+             |                               |  +--| (100)
+             |                               |     |        +--Euteleostomi_Acipenser_ruthenus_H3_117409251_original_acc_XP_058862001.1_
+             |                               |     |     +--| (100)
+             |                               |     |     |  +--Euteleostomi_Acipenser_ruthenus_H4_117421182_original_acc_XP_033891134.1_
+             |                               |     |  +--| (99)
+             |                               |     |  |  +--Euteleostomi_Polypterus_senegalus_H1_120527765_original_acc_XP_039607493.1_
+             |                               |     +--| (100)
+             |                               |        |  +--Euteleostomi_Lepisosteus_oculatus_H1_102694474_original_acc_XP_015199455.1_
+             |                               |        +--| (100)
+             |                               |           |              +--Teleostei_Maylandia_zebra_H1_101467229_original_acc_XP_076741040.1_
+             |                               |           |           +--| (100)
+             |                               |           |           |  +--Teleostei_Oreochromis_niloticus_H2_100694794_original_acc_XP_025763778.1_
+             |                               |           |        +--| (77)
+             |                               |           |        |  |  +--Teleostei_Paralichthys_olivaceus_H1_109637842_original_acc_XP_069386215.1_
+             |                               |           |        |  +--| (89)
+             |                               |           |        |     +--Teleostei_Seriola_dumerili_H3_111231408_original_acc_XP_022614204.1_
+             |                               |           |     +--| (94)
+             |                               |           |     |  +--Teleostei_Sparus_aurata_H1_115583894_original_acc_XP_030276984.1_
+             |                               |           |  +--| (100)
+             |                               |           |  |  |  +--Teleostei_Scomber_japonicus_H1_128364904_original_acc_XP_053181502.1_
+             |                               |           |  |  +--| (93)
+             |                               |           |  |     +--Teleostei_Thunnus_albacares_H2_122979428_original_acc_XP_044202797.1_
+             |                               |           +--| (100)
+             |                               |              +--Teleostei_Oncorhynchus_mykiss_H2_110516422_original_acc_XP_036790168.1_
+             |                            +--| (100)
+             |                            |  |       +--Chondrichthyes_Callorhinchus_milii_H2_103177282_original_acc_XP_042196000.1_
+             |                            |  |    +--| (100)
+             |                            |  |    |  |        +--Chondrichthyes_Heptranchias_perlo_H3_137332578_original_acc_XP_067852608.1_
+             |                            |  |    |  |     +--| (57)
+             |                            |  |    |  |     |  +--Chondrichthyes_Pristiophorus_japonicus_H3_139263049_original_acc_XP_070734659.1_
+             |                            |  |    |  |  +--| (58)
+             |                            |  |    |  |  |  |  +--Chondrichthyes_Heterodontus_francisci_H3_137375798_original_acc_XP_067899363.1_
+             |                            |  |    |  |  |  +--| (100)
+             |                            |  |    |  |  |     |  +--Chondrichthyes_Scyliorhinus_torazame_H3_140426781_original_acc_XP_072368047.1_
+             |                            |  |    |  |  |     +--| (98)
+             |                            |  |    |  |  |        +--Chondrichthyes_Stegostoma_tigrinum_H3_125458334_original_acc_XP_048399493.1_
+             |                            |  |    |  +--| (100)
+             |                            |  |    |     |     +--Chondrichthyes_Leucoraja_erinaceus_H3_129701451_original_acc_XP_055498609.1_
+             |                            |  |    |     |  +--| (100)
+             |                            |  |    |     |  |  +--Chondrichthyes_Raja_brachyura_H2_145372276_original_acc_XP_080088355.1_
+             |                            |  |    |     +--| (100)
+             |                            |  |    |        |  +--Chondrichthyes_Mobula_birostris_H3_140200362_original_acc_XP_072119684.1_
+             |                            |  |    |        +--| (100)
+             |                            |  |    |           +--Chondrichthyes_Mobula_hypostoma_H3_134349406_original_acc_XP_062909732.1_
+             |                            |  +----| (100)
+             |                            |       |             +--Euteleostomi_Acipenser_ruthenus_H5_117413046_original_acc_XP_058853176.1_
+             |                            |       |          +--| (100)
+             |                            |       |          |  +--Euteleostomi_Acipenser_ruthenus_H6_117431683_original_acc_XP_058852492.1_
+             |                            |       |       +--| (96)
+             |                            |       |       |  +--Euteleostomi_Polypterus_senegalus_H3_120542064_original_acc_XP_039630126.1_
+             |                            |       |  +----| (100)
+             |                            |       |  |    |  +--Euteleostomi_Lepisosteus_oculatus_H3_102689995_original_acc_XP_015205363.2_
+             |                            |       |  |    +--| (100)
+             |                            |       |  |       |              +--Teleostei_Maylandia_zebra_H4_101480300_original_acc_XP_004553650.2_
+             |                            |       |  |       |           +--| (100)
+             |                            |       |  |       |           |  +--Teleostei_Oreochromis_niloticus_H3_100703331_original_acc_XP_005467341.1_
+             |                            |       |  |       |        +--| (61)
+             |                            |       |  |       |        |  |  +--Teleostei_Paralichthys_olivaceus_H3_109626347_original_acc_XP_019937784.2_
+             |                            |       |  |       |        |  +--| (100)
+             |                            |       |  |       |        |     +--Teleostei_Seriola_dumerili_H4_111232433_original_acc_XP_022615670.1_
+             |                            |       |  |       |     +--| (65)
+             |                            |       |  |       |     |  +--Teleostei_Sparus_aurata_H4_115569018_original_acc_XP_030252727.1_
+             |                            |       |  |       |  +--| (100)
+             |                            |       |  |       |  |  |  +--Teleostei_Scomber_japonicus_H2_128362581_original_acc_XP_053179354.1_
+             |                            |       |  |       |  |  +--| (100)
+             |                            |       |  |       |  |     +--Teleostei_Thunnus_albacares_H3_122990617_original_acc_XP_044219956.1_
+             |                            |       |  |       +--| (100)
+             |                            |       |  |          |     +--Teleostei_Oncorhynchus_mykiss_H3_110504786_original_acc_XP_036825700.1_
+             |                            |       |  |          |  +--| (100)
+             |                            |       |  |          |  |  +--Teleostei_Salmo_salar_H4_106611956_original_acc_XP_045579996.2_
+             |                            |       |  |          +--| (100)
+             |                            |       |  |             +--Teleostei_Oncorhynchus_mykiss_H5_110488577_original_acc_XP_036798603.1_
+             |                            |       +--| (100)
+             |                            |          |           +--Euteleostomi_Anolis_carolinensis_H3_100557859_original_acc_XP_062826543.1_
+             |                            |          |        +--| (99)
+             |                            |          |        |  +--Euteleostomi_Gallus_gallus_H3_374173_original_acc_NP_001383050.1_
+             |                            |          |     +--| (100)
+             |                            |          |     |  |  +--Euteleostomi_Homo_sapiens_H3_6586_original_acc_NP_001258875.2_
+             |                            |          |     |  +--| (100)
+             |                            |          |     |     +--Euteleostomi_Mus_musculus_H3_20564_original_acc_NP_035542.2_
+             |                            |          |  +--| (100)
+             |                            |          |  |  |     +--Euteleostomi_Xenopus_laevis_H5_108712410_original_acc_XP_041444686.1_
+             |                            |          |  |  |  +--| (100)
+             |                            |          |  |  |  |  +--Euteleostomi_Xenopus_laevis_H6_108710233_original_acc_XP_041442084.1_
+             |                            |          |  |  +--| (100)
+             |                            |          |  |     +--Euteleostomi_Xenopus_tropicalis_H3_780195_original_acc_NP_001072738.1_
+             |                            |          +--| (99)
+             |                            |             +--Euteleostomi_Latimeria_chalumnae_H3_102345917_original_acc_XP_005991876.1_
+             |                         +--| (97)
+             |                         |  |          +--Cyclostomata_Lampetra_planeri_H1_144717550_original_acc_XP_078449077.1_
+             |                         |  |       +--| (100)
+             |                         |  |       |  +**Cyclostomata_Lethenteron_reissneri_H1_133345492_original_acc_XP_061412248.1_
+             |                         |  |    +--| (100)
+             |                         |  |    |  +--Cyclostomata_Petromyzon_marinus_H1_116941376_original_acc_XP_032808326.2_
+             |                         |  +----| (100)
+             |                         |       +-------Cyclostomata_Myxine_glutinosa_H2_137423189_original_acc_XP_078630716.1_
+             |                      +--| (90)
+             |                      |  |        +--Cyclostomata_Lampetra_planeri_H2_144721532_original_acc_XP_078455336.1_
+             |                      |  |     +--| (100)
+             |                      |  |     |  +--Cyclostomata_Lethenteron_reissneri_H2_133343488_original_acc_XP_061409127.1_
+             |                      |  |  +--| (100)
+             |                      |  |  |  +--Cyclostomata_Petromyzon_marinus_H2_116940650_original_acc_XP_032806650.1_
+             |                      |  +--| (100)
+             |                      |     +----------Cyclostomata_Myxine_glutinosa_H1_137420701_original_acc_XP_067962082.2_
+             |             +--------| (100)
+             |             |        |             +--Chondrichthyes_Heptranchias_perlo_H2_137339931_original_acc_XP_067858119.1_
+             |             |        |          +--| (79)
+             |             |        |          |  +--Chondrichthyes_Pristiophorus_japonicus_H2_139260184_original_acc_XP_070732547.1_
+             |             |        |       +--| (79)
+             |             |        |       |  |  +--Chondrichthyes_Heterodontus_francisci_H1_137380790_original_acc_XP_067909244.1_
+             |             |        |       |  +--| (100)
+             |             |        |       |     |  +--Chondrichthyes_Stegostoma_tigrinum_H2_125462030_original_acc_XP_059508990.1_
+             |             |        |       |     +--| (100)
+             |             |        |       |        +--Chondrichthyes_Scyliorhinus_torazame_H2_140393331_original_acc_XP_072335769.1_
+             |             |        |    +--| (100)
+             |             |        |    |  |     +--Chondrichthyes_Leucoraja_erinaceus_H2_129704151_original_acc_XP_055503040.1_
+             |             |        |    |  |  +--| (100)
+             |             |        |    |  |  |  +--Chondrichthyes_Raja_brachyura_H1_145374601_original_acc_XP_080092115.1_
+             |             |        |    |  +--| (100)
+             |             |        |    |     |  +--Chondrichthyes_Mobula_birostris_H2_140185601_original_acc_XP_072095098.1_
+             |             |        |    |     +--| (100)
+             |             |        |    |        +--Chondrichthyes_Mobula_hypostoma_H2_134358831_original_acc_XP_062927440.1_
+             |             |        +----| (100)
+             |             |             |           +--Euteleostomi_Acipenser_ruthenus_H1_117414543_original_acc_XP_033880204.3_
+             |             |             |        +--| (100)
+             |             |             |        |  +--Euteleostomi_Acipenser_ruthenus_H2_117418458_original_acc_XP_058841096.1_
+             |             |             |     +--| (79)
+             |             |             |     |  |  +--Euteleostomi_Lepisosteus_oculatus_H2_102686747_original_acc_XP_015203187.2_
+             |             |             |     |  +--| (97)
+             |             |             |     |     |                    +--Teleostei_Maylandia_zebra_H3_101467001_original_acc_XP_004555882.1_
+             |             |             |     |     |                 +--| (100)
+             |             |             |     |     |                 |  +--Teleostei_Oreochromis_niloticus_H4_100704275_original_acc_XP_003452015.2_
+             |             |             |     |     |              +--| (35)
+             |             |             |     |     |              |  +--Teleostei_Seriola_dumerili_H2_111234356_original_acc_XP_022618118.1_
+             |             |             |     |     |           +--| (35)
+             |             |             |     |     |           |  +--Teleostei_Scomber_japonicus_H3_128373103_original_acc_XP_053189321.1_
+             |             |             |     |     |        +--| (81)
+             |             |             |     |     |        |  +--Teleostei_Paralichthys_olivaceus_H2_109634541_original_acc_XP_019950673.2_
+             |             |             |     |     |     +--| (100)
+             |             |             |     |     |     |  +--Teleostei_Sparus_aurata_H3_115596574_original_acc_XP_030297634.1_
+             |             |             |     |     |  +--| (100)
+             |             |             |     |     |  |  |     +--Teleostei_Oncorhynchus_mykiss_H1_110502676_original_acc_XP_036816280.1_
+             |             |             |     |     |  |  |  +--| (100)
+             |             |             |     |     |  |  |  |  |  +**Teleostei_Salmo_salar_H1_106612875_original_acc_XP_014069958.1_
+             |             |             |     |     |  |  |  |  +--| (100)
+             |             |             |     |     |  |  |  |     +**Teleostei_Salmo_salar_H2_NoGeneID_XP_014069980.1_original_acc_XP_014069980.1_
+             |             |             |     |     |  |  +--| (100)
+             |             |             |     |     |  |     |  +--Teleostei_Oncorhynchus_mykiss_H4_110499533_original_acc_XP_036812104.1_
+             |             |             |     |     |  |     +--| (100)
+             |             |             |     |     |  |        +--Teleostei_Salmo_salar_H3_106589770_original_acc_XP_082826675.1_
+             |             |             |     |     +--| (91)
+             |             |             |     |        |              +--Teleostei_Maylandia_zebra_H2_101480949_original_acc_XP_076740715.1_
+             |             |             |     |        |           +--| (100)
+             |             |             |     |        |           |  +--Teleostei_Oreochromis_niloticus_H1_100705354_original_acc_XP_003454150.1_
+             |             |             |     |        |        +--| (99)
+             |             |             |     |        |        |  |  +--Teleostei_Seriola_dumerili_H1_111235880_original_acc_XP_022620171.1_
+             |             |             |     |        |        |  +--| (97)
+             |             |             |     |        |        |     +--Teleostei_Thunnus_albacares_H1_122973464_original_acc_XP_044196953.1_
+             |             |             |     |        +--------| (100)
+             |             |             |     |                 +--Teleostei_Sparus_aurata_H2_115587164_original_acc_XP_030282688.1_
+             |             |             |  +--| (100)
+             |             |             |  |  +--Euteleostomi_Polypterus_senegalus_H2_120542482_original_acc_XP_039630924.1_
+             |             |             +--| (100)
+             |             |                |        +--Euteleostomi_Anolis_carolinensis_H2_100559877_original_acc_XP_003224291.1_
+             |             |                |     +--| (100)
+             |             |                |     |  |     +--Euteleostomi_Homo_sapiens_H1_6585_original_acc_NP_003052.2_
+             |             |                |     |  |  +--| (100)
+             |             |                |     |  |  |  +--Euteleostomi_Mus_musculus_H2_20562_original_acc_NP_056563.2_
+             |             |                |     |  +--| (53)
+             |             |                |     |     +--Euteleostomi_Gallus_gallus_H1_395293_original_acc_NP_001264265.2_
+             |             |                |  +--| (100)
+             |             |                |  |  |     +--Euteleostomi_Xenopus_laevis_H3_108695757_original_acc_XP_041424643.1_
+             |             |                |  |  |  +--| (99)
+             |             |                |  |  |  |  +--Euteleostomi_Xenopus_laevis_H4_380270_original_acc_NP_001080578.1_
+             |             |                |  |  +--| (100)
+             |             |                |  |     +--Euteleostomi_Xenopus_tropicalis_H2_100036682_original_acc_NP_001090702.1_
+             |             |                +--| (99)
+             |             |                   +--Euteleostomi_Latimeria_chalumnae_H1_102351979_original_acc_XP_064419060.1_
+             +-------------| (100)
+                           |              +--Cephalochordata_Branchiostoma_belcheri_H1_109478478_original_acc_XP_019635574.1_
+                           +--------------| (100)
+                                          |  +--Cephalochordata_Branchiostoma_floridae_H1_118414987_original_acc_XP_035675246.1_
+                                          +--| (98)
+                                             +--Cephalochordata_Branchiostoma_lanceolatum_H1_136431111_original_acc_XP_066278440.1_
+
+Tree in newick format:
+
+(Urochordata_Aplidium_turbinatum_H1_145771367_original_acc_XP_082439248.1_:0.2341858117,Urochordata_Aplidium_turbinatum_H2_145781066_original_acc_XP_082448928.1_:0.3438337760,((Urochordata_Ciona_intestinalis_H1_100184475_original_acc_XP_078487724.1_:0.4332060905,Urochordata_Corella_eumyota_H1_145744549_original_acc_XP_082418549.1_:0.3752088317)84:0.0566741974,((Urochordata_Ascidia_mentula_H1_145910708_original_acc_XP_082854049.1_:1.1416385117,(((Urochordata_Thalia_democratica_H1_145831289_original_acc_XP_082794610.1_:0.0080615460,Urochordata_Thalia_democratica_H4_145846959_original_acc_XP_082809594.1_:0.0097797776)100:0.2449269616,Urochordata_Thalia_democratica_H3_145832390_original_acc_XP_082795834.1_:0.3027444069)100:0.8188989000,Urochordata_Thalia_democratica_H2_145831392_original_acc_XP_082794771.1_:1.1191322776)100:0.8514939959)93:0.1311338031,((Urochordata_Botryllus_schlosseri_H1_145440221_original_acc_XP_080173917.1_:0.4101280081,Urochordata_Styela_clava_H1_120338737_original_acc_XP_039262600.2_:0.2741430185)100:0.4803875009,((((((((((Chondrichthyes_Pristiophorus_japonicus_H1_139243298_original_acc_XP_070726855.1_:0.0148950680,(Chondrichthyes_Heterodontus_francisci_H2_137372992_original_acc_XP_067893698.1_:0.0157411193,(Chondrichthyes_Scyliorhinus_torazame_H1_140408781_original_acc_XP_072352572.1_:0.0185981688,Chondrichthyes_Stegostoma_tigrinum_H1_125459782_original_acc_XP_048402591.1_:0.0237051952)100:0.0063568026)98:0.0059805935)97:0.0008142723,Chondrichthyes_Heptranchias_perlo_H1_137324680_original_acc_XP_067845369.1_:0.0086216683)96:0.0061041900,((Chondrichthyes_Leucoraja_erinaceus_H1_129698904_original_acc_XP_055494309.1_:0.0029383337,Chondrichthyes_Raja_brachyura_H3_145365659_original_acc_XP_080077501.1_:0.0106193512)100:0.0283530707,(Chondrichthyes_Mobula_birostris_H1_140195140_original_acc_XP_072109062.1_:0.0032238618,Chondrichthyes_Mobula_hypostoma_H1_134344107_original_acc_XP_062899450.1_:0.0037161198)100:0.0162704874)100:0.0183233761)100:0.0307423650,Chondrichthyes_Callorhinchus_milii_H1_103175815_original_acc_XP_042196883.1_:0.0508164897)100:0.0530355817,(((((Euteleostomi_Anolis_carolinensis_H1_100558087_original_acc_XP_062838202.1_:0.0370752335,Euteleostomi_Gallus_gallus_H2_373967_original_acc_XP_046771295.1_:0.0222279476)100:0.0145103893,(Euteleostomi_Homo_sapiens_H2_9353_original_acc_XP_005248268.1_:0.0161478822,Euteleostomi_Mus_musculus_H1_20563_original_acc_NP_001278156.1_:0.0255589013)100:0.0443131597)100:0.0166421232,(Euteleostomi_Xenopus_laevis_H1_108698051_original_acc_XP_041444148.1_:0.0122649632,(Euteleostomi_Xenopus_laevis_H2_394404_original_acc_XP_041429371.1_:0.0259618160,Euteleostomi_Xenopus_tropicalis_H1_100492007_original_acc_XP_031751209.1_:0.0202917494)93:0.0033565910)100:0.0945473921)100:0.0223583015,Euteleostomi_Latimeria_chalumnae_H2_102367424_original_acc_XP_064419706.1_:0.0917584260)98:0.0132885551,(((Euteleostomi_Acipenser_ruthenus_H3_117409251_original_acc_XP_058862001.1_:0.0285886439,Euteleostomi_Acipenser_ruthenus_H4_117421182_original_acc_XP_033891134.1_:0.0193030642)100:0.0332784316,Euteleostomi_Polypterus_senegalus_H1_120527765_original_acc_XP_039607493.1_:0.0672500769)99:0.0056319894,(Euteleostomi_Lepisosteus_oculatus_H1_102694474_original_acc_XP_015199455.1_:0.0491310313,(((((Teleostei_Maylandia_zebra_H1_101467229_original_acc_XP_076741040.1_:0.0030364475,Teleostei_Oreochromis_niloticus_H2_100694794_original_acc_XP_025763778.1_:0.0046358909)100:0.0264953407,(Teleostei_Paralichthys_olivaceus_H1_109637842_original_acc_XP_069386215.1_:0.0275375407,Teleostei_Seriola_dumerili_H3_111231408_original_acc_XP_022614204.1_:0.0081342502)89:0.0035120630)77:0.0016910388,Teleostei_Sparus_aurata_H1_115583894_original_acc_XP_030276984.1_:0.0168058552)94:0.0066126082,(Teleostei_Scomber_japonicus_H1_128364904_original_acc_XP_053181502.1_:0.0064415038,Teleostei_Thunnus_albacares_H2_122979428_original_acc_XP_044202797.1_:0.0044424850)93:0.0027225023)100:0.0425107497,Teleostei_Oncorhynchus_mykiss_H2_110516422_original_acc_XP_036790168.1_:0.1089154541)100:0.1502005940)100:0.0225819553)100:0.0428661556)100:0.0420815293)100:0.0865656491,((Chondrichthyes_Callorhinchus_milii_H2_103177282_original_acc_XP_042196000.1_:0.1594817930,(((Chondrichthyes_Heptranchias_perlo_H3_137332578_original_acc_XP_067852608.1_:0.0242828572,Chondrichthyes_Pristiophorus_japonicus_H3_139263049_original_acc_XP_070734659.1_:0.0345447797)57:0.0045597656,(Chondrichthyes_Heterodontus_francisci_H3_137375798_original_acc_XP_067899363.1_:0.0248053475,(Chondrichthyes_Scyliorhinus_torazame_H3_140426781_original_acc_XP_072368047.1_:0.0391207527,Chondrichthyes_Stegostoma_tigrinum_H3_125458334_original_acc_XP_048399493.1_:0.0594464266)98:0.0068130614)100:0.0124407910)58:0.0100054305,((Chondrichthyes_Leucoraja_erinaceus_H3_129701451_original_acc_XP_055498609.1_:0.0056567966,Chondrichthyes_Raja_brachyura_H2_145372276_original_acc_XP_080088355.1_:0.0100430953)100:0.0408977949,(Chondrichthyes_Mobula_birostris_H3_140200362_original_acc_XP_072119684.1_:0.0047088540,Chondrichthyes_Mobula_hypostoma_H3_134349406_original_acc_XP_062909732.1_:0.0047362484)100:0.0535004266)100:0.0321869642)100:0.0674400293)100:0.1097671513,((((Euteleostomi_Acipenser_ruthenus_H5_117413046_original_acc_XP_058853176.1_:0.0043473958,Euteleostomi_Acipenser_ruthenus_H6_117431683_original_acc_XP_058852492.1_:0.0058492669)100:0.1330261921,Euteleostomi_Polypterus_senegalus_H3_120542064_original_acc_XP_039630126.1_:0.1506942230)96:0.0279948337,(Euteleostomi_Lepisosteus_oculatus_H3_102689995_original_acc_XP_015205363.2_:0.0946375593,(((((Teleostei_Maylandia_zebra_H4_101480300_original_acc_XP_004553650.2_:0.0022730761,Teleostei_Oreochromis_niloticus_H3_100703331_original_acc_XP_005467341.1_:0.0070301723)100:0.0622520590,(Teleostei_Paralichthys_olivaceus_H3_109626347_original_acc_XP_019937784.2_:0.0550830158,Teleostei_Seriola_dumerili_H4_111232433_original_acc_XP_022615670.1_:0.0133195945)100:0.0131277196)61:0.0041255289,Teleostei_Sparus_aurata_H4_115569018_original_acc_XP_030252727.1_:0.0327344515)65:0.0061659666,(Teleostei_Scomber_japonicus_H2_128362581_original_acc_XP_053179354.1_:0.0269517846,Teleostei_Thunnus_albacares_H3_122990617_original_acc_XP_044219956.1_:0.0110394176)100:0.0142433676)100:0.1037251375,((Teleostei_Oncorhynchus_mykiss_H3_110504786_original_acc_XP_036825700.1_:0.0136568397,Teleostei_Salmo_salar_H4_106611956_original_acc_XP_045579996.2_:0.0118513913)100:0.0406600037,Teleostei_Oncorhynchus_mykiss_H5_110488577_original_acc_XP_036798603.1_:0.0418025761)100:0.0537303171)100:0.0829466049)100:0.0993275547)100:0.2247235151,((((Euteleostomi_Anolis_carolinensis_H3_100557859_original_acc_XP_062826543.1_:0.1181847232,Euteleostomi_Gallus_gallus_H3_374173_original_acc_NP_001383050.1_:0.1066561856)99:0.0235095618,(Euteleostomi_Homo_sapiens_H3_6586_original_acc_NP_001258875.2_:0.0364084772,Euteleostomi_Mus_musculus_H3_20564_original_acc_NP_035542.2_:0.0421112688)100:0.1354423610)100:0.0378754623,((Euteleostomi_Xenopus_laevis_H5_108712410_original_acc_XP_041444686.1_:0.0187383016,Euteleostomi_Xenopus_laevis_H6_108710233_original_acc_XP_041442084.1_:0.0196984148)100:0.0060413731,Euteleostomi_Xenopus_tropicalis_H3_780195_original_acc_NP_001072738.1_:0.0146781662)100:0.1366913351)100:0.0693669828,Euteleostomi_Latimeria_chalumnae_H3_102345917_original_acc_XP_005991876.1_:0.1276745064)99:0.0192792945)100:0.0554159526)100:0.2548241028)100:0.0621931188,(((Cyclostomata_Lampetra_planeri_H1_144717550_original_acc_XP_078449077.1_:0.0007776623,Cyclostomata_Lethenteron_reissneri_H1_133345492_original_acc_XP_061412248.1_:0.0000021474)100:0.0075344304,Cyclostomata_Petromyzon_marinus_H1_116941376_original_acc_XP_032808326.2_:0.0050394861)100:0.1563842762,Cyclostomata_Myxine_glutinosa_H2_137423189_original_acc_XP_078630716.1_:0.3785369943)100:0.2245070549)97:0.0468233810,(((Cyclostomata_Lampetra_planeri_H2_144721532_original_acc_XP_078455336.1_:0.0015605549,Cyclostomata_Lethenteron_reissneri_H2_133343488_original_acc_XP_061409127.1_:0.0012461444)100:0.0024010554,Cyclostomata_Petromyzon_marinus_H2_116940650_original_acc_XP_032806650.1_:0.0106102220)100:0.1427940179,Cyclostomata_Myxine_glutinosa_H1_137420701_original_acc_XP_067962082.2_:0.5136457462)100:0.1358053730)90:0.0310950277,((((Chondrichthyes_Heptranchias_perlo_H2_137339931_original_acc_XP_067858119.1_:0.0552808173,Chondrichthyes_Pristiophorus_japonicus_H2_139260184_original_acc_XP_070732547.1_:0.0397812735)79:0.0073806242,(Chondrichthyes_Heterodontus_francisci_H1_137380790_original_acc_XP_067909244.1_:0.0361766633,(Chondrichthyes_Stegostoma_tigrinum_H2_125462030_original_acc_XP_059508990.1_:0.0686882963,Chondrichthyes_Scyliorhinus_torazame_H2_140393331_original_acc_XP_072335769.1_:0.0690068081)100:0.0086094856)100:0.0111104998)79:0.0125478718,((Chondrichthyes_Leucoraja_erinaceus_H2_129704151_original_acc_XP_055503040.1_:0.0160825606,Chondrichthyes_Raja_brachyura_H1_145374601_original_acc_XP_080092115.1_:0.0099317735)100:0.1279903238,(Chondrichthyes_Mobula_birostris_H2_140185601_original_acc_XP_072095098.1_:0.0017197490,Chondrichthyes_Mobula_hypostoma_H2_134358831_original_acc_XP_062927440.1_:0.0085698175)100:0.0691681029)100:0.0674257567)100:0.1451333789,((((Euteleostomi_Acipenser_ruthenus_H1_117414543_original_acc_XP_033880204.3_:0.0223226804,Euteleostomi_Acipenser_ruthenus_H2_117418458_original_acc_XP_058841096.1_:0.0064263147)100:0.0737218700,(Euteleostomi_Lepisosteus_oculatus_H2_102686747_original_acc_XP_015203187.2_:0.0634870008,(((((((Teleostei_Maylandia_zebra_H3_101467001_original_acc_XP_004555882.1_:0.0035224398,Teleostei_Oreochromis_niloticus_H4_100704275_original_acc_XP_003452015.2_:0.0050488242)100:0.0389788727,Teleostei_Seriola_dumerili_H2_111234356_original_acc_XP_022618118.1_:0.0152247567)35:0.0024380677,Teleostei_Scomber_japonicus_H3_128373103_original_acc_XP_053189321.1_:0.0205646908)35:0.0041867272,Teleostei_Paralichthys_olivaceus_H2_109634541_original_acc_XP_019950673.2_:0.0308760743)81:0.0043932895,Teleostei_Sparus_aurata_H3_115596574_original_acc_XP_030297634.1_:0.0186546706)100:0.0379789907,((Teleostei_Oncorhynchus_mykiss_H1_110502676_original_acc_XP_036816280.1_:0.0044915980,(Teleostei_Salmo_salar_H1_106612875_original_acc_XP_014069958.1_:0.0000026076,Teleostei_Salmo_salar_H2_NoGeneID_XP_014069980.1_original_acc_XP_014069980.1_:0.0000027880)100:0.0039808182)100:0.0179731978,(Teleostei_Oncorhynchus_mykiss_H4_110499533_original_acc_XP_036812104.1_:0.0203803251,Teleostei_Salmo_salar_H3_106589770_original_acc_XP_082826675.1_:0.0167325212)100:0.0331765750)100:0.0425743532)100:0.0566851156,(((Teleostei_Maylandia_zebra_H2_101480949_original_acc_XP_076740715.1_:0.0106795020,Teleostei_Oreochromis_niloticus_H1_100705354_original_acc_XP_003454150.1_:0.0093606035)100:0.0659079686,(Teleostei_Seriola_dumerili_H1_111235880_original_acc_XP_022620171.1_:0.0376640917,Teleostei_Thunnus_albacares_H1_122973464_original_acc_XP_044196953.1_:0.0308120786)97:0.0082934097)99:0.0121955495,Teleostei_Sparus_aurata_H2_115587164_original_acc_XP_030282688.1_:0.0365451687)100:0.3946888155)91:0.0259419315)97:0.0436187060)79:0.0162048044,Euteleostomi_Polypterus_senegalus_H2_120542482_original_acc_XP_039630924.1_:0.1056798124)100:0.1172675897,(((Euteleostomi_Anolis_carolinensis_H2_100559877_original_acc_XP_003224291.1_:0.1403674604,((Euteleostomi_Homo_sapiens_H1_6585_original_acc_NP_003052.2_:0.0219569957,Euteleostomi_Mus_musculus_H2_20562_original_acc_NP_056563.2_:0.0513612720)100:0.1181603802,Euteleostomi_Gallus_gallus_H1_395293_original_acc_NP_001264265.2_:0.1457268667)53:0.0175587443)100:0.0551715187,((Euteleostomi_Xenopus_laevis_H3_108695757_original_acc_XP_041424643.1_:0.0221293813,Euteleostomi_Xenopus_laevis_H4_380270_original_acc_NP_001080578.1_:0.0184182339)99:0.0066734181,Euteleostomi_Xenopus_tropicalis_H2_100036682_original_acc_NP_001090702.1_:0.0126439677)100:0.0998780427)100:0.0683639549,Euteleostomi_Latimeria_chalumnae_H1_102351979_original_acc_XP_064419060.1_:0.1102745213)99:0.0234692341)100:0.0634266612)100:0.2398638752)100:0.3931304769,(Cephalochordata_Branchiostoma_belcheri_H1_109478478_original_acc_XP_019635574.1_:0.0073730874,(Cephalochordata_Branchiostoma_floridae_H1_118414987_original_acc_XP_035675246.1_:0.0086239567,Cephalochordata_Branchiostoma_lanceolatum_H1_136431111_original_acc_XP_066278440.1_:0.0105760778)98:0.0062006346)100:0.6704003910)100:0.6028905159)100:0.2358871625)93:0.0919898457)100:0.2183646092);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 5000 bootstrap trees
+Log-likelihood of consensus tree: -87749.255132
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----Urochordata_Aplidium_turbinatum_H1_145771367_original_acc_XP_082439248.1_
+|
++------Urochordata_Aplidium_turbinatum_H2_145781066_original_acc_XP_082448928.1_
+|
+|       +---------Urochordata_Ciona_intestinalis_H1_100184475_original_acc_XP_078487724.1_
+|    +--| (84)
+|    |  +-------Urochordata_Corella_eumyota_H1_145744549_original_acc_XP_082418549.1_
++----| (100)
+     |     +-------------------------Urochordata_Ascidia_mentula_H1_145910708_original_acc_XP_082854049.1_
+     |  +--| (93)
+     |  |  |                                          +--Urochordata_Thalia_democratica_H1_145831289_original_acc_XP_082794610.1_
+     |  |  |                                     +----| (100)
+     |  |  |                                     |    +--Urochordata_Thalia_democratica_H4_145846959_original_acc_XP_082809594.1_
+     |  |  |                  +------------------| (100)
+     |  |  |                  |                  +------Urochordata_Thalia_democratica_H3_145832390_original_acc_XP_082795834.1_
+     |  |  +------------------| (100)
+     |  |                     +-------------------------Urochordata_Thalia_democratica_H2_145831392_original_acc_XP_082794771.1_
+     +--| (93)
+        |               +--------Urochordata_Botryllus_schlosseri_H1_145440221_original_acc_XP_080173917.1_
+        |    +----------| (100)
+        |    |          +-----Urochordata_Styela_clava_H1_120338737_original_acc_XP_039262600.2_
+        +----| (100)
+             |                                              +--Chondrichthyes_Pristiophorus_japonicus_H1_139243298_original_acc_XP_070726855.1_
+             |                                           +--| (97)
+             |                                           |  |  +--Chondrichthyes_Heterodontus_francisci_H2_137372992_original_acc_XP_067893698.1_
+             |                                           |  +--| (98)
+             |                                           |     |  +--Chondrichthyes_Scyliorhinus_torazame_H1_140408781_original_acc_XP_072352572.1_
+             |                                           |     +--| (100)
+             |                                           |        +--Chondrichthyes_Stegostoma_tigrinum_H1_125459782_original_acc_XP_048402591.1_
+             |                                        +--| (96)
+             |                                        |  +--Chondrichthyes_Heptranchias_perlo_H1_137324680_original_acc_XP_067845369.1_
+             |                                     +--| (100)
+             |                                     |  |     +--Chondrichthyes_Leucoraja_erinaceus_H1_129698904_original_acc_XP_055494309.1_
+             |                                     |  |  +--| (100)
+             |                                     |  |  |  +--Chondrichthyes_Raja_brachyura_H3_145365659_original_acc_XP_080077501.1_
+             |                                     |  +--| (100)
+             |                                     |     |  +--Chondrichthyes_Mobula_birostris_H1_140195140_original_acc_XP_072109062.1_
+             |                                     |     +--| (100)
+             |                                     |        +--Chondrichthyes_Mobula_hypostoma_H1_134344107_original_acc_XP_062899450.1_
+             |                                  +--| (100)
+             |                                  |  +--Chondrichthyes_Callorhinchus_milii_H1_103175815_original_acc_XP_042196883.1_
+             |                               +--| (100)
+             |                               |  |              +--Euteleostomi_Anolis_carolinensis_H1_100558087_original_acc_XP_062838202.1_
+             |                               |  |           +--| (100)
+             |                               |  |           |  +--Euteleostomi_Gallus_gallus_H2_373967_original_acc_XP_046771295.1_
+             |                               |  |        +--| (100)
+             |                               |  |        |  |  +--Euteleostomi_Homo_sapiens_H2_9353_original_acc_XP_005248268.1_
+             |                               |  |        |  +--| (100)
+             |                               |  |        |     +--Euteleostomi_Mus_musculus_H1_20563_original_acc_NP_001278156.1_
+             |                               |  |     +--| (100)
+             |                               |  |     |  |  +--Euteleostomi_Xenopus_laevis_H1_108698051_original_acc_XP_041444148.1_
+             |                               |  |     |  +--| (100)
+             |                               |  |     |     |  +--Euteleostomi_Xenopus_laevis_H2_394404_original_acc_XP_041429371.1_
+             |                               |  |     |     +--| (93)
+             |                               |  |     |        +--Euteleostomi_Xenopus_tropicalis_H1_100492007_original_acc_XP_031751209.1_
+             |                               |  |  +--| (98)
+             |                               |  |  |  +--Euteleostomi_Latimeria_chalumnae_H2_102367424_original_acc_XP_064419706.1_
+             |                               |  +--| (100)
+             |                               |     |        +--Euteleostomi_Acipenser_ruthenus_H3_117409251_original_acc_XP_058862001.1_
+             |                               |     |     +--| (100)
+             |                               |     |     |  +--Euteleostomi_Acipenser_ruthenus_H4_117421182_original_acc_XP_033891134.1_
+             |                               |     |  +--| (99)
+             |                               |     |  |  +--Euteleostomi_Polypterus_senegalus_H1_120527765_original_acc_XP_039607493.1_
+             |                               |     +--| (100)
+             |                               |        |  +--Euteleostomi_Lepisosteus_oculatus_H1_102694474_original_acc_XP_015199455.1_
+             |                               |        +--| (100)
+             |                               |           |              +--Teleostei_Maylandia_zebra_H1_101467229_original_acc_XP_076741040.1_
+             |                               |           |           +--| (100)
+             |                               |           |           |  +--Teleostei_Oreochromis_niloticus_H2_100694794_original_acc_XP_025763778.1_
+             |                               |           |        +--| (77)
+             |                               |           |        |  |  +--Teleostei_Paralichthys_olivaceus_H1_109637842_original_acc_XP_069386215.1_
+             |                               |           |        |  +--| (89)
+             |                               |           |        |     +--Teleostei_Seriola_dumerili_H3_111231408_original_acc_XP_022614204.1_
+             |                               |           |     +--| (94)
+             |                               |           |     |  +--Teleostei_Sparus_aurata_H1_115583894_original_acc_XP_030276984.1_
+             |                               |           |  +--| (100)
+             |                               |           |  |  |  +--Teleostei_Scomber_japonicus_H1_128364904_original_acc_XP_053181502.1_
+             |                               |           |  |  +--| (93)
+             |                               |           |  |     +--Teleostei_Thunnus_albacares_H2_122979428_original_acc_XP_044202797.1_
+             |                               |           +--| (100)
+             |                               |              +--Teleostei_Oncorhynchus_mykiss_H2_110516422_original_acc_XP_036790168.1_
+             |                            +--| (100)
+             |                            |  |       +--Chondrichthyes_Callorhinchus_milii_H2_103177282_original_acc_XP_042196000.1_
+             |                            |  |    +--| (100)
+             |                            |  |    |  |        +--Chondrichthyes_Heptranchias_perlo_H3_137332578_original_acc_XP_067852608.1_
+             |                            |  |    |  |     +--| (57)
+             |                            |  |    |  |     |  +--Chondrichthyes_Pristiophorus_japonicus_H3_139263049_original_acc_XP_070734659.1_
+             |                            |  |    |  |  +--| (58)
+             |                            |  |    |  |  |  |  +--Chondrichthyes_Heterodontus_francisci_H3_137375798_original_acc_XP_067899363.1_
+             |                            |  |    |  |  |  +--| (100)
+             |                            |  |    |  |  |     |  +--Chondrichthyes_Scyliorhinus_torazame_H3_140426781_original_acc_XP_072368047.1_
+             |                            |  |    |  |  |     +--| (98)
+             |                            |  |    |  |  |        +--Chondrichthyes_Stegostoma_tigrinum_H3_125458334_original_acc_XP_048399493.1_
+             |                            |  |    |  +--| (100)
+             |                            |  |    |     |     +--Chondrichthyes_Leucoraja_erinaceus_H3_129701451_original_acc_XP_055498609.1_
+             |                            |  |    |     |  +--| (100)
+             |                            |  |    |     |  |  +--Chondrichthyes_Raja_brachyura_H2_145372276_original_acc_XP_080088355.1_
+             |                            |  |    |     +--| (100)
+             |                            |  |    |        |  +--Chondrichthyes_Mobula_birostris_H3_140200362_original_acc_XP_072119684.1_
+             |                            |  |    |        +--| (100)
+             |                            |  |    |           +--Chondrichthyes_Mobula_hypostoma_H3_134349406_original_acc_XP_062909732.1_
+             |                            |  +----| (100)
+             |                            |       |             +--Euteleostomi_Acipenser_ruthenus_H5_117413046_original_acc_XP_058853176.1_
+             |                            |       |          +--| (100)
+             |                            |       |          |  +--Euteleostomi_Acipenser_ruthenus_H6_117431683_original_acc_XP_058852492.1_
+             |                            |       |       +--| (96)
+             |                            |       |       |  +--Euteleostomi_Polypterus_senegalus_H3_120542064_original_acc_XP_039630126.1_
+             |                            |       |  +----| (100)
+             |                            |       |  |    |  +--Euteleostomi_Lepisosteus_oculatus_H3_102689995_original_acc_XP_015205363.2_
+             |                            |       |  |    +--| (100)
+             |                            |       |  |       |              +--Teleostei_Maylandia_zebra_H4_101480300_original_acc_XP_004553650.2_
+             |                            |       |  |       |           +--| (100)
+             |                            |       |  |       |           |  +--Teleostei_Oreochromis_niloticus_H3_100703331_original_acc_XP_005467341.1_
+             |                            |       |  |       |        +--| (61)
+             |                            |       |  |       |        |  |  +--Teleostei_Paralichthys_olivaceus_H3_109626347_original_acc_XP_019937784.2_
+             |                            |       |  |       |        |  +--| (100)
+             |                            |       |  |       |        |     +--Teleostei_Seriola_dumerili_H4_111232433_original_acc_XP_022615670.1_
+             |                            |       |  |       |     +--| (65)
+             |                            |       |  |       |     |  +--Teleostei_Sparus_aurata_H4_115569018_original_acc_XP_030252727.1_
+             |                            |       |  |       |  +--| (100)
+             |                            |       |  |       |  |  |  +--Teleostei_Scomber_japonicus_H2_128362581_original_acc_XP_053179354.1_
+             |                            |       |  |       |  |  +--| (100)
+             |                            |       |  |       |  |     +--Teleostei_Thunnus_albacares_H3_122990617_original_acc_XP_044219956.1_
+             |                            |       |  |       +--| (100)
+             |                            |       |  |          |     +--Teleostei_Oncorhynchus_mykiss_H3_110504786_original_acc_XP_036825700.1_
+             |                            |       |  |          |  +--| (100)
+             |                            |       |  |          |  |  +--Teleostei_Salmo_salar_H4_106611956_original_acc_XP_045579996.2_
+             |                            |       |  |          +--| (100)
+             |                            |       |  |             +--Teleostei_Oncorhynchus_mykiss_H5_110488577_original_acc_XP_036798603.1_
+             |                            |       +--| (100)
+             |                            |          |           +--Euteleostomi_Anolis_carolinensis_H3_100557859_original_acc_XP_062826543.1_
+             |                            |          |        +--| (99)
+             |                            |          |        |  +--Euteleostomi_Gallus_gallus_H3_374173_original_acc_NP_001383050.1_
+             |                            |          |     +--| (100)
+             |                            |          |     |  |  +--Euteleostomi_Homo_sapiens_H3_6586_original_acc_NP_001258875.2_
+             |                            |          |     |  +--| (100)
+             |                            |          |     |     +--Euteleostomi_Mus_musculus_H3_20564_original_acc_NP_035542.2_
+             |                            |          |  +--| (100)
+             |                            |          |  |  |     +--Euteleostomi_Xenopus_laevis_H5_108712410_original_acc_XP_041444686.1_
+             |                            |          |  |  |  +--| (100)
+             |                            |          |  |  |  |  +--Euteleostomi_Xenopus_laevis_H6_108710233_original_acc_XP_041442084.1_
+             |                            |          |  |  +--| (100)
+             |                            |          |  |     +--Euteleostomi_Xenopus_tropicalis_H3_780195_original_acc_NP_001072738.1_
+             |                            |          +--| (99)
+             |                            |             +--Euteleostomi_Latimeria_chalumnae_H3_102345917_original_acc_XP_005991876.1_
+             |                         +--| (97)
+             |                         |  |          +--Cyclostomata_Lampetra_planeri_H1_144717550_original_acc_XP_078449077.1_
+             |                         |  |       +--| (100)
+             |                         |  |       |  +--Cyclostomata_Lethenteron_reissneri_H1_133345492_original_acc_XP_061412248.1_
+             |                         |  |    +--| (100)
+             |                         |  |    |  +--Cyclostomata_Petromyzon_marinus_H1_116941376_original_acc_XP_032808326.2_
+             |                         |  +----| (100)
+             |                         |       +-------Cyclostomata_Myxine_glutinosa_H2_137423189_original_acc_XP_078630716.1_
+             |                      +--| (90)
+             |                      |  |        +--Cyclostomata_Lampetra_planeri_H2_144721532_original_acc_XP_078455336.1_
+             |                      |  |     +--| (100)
+             |                      |  |     |  +--Cyclostomata_Lethenteron_reissneri_H2_133343488_original_acc_XP_061409127.1_
+             |                      |  |  +--| (100)
+             |                      |  |  |  +--Cyclostomata_Petromyzon_marinus_H2_116940650_original_acc_XP_032806650.1_
+             |                      |  +--| (100)
+             |                      |     +----------Cyclostomata_Myxine_glutinosa_H1_137420701_original_acc_XP_067962082.2_
+             |             +--------| (100)
+             |             |        |             +--Chondrichthyes_Heptranchias_perlo_H2_137339931_original_acc_XP_067858119.1_
+             |             |        |          +--| (79)
+             |             |        |          |  +--Chondrichthyes_Pristiophorus_japonicus_H2_139260184_original_acc_XP_070732547.1_
+             |             |        |       +--| (79)
+             |             |        |       |  |  +--Chondrichthyes_Heterodontus_francisci_H1_137380790_original_acc_XP_067909244.1_
+             |             |        |       |  +--| (100)
+             |             |        |       |     |  +--Chondrichthyes_Stegostoma_tigrinum_H2_125462030_original_acc_XP_059508990.1_
+             |             |        |       |     +--| (100)
+             |             |        |       |        +--Chondrichthyes_Scyliorhinus_torazame_H2_140393331_original_acc_XP_072335769.1_
+             |             |        |    +--| (100)
+             |             |        |    |  |     +--Chondrichthyes_Leucoraja_erinaceus_H2_129704151_original_acc_XP_055503040.1_
+             |             |        |    |  |  +--| (100)
+             |             |        |    |  |  |  +--Chondrichthyes_Raja_brachyura_H1_145374601_original_acc_XP_080092115.1_
+             |             |        |    |  +--| (100)
+             |             |        |    |     |  +--Chondrichthyes_Mobula_birostris_H2_140185601_original_acc_XP_072095098.1_
+             |             |        |    |     +--| (100)
+             |             |        |    |        +--Chondrichthyes_Mobula_hypostoma_H2_134358831_original_acc_XP_062927440.1_
+             |             |        +----| (100)
+             |             |             |           +--Euteleostomi_Acipenser_ruthenus_H1_117414543_original_acc_XP_033880204.3_
+             |             |             |        +--| (100)
+             |             |             |        |  +--Euteleostomi_Acipenser_ruthenus_H2_117418458_original_acc_XP_058841096.1_
+             |             |             |     +--| (79)
+             |             |             |     |  |  +--Euteleostomi_Lepisosteus_oculatus_H2_102686747_original_acc_XP_015203187.2_
+             |             |             |     |  +--| (97)
+             |             |             |     |     |                 +--Teleostei_Maylandia_zebra_H3_101467001_original_acc_XP_004555882.1_
+             |             |             |     |     |              +--| (100)
+             |             |             |     |     |              |  +--Teleostei_Oreochromis_niloticus_H4_100704275_original_acc_XP_003452015.2_
+             |             |             |     |     |           +--| (42)
+             |             |             |     |     |           |  +--Teleostei_Scomber_japonicus_H3_128373103_original_acc_XP_053189321.1_
+             |             |             |     |     |        +--| (81)
+             |             |             |     |     |        |  |  +--Teleostei_Paralichthys_olivaceus_H2_109634541_original_acc_XP_019950673.2_
+             |             |             |     |     |        |  +--| (56)
+             |             |             |     |     |        |     +--Teleostei_Seriola_dumerili_H2_111234356_original_acc_XP_022618118.1_
+             |             |             |     |     |     +--| (100)
+             |             |             |     |     |     |  +--Teleostei_Sparus_aurata_H3_115596574_original_acc_XP_030297634.1_
+             |             |             |     |     |  +--| (100)
+             |             |             |     |     |  |  |     +--Teleostei_Oncorhynchus_mykiss_H1_110502676_original_acc_XP_036816280.1_
+             |             |             |     |     |  |  |  +--| (100)
+             |             |             |     |     |  |  |  |  |  +--Teleostei_Salmo_salar_H1_106612875_original_acc_XP_014069958.1_
+             |             |             |     |     |  |  |  |  +--| (100)
+             |             |             |     |     |  |  |  |     +--Teleostei_Salmo_salar_H2_NoGeneID_XP_014069980.1_original_acc_XP_014069980.1_
+             |             |             |     |     |  |  +--| (100)
+             |             |             |     |     |  |     |  +--Teleostei_Oncorhynchus_mykiss_H4_110499533_original_acc_XP_036812104.1_
+             |             |             |     |     |  |     +--| (100)
+             |             |             |     |     |  |        +--Teleostei_Salmo_salar_H3_106589770_original_acc_XP_082826675.1_
+             |             |             |     |     +--| (91)
+             |             |             |     |        |              +--Teleostei_Maylandia_zebra_H2_101480949_original_acc_XP_076740715.1_
+             |             |             |     |        |           +--| (100)
+             |             |             |     |        |           |  +--Teleostei_Oreochromis_niloticus_H1_100705354_original_acc_XP_003454150.1_
+             |             |             |     |        |        +--| (99)
+             |             |             |     |        |        |  |  +--Teleostei_Seriola_dumerili_H1_111235880_original_acc_XP_022620171.1_
+             |             |             |     |        |        |  +--| (97)
+             |             |             |     |        |        |     +--Teleostei_Thunnus_albacares_H1_122973464_original_acc_XP_044196953.1_
+             |             |             |     |        +--------| (100)
+             |             |             |     |                 +--Teleostei_Sparus_aurata_H2_115587164_original_acc_XP_030282688.1_
+             |             |             |  +--| (100)
+             |             |             |  |  +--Euteleostomi_Polypterus_senegalus_H2_120542482_original_acc_XP_039630924.1_
+             |             |             +--| (100)
+             |             |                |        +--Euteleostomi_Anolis_carolinensis_H2_100559877_original_acc_XP_003224291.1_
+             |             |                |     +--| (100)
+             |             |                |     |  |     +--Euteleostomi_Homo_sapiens_H1_6585_original_acc_NP_003052.2_
+             |             |                |     |  |  +--| (100)
+             |             |                |     |  |  |  +--Euteleostomi_Mus_musculus_H2_20562_original_acc_NP_056563.2_
+             |             |                |     |  +--| (53)
+             |             |                |     |     +--Euteleostomi_Gallus_gallus_H1_395293_original_acc_NP_001264265.2_
+             |             |                |  +--| (100)
+             |             |                |  |  |     +--Euteleostomi_Xenopus_laevis_H3_108695757_original_acc_XP_041424643.1_
+             |             |                |  |  |  +--| (99)
+             |             |                |  |  |  |  +--Euteleostomi_Xenopus_laevis_H4_380270_original_acc_NP_001080578.1_
+             |             |                |  |  +--| (100)
+             |             |                |  |     +--Euteleostomi_Xenopus_tropicalis_H2_100036682_original_acc_NP_001090702.1_
+             |             |                +--| (99)
+             |             |                   +--Euteleostomi_Latimeria_chalumnae_H1_102351979_original_acc_XP_064419060.1_
+             +-------------| (100)
+                           |              +--Cephalochordata_Branchiostoma_belcheri_H1_109478478_original_acc_XP_019635574.1_
+                           +--------------| (100)
+                                          |  +--Cephalochordata_Branchiostoma_floridae_H1_118414987_original_acc_XP_035675246.1_
+                                          +--| (98)
+                                             +--Cephalochordata_Branchiostoma_lanceolatum_H1_136431111_original_acc_XP_066278440.1_
+
+
+Consensus tree in newick format: 
+
+(Urochordata_Aplidium_turbinatum_H1_145771367_original_acc_XP_082439248.1_:0.2334657754,Urochordata_Aplidium_turbinatum_H2_145781066_original_acc_XP_082448928.1_:0.3427007885,((Urochordata_Ciona_intestinalis_H1_100184475_original_acc_XP_078487724.1_:0.4317457643,Urochordata_Corella_eumyota_H1_145744549_original_acc_XP_082418549.1_:0.3740028458)84:0.0565928857,((Urochordata_Ascidia_mentula_H1_145910708_original_acc_XP_082854049.1_:1.1374960245,(((Urochordata_Thalia_democratica_H1_145831289_original_acc_XP_082794610.1_:0.0080328072,Urochordata_Thalia_democratica_H4_145846959_original_acc_XP_082809594.1_:0.0097529685)100:0.2439751866,Urochordata_Thalia_democratica_H3_145832390_original_acc_XP_082795834.1_:0.3020194860)100:0.8161667714,Urochordata_Thalia_democratica_H2_145831392_original_acc_XP_082794771.1_:1.1155297425)100:0.8485451282)93:0.1308877123,((Urochordata_Botryllus_schlosseri_H1_145440221_original_acc_XP_080173917.1_:0.4088546599,Urochordata_Styela_clava_H1_120338737_original_acc_XP_039262600.2_:0.2732012011)100:0.4786664833,((((((((((Chondrichthyes_Pristiophorus_japonicus_H1_139243298_original_acc_XP_070726855.1_:0.0148411067,(Chondrichthyes_Heterodontus_francisci_H2_137372992_original_acc_XP_067893698.1_:0.0156837062,(Chondrichthyes_Scyliorhinus_torazame_H1_140408781_original_acc_XP_072352572.1_:0.0185316021,Chondrichthyes_Stegostoma_tigrinum_H1_125459782_original_acc_XP_048402591.1_:0.0236196625)100:0.0063354189)98:0.0059591135)97:0.0008112676,Chondrichthyes_Heptranchias_perlo_H1_137324680_original_acc_XP_067845369.1_:0.0085904239)96:0.0060814429,((Chondrichthyes_Leucoraja_erinaceus_H1_129698904_original_acc_XP_055494309.1_:0.0029271359,Chondrichthyes_Raja_brachyura_H3_145365659_original_acc_XP_080077501.1_:0.0105799050)100:0.0282501002,(Chondrichthyes_Mobula_birostris_H1_140195140_original_acc_XP_072109062.1_:0.0032125861,Chondrichthyes_Mobula_hypostoma_H1_134344107_original_acc_XP_062899450.1_:0.0037021885)100:0.0162125666)100:0.0182587877)100:0.0306311210,Chondrichthyes_Callorhinchus_milii_H1_103175815_original_acc_XP_042196883.1_:0.0506340464)100:0.0528427449,(((((Euteleostomi_Anolis_carolinensis_H1_100558087_original_acc_XP_062838202.1_:0.0369395251,Euteleostomi_Gallus_gallus_H2_373967_original_acc_XP_046771295.1_:0.0221455726)100:0.0144623443,(Euteleostomi_Homo_sapiens_H2_9353_original_acc_XP_005248268.1_:0.0160904298,Euteleostomi_Mus_musculus_H1_20563_original_acc_NP_001278156.1_:0.0254641885)100:0.0441479415)100:0.0165841588,(Euteleostomi_Xenopus_laevis_H1_108698051_original_acc_XP_041444148.1_:0.0122228943,(Euteleostomi_Xenopus_laevis_H2_394404_original_acc_XP_041429371.1_:0.0258690971,Euteleostomi_Xenopus_tropicalis_H1_100492007_original_acc_XP_031751209.1_:0.0202183544)93:0.0033444875)100:0.0942005062)100:0.0222791573,Euteleostomi_Latimeria_chalumnae_H2_102367424_original_acc_XP_064419706.1_:0.0914219709)98:0.0132426210,(((Euteleostomi_Acipenser_ruthenus_H3_117409251_original_acc_XP_058862001.1_:0.0284833386,Euteleostomi_Acipenser_ruthenus_H4_117421182_original_acc_XP_033891134.1_:0.0192309898)100:0.0331519889,Euteleostomi_Polypterus_senegalus_H1_120527765_original_acc_XP_039607493.1_:0.0669994365)99:0.0056187655,(Euteleostomi_Lepisosteus_oculatus_H1_102694474_original_acc_XP_015199455.1_:0.0489517100,(((((Teleostei_Maylandia_zebra_H1_101467229_original_acc_XP_076741040.1_:0.0030255788,Teleostei_Oreochromis_niloticus_H2_100694794_original_acc_XP_025763778.1_:0.0046190574)100:0.0264004713,(Teleostei_Paralichthys_olivaceus_H1_109637842_original_acc_XP_069386215.1_:0.0274369623,Teleostei_Seriola_dumerili_H3_111231408_original_acc_XP_022614204.1_:0.0081047439)89:0.0034990236)77:0.0016852474,Teleostei_Sparus_aurata_H1_115583894_original_acc_XP_030276984.1_:0.0167461834)94:0.0065903802,(Teleostei_Scomber_japonicus_H1_128364904_original_acc_XP_053181502.1_:0.0064185679,Teleostei_Thunnus_albacares_H2_122979428_original_acc_XP_044202797.1_:0.0044264414)93:0.0027106353)100:0.0423750614,Teleostei_Oncorhynchus_mykiss_H2_110516422_original_acc_XP_036790168.1_:0.1084886043)100:0.1496319697)100:0.0224997728)100:0.0427083450)100:0.0419367387)100:0.0862629520,((Chondrichthyes_Callorhinchus_milii_H2_103177282_original_acc_XP_042196000.1_:0.1588838555,(((Chondrichthyes_Heptranchias_perlo_H3_137332578_original_acc_XP_067852608.1_:0.0241936172,Chondrichthyes_Pristiophorus_japonicus_H3_139263049_original_acc_XP_070734659.1_:0.0344161699)57:0.0045462363,(Chondrichthyes_Heterodontus_francisci_H3_137375798_original_acc_XP_067899363.1_:0.0247142389,(Chondrichthyes_Scyliorhinus_torazame_H3_140426781_original_acc_XP_072368047.1_:0.0389750213,Chondrichthyes_Stegostoma_tigrinum_H3_125458334_original_acc_XP_048399493.1_:0.0592247113)98:0.0067905365)100:0.0123948897)58:0.0099694703,((Chondrichthyes_Leucoraja_erinaceus_H3_129701451_original_acc_XP_055498609.1_:0.0056373832,Chondrichthyes_Raja_brachyura_H2_145372276_original_acc_XP_080088355.1_:0.0100051376)100:0.0407468580,(Chondrichthyes_Mobula_birostris_H3_140200362_original_acc_XP_072119684.1_:0.0046942503,Chondrichthyes_Mobula_hypostoma_H3_134349406_original_acc_XP_062909732.1_:0.0047164289)100:0.0533047608)100:0.0320717061)100:0.0671731828)100:0.1093542394,((((Euteleostomi_Acipenser_ruthenus_H5_117413046_original_acc_XP_058853176.1_:0.0043316335,Euteleostomi_Acipenser_ruthenus_H6_117431683_original_acc_XP_058852492.1_:0.0058272653)100:0.1325057770,Euteleostomi_Polypterus_senegalus_H3_120542064_original_acc_XP_039630126.1_:0.1501302052)96:0.0279081372,(Euteleostomi_Lepisosteus_oculatus_H3_102689995_original_acc_XP_015205363.2_:0.0942849659,(((((Teleostei_Maylandia_zebra_H4_101480300_original_acc_XP_004553650.2_:0.0022638331,Teleostei_Oreochromis_niloticus_H3_100703331_original_acc_XP_005467341.1_:0.0070040661)100:0.0620178016,(Teleostei_Paralichthys_olivaceus_H3_109626347_original_acc_XP_019937784.2_:0.0548770958,Teleostei_Seriola_dumerili_H4_111232433_original_acc_XP_022615670.1_:0.0132702010)100:0.0130807044)61:0.0041105881,Teleostei_Sparus_aurata_H4_115569018_original_acc_XP_030252727.1_:0.0326121073)65:0.0061482502,(Teleostei_Scomber_japonicus_H2_128362581_original_acc_XP_053179354.1_:0.0268540398,Teleostei_Thunnus_albacares_H3_122990617_original_acc_XP_044219956.1_:0.0109970478)100:0.0141892800)100:0.1033296088,((Teleostei_Oncorhynchus_mykiss_H3_110504786_original_acc_XP_036825700.1_:0.0136070169,Teleostei_Salmo_salar_H4_106611956_original_acc_XP_045579996.2_:0.0118076856)100:0.0405098657,Teleostei_Oncorhynchus_mykiss_H5_110488577_original_acc_XP_036798603.1_:0.0416487576)100:0.0535353091)100:0.0826381927)100:0.0989539938)100:0.2238693782,((((Euteleostomi_Anolis_carolinensis_H3_100557859_original_acc_XP_062826543.1_:0.1177486661,Euteleostomi_Gallus_gallus_H3_374173_original_acc_NP_001383050.1_:0.1062579949)99:0.0234377436,(Euteleostomi_Homo_sapiens_H3_6586_original_acc_NP_001258875.2_:0.0362816584,Euteleostomi_Mus_musculus_H3_20564_original_acc_NP_035542.2_:0.0419536058)100:0.1349332384)100:0.0377449693,((Euteleostomi_Xenopus_laevis_H5_108712410_original_acc_XP_041444686.1_:0.0186700400,Euteleostomi_Xenopus_laevis_H6_108710233_original_acc_XP_041442084.1_:0.0196263053)100:0.0060203056,Euteleostomi_Xenopus_tropicalis_H3_780195_original_acc_NP_001072738.1_:0.0146257188)100:0.1361773814)100:0.0691087959,Euteleostomi_Latimeria_chalumnae_H3_102345917_original_acc_XP_005991876.1_:0.1271875551)99:0.0192156437)100:0.0552208016)100:0.2538384381)100:0.0619776480,(((Cyclostomata_Lampetra_planeri_H1_144717550_original_acc_XP_078449077.1_:0.0007744019,Cyclostomata_Lethenteron_reissneri_H1_133345492_original_acc_XP_061412248.1_:0.0000026299)100:0.0075111231,Cyclostomata_Petromyzon_marinus_H1_116941376_original_acc_XP_032808326.2_:0.0050225011)100:0.1557925924,Cyclostomata_Myxine_glutinosa_H2_137423189_original_acc_XP_078630716.1_:0.3771838354)100:0.2237167954)97:0.0466750396,(((Cyclostomata_Lampetra_planeri_H2_144721532_original_acc_XP_078455336.1_:0.0015543672,Cyclostomata_Lethenteron_reissneri_H2_133343488_original_acc_XP_061409127.1_:0.0012402408)100:0.0023904983,Cyclostomata_Petromyzon_marinus_H2_116940650_original_acc_XP_032806650.1_:0.0105777805)100:0.1422769797,Cyclostomata_Myxine_glutinosa_H1_137420701_original_acc_XP_067962082.2_:0.5117918095)100:0.1353382028)90:0.0310778457,((((Chondrichthyes_Heptranchias_perlo_H2_137339931_original_acc_XP_067858119.1_:0.0550981115,Chondrichthyes_Pristiophorus_japonicus_H2_139260184_original_acc_XP_070732547.1_:0.0396513035)79:0.0073565258,(Chondrichthyes_Heterodontus_francisci_H1_137380790_original_acc_XP_067909244.1_:0.0360665029,(Chondrichthyes_Stegostoma_tigrinum_H2_125462030_original_acc_XP_059508990.1_:0.0684665675,Chondrichthyes_Scyliorhinus_torazame_H2_140393331_original_acc_XP_072335769.1_:0.0687884625)100:0.0085869870)100:0.0110709646)79:0.0124661658,((Chondrichthyes_Leucoraja_erinaceus_H2_129704151_original_acc_XP_055503040.1_:0.0160321934,Chondrichthyes_Raja_brachyura_H1_145374601_original_acc_XP_080092115.1_:0.0098938292)100:0.1275653834,(Chondrichthyes_Mobula_birostris_H2_140185601_original_acc_XP_072095098.1_:0.0017133853,Chondrichthyes_Mobula_hypostoma_H2_134358831_original_acc_XP_062927440.1_:0.0085427890)100:0.0689457578)100:0.0672422675)100:0.1446619311,((((Euteleostomi_Acipenser_ruthenus_H1_117414543_original_acc_XP_033880204.3_:0.0222527303,Euteleostomi_Acipenser_ruthenus_H2_117418458_original_acc_XP_058841096.1_:0.0064087944)100:0.0734417875,(Euteleostomi_Lepisosteus_oculatus_H2_102686747_original_acc_XP_015203187.2_:0.0631292367,((((((Teleostei_Maylandia_zebra_H3_101467001_original_acc_XP_004555882.1_:0.0040519378,Teleostei_Oreochromis_niloticus_H4_100704275_original_acc_XP_003452015.2_:0.0044850202)100:0.0394175489,Teleostei_Scomber_japonicus_H3_128373103_original_acc_XP_053189321.1_:0.0203405932)42:0.0029489032,(Teleostei_Paralichthys_olivaceus_H2_109634541_original_acc_XP_019950673.2_:0.0302421166,Teleostei_Seriola_dumerili_H2_111234356_original_acc_XP_022618118.1_:0.0130471634)56:0.0040303465)81:0.0058166705,Teleostei_Sparus_aurata_H3_115596574_original_acc_XP_030297634.1_:0.0179102472)100:0.0389176112,((Teleostei_Oncorhynchus_mykiss_H1_110502676_original_acc_XP_036816280.1_:0.0044856174,(Teleostei_Salmo_salar_H1_106612875_original_acc_XP_014069958.1_:0.0000026299,Teleostei_Salmo_salar_H2_NoGeneID_XP_014069980.1_original_acc_XP_014069980.1_:0.0000026299)100:0.0039621740)100:0.0179118112,(Teleostei_Oncorhynchus_mykiss_H4_110499533_original_acc_XP_036812104.1_:0.0203177841,Teleostei_Salmo_salar_H3_106589770_original_acc_XP_082826675.1_:0.0166841869)100:0.0330698755)100:0.0422074262)100:0.0567581245,(((Teleostei_Maylandia_zebra_H2_101480949_original_acc_XP_076740715.1_:0.0106486408,Teleostei_Oreochromis_niloticus_H1_100705354_original_acc_XP_003454150.1_:0.0093316785)100:0.0657124497,(Teleostei_Seriola_dumerili_H1_111235880_original_acc_XP_022620171.1_:0.0375537429,Teleostei_Thunnus_albacares_H1_122973464_original_acc_XP_044196953.1_:0.0307208586)97:0.0082699814)99:0.0121509385,Teleostei_Sparus_aurata_H2_115587164_original_acc_XP_030282688.1_:0.0364485845)100:0.3938697904)91:0.0255810221)97:0.0436658578)79:0.0161615370,Euteleostomi_Polypterus_senegalus_H2_120542482_original_acc_XP_039630924.1_:0.1053364619)100:0.1169109023,(((Euteleostomi_Anolis_carolinensis_H2_100559877_original_acc_XP_003224291.1_:0.1398958581,((Euteleostomi_Homo_sapiens_H1_6585_original_acc_NP_003052.2_:0.0218987953,Euteleostomi_Mus_musculus_H2_20562_original_acc_NP_056563.2_:0.0511990917)100:0.1177719715,Euteleostomi_Gallus_gallus_H1_395293_original_acc_NP_001264265.2_:0.1452505418)53:0.0175145289)100:0.0549862500,((Euteleostomi_Xenopus_laevis_H3_108695757_original_acc_XP_041424643.1_:0.0220630918,Euteleostomi_Xenopus_laevis_H4_380270_original_acc_NP_001080578.1_:0.0183633168)99:0.0066527414,Euteleostomi_Xenopus_tropicalis_H2_100036682_original_acc_NP_001090702.1_:0.0126086180)100:0.0995810705)100:0.0681389956,Euteleostomi_Latimeria_chalumnae_H1_102351979_original_acc_XP_064419060.1_:0.1099312239)99:0.0234192880)100:0.0632208767)100:0.2390066872)100:0.3919320472,(Cephalochordata_Branchiostoma_belcheri_H1_109478478_original_acc_XP_019635574.1_:0.0073570561,(Cephalochordata_Branchiostoma_floridae_H1_118414987_original_acc_XP_035675246.1_:0.0085953893,Cephalochordata_Branchiostoma_lanceolatum_H1_136431111_original_acc_XP_066278440.1_:0.0105415690)98:0.0061758404)100:0.6679703129)100:0.6006329144)100:0.2351017886)93:0.0917013419)100:0.2175991462);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.treefile -m "Q.PLANT+I{0.0962807}+R6{0.143172,0.104326,0.191707,0.34731,0.205002,0.691627,0.220019,1.44981,0.0904552,2.57208,0.0533642,4.21731}" --length 2392
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_alignment.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_alignment.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun 26 14:31:11 2026
+Total CPU time used: 17349.3189 seconds (4h:49m:9s)
+Total wall-clock time used: 4432.219686 seconds (1h:13m:52s)
+
