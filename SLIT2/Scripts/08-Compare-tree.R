@@ -1,8 +1,8 @@
 library(ape)
-pdf("/rna/liha/phylogenomics_practice/SLIT2/Tree/Alignment-trimmed-columns-PRANK/Tree.pdf", width = 15, height = 15)
+pdf("/rna/liha/phylogenomics_practice/SLIT2/Tree/03-Alignment-removed-species-PRANK/Tree.pdf", width = 15, height = 15)
 
 
-raw_tree <- read.tree("/rna/liha/phylogenomics_practice/SLIT2/Tree/Alignment-trimmed-columns-PRANK/SLIT.treefile")
+raw_tree <- read.tree("/rna/liha/phylogenomics_practice/SLIT2/Tree/03-Alignment-removed-species-PRANK/SLIT.treefile")
 
 
 
