@@ -1,0 +1,464 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    pichu (AVX512, FMA3, 755 GB RAM)
+Command: iqtree3 -s /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_aligned.fasta -B 5000 --prefix /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT -T AUTO --threads-max 64
+Seed:    957113 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 19 12:36:58 2026
+Kernel:  AVX+FMA - auto-detect threads (64 CPU cores detected)
+
+Reading alignment file /rna/liha/phylogenomics_practice/SLIT2/Alignments/SLIT_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.00388734 secs using 91.73% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00800889 secs using 4973% CPU
+Alignment has 129 sequences with 2626 columns, 2145 distinct patterns
+1485 parsimony-informative, 236 singleton sites, 905 constant sites
+                                                                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000100308 secs using 3.113e+04% CPU
+   1  Urochordata_Aplidium_turbinatum_H1_145771367_original_acc_XP_082439248.1             41.28%    failed      2.64%
+   2  Urochordata_Aplidium_turbinatum_H2_145781066_original_acc_XP_082448928.1             43.53%    passed     10.18%
+   3  Urochordata_Ciona_intestinalis_H1_100184475_original_acc_XP_078487724.1              42.73%    failed      0.00%
+   4  Urochordata_Corella_eumyota_H1_145744549_original_acc_XP_082418549.1                 40.71%    failed      1.14%
+   5  Urochordata_Ascidia_mentula_H1_145910708_original_acc_XP_082854049.1                 43.68%    failed      0.00%
+   6  Urochordata_Oikopleura_dioica_H1_145697568_original_acc_XP_081630916.1               39.41%    failed      0.00%
+   7  Urochordata_Thalia_democratica_H1_145831289_original_acc_XP_082794610.1              41.81%    failed      0.00%
+   8  Urochordata_Thalia_democratica_H4_145846959_original_acc_XP_082809594.1              45.73%    failed      0.00%
+   9  Urochordata_Thalia_democratica_H3_145832390_original_acc_XP_082795834.1              44.48%    failed      0.00%
+  10  Urochordata_Thalia_democratica_H2_145831392_original_acc_XP_082794771.1              42.54%    failed      0.00%
+  11  Urochordata_Botryllus_schlosseri_H1_145440221_original_acc_XP_080173917.1            38.84%    passed     18.65%
+  12  Urochordata_Styela_clava_H1_120338737_original_acc_XP_039262600.2                    38.35%    passed     12.88%
+  13  Chondrichthyes_Pristiophorus_japonicus_H1_139243298_original_acc_XP_070726855.1      41.28%    passed     94.42%
+  14  Chondrichthyes_Heptranchias_perlo_H1_137324680_original_acc_XP_067845369.1           41.51%    passed     93.88%
+  15  Chondrichthyes_Heterodontus_francisci_H2_137372992_original_acc_XP_067893698.1       41.93%    passed     90.74%
+  16  Chondrichthyes_Scyliorhinus_torazame_H1_140408781_original_acc_XP_072352572.1        41.05%    passed     85.56%
+  17  Chondrichthyes_Stegostoma_tigrinum_H1_125459782_original_acc_XP_048402591.1          41.28%    passed     73.60%
+  18  Chondrichthyes_Leucoraja_erinaceus_H1_129698904_original_acc_XP_055494309.1          41.51%    passed     96.18%
+  19  Chondrichthyes_Raja_brachyura_H3_145365659_original_acc_XP_080077501.1               46.08%    passed     81.93%
+  20  Chondrichthyes_Mobula_birostris_H1_140195140_original_acc_XP_072109062.1             41.28%    passed     93.82%
+  21  Chondrichthyes_Mobula_hypostoma_H1_134344107_original_acc_XP_062899450.1             41.81%    passed     97.35%
+  22  Chondrichthyes_Callorhinchus_milii_H1_103175815_original_acc_XP_042196883.1          41.36%    passed     99.03%
+  23  Euteleostomi_Anolis_carolinensis_H1_100558087_original_acc_XP_062838202.1            40.97%    passed     72.86%
+  24  Euteleostomi_Gallus_gallus_H2_373967_original_acc_XP_046771295.1                     41.47%    passed     81.16%
+  25  Euteleostomi_Homo_sapiens_H2_9353_original_acc_XP_005248268.1                        41.62%    passed     97.09%
+  26  Euteleostomi_Mus_musculus_H1_20563_original_acc_NP_001278156.1                       41.28%    passed     99.01%
+  27  Euteleostomi_Xenopus_laevis_H1_108698051_original_acc_XP_041444148.1                 40.29%    passed     86.44%
+  28  Euteleostomi_Xenopus_laevis_H2_394404_original_acc_XP_041429371.1                    40.86%    passed     74.03%
+  29  Euteleostomi_Xenopus_tropicalis_H1_100492007_original_acc_XP_031751209.1             41.24%    passed     75.64%
+  30  Euteleostomi_Latimeria_chalumnae_H2_102367424_original_acc_XP_064419706.1            41.85%    passed     90.86%
+  31  Euteleostomi_Acipenser_ruthenus_H3_117409251_original_acc_XP_058862001.1             41.24%    passed     91.73%
+  32  Euteleostomi_Acipenser_ruthenus_H4_117421182_original_acc_XP_033891134.1             41.66%    passed     88.99%
+  33  Euteleostomi_Polypterus_senegalus_H1_120527765_original_acc_XP_039607493.1           41.47%    passed     63.40%
+  34  Euteleostomi_Lepisosteus_oculatus_H1_102694474_original_acc_XP_015199455.1           40.78%    passed     96.52%
+  35  Teleostei_Gadus_morhua_H3_115540804_original_acc_XP_030208240.1                      71.17%    failed      0.00%
+  36  Teleostei_Maylandia_zebra_H1_101467229_original_acc_XP_076741040.1                   39.45%    passed     99.40%
+  37  Teleostei_Oreochromis_niloticus_H2_100694794_original_acc_XP_025763778.1             40.59%    passed     98.54%
+  38  Teleostei_Paralichthys_olivaceus_H1_109637842_original_acc_XP_069386215.1            39.11%    passed     96.30%
+  39  Teleostei_Scomber_japonicus_H1_128364904_original_acc_XP_053181502.1                 39.72%    passed     99.12%
+  40  Teleostei_Thunnus_albacares_H2_122979428_original_acc_XP_044202797.1                 40.40%    passed     99.36%
+  41  Teleostei_Seriola_dumerili_H3_111231408_original_acc_XP_022614204.1                  40.63%    passed     95.59%
+  42  Teleostei_Sparus_aurata_H1_115583894_original_acc_XP_030276984.1                     39.64%    passed     92.56%
+  43  Teleostei_Oncorhynchus_mykiss_H2_110516422_original_acc_XP_036790168.1               40.97%    passed     85.61%
+  44  Chondrichthyes_Callorhinchus_milii_H2_103177282_original_acc_XP_042196000.1          43.83%    passed     88.37%
+  45  Chondrichthyes_Heptranchias_perlo_H3_137332578_original_acc_XP_067852608.1           43.49%    passed     71.09%
+  46  Chondrichthyes_Pristiophorus_japonicus_H3_139263049_original_acc_XP_070734659.1      42.19%    passed     60.15%
+  47  Chondrichthyes_Heterodontus_francisci_H3_137375798_original_acc_XP_067899363.1       42.19%    passed     86.49%
+  48  Chondrichthyes_Scyliorhinus_torazame_H3_140426781_original_acc_XP_072368047.1        42.19%    passed     90.73%
+  49  Chondrichthyes_Stegostoma_tigrinum_H3_125458334_original_acc_XP_048399493.1          42.19%    passed     93.07%
+  50  Chondrichthyes_Leucoraja_erinaceus_H3_129701451_original_acc_XP_055498609.1          42.19%    passed     73.97%
+  51  Chondrichthyes_Raja_brachyura_H2_145372276_original_acc_XP_080088355.1               42.19%    passed     86.68%
+  52  Chondrichthyes_Mobula_birostris_H3_140200362_original_acc_XP_072119684.1             42.23%    passed     91.90%
+  53  Chondrichthyes_Mobula_hypostoma_H3_134349406_original_acc_XP_062909732.1             42.23%    passed     89.29%
+  54  Euteleostomi_Acipenser_ruthenus_H5_117413046_original_acc_XP_058853176.1             43.37%    passed     72.47%
+  55  Euteleostomi_Acipenser_ruthenus_H6_117431683_original_acc_XP_058852492.1             43.37%    passed     75.04%
+  56  Euteleostomi_Polypterus_senegalus_H3_120542064_original_acc_XP_039630126.1           42.08%    passed     92.06%
+  57  Euteleostomi_Lepisosteus_oculatus_H3_102689995_original_acc_XP_015205363.2           41.77%    passed     13.61%
+  58  Teleostei_Gadus_chalcogrammus_H2_130390220_original_acc_XP_056456011.1               75.21%    failed      0.00%
+  59  Teleostei_Gadus_morhua_H2_115552119_original_acc_XP_030223756.1                      41.39%    passed     33.84%
+  60  Teleostei_Paralichthys_olivaceus_H3_109626347_original_acc_XP_019937784.2            41.43%    passed     64.11%
+  61  Teleostei_Scomber_japonicus_H2_128362581_original_acc_XP_053179354.1                 41.58%    passed     82.00%
+  62  Teleostei_Thunnus_albacares_H3_122990617_original_acc_XP_044219956.1                 41.47%    passed     78.92%
+  63  Teleostei_Seriola_dumerili_H4_111232433_original_acc_XP_022615670.1                  41.43%    passed     77.96%
+  64  Teleostei_Sparus_aurata_H4_115569018_original_acc_XP_030252727.1                     41.43%    passed     74.15%
+  65  Teleostei_Maylandia_zebra_H4_101480300_original_acc_XP_004553650.2                   41.51%    passed     97.84%
+  66  Teleostei_Oreochromis_niloticus_H3_100703331_original_acc_XP_005467341.1             41.51%    passed     97.70%
+  67  Teleostei_Oncorhynchus_mykiss_H3_110504786_original_acc_XP_036825700.1               40.97%    passed     96.33%
+  68  Teleostei_Salmo_salar_H4_106611956_original_acc_XP_045579996.2                       41.96%    passed     98.68%
+  69  Teleostei_Oncorhynchus_mykiss_H5_110488577_original_acc_XP_036798603.1               41.66%    passed     90.14%
+  70  Euteleostomi_Anolis_carolinensis_H3_100557859_original_acc_XP_062826543.1            42.31%    passed     81.64%
+  71  Euteleostomi_Gallus_gallus_H3_374173_original_acc_NP_001383050.1                     42.16%    passed     35.48%
+  72  Euteleostomi_Homo_sapiens_H3_6586_original_acc_NP_001258875.2                        41.74%    passed     94.85%
+  73  Euteleostomi_Mus_musculus_H3_20564_original_acc_NP_035542.2                          42.00%    passed     99.07%
+  74  Euteleostomi_Xenopus_laevis_H5_108712410_original_acc_XP_041444686.1                 42.08%    passed     22.18%
+  75  Euteleostomi_Xenopus_laevis_H6_108710233_original_acc_XP_041442084.1                 42.23%    passed     40.48%
+  76  Euteleostomi_Xenopus_tropicalis_H3_780195_original_acc_NP_001072738.1                42.16%    passed     42.97%
+  77  Euteleostomi_Latimeria_chalumnae_H3_102345917_original_acc_XP_005991876.1            42.08%    passed     60.97%
+  78  Cyclostomata_Lampetra_planeri_H1_144717550_original_acc_XP_078449077.1               40.56%    passed     19.44%
+  79  Cyclostomata_Lethenteron_reissneri_H1_133345492_original_acc_XP_061412248.1          40.29%    passed     20.37%
+  80  Cyclostomata_Petromyzon_marinus_H1_116941376_original_acc_XP_032808326.2             40.40%    passed     19.92%
+  81  Cyclostomata_Myxine_glutinosa_H2_137423189_original_acc_XP_078630716.1               41.51%    passed     31.61%
+  82  Cyclostomata_Lampetra_planeri_H2_144721532_original_acc_XP_078455336.1               40.97%    passed     14.76%
+  83  Cyclostomata_Lethenteron_reissneri_H2_133343488_original_acc_XP_061409127.1          40.82%    passed     16.81%
+  84  Cyclostomata_Petromyzon_marinus_H2_116940650_original_acc_XP_032806650.1             40.63%    passed     13.82%
+  85  Cyclostomata_Myxine_glutinosa_H1_137420701_original_acc_XP_067962082.2               40.10%    passed     96.06%
+  86  Chondrichthyes_Heptranchias_perlo_H2_137339931_original_acc_XP_067858119.1           41.74%    passed     97.85%
+  87  Chondrichthyes_Heterodontus_francisci_H1_137380790_original_acc_XP_067909244.1       41.77%    passed     99.47%
+  88  Chondrichthyes_Pristiophorus_japonicus_H2_139260184_original_acc_XP_070732547.1      41.93%    passed     99.41%
+  89  Chondrichthyes_Stegostoma_tigrinum_H2_125462030_original_acc_XP_059508990.1          41.81%    passed     92.19%
+  90  Chondrichthyes_Scyliorhinus_torazame_H2_140393331_original_acc_XP_072335769.1        41.74%    passed     98.13%
+  91  Chondrichthyes_Leucoraja_erinaceus_H2_129704151_original_acc_XP_055503040.1          41.93%    passed     83.00%
+  92  Chondrichthyes_Raja_brachyura_H1_145374601_original_acc_XP_080092115.1               41.89%    passed     88.72%
+  93  Chondrichthyes_Mobula_birostris_H2_140185601_original_acc_XP_072095098.1             41.93%    passed     88.42%
+  94  Chondrichthyes_Mobula_hypostoma_H2_134358831_original_acc_XP_062927440.1             41.93%    passed     90.95%
+  95  Euteleostomi_Acipenser_ruthenus_H1_117414543_original_acc_XP_033880204.3             40.78%    passed     99.55%
+  96  Euteleostomi_Acipenser_ruthenus_H2_117418458_original_acc_XP_058841096.1             40.82%    passed     98.59%
+  97  Euteleostomi_Lepisosteus_oculatus_H2_102686747_original_acc_XP_015203187.2           41.20%    passed     94.37%
+  98  Euteleostomi_Polypterus_senegalus_H2_120542482_original_acc_XP_039630924.1           41.70%    passed     99.94%
+  99  Teleostei_Gadus_chalcogrammus_H3_130404876_original_acc_XP_056465791.1               77.11%    failed      0.00%
+ 100  Teleostei_Gadus_morhua_H4_115560310_original_acc_XP_030235556.1                      71.40%    failed      0.00%
+ 101  Teleostei_Paralichthys_olivaceus_H2_109634541_original_acc_XP_019950673.2            41.05%    passed     99.68%
+ 102  Teleostei_Scomber_japonicus_H3_128373103_original_acc_XP_053189321.1                 42.35%    passed     99.98%
+ 103  Teleostei_Seriola_dumerili_H2_111234356_original_acc_XP_022618118.1                  39.95%    passed     99.72%
+ 104  Teleostei_Sparus_aurata_H3_115596574_original_acc_XP_030297634.1                     41.05%    passed     96.28%
+ 105  Teleostei_Maylandia_zebra_H3_101467001_original_acc_XP_004555882.1                   41.05%    passed     97.37%
+ 106  Teleostei_Oreochromis_niloticus_H4_100704275_original_acc_XP_003452015.2             41.58%    passed     96.86%
+ 107  Teleostei_Oncorhynchus_mykiss_H1_110502676_original_acc_XP_036816280.1               40.37%    passed     99.46%
+ 108  Teleostei_Salmo_salar_H1_106612875_original_acc_XP_014069958.1                       40.33%    passed     99.03%
+ 109  Teleostei_Salmo_salar_H2_NoGeneID_XP_014069980.1_original_acc_XP_014069980.1         40.63%    passed     98.75%
+ 110  Teleostei_Oncorhynchus_mykiss_H4_110499533_original_acc_XP_036812104.1               41.24%    passed     98.16%
+ 111  Teleostei_Salmo_salar_H3_106589770_original_acc_XP_082826675.1                       41.36%    passed     98.78%
+ 112  Euteleostomi_Anolis_carolinensis_H2_100559877_original_acc_XP_003224291.1            41.77%    passed     88.82%
+ 113  Euteleostomi_Homo_sapiens_H1_6585_original_acc_NP_003052.2                           41.58%    passed     14.04%
+ 114  Euteleostomi_Mus_musculus_H2_20562_original_acc_NP_056563.2                          41.70%    passed     38.79%
+ 115  Euteleostomi_Gallus_gallus_H1_395293_original_acc_NP_001264265.2                     41.20%    passed      5.01%
+ 116  Euteleostomi_Xenopus_laevis_H3_108695757_original_acc_XP_041424643.1                 41.77%    passed     96.42%
+ 117  Euteleostomi_Xenopus_laevis_H4_380270_original_acc_NP_001080578.1                    41.77%    passed     93.61%
+ 118  Euteleostomi_Xenopus_tropicalis_H2_100036682_original_acc_NP_001090702.1             41.77%    passed     89.71%
+ 119  Euteleostomi_Latimeria_chalumnae_H1_102351979_original_acc_XP_064419060.1            41.55%    passed     99.76%
+ 120  Teleostei_Gadus_chalcogrammus_H1_130380056_original_acc_XP_056443213.1               35.87%    failed      0.00%
+ 121  Teleostei_Gadus_morhua_H1_115540878_original_acc_XP_030208350.1                      38.84%    failed      0.04%
+ 122  Teleostei_Maylandia_zebra_H2_101480949_original_acc_XP_076740715.1                   40.14%    passed     41.41%
+ 123  Teleostei_Oreochromis_niloticus_H1_100705354_original_acc_XP_003454150.1             40.14%    passed     32.22%
+ 124  Teleostei_Seriola_dumerili_H1_111235880_original_acc_XP_022620171.1                  39.72%    failed      0.11%
+ 125  Teleostei_Thunnus_albacares_H1_122973464_original_acc_XP_044196953.1                 40.02%    passed      5.48%
+ 126  Teleostei_Sparus_aurata_H2_115587164_original_acc_XP_030282688.1                     40.18%    failed      4.80%
+ 127  Cephalochordata_Branchiostoma_belcheri_H1_109478478_original_acc_XP_019635574.1      41.39%    passed     19.68%
+ 128  Cephalochordata_Branchiostoma_floridae_H1_118414987_original_acc_XP_035675246.1      41.39%    passed     19.43%
+ 129  Cephalochordata_Branchiostoma_lanceolatum_H1_136431111_original_acc_XP_066278440.1   41.24%    passed     18.35%
+WARNING: 4 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                42.41%  17 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000882715 secs using 120.7% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.075 seconds
+Measuring multi-threading efficiency up to 64 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 66.857 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -202040
+Threads: 2 / Time: 71.410 sec / Speedup: 0.936 / Efficiency: 47% / LogL: -202040
+Determining AUTO threadcount: done in 138.302 secs using 151.2% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 5.95002 secs using 99.93% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -96109.339
+Optimal log-likelihood: -96108.912
+Proportion of invariable sites: 0.082
+Gamma shape alpha: 1.028
+Parameters optimization took 1 rounds (1.900 sec)
+Time for fast ML tree search: 18.425 seconds
+
+NOTE: ModelFinder requires 473 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 2626 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            101508.290   255 203526.580   203581.669   205024.251
+  2  LG+I          99969.957    256 200451.914   200507.458   201955.458
+  3  LG+G4         96218.954    256 192949.907   193005.451   194453.451
+  4  LG+I+G4       96108.836    257 192731.672   192787.673   194241.088
+  5  LG+R2         97229.676    257 194973.351   195029.353   196482.768
+  6  LG+R3         96483.417    259 193484.834   193541.757   195005.997
+  7  LG+R4         96128.883    261 192779.766   192837.619   194312.676
+  8  LG+R5         96056.551    263 192639.101   192697.892   194183.757
+  9  LG+R6         96037.300    265 192604.600   192664.337   194161.002
+ 10  LG+R7         96034.416    267 192602.832   192663.524   194170.981
+ 14  LG+I+R2       96744.623    258 194005.246   194061.707   195520.536
+ 15  LG+I+R3       96252.350    260 193024.701   193082.087   194551.737
+ 16  LG+I+R4       96054.195    262 192632.390   192690.710   194171.172
+ 17  LG+I+R5       96040.256    264 192608.512   192667.775   194159.041
+ 18  LG+I+R6       96022.981    266 192577.962   192638.175   194140.238
+ 19  LG+I+R7       96022.627    268 192581.255   192642.427   194155.277
+ 40  LG+F+I+R6     96891.406    285 194352.811   194422.478   196026.678
+ 62  WAG+I+R6      96185.586    266 192903.172   192963.385   194465.447
+ 84  WAG+F+I+R6    96745.939    285 194061.877   194131.544   195735.744
+106  JTT+I+R6      95212.228    266 190956.456   191016.670   192518.732
+128  JTT+F+I+R6    95998.345    285 192566.690   192636.357   194240.557
+150  Q.PFAM+I+R6   95997.244    266 192526.488   192586.702   194088.764
+172  Q.PFAM+F+I+R6 97120.401    285 194810.802   194880.468   196484.668
+194  Q.BIRD+I+R6   95622.428    266 191776.857   191837.070   193339.132
+216  Q.BIRD+F+I+R6 96684.348    285 193938.697   194008.363   195612.563
+238  Q.MAMMAL+I+R6 95287.313    266 191106.626   191166.840   192668.902
+260  Q.MAMMAL+F+I+R6 96426.280    285 193422.559   193492.226   195096.426
+282  Q.INSECT+I+R6 95552.231    266 191636.461   191696.675   193198.737
+304  Q.INSECT+F+I+R6 96587.456    285 193744.912   193814.579   195418.779
+326  Q.PLANT+I+R6  95031.177    266 190594.354   190654.568   192156.630
+348  Q.PLANT+F+I+R6 96439.021    285 193448.043   193517.709   195121.910
+370  Q.YEAST+I+R6  96098.066    266 192728.131   192788.345   194290.407
+392  Q.YEAST+F+I+R6 97108.433    285 194786.866   194856.532   196460.733
+414  JTTDCMUT+I+R6 95230.900    266 190993.799   191054.013   192556.075
+436  JTTDCMUT+F+I+R6 95990.202    285 192550.404   192620.071   194224.271
+458  DCMUT+I+R6    96491.033    266 193514.067   193574.280   195076.342
+480  DCMUT+F+I+R6  96730.817    285 194031.635   194101.302   195705.502
+502  VT+I+R6       96461.871    266 193455.742   193515.955   195018.017
+524  VT+F+I+R6     97308.162    285 195186.325   195255.992   196860.192
+546  PMB+I+R6      97688.623    266 195909.246   195969.459   197471.521
+568  PMB+F+I+R6    98295.190    285 197160.379   197230.046   198834.246
+590  BLOSUM62+I+R6 97914.722    266 196361.445   196421.659   197923.721
+612  BLOSUM62+F+I+R6 98314.116    285 197198.232   197267.899   198872.099
+634  DAYHOFF+I+R6  96479.789    266 193491.577   193551.791   195053.853
+656  DAYHOFF+F+I+R6 96720.199    285 194010.399   194080.065   195684.266
+678  MTREV+I+R6    100000.004   266 200532.007   200592.221   202094.283
+700  MTREV+F+I+R6  98377.056    285 197324.111   197393.778   198997.978
+722  MTART+I+R6    101864.422   266 204260.844   204321.058   205823.120
+744  MTART+F+I+R6  100286.702   285 201143.404   201213.071   202817.271
+766  MTZOA+I+R6    99133.859    266 198799.717   198859.931   200361.993
+788  MTZOA+F+I+R6  98646.139    285 197862.278   197931.945   199536.145
+810  MTMET+I+R6    99552.264    266 199636.529   199696.743   201198.805
+832  MTMET+F+I+R6  97575.921    285 195721.842   195791.509   197395.709
+854  MTVER+I+R6    99891.169    266 200314.337   200374.551   201876.613
+876  MTVER+F+I+R6  98543.841    285 197657.683   197727.350   199331.550
+898  MTINV+I+R6    100570.299   266 201672.599   201732.812   203234.874
+920  MTINV+F+I+R6  97528.733    285 195627.467   195697.133   197301.333
+942  MTMAM+I+R6    101123.388   266 202778.776   202838.989   204341.051
+964  MTMAM+F+I+R6  99018.929    285 198607.859   198677.526   200281.726
+986  FLAVI+I+R6    97519.604    266 195571.208   195631.421   197133.483
+1008  FLAVI+F+I+R6  97820.901    285 196211.802   196281.469   197885.669
+1030  HIVB+I+R6     96839.898    266 194211.795   194272.009   195774.071
+1052  HIVB+F+I+R6   97372.899    285 195315.798   195385.464   196989.665
+1074  HIVW+I+R6     99893.883    266 200319.766   200379.979   201882.042
+1096  HIVW+F+I+R6   98914.162    285 198398.323   198467.990   200072.190
+1118  FLU+I+R6      96269.589    266 193071.178   193131.391   194633.453
+1140  FLU+F+I+R6    96000.254    285 192570.507   192640.174   194244.374
+1162  RTREV+I+R6    97201.268    266 194934.535   194994.749   196496.811
+1184  RTREV+F+I+R6  97778.354    285 196126.709   196196.376   197800.576
+1206  CPREV+I+R6    96893.045    266 194318.090   194378.303   195880.365
+1228  CPREV+F+I+R6  98368.673    285 197307.345   197377.012   198981.212
+Akaike Information Criterion:           Q.PLANT+I+R6
+Corrected Akaike Information Criterion: Q.PLANT+I+R6
+Bayesian Information Criterion:         Q.PLANT+I+R6
+Best-fit model: Q.PLANT+I+R6 chosen according to BIC
+
+All model information printed to /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.model.gz
+CPU time for ModelFinder: 5127.358 seconds (1h:25m:27s)
+Wall-clock time for ModelFinder: 5076.620 seconds (1h:24m:36s)
+Generating 5000 samples for ultrafast bootstrap (seed: 957113)...
+
+NOTE: 300 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -95072.119
+2. Current log-likelihood: -95031.579
+3. Current log-likelihood: -95030.932
+4. Current log-likelihood: -95030.810
+Optimal log-likelihood: -95030.710
+Proportion of invariable sites: 0.083
+Site proportion and rates:  (0.169,0.124) (0.188,0.361) (0.194,0.691) (0.214,1.405) (0.102,2.530) (0.051,4.329)
+Parameters optimization took 4 rounds (43.412 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.60821 secs using 99.97% CPU
+Computing ML distances took 1.608820 sec (of wall-clock time) 1.608326 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000565018 secs using 99.29% CPU
+Constructing RapidNJ tree: done in 0.000991961 secs using 97.58% CPU
+Computing RapidNJ tree took 0.001622 sec (of wall-clock time) 0.001594 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -95370.820
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.609 second
+Computing log-likelihood of 98 initial trees ... 89.795 seconds
+Current best score: -95030.710
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 5.40303 secs using 99.89% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -95026.663
+Optimizing NNI: done in 15.6354 secs using 99.95% CPU
+Optimizing NNI: done in 14.4038 secs using 99.93% CPU
+Optimizing NNI: done in 14.8046 secs using 99.55% CPU
+Optimizing NNI: done in 14.679 secs using 99.97% CPU
+Optimizing NNI: done in 14.8057 secs using 99.84% CPU
+Optimizing NNI: done in 14.9522 secs using 99.95% CPU
+Optimizing NNI: done in 14.4996 secs using 99.95% CPU
+Optimizing NNI: done in 14.4335 secs using 99.95% CPU
+Optimizing NNI: done in 14.5396 secs using 99.94% CPU
+Iteration 10 / LogL: -95040.790 / Time: 1h:29m:42s
+Optimizing NNI: done in 14.7068 secs using 99.92% CPU
+Optimizing NNI: done in 14.6459 secs using 99.9% CPU
+Optimizing NNI: done in 14.7483 secs using 99.95% CPU
+Optimizing NNI: done in 14.6953 secs using 99.91% CPU
+Optimizing NNI: done in 14.4524 secs using 99.91% CPU
+Optimizing NNI: done in 14.629 secs using 99.65% CPU
+Optimizing NNI: done in 14.663 secs using 99.93% CPU
+Optimizing NNI: done in 14.8572 secs using 99.86% CPU
+Optimizing NNI: done in 14.9124 secs using 99.94% CPU
+Optimizing NNI: done in 14.8329 secs using 99.93% CPU
+Iteration 20 / LogL: -95045.428 / Time: 1h:32m:11s
+Finish initializing candidate tree set (5)
+Current best tree score: -95026.663 / CPU time: 396.889
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 18.9613 secs using 99.9% CPU
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -95022.083
+Optimizing NNI: done in 18.0345 secs using 99.92% CPU
+Optimizing NNI: done in 19.2637 secs using 99.89% CPU
+Optimizing NNI: done in 18.3015 secs using 99.9% CPU
+Optimizing NNI: done in 15.5217 secs using 99.89% CPU
+Optimizing NNI: done in 16.1601 secs using 99.69% CPU
+Optimizing NNI: done in 15.0922 secs using 99.93% CPU
+Optimizing NNI: done in 18.5427 secs using 99.85% CPU
+Optimizing NNI: done in 23.5124 secs using 99.9% CPU
+Optimizing NNI: done in 22.8428 secs using 99.89% CPU
+Iteration 30 / LogL: -95023.183 / Time: 1h:35m:28s (0h:26m:35s left)
+Optimizing NNI: done in 17.1016 secs using 99.74% CPU
+Optimizing NNI: done in 18.0699 secs using 99.92% CPU
+Optimizing NNI: done in 18.5931 secs using 99.92% CPU
+Optimizing NNI: done in 19.1166 secs using 99.95% CPU
+Optimizing NNI: done in 20.2691 secs using 99.89% CPU
+Optimizing NNI: done in 18.1527 secs using 99.91% CPU
+Optimizing NNI: done in 16.9981 secs using 99.91% CPU
+Optimizing NNI: done in 14.9789 secs using 99.92% CPU
+Optimizing NNI: done in 18.5316 secs using 99.69% CPU
+Optimizing NNI: done in 19.4142 secs using 99.93% CPU
+Iteration 40 / LogL: -95022.977 / Time: 1h:38m:31s (0h:21m:45s left)
+Optimizing NNI: done in 19.3865 secs using 99.89% CPU
+Optimizing NNI: done in 15.6153 secs using 99.91% CPU
+Optimizing NNI: done in 17.232 secs using 99.9% CPU
+Optimizing NNI: done in 20.7446 secs using 99.71% CPU
+Optimizing NNI: done in 21.2309 secs using 99.89% CPU
+Optimizing NNI: done in 20.4498 secs using 99.85% CPU
+Optimizing NNI: done in 17.9351 secs using 99.93% CPU
+Optimizing NNI: done in 18.5325 secs using 99.93% CPU
+Optimizing NNI: done in 19.9524 secs using 99.73% CPU
+Optimizing NNI: done in 15.9564 secs using 99.87% CPU
+Iteration 50 / LogL: -95022.991 / Time: 1h:41m:40s (0h:17m:45s left)
+Log-likelihood cutoff on original alignment: -95085.077
+Optimizing NNI: done in 20.5077 secs using 99.93% CPU
+Optimizing NNI: done in 17.0689 secs using 99.93% CPU
+Optimizing NNI: done in 16.0337 secs using 99.94% CPU
+Optimizing NNI: done in 18.4125 secs using 99.9% CPU
+Optimizing NNI: done in 18.3288 secs using 99.89% CPU
+Optimizing NNI: done in 16.5809 secs using 99.91% CPU
+Optimizing NNI: done in 17.5662 secs using 99.88% CPU
+Optimizing NNI: done in 18.9506 secs using 99.64% CPU
+Optimizing NNI: done in 18.2265 secs using 99.88% CPU
+Optimizing NNI: done in 18.5357 secs using 99.87% CPU
+Iteration 60 / LogL: -95039.470 / Time: 1h:44m:44s (0h:13m:59s left)
+Optimizing NNI: done in 18.8513 secs using 99.62% CPU
+Optimizing NNI: done in 21.7472 secs using 99.95% CPU
+Optimizing NNI: done in 19.5599 secs using 99.94% CPU
+Optimizing NNI: done in 16.7705 secs using 99.89% CPU
+Optimizing NNI: done in 17.6358 secs using 99.65% CPU
+Optimizing NNI: done in 18.1647 secs using 99.92% CPU
+Optimizing NNI: done in 15.6806 secs using 99.95% CPU
+Optimizing NNI: done in 18.6534 secs using 99.89% CPU
+Optimizing NNI: done in 17.0398 secs using 99.62% CPU
+Optimizing NNI: done in 18.8927 secs using 99.9% CPU
+Iteration 70 / LogL: -95023.905 / Time: 1h:47m:49s (0h:10m:25s left)
+Optimizing NNI: done in 16.2936 secs using 99.92% CPU
+Optimizing NNI: done in 19.862 secs using 99.87% CPU
+Optimizing NNI: done in 22.5397 secs using 99.69% CPU
+Optimizing NNI: done in 20.0714 secs using 99.93% CPU
+Optimizing NNI: done in 18.0092 secs using 99.92% CPU
+Optimizing NNI: done in 15.453 secs using 99.88% CPU
+Optimizing NNI: done in 19.5049 secs using 99.66% CPU
+Optimizing NNI: done in 16.2479 secs using 99.92% CPU
+Optimizing NNI: done in 16.1708 secs using 99.94% CPU
+Optimizing NNI: done in 16.777 secs using 99.91% CPU
+Iteration 80 / LogL: -95023.961 / Time: 1h:50m:51s (0h:6m:58s left)
+Optimizing NNI: done in 19.7708 secs using 99.58% CPU
+Optimizing NNI: done in 22.3188 secs using 99.94% CPU
+Optimizing NNI: done in 19.0643 secs using 99.94% CPU
+Optimizing NNI: done in 16.8191 secs using 99.88% CPU
+Optimizing NNI: done in 21.1899 secs using 99.91% CPU
+Optimizing NNI: done in 20.184 secs using 99.61% CPU
+Optimizing NNI: done in 16.0085 secs using 99.93% CPU
+Optimizing NNI: done in 19.1601 secs using 99.93% CPU
+Optimizing NNI: done in 17.864 secs using 99.9% CPU
+Optimizing NNI: done in 14.0505 secs using 99.92% CPU
+Iteration 90 / LogL: -95022.640 / Time: 1h:54m:0s (0h:3m:37s left)
+Optimizing NNI: done in 16.5898 secs using 99.9% CPU
+Optimizing NNI: done in 16.9463 secs using 99.88% CPU
+Optimizing NNI: done in 15.2875 secs using 99.58% CPU
+Optimizing NNI: done in 20.5381 secs using 99.93% CPU
+Optimizing NNI: done in 16.2133 secs using 99.88% CPU
+Optimizing NNI: done in 17.1184 secs using 99.88% CPU
+Optimizing NNI: done in 20.4649 secs using 99.64% CPU
+Optimizing NNI: done in 16.6314 secs using 99.94% CPU
+Optimizing NNI: done in 19.9486 secs using 99.94% CPU
+Optimizing NNI: done in 18.0134 secs using 99.85% CPU
+Iteration 100 / LogL: -95026.351 / Time: 1h:57m:0s (0h:0m:19s left)
+Log-likelihood cutoff on original alignment: -95085.077
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Optimizing NNI: done in 21.9132 secs using 99.7% CPU
+Optimizing NNI: done in 17.9893 secs using 99.94% CPU
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 1h:57m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -95022.083
+2. Current log-likelihood: -95022.063
+3. Current log-likelihood: -95022.029
+4. Current log-likelihood: -95022.003
+5. Current log-likelihood: -95021.989
+6. Current log-likelihood: -95021.975
+7. Current log-likelihood: -95021.961
+8. Current log-likelihood: -95021.947
+9. Current log-likelihood: -95021.934
+10. Current log-likelihood: -95021.920
+11. Current log-likelihood: -95021.908
+12. Current log-likelihood: -95021.896
+13. Current log-likelihood: -95021.883
+14. Current log-likelihood: -95021.872
+15. Current log-likelihood: -95021.860
+Optimal log-likelihood: -95021.844
+Proportion of invariable sites: 0.082
+Site proportion and rates:  (0.164,0.120) (0.191,0.355) (0.194,0.683) (0.212,1.393) (0.102,2.484) (0.054,4.275)
+Parameters optimization took 15 rounds (82.108 sec)
+BEST SCORE FOUND : -95021.844
+Creating bootstrap support values...
+Split supports printed to NEXUS file /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.splits.nex
+Total tree length: 24.458
+
+Total number of iterations: 102
+CPU time used for tree search: 1924.498 sec (0h:32m:4s)
+Wall-clock time used for tree search: 1927.566 sec (0h:32m:7s)
+Total CPU time used: 7192.802 sec (1h:59m:52s)
+Total wall-clock time used: 7145.520 sec (1h:59m:5s)
+
+Computing bootstrap consensus tree...
+Reading input file /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.splits.nex...
+129 taxa and 416 splits.
+Consensus tree written to /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.contree
+Reading input trees file /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.contree
+Log-likelihood of consensus tree: -95022.831
+
+Analysis results written to: 
+  IQ-TREE report:                /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.iqtree
+  Maximum-likelihood tree:       /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.treefile
+  Likelihood distances:          /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.splits.nex
+  Consensus tree:                /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.contree
+  Screen log file:               /rna/liha/phylogenomics_practice/SLIT2/Tree/SLIT.log
+
+Date and Time: Fri Jun 19 14:36:19 2026

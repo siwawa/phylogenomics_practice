@@ -1,0 +1,3 @@
+[TENT5] Submitting BLAST SLURM array 2-93%3 for TENT5A-B-C-D. Existing .done files will be skipped by /rna/liha/phylogenomics_practice/TENT/TENT5/Scripts/01-Blastp-against-species.sh.
+[TENT5] RUN: sbatch --chdir=/rna/liha/phylogenomics_practice/TENT/TENT5 --output=/rna/liha/phylogenomics_practice/TENT/TENT5/Blast/logs/%A_%a.out --error=/rna/liha/phylogenomics_practice/TENT/TENT5/Blast/logs/%A_%a.err --array=2-93%3 --wait /rna/liha/phylogenomics_practice/TENT/TENT5/Scripts/01-Blastp-against-species.sh
+Submitted batch job 26103

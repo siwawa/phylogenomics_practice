@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Wrapper for the SLIT homolog search, filtering, alignment, and tree workflow.
+# Wrapper for the homolog search, filtering, alignment, and tree workflow.
 
 set -euo pipefail
 
@@ -8,6 +8,21 @@ SCRIPTS_DIR="${BASE_DIR}/Scripts"
 
 R_ENV_NAME="r_env"
 RSCRIPT_CMD=(conda run -n "$R_ENV_NAME" Rscript)
+
+PIPELINE_PROJECT_LABEL="${PIPELINE_PROJECT_LABEL:-$(basename "$BASE_DIR")}"
+PIPELINE_OUTPUT_PREFIX="${PIPELINE_OUTPUT_PREFIX:-SLIT}"
+PIPELINE_QUERY_NAME="${PIPELINE_QUERY_NAME:-SLIT1-2-3}"
+PIPELINE_OUTGROUP_PATTERN="${PIPELINE_OUTGROUP_PATTERN:-Branchiostoma}"
+
+if [[ -z "${PIPELINE_INPUT_FASTA:-}" && -n "${SLIT_INPUT_FASTA:-}" ]]; then
+    PIPELINE_INPUT_FASTA="$SLIT_INPUT_FASTA"
+fi
+
+export PIPELINE_PROJECT_LABEL
+export PIPELINE_OUTPUT_PREFIX
+export PIPELINE_QUERY_NAME
+export PIPELINE_OUTGROUP_PATTERN
+[[ -n "${PIPELINE_INPUT_FASTA:-}" ]] && export PIPELINE_INPUT_FASTA
 
 SPECIES_FILE="${SCRIPTS_DIR}/species.txt"
 BLAST_SCRIPT="${SCRIPTS_DIR}/01-Blastp-against-species.sh"
@@ -25,15 +40,15 @@ BLAST_RESULTS_DIR="${BASE_DIR}/Blast/Results"
 BLAST_DONE_DIR="${BASE_DIR}/Blast/Done"
 HIGH_HITS_TABLE="${SCRIPTS_DIR}/Blast-high-scoring-hits.txt"
 HIGH_HITS_FASTA="${SCRIPTS_DIR}/Blast-high-scoring-hits.fasta"
-FILTERED_FASTA="${SCRIPTS_DIR}/SLIT-homologs.fasta"
-HOMOLOG_COUNTS_PNG="${SCRIPTS_DIR}/SLIT_Homolog_Counts.png"
-ALIGNMENT_FASTA="${BASE_DIR}/Alignments/SLIT_aligned.fasta"
-ALIGNMENT_ALIGNER_FILE="${BASE_DIR}/Alignments/SLIT_aligned.aligner"
+FILTERED_FASTA="${SCRIPTS_DIR}/${PIPELINE_OUTPUT_PREFIX}-homologs.fasta"
+HOMOLOG_COUNTS_PNG="${SCRIPTS_DIR}/${PIPELINE_OUTPUT_PREFIX}_Homolog_Counts.png"
+ALIGNMENT_FASTA="${BASE_DIR}/Alignments/${PIPELINE_OUTPUT_PREFIX}_aligned.fasta"
+ALIGNMENT_ALIGNER_FILE="${BASE_DIR}/Alignments/${PIPELINE_OUTPUT_PREFIX}_aligned.aligner"
 TREE_DIR="${BASE_DIR}/Tree"
-TREE_PREFIX="${TREE_DIR}/SLIT"
+TREE_PREFIX="${TREE_DIR}/${PIPELINE_OUTPUT_PREFIX}"
 TREE_FILE="${TREE_PREFIX}.treefile"
 RAW_TREE_DIR="${TREE_DIR}/Raw-alignment"
-RAW_TREE_FILE="${RAW_TREE_DIR}/SLIT.treefile"
+RAW_TREE_FILE="${RAW_TREE_DIR}/${PIPELINE_OUTPUT_PREFIX}.treefile"
 TREE_PDF="${RAW_TREE_DIR}/Tree.pdf"
 
 DRY_RUN=0
@@ -52,7 +67,7 @@ usage() {
     cat <<'USAGE'
 Usage: Scripts/00-Run-SLIT2-pipeline.sh [options]
 
-Runs the SLIT2 pipeline in order:
+Runs the homolog-search pipeline in order:
   blast -> explore -> download -> filter -> count_homologs -> align -> iqtree -> compare_tree
 
 Default behavior is resume-safe:
@@ -61,6 +76,14 @@ Default behavior is resume-safe:
   - Existing filtered homolog FASTA is reused.
   - Existing homolog-count, alignment, tree, and comparison files are reused.
   - PRANK is used for alignment by default; use --aligner mafft to run MAFFT.
+
+Reusable settings are controlled by environment variables:
+  PIPELINE_PROJECT_LABEL    Log/job label. Default: project directory name.
+  PIPELINE_QUERY_NAME       FASTA basename under Blast/Query and BLAST table suffix.
+                            Default: SLIT1-2-3.
+  PIPELINE_OUTPUT_PREFIX    Prefix for homolog/alignment/tree outputs. Default: SLIT.
+  PIPELINE_OUTGROUP_PATTERN Regex used to find outgroup tips before plotting. Default: Branchiostoma.
+  PIPELINE_INPUT_FASTA      Optional FASTA override for alignment. Legacy SLIT_INPUT_FASTA is also honored.
 
 Options:
   --offline
@@ -100,11 +123,11 @@ USAGE
 }
 
 log() {
-    printf '[SLIT2] %s\n' "$*"
+    printf '[%s] %s\n' "$PIPELINE_PROJECT_LABEL" "$*"
 }
 
 die() {
-    printf '[SLIT2] ERROR: %s\n' "$*" >&2
+    printf '[%s] ERROR: %s\n' "$PIPELINE_PROJECT_LABEL" "$*" >&2
     exit 1
 }
 
@@ -164,14 +187,15 @@ done_total() {
 }
 
 blast_result_count() {
-    find "$BLAST_RESULTS_DIR" -type f -name '*SLIT1-2-3.txt' -size +0c 2>/dev/null | wc -l | tr -d ' '
+    find "$BLAST_RESULTS_DIR" -type f -name "*_${PIPELINE_QUERY_NAME}.txt" -size +0c 2>/dev/null | wc -l | tr -d ' '
 }
 
 expected_done_markers() {
-    awk -v done_dir="$BLAST_DONE_DIR" '
+    awk -F '\t' -v done_dir="$BLAST_DONE_DIR" '
         NR > 1 && NF {
-            species = $9 " " $10
-            gsub(/ /, "_", species)
+            n = split($8, words, " ")
+            species = words[1]
+            if (n >= 2) species = species "_" words[2]
             print done_dir "/" $1 "_" species ".done"
         }
     ' "$SPECIES_FILE"
@@ -220,8 +244,14 @@ run_blast() {
     n_lines="$(species_line_count)"
     [[ "$n_lines" -ge 2 ]] || die "No species rows found in ${SPECIES_FILE}."
 
-    log "Submitting BLAST SLURM array 2-${n_lines}%3. Existing .done files will be skipped by ${BLAST_SCRIPT}."
-    run_cmd sbatch --array="2-${n_lines}%3" --wait "$BLAST_SCRIPT"
+    log "Submitting BLAST SLURM array 2-${n_lines}%3 for ${PIPELINE_QUERY_NAME}. Existing .done files will be skipped by ${BLAST_SCRIPT}."
+    run_cmd sbatch \
+        --chdir="$BASE_DIR" \
+        --output="${BASE_DIR}/Blast/logs/%A_%a.out" \
+        --error="${BASE_DIR}/Blast/logs/%A_%a.err" \
+        --array="2-${n_lines}%3" \
+        --wait \
+        "$BLAST_SCRIPT"
 
     blast_complete || {
     log "Missing expected BLAST done markers after submission:"
@@ -294,11 +324,11 @@ run_filter() {
     fi
 
     run_cmd python3 "$FILTER_SCRIPT"
-    require_file "$FILTERED_FASTA" "filtered SLIT homolog FASTA"
+    require_file "$FILTERED_FASTA" "filtered homolog FASTA"
 }
 
 run_count_homologs() {
-    require_file "$FILTERED_FASTA" "filtered SLIT homolog FASTA"
+    require_file "$FILTERED_FASTA" "filtered homolog FASTA"
 
     if [[ -s "$HOMOLOG_COUNTS_PNG" && "$FORCE_LOCAL" -eq 0 ]]; then
         log "SKIP count_homologs: ${HOMOLOG_COUNTS_PNG} already exists."
@@ -331,7 +361,7 @@ alignment_matches_requested_aligner() {
 }
 
 run_align() {
-    require_file "$FILTERED_FASTA" "filtered SLIT homolog FASTA"
+    require_file "$FILTERED_FASTA" "filtered homolog FASTA"
 
     if [[ "$FORCE_LOCAL" -eq 0 ]] && alignment_matches_requested_aligner; then
         log "SKIP align: ${ALIGNMENT_FASTA} already exists for ${ALIGNER}."
@@ -342,8 +372,16 @@ run_align() {
         log "Existing alignment is absent an aligner marker or was built with another aligner; rerunning with ${ALIGNER}."
     fi
 
-    run_cmd sbatch --wait "$ALIGN_SCRIPT"
-    [[ "$DRY_RUN" -eq 1 ]] && return
+    run_cmd sbatch \
+        --chdir="$BASE_DIR" \
+        --output="${BASE_DIR}/logs/${ALIGNER}_%j.log" \
+        --error="${BASE_DIR}/logs/${ALIGNER}_%j.log" \
+        --wait \
+        "$ALIGN_SCRIPT"
+    if [[ "$DRY_RUN" -eq 1 ]]; then
+        ALIGN_RAN=1
+        return
+    fi
 
     require_file "$ALIGNMENT_FASTA" "${ALIGNER} alignment"
     printf '%s\n' "$ALIGNER" > "$ALIGNMENT_ALIGNER_FILE"
@@ -359,7 +397,11 @@ sync_tree_outputs() {
 }
 
 run_iqtree() {
-    require_file "$ALIGNMENT_FASTA" "SLIT alignment"
+    if [[ "$DRY_RUN" -eq 1 && ! -s "$ALIGNMENT_FASTA" ]]; then
+        log "DRY-RUN: assuming ${ALIGNMENT_FASTA} will be created by the align step."
+    else
+        require_file "$ALIGNMENT_FASTA" "${PIPELINE_OUTPUT_PREFIX} alignment"
+    fi
 
     if [[ "$ALIGN_RAN" -eq 0 && -s "$RAW_TREE_FILE" && "$FORCE_LOCAL" -eq 0 ]]; then
         log "SKIP iqtree: ${RAW_TREE_FILE} already exists."
@@ -373,8 +415,16 @@ run_iqtree() {
         return
     fi
 
-    run_cmd sbatch --wait "$IQTREE_SCRIPT"
-    [[ "$DRY_RUN" -eq 1 ]] && return
+    run_cmd sbatch \
+        --chdir="$BASE_DIR" \
+        --output="${BASE_DIR}/logs/iqtree_%j.log" \
+        --error="${BASE_DIR}/logs/iqtree_%j.log" \
+        --wait \
+        "$IQTREE_SCRIPT"
+    if [[ "$DRY_RUN" -eq 1 ]]; then
+        IQTREE_RAN=1
+        return
+    fi
 
     IQTREE_RAN=1
     require_file "$TREE_FILE" "IQ-TREE treefile"
@@ -383,6 +433,12 @@ run_iqtree() {
 }
 
 run_compare_tree() {
+    if [[ "$DRY_RUN" -eq 1 && ! -s "$RAW_TREE_FILE" ]]; then
+        log "DRY-RUN: assuming ${RAW_TREE_FILE} will be created by the iqtree step."
+        run_cmd "${RSCRIPT_CMD[@]}" "$COMPARE_TREE_SCRIPT"
+        return
+    fi
+
     if [[ "$IQTREE_RAN" -eq 0 && -s "$TREE_PDF" && "$FORCE_LOCAL" -eq 0 ]]; then
         log "SKIP compare_tree: ${TREE_PDF} already exists."
         return

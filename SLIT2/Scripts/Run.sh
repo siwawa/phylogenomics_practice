@@ -1,17 +1,23 @@
 #!/bin/bash
-#SBATCH --job-name=SLIT
-#SBATCH --nodes=1                 
-#SBATCH --ntasks=1               
-#SBATCH --cpus-per-task=4      
-#SBATCH --mem=4G                 
-#SBATCH --output=/rna/liha/phylogenomics_practice/SLIT2/logs/__%j.log    
-#SBATCH --error=/rna/liha/phylogenomics_practice/SLIT2/logs/__%j.log      
+#SBATCH --job-name=PhyloRun
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --output=logs/__%j.log
+#SBATCH --error=logs/__%j.log
+set -euo pipefail
 
-cd /rna/liha/phylogenomics_practice/SLIT2/Scripts
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
+PIPELINE_OUTPUT_PREFIX="${PIPELINE_OUTPUT_PREFIX:-SLIT}"
 
-export SLIT_INPUT_FASTA="/rna/liha/phylogenomics_practice/SLIT2/Scripts/SLIT-homologs-removed-divergent.fasta"
+cd "$BASE_DIR"
+mkdir -p logs
 
-bash 00-Run-SLIT2-pipeline.sh \
+export PIPELINE_INPUT_FASTA="${PIPELINE_INPUT_FASTA:-${SCRIPT_DIR}/${PIPELINE_OUTPUT_PREFIX}-homologs-removed-divergent.fasta}"
+
+bash "${SCRIPT_DIR}/00-Run-SLIT2-pipeline.sh" \
   --from align \
   --to compare_tree \
   --aligner prank \
