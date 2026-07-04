@@ -23,4 +23,10 @@ export PIPELINE_OUTPUT_PREFIX="TENT5"
 export PIPELINE_QUERY_NAME="TENT5A-B-C-D"
 export PIPELINE_OUTGROUP_PATTERN="Echinodermata"
 
-bash "${SCRIPT_DIR}/00-Wrapper.sh"
+INPUT_FASTA="${SCRIPT_DIR}/${PIPELINE_OUTPUT_PREFIX}-homologs.fasta"
+if [[ ! -s "$INPUT_FASTA" ]]; then
+    echo "Error: alignment input FASTA not found or empty: $INPUT_FASTA" >&2
+    exit 1
+fi
+
+bash "${SCRIPT_DIR}/00-Wrapper.sh"   --from align   --to compare_tree   --aligner prank   --force-local

@@ -1,0 +1,95 @@
+Job started on pichu at Sat Jul  4 01:00:15 PM KST 2026
+Starting TENT5 alignment with PRANK...
+Input: /rna/liha/phylogenomics_practice/TENT/TENT5/Scripts/TENT5-homologs.fasta
+Output prefix: /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/TENT5_prank
+PRANK-safe input: /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/TENT5_prank_input.fasta
+Warning autodetection suggests DNA but protein model forced.
+Correcting (arbitrarily) for multifurcating nodes.
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9348
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10059
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10190
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10040
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10029
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10167
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10257
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9944
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10164
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10167
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10261
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9944
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10074
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9810
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10075
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10090
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10166
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9869
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10088
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9808
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10227
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9976
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9813
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9929
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10109
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9925
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 10131
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9619
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9925
+Correcting (arbitrarily) for multifurcating nodes.

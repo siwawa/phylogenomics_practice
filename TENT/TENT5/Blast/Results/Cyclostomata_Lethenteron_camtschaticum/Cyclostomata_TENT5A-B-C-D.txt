@@ -1,0 +1,3 @@
+TENT5B_Homo_sapiens	YP_007517132.1	21.649	97	21	6.1	20.8	NADH dehydrogenase subunit 5 [Lethenteron camtschaticum]
+TENT5D_Homo_sapiens	YP_007517131.1	30.303	33	16	0.70	23.9	NADH dehydrogenase subunit 4 [Lethenteron camtschaticum]
+TENT5D_Homo_sapiens	YP_007517131.1	31.429	35	16	3.5	21.6	NADH dehydrogenase subunit 4 [Lethenteron camtschaticum]

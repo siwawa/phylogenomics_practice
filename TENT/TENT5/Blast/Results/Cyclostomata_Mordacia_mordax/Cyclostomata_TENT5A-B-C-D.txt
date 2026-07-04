@@ -1,0 +1,8 @@
+TENT5A_Homo_sapiens	YP_010587543.1	36.000	25	5	1.4	20.0	NADH dehydrogenase subunit 4 [Mordacia mordax]
+TENT5B_Homo_sapiens	YP_010587544.1	20.979	143	30	1.9	19.2	NADH dehydrogenase subunit 5 [Mordacia mordax]
+TENT5D_Homo_sapiens	YP_010587543.1	36.364	33	13	0.20	22.3	NADH dehydrogenase subunit 4 [Mordacia mordax]
+TENT5D_Homo_sapiens	YP_010587543.1	33.333	33	13	3.8	18.5	NADH dehydrogenase subunit 4 [Mordacia mordax]
+TENT5D_Homo_sapiens	YP_010587545.1	62.500	8	2	3.5	18.1	NADH dehydrogenase subunit 6 [Mordacia mordax]
+TENT5D_Homo_sapiens	YP_010587535.1	55.556	9	2	3.5	18.5	NADH dehydrogenase subunit 2 [Mordacia mordax]
+TENT5D_Homo_sapiens	YP_010587534.1	28.302	53	12	4.1	18.1	NADH dehydrogenase subunit 1 [Mordacia mordax]
+TENT5D_Homo_sapiens	YP_010587533.1	25.806	31	8	4.7	18.1	cytochrome b [Mordacia mordax]

@@ -1,0 +1,2 @@
+[TENT5] RUN: sbatch --chdir=/rna/liha/phylogenomics_practice/TENT/TENT5 --output=/rna/liha/phylogenomics_practice/TENT/TENT5/logs/prank_%j.log --error=/rna/liha/phylogenomics_practice/TENT/TENT5/logs/prank_%j.log --wait /rna/liha/phylogenomics_practice/TENT/TENT5/Scripts/06-Align-PRANK.sh
+Submitted batch job 26331

@@ -1,0 +1,8 @@
+TENT5A_Homo_sapiens	XP_071820039.1	59.347	337	75	1.21e-130	384	terminal nucleotidyltransferase 5C-like [Apostichopus japonicus]
+TENT5B_Homo_sapiens	XP_071820039.1	54.769	325	76	9.00e-125	368	terminal nucleotidyltransferase 5C-like [Apostichopus japonicus]
+TENT5B_Homo_sapiens	XP_071854729.1	34.783	46	11	1.8	32.0	extracellular matrix protein 2-like [Apostichopus japonicus]
+TENT5B_Homo_sapiens	XP_071822417.1	66.667	18	4	1.9	31.6	uncharacterized protein [Apostichopus japonicus]
+TENT5B_Homo_sapiens	XP_071841931.1	22.917	48	11	5.4	30.8	uncharacterized protein [Apostichopus japonicus]
+TENT5C_Homo_sapiens	XP_071820039.1	56.693	381	96	1.03e-138	402	terminal nucleotidyltransferase 5C-like [Apostichopus japonicus]
+TENT5C_Homo_sapiens	XP_071811024.1	23.585	106	27	5.9	30.4	protein scribble homolog isoform X3 [Apostichopus japonicus]
+TENT5D_Homo_sapiens	XP_071820039.1	47.917	384	98	3.91e-120	355	terminal nucleotidyltransferase 5C-like [Apostichopus japonicus]

@@ -1,0 +1,7 @@
+TENT5A_Homo_sapiens	NP_127475.1	38.889	18	4	3.8	18.1	NADH dehydrogenase subunit 6 [Eptatretus burgeri]
+TENT5B_Homo_sapiens	NP_127467.1	85.714	7	2	2.3	18.9	cytochrome c oxidase subunit II [Eptatretus burgeri]
+TENT5B_Homo_sapiens	NP_127476.1	60.000	10	2	5.0	18.1	cytochrome b [Eptatretus burgeri]
+TENT5C_Homo_sapiens	NP_127467.1	27.027	74	17	3.0	18.5	cytochrome c oxidase subunit II [Eptatretus burgeri]
+TENT5C_Homo_sapiens	NP_127466.1	21.951	41	9	9.6	16.9	cytochrome c oxidase subunit I [Eptatretus burgeri]
+TENT5D_Homo_sapiens	NP_127476.1	18.182	33	8	1.2	19.6	cytochrome b [Eptatretus burgeri]
+TENT5D_Homo_sapiens	NP_127465.1	28.302	53	14	6.5	17.3	NADH dehydrogenase subunit 2 [Eptatretus burgeri]
