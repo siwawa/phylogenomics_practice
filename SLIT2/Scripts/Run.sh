@@ -17,7 +17,7 @@ mkdir -p logs
 
 export PIPELINE_INPUT_FASTA="${PIPELINE_INPUT_FASTA:-${SCRIPT_DIR}/${PIPELINE_OUTPUT_PREFIX}-homologs-removed-divergent.fasta}"
 
-bash "${SCRIPT_DIR}/00-Run-SLIT2-pipeline.sh" \
+bash "${SCRIPT_DIR}/00-Wrapper.sh" \
   --from align \
   --to compare_tree \
   --aligner prank \
