@@ -7,9 +7,8 @@ echo "Job started on $(hostname) at $(date)"
 
 # 새로 추가된 Target Clade
 TARGET_LIST=(
-    "Cephalochordata"
-    "Cyclostomata"
-    "Urochordata"
+    "Echinodermata"
+    "Hemichordata"
 )  
 
 # Adopted from /rna/liha/selection_project/Whole-genome/NCBI-select.sh 
