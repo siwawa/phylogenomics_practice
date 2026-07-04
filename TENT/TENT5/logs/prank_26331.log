@@ -93,3 +93,12 @@ Correcting (arbitrarily) for multifurcating nodes.
 
 Alignment score: 9925
 Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 9949
+
+
+Writing
+ - alignment to '/rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/TENT5_prank.best.fas'
+
+Alignment completed successfully! Output saved to: /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/TENT5_aligned.fasta
+Job ended at Sat Jul  4 01:28:35 PM KST 2026

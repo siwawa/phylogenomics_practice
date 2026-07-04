@@ -18,7 +18,7 @@ get_env <- function(name, default) {
 scripts_dir <- script_dir()
 base_dir <- normalizePath(file.path(scripts_dir, ".."), mustWork = TRUE)
 output_prefix <- get_env("PIPELINE_OUTPUT_PREFIX", "SLIT")
-outgroup_pattern <- get_env("PIPELINE_OUTGROUP_PATTERN", "Branchiostoma")
+outgroup_pattern <- get_env("PIPELINE_OUTGROUP_PATTERN", "Cyclostomata")
 raw_tree_dir <- file.path(base_dir, "Tree", "Raw-alignment")
 tree_file <- get_env("PIPELINE_TREE_FILE", file.path(raw_tree_dir, paste0(output_prefix, ".treefile")))
 tree_pdf <- get_env("PIPELINE_TREE_PDF", file.path(raw_tree_dir, "Tree.pdf"))
