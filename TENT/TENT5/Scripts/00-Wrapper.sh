@@ -250,7 +250,7 @@ run_blast() {
         --chdir="$BASE_DIR" \
         --output="${BASE_DIR}/Blast/logs/%A_%a.out" \
         --error="${BASE_DIR}/Blast/logs/%A_%a.err" \
-        --array="2-${n_lines}%3" \
+        --array="2-${n_lines}%2" \
         --wait \
         "$BLAST_SCRIPT"
 
