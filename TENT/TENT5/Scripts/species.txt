@@ -1,4 +1,99 @@
 Target_Clade	Accession	RefSeq_Status	Coverage	N50	Genome_Size	TaxID	Organism_Name
+Choanoflagellata	GCF_000002865.3	reference genome	na	49874	41633360	431895	Monosiga brevicollis MX1
+Choanoflagellata	GCF_000188695.1	reference genome	33.07	34760	55440309	946362	Salpingoeca rosetta
+Choanoflagellata	GCA_056507845.1	reference genome	350	454500	52290666	2572930	Choanoeca flexa
+Porifera	GCF_947507565.1	reference genome	393	506373	65248392	121494	Oscarella lobularis
+Porifera	GCF_964019385.1	reference genome	121	620096	539574681	27933	Sycon ciliatum
+Porifera	GCA_057556815.1	reference genome	107.03	7075925	160239288	97977	Farrea occa
+Porifera	GCF_000090795.2	reference genome	8	12197	164242647	400682	Amphimedon queenslandica
+Porifera	GCA_049114765.1	reference genome	100	2184802	230252502	6052	Ephydatia muelleri
+Porifera	GCA_982936665.1	reference genome	400	547198	293539101	263142	Cinachyrella apion
+Porifera	GCA_965643675.1	reference genome	63	3862293	197672554	289398	Aplysina cauliformis
+Porifera	GCA_977118375.1	reference genome	72	5341898	96282735	86007	Suberites ficus
+Porifera	GCA_963924555.1	reference genome	459	3453662	143177948	3722	Crambe crambe
+Porifera	GCA_964205185.2	reference genome	464	5505224	111574530	283519	Tethya californiana
+Ctenophora	GCA_946803715.1	reference genome	48	18289	91597139	10201	Beroe ovata
+Ctenophora	GCA_048537945.1	reference genome	450	3726882	208176570	27923	Mnemiopsis leidyi
+Ctenophora	GCA_046161365.1	reference genome	160	2465	132711383	34499	Pleurobrachia bachei
+Ctenophora	GCA_011033025.1	reference genome	290	208539	218968635	140453	Beroe forskalii
+Ctenophora	GCA_965231305.1	reference genome	155	164823	313740538	140496	Mertensia ovum
+Ctenophora	GCA_976929535.1	reference genome	34	487362	547923199	320166	Beroe abyssicola
+Ctenophora	GCA_020137815.1	reference genome	499	595295	110678691	1403702	Hormiphora californensis
+Ctenophora	GCA_031471255.1	reference genome	50	1625	465244027	1566677	Dryodora glandiformis
+Ctenophora	GCA_976914215.1	reference genome	180	808598	288346793	2516999	Bolinopsis mikado
+Ctenophora	GCF_026151205.1	reference genome	108	3068845	265435384	2820187	Bolinopsis microptera
+Ctenophora	GCA_977014805.1	na	62	216517	199480560	3027315	Bolinopsis sp. AMAMI
+Placozoa	GCF_000150275.1	reference genome	na	204191	105631681	10228	Trichoplax adhaerens
+Placozoa	GCA_003344405.1	na	80	91942	94878730	287889	Trichoplax sp. H2
+Cnidaria	GCF_037890685.1	reference genome	20	56075473	834212037	6087	Hydra vulgaris
+Cnidaria	GCF_902728285.1	reference genome	27	376564	420978673	252671	Clytia hemisphaerica
+Cnidaria	GCA_041430235.2	reference genome	75	2032403	3327460943	168775	Physalia physalis
+Cnidaria	GCA_039566865.1	reference genome	120	23520599	574952410	1962980	Aurelia coerulea
+Cnidaria	GCA_003991215.1	reference genome	30	30845	951575644	686327	Morbakka virulenta
+Cnidaria	GCA_916610825.1	reference genome	68	1466457	261880027	313498	Haliclystus octoradiatus
+Cnidaria	GCA_046867295.1	reference genome	35	2792954	40172413	182359	Sphaerospora molnari
+Cnidaria	GCF_932526225.1	reference genome	53	2927189	269418438	45351	Nematostella vectensis
+Cnidaria	GCA_047906015.2	reference genome	696	31044737	457591908	165419	Astrangia poculata
+Cnidaria	GCF_004324835.1	reference genome	108	1445523	286131786	151771	Dendronephthya gigantea
+Xenacoelomorpha	GCF_963678635.1	reference genome	30	256031	753507827	84072	Symsagittifera roscoffensis
+Xenacoelomorpha	GCA_032718475.1	reference genome	25	58979	407507662	172109	Nemertoderma westbladi
+Xenacoelomorpha	GCA_900660155.1	reference genome	90	14256	949845848	442651	Hofstenia miamia
+Xenacoelomorpha	GCF_964194025.1	reference genome	64	185568	1175981408	536237	Convolutriloba macropyga
+Xenacoelomorpha	GCA_965655095.1	reference genome	45	171431	1504463545	2916798	Haplodiscus bocki
+Xenacoelomorpha	GCA_964187785.1	na	23	373908	1066817370	2979135	Amphiscolops sp. MND2022
+Gnathifera	GCA_010279815.1	reference genome	373	55822	106939251	10195	Brachionus plicatilis
+Gnathifera	GCA_016802295.1	reference genome	779	174361	57707736	96890	Brachionus rotundiformis
+Gnathifera	GCA_002922825.1	reference genome	110	26524	129626318	104777	Brachionus calyciflorus
+Gnathifera	GCA_023231475.1	reference genome	132	45684	43872782	104778	Seison nebaliae
+Gnathifera	GCA_021403095.1	na	33	87402	217117546	104782	Adineta vaga
+Gnathifera	GCA_022393335.1	reference genome	56.7	32858	525309123	104788	Macrotrachela quadricornifera
+Gnathifera	GCA_905250025.1	reference genome	89	178075	135599987	249248	Adineta ricciae
+Gnathifera	GCA_019059635.1	reference genome	477.4	2428301	32722929	360698	Proales similis
+Gnathifera	GCA_900239685.1	reference genome	210	55551	234715442	392029	Rotaria macrura
+Gnathifera	GCA_965140935.1	reference genome	78	51186	173981101	392030	Rotaria magnacalcarata
+Gnathifera	GCA_965120325.2	reference genome	76	109477	151870906	392032	Rotaria socialis
+Gnathifera	GCA_905250125.1	reference genome	69	36551	360569275	392033	Rotaria sordida
+Gnathifera	GCA_022207745.1	reference genome	169.7	2506101	132737077	392764	Brachionus rubens
+Gnathifera	GCA_021432725.1	reference genome	570	5422639	56513240	396692	Brachionus angularis
+Gnathifera	GCA_905250115.1	reference genome	198	32736	171140834	433720	Adineta steineri
+Gnathifera	GCA_019054805.1	reference genome	363	6365377	114172357	667381	Brachionus manjavacas
+Gnathifera	GCA_016987375.1	reference genome	153	25177	86146996	1199090	Brachionus koreanus
+Gnathifera	GCA_905250885.1	reference genome	76	11859	368785172	1234261	Didymodactylos carnosus
+Gnathifera	GCA_006352455.1	na	18	24091	70983965	1317657	Brachionus sp.'Tiscar'
+Gnathifera	GCA_025491095.1	reference genome	70	3065462	230116674	1857775	Brachionus asplanchnoidis
+Gnathifera	GCA_016802215.1	reference genome	231.7	4130136	106205255	2599771	Brachionus paranguensis
+Gnathifera	GCA_905250055.1	na	53	34829	310426700	2762511	Rotaria sp.Silwood1
+Gnathifera	GCA_905332165.1	na	33	17923	308789974	2762512	Rotaria sp.Silwood2
+Platyhelminthes	GCA_002269645.1	reference genome	180	215276	764410778	282301	Macrostomum lignano
+Platyhelminthes	GCA_057920485.1	reference genome	54	8105788	853691854	79327	Schmidtea mediterranea
+Platyhelminthes	GCA_965235105.1	reference genome	48	6449511	3206858410	983666	Pseudobiceros splendidus
+Platyhelminthes	GCA_034780555.1	reference genome	60	10867	580059439	2991684	Coelogynopora nodosa
+Platyhelminthes	GCA_948099385.2	reference genome	30	9838557	1506673460	6192	Fasciola hepatica
+Platyhelminthes	GCF_000699445.3	reference genome	130	20231032	400271889	6185	Schistosoma haematobium
+Platyhelminthes	GCA_003604175.2	reference genome	200	838796	558124894	79923	Clonorchis sinensis
+Platyhelminthes	GCA_029291075.1	reference genome	29	87067	939802929	116851	Eudiplozoon nipponicum
+Platyhelminthes	GCA_056153285.1	reference genome	100	21803107	201350854	6216	Hymenolepis diminuta
+Platyhelminthes	GCA_977118345.1	reference genome	106	6972067	713084067	56557	Triaenophorus nodulosus
+Lophotrochozoa_Brachiopoda	GCF_001039355.2	reference genome	226	56068	406282338	7574	Lingula anatina
+Lophotrochozoa_Phoronida	GCA_055505105.1	reference genome	62	9691388	529053937	115415	Phoronis australis
+Lophotrochozoa_Nemertea	GCF_910592395.1	reference genome	79	9910080	391165532	88925	Lineus longissimus
+Lophotrochozoa_Bryozoa	GCA_914767715.1	reference genome	66	7007262	339359933	95170	Membranipora membranacea
+Lophotrochozoa_Gastrotricha	GCA_047495785.1	reference genome	83	3623880	121234032	1194616	Lepidodermella squamata
+Lophotrochozoa_Mollusca (Bivalvia)	GCA_054850785.1	reference genome	32	149331216	2985579439	2731840	Gibbosula rochechouartii
+Lophotrochozoa_Mollusca (Gastropoda)	GCA_965237135.1	reference genome	234	50589882	951685553	43341	Phorcus turbinatus
+Lophotrochozoa_Mollusca (Cephalopoda)	GCA_054771915.1	reference genome	40	30166387	1636068110	2052491	Argonauta hians
+Lophotrochozoa_Annelida (Polychaeta)	GCA_965649835.1	reference genome	44	50651150	2313176056	1928866	Leodice harassii
+Lophotrochozoa_Annelida (Clitellata)	GCA_049355025.1	reference genome	100.17	16586161	758802142	320991	Amynthas aspergillum
+Ecdysozoa_Nematoda	GCA_981261845.1	reference genome	224	24079000	171758850	1094334	Caenorhabditis portoensis
+Ecdysozoa_Nematomorpha	GCA_964276485.1	reference genome	116	5676996	110642940	190579	Paragordius varius
+Ecdysozoa_Priapulida	GCF_000485595.1	reference genome	100	10617	511723334	37621	Priapulus caudatus
+Ecdysozoa_Onychophora	GCA_028023455.1	reference genome	28	972830	5601407764	2448278	Epiperipatus broadwayi
+Ecdysozoa_Tardigrada	GCF_019649055.1	reference genome	107	1033953	170509133	2943436	Paramacrobiotus metropolitanus
+Ecdysozoa_Arthropoda (Arachnida)	GCA_978018815.1	reference genome	54	322710697	3929230577	3229105	Aelurillus cypriotus
+Ecdysozoa_Arthropoda (Insecta)	GCA_978019135.1	reference genome	47	257295000	7746787422	2034322	Troglophilus ovuliformis
+Ecdysozoa_Arthropoda (Myriapoda)	GCA_982266715.1	reference genome	46	63664107	1480853019	41365	Scolopendra cingulata
+Ecdysozoa_Arthropoda (Xiphosura)	GCA_011833715.1	reference genome	118	7608042	1668682064	6848	Carcinoscorpius rotundicauda
+Ecdysozoa_Arthropoda (Crustacea)	GCA_059053995.1	reference genome	90	11757729	128201494	1820382	Daphnia sinensis
 Hemichordata	GCF_000003605.3	reference genome	na	10076	775049609	10224	Saccoglossus kowalevskii
 Hemichordata	GCF_041260155.1	reference genome	60	6516602	1161750505	63121	Ptychodera flava
 Hemichordata	GCA_040954625.2	reference genome	51.8	2549480	329678253	509136	Balanoglossus misakiensis
