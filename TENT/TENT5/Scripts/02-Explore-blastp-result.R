@@ -110,17 +110,7 @@ if (nrow(df_clean) == 0) {
   stop("No BLAST rows matched the target species names after filtering.")
 }
 
-df_bit <- df_clean[bitscore >= 300]
-p1 <- ggplot(df_bit, aes(x = bitscore)) +
-  geom_histogram(fill = "steelblue", color = "black", bins = 30) +
-  theme_minimal() +
-  labs(
-    title = "Distribution of Bit Scores (>= 300)",
-    subtitle = paste("Total filtered alignments:", nrow(df_bit)),
-    x = "Bit Score",
-    y = "Count"
-  )
-print(p1)
+
 
 df_plot <- copy(df_clean[evalue < 1e-10])
 df_plot[evalue == 0, evalue := 1e-300]
@@ -136,6 +126,10 @@ p3 <- ggplot(df_plot, aes(x = -log10(evalue))) +
   )
 print(p3)
 ggsave(filename = file.path(scripts_dir, "E-value_Distribution.png"), plot = p3, width = 8, height = 5, bg = "white")
+
+
+
+
 
 df_plot4 <- copy(df_clean[evalue < 1e-80])
 df_plot4[evalue == 0, evalue := 1e-300]
@@ -156,6 +150,11 @@ p4 <- p4 + geom_vline(xintercept = reference_length, color = "darkred", linetype
 
 print(p4)
 ggsave(filename = file.path(scripts_dir, "E-value_vs_Aligned_Length.png"), plot = p4, width = 8, height = 5, bg = "white")
+
+
+
+
+
 
 df_clean[, target_species := factor(target_species, levels = species_list$Organism_Label)]
 df_hits <- df_clean[evalue <= 1e-300]
