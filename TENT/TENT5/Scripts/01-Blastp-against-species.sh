@@ -2,7 +2,7 @@
 #SBATCH --job-name=PhyloBlastp
 #SBATCH --output=Blast/logs/%A_%a.out
 #SBATCH --error=Blast/logs/%A_%a.err
-#SBATCH --array=2-47%3
+#SBATCH --array=2-188%2
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 set -euo pipefail
