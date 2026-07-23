@@ -7,9 +7,17 @@ echo "Job started on $(hostname) at $(date)"
 
 # 새로 추가된 Target Clade
 TARGET_LIST=(
-    "Echinodermata"
-    "Hemichordata"
-)  
+    "Choanoflagellata"   # outgroup
+    "Porifera"
+    "Ctenophora"
+    "Placozoa"
+    "Cnidaria"
+    "Xenacoelomorpha"   
+    "Gnathifera"
+    "Platyhelminthes"
+    "Lophotrochozoa"
+    "Ecdysozoa"
+)
 
 # Adopted from /rna/liha/selection_project/Whole-genome/NCBI-select.sh 
 CUTOFF_DATE="2015-01-01"
@@ -23,6 +31,10 @@ for TAXON in "${TARGET_LIST[@]}"; do
     QUERY_TAXON="$TAXON"
     if [ "$TAXON" == "Cyclostomata" ]; then
         QUERY_TAXON="1476529"
+    elif [ "$TAXON" == "Ctenophora" ]; then 
+        QUERY_TAXON="10197"
+    elif [ "$TAXON" == "Gnathifera" ]; then
+        QUERY_TAXON="10190"
     elif [ "$TAXON" == "Cephalochordata" ]; then
         QUERY_TAXON="7737"
     fi
