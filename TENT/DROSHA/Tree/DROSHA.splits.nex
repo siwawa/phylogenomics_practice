@@ -1,0 +1,201 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=38;
+TAXLABELS
+[1] 'Urochordata_Aplidium_turbinatum_H1_145781242_original_acc_XP_082449149.1'
+[2] 'Urochordata_Clavelina_lepadiformis_H1_143458571_original_acc_XP_076811465.1'
+[3] 'Urochordata_Corella_eumyota_H1_145744706_original_acc_XP_082418752.1'
+[4] 'Urochordata_Ciona_intestinalis_H1_100184388_original_acc_XP_078485431.1'
+[5] 'Urochordata_Ascidia_mentula_H1_145907147_original_acc_XP_082850708.1'
+[6] 'Urochordata_Botryllus_schlosseri_H1_145454419_original_acc_XP_080188540.1'
+[7] 'Urochordata_Styela_clava_H1_120339648_original_acc_XP_039263749.2'
+[8] 'Urochordata_Thalia_democratica_H1_145849148_original_acc_XP_082810374.1'
+[9] 'Euteleostomi_Acipenser_ruthenus_H1_117435344_original_acc_XP_034777036.2'
+[10] 'Euteleostomi_Acipenser_ruthenus_H2_117399785_original_acc_XP_058879080.1'
+[11] 'Euteleostomi_Polypterus_senegalus_H1_120529392_original_acc_XP_039609084.1'
+[12] 'Euteleostomi_Lepisosteus_oculatus_H1_102687085_original_acc_XP_015210280.2'
+[13] 'Teleostei_Paralichthys_olivaceus_H1_109641148_original_acc_XP_069368561.1'
+[14] 'Teleostei_Scomber_japonicus_H1_128382052_original_acc_XP_053198005.1'
+[15] 'Euteleostomi_Xenopus_tropicalis_H1_100135003_original_acc_XP_031759055.1'
+[16] 'Euteleostomi_Anolis_carolinensis_H1_100557447_original_acc_XP_062833694.1'
+[17] 'Euteleostomi_Gallus_gallus_H1_420911_original_acc_NP_001006379.2'
+[18] 'Euteleostomi_Homo_sapiens_H1_29102_original_acc_NP_001369437.1'
+[19] 'Euteleostomi_Mus_musculus_H1_14000_original_acc_XP_006520084.1'
+[20] 'Euteleostomi_Latimeria_chalumnae_H1_102345517_original_acc_XP_006006531.1'
+[21] 'Chondrichthyes_Callorhinchus_milii_H1_103179930_original_acc_XP_007893655.2'
+[22] 'Chondrichthyes_Heptranchias_perlo_H1_137339170_original_acc_XP_067857978.1'
+[23] 'Chondrichthyes_Pristiophorus_japonicus_H1_139263738_original_acc_XP_070735870.1'
+[24] 'Chondrichthyes_Heterodontus_francisci_H1_137381341_original_acc_XP_067909869.1'
+[25] 'Chondrichthyes_Scyliorhinus_torazame_H1_140425625_original_acc_XP_072366232.1'
+[26] 'Chondrichthyes_Stegostoma_tigrinum_H1_125461887_original_acc_XP_048407166.1'
+[27] 'Chondrichthyes_Leucoraja_erinaceus_H1_129711000_original_acc_XP_055514316.1'
+[28] 'Chondrichthyes_Raja_brachyura_H1_145381519_original_acc_XP_080103107.1'
+[29] 'Chondrichthyes_Mobula_birostris_H1_140212484_original_acc_XP_072139449.1'
+[30] 'Chondrichthyes_Mobula_hypostoma_H1_134357898_original_acc_XP_062925728.1'
+[31] 'Cyclostomata_Myxine_glutinosa_H1_137434897_original_acc_XP_067984207.2'
+[32] 'Cyclostomata_Lampetra_planeri_H1_144735707_original_acc_XP_078474325.1'
+[33] 'Cyclostomata_Lethenteron_reissneri_H1_133357175_original_acc_XP_061430979.1'
+[34] 'Cyclostomata_Petromyzon_marinus_H1_116957850_original_acc_XP_032836155.1'
+[35] 'Cephalochordata_Branchiostoma_belcheri_H1_109484702_original_acc_XP_019643612.1'
+[36] 'Cephalochordata_Branchiostoma_floridae_H1_118420852_original_acc_XP_035683787.1'
+[37] 'Cephalochordata_Branchiostoma_lanceolatum_H1_136441728_original_acc_XP_066294267.1'
+[38] 'Urochordata_Oikopleura_dioica_H1_145697998_original_acc_XP_081631329.1'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=38 nsplits=148;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 4,
+	44	 3 4,
+	100	 5,
+	100	 6,
+	100	 7,
+	100	 6 7,
+	100	 9,
+	100	 10,
+	100	 9 10,
+	100	 12,
+	100	 13,
+	100	 14,
+	100	 13 14,
+	99	 12 13 14,
+	92	 9 10 12 13 14,
+	100	 11,
+	100	 9 10 11 12 13 14,
+	100	 15,
+	100	 16,
+	100	 17,
+	100	 18,
+	100	 19,
+	100	 18 19,
+	84	 17 18 19,
+	99	 16 17 18 19,
+	100	 15 16 17 18 19,
+	100	 20,
+	100	 15 16 17 18 19 20,
+	100	 9 10 11 12 13 14 15 16 17 18 19 20,
+	100	 21,
+	100	 22,
+	100	 23,
+	100	 27,
+	100	 28,
+	100	 27 28,
+	100	 29,
+	100	 30,
+	100	 29 30,
+	100	 27 28 29 30,
+	32	 23 27 28 29 30,
+	100	 24,
+	100	 25,
+	100	 26,
+	84	 25 26,
+	88	 24 25 26,
+	84	 23 24 25 26 27 28 29 30,
+	97	 22 23 24 25 26 27 28 29 30,
+	100	 21 22 23 24 25 26 27 28 29 30,
+	100	 1 2 3 4 5 6 7 8 31 32 33 34 35 36 37 38,
+	100	 31,
+	100	 32,
+	100	 33,
+	100	 34,
+	5	 33 34,
+	100	 32 33 34,
+	100	 31 32 33 34,
+	100	 1 2 3 4 5 6 7 8 35 36 37 38,
+	100	 35,
+	100	 36,
+	100	 37,
+	92	 36 37,
+	100	 35 36 37,
+	100	 1 2 3 4 5 6 7 8 38,
+	100	 38,
+	100	 1 2 3 4 5 6 7 8,
+	31	 1 2 3 4 5 8,
+	100	 8,
+	100	 1 2 3 4 5,
+	40	 1 2 3 4,
+	97	 1 2,
+	100	 1,
+	51	 4 5,
+	23	 3 4 5,
+	11	 16 18 19,
+	95	 32 33,
+	68	 1 2 3 4 5 6 7,
+	39	 24 25 26 27 28 29 30,
+	12	 1 2 4 5,
+	14	 23 24 25 26,
+	11	 22 23 24 25 26,
+	4	 35 36,
+	4	 35 37,
+	29	 1 2 3,
+	1	 23 25 26,
+	1	 1 2 5,
+	14	 24 25,
+	3	 22 24 25 26,
+	11	 23 26,
+	10	 23 26 27 28 29 30,
+	4	 9 10 11,
+	5	 16 17,
+	1	 15 16 17,
+	3	 11 12 13 14,
+	1	 22 23,
+	0	 2 3 4 5,
+	0	 1 2 3 8,
+	0	 1 2 8,
+	0	 1 8,
+	1	 21 22,
+	1	 21 22 24 25 26,
+	2	 21 22 24 25 26 27 28 29 30,
+	1	 21 27 28 29 30,
+	0	 15 20,
+	1	 2 3 4,
+	0	 1 3 4 5,
+	0	 1 2 3 4 5 7 8,
+	1	 1 3,
+	1	 22 24 25 26 27 28 29 30,
+	0	 2 4 5,
+	1	 6 7 8,
+	0	 22 27 28 29 30,
+	1	 15 16,
+	0	 1 2 3 5,
+	2	 24 26,
+	1	 21 22 23 24 25 26,
+	0	 9 10 11 12 13 14 21 22 23 24 25 26 27 28 29 30,
+	1	 32 34,
+	1	 11 12,
+	1	 9 10 11 12,
+	0	 22 23 27 28 29 30,
+	0	 8 38,
+	0	 9 10 11 12 13 14 20,
+	0	 26 27 28 29 30,
+	0	 21 22 27 28 29 30,
+	0	 1 3 4 5 8,
+	0	 4 8,
+	0	 4 5 8,
+	0	 1 2 4 5 8,
+	0	 1 2 3 4 8,
+	0	 22 23 26 27 28 29 30,
+	0	 1 5,
+	0	 1 2 3 4 5 6 7 38,
+	0	 23 25 26 27 28 29 30,
+	0	 9 10 13 14,
+	0	 3 5,
+	0	 9 10 11 12 13 14 15 16 17 18 19,
+	0	 15 18 19,
+	0	 15 16 18 19,
+	0	 9 10 11 12 13 14 15 16 17 18 19 20 21,
+	0	 21 24 25 26 27 28 29 30,
+	0	 25 26 27 28 29 30,
+	0	 5 8,
+	0	 16 17 18 19 20,
+	0	 1 2 3 4 5 8 38,
+	0	 9 10 11 12 13 14 16 17 18 19 20,
+	0	 2 3,
+;
+END; [Splits]
+

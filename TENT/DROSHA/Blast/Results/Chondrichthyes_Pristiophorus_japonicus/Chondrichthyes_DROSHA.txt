@@ -1,0 +1,7 @@
+sp|Q9NRR4|RNC_HUMAN	XP_070735870.1	57.837	638	73	0.0	628	ribonuclease 3 [Pristiophorus japonicus]
+sp|Q9NRR4|RNC_HUMAN	XP_070735870.1	91.722	302	73	1.33e-172	543	ribonuclease 3 [Pristiophorus japonicus]
+sp|Q9NRR4|RNC_HUMAN	XP_070735870.1	30.000	120	73	5.72e-10	65.1	ribonuclease 3 [Pristiophorus japonicus]
+sp|Q9NRR4|RNC_HUMAN	XP_070726634.1	96.279	215	20	1.33e-146	444	ribonuclease 3-like, partial [Pristiophorus japonicus]
+sp|Q9NRR4|RNC_HUMAN	XP_070726634.1	32.258	62	20	2.97e-06	50.4	ribonuclease 3-like, partial [Pristiophorus japonicus]
+sp|Q9NRR4|RNC_HUMAN	XP_070740966.1	34.848	66	5	1.0	34.7	PHD finger protein 3 isoform X1 [Pristiophorus japonicus]
+sp|Q9NRR4|RNC_HUMAN	XP_070740968.1	34.848	66	5	1.3	34.3	PHD finger protein 3 isoform X2 [Pristiophorus japonicus]

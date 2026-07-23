@@ -1,0 +1,4 @@
+sp|Q9NRR4|RNC_HUMAN	XP_058879080.1	76.093	1372	99	0.0	1940	ribonuclease 3-like isoform X1 [Acipenser ruthenus]
+sp|Q9NRR4|RNC_HUMAN	XP_058879081.1	75.146	1372	99	0.0	1901	ribonuclease 3-like isoform X2 [Acipenser ruthenus]
+sp|Q9NRR4|RNC_HUMAN	XP_034777036.2	89.388	980	71	0.0	1805	ribonuclease 3-like isoform X1 [Acipenser ruthenus]
+sp|Q9NRR4|RNC_HUMAN	XP_058874750.1	87.959	980	71	0.0	1767	ribonuclease 3-like isoform X2 [Acipenser ruthenus]

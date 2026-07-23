@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_067857978.1	71.768	1431	99	0.0	1845	ribonuclease 3 [Heptranchias perlo]

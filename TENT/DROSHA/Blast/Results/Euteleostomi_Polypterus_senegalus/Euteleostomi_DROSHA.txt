@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_039609084.1	77.269	1377	99	0.0	2002	ribonuclease 3 [Polypterus senegalus]

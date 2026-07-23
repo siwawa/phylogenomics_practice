@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_031759055.1	81.376	1192	86	0.0	1880	ribonuclease 3 isoform X1 [Xenopus tropicalis]
+sp|Q9NRR4|RNC_HUMAN	NP_001107152.1	81.292	1192	86	0.0	1880	ribonuclease 3 [Xenopus tropicalis]

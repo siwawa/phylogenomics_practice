@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	YP_009107410.1	38.710	31	2	7.4	20.0	NADH dehydrogenase subunit 1 [Eudontomyzon morii]

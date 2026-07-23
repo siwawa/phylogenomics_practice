@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_072366232.1	74.417	1329	95	0.0	1839	ribonuclease 3 [Scyliorhinus torazame]

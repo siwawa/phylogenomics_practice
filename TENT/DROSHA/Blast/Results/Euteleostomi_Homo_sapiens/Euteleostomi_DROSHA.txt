@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	NP_001369437.1	100.000	1374	100	0.0	2857	ribonuclease 3 isoform 1 [Homo sapiens]
+sp|Q9NRR4|RNC_HUMAN	NP_001093882.1	97.234	1374	100	0.0	2759	ribonuclease 3 isoform 2 [Homo sapiens]

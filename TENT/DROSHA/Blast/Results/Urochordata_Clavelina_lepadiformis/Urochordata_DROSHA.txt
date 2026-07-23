@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_076811466.1	47.077	1283	89	0.0	1088	ribonuclease 3-like isoform X2 [Clavelina lepadiformis]
+sp|Q9NRR4|RNC_HUMAN	XP_076811465.1	47.205	1288	89	0.0	1086	ribonuclease 3-like isoform X1 [Clavelina lepadiformis]

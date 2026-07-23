@@ -1,0 +1,104 @@
+Job started on dicer at Wed Jul 22 03:28:37 PM KST 2026
+Starting DROSHA alignment with PRANK...
+Input: /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/DROSHA-homologs.fasta
+Output prefix: /rna/liha/phylogenomics_practice/TENT/DROSHA/Alignments/DROSHA_prank
+PRANK-safe input: /rna/liha/phylogenomics_practice/TENT/DROSHA/Alignments/DROSHA_prank_input.fasta
+Warning autodetection suggests DNA but protein model forced.
+Correcting (arbitrarily) for multifurcating nodes.
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36569
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 33736
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35230
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 33156
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 34936
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36664
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 37239
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35544
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36890
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36184
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35563
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36062
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 34102
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 32702
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35730
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35579
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 34995
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36015
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35015
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35854
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 34829
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35715
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36386
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35480
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36234
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35631
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36095
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 36319
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 35473
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 34964
+
+
+Writing
+ - alignment to '/rna/liha/phylogenomics_practice/TENT/DROSHA/Alignments/DROSHA_prank.best.fas'
+
+Alignment completed successfully! Output saved to: /rna/liha/phylogenomics_practice/TENT/DROSHA/Alignments/DROSHA_aligned.fasta
+Job ended at Wed Jul 22 06:11:13 PM KST 2026

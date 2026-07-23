@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_081631329.1	46.076	892	63	0.0	787	ribonuclease 3-like [Oikopleura dioica]
+sp|Q9NRR4|RNC_HUMAN	XP_081644114.1	35.246	122	9	0.008	39.7	protein transport protein Sec24A-like [Oikopleura dioica]

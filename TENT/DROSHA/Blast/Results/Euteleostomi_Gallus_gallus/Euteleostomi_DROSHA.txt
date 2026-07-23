@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	NP_001006379.2	85.506	1373	99	0.0	2198	ribonuclease 3 [Gallus gallus]

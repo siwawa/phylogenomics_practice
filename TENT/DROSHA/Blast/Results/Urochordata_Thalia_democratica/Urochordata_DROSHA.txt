@@ -1,0 +1,5 @@
+sp|Q9NRR4|RNC_HUMAN	XP_082810374.1	48.107	898	63	0.0	846	uncharacterized protein LOC145849148 [Thalia democratica]
+sp|Q9NRR4|RNC_HUMAN	XP_082800547.1	32.961	179	17	3.76e-11	67.8	endoribonuclease Dicer-like [Thalia democratica]
+sp|Q9NRR4|RNC_HUMAN	XP_082800547.1	37.736	53	17	3.40e-04	45.1	endoribonuclease Dicer-like [Thalia democratica]
+sp|Q9NRR4|RNC_HUMAN	XP_082800547.1	40.741	54	17	0.027	38.5	endoribonuclease Dicer-like [Thalia democratica]
+sp|Q9NRR4|RNC_HUMAN	XP_082800547.1	30.645	62	17	0.98	33.5	endoribonuclease Dicer-like [Thalia democratica]

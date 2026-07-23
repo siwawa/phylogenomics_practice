@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_007893655.2	68.996	1474	99	0.0	1860	ribonuclease 3 [Callorhinchus milii]

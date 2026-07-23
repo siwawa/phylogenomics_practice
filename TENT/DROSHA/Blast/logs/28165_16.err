@@ -1,0 +1,1 @@
+Warning: [blastp] conversion_warning: Failed to collect db stats for refseq_protein (entrez query: txid1917237[Organism]) conversion_warning: Query 'Query_1 sp|Q9NRR4|RNC_HUM.. ' (# 1): Warning: Filtering resulted in an empty database. 

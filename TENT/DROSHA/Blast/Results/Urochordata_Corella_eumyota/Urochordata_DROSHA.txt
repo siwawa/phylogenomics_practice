@@ -1,0 +1,7 @@
+sp|Q9NRR4|RNC_HUMAN	XP_082418752.1	58.258	884	71	0.0	1080	ribonuclease 3-like [Corella eumyota]
+sp|Q9NRR4|RNC_HUMAN	XP_082418752.1	30.189	106	71	0.004	41.2	ribonuclease 3-like [Corella eumyota]
+sp|Q9NRR4|RNC_HUMAN	XP_082422856.1	33.140	172	16	1.45e-10	65.9	endoribonuclease Dicer-like [Corella eumyota]
+sp|Q9NRR4|RNC_HUMAN	XP_082422856.1	35.526	76	16	6.47e-06	50.8	endoribonuclease Dicer-like [Corella eumyota]
+sp|Q9NRR4|RNC_HUMAN	XP_082422856.1	38.596	57	16	0.001	43.5	endoribonuclease Dicer-like [Corella eumyota]
+sp|Q9NRR4|RNC_HUMAN	XP_082422856.1	35.088	57	16	0.006	40.8	endoribonuclease Dicer-like [Corella eumyota]
+sp|Q9NRR4|RNC_HUMAN	XP_082419641.1	45.098	51	4	5.5	31.2	uncharacterized protein LOC145745436 [Corella eumyota]

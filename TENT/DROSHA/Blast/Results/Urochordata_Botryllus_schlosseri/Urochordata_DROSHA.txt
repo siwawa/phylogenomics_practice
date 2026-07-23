@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_080188540.1	55.714	910	68	0.0	1037	ribonuclease 3-like [Botryllus schlosseri]
+sp|Q9NRR4|RNC_HUMAN	XP_080188540.1	28.723	94	68	0.060	38.1	ribonuclease 3-like [Botryllus schlosseri]

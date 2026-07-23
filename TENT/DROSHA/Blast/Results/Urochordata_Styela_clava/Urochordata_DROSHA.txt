@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_039263749.2	56.852	934	65	0.0	1092	ribonuclease 3-like [Styela clava]

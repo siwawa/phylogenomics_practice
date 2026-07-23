@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_067909869.1	72.818	1409	99	0.0	1878	ribonuclease 3 isoform X1 [Heterodontus francisci]
+sp|Q9NRR4|RNC_HUMAN	XP_067909879.1	72.676	1409	99	0.0	1870	ribonuclease 3 isoform X2 [Heterodontus francisci]

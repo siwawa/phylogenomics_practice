@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_061430979.1	72.262	977	70	0.0	1451	ribonuclease 3 [Lethenteron reissneri]

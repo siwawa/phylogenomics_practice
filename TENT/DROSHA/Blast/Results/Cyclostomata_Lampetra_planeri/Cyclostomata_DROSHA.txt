@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_078474327.1	72.364	977	70	0.0	1455	ribonuclease 3 isoform X2 [Lampetra planeri]
+sp|Q9NRR4|RNC_HUMAN	XP_078474325.1	71.975	967	69	0.0	1433	ribonuclease 3 isoform X1 [Lampetra planeri]

@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_072139449.1	74.662	1330	95	0.0	1883	ribonuclease 3 isoform X1 [Mobula birostris]
+sp|Q9NRR4|RNC_HUMAN	XP_072139450.1	73.158	1330	95	0.0	1832	ribonuclease 3 isoform X2 [Mobula birostris]

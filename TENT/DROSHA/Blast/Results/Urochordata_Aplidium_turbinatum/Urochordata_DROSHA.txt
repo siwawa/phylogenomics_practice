@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_082449149.1	55.854	931	72	0.0	1058	ribonuclease 3-like [Aplidium turbinatum]
+sp|Q9NRR4|RNC_HUMAN	XP_082449149.1	39.326	89	72	4.64e-06	51.2	ribonuclease 3-like [Aplidium turbinatum]

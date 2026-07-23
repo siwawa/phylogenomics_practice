@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_006006531.1	80.000	1390	99	0.0	2093	ribonuclease 3 [Latimeria chalumnae]

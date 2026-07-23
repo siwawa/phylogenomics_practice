@@ -1,0 +1,33 @@
+[DROSHA] Submitting BLAST SLURM array 2-59%3 for DROSHA. Existing .done files will be skipped by /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/01-Blastp-against-species.sh.
+[DROSHA] RUN: sbatch --chdir=/rna/liha/phylogenomics_practice/TENT/DROSHA --output=/rna/liha/phylogenomics_practice/TENT/DROSHA/Blast/logs/%A_%a.out --error=/rna/liha/phylogenomics_practice/TENT/DROSHA/Blast/logs/%A_%a.err --array=2-59%3 --wait /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/01-Blastp-against-species.sh
+Submitted batch job 28165
+[DROSHA] RUN: Rscript /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/02-Explore-blastp-result.R
+[DROSHA] RUN: conda run -n r_env Rscript /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/02-Explore-blastp-result.R
+[DROSHA] RUN: bash /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/03-Download-fasta.sh
+[DROSHA] RUN: python3 /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/04-Filter-isomers.py
+0. Loading accession-to-organism metadata...
+-> Loaded 54 unique metadata mappings.
+
+1. Extracting sequences, lengths, and accessions from FASTA...
+-> Found 54 protein sequences.
+
+2. Looking up Gene IDs for each protein through NCBI; this may take 1-2 minutes...
+   [10/54] mappings completed...
+   [20/54] mappings completed...
+   [30/54] mappings completed...
+   [40/54] mappings completed...
+   [50/54] mappings completed...
+
+3. Removing isoforms and assigning paralog labels (H1, H2...)...
+-> Filtered 54 sequences down to 38.
+
+4. Writing the final FASTA file...
+Done. Output FASTA: /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/DROSHA-homologs.fasta
+[DROSHA] RUN: conda run -n r_env Rscript /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/05-Count-homologs-per-species.R
+[DROSHA] RUN: sbatch --chdir=/rna/liha/phylogenomics_practice/TENT/DROSHA --output=/rna/liha/phylogenomics_practice/TENT/DROSHA/logs/prank_%j.log --error=/rna/liha/phylogenomics_practice/TENT/DROSHA/logs/prank_%j.log --wait /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/06-Align-PRANK.sh
+Submitted batch job 28229
+[DROSHA] RUN: sbatch --chdir=/rna/liha/phylogenomics_practice/TENT/DROSHA --output=/rna/liha/phylogenomics_practice/TENT/DROSHA/logs/iqtree_%j.log --error=/rna/liha/phylogenomics_practice/TENT/DROSHA/logs/iqtree_%j.log --wait /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/07-Iq-tree.sh
+Submitted batch job 28230
+[DROSHA] RUN: cp -p /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.bionj /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.ckp.gz /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.contree /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.iqtree /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.log /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.mldist /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.model.gz /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.splits.nex /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.treefile /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/Raw-alignment/
+[DROSHA] RUN: conda run -n r_env Rscript /rna/liha/phylogenomics_practice/TENT/DROSHA/Scripts/08-Compare-tree.R
+[DROSHA] Pipeline wrapper finished.

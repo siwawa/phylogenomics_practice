@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_062925728.1	71.399	1430	99	0.0	1882	ribonuclease 3 [Mobula hypostoma]

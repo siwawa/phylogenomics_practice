@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_067984207.2	76.789	978	71	0.0	1585	ribonuclease 3 [Myxine glutinosa]

@@ -1,0 +1,3 @@
+sp|Q9NRR4|RNC_HUMAN	NP_127464.1	46.154	13	1	4.8	19.6	NADH dehydrogenase subunit 1 [Eptatretus burgeri]
+sp|Q9NRR4|RNC_HUMAN	NP_127470.1	33.333	33	4	9.4	18.9	cytochrome c oxidase subunit III [Eptatretus burgeri]
+sp|Q9NRR4|RNC_HUMAN	NP_127470.1	36.000	25	4	9.9	18.9	cytochrome c oxidase subunit III [Eptatretus burgeri]

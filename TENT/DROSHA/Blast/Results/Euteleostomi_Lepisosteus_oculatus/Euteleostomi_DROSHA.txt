@@ -1,0 +1,5 @@
+sp|Q9NRR4|RNC_HUMAN	XP_015210283.2	78.019	1383	99	0.0	1957	ribonuclease 3 isoform X4 [Lepisosteus oculatus]
+sp|Q9NRR4|RNC_HUMAN	XP_015210282.2	77.850	1386	99	0.0	1952	ribonuclease 3 isoform X3 [Lepisosteus oculatus]
+sp|Q9NRR4|RNC_HUMAN	XP_015210281.2	76.797	1405	99	0.0	1945	ribonuclease 3 isoform X2 [Lepisosteus oculatus]
+sp|Q9NRR4|RNC_HUMAN	XP_015210280.2	76.634	1408	99	0.0	1939	ribonuclease 3 isoform X1 [Lepisosteus oculatus]
+sp|Q9NRR4|RNC_HUMAN	XP_015206173.2	33.577	137	9	0.022	40.4	transport and Golgi organization protein 1 homolog isoform X1 [Lepisosteus oculatus]

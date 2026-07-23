@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_078485431.1	55.428	958	70	0.0	1087	ribonuclease 3 [Ciona intestinalis]
+sp|Q9NRR4|RNC_HUMAN	XP_078485431.1	32.558	86	70	0.037	38.5	ribonuclease 3 [Ciona intestinalis]

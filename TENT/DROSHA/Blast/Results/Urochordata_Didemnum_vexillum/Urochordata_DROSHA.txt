@@ -1,0 +1,5 @@
+sp|Q9NRR4|RNC_HUMAN	YP_009114975.1	33.333	36	3	2.5	20.4	cytochrome b [Didemnum vexillum]
+sp|Q9NRR4|RNC_HUMAN	YP_009114974.1	32.353	34	4	2.9	20.4	NADH dehydrogenase subunit 5 [Didemnum vexillum]
+sp|Q9NRR4|RNC_HUMAN	YP_009114974.1	22.222	27	4	6.5	19.2	NADH dehydrogenase subunit 5 [Didemnum vexillum]
+sp|Q9NRR4|RNC_HUMAN	YP_009114980.1	32.000	50	3	6.4	19.2	cytochrome c oxidase subunit I [Didemnum vexillum]
+sp|Q9NRR4|RNC_HUMAN	YP_009114981.1	41.176	17	1	7.8	18.5	NADH dehydrogenase subunit 6 [Didemnum vexillum]

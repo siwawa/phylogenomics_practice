@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_048407184.1	70.262	1372	95	0.0	1799	ribonuclease 3 isoform X2 [Stegostoma tigrinum]
+sp|Q9NRR4|RNC_HUMAN	XP_048407166.1	69.253	1392	95	0.0	1787	ribonuclease 3 isoform X1 [Stegostoma tigrinum]

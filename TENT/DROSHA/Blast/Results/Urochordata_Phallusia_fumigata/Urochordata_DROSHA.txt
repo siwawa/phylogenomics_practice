@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	YP_001481144.1	33.333	36	3	6.3	19.2	cytochrome b [Phallusia fumigata]

@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_069368561.1	71.550	1406	99	0.0	1860	ribonuclease 3 [Paralichthys olivaceus]

@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	YP_009305209.1	40.000	30	2	8.0	21.2	cytochrome c oxidase subunit III [Tetraodon nigroviridis]

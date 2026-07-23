@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	XP_055514316.1	71.408	1420	99	0.0	1882	ribonuclease 3 [Leucoraja erinaceus]

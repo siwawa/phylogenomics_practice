@@ -1,0 +1,486 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: /rna/liha/phylogenomics_practice/TENT/DROSHA/Alignments/DROSHA_aligned.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (5000 replicates)
+Random seed number: 232449
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 38 sequences with 3938 amino-acid sites
+Number of constant sites: 2244 (= 56.9832% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2244 (= 56.9832% of all sites)
+Number of parsimony informative sites: 1160
+Number of distinct site patterns: 2142
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: Q.INSECT+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+Q.INSECT+F+I+G4  -44150.402   88488.803 - 0.000497   88493.451 - 0.000609   89078.975 +    0.826
+Q.INSECT+F+G4    -44156.134   88498.268 - 4.37e-06   88502.817 - 5.63e-06   89082.162 +    0.168
+Q.INSECT+F+R4    -44138.795   88473.589 +    0.999   88478.644 +    0.999   89088.875 -  0.00585
+JTT+F+R4         -44186.490   88568.981 - 1.93e-21   88574.035 - 1.93e-21   89184.267 - 1.13e-23
+JTT+F+I+G4       -44204.514   88597.028 - 1.57e-27   88601.676 - 1.92e-27   89187.201 - 2.61e-24
+JTTDCMUT+F+R4    -44189.619   88575.239 - 8.45e-23   88580.293 - 8.45e-23   89190.525 - 4.95e-25
+JTT+F+G4         -44210.836   88607.673 - 7.66e-30   88612.221 - 9.86e-30   89191.567 - 2.94e-25
+JTTDCMUT+F+I+G4  -44207.700   88603.401 - 6.48e-29   88608.048 - 7.94e-29   89193.573 - 1.08e-25
+JTTDCMUT+F+G4    -44214.057   88614.114 - 3.06e-31   88618.662 - 3.94e-31   89198.008 - 1.17e-26
+Q.PLANT+F+G4     -44249.627   88685.255 - 1.09e-46   88689.803 -  1.4e-46   89269.149 - 4.18e-42
+Q.PLANT+F+R4     -44229.191   88654.383 - 5.51e-40   88659.437 - 5.51e-40   89269.669 - 3.23e-42
+Q.PLANT+F+I+G4   -44246.096   88680.192 - 1.37e-45   88684.839 - 1.68e-45   89270.364 - 2.28e-42
+Q.YEAST+F+G4     -44306.974   88799.948 - 1.36e-71   88804.496 - 1.75e-71   89383.841 -  5.2e-67
+Q.YEAST+F+I+G4   -44304.009   88796.019 - 9.66e-71   88800.666 - 1.18e-70   89386.191 - 1.61e-67
+JTT+I+G4         -44384.308   88918.615 - 2.31e-97   88921.567 - 6.61e-97   89389.497 - 3.08e-68
+Q.YEAST+F+R4     -44289.567   88775.135 - 3.31e-66   88780.189 - 3.31e-66   89390.421 - 1.94e-68
+JTT+R4           -44370.324   88898.647 - 5.01e-93   88901.924 - 1.22e-92   89394.643 - 2.35e-69
+JTT+G4           -44392.727   88933.454 - 1.38e-100   88936.328 - 4.12e-100   89398.058 - 4.26e-70
+JTTDCMUT+I+G4    -44393.292   88936.584 - 2.9e-101   88939.536 - 8.28e-101   89407.467 - 3.86e-72
+JTTDCMUT+R4      -44379.516   88917.031 -  5.1e-97   88920.307 - 1.24e-96   89413.027 - 2.39e-73
+JTTDCMUT+G4      -44401.924   88951.849 - 1.4e-104   88954.722 - 4.18e-104   89416.452 - 4.31e-74
+Q.MAMMAL+F+I+G4  -44323.197   88834.394 - 4.49e-79   88839.042 -  5.5e-79   89424.566 - 7.46e-76
+Q.MAMMAL+F+G4    -44328.982   88843.964 - 3.75e-81   88848.512 - 4.83e-81   89427.858 - 1.44e-76
+Q.MAMMAL+F+R4    -44308.782   88813.564 -  1.5e-74   88818.618 -  1.5e-74   89428.850 - 8.77e-77
+Q.MAMMAL+I+G4    -44422.754   88995.509 - 4.64e-114   88998.460 - 1.33e-113   89466.391 - 6.18e-85
+Q.MAMMAL+G4      -44430.108   89008.217 - 8.07e-117   89011.090 - 2.4e-116   89472.821 - 2.48e-86
+Q.MAMMAL+R4      -44411.499   88980.999 - 6.57e-111   88984.275 - 1.6e-110   89476.995 - 3.08e-87
+DAYHOFF+F+R4     -44385.780   88967.560 - 5.44e-108   88972.615 - 5.44e-108   89582.846 - 3.18e-110
+DAYHOFF+F+I+G4   -44403.349   88994.699 - 6.96e-114   88999.346 - 8.53e-114   89584.871 - 1.16e-110
+MTINV+F+I+G4     -44404.666   88997.331 - 1.86e-114   89001.979 - 2.29e-114   89587.504 - 3.1e-111
+DCMUT+F+R4       -44388.531   88973.061 - 3.47e-109   88978.116 - 3.47e-109   89588.347 - 2.03e-111
+DCMUT+F+I+G4     -44406.009   89000.018 - 4.87e-115   89004.666 - 5.96e-115   89590.191 - 8.09e-112
+MTINV+F+G4       -44411.157   89008.314 - 7.69e-117   89012.862 - 9.9e-117   89592.207 - 2.95e-112
+MTINV+F+R4       -44394.732   88985.463 - 7.04e-112   88990.517 - 7.04e-112   89600.749 - 4.12e-114
+DAYHOFF+F+G4     -44416.089   89018.179 - 5.54e-119   89022.727 - 7.14e-119   89602.073 - 2.13e-114
+DCMUT+F+G4       -44418.774   89023.549 - 3.78e-120   89028.097 - 4.87e-120   89607.443 - 1.45e-115
+MTMET+F+I+G4     -44421.178   89030.356 - 1.26e-121   89035.004 - 1.54e-121   89620.528 - 2.09e-118
+LG+F+G4          -44426.772   89039.544 - 1.27e-123   89044.092 - 1.64e-123   89623.437 - 4.88e-119
+LG+F+R4          -44406.375   89008.751 - 6.18e-117   89013.805 - 6.18e-117   89624.037 - 3.62e-119
+MTMET+F+G4       -44429.925   89045.850 - 5.43e-125   89050.398 -   7e-125   89629.744 - 2.09e-120
+LG+F+I+G4        -44428.271   89044.543 - 1.04e-124   89049.190 - 1.28e-124   89634.715 - 1.74e-121
+Q.PFAM+F+G4      -44433.091   89052.183 - 2.29e-126   89056.731 - 2.95e-126   89636.076 - 8.79e-122
+Q.PFAM+F+R4      -44412.699   89021.397 - 1.11e-119   89026.452 - 1.11e-119   89636.683 - 6.49e-122
+MTMET+F+R4       -44414.522   89025.045 - 1.79e-120   89030.099 - 1.79e-120   89640.331 - 1.05e-122
+Q.PFAM+F+I+G4    -44432.029   89052.058 - 2.44e-126   89056.705 - 2.99e-126   89642.230 - 4.05e-123
+Q.PLANT+I+G4     -44571.940   89293.881 - 7.51e-179   89296.832 - 2.15e-178   89764.763 -   1e-149
+Q.PLANT+G4       -44578.640   89305.280 - 2.51e-181   89308.154 - 7.48e-181   89769.884 - 7.73e-151
+Q.BIRD+F+I+G4    -44497.823   89183.647 - 6.5e-155   89188.294 - 7.96e-155   89773.819 - 1.08e-151
+Q.PLANT+R4       -44560.412   89278.824 - 1.4e-175   89282.100 - 3.4e-175   89774.820 - 6.55e-152
+WAG+F+R4         -44482.111   89160.222 - 7.93e-150   89165.277 - 7.93e-150   89775.508 - 4.64e-152
+Q.BIRD+F+G4      -44505.721   89197.442 - 6.56e-158   89201.990 - 8.45e-158   89781.336 - 2.52e-153
+Q.BIRD+F+R4      -44485.051   89166.102 - 4.19e-151   89171.157 - 4.19e-151   89781.388 - 2.46e-153
+WAG+F+G4         -44509.775   89205.549 - 1.14e-159   89210.098 - 1.47e-159   89789.443 - 4.38e-155
+WAG+F+I+G4       -44508.906   89205.812 - 9.99e-160   89210.459 - 1.22e-159   89795.984 - 1.66e-156
+Q.BIRD+I+G4      -44597.316   89344.633 - 7.16e-190   89347.585 - 2.05e-189   89815.515 - 9.54e-161
+Q.BIRD+G4        -44606.654   89361.308 - 1.71e-193   89364.182 - 5.1e-193   89825.912 - 5.27e-163
+Q.BIRD+R4        -44587.137   89332.274 - 3.46e-187   89335.550 - 8.41e-187   89828.269 - 1.62e-163
+VT+F+R4          -44558.960   89313.921 - 3.34e-183   89318.975 - 3.34e-183   89929.207 - 1.96e-185
+VT+F+G4          -44584.471   89354.942 - 4.14e-192   89359.490 - 5.33e-192   89938.836 - 1.59e-187
+VT+F+I+G4        -44580.888   89349.776 - 5.47e-191   89354.424 - 6.71e-191   89939.948 - 9.1e-188
+MTZOA+F+G4       -44594.843   89375.686 - 1.29e-196   89380.235 - 1.67e-196   89959.580 - 4.97e-192
+MTZOA+F+I+G4     -44590.843   89369.687 - 2.6e-195   89374.334 - 3.18e-195   89959.859 - 4.32e-192
+MTZOA+F+R4       -44581.661   89359.321 - 4.63e-193   89364.376 - 4.63e-193   89974.607 - 2.71e-195
+RTREV+F+G4       -44643.814   89473.628 - 6.98e-218   89478.177 - 8.99e-218   90057.522 - 2.68e-213
+RTREV+F+R4       -44625.712   89447.425 - 3.42e-212   89452.479 - 3.42e-212   90062.711 -   2e-214
+RTREV+F+I+G4     -44643.810   89475.621 - 2.58e-218   89480.268 - 3.16e-218   90065.793 - 4.29e-215
+HIVB+F+R4        -44630.581   89457.163 - 2.63e-214   89462.217 - 2.63e-214   90072.448 - 1.54e-216
+Q.INSECT+I+G4    -44726.967   89603.934 - 3.54e-246   89606.886 - 1.01e-245   90074.816 - 4.71e-217
+Q.INSECT+G4      -44734.041   89616.081 - 8.14e-249   89618.955 - 2.42e-248   90080.685 - 2.5e-218
+HIVB+F+G4        -44659.303   89504.606 - 1.31e-224   89509.155 - 1.69e-224   90088.500 - 5.03e-220
+Q.INSECT+R4      -44718.436   89594.873 - 3.28e-244   89598.149 - 7.98e-244   90090.869 - 1.54e-220
+HIVB+F+I+G4      -44656.755   89501.510 - 6.16e-224   89506.157 - 7.55e-224   90091.682 - 1.02e-220
+FLU+F+R4         -44657.634   89511.268 - 4.68e-226   89516.323 - 4.68e-226   90126.554 - 2.74e-228
+FLU+F+G4         -44682.037   89550.073 - 1.76e-234   89554.622 - 2.26e-234   90133.967 - 6.74e-230
+FLU+F+I+G4       -44685.316   89558.632 - 2.43e-236   89563.280 - 2.98e-236   90148.805 - 4.04e-233
+DAYHOFF+I+G4     -44769.928   89689.855 - 7.78e-265   89692.807 - 2.23e-264   90160.737 - 1.04e-235
+DCMUT+I+G4       -44773.009   89696.019 - 3.57e-266   89698.971 - 1.02e-265   90166.901 - 4.75e-237
+DAYHOFF+R4       -44758.765   89675.531 -   1e-261   89678.807 - 2.44e-261   90171.526 - 4.71e-238
+DCMUT+R4         -44762.000   89681.999 - 3.95e-263   89685.275 - 9.62e-263   90177.995 - 1.85e-239
+WAG+R4           -44762.271   89682.542 - 3.01e-263   89685.818 - 7.33e-263   90178.537 - 1.41e-239
+CPREV+F+R4       -44684.199   89564.398 - 1.36e-237   89569.452 - 1.36e-237   90179.684 - 7.97e-240
+DAYHOFF+G4       -44784.455   89716.910 - 1.04e-270   89719.783 - 3.09e-270   90181.514 - 3.19e-240
+CPREV+F+G4       -44706.956   89599.913 - 2.64e-245   89604.461 - 3.4e-245   90183.807 - 1.01e-240
+WAG+G4           -44787.673   89723.345 - 4.16e-272   89726.219 - 1.24e-271   90187.949 - 1.28e-241
+DCMUT+G4         -44787.731   89723.462 - 3.92e-272   89726.335 - 1.17e-271   90188.065 - 1.21e-241
+WAG+I+G4         -44784.288   89718.575 - 4.51e-271   89721.527 - 1.29e-270   90189.457 - 6.01e-242
+CPREV+F+I+G4     -44709.657   89607.315 - 6.52e-247   89611.962 -   8e-247   90197.487 - 1.09e-243
+Q.PFAM+G4        -44796.788   89741.575 - 4.57e-276   89744.449 - 1.36e-275   90206.179 - 1.41e-245
+Q.PFAM+I+G4      -44792.708   89735.416 - 9.94e-275   89738.368 - 2.85e-274   90206.298 - 1.32e-245
+Q.PFAM+R4        -44778.187   89714.374 - 3.69e-270   89717.650 - 8.97e-270   90210.369 - 1.73e-246
+LG+G4            -44804.144   89756.287 - 2.92e-279   89759.160 - 8.69e-279   90220.891 - 8.98e-249
+LG+R4            -44786.156   89730.312 - 1.28e-273   89733.589 - 3.1e-273   90226.308 - 5.98e-250
+LG+I+G4          -44803.061   89756.122 - 3.17e-279   89759.074 - 9.08e-279   90227.004 - 4.23e-250
+LG+R5            -44782.412   89726.823 - 7.3e-273   89730.268 - 1.63e-272   90235.376 - 6.43e-252
+VT+R4            -44791.655   89741.311 - 5.22e-276   89744.587 - 1.27e-275   90237.307 - 2.45e-252
+LG+I+R4          -44787.862   89735.725 - 8.52e-275   89739.085 - 1.99e-274   90237.999 - 1.73e-252
+VT+I+G4          -44810.017   89770.033 - 3.02e-282   89772.985 - 8.65e-282   90240.916 - 4.03e-253
+LG+I+R5          -44781.626   89727.252 - 5.89e-273   89730.783 - 1.26e-272   90242.083 - 2.25e-253
+VT+G4            -44815.469   89778.938 - 3.52e-284   89781.812 - 1.05e-283   90243.542 - 1.08e-253
+LG+I+R3          -44799.238   89754.476 - 7.23e-279   89757.669 - 1.83e-278   90244.193 - 7.82e-254
+MTREV+F+G4       -44753.045   89692.090 - 2.55e-265   89696.638 - 3.28e-265   90275.984 - 9.77e-261
+MTREV+F+I+G4     -44748.924   89685.848 - 5.77e-264   89690.496 - 7.07e-264   90276.021 - 9.59e-261
+MTREV+F+R4       -44734.205   89664.410 - 2.61e-259   89669.464 - 2.61e-259   90279.696 - 1.53e-261
+LG+R3            -44868.974   89891.949 - 1.02e-308   89895.061 - 2.68e-308   90375.388 - 2.54e-282
+MTVER+F+I+G4     -44816.563   89821.126 - 2.43e-293   89825.773 - 2.98e-293   90411.298 - 4.05e-290
+MTVER+F+G4       -44828.638   89843.277 - 3.77e-298   89847.825 - 4.85e-298   90427.171 - 1.45e-293
+MTVER+F+R4       -44809.704   89815.409 - 4.24e-292   89820.463 - 4.24e-292   90430.695 - 2.48e-294
+Q.YEAST+I+G4     -44934.146   90018.291 -        0   90021.243 -        0   90489.173 - 4.97e-307
+Q.YEAST+G4       -44938.936   90025.871 -        0   90028.745 -        0   90490.475 - 2.59e-307
+Q.YEAST+R4       -44923.883   90005.765 -        0   90009.042 -        0   90501.761 - 9.18e-310
+LG+I+R2          -44958.716   90069.431 -        0   90072.463 -        0   90546.592 - 1.69e-319
+FLU+R4           -44974.103   90106.206 -        0   90109.482 -        0   90602.201 -        0
+FLU+G4           -44997.862   90143.724 -        0   90146.597 -        0   90608.328 -        0
+FLU+I+G4         -45001.348   90152.695 -        0   90155.647 -        0   90623.577 -        0
+HIVB+R4          -45025.104   90208.208 -        0   90211.484 -        0   90704.203 -        0
+MTART+F+I+G4     -44970.564   90129.129 -        0   90133.776 -        0   90719.301 -        0
+HIVB+I+G4        -45049.472   90248.944 -        0   90251.895 -        0   90719.826 -        0
+HIVB+G4          -45054.271   90256.542 -        0   90259.416 -        0   90721.146 -        0
+MTART+F+G4       -44982.864   90151.729 -        0   90156.277 -        0   90735.623 -        0
+MTART+F+R4       -44964.525   90125.051 -        0   90130.105 -        0   90740.337 -        0
+RTREV+G4         -45086.490   90320.979 -        0   90323.853 -        0   90785.583 -        0
+RTREV+I+G4       -45084.566   90319.132 -        0   90322.084 -        0   90790.014 -        0
+RTREV+R4         -45071.355   90300.709 -        0   90303.986 -        0   90796.705 -        0
+PMB+F+R4         -44993.379   90182.758 -        0   90187.812 -        0   90798.044 -        0
+PMB+F+G4         -45019.295   90224.591 -        0   90229.139 -        0   90808.484 -        0
+PMB+F+I+G4       -45019.148   90226.295 -        0   90230.943 -        0   90816.467 -        0
+LG+R2            -45122.865   90395.730 -        0   90398.681 -        0   90866.612 -        0
+BLOSUM62+F+R4    -45035.075   90266.150 -        0   90271.205 -        0   90881.436 -        0
+BLOSUM62+F+G4    -45058.103   90302.207 -        0   90306.755 -        0   90886.100 -        0
+BLOSUM62+F+I+G4  -45059.302   90306.604 -        0   90311.251 -        0   90896.776 -        0
+FLAVI+F+R4       -45042.784   90281.568 -        0   90286.623 -        0   90896.854 -        0
+FLAVI+F+G4       -45067.003   90320.005 -        0   90324.553 -        0   90903.899 -        0
+FLAVI+F+I+G4     -45067.693   90323.385 -        0   90328.033 -        0   90913.558 -        0
+CPREV+G4         -45161.975   90471.950 -        0   90474.823 -        0   90936.553 -        0
+CPREV+R4         -45141.299   90440.597 -        0   90443.873 -        0   90936.593 -        0
+CPREV+I+G4       -45164.140   90478.280 -        0   90481.232 -        0   90949.163 -        0
+MTMAM+F+I+G4     -45150.729   90489.458 -        0   90494.106 -        0   91079.630 -        0
+MTMAM+F+G4       -45160.370   90506.740 -        0   90511.288 -        0   91090.633 -        0
+MTMAM+F+R4       -45141.375   90478.751 -        0   90483.805 -        0   91094.036 -        0
+PMB+R4           -45367.998   90893.996 -        0   90897.273 -        0   91389.992 -        0
+PMB+I+G4         -45387.123   90924.246 -        0   90927.198 -        0   91395.128 -        0
+PMB+G4           -45391.310   90930.620 -        0   90933.493 -        0   91395.223 -        0
+BLOSUM62+G4      -45521.162   91190.323 -        0   91193.197 -        0   91654.927 -        0
+BLOSUM62+R4      -45501.040   91160.079 -        0   91163.356 -        0   91656.075 -        0
+BLOSUM62+I+G4    -45519.159   91188.319 -        0   91191.271 -        0   91659.201 -        0
+FLAVI+I+G4       -45686.177   91522.354 -        0   91525.306 -        0   91993.237 -        0
+FLAVI+R4         -45672.834   91503.667 -        0   91506.943 -        0   91999.663 -        0
+FLAVI+G4         -45694.956   91537.912 -        0   91540.786 -        0   92002.516 -        0
+HIVW+F+R4        -45668.922   91533.844 -        0   91538.899 -        0   92149.130 -        0
+HIVW+F+I+G4      -45693.804   91575.607 -        0   91580.255 -        0   92165.780 -        0
+HIVW+F+G4        -45700.002   91586.004 -        0   91590.552 -        0   92169.898 -        0
+LG+I             -46196.330   92540.660 -        0   92543.534 -        0   93005.264 -        0
+HIVW+R4          -46462.835   93083.670 -        0   93086.947 -        0   93579.666 -        0
+HIVW+I+G4        -46486.761   93123.522 -        0   93126.474 -        0   93594.404 -        0
+HIVW+G4          -46494.054   93136.107 -        0   93138.981 -        0   93600.711 -        0
+MTZOA+I+G4       -46555.050   93260.100 -        0   93263.052 -        0   93730.982 -        0
+MTZOA+R4         -46554.969   93267.939 -        0   93271.215 -        0   93763.934 -        0
+MTZOA+G4         -46580.718   93309.437 -        0   93312.310 -        0   93774.040 -        0
+MTMET+I+G4       -46843.763   93837.525 -        0   93840.477 -        0   94308.408 -        0
+MTMET+R4         -46841.989   93841.977 -        0   93845.254 -        0   94337.973 -        0
+MTMET+G4         -46869.132   93886.264 -        0   93889.137 -        0   94350.868 -        0
+MTREV+I+G4       -46875.686   93901.372 -        0   93904.324 -        0   94372.254 -        0
+MTREV+G4         -46896.430   93940.860 -        0   93943.733 -        0   94405.464 -        0
+MTREV+R4         -46876.267   93910.534 -        0   93913.811 -        0   94406.530 -        0
+MTVER+I+G4       -46980.867   94111.734 -        0   94114.685 -        0   94582.616 -        0
+MTVER+R4         -46980.985   94119.969 -        0   94123.246 -        0   94615.965 -        0
+MTVER+G4         -47007.583   94163.167 -        0   94166.040 -        0   94627.770 -        0
+LG               -47022.561   94191.121 -        0   94193.918 -        0   94649.447 -        0
+MTMAM+I+G4       -47396.326   94942.653 -        0   94945.605 -        0   95413.535 -        0
+MTMAM+R4         -47398.778   94955.556 -        0   94958.832 -        0   95451.551 -        0
+MTART+I+G4       -47420.274   94990.548 -        0   94993.500 -        0   95461.430 -        0
+MTMAM+G4         -47426.595   95001.191 -        0   95004.064 -        0   95465.795 -        0
+MTART+R4         -47433.590   95025.179 -        0   95028.456 -        0   95521.175 -        0
+MTART+G4         -47455.848   95059.696 -        0   95062.569 -        0   95524.299 -        0
+MTINV+I+G4       -47488.540   95127.079 -        0   95130.031 -        0   95597.961 -        0
+MTINV+R4         -47486.494   95130.987 -        0   95134.263 -        0   95626.983 -        0
+MTINV+G4         -47511.544   95171.088 -        0   95173.962 -        0   95635.692 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.INSECT+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0487
+  pi(R) = 0.0829
+  pi(N) = 0.0424
+  pi(D) = 0.0512
+  pi(C) = 0.0182
+  pi(Q) = 0.0467
+  pi(E) = 0.0742
+  pi(G) = 0.0587
+  pi(H) = 0.0426
+  pi(I) = 0.0384
+  pi(L) = 0.0851
+  pi(K) = 0.0535
+  pi(M) = 0.0259
+  pi(F) = 0.0403
+  pi(P) = 0.0836
+  pi(S) = 0.0734
+  pi(T) = 0.0458
+  pi(W) = 0.0126
+  pi(Y) = 0.0343
+  pi(V) = 0.0415
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0785
+Gamma shape alpha: 0.7960
+
+ Category  Relative_rate  Proportion
+  0         0              0.0785
+  1         0.1028         0.2304
+  2         0.4400         0.2304
+  3         1.0372         0.2304
+  4         2.7606         0.2304
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -44149.7382 (s.e. 812.0729)
+Unconstrained log-likelihood (without tree): -27477.1666
+Number of free parameters (#branches + #model parameters): 94
+Akaike information criterion (AIC) score: 88487.4765
+Corrected Akaike information criterion (AICc) score: 88492.1239
+Bayesian information criterion (BIC) score: 89077.6487
+
+Total tree length (sum of branch lengths): 15.2763
+Sum of internal branch lengths: 5.0662 (33.1637% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Urochordata_Aplidium_turbinatum_H1_145781242_original_acc_XP_082449149.1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----Urochordata_Aplidium_turbinatum_H1_145781242_original_acc_XP_082449149.1
+|
++--Urochordata_Clavelina_lepadiformis_H1_143458571_original_acc_XP_076811465.1
+|
+|     +----Urochordata_Corella_eumyota_H1_145744706_original_acc_XP_082418752.1
+|  +--| (44)
+|  |  +---Urochordata_Ciona_intestinalis_H1_100184388_original_acc_XP_078485431.1
++--| (97)
+   |  +-----Urochordata_Ascidia_mentula_H1_145907147_original_acc_XP_082850708.1
+   +--| (40)
+      |      +--------Urochordata_Botryllus_schlosseri_H1_145454419_original_acc_XP_080188540.1
+      |  +---| (100)
+      |  |   +-----Urochordata_Styela_clava_H1_120339648_original_acc_XP_039263749.2
+      +--| (100)
+         |  +-----------------------------Urochordata_Thalia_democratica_H1_145849148_original_acc_XP_082810374.1
+         +--| (68)
+            |                                   +--Euteleostomi_Acipenser_ruthenus_H1_117435344_original_acc_XP_034777036.2
+            |                                +--| (100)
+            |                                |  +--Euteleostomi_Acipenser_ruthenus_H2_117399785_original_acc_XP_058879080.1
+            |                             +--| (92)
+            |                             |  |  +--Euteleostomi_Lepisosteus_oculatus_H1_102687085_original_acc_XP_015210280.2
+            |                             |  +--| (99)
+            |                             |     |  +--Teleostei_Paralichthys_olivaceus_H1_109641148_original_acc_XP_069368561.1
+            |                             |     +--| (100)
+            |                             |        +--Teleostei_Scomber_japonicus_H1_128382052_original_acc_XP_053198005.1
+            |                          +--| (100)
+            |                          |  +--Euteleostomi_Polypterus_senegalus_H1_120529392_original_acc_XP_039609084.1
+            |                       +--| (100)
+            |                       |  |     +--Euteleostomi_Xenopus_tropicalis_H1_100135003_original_acc_XP_031759055.1
+            |                       |  |  +--| (100)
+            |                       |  |  |  |  +--Euteleostomi_Anolis_carolinensis_H1_100557447_original_acc_XP_062833694.1
+            |                       |  |  |  +--| (99)
+            |                       |  |  |     |  +--Euteleostomi_Gallus_gallus_H1_420911_original_acc_NP_001006379.2
+            |                       |  |  |     +--| (84)
+            |                       |  |  |        |  +--Euteleostomi_Homo_sapiens_H1_29102_original_acc_NP_001369437.1
+            |                       |  |  |        +--| (100)
+            |                       |  |  |           +--Euteleostomi_Mus_musculus_H1_14000_original_acc_XP_006520084.1
+            |                       |  +--| (100)
+            |                       |     +--Euteleostomi_Latimeria_chalumnae_H1_102345517_original_acc_XP_006006531.1
+            |                    +--| (100)
+            |                    |  |  +--Chondrichthyes_Callorhinchus_milii_H1_103179930_original_acc_XP_007893655.2
+            |                    |  +--| (100)
+            |                    |     |  +--Chondrichthyes_Heptranchias_perlo_H1_137339170_original_acc_XP_067857978.1
+            |                    |     +--| (97)
+            |                    |        |  +--Chondrichthyes_Pristiophorus_japonicus_H1_139263738_original_acc_XP_070735870.1
+            |                    |        +--| (84)
+            |                    |           |     +--Chondrichthyes_Heterodontus_francisci_H1_137381341_original_acc_XP_067909869.1
+            |                    |           |  +--| (88)
+            |                    |           |  |  |  +--Chondrichthyes_Scyliorhinus_torazame_H1_140425625_original_acc_XP_072366232.1
+            |                    |           |  |  +--| (84)
+            |                    |           |  |     +--Chondrichthyes_Stegostoma_tigrinum_H1_125461887_original_acc_XP_048407166.1
+            |                    |           +--| (39)
+            |                    |              |     +--Chondrichthyes_Leucoraja_erinaceus_H1_129711000_original_acc_XP_055514316.1
+            |                    |              |  +--| (100)
+            |                    |              |  |  +--Chondrichthyes_Raja_brachyura_H1_145381519_original_acc_XP_080103107.1
+            |                    |              +--| (100)
+            |                    |                 |  +--Chondrichthyes_Mobula_birostris_H1_140212484_original_acc_XP_072139449.1
+            |                    |                 +--| (100)
+            |                    |                    +--Chondrichthyes_Mobula_hypostoma_H1_134357898_original_acc_XP_062925728.1
+            |                +---| (100)
+            |                |   |  +-----Cyclostomata_Myxine_glutinosa_H1_137434897_original_acc_XP_067984207.2
+            |                |   +--| (100)
+            |                |      |         +--Cyclostomata_Lampetra_planeri_H1_144735707_original_acc_XP_078474325.1
+            |                |      |      +--| (95)
+            |                |      |      |  +--Cyclostomata_Lethenteron_reissneri_H1_133357175_original_acc_XP_061430979.1
+            |                |      +------| (100)
+            |                |             +--Cyclostomata_Petromyzon_marinus_H1_116957850_original_acc_XP_032836155.1
+            |      +---------| (100)
+            |      |         |         +--Cephalochordata_Branchiostoma_belcheri_H1_109484702_original_acc_XP_019643612.1
+            |      |         +---------| (100)
+            |      |                   |  +--Cephalochordata_Branchiostoma_floridae_H1_118420852_original_acc_XP_035683787.1
+            |      |                   +--| (92)
+            |      |                      +--Cephalochordata_Branchiostoma_lanceolatum_H1_136441728_original_acc_XP_066294267.1
+            +------| (100)
+                   +-------------------------------------------Urochordata_Oikopleura_dioica_H1_145697998_original_acc_XP_081631329.1
+
+Tree in newick format:
+
+(Urochordata_Aplidium_turbinatum_H1_145781242_original_acc_XP_082449149.1:0.4497923564,Urochordata_Clavelina_lepadiformis_H1_143458571_original_acc_XP_076811465.1:0.2635977275,((Urochordata_Corella_eumyota_H1_145744706_original_acc_XP_082418752.1:0.3808554908,Urochordata_Ciona_intestinalis_H1_100184388_original_acc_XP_078485431.1:0.3189793426)44:0.0501757117,(Urochordata_Ascidia_mentula_H1_145907147_original_acc_XP_082850708.1:0.4279132781,((Urochordata_Botryllus_schlosseri_H1_145454419_original_acc_XP_080188540.1:0.7007428639,Urochordata_Styela_clava_H1_120339648_original_acc_XP_039263749.2:0.4293848231)100:0.3001545823,(Urochordata_Thalia_democratica_H1_145849148_original_acc_XP_082810374.1:2.1411464485,((((((((Euteleostomi_Acipenser_ruthenus_H1_117435344_original_acc_XP_034777036.2:0.0129665585,Euteleostomi_Acipenser_ruthenus_H2_117399785_original_acc_XP_058879080.1:0.0080859836)100:0.0678945403,(Euteleostomi_Lepisosteus_oculatus_H1_102687085_original_acc_XP_015210280.2:0.0734776178,(Teleostei_Paralichthys_olivaceus_H1_109641148_original_acc_XP_069368561.1:0.0536341720,Teleostei_Scomber_japonicus_H1_128382052_original_acc_XP_053198005.1:0.0365493854)100:0.1256040232)99:0.0396890110)92:0.0155611378,Euteleostomi_Polypterus_senegalus_H1_120529392_original_acc_XP_039609084.1:0.1002261084)100:0.0654572919,((Euteleostomi_Xenopus_tropicalis_H1_100135003_original_acc_XP_031759055.1:0.1737662600,(Euteleostomi_Anolis_carolinensis_H1_100557447_original_acc_XP_062833694.1:0.1080737468,(Euteleostomi_Gallus_gallus_H1_420911_original_acc_NP_001006379.2:0.0521908456,(Euteleostomi_Homo_sapiens_H1_29102_original_acc_NP_001369437.1:0.0244166504,Euteleostomi_Mus_musculus_H1_14000_original_acc_XP_006520084.1:0.0376352551)100:0.1174272458)84:0.0186423507)99:0.0264336910)100:0.0381213107,Euteleostomi_Latimeria_chalumnae_H1_102345517_original_acc_XP_006006531.1:0.1161369238)100:0.0389662582)100:0.0700782505,(Chondrichthyes_Callorhinchus_milii_H1_103179930_original_acc_XP_007893655.2:0.0971720505,(Chondrichthyes_Heptranchias_perlo_H1_137339170_original_acc_XP_067857978.1:0.0227993494,(Chondrichthyes_Pristiophorus_japonicus_H1_139263738_original_acc_XP_070735870.1:0.1213241610,((Chondrichthyes_Heterodontus_francisci_H1_137381341_original_acc_XP_067909869.1:0.0224129934,(Chondrichthyes_Scyliorhinus_torazame_H1_140425625_original_acc_XP_072366232.1:0.0488567170,Chondrichthyes_Stegostoma_tigrinum_H1_125461887_original_acc_XP_048407166.1:0.1661364210)84:0.0166066506)88:0.0238461449,((Chondrichthyes_Leucoraja_erinaceus_H1_129711000_original_acc_XP_055514316.1:0.0094290724,Chondrichthyes_Raja_brachyura_H1_145381519_original_acc_XP_080103107.1:0.0120957882)100:0.0542675255,(Chondrichthyes_Mobula_birostris_H1_140212484_original_acc_XP_072139449.1:0.0041787703,Chondrichthyes_Mobula_hypostoma_H1_134357898_original_acc_XP_062925728.1:0.0030912824)100:0.0556677013)100:0.0735964490)39:0.0074333678)84:0.0160320864)97:0.0403599553)100:0.0970657672)100:0.1778635423,(Cyclostomata_Myxine_glutinosa_H1_137434897_original_acc_XP_067984207.2:0.4236233220,((Cyclostomata_Lampetra_planeri_H1_144735707_original_acc_XP_078474325.1:0.0472882610,Cyclostomata_Lethenteron_reissneri_H1_133357175_original_acc_XP_061430979.1:0.0076491758)95:0.0058438490,Cyclostomata_Petromyzon_marinus_H1_116957850_original_acc_XP_032836155.1:0.0332267120)100:0.5227508439)100:0.2037811507)100:0.2969102970,(Cephalochordata_Branchiostoma_belcheri_H1_109484702_original_acc_XP_019643612.1:0.0439156778,(Cephalochordata_Branchiostoma_floridae_H1_118420852_original_acc_XP_035683787.1:0.0361678788,Cephalochordata_Branchiostoma_lanceolatum_H1_136441728_original_acc_XP_066294267.1:0.0370319825)92:0.0124330963)100:0.7252274091)100:0.7040768809,Urochordata_Oikopleura_dioica_H1_145697998_original_acc_XP_081631329.1:3.1641374945)100:0.5206095585)68:0.1091240011)100:0.2637835917)40:0.0643508423)97:0.1003380613);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 5000 bootstrap trees
+Log-likelihood of consensus tree: -44150.242965
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----Urochordata_Aplidium_turbinatum_H1_145781242_original_acc_XP_082449149.1
+|
++--Urochordata_Clavelina_lepadiformis_H1_143458571_original_acc_XP_076811465.1
+|
+|  +----Urochordata_Corella_eumyota_H1_145744706_original_acc_XP_082418752.1
++--| (97)
+   |     +---Urochordata_Ciona_intestinalis_H1_100184388_original_acc_XP_078485431.1
+   |  +--| (51)
+   |  |  +-----Urochordata_Ascidia_mentula_H1_145907147_original_acc_XP_082850708.1
+   +--| (29)
+      |       +---------Urochordata_Botryllus_schlosseri_H1_145454419_original_acc_XP_080188540.1
+      |   +---| (100)
+      |   |   +----Urochordata_Styela_clava_H1_120339648_original_acc_XP_039263749.2
+      +---| (100)
+          |  +-----------------------------Urochordata_Thalia_democratica_H1_145849148_original_acc_XP_082810374.1
+          +--| (68)
+             |                                   +--Euteleostomi_Acipenser_ruthenus_H1_117435344_original_acc_XP_034777036.2
+             |                                +--| (100)
+             |                                |  +--Euteleostomi_Acipenser_ruthenus_H2_117399785_original_acc_XP_058879080.1
+             |                             +--| (92)
+             |                             |  |  +--Euteleostomi_Lepisosteus_oculatus_H1_102687085_original_acc_XP_015210280.2
+             |                             |  +--| (99)
+             |                             |     |  +--Teleostei_Paralichthys_olivaceus_H1_109641148_original_acc_XP_069368561.1
+             |                             |     +--| (100)
+             |                             |        +--Teleostei_Scomber_japonicus_H1_128382052_original_acc_XP_053198005.1
+             |                          +--| (100)
+             |                          |  +--Euteleostomi_Polypterus_senegalus_H1_120529392_original_acc_XP_039609084.1
+             |                       +--| (100)
+             |                       |  |     +--Euteleostomi_Xenopus_tropicalis_H1_100135003_original_acc_XP_031759055.1
+             |                       |  |  +--| (100)
+             |                       |  |  |  |  +--Euteleostomi_Anolis_carolinensis_H1_100557447_original_acc_XP_062833694.1
+             |                       |  |  |  +--| (99)
+             |                       |  |  |     |  +--Euteleostomi_Gallus_gallus_H1_420911_original_acc_NP_001006379.2
+             |                       |  |  |     +--| (84)
+             |                       |  |  |        |  +--Euteleostomi_Homo_sapiens_H1_29102_original_acc_NP_001369437.1
+             |                       |  |  |        +--| (100)
+             |                       |  |  |           +--Euteleostomi_Mus_musculus_H1_14000_original_acc_XP_006520084.1
+             |                       |  +--| (100)
+             |                       |     +--Euteleostomi_Latimeria_chalumnae_H1_102345517_original_acc_XP_006006531.1
+             |                    +--| (100)
+             |                    |  |  +--Chondrichthyes_Callorhinchus_milii_H1_103179930_original_acc_XP_007893655.2
+             |                    |  +--| (100)
+             |                    |     |  +--Chondrichthyes_Heptranchias_perlo_H1_137339170_original_acc_XP_067857978.1
+             |                    |     +--| (97)
+             |                    |        |  +--Chondrichthyes_Pristiophorus_japonicus_H1_139263738_original_acc_XP_070735870.1
+             |                    |        +--| (84)
+             |                    |           |     +--Chondrichthyes_Heterodontus_francisci_H1_137381341_original_acc_XP_067909869.1
+             |                    |           |  +--| (88)
+             |                    |           |  |  |  +--Chondrichthyes_Scyliorhinus_torazame_H1_140425625_original_acc_XP_072366232.1
+             |                    |           |  |  +--| (84)
+             |                    |           |  |     +--Chondrichthyes_Stegostoma_tigrinum_H1_125461887_original_acc_XP_048407166.1
+             |                    |           +--| (39)
+             |                    |              |     +--Chondrichthyes_Leucoraja_erinaceus_H1_129711000_original_acc_XP_055514316.1
+             |                    |              |  +--| (100)
+             |                    |              |  |  +--Chondrichthyes_Raja_brachyura_H1_145381519_original_acc_XP_080103107.1
+             |                    |              +--| (100)
+             |                    |                 |  +--Chondrichthyes_Mobula_birostris_H1_140212484_original_acc_XP_072139449.1
+             |                    |                 +--| (100)
+             |                    |                    +--Chondrichthyes_Mobula_hypostoma_H1_134357898_original_acc_XP_062925728.1
+             |                +---| (100)
+             |                |   |  +-----Cyclostomata_Myxine_glutinosa_H1_137434897_original_acc_XP_067984207.2
+             |                |   +--| (100)
+             |                |      |         +--Cyclostomata_Lampetra_planeri_H1_144735707_original_acc_XP_078474325.1
+             |                |      |      +--| (95)
+             |                |      |      |  +--Cyclostomata_Lethenteron_reissneri_H1_133357175_original_acc_XP_061430979.1
+             |                |      +------| (100)
+             |                |             +--Cyclostomata_Petromyzon_marinus_H1_116957850_original_acc_XP_032836155.1
+             |      +---------| (100)
+             |      |         |         +--Cephalochordata_Branchiostoma_belcheri_H1_109484702_original_acc_XP_019643612.1
+             |      |         +---------| (100)
+             |      |                   |  +--Cephalochordata_Branchiostoma_floridae_H1_118420852_original_acc_XP_035683787.1
+             |      |                   +--| (92)
+             |      |                      +--Cephalochordata_Branchiostoma_lanceolatum_H1_136441728_original_acc_XP_066294267.1
+             +------| (100)
+                    +-------------------------------------------Urochordata_Oikopleura_dioica_H1_145697998_original_acc_XP_081631329.1
+
+
+Consensus tree in newick format: 
+
+(Urochordata_Aplidium_turbinatum_H1_145781242_original_acc_XP_082449149.1:0.4523585665,Urochordata_Clavelina_lepadiformis_H1_143458571_original_acc_XP_076811465.1:0.2582196535,(Urochordata_Corella_eumyota_H1_145744706_original_acc_XP_082418752.1:0.3945570517,((Urochordata_Ciona_intestinalis_H1_100184388_original_acc_XP_078485431.1:0.3134597437,Urochordata_Ascidia_mentula_H1_145907147_original_acc_XP_082850708.1:0.4344866712)51:0.0493289801,((Urochordata_Botryllus_schlosseri_H1_145454419_original_acc_XP_080188540.1:0.7082037531,Urochordata_Styela_clava_H1_120339648_original_acc_XP_039263749.2:0.4184138933)100:0.2948589183,(Urochordata_Thalia_democratica_H1_145849148_original_acc_XP_082810374.1:2.1428231553,((((((((Euteleostomi_Acipenser_ruthenus_H1_117435344_original_acc_XP_034777036.2:0.0129589750,Euteleostomi_Acipenser_ruthenus_H2_117399785_original_acc_XP_058879080.1:0.0080805281)100:0.0678338222,(Euteleostomi_Lepisosteus_oculatus_H1_102687085_original_acc_XP_015210280.2:0.0734279074,(Teleostei_Paralichthys_olivaceus_H1_109641148_original_acc_XP_069368561.1:0.0536080165,Teleostei_Scomber_japonicus_H1_128382052_original_acc_XP_053198005.1:0.0365285727)100:0.1255310606)99:0.0396646039)92:0.0155892921,Euteleostomi_Polypterus_senegalus_H1_120529392_original_acc_XP_039609084.1:0.1001453170)100:0.0654048227,((Euteleostomi_Xenopus_tropicalis_H1_100135003_original_acc_XP_031759055.1:0.1736683972,(Euteleostomi_Anolis_carolinensis_H1_100557447_original_acc_XP_062833694.1:0.1079934798,(Euteleostomi_Gallus_gallus_H1_420911_original_acc_NP_001006379.2:0.0521502459,(Euteleostomi_Homo_sapiens_H1_29102_original_acc_NP_001369437.1:0.0244057300,Euteleostomi_Mus_musculus_H1_14000_original_acc_XP_006520084.1:0.0376034398)100:0.1173293845)84:0.0186353266)99:0.0264159578)100:0.0381237532,Euteleostomi_Latimeria_chalumnae_H1_102345517_original_acc_XP_006006531.1:0.1160697821)100:0.0389473511)100:0.0701479418,(Chondrichthyes_Callorhinchus_milii_H1_103179930_original_acc_XP_007893655.2:0.0971074657,(Chondrichthyes_Heptranchias_perlo_H1_137339170_original_acc_XP_067857978.1:0.0227858037,(Chondrichthyes_Pristiophorus_japonicus_H1_139263738_original_acc_XP_070735870.1:0.1212570386,((Chondrichthyes_Heterodontus_francisci_H1_137381341_original_acc_XP_067909869.1:0.0224030299,(Chondrichthyes_Scyliorhinus_torazame_H1_140425625_original_acc_XP_072366232.1:0.0488153823,Chondrichthyes_Stegostoma_tigrinum_H1_125461887_original_acc_XP_048407166.1:0.1660404438)84:0.0166182615)88:0.0238333848,((Chondrichthyes_Leucoraja_erinaceus_H1_129711000_original_acc_XP_055514316.1:0.0094258900,Chondrichthyes_Raja_brachyura_H1_145381519_original_acc_XP_080103107.1:0.0120914263)100:0.0542437040,(Chondrichthyes_Mobula_birostris_H1_140212484_original_acc_XP_072139449.1:0.0041770574,Chondrichthyes_Mobula_hypostoma_H1_134357898_original_acc_XP_062925728.1:0.0030900167)100:0.0556429201)100:0.0735660558)39:0.0074344194)84:0.0160269169)97:0.0403630811)100:0.0969128349)100:0.1775292074,(Cyclostomata_Myxine_glutinosa_H1_137434897_original_acc_XP_067984207.2:0.4235055836,((Cyclostomata_Lampetra_planeri_H1_144735707_original_acc_XP_078474325.1:0.0472654018,Cyclostomata_Lethenteron_reissneri_H1_133357175_original_acc_XP_061430979.1:0.0076448609)95:0.0059528338,Cyclostomata_Petromyzon_marinus_H1_116957850_original_acc_XP_032836155.1:0.0331047958)100:0.5223670950)100:0.2039489064)100:0.2979390045,(Cephalochordata_Branchiostoma_belcheri_H1_109484702_original_acc_XP_019643612.1:0.0439437956,(Cephalochordata_Branchiostoma_floridae_H1_118420852_original_acc_XP_035683787.1:0.0361572437,Cephalochordata_Branchiostoma_lanceolatum_H1_136441728_original_acc_XP_066294267.1:0.0370238067)92:0.0124073979)100:0.7244506019)100:0.7056264632,Urochordata_Oikopleura_dioica_H1_145697998_original_acc_XP_081631329.1:3.1539441840)100:0.5183489942)68:0.1165182676)100:0.2842673265)29:0.0435866954)97:0.0974104451);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /rna/liha/phylogenomics_practice/TENT/DROSHA/Tree/DROSHA.treefile -m "Q.INSECT+F+I{0.0784771}+G4{0.795954}" --length 3938
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /rna/liha/phylogenomics_practice/TENT/DROSHA/Alignments/DROSHA_aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /rna/liha/phylogenomics_practice/TENT/DROSHA/Alignments/DROSHA_aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jul 22 18:29:55 2026
+Total CPU time used: 2198.657655 seconds (0h:36m:38s)
+Total wall-clock time used: 1105.449808 seconds (0h:18m:25s)
+

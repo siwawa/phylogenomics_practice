@@ -1,0 +1,2 @@
+sp|Q9NRR4|RNC_HUMAN	XP_035683787.1	66.568	1014	83	0.0	1362	ribonuclease 3-like [Branchiostoma floridae]
+sp|Q9NRR4|RNC_HUMAN	XP_035683787.1	31.410	156	83	2.4	33.5	ribonuclease 3-like [Branchiostoma floridae]

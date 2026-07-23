@@ -1,0 +1,1 @@
+sp|Q9NRR4|RNC_HUMAN	YP_010500844.1	38.710	31	2	5.7	20.0	NADH dehydrogenase subunit 1 [Lampetra richardsoni]

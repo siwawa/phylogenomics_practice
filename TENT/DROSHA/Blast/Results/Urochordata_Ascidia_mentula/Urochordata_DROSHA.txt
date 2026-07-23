@@ -1,0 +1,3 @@
+sp|Q9NRR4|RNC_HUMAN	XP_082850708.1	59.132	876	72	0.0	1080	ribonuclease 3-like [Ascidia mentula]
+sp|Q9NRR4|RNC_HUMAN	XP_082850708.1	27.891	147	72	8.07e-04	44.3	ribonuclease 3-like [Ascidia mentula]
+sp|Q9NRR4|RNC_HUMAN	XP_082838056.1	54.348	184	13	1.01e-53	187	ribonuclease 3-like [Ascidia mentula]
