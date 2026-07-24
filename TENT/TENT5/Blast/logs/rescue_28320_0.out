@@ -1,0 +1,15 @@
+Rescue worker 0/3: TENT5A-B-C-D
+Selected targets: 12; assignment: indexes congruent to 0 modulo 3
+Worker 0 | taxid: 1928866 | species: Lophotrochozoa_Annelida (Polychaeta)_Leodice_harassii
+Running remote BLASTP: TENT5A-B-C-D x Lophotrochozoa_Annelida (Polychaeta)_Leodice_harassii
+Completed: TENT5A-B-C-D x Lophotrochozoa_Annelida (Polychaeta)_Leodice_harassii
+Worker 0 | taxid: 190579 | species: Ecdysozoa_Nematomorpha_Paragordius_varius
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Nematomorpha_Paragordius_varius
+Completed: TENT5A-B-C-D x Ecdysozoa_Nematomorpha_Paragordius_varius
+Worker 0 | taxid: 2943436 | species: Ecdysozoa_Tardigrada_Paramacrobiotus_metropolitanus
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Tardigrada_Paramacrobiotus_metropolitanus
+Completed: TENT5A-B-C-D x Ecdysozoa_Tardigrada_Paramacrobiotus_metropolitanus
+Worker 0 | taxid: 41365 | species: Ecdysozoa_Arthropoda (Myriapoda)_Scolopendra_cingulata
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Myriapoda)_Scolopendra_cingulata
+Completed: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Myriapoda)_Scolopendra_cingulata
+Worker 0 summary: assigned=4, completed=4, skipped=0, failed=0

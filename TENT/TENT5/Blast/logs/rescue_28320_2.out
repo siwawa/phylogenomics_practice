@@ -1,0 +1,15 @@
+Rescue worker 2/3: TENT5A-B-C-D
+Selected targets: 12; assignment: indexes congruent to 2 modulo 3
+Worker 2 | taxid: 1094334 | species: Ecdysozoa_Nematoda_Caenorhabditis_portoensis
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Nematoda_Caenorhabditis_portoensis
+Completed: TENT5A-B-C-D x Ecdysozoa_Nematoda_Caenorhabditis_portoensis
+Worker 2 | taxid: 2448278 | species: Ecdysozoa_Onychophora_Epiperipatus_broadwayi
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Onychophora_Epiperipatus_broadwayi
+Completed: TENT5A-B-C-D x Ecdysozoa_Onychophora_Epiperipatus_broadwayi
+Worker 2 | taxid: 2034322 | species: Ecdysozoa_Arthropoda (Insecta)_Troglophilus_ovuliformis
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Insecta)_Troglophilus_ovuliformis
+Completed: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Insecta)_Troglophilus_ovuliformis
+Worker 2 | taxid: 1820382 | species: Ecdysozoa_Arthropoda (Crustacea)_Daphnia_sinensis
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Crustacea)_Daphnia_sinensis
+Completed: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Crustacea)_Daphnia_sinensis
+Worker 2 summary: assigned=4, completed=4, skipped=0, failed=0

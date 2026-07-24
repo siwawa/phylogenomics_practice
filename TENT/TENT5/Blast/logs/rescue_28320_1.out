@@ -1,0 +1,15 @@
+Rescue worker 1/3: TENT5A-B-C-D
+Selected targets: 12; assignment: indexes congruent to 1 modulo 3
+Worker 1 | taxid: 320991 | species: Lophotrochozoa_Annelida (Clitellata)_Amynthas_aspergillum
+Running remote BLASTP: TENT5A-B-C-D x Lophotrochozoa_Annelida (Clitellata)_Amynthas_aspergillum
+Completed: TENT5A-B-C-D x Lophotrochozoa_Annelida (Clitellata)_Amynthas_aspergillum
+Worker 1 | taxid: 37621 | species: Ecdysozoa_Priapulida_Priapulus_caudatus
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Priapulida_Priapulus_caudatus
+Completed: TENT5A-B-C-D x Ecdysozoa_Priapulida_Priapulus_caudatus
+Worker 1 | taxid: 3229105 | species: Ecdysozoa_Arthropoda (Arachnida)_Aelurillus_cypriotus
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Arachnida)_Aelurillus_cypriotus
+Completed: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Arachnida)_Aelurillus_cypriotus
+Worker 1 | taxid: 6848 | species: Ecdysozoa_Arthropoda (Xiphosura)_Carcinoscorpius_rotundicauda
+Running remote BLASTP: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Xiphosura)_Carcinoscorpius_rotundicauda
+Completed: TENT5A-B-C-D x Ecdysozoa_Arthropoda (Xiphosura)_Carcinoscorpius_rotundicauda
+Worker 1 summary: assigned=4, completed=4, skipped=0, failed=0

@@ -1,0 +1,4 @@
+awk: cmd. line:3:         NR > 1 && (
+awk: cmd. line:3:                    ^ unexpected newline or end of string
+Error: expected 12 rescue targets but selected 0.
+Refusing to run with an unexpected target set.
