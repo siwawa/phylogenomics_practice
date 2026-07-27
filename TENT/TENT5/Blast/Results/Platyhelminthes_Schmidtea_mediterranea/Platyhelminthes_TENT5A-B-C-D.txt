@@ -1,0 +1,7 @@
+TENT5A_Homo_sapiens	YP_008592428.3	24.000	25	6	2.2	19.2	cytochrome c oxidase subunit I, partial [Schmidtea mediterranea]
+TENT5A_Homo_sapiens	YP_008592433.1	26.984	63	12	3.1	18.9	NADH dehydrogenase subunit 1 [Schmidtea mediterranea]
+TENT5B_Homo_sapiens	YP_008592428.3	35.714	14	3	3.7	18.5	cytochrome c oxidase subunit I, partial [Schmidtea mediterranea]
+TENT5C_Homo_sapiens	YP_008592428.3	38.889	18	5	7.8	17.3	cytochrome c oxidase subunit I, partial [Schmidtea mediterranea]
+TENT5D_Homo_sapiens	YP_008592433.1	28.571	56	12	1.8	19.2	NADH dehydrogenase subunit 1 [Schmidtea mediterranea]
+TENT5D_Homo_sapiens	YP_008592431.1	27.451	51	13	5.7	17.7	cytochrome c oxidase subunit III, partial [Schmidtea mediterranea]
+TENT5D_Homo_sapiens	YP_008592437.2	33.333	15	4	9.9	16.9	cytochrome b, partial [Schmidtea mediterranea]

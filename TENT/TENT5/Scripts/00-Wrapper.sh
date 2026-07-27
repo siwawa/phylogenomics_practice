@@ -39,18 +39,24 @@ COMPARE_TREE_SCRIPT="${SCRIPTS_DIR}/08-Compare-tree.R"
 
 BLAST_RESULTS_DIR="${BASE_DIR}/Blast/Results"
 BLAST_DONE_DIR="${BASE_DIR}/Blast/Done"
-HIGH_HITS_TABLE="${SCRIPTS_DIR}/Blast-high-scoring-hits.txt"
-HIGH_HITS_FASTA="${SCRIPTS_DIR}/Blast-high-scoring-hits.fasta"
-FILTERED_FASTA="${SCRIPTS_DIR}/${PIPELINE_OUTPUT_PREFIX}-homologs.fasta"
+HIGH_HITS_TABLE="${PIPELINE_HIGH_HITS_TABLE:-${SCRIPTS_DIR}/Blast-high-scoring-hits.txt}"
+HIGH_HITS_FASTA="${PIPELINE_HIGH_HITS_FASTA:-${SCRIPTS_DIR}/Blast-high-scoring-hits.fasta}"
+FILTERED_FASTA="${PIPELINE_FILTERED_FASTA:-${SCRIPTS_DIR}/${PIPELINE_OUTPUT_PREFIX}-homologs.fasta}"
 HOMOLOG_COUNTS_PNG="${SCRIPTS_DIR}/${PIPELINE_OUTPUT_PREFIX}_Homolog_Counts.png"
-ALIGNMENT_FASTA="${BASE_DIR}/Alignments/${PIPELINE_OUTPUT_PREFIX}_aligned.fasta"
+ALIGNMENT_FASTA="${PIPELINE_ALIGNMENT_FASTA:-${BASE_DIR}/Alignments/${PIPELINE_OUTPUT_PREFIX}_aligned.fasta}"
 ALIGNMENT_ALIGNER_FILE="${BASE_DIR}/Alignments/${PIPELINE_OUTPUT_PREFIX}_aligned.aligner"
 TREE_DIR="${BASE_DIR}/Tree"
 TREE_PREFIX="${TREE_DIR}/${PIPELINE_OUTPUT_PREFIX}"
 TREE_FILE="${TREE_PREFIX}.treefile"
 RAW_TREE_DIR="${TREE_DIR}/Raw-alignment"
 RAW_TREE_FILE="${RAW_TREE_DIR}/${PIPELINE_OUTPUT_PREFIX}.treefile"
-TREE_PDF="${RAW_TREE_DIR}/Tree.pdf"
+TREE_PDF="${PIPELINE_TREE_PDF:-${RAW_TREE_DIR}/Tree.pdf}"
+
+export PIPELINE_HIGH_HITS_TABLE="$HIGH_HITS_TABLE"
+export PIPELINE_HIGH_HITS_FASTA="$HIGH_HITS_FASTA"
+export PIPELINE_FILTERED_FASTA="$FILTERED_FASTA"
+export PIPELINE_ALIGNMENT_FASTA="$ALIGNMENT_FASTA"
+export PIPELINE_TREE_PDF="$TREE_PDF"
 
 DRY_RUN=0
 OFFLINE=0
@@ -245,7 +251,7 @@ run_blast() {
     n_lines="$(species_line_count)"
     [[ "$n_lines" -ge 2 ]] || die "No species rows found in ${SPECIES_FILE}."
 
-    log "Submitting BLAST SLURM array 2-${n_lines}%3 for ${PIPELINE_QUERY_NAME}. Existing .done files will be skipped by ${BLAST_SCRIPT}."
+    log "Submitting BLAST SLURM array 2-${n_lines}%2 for ${PIPELINE_QUERY_NAME}. Existing .done files will be skipped by ${BLAST_SCRIPT}."
     run_cmd sbatch \
         --chdir="$BASE_DIR" \
         --output="${BASE_DIR}/Blast/logs/%A_%a.out" \

@@ -27,6 +27,7 @@ INPUT_FASTA="${PIPELINE_ALIGNMENT_FASTA:-${BASE_DIR}/Alignments/${PIPELINE_OUTPU
 OUTPUT_DIR="${BASE_DIR}/Tree"
 OUT_PREFIX="${OUTPUT_DIR}/${PIPELINE_OUTPUT_PREFIX}"
 THREADS="${SLURM_CPUS_PER_TASK:-1}"
+IQTREE_MODEL="${PIPELINE_IQTREE_MODEL:-}"
 
 mkdir -p "$OUTPUT_DIR"
 
@@ -43,11 +44,23 @@ fi
 echo "Starting IQ-TREE analysis for ${PIPELINE_OUTPUT_PREFIX}..."
 echo "Input: $INPUT_FASTA"
 echo "Output prefix: $OUT_PREFIX"
+if [[ -n "$IQTREE_MODEL" ]]; then
+    echo "Fixed substitution model: $IQTREE_MODEL"
+else
+    echo "Substitution model: IQ-TREE automatic selection"
+fi
 
-iqtree3 -s "$INPUT_FASTA" \
-        -B 5000 \
-        --prefix "$OUT_PREFIX" \
-        -T AUTO \
-        --threads-max "$THREADS"
+IQTREE_ARGS=(
+    -s "$INPUT_FASTA"
+    -B 5000
+    --prefix "$OUT_PREFIX"
+    -T AUTO
+    --threads-max "$THREADS"
+)
+if [[ -n "$IQTREE_MODEL" ]]; then
+    IQTREE_ARGS+=(-m "$IQTREE_MODEL")
+fi
+
+iqtree3 "${IQTREE_ARGS[@]}"
 
 echo "IQ-TREE analysis completed at $(date)."

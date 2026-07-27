@@ -1,0 +1,2 @@
+awk: cmd. line:1: END { print NR > 0 ? NR - 1 : 0 }
+awk: cmd. line:1:                    ^ syntax error

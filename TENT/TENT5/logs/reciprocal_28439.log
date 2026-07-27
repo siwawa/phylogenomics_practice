@@ -1,0 +1,10 @@
+[TENT5 reciprocal BLAST] Found 708 forward-hit rows representing 157 unique accessions.
+[TENT5 reciprocal BLAST] Retrieving candidate sequences from NCBI Protein in batches of 200.
+[TENT5 reciprocal BLAST] Identifying all annotated human TENT5 proteins in /bank/ncbi/gnathostome/HumanDB/human_prot.
+[TENT5 reciprocal BLAST] Recognized 5 human TENT5 protein records.
+[TENT5 reciprocal BLAST] Running reciprocal BLASTP against the human database with 32 threads.
+Warning: [blastp] Examining 5 or more matches is recommended
+[TENT5 reciprocal BLAST] Accepted 156 reciprocal TENT5 best hits.
+[TENT5 reciprocal BLAST] Table: /rna/liha/phylogenomics_practice/TENT/TENT5/Blast/Reciprocal/reciprocal_TENT5_hits.tsv
+[TENT5 reciprocal BLAST] FASTA: /rna/liha/phylogenomics_practice/TENT/TENT5/Blast/Reciprocal/reciprocal_TENT5_hit_sequences.fasta
+[TENT5 reciprocal BLAST] RB-filtered forward-hit table: /rna/liha/phylogenomics_practice/TENT/TENT5/Scripts/Blast-high-scoring-hits-rb.txt

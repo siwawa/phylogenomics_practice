@@ -1,0 +1,785 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/Blast-high-scoring-hits-rb-corrected-alignment.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (5000 replicates)
+Random seed number: 911285
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 129 sequences with 651 amino-acid sites
+Number of constant sites: 106 (= 16.2826% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 106 (= 16.2826% of all sites)
+Number of parsimony informative sites: 446
+Number of distinct site patterns: 601
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+I+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+I+R7         -34047.373   68630.745 -  6.1e-12   69008.190 +    0.796   69830.986 +    0.658
+JTT+I+R6         -34054.504   68641.008 -  3.6e-14   69010.915 +    0.204   69832.292 +    0.342
+JTTDCMUT+I+R7    -34058.467   68652.935 - 9.27e-17   69030.380 - 1.21e-05   69853.175 - 9.99e-06
+JTTDCMUT+I+R6    -34064.999   68661.998 - 9.98e-19   69031.904 - 5.64e-06   69853.281 - 9.48e-06
+Q.INSECT+F+I+R6  -34006.322   68582.645 +     0.17   69029.275 -  2.1e-05   69859.020 - 5.38e-07
+Q.INSECT+F+I+R7  -34002.736   68579.472 +     0.83   69034.877 - 1.28e-06   69864.805 - 2.98e-08
+JTT+F+I+R6       -34037.798   68645.596 - 3.64e-15   69092.226 -  4.5e-19   69921.971 - 1.15e-20
+JTT+F+I+R7       -34032.881   68639.761 - 6.72e-14   69095.166 - 1.03e-19   69925.093 - 2.41e-21
+JTTDCMUT+F+I+R6  -34052.226   68674.452 - 1.97e-21   69121.082 - 2.44e-25   69950.827 - 6.23e-27
+JTTDCMUT+F+I+R7  -34047.603   68669.206 - 2.71e-20   69124.611 - 4.17e-26   69954.538 - 9.75e-28
+Q.MAMMAL+I+R6    -34125.208   68782.415 - 7.09e-45   69152.321 - 4.01e-32   69973.699 - 6.73e-32
+Q.MAMMAL+I+R7    -34119.565   68775.130 - 2.71e-43   69152.575 - 3.53e-32   69975.370 - 2.92e-32
+Q.YEAST+F+I+R6   -34069.437   68708.875 -  6.6e-29   69155.505 - 8.17e-33   69985.250 - 2.09e-34
+Q.YEAST+F+I+R7   -34065.464   68704.927 - 4.75e-28   69160.332 - 7.31e-34   69990.260 - 1.71e-35
+Q.INSECT+I+R6    -34164.307   68860.614 - 7.41e-62   69230.521 - 4.19e-49   70051.898 - 7.04e-49
+Q.INSECT+I+R7    -34160.746   68857.492 - 3.53e-61   69234.937 - 4.61e-50   70057.733 - 3.81e-50
+Q.PLANT+F+I+R6   -34107.588   68785.177 - 1.78e-45   69231.807 -  2.2e-49   70061.552 - 5.64e-51
+Q.PLANT+F+I+R7   -34103.849   68781.697 - 1.02e-44   69237.102 - 1.56e-50   70067.030 - 3.65e-52
+Q.PFAM+F+I+R6    -34130.579   68831.158 - 1.85e-55   69277.789 - 2.28e-59   70107.534 - 5.84e-61
+Q.PFAM+F+I+R7    -34128.030   68830.059 -  3.2e-55   69285.464 - 4.92e-61   70115.392 - 1.15e-62
+Q.PLANT+I+R6     -34208.168   68948.335 - 6.63e-81   69318.242 - 3.75e-68   70139.619 -  6.3e-68
+Q.PLANT+I+R7     -34203.130   68942.259 - 1.38e-79   69319.704 - 1.81e-68   70142.500 - 1.49e-68
+LG+F+I+R6        -34157.946   68885.892 -  2.4e-67   69332.522 - 2.97e-71   70162.267 - 7.61e-73
+LG+F+I+R7        -34155.444   68884.889 - 3.97e-67   69340.294 -  6.1e-73   70170.221 - 1.43e-74
+Q.PFAM+I+R6      -34245.093   69022.185 -  6.1e-97   69392.091 - 3.45e-84   70213.469 - 5.79e-84
+Q.PFAM+I+R7      -34242.876   69021.751 - 7.58e-97   69399.196 - 9.89e-86   70221.992 - 8.17e-86
+Q.MAMMAL+F+I+R6  -34196.948   68963.897 - 2.77e-84   69410.527 - 3.43e-88   70240.272 - 8.76e-90
+Q.MAMMAL+F+I+R7  -34192.324   68958.648 - 3.82e-83   69414.053 - 5.88e-89   70243.980 - 1.37e-90
+LG+I+R7          -34276.244   69088.488 - 2.44e-111   69465.933 - 3.19e-100   70288.728 - 2.63e-100
+LG+I+R6          -34285.673   69103.347 - 1.45e-114   69473.253 - 8.2e-102   70294.630 - 1.38e-101
+WAG+I+R6         -34286.728   69105.456 - 5.05e-115   69475.362 - 2.86e-102   70296.739 - 4.8e-102
+WAG+I+R7         -34280.474   69096.947 - 3.56e-113   69474.392 - 4.64e-102   70297.188 - 3.83e-102
+VT+I+R6          -34288.770   69109.539 - 6.55e-116   69479.445 - 3.71e-103   70300.823 - 6.23e-103
+LG+I+R8          -34275.974   69091.948 - 4.33e-112   69477.053 - 1.23e-102   70301.145 - 5.3e-103
+LG+R7            -34288.052   69110.104 - 4.94e-116   69483.764 - 4.28e-104   70305.866 -   5e-104
+VT+I+R7          -34285.269   69106.538 - 2.94e-115   69483.983 - 3.84e-104   70306.779 - 3.17e-104
+VT+F+I+R6        -34231.671   69033.343 -  2.3e-99   69479.973 - 2.85e-103   70309.718 - 7.29e-105
+LG+R8            -34284.313   69106.626 - 2.81e-115   69487.886 - 5.45e-105   70311.345 - 3.23e-105
+LG+R6            -34298.941   69127.881 - 6.82e-120   69494.063 - 2.48e-106   70314.686 - 6.08e-106
+VT+F+I+R7        -34228.366   69030.732 -  8.5e-99   69486.136 - 1.31e-104   70316.064 - 3.05e-106
+Q.BIRD+I+R7      -34293.171   69122.342 - 1.09e-118   69499.787 - 1.42e-107   70322.583 - 1.17e-107
+Q.BIRD+I+R6      -34301.731   69135.462 - 1.54e-121   69505.368 - 8.71e-109   70326.746 - 1.46e-108
+LG+I+R5          -34309.467   69146.934 - 4.97e-124   69509.421 - 1.15e-109   70329.260 - 4.16e-109
+WAG+F+I+R6       -34251.175   69072.351 - 7.8e-108   69518.981 - 9.64e-112   70348.726 - 2.47e-113
+WAG+F+I+R7       -34248.064   69070.128 - 2.37e-107   69525.533 - 3.64e-113   70355.460 - 8.51e-115
+LG+I+G4          -34349.897   69213.794 - 1.51e-138   69551.229 - 9.58e-119   70364.771 - 8.09e-117
+LG+R5            -34340.816   69207.632 - 3.28e-137   69566.454 - 4.74e-122   70385.480 - 2.58e-121
+LG+G4            -34368.974   69249.948 - 2.12e-146   69583.918 - 7.64e-126   70396.447 - 1.07e-123
+LG+I+R4          -34368.035   69260.070 - 1.35e-148   69615.255 - 1.2e-132   70433.439 - 9.93e-132
+LG+R4            -34418.147   69358.293 - 6.31e-170   69709.872 - 3.41e-153   70527.184 - 4.37e-152
+Q.YEAST+I+R6     -34408.941   69349.882 - 4.23e-168   69719.789 - 2.4e-155   70541.166 - 4.02e-155
+Q.YEAST+I+R7     -34404.666   69345.331 - 4.12e-167   69722.776 - 5.38e-156   70545.572 - 4.44e-156
+Q.BIRD+F+I+R6    -34356.058   69282.117 - 2.2e-153   69728.747 - 2.72e-157   70558.492 - 6.95e-159
+Q.BIRD+F+I+R7    -34349.624   69273.248 - 1.85e-151   69728.653 - 2.85e-157   70558.580 - 6.65e-159
+RTREV+F+I+R6     -34388.168   69346.337 - 2.49e-167   69792.967 - 3.08e-171   70622.712 - 7.89e-173
+RTREV+F+I+R7     -34386.137   69346.275 - 2.57e-167   69801.680 - 3.95e-173   70631.607 - 9.23e-175
+MTINV+F+I+R6     -34434.604   69439.208 - 1.7e-187   69885.839 - 2.1e-191   70715.584 - 5.37e-193
+MTINV+F+I+R7     -34432.652   69439.303 - 1.62e-187   69894.708 - 2.49e-193   70724.636 - 5.81e-195
+LG+I+R3          -34554.808   69629.616 - 7.64e-229   69977.616 - 2.47e-211   70794.029 - 4.96e-210
+MTMET+F+I+R6     -34487.953   69545.906 - 1.15e-210   69992.536 - 1.42e-214   70822.281 - 3.64e-216
+MTMET+F+I+R7     -34485.745   69545.491 - 1.42e-210   70000.896 - 2.18e-216   70830.823 - 5.08e-218
+DAYHOFF+F+I+R7   -34497.268   69568.536 - 1.4e-215   70023.941 - 2.16e-221   70853.868 - 5.04e-223
+DAYHOFF+F+I+R6   -34504.434   69578.869 -   8e-218   70025.499 - 9.89e-222   70855.244 - 2.53e-223
+CPREV+I+R6       -34567.707   69667.413 - 4.74e-237   70037.320 - 2.68e-224   70858.697 - 4.5e-224
+DCMUT+F+I+R6     -34506.719   69583.439 - 8.14e-219   70030.069 - 1.01e-222   70859.814 - 2.58e-224
+DCMUT+F+I+R7     -34501.874   69577.748 - 1.4e-217   70033.153 - 2.15e-223   70863.081 - 5.03e-225
+CPREV+I+R7       -34564.372   69664.745 - 1.8e-236   70042.190 - 2.35e-225   70864.985 - 1.94e-225
+DAYHOFF+I+R6     -34571.459   69674.917 - 1.11e-238   70044.823 - 6.29e-226   70866.201 - 1.06e-225
+CPREV+F+I+R6     -34511.590   69593.180 - 6.24e-221   70039.810 - 7.72e-225   70869.556 - 1.97e-226
+DAYHOFF+I+R7     -34566.819   69669.637 - 1.56e-237   70047.082 - 2.03e-226   70869.878 - 1.68e-226
+CPREV+F+I+R7     -34507.941   69589.882 - 3.25e-220   70045.287 - 4.99e-226   70875.214 - 1.17e-227
+DCMUT+I+R6       -34577.356   69686.713 - 3.05e-241   70056.619 - 1.73e-228   70877.996 - 2.9e-228
+DCMUT+I+R7       -34571.560   69679.120 - 1.36e-239   70056.565 - 1.78e-228   70879.360 - 1.47e-228
+PMB+I+R6         -34600.161   69732.321 - 3.81e-251   70102.227 - 2.16e-238   70923.605 - 3.62e-238
+PMB+I+R7         -34597.550   69731.099 - 7.02e-251   70108.544 - 9.16e-240   70931.340 - 7.57e-240
+RTREV+I+R6       -34637.062   69806.124 - 3.59e-267   70176.030 - 2.03e-254   70997.407 - 3.41e-254
+LG+R3            -34660.621   69839.243 - 2.31e-274   70183.693 - 4.4e-256   70999.177 - 1.41e-254
+RTREV+I+R7       -34635.102   69806.204 - 3.45e-267   70183.649 - 4.5e-256   71006.444 - 3.72e-256
+HIVB+F+I+R6      -34591.791   69753.582 - 9.21e-256   70200.212 - 1.14e-259   71029.957 - 2.92e-261
+HIVB+F+I+R7      -34589.635   69753.269 - 1.08e-255   70208.674 - 1.66e-261   71038.601 - 3.87e-263
+BLOSUM62+I+R6    -34679.717   69891.435 - 1.07e-285   70261.341 - 6.06e-273   71082.718 - 1.02e-272
+BLOSUM62+I+R7    -34676.635   69889.271 - 3.16e-285   70266.716 - 4.13e-274   71089.511 - 3.41e-274
+BLOSUM62+F+I+R6  -34629.716   69829.431 - 3.12e-272   70276.061 - 3.86e-276   71105.806 - 9.87e-278
+MTREV+F+I+R6     -34631.483   69832.967 - 5.32e-273   70279.597 - 6.58e-277   71109.342 - 1.68e-278
+BLOSUM62+F+I+R7  -34627.342   69828.683 - 4.53e-272   70284.088 - 6.97e-278   71114.016 - 1.63e-279
+MTREV+F+I+R7     -34629.939   69833.878 - 3.38e-273   70289.283 - 5.19e-279   71119.211 - 1.21e-280
+PMB+F+I+R6       -34656.854   69883.708 - 5.1e-284   70330.339 - 6.31e-288   71160.084 - 1.61e-289
+PMB+F+I+R7       -34655.228   69884.455 - 3.51e-284   70339.860 - 5.4e-290   71169.787 - 1.26e-291
+HIVB+I+R6        -34733.710   69999.419 - 3.82e-309   70369.326 - 2.16e-296   71190.703 - 3.62e-296
+HIVB+I+R7        -34728.377   69992.754 - 1.07e-307   70370.199 - 1.39e-296   71192.995 - 1.15e-296
+FLU+F+I+R6       -34677.992   69925.985 - 3.37e-293   70372.615 - 4.17e-297   71202.360 - 1.07e-298
+FLU+F+I+R7       -34675.277   69924.554 - 6.89e-293   70379.959 - 1.06e-298   71209.886 - 2.48e-300
+FLU+I+R6         -34799.873   70131.745 -        0   70501.652 -        0   71323.029 -        0
+FLU+I+R7         -34797.403   70130.806 -        0   70508.251 -        0   71331.047 -        0
+MTZOA+F+I+R6     -34764.072   70098.145 -        0   70544.775 -        0   71374.520 -        0
+MTZOA+F+I+R7     -34760.654   70095.307 -        0   70550.712 -        0   71380.640 -        0
+MTVER+F+I+R6     -34839.485   70248.970 -        0   70695.601 -        0   71525.346 -        0
+MTVER+F+I+R7     -34837.465   70248.930 -        0   70704.335 -        0   71534.262 -        0
+LG+I+R2          -34971.165   70458.330 -        0   70799.258 -        0   71613.785 -        0
+LG+R2            -35092.578   70699.156 -        0   71036.591 -        0   71850.133 -        0
+FLAVI+F+I+R6     -35047.436   70664.872 -        0   71111.502 -        0   71941.247 -        0
+FLAVI+F+I+R7     -35042.569   70659.138 -        0   71114.543 -        0   71944.470 -        0
+FLAVI+I+R6       -35273.887   71079.773 -        0   71449.679 -        0   72271.057 -        0
+FLAVI+I+R7       -35267.762   71071.524 -        0   71448.969 -        0   72271.765 -        0
+HIVW+F+I+R6      -35270.435   71110.870 -        0   71557.500 -        0   72387.245 -        0
+HIVW+F+I+R7      -35266.883   71107.765 -        0   71563.170 -        0   72393.098 -        0
+MTMAM+F+I+R6     -35278.183   71126.366 -        0   71572.996 -        0   72402.741 -        0
+MTMAM+F+I+R7     -35272.262   71118.523 -        0   71573.928 -        0   72403.856 -        0
+MTART+F+I+R6     -35355.875   71281.750 -        0   71728.380 -        0   72558.125 -        0
+MTART+F+I+R7     -35351.778   71277.556 -        0   71732.960 -        0   72562.888 -        0
+MTZOA+I+R6       -35523.790   71579.580 -        0   71949.486 -        0   72770.863 -        0
+MTZOA+I+R7       -35521.301   71578.601 -        0   71956.046 -        0   72778.842 -        0
+MTMET+I+R6       -35662.543   71857.086 -        0   72226.992 -        0   73048.369 -        0
+MTMET+I+R7       -35659.755   71855.510 -        0   72232.955 -        0   73055.751 -        0
+MTREV+I+R6       -35678.286   71888.573 -        0   72258.479 -        0   73079.856 -        0
+MTREV+I+R7       -35675.978   71887.956 -        0   72265.401 -        0   73088.197 -        0
+MTVER+I+R6       -35802.482   72136.963 -        0   72506.870 -        0   73328.247 -        0
+MTVER+I+R7       -35798.320   72132.640 -        0   72510.085 -        0   73332.880 -        0
+HIVW+I+R6        -35898.266   72328.533 -        0   72698.439 -        0   73519.816 -        0
+HIVW+I+R7        -35895.028   72326.056 -        0   72703.501 -        0   73526.297 -        0
+MTINV+I+R6       -36022.495   72576.990 -        0   72946.896 -        0   73768.274 -        0
+MTINV+I+R7       -36021.115   72578.231 -        0   72955.676 -        0   73778.471 -        0
+MTMAM+I+R6       -36305.536   73143.071 -        0   73512.977 -        0   74334.355 -        0
+MTMAM+I+R7       -36300.126   73136.252 -        0   73513.697 -        0   74336.493 -        0
+MTART+I+R6       -36417.962   73367.923 -        0   73737.830 -        0   74559.207 -        0
+MTART+I+R7       -36417.868   73371.736 -        0   73749.181 -        0   74571.977 -        0
+LG+I             -36803.749   74119.497 -        0   74453.467 -        0   75265.996 -        0
+LG               -37345.336   75200.671 -        0   75531.203 -        0   76342.691 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+I+R7
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+FreeRate with 7 categories
+Proportion of invariable sites: 0.0477
+Site proportion and rates:  (0.1792,0.0358) (0.1558,0.1621) (0.1646,0.3394) (0.1646,0.6082) (0.0924,1.0061) (0.0518,1.8645) (0.1438,4.3308)
+
+ Category  Relative_rate  Proportion
+  0         0              0.0477
+  1         0.0358         0.1792
+  2         0.1621         0.1558
+  3         0.3394         0.1646
+  4         0.6082         0.1646
+  5         1.0061         0.0924
+  6         1.8645         0.0518
+  7         4.3308         0.1438
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -34005.1363 (s.e. 1259.2571)
+Unconstrained log-likelihood (without tree): -4131.7338
+Number of free parameters (#branches + #model parameters): 268
+Akaike information criterion (AIC) score: 68546.2726
+Corrected Akaike information criterion (AICc) score: 68923.7176
+Bayesian information criterion (BIC) score: 69746.5132
+
+Total tree length (sum of branch lengths): 82.9118
+Sum of internal branch lengths: 28.2597 (34.0840% of tree length)
+
+WARNING: 7 near-zero internal branches (<0.0015) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Gallus_gallus_terminal_nucleotidyltransferase_5C_NP_001007973.1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Gallus_gallus_terminal_nucleotidyltransferase_5C_NP_001007973.1
+|
+|                                   +--Xenopus_tropicalis_terminal_nucleotidyltransferase_5B_NP_001017206.1
+|                                +--| (85)
+|                                |  |    +--Homo_sapiens_terminal_nucleotidyltransferase_5B_NP_443175.2
+|                                |  +----| (100)
+|                                |       +--Mus_musculus_terminal_nucleotidyltransferase_5B_NP_780516.1
+|                             +--| (100)
+|                             |  |  +--Anolis_carolinensis_terminal_nucleotidyltransferase_5B_XP_008118874.1
+|                             |  +--| (86)
+|                             |     +--Gallus_gallus_terminal_nucleotidyltransferase_5B_XP_040546047.1
+|                          +--| (99)
+|                          |  |  +**Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X1_XP_005991079.1
+|                          |  +--| (100)
+|                          |     +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X2_XP_005991080.1
+|                       +--| (100)
+|                       |  |     +--Lepisosteus_oculatus_terminal_nucleotidyltransferase_5ba_XP_006631331.1
+|                       |  |  +--| (96)
+|                       |  |  |  |     +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5Bb_XP_019946020.1
+|                       |  |  |  |  +--| (100)
+|                       |  |  |  |  |  +--Scomber_japonicus_terminal_nucleotidyltransferase_5Bb_XP_053190155.1
+|                       |  |  |  +--| (100)
+|                       |  |  |     |  +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5ba_XP_019963397.1
+|                       |  |  |     +--| (100)
+|                       |  |  |        +--Scomber_japonicus_terminal_nucleotidyltransferase_5ba_XP_053182883.1
+|                       |  +--| (100)
+|                       |     |  +--Polypterus_senegalus_terminal_nucleotidyltransferase_5A-like_XP_039595688.1
+|                       |     +--| (97)
+|                       |        |  +**Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058853527.1
+|                       |        +--| (100)
+|                       |           +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058855628.1
+|                    +--| (100)
+|                    |  |                       +--Gallus_gallus_terminal_nucleotidyltransferase_5A_NP_001026256.1
+|                    |  |                    +--| (100)
+|                    |  |                    |  |  +**Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X1_XP_015140113.2
+|                    |  |                    |  +**| (57)
+|                    |  |                    |     +**Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X2_XP_015140115.2
+|                    |  |                 +--| (97)
+|                    |  |                 |  |        +**Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_1_NP_001153850.1
+|                    |  |                 |  |     +--| (100)
+|                    |  |                 |  |     |  +**Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_2_NP_001153851.1
+|                    |  |                 |  |  +--| (100)
+|                    |  |                 |  |  |  +--Homo_sapiens_terminal_nucleotidyltransferase_5A_NP_060103.2
+|                    |  |                 |  +--| (77)
+|                    |  |                 |     +--Anolis_carolinensis_terminal_nucleotidyltransferase_5A_XP_008120091.2
+|                    |  |              +--| (99)
+|                    |  |              |  +--Xenopus_tropicalis_terminal_nucleotidyltransferase_5A_XP_002938504.1
+|                    |  |           +--| (62)
+|                    |  |           |  +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_XP_006003359.1
+|                    |  |        +--| (81)
+|                    |  |        |  |  +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5A_XP_033872791.3
+|                    |  |        |  +--| (100)
+|                    |  |        |     +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058880590.1
+|                    |  |     +--| (94)
+|                    |  |     |  +--Lepisosteus_oculatus_terminal_nucleotidyltransferase_5A_XP_006626328.1
+|                    |  |  +--| (99)
+|                    |  |  |  |     +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A_XP_019946612.1
+|                    |  |  |  |  +--| (100)
+|                    |  |  |  |  |  +--Scomber_japonicus_terminal_nucleotidyltransferase_5A_XP_053183877.1
+|                    |  |  |  +--| (100)
+|                    |  |  |     |  +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A-like_XP_019947548.1
+|                    |  |  |     +--| (100)
+|                    |  |  |        +--Scomber_japonicus_terminal_nucleotidyltransferase_5A-like_XP_053193485.1
+|                    |  +--| (100)
+|                    |     |           +--Callorhinchus_milii_terminal_nucleotidyltransferase_5A_XP_007903243.1
+|                    |     |        +--| (58)
+|                    |     |        |  |  +--Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A_XP_055492050.1
+|                    |     |        |  +--| (100)
+|                    |     |        |     +--Raja_brachyura_terminal_nucleotidyltransferase_5A_XP_080079901.1
+|                    |     |     +**| (35)
+|                    |     |     |  |  +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5A_XP_048387395.1
+|                    |     |     |  +--| (67)
+|                    |     |     |     +--Heptranchias_perlo_terminal_nucleotidyltransferase_5A_XP_067841022.1
+|                    |     |  +--| (71)
+|                    |     |  |  +--Heterodontus_francisci_terminal_nucleotidyltransferase_5A_XP_067882795.1
+|                    |     +--| (100)
+|                    |        |  +**Pristiophorus_japonicus_terminal_nucleotidyltransferase_5A_XP_070741672.1
+|                    |        +--| (77)
+|                    |           +--Scyliorhinus_torazame_terminal_nucleotidyltransferase_5A_XP_072355906.1
+|                 +--| (98)
+|                 |  |        +--Petromyzon_marinus_terminal_nucleotidyltransferase_5C-like_XP_032829540.1
+|                 |  |     +--| (100)
+|                 |  |     |  +--Lethenteron_reissneri_terminal_nucleotidyltransferase_5C-like_XP_061422765.1
+|                 |  |  +--| (100)
+|                 |  |  |  +--Lampetra_planeri_terminal_nucleotidyltransferase_5C-like_XP_078471579.1
+|                 |  +--| (100)
+|                 |     |     +**Myxine_glutinosa_terminal_nucleotidyltransferase_5C_isoform_X1_XP_067966876.1
+|                 |     |  +--| (100)
+|                 |     |  |  +**Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X2_XP_067966877.1
+|                 |     +--| (100)
+|                 |        +--Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X3_XP_078630242.1
+|              +--| (98)
+|              |  |                 +--Mus_musculus_terminal_nucleotidyltransferase_5D_NP_001156576.1
+|              |  |              +--| (100)
+|              |  |              |  +---Homo_sapiens_terminal_nucleotidyltransferase_5D_NP_001164045.1
+|              |  |           +--| (73)
+|              |  |           |  +--Xenopus_tropicalis_terminal_nucleotidyltransferase_5D_XP_002940481.1
+|              |  |        +--| (75)
+|              |  |        |  |  +--Gallus_gallus_terminal_nucleotidyltransferase_5C-like_XP_040526195.1
+|              |  |        |  +--| (100)
+|              |  |        |     +--Anolis_carolinensis_terminal_nucleotidyltransferase_5D_XP_062819994.1
+|              |  |     +--| (74)
+|              |  |     |  +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_014347599.1
+|              |  |  +--| (99)
+|              |  |  |  |  +----Scomber_japonicus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C_XP_053179509.1
+|              |  |  |  +--| (100)
+|              |  |  |     +--Scomber_japonicus_terminal_nucleotidyltransferase_5C-like_XP_053187094.1
+|              |  +--| (100)
+|              |     |  +--Callorhinchus_milii_terminal_nucleotidyltransferase_5C-like_XP_007890286.2
+|              |     +--| (100)
+|              |        |                       +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_048400966.1
+|              |        |                    +--| (84)
+|              |        |                    |  |  +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_048400967.1
+|              |        |                    |  +**| (28)
+|              |        |                    |     +**Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X5_XP_048400971.1
+|              |        |                 +**| (64)
+|              |        |                 |  +**Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X4_XP_048400969.1
+|              |        |              +--| (100)
+|              |        |              |  +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X3_XP_048400968.1
+|              |        |           +--| (97)
+|              |        |           |  |  +**Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_072361243.1
+|              |        |           |  +--| (100)
+|              |        |           |     +**Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_072361244.1
+|              |        |        +--| (93)
+|              |        |        |  +--Heterodontus_francisci_terminal_nucleotidyltransferase_5C-like_XP_067904101.1
+|              |        |     +--| (38)
+|              |        |     |  |     +--Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A-like_XP_055499361.1
+|              |        |     |  |  +--| (100)
+|              |        |     |  |  |  +--Raja_brachyura_terminal_nucleotidyltransferase_5A-like_XP_080089732.1
+|              |        |     |  +--| (100)
+|              |        |     |     |  +--Mobula_hypostoma_terminal_nucleotidyltransferase_5C-like_XP_062917399.1
+|              |        |     |     +--| (100)
+|              |        |     |        +--Mobula_birostris_terminal_nucleotidyltransferase_5A-like_XP_072127328.1
+|              |        |  +--| (100)
+|              |        |  |  +--Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_070738233.1
+|              |        +--| (100)
+|              |           +--Heptranchias_perlo_terminal_nucleotidyltransferase_5A-like_XP_067852738.1
+|           +--| (100)
+|           |  |        +--------------------Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_3407__partial_XP_002111339.1
+|           |  |     +--| (74)
+|           |  |     |  |         +**Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X1_XP_013392373.1
+|           |  |     |  |  +------| (100)
+|           |  |     |  |  |      +**Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X2_XP_013392374.1
+|           |  |     |  +--| (99)
+|           |  |     |     |    +**Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_064628772.1
+|           |  |     |     +----| (100)
+|           |  |     |          +**Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_064628773.1
+|           |  |  +--| (63)
+|           |  |  |  |              +---------------Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_14293__partial_XP_002112434.1
+|           |  |  |  |           +--| (46)
+|           |  |  |  |           |  |  +---------------------Amphimedon_queenslandica_protein_FAM46C-like_XP_003386242.1
+|           |  |  |  |           |  +--| (98)
+|           |  |  |  |           |     |          +--------------------------------Sycon_ciliatum_terminal_nucleotidyltransferase_5D-like_XP_065184646.1
+|           |  |  |  |           |     |  +-------| (100)
+|           |  |  |  |           |     |  |       +-----------------------Sycon_ciliatum_terminal_nucleotidyltransferase_5C-like_XP_065197531.1
+|           |  |  |  |           |     +--| (98)
+|           |  |  |  |           |        +----------------Oscarella_lobularis_terminal_nucleotidyltransferase_5C-like_XP_065837872.1
+|           |  |  |  |        +--| (70)
+|           |  |  |  |        |  |           +--Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_004210423.1
+|           |  |  |  |        |  |      +----| (100)
+|           |  |  |  |        |  |      |    +--Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_065648842.1
+|           |  |  |  |        |  +------| (100)
+|           |  |  |  |        |         +--------Clytia_hemisphaerica_terminal_nucleotidyltransferase_5A-like_XP_066914011.1
+|           |  |  |  |     +--| (65)
+|           |  |  |  |     |  |  +---------Dendronephthya_gigantea_terminal_nucleotidyltransferase_5C-like_XP_028415047.1
+|           |  |  |  |     |  +--| (99)
+|           |  |  |  |     |     +-----Nematostella_vectensis_terminal_nucleotidyltransferase_5C_XP_032225299.2
+|           |  |  |  |  +--| (44)
+|           |  |  |  |  |  |        +--Branchiostoma_belcheri_PREDICTED__protein_FAM46C-like_XP_019625416.1
+|           |  |  |  |  |  |  +-----| (100)
+|           |  |  |  |  |  |  |     |  +--Branchiostoma_floridae_terminal_nucleotidyltransferase_5C-like_XP_035686171.1
+|           |  |  |  |  |  |  |     +**| (89)
+|           |  |  |  |  |  |  |        |  +**Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_066265811.1
+|           |  |  |  |  |  |  |        +--| (100)
+|           |  |  |  |  |  |  |           +**Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_066265819.1
+|           |  |  |  |  |  +--| (39)
+|           |  |  |  |  |     +-----------------Bolinopsis_microptera_terminal_nucleotidyltransferase_5C-like_XP_063676437.1
+|           |  |  |  +--| (46)
+|           |  |  |     |    +------Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014671930.1
+|           |  |  |     +----| (100)
+|           |  |  |          +---------Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014675022.1
+|           |  +--| (100)
+|           |     |                +--Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C_XP_003724224.2
+|           |     |             +--| (100)
+|           |     |             |  +--Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C-like_XP_030851220.1
+|           |     |        +----| (100)
+|           |     |        |    |     +--Lytechinus_variegatus_terminal_nucleotidyltransferase_5C-like_XP_041462475.1
+|           |     |        |    |  +--| (100)
+|           |     |        |    |  |  +--Lytechinus_variegatus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C-like_XP_041462532.1
+|           |     |        |    +--| (95)
+|           |     |        |       +--Lytechinus_pictus_terminal_nucleotidyltransferase_5C-like_XP_054753321.1
+|           |     |     +--| (96)
+|           |     |     |  |     +-----Apostichopus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_071820039.1
+|           |     |     |  |  +--| (45)
+|           |     |     |  |  |  |        +--Antedon_mediterranea_terminal_nucleotidyltransferase_5C-like_XP_071955683.1
+|           |     |     |  |  |  +--------| (100)
+|           |     |     |  |  |           +--Antedon_bifida_terminal_nucleotidyltransferase_5C-like_XP_078561845.1
+|           |     |     |  +--| (97)
+|           |     |     |     +--Amphiura_filiformis_terminal_nucleotidyltransferase_5C-like_XP_072036890.1
+|           |     |  +--| (100)
+|           |     |  |  |  +--Asterias_rubens_terminal_nucleotidyltransferase_5C-like_XP_033635424.1
+|           |     |  |  +--| (100)
+|           |     |  |     +--Patiria_miniata_terminal_nucleotidyltransferase_5C-like_XP_038079036.1
+|           |     +--| (99)
+|           |        |  +--Saccoglossus_kowalevskii_terminal_nucleotidyltransferase_5A-like_XP_006825326.1
+|           |        +--| (100)
+|           |           |  +--Ptychodera_flava_terminal_nucleotidyltransferase_5A-like_XP_070567423.1
+|           |           +--| (99)
+|           |              +--Glandiceps_talaboti_terminal_nucleotidyltransferase_5C-like_XP_077976852.1
+|        +--| (99)
+|        |  |  +--Callorhinchus_milii_terminal_nucleotidyltransferase_5C_XP_007894052.1
+|        |  +--| (100)
+|        |     |           +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C_XP_048397321.1
+|        |     |        +--| (90)
+|        |     |        |  +--Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C_XP_072369869.1
+|        |     |     +--| (73)
+|        |     |     |  +--Heterodontus_francisci_terminal_nucleotidyltransferase_5C_XP_067896845.1
+|        |     |  +--| (97)
+|        |     |  |  |           +**Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X1_XP_055500210.1
+|        |     |  |  |        +--| (99)
+|        |     |  |  |        |  |  +--Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X2_XP_055500211.1
+|        |     |  |  |        |  +**| (98)
+|        |     |  |  |        |     +**Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X3_XP_055500212.1
+|        |     |  |  |     +--| (100)
+|        |     |  |  |     |  |  +**Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X1_XP_080089636.1
+|        |     |  |  |     |  +--| (100)
+|        |     |  |  |     |     +**Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X2_XP_080089638.1
+|        |     |  |  |  +--| (100)
+|        |     |  |  |  |  |  +--Mobula_hypostoma_terminal_nucleotidyltransferase_5C_XP_062906785.1
+|        |     |  |  |  |  +--| (100)
+|        |     |  |  |  |     +--Mobula_birostris_terminal_nucleotidyltransferase_5C_XP_072116458.1
+|        |     |  |  +**| (77)
+|        |     |  |     +--Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C_XP_070749601.1
+|        |     +--| (95)
+|        |        +--Heptranchias_perlo_terminal_nucleotidyltransferase_5C_XP_067849052.1
+|     +--| (99)
+|     |  |        +--Lepisosteus_oculatus_terminal_nucleotidyltransferase_5C_XP_006639425.1
+|     |  |     +--| (63)
+|     |  |     |  |  +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5C_XP_019965638.1
+|     |  |     |  +--| (100)
+|     |  |     |     +--Scomber_japonicus_terminal_nucleotidyltransferase_5C_XP_053184462.1
+|     |  |  +--| (62)
+|     |  |  |  |  +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_XP_033864625.1
+|     |  |  |  +--| (100)
+|     |  |  |     |  +**Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_033866648.1
+|     |  |  |     +--| (100)
+|     |  |  |        +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_058885092.1
+|     |  +--| (100)
+|     |     +--Polypterus_senegalus_terminal_nucleotidyltransferase_5C_XP_039599665.1
+|  +--| (99)
+|  |  +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_006006950.1
++--| (100)
+|  +--Xenopus_tropicalis_terminal_nucleotidyltransferase_5C_XP_002943490.1
+|
+|  +--Mus_musculus_terminal_nucleotidyltransferase_5C_NP_001136424.1
++--| (100)
+   +--Homo_sapiens_terminal_nucleotidyltransferase_5C_NP_060179.2
+
+Tree in newick format:
+
+(Gallus_gallus_terminal_nucleotidyltransferase_5C_NP_001007973.1:0.2093946959,((((((((((((Xenopus_tropicalis_terminal_nucleotidyltransferase_5B_NP_001017206.1:0.5329853242,(Homo_sapiens_terminal_nucleotidyltransferase_5B_NP_443175.2:0.0392532810,Mus_musculus_terminal_nucleotidyltransferase_5B_NP_780516.1:0.1353867182)100:1.1074935290)85:0.1377694650,(Anolis_carolinensis_terminal_nucleotidyltransferase_5B_XP_008118874.1:0.1691482787,Gallus_gallus_terminal_nucleotidyltransferase_5B_XP_040546047.1:0.1741469714)86:0.0868964057)100:0.1584509734,(Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X1_XP_005991079.1:0.0000021911,Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X2_XP_005991080.1:0.0091550912)100:0.1927425155)99:0.0580842409,((Lepisosteus_oculatus_terminal_nucleotidyltransferase_5ba_XP_006631331.1:0.0947218775,((Paralichthys_olivaceus_terminal_nucleotidyltransferase_5Bb_XP_019946020.1:0.0776729097,Scomber_japonicus_terminal_nucleotidyltransferase_5Bb_XP_053190155.1:0.0832804580)100:0.2342179820,(Paralichthys_olivaceus_terminal_nucleotidyltransferase_5ba_XP_019963397.1:0.0493926848,Scomber_japonicus_terminal_nucleotidyltransferase_5ba_XP_053182883.1:0.0947095497)100:0.2099612220)100:0.2298320350)96:0.0280161871,(Polypterus_senegalus_terminal_nucleotidyltransferase_5A-like_XP_039595688.1:0.1046717582,(Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058853527.1:0.0000027040,Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058855628.1:0.0136989325)100:0.2166538464)97:0.0336590121)100:0.3087798978)100:0.1901115507,((((((((Gallus_gallus_terminal_nucleotidyltransferase_5A_NP_001026256.1:0.0057815224,(Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X1_XP_015140113.2:0.0000021616,Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X2_XP_015140115.2:0.0000025318)57:0.0000020440)100:0.0845658372,(((Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_1_NP_001153850.1:0.0000026049,Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_2_NP_001153851.1:0.0000025318)100:0.1273026881,Homo_sapiens_terminal_nucleotidyltransferase_5A_NP_060103.2:0.1539311118)100:0.2437046653,Anolis_carolinensis_terminal_nucleotidyltransferase_5A_XP_008120091.2:0.2798295406)77:0.0341176998)97:0.0602253188,Xenopus_tropicalis_terminal_nucleotidyltransferase_5A_XP_002938504.1:0.1377993043)99:0.0613098386,Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_XP_006003359.1:0.0580000229)62:0.0302582756,(Acipenser_ruthenus_terminal_nucleotidyltransferase_5A_XP_033872791.3:0.0989187065,Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058880590.1:0.0890438801)100:0.1548815816)81:0.0284329457,Lepisosteus_oculatus_terminal_nucleotidyltransferase_5A_XP_006626328.1:0.0434184965)94:0.0639606576,((Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A_XP_019946612.1:0.0122328678,Scomber_japonicus_terminal_nucleotidyltransferase_5A_XP_053183877.1:0.0196725684)100:0.1210464620,(Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A-like_XP_019947548.1:0.1577200180,Scomber_japonicus_terminal_nucleotidyltransferase_5A-like_XP_053193485.1:0.0961991516)100:0.4667840368)100:0.1204159847)99:0.1394608329,((((Callorhinchus_milii_terminal_nucleotidyltransferase_5A_XP_007903243.1:0.1113094878,(Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A_XP_055492050.1:0.0122980767,Raja_brachyura_terminal_nucleotidyltransferase_5A_XP_080079901.1:0.0104402252)100:0.1144580313)58:0.0201121118,(Stegostoma_tigrinum_terminal_nucleotidyltransferase_5A_XP_048387395.1:0.0345446557,Heptranchias_perlo_terminal_nucleotidyltransferase_5A_XP_067841022.1:0.0271899689)67:0.0059397197)35:0.0000024371,Heterodontus_francisci_terminal_nucleotidyltransferase_5A_XP_067882795.1:0.0066753465)71:0.0321076301,(Pristiophorus_japonicus_terminal_nucleotidyltransferase_5A_XP_070741672.1:0.0008287994,Scyliorhinus_torazame_terminal_nucleotidyltransferase_5A_XP_072355906.1:0.0845451200)77:0.0167880928)100:0.1385447149)100:0.2344483073)100:0.2186571278,(((Petromyzon_marinus_terminal_nucleotidyltransferase_5C-like_XP_032829540.1:0.0277924546,Lethenteron_reissneri_terminal_nucleotidyltransferase_5C-like_XP_061422765.1:0.0931983450)100:0.0282246695,Lampetra_planeri_terminal_nucleotidyltransferase_5C-like_XP_078471579.1:0.0869314561)100:0.3140430269,((Myxine_glutinosa_terminal_nucleotidyltransferase_5C_isoform_X1_XP_067966876.1:0.0000029155,Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X2_XP_067966877.1:0.0000025318)100:0.0115330140,Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X3_XP_078630242.1:0.0056833398)100:0.4235668137)100:0.3957558109)98:0.0782174611,((((((Mus_musculus_terminal_nucleotidyltransferase_5D_NP_001156576.1:0.3344686983,Homo_sapiens_terminal_nucleotidyltransferase_5D_NP_001164045.1:0.7682408504)100:0.6874464694,Xenopus_tropicalis_terminal_nucleotidyltransferase_5D_XP_002940481.1:0.2297346476)73:0.0694762479,(Gallus_gallus_terminal_nucleotidyltransferase_5C-like_XP_040526195.1:0.1304858760,Anolis_carolinensis_terminal_nucleotidyltransferase_5D_XP_062819994.1:0.1354361879)100:0.1321897223)75:0.1313056949,Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_014347599.1:0.1333133941)74:0.0601311723,(Scomber_japonicus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C_XP_053179509.1:1.0290865319,Scomber_japonicus_terminal_nucleotidyltransferase_5C-like_XP_053187094.1:0.6957747264)100:0.3641416445)99:0.1112299948,(Callorhinchus_milii_terminal_nucleotidyltransferase_5C-like_XP_007890286.2:0.2724459936,((((((((Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_048400966.1:0.0089389935,(Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_048400967.1:0.0046845149,Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X5_XP_048400971.1:0.0000025318)28:0.0000021314)84:0.0039849866,Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X4_XP_048400969.1:0.0000025318)64:0.0000020375,Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X3_XP_048400968.1:0.0147471832)100:0.0878127644,(Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_072361243.1:0.0000022197,Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_072361244.1:0.0000025318)100:0.1129588152)97:0.0408325705,Heterodontus_francisci_terminal_nucleotidyltransferase_5C-like_XP_067904101.1:0.0973420480)93:0.0197850891,((Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A-like_XP_055499361.1:0.0578765727,Raja_brachyura_terminal_nucleotidyltransferase_5A-like_XP_080089732.1:0.0616089931)100:0.0754342198,(Mobula_hypostoma_terminal_nucleotidyltransferase_5C-like_XP_062917399.1:0.0038220769,Mobula_birostris_terminal_nucleotidyltransferase_5A-like_XP_072127328.1:0.0385657687)100:0.1495050883)100:0.1066585523)38:0.0133903368,Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_070738233.1:0.0605451870)100:0.0233730576,Heptranchias_perlo_terminal_nucleotidyltransferase_5A-like_XP_067852738.1:0.0401636306)100:0.1012898775)100:0.0465549272)100:0.6578678669)98:0.0773373619,(((Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_3407__partial_XP_002111339.1:4.1368324422,((Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X1_XP_013392373.1:0.0000020439,Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X2_XP_013392374.1:0.0000025318)100:1.4579638900,(Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_064628772.1:0.0000025154,Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_064628773.1:0.0000021450)100:0.9902644877)99:0.4865492888)74:0.1624731688,(((((Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_14293__partial_XP_002112434.1:3.1791318842,(Amphimedon_queenslandica_protein_FAM46C-like_XP_003386242.1:4.2869544251,((Sycon_ciliatum_terminal_nucleotidyltransferase_5D-like_XP_065184646.1:6.3824409736,Sycon_ciliatum_terminal_nucleotidyltransferase_5C-like_XP_065197531.1:4.6367876744)100:1.6786737480,Oscarella_lobularis_terminal_nucleotidyltransferase_5C-like_XP_065837872.1:3.3531835884)98:0.3867917529)98:0.4349815445)46:0.2325928702,((Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_004210423.1:0.1036937798,Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_065648842.1:0.1369275309)100:0.9974220048,Clytia_hemisphaerica_terminal_nucleotidyltransferase_5A-like_XP_066914011.1:1.7473911801)100:1.3378165910)70:0.1922923826,(Dendronephthya_gigantea_terminal_nucleotidyltransferase_5C-like_XP_028415047.1:1.9264595175,Nematostella_vectensis_terminal_nucleotidyltransferase_5C_XP_032225299.2:1.3094368104)99:0.4756722617)65:0.2400336026,((Branchiostoma_belcheri_PREDICTED__protein_FAM46C-like_XP_019625416.1:0.0585692332,(Branchiostoma_floridae_terminal_nucleotidyltransferase_5C-like_XP_035686171.1:0.0045557615,(Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_066265811.1:0.0000028410,Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_066265819.1:0.0000025318)100:0.0828123495)89:0.0004186188)100:1.2601351590,Bolinopsis_microptera_terminal_nucleotidyltransferase_5C-like_XP_063676437.1:3.4809392557)39:0.1239790804)44:0.1399775794,(Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014671930.1:1.4142631047,Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014675022.1:2.0103076109)100:1.0156186480)46:0.1017266421)63:0.2020391557,(((((Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C_XP_003724224.2:0.0073503642,Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C-like_XP_030851220.1:0.0529157430)100:0.2168798743,((Lytechinus_variegatus_terminal_nucleotidyltransferase_5C-like_XP_041462475.1:0.0556888660,Lytechinus_variegatus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C-like_XP_041462532.1:0.0047539884)100:0.0134725705,Lytechinus_pictus_terminal_nucleotidyltransferase_5C-like_XP_054753321.1:0.0787217770)95:0.2469096498)100:0.9700321832,((Apostichopus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_071820039.1:1.1976410159,(Antedon_mediterranea_terminal_nucleotidyltransferase_5C-like_XP_071955683.1:0.0222299813,Antedon_bifida_terminal_nucleotidyltransferase_5C-like_XP_078561845.1:0.0155652451)100:1.7632171630)45:0.2140542178,Amphiura_filiformis_terminal_nucleotidyltransferase_5C-like_XP_072036890.1:0.6292679051)97:0.3347500407)96:0.1777177608,(Asterias_rubens_terminal_nucleotidyltransferase_5C-like_XP_033635424.1:0.4618746956,Patiria_miniata_terminal_nucleotidyltransferase_5C-like_XP_038079036.1:0.2833024663)100:0.4081335498)100:0.7020425563,(Saccoglossus_kowalevskii_terminal_nucleotidyltransferase_5A-like_XP_006825326.1:0.5403564783,(Ptychodera_flava_terminal_nucleotidyltransferase_5A-like_XP_070567423.1:0.4437331631,Glandiceps_talaboti_terminal_nucleotidyltransferase_5C-like_XP_077976852.1:0.4455584142)99:0.1451548418)100:0.2037728897)99:0.3327140783)100:0.7364837333)100:0.1763367942,(Callorhinchus_milii_terminal_nucleotidyltransferase_5C_XP_007894052.1:0.0938195549,((((Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C_XP_048397321.1:0.0226242786,Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C_XP_072369869.1:0.0305821960)90:0.0146088644,Heterodontus_francisci_terminal_nucleotidyltransferase_5C_XP_067896845.1:0.0074805660)73:0.0072671317,((((Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X1_XP_055500210.1:0.0000020973,(Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X2_XP_055500211.1:0.0061190545,Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X3_XP_055500212.1:0.0000024013)98:0.0000029100)99:0.0176944251,(Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X1_XP_080089636.1:0.0000020156,Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X2_XP_080089638.1:0.0000022096)100:0.0468915788)100:0.0997388353,(Mobula_hypostoma_terminal_nucleotidyltransferase_5C_XP_062906785.1:0.0179027646,Mobula_birostris_terminal_nucleotidyltransferase_5C_XP_072116458.1:0.0120648831)100:0.0584577108)100:0.0545280767,Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C_XP_070749601.1:0.0302748533)77:0.0000021175)97:0.0094645275,Heptranchias_perlo_terminal_nucleotidyltransferase_5C_XP_067849052.1:0.0437953205)95:0.0696947532)100:0.2421764933)99:0.0848394654,(((Lepisosteus_oculatus_terminal_nucleotidyltransferase_5C_XP_006639425.1:0.1881734730,(Paralichthys_olivaceus_terminal_nucleotidyltransferase_5C_XP_019965638.1:0.1120570354,Scomber_japonicus_terminal_nucleotidyltransferase_5C_XP_053184462.1:0.0776844235)100:0.4791659217)63:0.0718062473,(Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_XP_033864625.1:0.0314420899,(Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_033866648.1:0.0000025318,Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_058885092.1:0.0557795679)100:0.0058286267)100:0.2191681401)62:0.0246554215,Polypterus_senegalus_terminal_nucleotidyltransferase_5C_XP_039599665.1:0.2556514928)100:0.3850207599)99:0.0628676081,Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_006006950.1:0.5104126731)99:0.1092193503,Xenopus_tropicalis_terminal_nucleotidyltransferase_5C_XP_002943490.1:0.2477394953)100:0.1951437132,(Mus_musculus_terminal_nucleotidyltransferase_5C_NP_001136424.1:0.0745846612,Homo_sapiens_terminal_nucleotidyltransferase_5C_NP_060179.2:0.0384307918)100:0.1550298842);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 5000 bootstrap trees
+Log-likelihood of consensus tree: -34005.316940
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Gallus_gallus_terminal_nucleotidyltransferase_5C_NP_001007973.1
+|
+|                                   +--Xenopus_tropicalis_terminal_nucleotidyltransferase_5B_NP_001017206.1
+|                                +--| (85)
+|                                |  |    +--Homo_sapiens_terminal_nucleotidyltransferase_5B_NP_443175.2
+|                                |  +----| (100)
+|                                |       +--Mus_musculus_terminal_nucleotidyltransferase_5B_NP_780516.1
+|                             +--| (100)
+|                             |  |  +--Anolis_carolinensis_terminal_nucleotidyltransferase_5B_XP_008118874.1
+|                             |  +--| (86)
+|                             |     +--Gallus_gallus_terminal_nucleotidyltransferase_5B_XP_040546047.1
+|                          +--| (99)
+|                          |  |  +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X1_XP_005991079.1
+|                          |  +--| (100)
+|                          |     +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X2_XP_005991080.1
+|                       +--| (100)
+|                       |  |     +--Lepisosteus_oculatus_terminal_nucleotidyltransferase_5ba_XP_006631331.1
+|                       |  |  +--| (96)
+|                       |  |  |  |     +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5Bb_XP_019946020.1
+|                       |  |  |  |  +--| (100)
+|                       |  |  |  |  |  +--Scomber_japonicus_terminal_nucleotidyltransferase_5Bb_XP_053190155.1
+|                       |  |  |  +--| (100)
+|                       |  |  |     |  +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5ba_XP_019963397.1
+|                       |  |  |     +--| (100)
+|                       |  |  |        +--Scomber_japonicus_terminal_nucleotidyltransferase_5ba_XP_053182883.1
+|                       |  +--| (100)
+|                       |     |  +--Polypterus_senegalus_terminal_nucleotidyltransferase_5A-like_XP_039595688.1
+|                       |     +--| (97)
+|                       |        |  +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058853527.1
+|                       |        +--| (100)
+|                       |           +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058855628.1
+|                    +--| (100)
+|                    |  |                       +--Gallus_gallus_terminal_nucleotidyltransferase_5A_NP_001026256.1
+|                    |  |                    +--| (100)
+|                    |  |                    |  |  +--Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X1_XP_015140113.2
+|                    |  |                    |  +--| (57)
+|                    |  |                    |     +--Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X2_XP_015140115.2
+|                    |  |                 +--| (97)
+|                    |  |                 |  |        +--Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_1_NP_001153850.1
+|                    |  |                 |  |     +--| (100)
+|                    |  |                 |  |     |  +--Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_2_NP_001153851.1
+|                    |  |                 |  |  +--| (100)
+|                    |  |                 |  |  |  +--Homo_sapiens_terminal_nucleotidyltransferase_5A_NP_060103.2
+|                    |  |                 |  +--| (77)
+|                    |  |                 |     +--Anolis_carolinensis_terminal_nucleotidyltransferase_5A_XP_008120091.2
+|                    |  |              +--| (99)
+|                    |  |              |  +--Xenopus_tropicalis_terminal_nucleotidyltransferase_5A_XP_002938504.1
+|                    |  |           +--| (62)
+|                    |  |           |  +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_XP_006003359.1
+|                    |  |        +--| (81)
+|                    |  |        |  |  +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5A_XP_033872791.3
+|                    |  |        |  +--| (100)
+|                    |  |        |     +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058880590.1
+|                    |  |     +--| (94)
+|                    |  |     |  +--Lepisosteus_oculatus_terminal_nucleotidyltransferase_5A_XP_006626328.1
+|                    |  |  +--| (99)
+|                    |  |  |  |     +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A_XP_019946612.1
+|                    |  |  |  |  +--| (100)
+|                    |  |  |  |  |  +--Scomber_japonicus_terminal_nucleotidyltransferase_5A_XP_053183877.1
+|                    |  |  |  +--| (100)
+|                    |  |  |     |  +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A-like_XP_019947548.1
+|                    |  |  |     +--| (100)
+|                    |  |  |        +--Scomber_japonicus_terminal_nucleotidyltransferase_5A-like_XP_053193485.1
+|                    |  +--| (100)
+|                    |     |           +--Callorhinchus_milii_terminal_nucleotidyltransferase_5A_XP_007903243.1
+|                    |     |        +--| (58)
+|                    |     |        |  |  +--Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A_XP_055492050.1
+|                    |     |        |  +--| (100)
+|                    |     |        |     +--Raja_brachyura_terminal_nucleotidyltransferase_5A_XP_080079901.1
+|                    |     |     +--| (35)
+|                    |     |     |  |  +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5A_XP_048387395.1
+|                    |     |     |  +--| (67)
+|                    |     |     |     +--Heptranchias_perlo_terminal_nucleotidyltransferase_5A_XP_067841022.1
+|                    |     |  +--| (71)
+|                    |     |  |  +--Heterodontus_francisci_terminal_nucleotidyltransferase_5A_XP_067882795.1
+|                    |     +--| (100)
+|                    |        |  +--Pristiophorus_japonicus_terminal_nucleotidyltransferase_5A_XP_070741672.1
+|                    |        +--| (77)
+|                    |           +--Scyliorhinus_torazame_terminal_nucleotidyltransferase_5A_XP_072355906.1
+|                 +--| (98)
+|                 |  |        +--Petromyzon_marinus_terminal_nucleotidyltransferase_5C-like_XP_032829540.1
+|                 |  |     +--| (100)
+|                 |  |     |  +--Lethenteron_reissneri_terminal_nucleotidyltransferase_5C-like_XP_061422765.1
+|                 |  |  +--| (100)
+|                 |  |  |  +--Lampetra_planeri_terminal_nucleotidyltransferase_5C-like_XP_078471579.1
+|                 |  +--| (100)
+|                 |     |     +--Myxine_glutinosa_terminal_nucleotidyltransferase_5C_isoform_X1_XP_067966876.1
+|                 |     |  +--| (100)
+|                 |     |  |  +--Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X2_XP_067966877.1
+|                 |     +--| (100)
+|                 |        +--Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X3_XP_078630242.1
+|              +--| (98)
+|              |  |                 +--Mus_musculus_terminal_nucleotidyltransferase_5D_NP_001156576.1
+|              |  |              +--| (100)
+|              |  |              |  +---Homo_sapiens_terminal_nucleotidyltransferase_5D_NP_001164045.1
+|              |  |           +--| (73)
+|              |  |           |  +--Xenopus_tropicalis_terminal_nucleotidyltransferase_5D_XP_002940481.1
+|              |  |        +--| (75)
+|              |  |        |  |  +--Gallus_gallus_terminal_nucleotidyltransferase_5C-like_XP_040526195.1
+|              |  |        |  +--| (100)
+|              |  |        |     +--Anolis_carolinensis_terminal_nucleotidyltransferase_5D_XP_062819994.1
+|              |  |     +--| (74)
+|              |  |     |  +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_014347599.1
+|              |  |  +--| (99)
+|              |  |  |  |  +----Scomber_japonicus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C_XP_053179509.1
+|              |  |  |  +--| (100)
+|              |  |  |     +--Scomber_japonicus_terminal_nucleotidyltransferase_5C-like_XP_053187094.1
+|              |  +--| (100)
+|              |     |  +--Callorhinchus_milii_terminal_nucleotidyltransferase_5C-like_XP_007890286.2
+|              |     +--| (100)
+|              |        |                       +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_048400966.1
+|              |        |                    +--| (58)
+|              |        |                    |  +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_048400967.1
+|              |        |                 +--| (84)
+|              |        |                 |  +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X5_XP_048400971.1
+|              |        |              +--| (64)
+|              |        |              |  +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X4_XP_048400969.1
+|              |        |           +--| (100)
+|              |        |           |  +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X3_XP_048400968.1
+|              |        |        +--| (97)
+|              |        |        |  |  +--Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_072361243.1
+|              |        |        |  +--| (100)
+|              |        |        |     +--Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_072361244.1
+|              |        |     +--| (93)
+|              |        |     |  +--Heterodontus_francisci_terminal_nucleotidyltransferase_5C-like_XP_067904101.1
+|              |        |  +--| (100)
+|              |        |  |  |        +--Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A-like_XP_055499361.1
+|              |        |  |  |     +--| (100)
+|              |        |  |  |     |  +--Raja_brachyura_terminal_nucleotidyltransferase_5A-like_XP_080089732.1
+|              |        |  |  |  +--| (100)
+|              |        |  |  |  |  |  +--Mobula_hypostoma_terminal_nucleotidyltransferase_5C-like_XP_062917399.1
+|              |        |  |  |  |  +--| (100)
+|              |        |  |  |  |     +--Mobula_birostris_terminal_nucleotidyltransferase_5A-like_XP_072127328.1
+|              |        |  |  +--| (62)
+|              |        |  |     +--Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_070738233.1
+|              |        +--| (100)
+|              |           +--Heptranchias_perlo_terminal_nucleotidyltransferase_5A-like_XP_067852738.1
+|           +--| (100)
+|           |  |        +--------------------Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_3407__partial_XP_002111339.1
+|           |  |     +--| (74)
+|           |  |     |  |         +--Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X1_XP_013392373.1
+|           |  |     |  |  +------| (100)
+|           |  |     |  |  |      +--Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X2_XP_013392374.1
+|           |  |     |  +--| (99)
+|           |  |     |     |    +--Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_064628772.1
+|           |  |     |     +----| (100)
+|           |  |     |          +--Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_064628773.1
+|           |  |  +--| (63)
+|           |  |  |  |              +---------------Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_14293__partial_XP_002112434.1
+|           |  |  |  |           +--| (46)
+|           |  |  |  |           |  |  +---------------------Amphimedon_queenslandica_protein_FAM46C-like_XP_003386242.1
+|           |  |  |  |           |  +--| (98)
+|           |  |  |  |           |     |          +--------------------------------Sycon_ciliatum_terminal_nucleotidyltransferase_5D-like_XP_065184646.1
+|           |  |  |  |           |     |  +-------| (100)
+|           |  |  |  |           |     |  |       +-----------------------Sycon_ciliatum_terminal_nucleotidyltransferase_5C-like_XP_065197531.1
+|           |  |  |  |           |     +--| (98)
+|           |  |  |  |           |        +----------------Oscarella_lobularis_terminal_nucleotidyltransferase_5C-like_XP_065837872.1
+|           |  |  |  |        +--| (70)
+|           |  |  |  |        |  |           +--Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_004210423.1
+|           |  |  |  |        |  |      +----| (100)
+|           |  |  |  |        |  |      |    +--Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_065648842.1
+|           |  |  |  |        |  +------| (100)
+|           |  |  |  |        |         +--------Clytia_hemisphaerica_terminal_nucleotidyltransferase_5A-like_XP_066914011.1
+|           |  |  |  |     +--| (65)
+|           |  |  |  |     |  |  +---------Dendronephthya_gigantea_terminal_nucleotidyltransferase_5C-like_XP_028415047.1
+|           |  |  |  |     |  +--| (99)
+|           |  |  |  |     |     +-----Nematostella_vectensis_terminal_nucleotidyltransferase_5C_XP_032225299.2
+|           |  |  |  |  +--| (44)
+|           |  |  |  |  |  |        +--Branchiostoma_belcheri_PREDICTED__protein_FAM46C-like_XP_019625416.1
+|           |  |  |  |  |  |  +-----| (100)
+|           |  |  |  |  |  |  |     |  +--Branchiostoma_floridae_terminal_nucleotidyltransferase_5C-like_XP_035686171.1
+|           |  |  |  |  |  |  |     +--| (89)
+|           |  |  |  |  |  |  |        |  +--Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_066265811.1
+|           |  |  |  |  |  |  |        +--| (100)
+|           |  |  |  |  |  |  |           +--Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_066265819.1
+|           |  |  |  |  |  +--| (39)
+|           |  |  |  |  |     +-----------------Bolinopsis_microptera_terminal_nucleotidyltransferase_5C-like_XP_063676437.1
+|           |  |  |  +--| (46)
+|           |  |  |     |    +------Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014671930.1
+|           |  |  |     +----| (100)
+|           |  |  |          +---------Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014675022.1
+|           |  +--| (100)
+|           |     |                +--Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C_XP_003724224.2
+|           |     |             +--| (100)
+|           |     |             |  +--Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C-like_XP_030851220.1
+|           |     |        +----| (100)
+|           |     |        |    |     +--Lytechinus_variegatus_terminal_nucleotidyltransferase_5C-like_XP_041462475.1
+|           |     |        |    |  +--| (100)
+|           |     |        |    |  |  +--Lytechinus_variegatus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C-like_XP_041462532.1
+|           |     |        |    +--| (95)
+|           |     |        |       +--Lytechinus_pictus_terminal_nucleotidyltransferase_5C-like_XP_054753321.1
+|           |     |     +--| (96)
+|           |     |     |  |     +------Apostichopus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_071820039.1
+|           |     |     |  |  +--| (54)
+|           |     |     |  |  |  +--Amphiura_filiformis_terminal_nucleotidyltransferase_5C-like_XP_072036890.1
+|           |     |     |  +--| (97)
+|           |     |     |     |         +--Antedon_mediterranea_terminal_nucleotidyltransferase_5C-like_XP_071955683.1
+|           |     |     |     +---------| (100)
+|           |     |     |               +--Antedon_bifida_terminal_nucleotidyltransferase_5C-like_XP_078561845.1
+|           |     |  +--| (100)
+|           |     |  |  |  +--Asterias_rubens_terminal_nucleotidyltransferase_5C-like_XP_033635424.1
+|           |     |  |  +--| (100)
+|           |     |  |     +--Patiria_miniata_terminal_nucleotidyltransferase_5C-like_XP_038079036.1
+|           |     +--| (99)
+|           |        |  +--Saccoglossus_kowalevskii_terminal_nucleotidyltransferase_5A-like_XP_006825326.1
+|           |        +--| (100)
+|           |           |  +--Ptychodera_flava_terminal_nucleotidyltransferase_5A-like_XP_070567423.1
+|           |           +--| (99)
+|           |              +--Glandiceps_talaboti_terminal_nucleotidyltransferase_5C-like_XP_077976852.1
+|        +--| (99)
+|        |  |  +--Callorhinchus_milii_terminal_nucleotidyltransferase_5C_XP_007894052.1
+|        |  +--| (100)
+|        |     |           +--Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C_XP_048397321.1
+|        |     |        +--| (90)
+|        |     |        |  +--Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C_XP_072369869.1
+|        |     |     +--| (73)
+|        |     |     |  +--Heterodontus_francisci_terminal_nucleotidyltransferase_5C_XP_067896845.1
+|        |     |  +--| (97)
+|        |     |  |  |           +--Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X1_XP_055500210.1
+|        |     |  |  |        +--| (99)
+|        |     |  |  |        |  |  +--Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X2_XP_055500211.1
+|        |     |  |  |        |  +--| (98)
+|        |     |  |  |        |     +--Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X3_XP_055500212.1
+|        |     |  |  |     +--| (100)
+|        |     |  |  |     |  |  +--Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X1_XP_080089636.1
+|        |     |  |  |     |  +--| (100)
+|        |     |  |  |     |     +--Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X2_XP_080089638.1
+|        |     |  |  |  +--| (100)
+|        |     |  |  |  |  |  +--Mobula_hypostoma_terminal_nucleotidyltransferase_5C_XP_062906785.1
+|        |     |  |  |  |  +--| (100)
+|        |     |  |  |  |     +--Mobula_birostris_terminal_nucleotidyltransferase_5C_XP_072116458.1
+|        |     |  |  +--| (77)
+|        |     |  |     +--Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C_XP_070749601.1
+|        |     +--| (95)
+|        |        +--Heptranchias_perlo_terminal_nucleotidyltransferase_5C_XP_067849052.1
+|     +--| (99)
+|     |  |        +--Lepisosteus_oculatus_terminal_nucleotidyltransferase_5C_XP_006639425.1
+|     |  |     +--| (63)
+|     |  |     |  |  +--Paralichthys_olivaceus_terminal_nucleotidyltransferase_5C_XP_019965638.1
+|     |  |     |  +--| (100)
+|     |  |     |     +--Scomber_japonicus_terminal_nucleotidyltransferase_5C_XP_053184462.1
+|     |  |  +--| (62)
+|     |  |  |  |  +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_XP_033864625.1
+|     |  |  |  +--| (100)
+|     |  |  |     |  +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_033866648.1
+|     |  |  |     +--| (100)
+|     |  |  |        +--Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_058885092.1
+|     |  +--| (100)
+|     |     +--Polypterus_senegalus_terminal_nucleotidyltransferase_5C_XP_039599665.1
+|  +--| (99)
+|  |  +--Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_006006950.1
++--| (100)
+|  +--Xenopus_tropicalis_terminal_nucleotidyltransferase_5C_XP_002943490.1
+|
+|  +--Mus_musculus_terminal_nucleotidyltransferase_5C_NP_001136424.1
++--| (100)
+   +--Homo_sapiens_terminal_nucleotidyltransferase_5C_NP_060179.2
+
+
+Consensus tree in newick format: 
+
+(Gallus_gallus_terminal_nucleotidyltransferase_5C_NP_001007973.1:0.2093517557,((((((((((((Xenopus_tropicalis_terminal_nucleotidyltransferase_5B_NP_001017206.1:0.5330328631,(Homo_sapiens_terminal_nucleotidyltransferase_5B_NP_443175.2:0.0396079057,Mus_musculus_terminal_nucleotidyltransferase_5B_NP_780516.1:0.1349278513)100:1.1065272004)85:0.1374932946,(Anolis_carolinensis_terminal_nucleotidyltransferase_5B_XP_008118874.1:0.1690719136,Gallus_gallus_terminal_nucleotidyltransferase_5B_XP_040546047.1:0.1739778420)86:0.0867852367)100:0.1585218984,(Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X1_XP_005991079.1:0.0000020501,Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X2_XP_005991080.1:0.0091481509)100:0.1925772274)99:0.0580102284,((Lepisosteus_oculatus_terminal_nucleotidyltransferase_5ba_XP_006631331.1:0.0946698205,((Paralichthys_olivaceus_terminal_nucleotidyltransferase_5Bb_XP_019946020.1:0.0776699057,Scomber_japonicus_terminal_nucleotidyltransferase_5Bb_XP_053190155.1:0.0831783195)100:0.2340213335,(Paralichthys_olivaceus_terminal_nucleotidyltransferase_5ba_XP_019963397.1:0.0493913877,Scomber_japonicus_terminal_nucleotidyltransferase_5ba_XP_053182883.1:0.0946675427)100:0.2098678742)100:0.2297393343)96:0.0279909297,(Polypterus_senegalus_terminal_nucleotidyltransferase_5A-like_XP_039595688.1:0.1046082610,(Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058853527.1:0.0000025016,Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058855628.1:0.0136897488)100:0.2164301549)97:0.0336428957)100:0.3086966767)100:0.1900878886,((((((((Gallus_gallus_terminal_nucleotidyltransferase_5A_NP_001026256.1:0.0057777543,(Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X1_XP_015140113.2:0.0000029383,Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X2_XP_015140115.2:0.0000025016)57:0.0000029383)100:0.0845247781,(((Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_1_NP_001153850.1:0.0000026392,Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_2_NP_001153851.1:0.0000025016)100:0.1273345557,Homo_sapiens_terminal_nucleotidyltransferase_5A_NP_060103.2:0.1537838214)100:0.2435704350,Anolis_carolinensis_terminal_nucleotidyltransferase_5A_XP_008120091.2:0.2796719546)77:0.0341140895)97:0.0601931630,Xenopus_tropicalis_terminal_nucleotidyltransferase_5A_XP_002938504.1:0.1377121345)99:0.0612985436,Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_XP_006003359.1:0.0579737445)62:0.0302379889,(Acipenser_ruthenus_terminal_nucleotidyltransferase_5A_XP_033872791.3:0.0988607062,Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058880590.1:0.0889860808)100:0.1547823036)81:0.0284218831,Lepisosteus_oculatus_terminal_nucleotidyltransferase_5A_XP_006626328.1:0.0434073174)94:0.0638951149,((Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A_XP_019946612.1:0.0122738558,Scomber_japonicus_terminal_nucleotidyltransferase_5A_XP_053183877.1:0.0196151533)100:0.1209707540,(Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A-like_XP_019947548.1:0.1576797194,Scomber_japonicus_terminal_nucleotidyltransferase_5A-like_XP_053193485.1:0.0960857350)100:0.4663682774)100:0.1204732644)99:0.1394621051,((((Callorhinchus_milii_terminal_nucleotidyltransferase_5A_XP_007903243.1:0.1111830730,(Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A_XP_055492050.1:0.0122837803,Raja_brachyura_terminal_nucleotidyltransferase_5A_XP_080079901.1:0.0104304640)100:0.1143438934)58:0.0200959451,(Stegostoma_tigrinum_terminal_nucleotidyltransferase_5A_XP_048387395.1:0.0345117462,Heptranchias_perlo_terminal_nucleotidyltransferase_5A_XP_067841022.1:0.0271622365)67:0.0059362610)35:0.0000025016,Heterodontus_francisci_terminal_nucleotidyltransferase_5A_XP_067882795.1:0.0066687999)71:0.0321372747,(Pristiophorus_japonicus_terminal_nucleotidyltransferase_5A_XP_070741672.1:0.0007734191,Scyliorhinus_torazame_terminal_nucleotidyltransferase_5A_XP_072355906.1:0.0845151451)77:0.0167834857)100:0.1383473530)100:0.2342107966)100:0.2187215528,(((Petromyzon_marinus_terminal_nucleotidyltransferase_5C-like_XP_032829540.1:0.0277724760,Lethenteron_reissneri_terminal_nucleotidyltransferase_5C-like_XP_061422765.1:0.0931244039)100:0.0282292721,Lampetra_planeri_terminal_nucleotidyltransferase_5C-like_XP_078471579.1:0.0868263287)100:0.3137044452,((Myxine_glutinosa_terminal_nucleotidyltransferase_5C_isoform_X1_XP_067966876.1:0.0000022452,Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X2_XP_067966877.1:0.0000025016)100:0.0115264181,Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X3_XP_078630242.1:0.0056811013)100:0.4234244387)100:0.3952585556)98:0.0783357102,((((((Mus_musculus_terminal_nucleotidyltransferase_5D_NP_001156576.1:0.3344312013,Homo_sapiens_terminal_nucleotidyltransferase_5D_NP_001164045.1:0.7681354575)100:0.6874423473,Xenopus_tropicalis_terminal_nucleotidyltransferase_5D_XP_002940481.1:0.2296546473)73:0.0694596913,(Gallus_gallus_terminal_nucleotidyltransferase_5C-like_XP_040526195.1:0.1304069535,Anolis_carolinensis_terminal_nucleotidyltransferase_5D_XP_062819994.1:0.1353449274)100:0.1321745430)75:0.1312049339,Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_014347599.1:0.1332275592)74:0.0600810812,(Scomber_japonicus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C_XP_053179509.1:1.0286530600,Scomber_japonicus_terminal_nucleotidyltransferase_5C-like_XP_053187094.1:0.6952982257)100:0.3641297008)99:0.1112716190,(Callorhinchus_milii_terminal_nucleotidyltransferase_5C-like_XP_007890286.2:0.2743229161,((((((((Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_048400966.1:0.0089357327,Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_048400967.1:0.0046846643)58:0.0016532912,Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X5_XP_048400971.1:0.0000025016)84:0.0023255564,Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X4_XP_048400969.1:0.0000025016)64:0.0000021304,Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X3_XP_048400968.1:0.0147411139)100:0.0884471886,(Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_072361243.1:0.0000020501,Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_072361244.1:0.0000025016)100:0.1121575838)97:0.0421584498,Heterodontus_francisci_terminal_nucleotidyltransferase_5C-like_XP_067904101.1:0.0955652861)93:0.0279739753,(((Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A-like_XP_055499361.1:0.0578202785,Raja_brachyura_terminal_nucleotidyltransferase_5A-like_XP_080089732.1:0.0615667164)100:0.0741550724,(Mobula_hypostoma_terminal_nucleotidyltransferase_5C-like_XP_062917399.1:0.0038186053,Mobula_birostris_terminal_nucleotidyltransferase_5A-like_XP_072127328.1:0.0385203427)100:0.1500300328)100:0.0998396518,Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_070738233.1:0.0527903449)62:0.0139454605)100:0.0237832617,Heptranchias_perlo_terminal_nucleotidyltransferase_5A-like_XP_067852738.1:0.0380318313)100:0.1025076030)100:0.0460887322)100:0.6573948190)98:0.0773553646,(((Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_3407__partial_XP_002111339.1:4.1333193052,((Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X1_XP_013392373.1:0.0000020501,Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X2_XP_013392374.1:0.0000025016)100:1.4566430279,(Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_064628772.1:0.0000025306,Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_064628773.1:0.0000025016)100:0.9914309235)99:0.4822756112)74:0.1642443785,(((((Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_14293__partial_XP_002112434.1:3.1806822742,(Amphimedon_queenslandica_protein_FAM46C-like_XP_003386242.1:4.2891126344,((Sycon_ciliatum_terminal_nucleotidyltransferase_5D-like_XP_065184646.1:6.3838101376,Sycon_ciliatum_terminal_nucleotidyltransferase_5C-like_XP_065197531.1:4.6423137526)100:1.6870536723,Oscarella_lobularis_terminal_nucleotidyltransferase_5C-like_XP_065837872.1:3.3591606526)98:0.3873649438)98:0.4349502249)46:0.2338559920,((Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_004210423.1:0.1033827180,Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_065648842.1:0.1373453185)100:0.9966705330,Clytia_hemisphaerica_terminal_nucleotidyltransferase_5A-like_XP_066914011.1:1.7502588347)100:1.3402660872)70:0.1929584148,(Dendronephthya_gigantea_terminal_nucleotidyltransferase_5C-like_XP_028415047.1:1.9250218995,Nematostella_vectensis_terminal_nucleotidyltransferase_5C_XP_032225299.2:1.3110699709)99:0.4750351786)65:0.2393138674,((Branchiostoma_belcheri_PREDICTED__protein_FAM46C-like_XP_019625416.1:0.0585222684,(Branchiostoma_floridae_terminal_nucleotidyltransferase_5C-like_XP_035686171.1:0.0045554668,(Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_066265811.1:0.0000024415,Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_066265819.1:0.0000025016)100:0.0828091113)89:0.0004713284)100:1.2600359048,Bolinopsis_microptera_terminal_nucleotidyltransferase_5C-like_XP_063676437.1:3.4812645140)39:0.1253293615)44:0.1401593467,(Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014671930.1:1.4125450725,Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014675022.1:2.0131729385)100:1.0158602803)46:0.1018449681)63:0.2007316485,(((((Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C_XP_003724224.2:0.0073356679,Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C-like_XP_030851220.1:0.0529168702)100:0.2178408962,((Lytechinus_variegatus_terminal_nucleotidyltransferase_5C-like_XP_041462475.1:0.0556841609,Lytechinus_variegatus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C-like_XP_041462532.1:0.0047522819)100:0.0135131347,Lytechinus_pictus_terminal_nucleotidyltransferase_5C-like_XP_054753321.1:0.0786919506)95:0.2462234169)100:0.9642868569,((Apostichopus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_071820039.1:1.3567271839,Amphiura_filiformis_terminal_nucleotidyltransferase_5C-like_XP_072036890.1:0.5833787768)54:0.1373942480,(Antedon_mediterranea_terminal_nucleotidyltransferase_5C-like_XP_071955683.1:0.0217757945,Antedon_bifida_terminal_nucleotidyltransferase_5C-like_XP_078561845.1:0.0160398717)100:1.8967441800)97:0.2645142462)96:0.1871530014,(Asterias_rubens_terminal_nucleotidyltransferase_5C-like_XP_033635424.1:0.4558864354,Patiria_miniata_terminal_nucleotidyltransferase_5C-like_XP_038079036.1:0.2888267858)100:0.4154163111)100:0.6916173919,(Saccoglossus_kowalevskii_terminal_nucleotidyltransferase_5A-like_XP_006825326.1:0.5426800520,(Ptychodera_flava_terminal_nucleotidyltransferase_5A-like_XP_070567423.1:0.4432357582,Glandiceps_talaboti_terminal_nucleotidyltransferase_5C-like_XP_077976852.1:0.4457501900)99:0.1431865232)100:0.2136264875)99:0.3237730675)100:0.7381785291)100:0.1763071207,(Callorhinchus_milii_terminal_nucleotidyltransferase_5C_XP_007894052.1:0.0937697000,((((Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C_XP_048397321.1:0.0226102622,Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C_XP_072369869.1:0.0305652143)90:0.0145999734,Heterodontus_francisci_terminal_nucleotidyltransferase_5C_XP_067896845.1:0.0074760674)73:0.0072623624,((((Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X1_XP_055500210.1:0.0000025016,(Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X2_XP_055500211.1:0.0014929091,Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X3_XP_055500212.1:0.0000025016)98:0.0046213774)99:0.0176773971,(Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X1_XP_080089636.1:0.0000025016,Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X2_XP_080089638.1:0.0000021304)100:0.0468774376)100:0.0996690318,(Mobula_hypostoma_terminal_nucleotidyltransferase_5C_XP_062906785.1:0.0178971972,Mobula_birostris_terminal_nucleotidyltransferase_5C_XP_072116458.1:0.0120565798)100:0.0584203665)100:0.0544979761,Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C_XP_070749601.1:0.0302581315)77:0.0000029061)97:0.0094567583,Heptranchias_perlo_terminal_nucleotidyltransferase_5C_XP_067849052.1:0.0437704879)95:0.0696636691)100:0.2422153301)99:0.0847229648,(((Lepisosteus_oculatus_terminal_nucleotidyltransferase_5C_XP_006639425.1:0.1881856438,(Paralichthys_olivaceus_terminal_nucleotidyltransferase_5C_XP_019965638.1:0.1120819249,Scomber_japonicus_terminal_nucleotidyltransferase_5C_XP_053184462.1:0.0776336175)100:0.4793400683)63:0.0717570603,(Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_XP_033864625.1:0.0314251991,(Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_033866648.1:0.0000025016,Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_058885092.1:0.0557412760)100:0.0058243025)100:0.2190958749)62:0.0246284880,Polypterus_senegalus_terminal_nucleotidyltransferase_5C_XP_039599665.1:0.2555656816)100:0.3848968562)99:0.0628550831,Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_006006950.1:0.5101061411)99:0.1093599628,Xenopus_tropicalis_terminal_nucleotidyltransferase_5C_XP_002943490.1:0.2476298907)100:0.1949903726,(Mus_musculus_terminal_nucleotidyltransferase_5C_NP_001136424.1:0.0745583311,Homo_sapiens_terminal_nucleotidyltransferase_5C_NP_060179.2:0.0384244269)100:0.1549158327);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.treefile -m "JTT+I{0.0477354}+R7{0.17919,0.035815,0.155838,0.162066,0.164639,0.339427,0.164603,0.608165,0.0923973,1.00611,0.0517836,1.86446,0.143814,4.33079}" --length 651
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/Blast-high-scoring-hits-rb-corrected-alignment.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/Blast-high-scoring-hits-rb-corrected-alignment.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jul 24 16:02:52 2026
+Total CPU time used: 5353.53216 seconds (1h:29m:13s)
+Total wall-clock time used: 5202.222186 seconds (1h:26m:42s)
+

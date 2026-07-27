@@ -1,0 +1,5 @@
+TENT5A_Homo_sapiens	YP_004927434.1	22.727	44	10	3.1	19.6	cytochrome c oxidase subunit III [Mnemiopsis leidyi]
+TENT5A_Homo_sapiens	YP_004927440.1	40.000	15	3	6.9	18.9	NADH dehydrogenase subunit 5 [Mnemiopsis leidyi]
+TENT5B_Homo_sapiens	YP_004927440.1	47.059	17	4	1.5	20.8	NADH dehydrogenase subunit 5 [Mnemiopsis leidyi]
+TENT5B_Homo_sapiens	YP_004927442.1	53.333	15	4	5.8	18.9	cytochrome b [Mnemiopsis leidyi]
+TENT5C_Homo_sapiens	YP_004927440.1	38.889	18	5	3.2	19.6	NADH dehydrogenase subunit 5 [Mnemiopsis leidyi]

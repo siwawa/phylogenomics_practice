@@ -87,7 +87,7 @@ trap send_mail EXIT
 prank \
     -d="$PRANK_INPUT_FILE" \
     -o="$OUTPUT_PREFIX" \
-    -iterate="30" \
+    -iterate="5" \
     -protein \
     -quiet
 

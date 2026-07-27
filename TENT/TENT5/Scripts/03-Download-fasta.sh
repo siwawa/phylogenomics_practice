@@ -10,7 +10,7 @@ if [[ ! -s "$HIGH_HITS_TABLE" ]]; then
     exit 1
 fi
 
-ACC_LIST="$(awk 'NR > 1 { print $2 }' "$HIGH_HITS_TABLE" | paste -sd, -)"
+ACC_LIST="$(awk 'NR > 1 && $2 != "" { print $2 }' "$HIGH_HITS_TABLE" | sort -u | paste -sd, -)"
 if [[ -z "$ACC_LIST" ]]; then
     echo "Error: no accessions found in $HIGH_HITS_TABLE" >&2
     exit 1

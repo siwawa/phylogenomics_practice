@@ -1,0 +1,5 @@
+TENT5A_Homo_sapiens	YP_009443434.1	26.829	41	9	7.8	19.2	cytochrome c oxidase subunit I [Argonauta hians]
+TENT5A_Homo_sapiens	YP_009443429.1	23.913	46	10	9.4	19.2	NADH dehydrogenase subunit 4 [Argonauta hians]
+TENT5B_Homo_sapiens	YP_009443426.1	25.000	40	9	3.3	20.4	NADH dehydrogenase subunit 6 [Argonauta hians]
+TENT5C_Homo_sapiens	YP_009443425.1	20.513	39	10	7.8	19.2	NADH dehydrogenase subunit 1 [Argonauta hians]
+TENT5C_Homo_sapiens	YP_009443430.1	21.591	88	19	9.2	18.9	NADH dehydrogenase subunit 5 [Argonauta hians]

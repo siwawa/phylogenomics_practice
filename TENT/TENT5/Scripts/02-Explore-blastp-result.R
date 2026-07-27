@@ -74,6 +74,21 @@ reference_species <- get_env("PIPELINE_REFERENCE_SPECIES", "Homo sapiens")
 
 species_list <- fread(file.path(scripts_dir, "species.txt"), header = TRUE)
 species_list[, Organism_Label := binomial_label(Organism_Name)]
+species_lookup <- unique(species_list[, .(
+  organism = paste(
+    Target_Clade,
+    gsub(" ", "_", Organism_Label, fixed = TRUE),
+    sep = "_"
+  ),
+  target_species = Organism_Label
+)])
+
+add_species_labels <- function(x) {
+  x <- copy(x)
+  x[, actual_species := binomial_label(sub(".*\\[(.*?)\\].*", "\\1", stitle))]
+  x[species_lookup, target_species := i.target_species, on = .(organism)]
+  x
+}
 
 file_list <- list.files(
   path = blast_results_dir,
@@ -102,8 +117,16 @@ if (nrow(df) == 0) {
 df[, source_file := basename(filepath)]
 df[, organism := basename(dirname(filepath))]
 
-df[, actual_species := sub(".*\\[(.*?)\\].*", "\\1", stitle)]
-df[, target_species := gsub("_", " ", sub("^[^_]+_", "", organism))]
+df <- add_species_labels(df)
+
+unmatched_organisms <- unique(df[is.na(target_species), organism])
+if (length(unmatched_organisms) > 0) {
+  stop(
+    "No species.txt mapping for result directories: ",
+    paste(unmatched_organisms, collapse = ", ")
+  )
+}
+
 df_clean <- df[actual_species == target_species]
 
 if (nrow(df_clean) == 0) {

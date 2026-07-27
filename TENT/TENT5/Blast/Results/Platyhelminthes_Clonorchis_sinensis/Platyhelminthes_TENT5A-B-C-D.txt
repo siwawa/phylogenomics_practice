@@ -1,0 +1,4 @@
+TENT5A_Homo_sapiens	YP_002640631.1	26.667	45	10	4.3	20.4	cytochrome c oxidase subunit I [Clonorchis sinensis]
+TENT5B_Homo_sapiens	YP_002640632.2	24.658	73	17	1.4	21.6	cytochrome c oxidase subunit II [Clonorchis sinensis]
+TENT5C_Homo_sapiens	YP_002640632.2	23.404	47	12	2.9	20.8	cytochrome c oxidase subunit II [Clonorchis sinensis]
+TENT5C_Homo_sapiens	YP_002640633.1	50.000	12	3	9.4	18.9	NADH dehydrogenase subunit 6 [Clonorchis sinensis]

@@ -1,0 +1,29 @@
+Job started on dicer at Fri Jul 24 05:33:31 PM KST 2026
+Starting TENT5 alignment with PRANK...
+Input: /rna/liha/phylogenomics_practice/TENT/TENT5/Scripts/TENT5-homologs.fasta
+Output prefix: /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/TENT5_prank
+PRANK-safe input: /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/TENT5_prank_input.fasta
+Warning autodetection suggests DNA but protein model forced.
+Correcting (arbitrarily) for multifurcating nodes.
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 42633
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 41376
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 43774
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 42307
+Correcting (arbitrarily) for multifurcating nodes.
+
+Alignment score: 43399
+
+
+Writing
+ - alignment to '/rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/TENT5_prank.best.fas'
+
+Alignment completed successfully! Output saved to: /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/TENT5_aligned.fasta
+Job ended at Fri Jul 24 06:31:57 PM KST 2026

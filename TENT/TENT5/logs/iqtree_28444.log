@@ -1,0 +1,794 @@
+Job started on pichu at Fri Jul 24 02:36:09 PM KST 2026
+Starting IQ-TREE analysis for TENT5_corrected_alignment...
+Input: /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/Blast-high-scoring-hits-rb-corrected-alignment.fasta
+Output prefix: /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    pichu (AVX512, FMA3, 755 GB RAM)
+Command: iqtree3 -s /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/Blast-high-scoring-hits-rb-corrected-alignment.fasta -B 5000 --prefix /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment -T AUTO --threads-max 64
+Seed:    911285 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jul 24 14:36:09 2026
+Kernel:  AVX+FMA - auto-detect threads (64 CPU cores detected)
+
+Reading alignment file /rna/liha/phylogenomics_practice/TENT/TENT5/Alignments/Blast-high-scoring-hits-rb-corrected-alignment.fasta ... Fasta format detected
+Reading fasta file: done in 0.00128619 secs
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00204066 secs using 6090% CPU
+Alignment has 129 sequences with 651 columns, 601 distinct patterns
+446 parsimony-informative, 99 singleton sites, 106 constant sites
+WARNING: Some sequence names are changed as follows:
+Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_3407,_partial_XP_002111339.1 -> Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_3407__partial_XP_002111339.1
+Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_14293,_partial_XP_002112434.1 -> Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_14293__partial_XP_002112434.1
+Priapulus_caudatus_PREDICTED:_protein_FAM46C-like_XP_014671930.1 -> Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014671930.1
+Priapulus_caudatus_PREDICTED:_protein_FAM46C-like_XP_014675022.1 -> Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014675022.1
+Branchiostoma_belcheri_PREDICTED:_protein_FAM46C-like_XP_019625416.1 -> Branchiostoma_belcheri_PREDICTED__protein_FAM46C-like_XP_019625416.1
+Lytechinus_variegatus_LOW_QUALITY_PROTEIN:_terminal_nucleotidyltransferase_5C-like_XP_041462532.1 -> Lytechinus_variegatus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C-like_XP_041462532.1
+Scomber_japonicus_LOW_QUALITY_PROTEIN:_terminal_nucleotidyltransferase_5C_XP_053179509.1 -> Scomber_japonicus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C_XP_053179509.1
+
+                                                                                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.19869e-05 secs using 877.1% CPU
+   1  Gallus_gallus_terminal_nucleotidyltransferase_5C_NP_001007973.1                                     40.09%    passed     99.99%
+   2  Xenopus_tropicalis_terminal_nucleotidyltransferase_5B_NP_001017206.1                                39.32%    passed     73.46%
+   3  Gallus_gallus_terminal_nucleotidyltransferase_5A_NP_001026256.1                                     38.56%    passed     99.75%
+   4  Mus_musculus_terminal_nucleotidyltransferase_5C_NP_001136424.1                                      39.94%    passed     99.88%
+   5  Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_1_NP_001153850.1                            31.34%    passed     79.67%
+   6  Mus_musculus_terminal_nucleotidyltransferase_5A_isoform_2_NP_001153851.1                            34.25%    passed     91.95%
+   7  Mus_musculus_terminal_nucleotidyltransferase_5D_NP_001156576.1                                      40.09%    passed     56.85%
+   8  Homo_sapiens_terminal_nucleotidyltransferase_5D_NP_001164045.1                                      40.25%    passed     24.73%
+   9  Homo_sapiens_terminal_nucleotidyltransferase_5A_NP_060103.2                                         32.10%    passed     23.31%
+  10  Homo_sapiens_terminal_nucleotidyltransferase_5C_NP_060179.2                                         39.94%    passed     99.90%
+  11  Homo_sapiens_terminal_nucleotidyltransferase_5B_NP_443175.2                                         34.72%    failed      0.00%
+  12  Mus_musculus_terminal_nucleotidyltransferase_5B_NP_780516.1                                         34.41%    failed      0.00%
+  13  Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_3407__partial_XP_002111339.1                45.78%    passed      5.32%
+  14  Trichoplax_adhaerens_uncharacterized_protein_TRIADDRAFT_14293__partial_XP_002112434.1               49.31%    passed     36.66%
+  15  Xenopus_tropicalis_terminal_nucleotidyltransferase_5A_XP_002938504.1                                38.25%    passed     99.93%
+  16  Xenopus_tropicalis_terminal_nucleotidyltransferase_5D_XP_002940481.1                                39.94%    passed     54.75%
+  17  Xenopus_tropicalis_terminal_nucleotidyltransferase_5C_XP_002943490.1                                39.63%    passed     95.67%
+  18  Amphimedon_queenslandica_protein_FAM46C-like_XP_003386242.1                                         27.80%    failed      0.03%
+  19  Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C_XP_003724224.2                     28.11%    passed     38.42%
+  20  Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_004210423.1                                    38.86%    passed     10.22%
+  21  Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X1_XP_005991079.1                    39.48%    passed     99.99%
+  22  Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_isoform_X2_XP_005991080.1                    47.62%    passed     99.97%
+  23  Latimeria_chalumnae_terminal_nucleotidyltransferase_5A_XP_006003359.1                               38.40%    passed     99.89%
+  24  Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_006006950.1                               39.63%    passed     99.77%
+  25  Lepisosteus_oculatus_terminal_nucleotidyltransferase_5A_XP_006626328.1                              38.40%    passed     99.79%
+  26  Lepisosteus_oculatus_terminal_nucleotidyltransferase_5ba_XP_006631331.1                             39.63%    passed     99.50%
+  27  Lepisosteus_oculatus_terminal_nucleotidyltransferase_5C_XP_006639425.1                              40.86%    passed     96.84%
+  28  Saccoglossus_kowalevskii_terminal_nucleotidyltransferase_5A-like_XP_006825326.1                     38.86%    passed     68.41%
+  29  Callorhinchus_milii_terminal_nucleotidyltransferase_5C-like_XP_007890286.2                          38.25%    passed     99.80%
+  30  Callorhinchus_milii_terminal_nucleotidyltransferase_5C_XP_007894052.1                               41.01%    passed     97.64%
+  31  Callorhinchus_milii_terminal_nucleotidyltransferase_5A_XP_007903243.1                               39.94%    passed     99.96%
+  32  Anolis_carolinensis_terminal_nucleotidyltransferase_5B_XP_008118874.1                               35.94%    passed     95.82%
+  33  Anolis_carolinensis_terminal_nucleotidyltransferase_5A_XP_008120091.2                               33.95%    passed     47.19%
+  34  Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X1_XP_013392373.1                    36.25%    passed     15.37%
+  35  Lingula_anatina_putative_nucleotidyltransferase_FAM46C_isoform_X2_XP_013392374.1                    37.94%    passed     18.60%
+  36  Latimeria_chalumnae_terminal_nucleotidyltransferase_5C_XP_014347599.1                               39.32%    passed     71.56%
+  37  Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014671930.1                                    37.02%    failed      0.00%
+  38  Priapulus_caudatus_PREDICTED__protein_FAM46C-like_XP_014675022.1                                    29.65%    failed      0.00%
+  39  Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X1_XP_015140113.2                          35.02%    passed     94.38%
+  40  Gallus_gallus_terminal_nucleotidyltransferase_5A_isoform_X2_XP_015140115.2                          38.56%    passed     99.72%
+  41  Branchiostoma_belcheri_PREDICTED__protein_FAM46C-like_XP_019625416.1                                38.40%    passed     95.87%
+  42  Paralichthys_olivaceus_terminal_nucleotidyltransferase_5Bb_XP_019946020.1                           39.63%    passed     71.52%
+  43  Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A_XP_019946612.1                            38.40%    passed     99.98%
+  44  Paralichthys_olivaceus_terminal_nucleotidyltransferase_5A-like_XP_019947548.1                       37.02%    passed     91.43%
+  45  Paralichthys_olivaceus_terminal_nucleotidyltransferase_5ba_XP_019963397.1                           39.48%    passed     69.34%
+  46  Paralichthys_olivaceus_terminal_nucleotidyltransferase_5C_XP_019965638.1                            41.17%    passed     96.36%
+  47  Dendronephthya_gigantea_terminal_nucleotidyltransferase_5C-like_XP_028415047.1                      38.40%    passed     81.33%
+  48  Strongylocentrotus_purpuratus_terminal_nucleotidyltransferase_5C-like_XP_030851220.1                28.11%    passed     38.57%
+  49  Nematostella_vectensis_terminal_nucleotidyltransferase_5C_XP_032225299.2                            42.24%    passed     87.10%
+  50  Petromyzon_marinus_terminal_nucleotidyltransferase_5C-like_XP_032829540.1                           35.94%    passed     15.43%
+  51  Asterias_rubens_terminal_nucleotidyltransferase_5C-like_XP_033635424.1                              31.34%    failed      0.19%
+  52  Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_XP_033864625.1                           40.86%    passed     86.62%
+  53  Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_033866648.1                40.86%    passed     81.39%
+  54  Acipenser_ruthenus_terminal_nucleotidyltransferase_5A_XP_033872791.3                                37.94%    passed    100.00%
+  55  Branchiostoma_floridae_terminal_nucleotidyltransferase_5C-like_XP_035686171.1                       38.40%    passed     97.45%
+  56  Patiria_miniata_terminal_nucleotidyltransferase_5C-like_XP_038079036.1                              33.95%    failed      2.44%
+  57  Polypterus_senegalus_terminal_nucleotidyltransferase_5A-like_XP_039595688.1                         39.63%    passed     99.94%
+  58  Polypterus_senegalus_terminal_nucleotidyltransferase_5C_XP_039599665.1                              40.86%    passed     99.55%
+  59  Gallus_gallus_terminal_nucleotidyltransferase_5C-like_XP_040526195.1                                39.94%    passed     63.58%
+  60  Gallus_gallus_terminal_nucleotidyltransferase_5B_XP_040546047.1                                     39.17%    passed     99.96%
+  61  Lytechinus_variegatus_terminal_nucleotidyltransferase_5C-like_XP_041462475.1                        27.65%    passed     62.50%
+  62  Lytechinus_variegatus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C-like_XP_041462532.1   27.80%    passed     72.43%
+  63  Stegostoma_tigrinum_terminal_nucleotidyltransferase_5A_XP_048387395.1                               39.63%    passed     99.96%
+  64  Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C_XP_048397321.1                               41.01%    passed     77.72%
+  65  Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_048400966.1               37.63%    passed     88.07%
+  66  Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_048400967.1               37.63%    passed     84.68%
+  67  Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X3_XP_048400968.1               37.79%    passed     84.62%
+  68  Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X4_XP_048400969.1               37.94%    passed     85.87%
+  69  Stegostoma_tigrinum_terminal_nucleotidyltransferase_5C-like_isoform_X5_XP_048400971.1               38.25%    passed     89.04%
+  70  Scomber_japonicus_LOW_QUALITY_PROTEIN__terminal_nucleotidyltransferase_5C_XP_053179509.1            23.35%    passed     46.52%
+  71  Scomber_japonicus_terminal_nucleotidyltransferase_5ba_XP_053182883.1                                38.86%    passed     70.19%
+  72  Scomber_japonicus_terminal_nucleotidyltransferase_5A_XP_053183877.1                                 38.40%    passed    100.00%
+  73  Scomber_japonicus_terminal_nucleotidyltransferase_5C_XP_053184462.1                                 41.32%    passed     98.92%
+  74  Scomber_japonicus_terminal_nucleotidyltransferase_5C-like_XP_053187094.1                            39.78%    passed     49.72%
+  75  Scomber_japonicus_terminal_nucleotidyltransferase_5Bb_XP_053190155.1                                39.63%    passed     79.29%
+  76  Scomber_japonicus_terminal_nucleotidyltransferase_5A-like_XP_053193485.1                            36.56%    passed     97.59%
+  77  Lytechinus_pictus_terminal_nucleotidyltransferase_5C-like_XP_054753321.1                            28.11%    passed     62.08%
+  78  Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A_XP_055492050.1                               39.63%    passed     99.22%
+  79  Leucoraja_erinaceus_terminal_nucleotidyltransferase_5A-like_XP_055499361.1                          39.94%    passed     95.11%
+  80  Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X1_XP_055500210.1                    39.32%    passed     99.28%
+  81  Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X2_XP_055500211.1                    39.32%    passed     99.33%
+  82  Leucoraja_erinaceus_terminal_nucleotidyltransferase_5C_isoform_X3_XP_055500212.1                    41.01%    passed     98.06%
+  83  Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058853527.1                           40.25%    passed     99.35%
+  84  Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058855628.1                           40.25%    passed     99.47%
+  85  Acipenser_ruthenus_terminal_nucleotidyltransferase_5A-like_XP_058880590.1                           38.10%    passed     99.99%
+  86  Acipenser_ruthenus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_058885092.1                38.86%    passed     85.88%
+  87  Lethenteron_reissneri_terminal_nucleotidyltransferase_5C-like_XP_061422765.1                        36.56%    passed     25.35%
+  88  Anolis_carolinensis_terminal_nucleotidyltransferase_5D_XP_062819994.1                               39.78%    passed     79.07%
+  89  Mobula_hypostoma_terminal_nucleotidyltransferase_5C_XP_062906785.1                                  41.01%    passed     99.45%
+  90  Mobula_hypostoma_terminal_nucleotidyltransferase_5C-like_XP_062917399.1                             37.94%    passed     97.16%
+  91  Bolinopsis_microptera_terminal_nucleotidyltransferase_5C-like_XP_063676437.1                        36.41%    passed     39.99%
+  92  Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_064628772.1                32.57%    passed     83.90%
+  93  Lineus_longissimus_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_064628773.1                38.10%    passed     83.85%
+  94  Sycon_ciliatum_terminal_nucleotidyltransferase_5D-like_XP_065184646.1                               38.56%    failed      1.49%
+  95  Sycon_ciliatum_terminal_nucleotidyltransferase_5C-like_XP_065197531.1                               38.71%    failed      4.39%
+  96  Hydra_vulgaris_terminal_nucleotidyltransferase_5C_XP_065648842.1                                    38.86%    passed      9.98%
+  97  Oscarella_lobularis_terminal_nucleotidyltransferase_5C-like_XP_065837872.1                          30.72%    failed      0.01%
+  98  Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_066265811.1         35.33%    passed     96.30%
+  99  Branchiostoma_lanceolatum_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_066265819.1         38.40%    passed     97.68%
+ 100  Clytia_hemisphaerica_terminal_nucleotidyltransferase_5A-like_XP_066914011.1                         39.17%    passed     40.47%
+ 101  Heptranchias_perlo_terminal_nucleotidyltransferase_5A_XP_067841022.1                                39.63%    passed     99.99%
+ 102  Heptranchias_perlo_terminal_nucleotidyltransferase_5C_XP_067849052.1                                41.01%    passed     96.66%
+ 103  Heptranchias_perlo_terminal_nucleotidyltransferase_5A-like_XP_067852738.1                           39.94%    passed     99.72%
+ 104  Heterodontus_francisci_terminal_nucleotidyltransferase_5A_XP_067882795.1                            39.63%    passed     99.73%
+ 105  Heterodontus_francisci_terminal_nucleotidyltransferase_5C_XP_067896845.1                            41.01%    passed     93.91%
+ 106  Heterodontus_francisci_terminal_nucleotidyltransferase_5C-like_XP_067904101.1                       39.94%    passed     99.69%
+ 107  Myxine_glutinosa_terminal_nucleotidyltransferase_5C_isoform_X1_XP_067966876.1                       33.64%    passed     61.81%
+ 108  Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X2_XP_067966877.1                       37.33%    passed     67.58%
+ 109  Ptychodera_flava_terminal_nucleotidyltransferase_5A-like_XP_070567423.1                             39.94%    passed     96.97%
+ 110  Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_070738233.1                      39.94%    passed     99.87%
+ 111  Pristiophorus_japonicus_terminal_nucleotidyltransferase_5A_XP_070741672.1                           39.48%    passed     99.83%
+ 112  Pristiophorus_japonicus_terminal_nucleotidyltransferase_5C_XP_070749601.1                           41.01%    passed     93.78%
+ 113  Apostichopus_japonicus_terminal_nucleotidyltransferase_5C-like_XP_071820039.1                       35.64%    passed     99.61%
+ 114  Antedon_mediterranea_terminal_nucleotidyltransferase_5C-like_XP_071955683.1                         37.94%    passed     98.63%
+ 115  Amphiura_filiformis_terminal_nucleotidyltransferase_5C-like_XP_072036890.1                          37.63%    passed     88.56%
+ 116  Mobula_birostris_terminal_nucleotidyltransferase_5C_XP_072116458.1                                  41.01%    passed     98.82%
+ 117  Mobula_birostris_terminal_nucleotidyltransferase_5A-like_XP_072127328.1                             39.94%    passed     97.92%
+ 118  Scyliorhinus_torazame_terminal_nucleotidyltransferase_5A_XP_072355906.1                             39.48%    passed     99.70%
+ 119  Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X1_XP_072361243.1             37.02%    passed     98.18%
+ 120  Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C-like_isoform_X2_XP_072361244.1             39.94%    passed     98.67%
+ 121  Scyliorhinus_torazame_terminal_nucleotidyltransferase_5C_XP_072369869.1                             41.01%    passed     92.73%
+ 122  Glandiceps_talaboti_terminal_nucleotidyltransferase_5C-like_XP_077976852.1                          39.32%    passed     74.89%
+ 123  Lampetra_planeri_terminal_nucleotidyltransferase_5C-like_XP_078471579.1                             36.10%    passed      6.49%
+ 124  Antedon_bifida_terminal_nucleotidyltransferase_5C-like_XP_078561845.1                               38.25%    passed     97.44%
+ 125  Myxine_glutinosa_terminal_nucleotidyltransferase_5A_isoform_X3_XP_078630242.1                       36.25%    passed     74.26%
+ 126  Raja_brachyura_terminal_nucleotidyltransferase_5A_XP_080079901.1                                    39.63%    passed     98.97%
+ 127  Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X1_XP_080089636.1                         41.01%    passed     97.88%
+ 128  Raja_brachyura_terminal_nucleotidyltransferase_5C_isoform_X2_XP_080089638.1                         39.32%    passed     98.72%
+ 129  Raja_brachyura_terminal_nucleotidyltransferase_5A-like_XP_080089732.1                               39.94%    passed     92.59%
+****  TOTAL                                                                                               38.00%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000561714 secs using 102.9% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.040 seconds
+Measuring multi-threading efficiency up to 64 CPU cores
+Increase to 10 rounds for branch lengths
+44 trees examined
+Threads: 1 / Time: 64.518 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -58615
+Threads: 2 / Time: 63.750 sec / Speedup: 1.012 / Efficiency: 51% / LogL: -58615
+Threads: 3 / Time: 53.297 sec / Speedup: 1.211 / Efficiency: 40% / LogL: -58615
+Determining AUTO threadcount: done in 181.582 secs using 193.3% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 2.23827 secs using 99.72% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -34350.701
+Optimal log-likelihood: -34350.037
+Proportion of invariable sites: 0.048
+Gamma shape alpha: 0.600
+Parameters optimization took 1 rounds (1.038 sec)
+Time for fast ML tree search: 7.244 seconds
+
+NOTE: ModelFinder requires 136 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 651 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            37345.336    255 75200.671    75531.203    76342.691
+  2  LG+I          36803.749    256 74119.497    74453.467    75265.996
+  3  LG+G4         34368.974    256 69249.948    69583.918    70396.447
+  4  LG+I+G4       34349.897    257 69213.794    69551.229    70364.771
+  5  LG+R2         35092.578    257 70699.156    71036.591    71850.133
+  6  LG+R3         34660.621    259 69839.243    70183.693    70999.177
+  7  LG+R4         34418.147    261 69358.293    69709.872    70527.184
+  8  LG+R5         34340.816    263 69207.632    69566.454    70385.480
+  9  LG+R6         34298.941    265 69127.881    69494.063    70314.686
+ 10  LG+R7         34288.052    267 69110.104    69483.764    70305.866
+ 11  LG+R8         34284.313    269 69106.626    69487.886    70311.345
+ 14  LG+I+R2       34971.165    258 70458.330    70799.258    71613.785
+ 15  LG+I+R3       34554.808    260 69629.616    69977.616    70794.029
+ 16  LG+I+R4       34368.035    262 69260.070    69615.255    70433.439
+ 17  LG+I+R5       34309.467    264 69146.934    69509.421    70329.260
+ 18  LG+I+R6       34285.673    266 69103.347    69473.253    70294.630
+ 19  LG+I+R7       34276.244    268 69088.487    69465.933    70288.728
+ 20  LG+I+R8       34275.974    270 69091.948    69477.053    70301.145
+ 40  LG+F+I+R6     34157.946    285 68885.892    69332.522    70162.267
+ 41  LG+F+I+R7     34155.444    287 68884.889    69340.294    70170.221
+ 62  WAG+I+R6      34286.728    266 69105.456    69475.362    70296.739
+ 63  WAG+I+R7      34280.474    268 69096.947    69474.392    70297.188
+ 84  WAG+F+I+R6    34251.175    285 69072.351    69518.981    70348.726
+ 85  WAG+F+I+R7    34248.064    287 69070.128    69525.533    70355.460
+106  JTT+I+R6      34054.504    266 68641.008    69010.915    69832.292
+107  JTT+I+R7      34047.373    268 68630.745    69008.190    69830.986
+128  JTT+F+I+R6    34037.798    285 68645.596    69092.226    69921.971
+129  JTT+F+I+R7    34032.881    287 68639.761    69095.166    69925.093
+150  Q.PFAM+I+R6   34245.093    266 69022.185    69392.091    70213.469
+151  Q.PFAM+I+R7   34242.876    268 69021.751    69399.196    70221.992
+172  Q.PFAM+F+I+R6 34130.579    285 68831.158    69277.789    70107.534
+173  Q.PFAM+F+I+R7 34128.030    287 68830.059    69285.464    70115.392
+194  Q.BIRD+I+R6   34301.731    266 69135.462    69505.368    70326.746
+195  Q.BIRD+I+R7   34293.171    268 69122.342    69499.787    70322.583
+216  Q.BIRD+F+I+R6 34356.058    285 69282.117    69728.747    70558.492
+217  Q.BIRD+F+I+R7 34349.624    287 69273.248    69728.653    70558.580
+238  Q.MAMMAL+I+R6 34125.208    266 68782.415    69152.321    69973.699
+239  Q.MAMMAL+I+R7 34119.565    268 68775.130    69152.575    69975.370
+260  Q.MAMMAL+F+I+R6 34196.948    285 68963.896    69410.527    70240.272
+261  Q.MAMMAL+F+I+R7 34192.324    287 68958.648    69414.053    70243.980
+282  Q.INSECT+I+R6 34164.307    266 68860.614    69230.521    70051.898
+283  Q.INSECT+I+R7 34160.746    268 68857.492    69234.937    70057.733
+304  Q.INSECT+F+I+R6 34006.322    285 68582.645    69029.275    69859.020
+305  Q.INSECT+F+I+R7 34002.736    287 68579.472    69034.877    69864.805
+326  Q.PLANT+I+R6  34208.168    266 68948.335    69318.242    70139.619
+327  Q.PLANT+I+R7  34203.130    268 68942.259    69319.704    70142.500
+348  Q.PLANT+F+I+R6 34107.588    285 68785.177    69231.807    70061.552
+349  Q.PLANT+F+I+R7 34103.849    287 68781.697    69237.102    70067.030
+370  Q.YEAST+I+R6  34408.941    266 69349.882    69719.789    70541.166
+371  Q.YEAST+I+R7  34404.666    268 69345.331    69722.776    70545.572
+392  Q.YEAST+F+I+R6 34069.437    285 68708.875    69155.505    69985.250
+393  Q.YEAST+F+I+R7 34065.464    287 68704.927    69160.332    69990.260
+414  JTTDCMUT+I+R6 34064.999    266 68661.998    69031.904    69853.281
+415  JTTDCMUT+I+R7 34058.467    268 68652.935    69030.380    69853.175
+436  JTTDCMUT+F+I+R6 34052.226    285 68674.452    69121.082    69950.827
+437  JTTDCMUT+F+I+R7 34047.603    287 68669.206    69124.611    69954.538
+458  DCMUT+I+R6    34577.356    266 69686.713    70056.619    70877.996
+459  DCMUT+I+R7    34571.560    268 69679.120    70056.565    70879.360
+480  DCMUT+F+I+R6  34506.719    285 69583.439    70030.069    70859.814
+481  DCMUT+F+I+R7  34501.874    287 69577.748    70033.153    70863.081
+502  VT+I+R6       34288.770    266 69109.539    69479.445    70300.823
+503  VT+I+R7       34285.269    268 69106.538    69483.983    70306.779
+524  VT+F+I+R6     34231.671    285 69033.343    69479.973    70309.718
+525  VT+F+I+R7     34228.366    287 69030.732    69486.136    70316.064
+546  PMB+I+R6      34600.161    266 69732.321    70102.227    70923.605
+547  PMB+I+R7      34597.550    268 69731.099    70108.544    70931.340
+568  PMB+F+I+R6    34656.854    285 69883.708    70330.339    71160.084
+569  PMB+F+I+R7    34655.228    287 69884.455    70339.860    71169.787
+590  BLOSUM62+I+R6 34679.717    266 69891.435    70261.341    71082.718
+591  BLOSUM62+I+R7 34676.635    268 69889.271    70266.716    71089.511
+612  BLOSUM62+F+I+R6 34629.716    285 69829.431    70276.061    71105.806
+613  BLOSUM62+F+I+R7 34627.342    287 69828.683    70284.088    71114.016
+634  DAYHOFF+I+R6  34571.459    266 69674.917    70044.823    70866.201
+635  DAYHOFF+I+R7  34566.819    268 69669.637    70047.082    70869.878
+656  DAYHOFF+F+I+R6 34504.434    285 69578.869    70025.499    70855.244
+657  DAYHOFF+F+I+R7 34497.268    287 69568.536    70023.941    70853.868
+678  MTREV+I+R6    35678.286    266 71888.573    72258.479    73079.856
+679  MTREV+I+R7    35675.978    268 71887.956    72265.401    73088.197
+700  MTREV+F+I+R6  34631.483    285 69832.967    70279.597    71109.342
+701  MTREV+F+I+R7  34629.939    287 69833.878    70289.283    71119.211
+722  MTART+I+R6    36417.962    266 73367.923    73737.830    74559.207
+723  MTART+I+R7    36417.868    268 73371.736    73749.181    74571.977
+744  MTART+F+I+R6  35355.875    285 71281.750    71728.380    72558.125
+745  MTART+F+I+R7  35351.778    287 71277.556    71732.960    72562.888
+766  MTZOA+I+R6    35523.790    266 71579.580    71949.486    72770.863
+767  MTZOA+I+R7    35521.301    268 71578.601    71956.046    72778.842
+788  MTZOA+F+I+R6  34764.072    285 70098.145    70544.775    71374.520
+789  MTZOA+F+I+R7  34760.654    287 70095.307    70550.712    71380.640
+810  MTMET+I+R6    35662.543    266 71857.086    72226.992    73048.369
+811  MTMET+I+R7    35659.755    268 71855.510    72232.955    73055.751
+832  MTMET+F+I+R6  34487.953    285 69545.906    69992.536    70822.281
+833  MTMET+F+I+R7  34485.745    287 69545.491    70000.896    70830.823
+854  MTVER+I+R6    35802.482    266 72136.963    72506.870    73328.247
+855  MTVER+I+R7    35798.320    268 72132.640    72510.085    73332.880
+876  MTVER+F+I+R6  34839.485    285 70248.970    70695.601    71525.346
+877  MTVER+F+I+R7  34837.465    287 70248.930    70704.335    71534.262
+898  MTINV+I+R6    36022.495    266 72576.990    72946.896    73768.274
+899  MTINV+I+R7    36021.115    268 72578.231    72955.676    73778.471
+920  MTINV+F+I+R6  34434.604    285 69439.208    69885.839    70715.584
+921  MTINV+F+I+R7  34432.652    287 69439.303    69894.708    70724.636
+942  MTMAM+I+R6    36305.536    266 73143.071    73512.977    74334.355
+943  MTMAM+I+R7    36300.126    268 73136.252    73513.697    74336.493
+964  MTMAM+F+I+R6  35278.183    285 71126.366    71572.996    72402.741
+965  MTMAM+F+I+R7  35272.262    287 71118.523    71573.928    72403.856
+986  FLAVI+I+R6    35273.886    266 71079.773    71449.679    72271.057
+987  FLAVI+I+R7    35267.762    268 71071.524    71448.969    72271.765
+1008  FLAVI+F+I+R6  35047.436    285 70664.872    71111.502    71941.247
+1009  FLAVI+F+I+R7  35042.569    287 70659.138    71114.543    71944.470
+1030  HIVB+I+R6     34733.710    266 69999.419    70369.326    71190.703
+1031  HIVB+I+R7     34728.377    268 69992.754    70370.199    71192.995
+1052  HIVB+F+I+R6   34591.791    285 69753.582    70200.212    71029.957
+1053  HIVB+F+I+R7   34589.635    287 69753.269    70208.674    71038.601
+1074  HIVW+I+R6     35898.266    266 72328.533    72698.439    73519.816
+1075  HIVW+I+R7     35895.028    268 72326.056    72703.501    73526.297
+1096  HIVW+F+I+R6   35270.435    285 71110.869    71557.500    72387.245
+1097  HIVW+F+I+R7   35266.883    287 71107.765    71563.170    72393.098
+1118  FLU+I+R6      34799.873    266 70131.745    70501.652    71323.029
+1119  FLU+I+R7      34797.403    268 70130.806    70508.251    71331.047
+1140  FLU+F+I+R6    34677.992    285 69925.985    70372.615    71202.360
+1141  FLU+F+I+R7    34675.277    287 69924.554    70379.959    71209.886
+1162  RTREV+I+R6    34637.062    266 69806.124    70176.030    70997.407
+1163  RTREV+I+R7    34635.102    268 69806.204    70183.649    71006.444
+1184  RTREV+F+I+R6  34388.168    285 69346.337    69792.967    70622.712
+1185  RTREV+F+I+R7  34386.137    287 69346.275    69801.680    70631.607
+1206  CPREV+I+R6    34567.707    266 69667.413    70037.320    70858.697
+1207  CPREV+I+R7    34564.372    268 69664.745    70042.190    70864.985
+1228  CPREV+F+I+R6  34511.590    285 69593.180    70039.810    70869.556
+1229  CPREV+F+I+R7  34507.941    287 69589.882    70045.287    70875.214
+Akaike Information Criterion:           Q.INSECT+F+I+R7
+Corrected Akaike Information Criterion: JTT+I+R7
+Bayesian Information Criterion:         JTT+I+R7
+Best-fit model: JTT+I+R7 chosen according to BIC
+
+All model information printed to /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.model.gz
+CPU time for ModelFinder: 1886.768 seconds (0h:31m:26s)
+Wall-clock time for ModelFinder: 1722.002 seconds (0h:28m:42s)
+Generating 5000 samples for ultrafast bootstrap (seed: 911285)...
+
+NOTE: 98 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -34058.430
+2. Current log-likelihood: -34046.888
+3. Current log-likelihood: -34046.548
+4. Current log-likelihood: -34046.418
+Optimal log-likelihood: -34046.302
+Proportion of invariable sites: 0.050
+Site proportion and rates:  (0.188,0.037) (0.154,0.168) (0.142,0.315) (0.157,0.551) (0.111,0.901) (0.058,1.832) (0.141,4.477)
+Parameters optimization took 4 rounds (16.037 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 2.18426 secs using 99.99% CPU
+Computing ML distances took 2.184508 sec (of wall-clock time) 2.184284 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000811627 secs using 99.55% CPU
+Constructing RapidNJ tree: done in 0.0011115 secs using 189.9% CPU
+Computing RapidNJ tree took 0.001987 sec (of wall-clock time) 0.003861 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -34150.316
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.988 second
+Computing log-likelihood of 98 initial trees ... 29.954 seconds
+Current best score: -34046.302
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 3.59722 secs using 99.91% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -34044.802
+Optimizing NNI: done in 7.84237 secs using 99.91% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -34010.899
+Optimizing NNI: done in 15.3941 secs using 99.88% CPU
+Optimizing NNI: done in 16.334 secs using 99.84% CPU
+Optimizing NNI: done in 16.5421 secs using 99.86% CPU
+Optimizing NNI: done in 18.0341 secs using 99.86% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -34009.806
+Optimizing NNI: done in 17.4805 secs using 99.86% CPU
+Optimizing NNI: done in 17.4601 secs using 99.86% CPU
+Optimizing NNI: done in 16.9075 secs using 99.81% CPU
+Optimizing NNI: done in 15.0261 secs using 99.83% CPU
+Iteration 10 / LogL: -34022.111 / Time: 0h:32m:27s
+Optimizing NNI: done in 14.5143 secs using 99.88% CPU
+Optimizing NNI: done in 17.6665 secs using 99.89% CPU
+Optimizing NNI: done in 16.7271 secs using 99.88% CPU
+Optimizing NNI: done in 16.5753 secs using 99.89% CPU
+Optimizing NNI: done in 17.8806 secs using 99.88% CPU
+Optimizing NNI: done in 16.0448 secs using 99.87% CPU
+Optimizing NNI: done in 16.444 secs using 99.81% CPU
+Optimizing NNI: done in 16.927 secs using 99.85% CPU
+Optimizing NNI: done in 17.6198 secs using 99.85% CPU
+Optimizing NNI: done in 14.931 secs using 99.84% CPU
+Iteration 20 / LogL: -34025.558 / Time: 0h:35m:13s
+Finish initializing candidate tree set (20)
+Current best tree score: -34009.806 / CPU time: 367.727
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 13.0394 secs using 99.85% CPU
+Optimizing NNI: done in 7.60074 secs using 99.86% CPU
+Optimizing NNI: done in 11.0039 secs using 99.93% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -34008.557
+Optimizing NNI: done in 9.6923 secs using 99.78% CPU
+Optimizing NNI: done in 12.5352 secs using 99.85% CPU
+Optimizing NNI: done in 9.98042 secs using 99.92% CPU
+Optimizing NNI: done in 8.94565 secs using 99.82% CPU
+Optimizing NNI: done in 10.3234 secs using 99.87% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -34007.776
+Optimizing NNI: done in 11.4681 secs using 99.89% CPU
+Optimizing NNI: done in 9.73965 secs using 99.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -34007.370
+Iteration 30 / LogL: -34007.370 / Time: 0h:37m:10s (0h:29m:13s left)
+Optimizing NNI: done in 10.3407 secs using 99.87% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -34007.166
+Optimizing NNI: done in 11.2041 secs using 99.91% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -34006.607
+Optimizing NNI: done in 9.88607 secs using 99.88% CPU
+Optimizing NNI: done in 10.8224 secs using 99.9% CPU
+Optimizing NNI: done in 10.178 secs using 99.83% CPU
+Optimizing NNI: done in 11.1575 secs using 99.83% CPU
+Optimizing NNI: done in 10.3448 secs using 99.9% CPU
+Optimizing NNI: done in 10.4878 secs using 99.9% CPU
+Optimizing NNI: done in 8.8404 secs using 99.8% CPU
+Optimizing NNI: done in 9.232 secs using 99.79% CPU
+Iteration 40 / LogL: -34138.245 / Time: 0h:39m:1s (0h:24m:22s left)
+Optimizing NNI: done in 10.7907 secs using 99.78% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -34006.280
+Optimizing NNI: done in 11.4308 secs using 99.81% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -34005.863
+Optimizing NNI: done in 6.94313 secs using 99.89% CPU
+Optimizing NNI: done in 10.491 secs using 99.85% CPU
+Optimizing NNI: done in 12.3391 secs using 99.84% CPU
+Optimizing NNI: done in 9.55642 secs using 99.84% CPU
+Optimizing NNI: done in 9.80619 secs using 99.86% CPU
+Optimizing NNI: done in 11.2887 secs using 99.91% CPU
+Optimizing NNI: done in 9.78312 secs using 99.87% CPU
+Optimizing NNI: done in 10.0372 secs using 99.89% CPU
+Iteration 50 / LogL: -34006.266 / Time: 0h:40m:53s (0h:22m:52s left)
+Log-likelihood cutoff on original alignment: -34059.208
+Optimizing NNI: done in 12.8859 secs using 99.86% CPU
+Optimizing NNI: done in 10.6338 secs using 99.84% CPU
+Optimizing NNI: done in 12.6905 secs using 99.9% CPU
+Optimizing NNI: done in 12.3903 secs using 99.88% CPU
+Optimizing NNI: done in 12.2133 secs using 99.89% CPU
+Optimizing NNI: done in 8.67524 secs using 99.82% CPU
+Optimizing NNI: done in 10.9527 secs using 99.88% CPU
+Optimizing NNI: done in 8.73174 secs using 99.86% CPU
+Optimizing NNI: done in 11.6197 secs using 99.84% CPU
+Optimizing NNI: done in 9.99795 secs using 99.89% CPU
+Iteration 60 / LogL: -34006.173 / Time: 0h:42m:46s (0h:19m:34s left)
+Optimizing NNI: done in 10.6292 secs using 99.87% CPU
+Optimizing NNI: done in 10.9972 secs using 99.87% CPU
+Optimizing NNI: done in 10.674 secs using 99.9% CPU
+Optimizing NNI: done in 11.0089 secs using 99.83% CPU
+Optimizing NNI: done in 9.89479 secs using 99.83% CPU
+UPDATE BEST LOG-LIKELIHOOD: -34005.861
+Optimizing NNI: done in 12.9809 secs using 99.83% CPU
+Optimizing NNI: done in 14.0832 secs using 99.87% CPU
+Optimizing NNI: done in 9.05357 secs using 99.91% CPU
+Optimizing NNI: done in 8.64937 secs using 99.88% CPU
+Optimizing NNI: done in 10.8955 secs using 99.87% CPU
+Iteration 70 / LogL: -34035.684 / Time: 0h:44m:36s (0h:16m:35s left)
+Optimizing NNI: done in 10.8027 secs using 99.85% CPU
+Optimizing NNI: done in 8.7189 secs using 99.91% CPU
+Optimizing NNI: done in 8.85318 secs using 99.92% CPU
+Optimizing NNI: done in 8.50306 secs using 99.84% CPU
+Optimizing NNI: done in 7.78326 secs using 99.88% CPU
+Optimizing NNI: done in 7.35499 secs using 99.77% CPU
+Optimizing NNI: done in 11.0158 secs using 99.9% CPU
+Optimizing NNI: done in 10.8489 secs using 99.83% CPU
+Optimizing NNI: done in 8.8417 secs using 99.93% CPU
+Optimizing NNI: done in 9.41177 secs using 99.8% CPU
+Iteration 80 / LogL: -34010.214 / Time: 0h:46m:9s (0h:13m:41s left)
+Optimizing NNI: done in 10.364 secs using 99.88% CPU
+Optimizing NNI: done in 11.4968 secs using 99.92% CPU
+Optimizing NNI: done in 7.08542 secs using 99.85% CPU
+Optimizing NNI: done in 12.0466 secs using 99.89% CPU
+Optimizing NNI: done in 11.632 secs using 99.86% CPU
+Optimizing NNI: done in 10.2659 secs using 99.89% CPU
+Optimizing NNI: done in 8.74277 secs using 99.91% CPU
+Optimizing NNI: done in 10.0422 secs using 99.8% CPU
+Optimizing NNI: done in 8.40638 secs using 99.88% CPU
+Optimizing NNI: done in 10.3924 secs using 99.84% CPU
+Iteration 90 / LogL: -34006.174 / Time: 0h:47m:50s (0h:11m:11s left)
+Optimizing NNI: done in 9.97682 secs using 99.89% CPU
+UPDATE BEST LOG-LIKELIHOOD: -34005.861
+Optimizing NNI: done in 10.6398 secs using 99.92% CPU
+Optimizing NNI: done in 8.42825 secs using 99.91% CPU
+UPDATE BEST LOG-LIKELIHOOD: -34005.861
+Optimizing NNI: done in 10.8101 secs using 99.78% CPU
+Optimizing NNI: done in 9.97942 secs using 99.88% CPU
+Optimizing NNI: done in 11.994 secs using 99.84% CPU
+Optimizing NNI: done in 11.2165 secs using 99.9% CPU
+Optimizing NNI: done in 13.5438 secs using 99.89% CPU
+Optimizing NNI: done in 8.24068 secs using 99.8% CPU
+Optimizing NNI: done in 9.68893 secs using 99.85% CPU
+Iteration 100 / LogL: -34006.029 / Time: 0h:49m:36s (0h:8m:52s left)
+Log-likelihood cutoff on original alignment: -34059.208
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Optimizing NNI: done in 7.29756 secs using 99.91% CPU
+Optimizing NNI: done in 10.9722 secs using 99.76% CPU
+Optimizing NNI: done in 9.81217 secs using 99.87% CPU
+Optimizing NNI: done in 12.7211 secs using 99.8% CPU
+Optimizing NNI: done in 9.7576 secs using 99.78% CPU
+Optimizing NNI: done in 10.8609 secs using 99.83% CPU
+Optimizing NNI: done in 9.13112 secs using 99.92% CPU
+Optimizing NNI: done in 9.37892 secs using 99.86% CPU
+Optimizing NNI: done in 12.0763 secs using 99.84% CPU
+Optimizing NNI: done in 8.08214 secs using 99.9% CPU
+Iteration 110 / LogL: -34009.417 / Time: 0h:51m:19s (0h:18m:40s left)
+Optimizing NNI: done in 9.29044 secs using 99.84% CPU
+Optimizing NNI: done in 9.61437 secs using 99.93% CPU
+Optimizing NNI: done in 9.26929 secs using 99.79% CPU
+Optimizing NNI: done in 10.2354 secs using 99.83% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -34005.622
+Optimizing NNI: done in 11.679 secs using 99.91% CPU
+Optimizing NNI: done in 7.49185 secs using 99.88% CPU
+Optimizing NNI: done in 9.03696 secs using 99.81% CPU
+Optimizing NNI: done in 10.5975 secs using 99.82% CPU
+Optimizing NNI: done in 8.49453 secs using 99.75% CPU
+Optimizing NNI: done in 10.8094 secs using 99.88% CPU
+Iteration 120 / LogL: -34005.901 / Time: 0h:53m:0s (0h:19m:11s left)
+Optimizing NNI: done in 10.1314 secs using 99.71% CPU
+Optimizing NNI: done in 11.0896 secs using 99.86% CPU
+Optimizing NNI: done in 11.1734 secs using 99.87% CPU
+Optimizing NNI: done in 9.98271 secs using 99.8% CPU
+Optimizing NNI: done in 8.64182 secs using 99.85% CPU
+Optimizing NNI: done in 10.4507 secs using 99.95% CPU
+Optimizing NNI: done in 11.1001 secs using 99.81% CPU
+Optimizing NNI: done in 8.92869 secs using 99.84% CPU
+Optimizing NNI: done in 10.6031 secs using 99.74% CPU
+Optimizing NNI: done in 8.75483 secs using 99.94% CPU
+Iteration 130 / LogL: -34008.402 / Time: 0h:54m:41s (0h:16m:55s left)
+Optimizing NNI: done in 9.32999 secs using 99.9% CPU
+Optimizing NNI: done in 8.896 secs using 99.79% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 132: -34005.158
+Optimizing NNI: done in 8.95855 secs using 99.84% CPU
+Optimizing NNI: done in 9.39991 secs using 99.85% CPU
+Optimizing NNI: done in 9.26013 secs using 99.83% CPU
+Optimizing NNI: done in 10.9597 secs using 99.81% CPU
+Optimizing NNI: done in 9.88749 secs using 99.8% CPU
+Optimizing NNI: done in 10.0688 secs using 99.86% CPU
+Optimizing NNI: done in 7.86161 secs using 99.84% CPU
+Optimizing NNI: done in 9.63063 secs using 99.85% CPU
+Iteration 140 / LogL: -34026.751 / Time: 0h:56m:20s (0h:18m:17s left)
+Optimizing NNI: done in 11.0954 secs using 99.81% CPU
+Optimizing NNI: done in 11.7544 secs using 99.91% CPU
+Optimizing NNI: done in 8.80474 secs using 99.79% CPU
+Optimizing NNI: done in 9.57776 secs using 99.87% CPU
+Optimizing NNI: done in 9.56324 secs using 99.73% CPU
+Optimizing NNI: done in 12.8961 secs using 99.86% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 146: -34005.139
+Optimizing NNI: done in 13.5084 secs using 99.89% CPU
+Optimizing NNI: done in 10.8486 secs using 99.84% CPU
+Optimizing NNI: done in 9.40506 secs using 99.88% CPU
+Optimizing NNI: done in 7.73622 secs using 99.81% CPU
+Iteration 150 / LogL: -34005.153 / Time: 0h:58m:10s (0h:18m:59s left)
+Log-likelihood cutoff on original alignment: -34060.062
+Optimizing NNI: done in 10.9415 secs using 99.88% CPU
+Optimizing NNI: done in 9.04071 secs using 99.72% CPU
+Optimizing NNI: done in 9.97371 secs using 99.83% CPU
+Optimizing NNI: done in 11.1684 secs using 99.73% CPU
+Optimizing NNI: done in 7.06476 secs using 99.84% CPU
+Optimizing NNI: done in 11.5868 secs using 99.9% CPU
+Optimizing NNI: done in 8.79213 secs using 99.88% CPU
+Optimizing NNI: done in 9.72009 secs using 99.83% CPU
+Optimizing NNI: done in 10.7371 secs using 99.85% CPU
+Optimizing NNI: done in 8.44546 secs using 99.82% CPU
+Iteration 160 / LogL: -34009.365 / Time: 0h:59m:49s (0h:16m:50s left)
+Optimizing NNI: done in 6.97997 secs using 99.87% CPU
+Optimizing NNI: done in 8.7817 secs using 99.87% CPU
+Optimizing NNI: done in 13.9352 secs using 99.8% CPU
+Optimizing NNI: done in 11.8075 secs using 99.85% CPU
+Optimizing NNI: done in 9.52859 secs using 99.83% CPU
+Optimizing NNI: done in 9.82652 secs using 99.88% CPU
+Optimizing NNI: done in 8.20853 secs using 99.84% CPU
+Optimizing NNI: done in 9.59623 secs using 99.8% CPU
+Optimizing NNI: done in 9.10204 secs using 99.84% CPU
+Optimizing NNI: done in 11.697 secs using 99.72% CPU
+UPDATE BEST LOG-LIKELIHOOD: -34005.138
+Iteration 170 / LogL: -34005.138 / Time: 1h:1m:30s (0h:14m:45s left)
+Optimizing NNI: done in 10.074 secs using 99.78% CPU
+Optimizing NNI: done in 9.92488 secs using 99.84% CPU
+Optimizing NNI: done in 10.135 secs using 99.91% CPU
+Optimizing NNI: done in 10.4115 secs using 99.76% CPU
+Optimizing NNI: done in 9.26106 secs using 99.83% CPU
+Optimizing NNI: done in 8.51573 secs using 99.78% CPU
+Optimizing NNI: done in 11.5271 secs using 99.87% CPU
+Optimizing NNI: done in 9.07583 secs using 99.75% CPU
+Optimizing NNI: done in 9.03927 secs using 99.88% CPU
+Optimizing NNI: done in 8.65333 secs using 99.91% CPU
+Iteration 180 / LogL: -34005.318 / Time: 1h:3m:7s (0h:12m:41s left)
+Optimizing NNI: done in 11.1497 secs using 99.85% CPU
+Optimizing NNI: done in 8.54361 secs using 99.84% CPU
+Optimizing NNI: done in 13.6617 secs using 99.9% CPU
+Optimizing NNI: done in 11.2427 secs using 99.92% CPU
+Optimizing NNI: done in 11.8267 secs using 99.87% CPU
+Optimizing NNI: done in 10.4161 secs using 99.89% CPU
+Optimizing NNI: done in 6.87159 secs using 99.93% CPU
+Optimizing NNI: done in 11.2217 secs using 99.85% CPU
+Optimizing NNI: done in 10.786 secs using 99.93% CPU
+Optimizing NNI: done in 10.6184 secs using 99.93% CPU
+Iteration 190 / LogL: -34008.288 / Time: 1h:4m:54s (0h:10m:43s left)
+Optimizing NNI: done in 7.23185 secs using 99.81% CPU
+Optimizing NNI: done in 8.05882 secs using 99.8% CPU
+Optimizing NNI: done in 11.0747 secs using 99.88% CPU
+Optimizing NNI: done in 8.25308 secs using 99.82% CPU
+Optimizing NNI: done in 12.2017 secs using 99.85% CPU
+Optimizing NNI: done in 10.3611 secs using 99.84% CPU
+Optimizing NNI: done in 10.6181 secs using 99.86% CPU
+Optimizing NNI: done in 10.5398 secs using 99.78% CPU
+Optimizing NNI: done in 12.4773 secs using 99.91% CPU
+Optimizing NNI: done in 13.6442 secs using 99.88% CPU
+Iteration 200 / LogL: -34012.364 / Time: 1h:6m:39s (0h:8m:46s left)
+Log-likelihood cutoff on original alignment: -34060.062
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Optimizing NNI: done in 9.13039 secs using 99.89% CPU
+Optimizing NNI: done in 9.72166 secs using 99.85% CPU
+Optimizing NNI: done in 9.13099 secs using 99.83% CPU
+Optimizing NNI: done in 10.0291 secs using 99.87% CPU
+Optimizing NNI: done in 10.8585 secs using 99.76% CPU
+Optimizing NNI: done in 8.92077 secs using 99.9% CPU
+Optimizing NNI: done in 9.3451 secs using 99.7% CPU
+Optimizing NNI: done in 7.67955 secs using 99.85% CPU
+Optimizing NNI: done in 9.27791 secs using 99.92% CPU
+Optimizing NNI: done in 8.12321 secs using 99.83% CPU
+Iteration 210 / LogL: -34007.731 / Time: 1h:8m:14s (0h:17m:1s left)
+Optimizing NNI: done in 9.77371 secs using 99.85% CPU
+Optimizing NNI: done in 9.49953 secs using 99.77% CPU
+Optimizing NNI: done in 11.5723 secs using 99.92% CPU
+Optimizing NNI: done in 11.1879 secs using 99.79% CPU
+Optimizing NNI: done in 9.57862 secs using 99.9% CPU
+Optimizing NNI: done in 6.99734 secs using 99.72% CPU
+Optimizing NNI: done in 10.7004 secs using 99.86% CPU
+Optimizing NNI: done in 7.40806 secs using 99.87% CPU
+Optimizing NNI: done in 7.22239 secs using 99.88% CPU
+BETTER TREE FOUND at iteration 219: -34005.138
+Optimizing NNI: done in 12.7451 secs using 99.86% CPU
+Iteration 220 / LogL: -34091.072 / Time: 1h:9m:51s (0h:18m:36s left)
+Optimizing NNI: done in 9.2941 secs using 99.82% CPU
+Optimizing NNI: done in 6.63062 secs using 99.84% CPU
+Optimizing NNI: done in 11.1208 secs using 99.88% CPU
+Optimizing NNI: done in 8.89081 secs using 99.85% CPU
+Optimizing NNI: done in 6.82298 secs using 99.83% CPU
+Optimizing NNI: done in 8.74886 secs using 99.84% CPU
+Optimizing NNI: done in 9.7129 secs using 99.79% CPU
+Optimizing NNI: done in 10.457 secs using 99.85% CPU
+Optimizing NNI: done in 10.6204 secs using 99.74% CPU
+Optimizing NNI: done in 13.4553 secs using 99.86% CPU
+Iteration 230 / LogL: -34005.635 / Time: 1h:11m:28s (0h:16m:37s left)
+Optimizing NNI: done in 7.59729 secs using 99.92% CPU
+Optimizing NNI: done in 11.3532 secs using 99.91% CPU
+Optimizing NNI: done in 8.8454 secs using 99.8% CPU
+Optimizing NNI: done in 10.8013 secs using 99.83% CPU
+Optimizing NNI: done in 7.18064 secs using 99.79% CPU
+Optimizing NNI: done in 9.75121 secs using 99.89% CPU
+Optimizing NNI: done in 9.74135 secs using 99.77% CPU
+Optimizing NNI: done in 10.6136 secs using 99.89% CPU
+Optimizing NNI: done in 11.9186 secs using 99.92% CPU
+Optimizing NNI: done in 8.46032 secs using 99.91% CPU
+Iteration 240 / LogL: -34020.120 / Time: 1h:13m:5s (0h:14m:40s left)
+Optimizing NNI: done in 9.91515 secs using 99.92% CPU
+Optimizing NNI: done in 9.25878 secs using 99.84% CPU
+Optimizing NNI: done in 8.56399 secs using 99.9% CPU
+Optimizing NNI: done in 11.435 secs using 99.91% CPU
+Optimizing NNI: done in 10.7409 secs using 99.84% CPU
+Optimizing NNI: done in 10.0525 secs using 99.89% CPU
+Optimizing NNI: done in 10.374 secs using 99.79% CPU
+Optimizing NNI: done in 10.4294 secs using 99.89% CPU
+Optimizing NNI: done in 9.48181 secs using 99.79% CPU
+Optimizing NNI: done in 11.1468 secs using 99.86% CPU
+Iteration 250 / LogL: -34005.317 / Time: 1h:14m:47s (0h:12m:46s left)
+Log-likelihood cutoff on original alignment: -34060.062
+Optimizing NNI: done in 8.46003 secs using 99.88% CPU
+Optimizing NNI: done in 8.59889 secs using 99.86% CPU
+Optimizing NNI: done in 8.74228 secs using 99.73% CPU
+Optimizing NNI: done in 10.5108 secs using 99.85% CPU
+Optimizing NNI: done in 9.80687 secs using 99.81% CPU
+Optimizing NNI: done in 9.79591 secs using 99.85% CPU
+Optimizing NNI: done in 10.1499 secs using 99.8% CPU
+Optimizing NNI: done in 10.0983 secs using 99.86% CPU
+Optimizing NNI: done in 9.27371 secs using 99.86% CPU
+Optimizing NNI: done in 9.99129 secs using 99.88% CPU
+Iteration 260 / LogL: -34020.960 / Time: 1h:16m:24s (0h:10m:52s left)
+Optimizing NNI: done in 8.78973 secs using 99.8% CPU
+Optimizing NNI: done in 9.32387 secs using 99.85% CPU
+Optimizing NNI: done in 10.3611 secs using 99.8% CPU
+Optimizing NNI: done in 8.73811 secs using 99.86% CPU
+Optimizing NNI: done in 10.5688 secs using 99.86% CPU
+Optimizing NNI: done in 10.0139 secs using 99.91% CPU
+Optimizing NNI: done in 12.1437 secs using 99.91% CPU
+Optimizing NNI: done in 9.57653 secs using 99.85% CPU
+Optimizing NNI: done in 12.9333 secs using 99.86% CPU
+Optimizing NNI: done in 9.61437 secs using 99.87% CPU
+Iteration 270 / LogL: -34010.488 / Time: 1h:18m:7s (0h:9m:0s left)
+Optimizing NNI: done in 11.2012 secs using 99.74% CPU
+Optimizing NNI: done in 11.3979 secs using 99.75% CPU
+Optimizing NNI: done in 9.27577 secs using 99.85% CPU
+Optimizing NNI: done in 8.70964 secs using 99.86% CPU
+Optimizing NNI: done in 9.72114 secs using 99.8% CPU
+Optimizing NNI: done in 10.711 secs using 99.83% CPU
+Optimizing NNI: done in 7.22645 secs using 99.89% CPU
+Optimizing NNI: done in 10.8348 secs using 99.86% CPU
+Optimizing NNI: done in 11.6409 secs using 99.82% CPU
+Optimizing NNI: done in 11.0436 secs using 99.81% CPU
+Iteration 280 / LogL: -34006.407 / Time: 1h:19m:50s (0h:7m:8s left)
+Optimizing NNI: done in 9.53758 secs using 99.85% CPU
+Optimizing NNI: done in 12.972 secs using 99.85% CPU
+Optimizing NNI: done in 8.75532 secs using 99.92% CPU
+Optimizing NNI: done in 10.4736 secs using 99.91% CPU
+Optimizing NNI: done in 12.6682 secs using 99.89% CPU
+Optimizing NNI: done in 10.4855 secs using 99.9% CPU
+Optimizing NNI: done in 9.0103 secs using 99.87% CPU
+Optimizing NNI: done in 13.278 secs using 99.84% CPU
+Optimizing NNI: done in 9.98955 secs using 99.83% CPU
+Optimizing NNI: done in 8.47854 secs using 99.92% CPU
+Iteration 290 / LogL: -34005.153 / Time: 1h:21m:36s (0h:5m:18s left)
+Optimizing NNI: done in 6.48273 secs using 99.92% CPU
+Optimizing NNI: done in 10.6053 secs using 99.89% CPU
+Optimizing NNI: done in 8.34173 secs using 99.83% CPU
+Optimizing NNI: done in 9.59606 secs using 99.87% CPU
+Optimizing NNI: done in 8.9386 secs using 99.89% CPU
+Optimizing NNI: done in 11.2734 secs using 99.77% CPU
+Optimizing NNI: done in 12.3692 secs using 99.88% CPU
+Optimizing NNI: done in 11.033 secs using 99.84% CPU
+Optimizing NNI: done in 11.0155 secs using 99.88% CPU
+Optimizing NNI: done in 9.86224 secs using 99.93% CPU
+Iteration 300 / LogL: -34012.079 / Time: 1h:23m:16s (0h:3m:28s left)
+Log-likelihood cutoff on original alignment: -34060.062
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Optimizing NNI: done in 10.2488 secs using 99.87% CPU
+Optimizing NNI: done in 9.5343 secs using 99.79% CPU
+Optimizing NNI: done in 6.05314 secs using 99.83% CPU
+Optimizing NNI: done in 10.3499 secs using 99.71% CPU
+Optimizing NNI: done in 11.4158 secs using 99.88% CPU
+Optimizing NNI: done in 10.4924 secs using 99.8% CPU
+Optimizing NNI: done in 11.3384 secs using 99.87% CPU
+Optimizing NNI: done in 9.0865 secs using 99.77% CPU
+Optimizing NNI: done in 7.90198 secs using 99.86% CPU
+Optimizing NNI: done in 10.8078 secs using 99.84% CPU
+Iteration 310 / LogL: -34011.751 / Time: 1h:24m:56s (0h:16m:22s left)
+Optimizing NNI: done in 10.2337 secs using 99.8% CPU
+Optimizing NNI: done in 8.5468 secs using 99.74% CPU
+Optimizing NNI: done in 11.2805 secs using 99.88% CPU
+Optimizing NNI: done in 8.13333 secs using 99.86% CPU
+Optimizing NNI: done in 9.27163 secs using 99.84% CPU
+Optimizing NNI: done in 10.5148 secs using 99.88% CPU
+Optimizing NNI: done in 10.9364 secs using 99.87% CPU
+Optimizing NNI: done in 9.45235 secs using 99.81% CPU
+Optimizing NNI: done in 9.11631 secs using 99.9% CPU
+Optimizing NNI: done in 7.92617 secs using 99.75% CPU
+Iteration 320 / LogL: -34005.139 / Time: 1h:26m:32s (0h:14m:30s left)
+TREE SEARCH COMPLETED AFTER 320 ITERATIONS / Time: 1h:26m:32s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -34005.138
+Optimal log-likelihood: -34005.136
+Proportion of invariable sites: 0.048
+Site proportion and rates:  (0.179,0.036) (0.156,0.162) (0.165,0.339) (0.165,0.608) (0.092,1.006) (0.052,1.864) (0.144,4.331)
+Parameters optimization took 1 rounds (1.995 sec)
+BEST SCORE FOUND : -34005.136
+Creating bootstrap support values...
+Split supports printed to NEXUS file /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.splits.nex
+Total tree length: 82.912
+
+Total number of iterations: 320
+CPU time used for tree search: 3439.536 sec (0h:57m:19s)
+Wall-clock time used for tree search: 3446.698 sec (0h:57m:26s)
+Total CPU time used: 5353.532 sec (1h:29m:13s)
+Total wall-clock time used: 5196.080 sec (1h:26m:36s)
+
+Computing bootstrap consensus tree...
+Reading input file /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.splits.nex...
+129 taxa and 716 splits.
+Consensus tree written to /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.contree
+Reading input trees file /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.contree
+Log-likelihood of consensus tree: -34005.317
+
+Analysis results written to: 
+  IQ-TREE report:                /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.iqtree
+  Maximum-likelihood tree:       /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.treefile
+  Likelihood distances:          /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.splits.nex
+  Consensus tree:                /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.contree
+  Screen log file:               /rna/liha/phylogenomics_practice/TENT/TENT5/Tree/TENT5_corrected_alignment.log
+
+Date and Time: Fri Jul 24 16:02:52 2026
+IQ-TREE analysis completed at Fri Jul 24 04:02:52 PM KST 2026.

@@ -31,6 +31,14 @@ output_png <- get_env("PIPELINE_HOMOLOG_COUNTS_PNG", file.path(scripts_dir, past
 
 species_list <- fread(species_file, header = TRUE)
 species_list[, Organism_Label := binomial_label(Organism_Name)]
+species_lookup <- unique(species_list[, .(
+  organism = paste(
+    Target_Clade,
+    gsub(" ", "_", Organism_Label, fixed = TRUE),
+    sep = "_"
+  ),
+  target_species = paste(Target_Clade, Organism_Label, sep = " - ")
+)])
 
 if (!file.exists(fasta_path) || file.info(fasta_path)$size == 0) {
   stop("Missing or empty FASTA file: ", fasta_path)
@@ -39,13 +47,26 @@ if (!file.exists(fasta_path) || file.info(fasta_path)$size == 0) {
 seqs <- readAAStringSet(fasta_path, format = "fasta")
 
 organism_raw <- sub("_H[0-9]+_.*", "", names(seqs))
-extracted_species <- gsub("_", " ", sub("_", " - ", organism_raw))
+sequence_species <- data.table(organism = organism_raw)
+sequence_species[
+  species_lookup,
+  target_species := i.target_species,
+  on = .(organism)
+]
 
-df_counts <- as.data.table(table(extracted_species))
-setnames(df_counts, c("extracted_species", "N"), c("target_species", "count"))
+unmatched_organisms <- unique(sequence_species[is.na(target_species), organism])
+if (length(unmatched_organisms) > 0) {
+  stop(
+    "No species.txt mapping for FASTA organism labels: ",
+    paste(unmatched_organisms, collapse = ", ")
+  )
+}
+
+df_counts <- sequence_species[, .(count = .N), by = target_species]
 
 ordered_levels <- paste(species_list$Target_Clade, species_list$Organism_Label, sep = " - ")
 df_counts[, target_species := factor(target_species, levels = ordered_levels)]
+plot_height <- max(10, 0.3 * nrow(df_counts))
 
 plot_homolog_counts <- ggplot(df_counts, aes(x = target_species, y = count)) +
   geom_bar(stat = "identity", fill = "steelblue", color = "black", alpha = 0.8) +
@@ -67,8 +88,8 @@ print(plot_homolog_counts)
 ggsave(
   filename = output_png,
   plot = plot_homolog_counts,
-  width = 10,
-  height = 6,
+  width = 12,
+  height = plot_height,
   dpi = 300,
   bg = "white"
 )
