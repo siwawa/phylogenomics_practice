@@ -1,0 +1,2 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_001712814.1	NP_000980.1	0	N/A	33.766	77	75	2.41e-07	47.4	large ribosomal subunit protein eL30 [Homo sapiens]	FALSE	NA

@@ -1,0 +1,101 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_009025290.1	XP_047290433.1	0	N/A	39.145	304	43	4.40e-53	192	terminal nucleotidyltransferase 4B isoform X6 [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	XP_011521580.1	0	N/A	39.145	304	43	6.86e-53	193	terminal nucleotidyltransferase 4B isoform X5 [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	XP_047290432.1	0	N/A	38.413	315	44	7.82e-53	195	terminal nucleotidyltransferase 4B isoform X4 [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	NP_001035375.2	0	N/A	38.413	315	44	7.85e-53	195	terminal nucleotidyltransferase 4B isoform b [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	XP_011521578.1	0	N/A	38.413	315	44	7.97e-53	195	terminal nucleotidyltransferase 4B isoform X2 [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	XP_047290431.1	0	N/A	38.413	315	44	1.01e-52	195	terminal nucleotidyltransferase 4B isoform X3 [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	NP_001352252.1	0	N/A	38.413	315	44	1.16e-52	195	terminal nucleotidyltransferase 4B isoform c [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	NP_001035374.2	0	N/A	38.413	315	44	1.37e-52	195	terminal nucleotidyltransferase 4B isoform a [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	XP_011521577.1	0	N/A	38.413	315	44	1.38e-52	195	terminal nucleotidyltransferase 4B isoform X1 [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	NP_001352253.1	0	N/A	38.413	315	44	1.68e-52	195	terminal nucleotidyltransferase 4B isoform d [Homo sapiens]	TRUE	TENT4B
+XP_009025290.1	NP_008930.2	0	N/A	37.730	326	45	2.61e-50	190	terminal nucleotidyltransferase 4A isoform 1 [Homo sapiens]	TRUE	TENT4A
+XP_009025290.1	NP_001165276.2	0	N/A	37.117	326	45	2.87e-50	190	terminal nucleotidyltransferase 4A isoform 2 [Homo sapiens]	TRUE	TENT4A
+XP_009025290.1	XP_047272622.1	0	N/A	38.065	310	43	1.69e-49	184	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_009025290.1	XP_047272621.1	0	N/A	38.065	310	43	1.69e-49	184	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_009025290.1	XP_047272620.1	0	N/A	38.065	310	43	1.69e-49	184	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_009025290.1	XP_047272623.1	0	N/A	38.667	300	41	2.80e-49	183	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_009025290.1	XP_016864477.1	0	N/A	38.667	300	41	2.80e-49	183	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_009025290.1	XP_047272624.1	0	N/A	38.667	300	41	3.03e-49	183	terminal nucleotidyltransferase 4A isoform X3 [Homo sapiens]	TRUE	TENT4A
+XP_009025290.1	NP_001375042.1	0	N/A	22.260	292	36	8.82e-09	60.8	poly(A) RNA polymerase GLD2 isoform 16 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272808.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform X3 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272807.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform X3 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272806.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform X3 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_776158.2	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375041.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375040.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375039.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375038.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375037.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375036.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375035.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375034.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375032.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375031.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001336482.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001336481.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001107866.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001107865.1	0	N/A	22.260	292	36	9.72e-09	60.8	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375060.1	0	N/A	22.260	292	36	9.84e-09	60.8	poly(A) RNA polymerase GLD2 isoform 11 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001336477.1	0	N/A	23.558	208	25	1.59e-08	58.9	poly(A) RNA polymerase GLD2 isoform 4 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375061.1	0	N/A	23.558	208	25	1.60e-08	60.1	poly(A) RNA polymerase GLD2 isoform 12 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272811.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform X4 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272810.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform X4 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272809.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform X4 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375058.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375057.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375056.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375055.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375054.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375053.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375052.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375051.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375050.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375049.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375048.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375047.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375046.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375045.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375044.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375043.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001336483.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001284673.1	0	N/A	23.558	208	25	1.73e-08	60.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375059.1	0	N/A	23.558	208	25	1.75e-08	60.1	poly(A) RNA polymerase GLD2 isoform 10 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272805.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform X2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272804.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform X2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272803.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform X2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272802.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform X2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_016864641.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform X2 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375026.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform 6 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375025.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform 6 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375024.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform 6 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001336480.1	0	N/A	23.558	208	25	1.97e-08	60.1	poly(A) RNA polymerase GLD2 isoform 6 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375027.1	0	N/A	23.558	208	25	2.01e-08	60.1	poly(A) RNA polymerase GLD2 isoform 7 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272801.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform X1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272800.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform X1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_011541527.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform X1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_011541526.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform X1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_011541523.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform X1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_011541522.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform X1 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375023.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform 5 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375022.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform 5 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001336479.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform 5 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001336478.1	0	N/A	23.558	208	25	2.04e-08	60.1	poly(A) RNA polymerase GLD2 isoform 5 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375029.1	0	N/A	23.558	208	25	2.24e-08	59.7	poly(A) RNA polymerase GLD2 isoform 8 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375028.1	0	N/A	23.558	208	25	2.24e-08	59.7	poly(A) RNA polymerase GLD2 isoform 8 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375030.1	0	N/A	23.558	208	25	2.27e-08	59.7	poly(A) RNA polymerase GLD2 isoform 9 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001375065.1	0	N/A	23.558	208	25	4.15e-08	58.5	poly(A) RNA polymerase GLD2 isoform 14 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	XP_047272820.1	0	N/A	23.558	208	25	5.08e-08	57.0	poly(A) RNA polymerase GLD2 isoform X11 [Homo sapiens]	TRUE	TENT2
+XP_009025290.1	NP_001317647.1	0	N/A	21.708	281	34	1.03e-06	54.7	terminal uridylyltransferase 7 isoform 3 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_047279823.1	0	N/A	21.754	285	35	1.74e-06	54.3	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_006717346.1	0	N/A	21.754	285	35	1.74e-06	54.3	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_011517318.1	0	N/A	21.754	285	35	1.74e-06	54.3	terminal uridylyltransferase 7 isoform X5 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_047279825.1	0	N/A	21.754	285	35	1.83e-06	54.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_047279824.1	0	N/A	21.754	285	35	1.83e-06	54.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_005252264.1	0	N/A	21.754	285	35	1.83e-06	54.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_016870620.1	0	N/A	21.754	285	35	1.95e-06	54.3	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_016870619.1	0	N/A	21.754	285	35	1.95e-06	54.3	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	NP_078893.2	0	N/A	21.754	285	35	1.95e-06	54.3	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	NP_001171988.1	0	N/A	21.754	285	35	1.95e-06	54.3	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_011517317.1	0	N/A	21.754	285	35	2.01e-06	53.9	terminal uridylyltransferase 7 isoform X3 [Homo sapiens]	TRUE	Tut7
+XP_009025290.1	XP_005252265.1	0	N/A	21.754	285	35	2.09e-06	53.9	terminal uridylyltransferase 7 isoform X7 [Homo sapiens]	TRUE	Tut7

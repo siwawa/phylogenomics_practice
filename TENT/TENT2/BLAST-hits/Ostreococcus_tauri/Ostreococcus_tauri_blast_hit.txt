@@ -1,0 +1,3 @@
+TENT2_Homo_sapiens	XP_003081277.2	70448	Ostreococcus tauri	27.064	218	41	9.90e-17	81.3	unnamed product [Ostreococcus tauri]
+TENT2_Homo_sapiens	XP_003079952.2	70448	Ostreococcus tauri	23.906	297	58	1.11e-11	65.1	Nucleotidyl transferase domain [Ostreococcus tauri]
+TENT2_Homo_sapiens	XP_003080206.1	70448	Ostreococcus tauri	33.721	86	18	3.39e-07	50.8	PAP/25A-associated [Ostreococcus tauri]

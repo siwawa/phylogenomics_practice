@@ -1,0 +1,21 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_009494820.1	NP_001361604.1	0	N/A	51.471	68	6	1.63e-15	83.2	heat shock factor protein 4 isoform b [Homo sapiens]	FALSE	NA
+XP_009494820.1	NP_001035757.1	0	N/A	51.471	68	6	1.63e-15	83.2	heat shock factor protein 4 isoform b [Homo sapiens]	FALSE	NA
+XP_009494820.1	NP_001529.2	0	N/A	51.471	68	6	1.74e-15	83.2	heat shock factor protein 4 isoform a [Homo sapiens]	FALSE	NA
+XP_009494820.1	NP_001361603.1	0	N/A	51.471	68	6	1.74e-15	83.2	heat shock factor protein 4 isoform a [Homo sapiens]	FALSE	NA
+XP_009494820.1	NP_001230023.1	0	N/A	35.644	101	9	1.28e-12	71.2	heat shock factor protein 2 isoform c [Homo sapiens]	FALSE	NA
+XP_009494820.1	NP_001129036.1	0	N/A	44.118	68	6	3.73e-12	72.8	heat shock factor protein 2 isoform b [Homo sapiens]	FALSE	NA
+XP_009494820.1	NP_004497.1	0	N/A	44.118	68	6	4.53e-12	72.8	heat shock factor protein 2 isoform a [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_054188169.1	0	N/A	45.312	64	6	1.60e-11	70.9	heat shock factor protein 1 isoform X2 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_005272373.1	0	N/A	45.312	64	6	1.60e-11	70.9	heat shock factor protein 1 isoform X2 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_054188170.1	0	N/A	45.312	64	6	1.89e-11	70.5	heat shock factor protein 1 isoform X3 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_016868866.1	0	N/A	45.312	64	6	1.89e-11	70.5	heat shock factor protein 1 isoform X3 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_054188168.1	0	N/A	45.312	64	6	2.11e-11	70.5	heat shock factor protein 1 isoform X1 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_005272372.1	0	N/A	45.312	64	6	2.11e-11	70.5	heat shock factor protein 1 isoform X1 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_054188174.1	0	N/A	42.647	68	6	2.27e-11	68.9	heat shock factor protein 1 isoform X5 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_054188173.1	0	N/A	42.647	68	6	2.27e-11	68.9	heat shock factor protein 1 isoform X5 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_047277698.1	0	N/A	42.647	68	6	2.27e-11	68.9	heat shock factor protein 1 isoform X5 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_005272374.1	0	N/A	42.647	68	6	2.27e-11	68.9	heat shock factor protein 1 isoform X5 [Homo sapiens]	FALSE	NA
+XP_009494820.1	NP_005517.1	0	N/A	45.312	64	6	2.41e-11	70.1	heat shock factor protein 1 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_054188175.1	0	N/A	45.312	64	6	4.24e-11	67.8	heat shock factor protein 1 isoform X6 [Homo sapiens]	FALSE	NA
+XP_009494820.1	XP_047277699.1	0	N/A	45.312	64	6	4.24e-11	67.8	heat shock factor protein 1 isoform X6 [Homo sapiens]	FALSE	NA

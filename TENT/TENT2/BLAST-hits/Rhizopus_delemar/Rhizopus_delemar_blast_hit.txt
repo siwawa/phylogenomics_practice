@@ -1,0 +1,6 @@
+TENT2_Homo_sapiens	XP_067511661.1	246409	Rhizopus delemar RA 99-880	37.912	182	37	4.80e-30	121	uncharacterized protein RO3G_00969 [Rhizopus delemar RA 99-880]
+TENT2_Homo_sapiens	XP_067526879.1	246409	Rhizopus delemar RA 99-880	33.878	245	49	5.00e-26	110	uncharacterized protein RO3G_16194 [Rhizopus delemar RA 99-880]
+TENT2_Homo_sapiens	XP_067526706.1	246409	Rhizopus delemar RA 99-880	35.028	177	34	6.16e-25	102	uncharacterized protein RO3G_16021 [Rhizopus delemar RA 99-880]
+TENT2_Homo_sapiens	XP_067523248.1	246409	Rhizopus delemar RA 99-880	27.619	105	21	5.94e-04	41.2	uncharacterized protein RO3G_12563 [Rhizopus delemar RA 99-880]
+TENT2_Homo_sapiens	XP_067519529.1	246409	Rhizopus delemar RA 99-880	31.081	74	14	0.038	34.7	uncharacterized protein RO3G_08843 [Rhizopus delemar RA 99-880]
+TENT2_Homo_sapiens	XP_067515893.1	246409	Rhizopus delemar RA 99-880	22.951	122	25	0.081	34.3	uncharacterized protein RO3G_05202 [Rhizopus delemar RA 99-880]

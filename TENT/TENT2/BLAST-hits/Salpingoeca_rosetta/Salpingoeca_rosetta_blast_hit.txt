@@ -1,0 +1,4 @@
+TENT2_Homo_sapiens	XP_004987785.1	946362	Salpingoeca rosetta	34.574	188	37	4.46e-29	114	uncharacterized protein PTSG_11137 [Salpingoeca rosetta]
+TENT2_Homo_sapiens	XP_004998234.1	946362	Salpingoeca rosetta	25.824	182	37	1.17e-10	62.4	uncharacterized protein PTSG_00768 [Salpingoeca rosetta]
+TENT2_Homo_sapiens	XP_004990472.1	946362	Salpingoeca rosetta	27.044	159	32	0.002	39.7	uncharacterized protein PTSG_08681 [Salpingoeca rosetta]
+TENT2_Homo_sapiens	XP_004997314.1	946362	Salpingoeca rosetta	28.155	103	21	0.037	35.8	uncharacterized protein PTSG_01341 [Salpingoeca rosetta]

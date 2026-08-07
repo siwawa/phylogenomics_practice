@@ -1,0 +1,2 @@
+TENT2_Homo_sapiens	NP_014100.2	559292	Saccharomyces cerevisiae S288C	22.121	330	65	1.63e-09	58.2	non-canonical poly(A) polymerase TRF5 [Saccharomyces cerevisiae S288C]
+TENT2_Homo_sapiens	NP_014526.1	559292	Saccharomyces cerevisiae S288C	20.401	299	60	2.21e-08	54.3	non-canonical poly(A) polymerase PAP2 [Saccharomyces cerevisiae S288C]

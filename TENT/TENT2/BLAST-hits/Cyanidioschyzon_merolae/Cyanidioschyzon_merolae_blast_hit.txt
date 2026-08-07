@@ -1,0 +1,1 @@
+TENT2_Homo_sapiens	XP_005539526.1	280699	Cyanidioschyzon merolae strain 10D	34.783	184	33	4.97e-24	103	hypothetical protein, conserved [Cyanidioschyzon merolae strain 10D]

@@ -1,0 +1,7 @@
+TENT2_Homo_sapiens	XP_014780906.1	37653	Octopus bimaculoides	42.740	365	70	1.83e-77	250	poly(A) RNA polymerase GLD2 [Octopus bimaculoides]
+TENT2_Homo_sapiens	XP_052832076.1	37653	Octopus bimaculoides	32.443	262	68	4.36e-32	130	terminal uridylyltransferase 4-like [Octopus bimaculoides]
+TENT2_Homo_sapiens	XP_052832076.1	37653	Octopus bimaculoides	26.571	350	68	2.24e-18	88.6	terminal uridylyltransferase 4-like [Octopus bimaculoides]
+TENT2_Homo_sapiens	XP_014790674.1	37653	Octopus bimaculoides	28.963	328	59	3.23e-28	118	speckle targeted PIP5K1A-regulated poly(A) polymerase [Octopus bimaculoides]
+TENT2_Homo_sapiens	XP_014775237.1	37653	Octopus bimaculoides	26.727	333	64	6.93e-23	101	poly(A) RNA polymerase, mitochondrial isoform X2 [Octopus bimaculoides]
+TENT2_Homo_sapiens	XP_052829853.1	37653	Octopus bimaculoides	26.727	333	64	8.01e-23	101	poly(A) RNA polymerase, mitochondrial isoform X1 [Octopus bimaculoides]
+TENT2_Homo_sapiens	XP_052822962.1	37653	Octopus bimaculoides	22.917	288	57	3.36e-11	65.5	terminal nucleotidyltransferase 4A [Octopus bimaculoides]

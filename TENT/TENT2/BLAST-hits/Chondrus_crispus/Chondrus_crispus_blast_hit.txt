@@ -1,0 +1,3 @@
+TENT2_Homo_sapiens	XP_005711830.1	2769	Chondrus crispus	30.208	288	55	1.48e-34	135	PAP/25A associated domain family protein [Chondrus crispus]
+TENT2_Homo_sapiens	XP_005718582.1	2769	Chondrus crispus	27.273	187	37	7.87e-15	75.5	unnamed protein product [Chondrus crispus]
+TENT2_Homo_sapiens	XP_005711485.1	2769	Chondrus crispus	24.219	256	48	2.23e-10	60.8	Putative poly(A) RNA polymerase, mitochondrial precursor [Chondrus crispus]

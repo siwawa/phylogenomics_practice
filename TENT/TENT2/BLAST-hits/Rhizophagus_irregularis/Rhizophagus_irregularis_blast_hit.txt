@@ -1,0 +1,2 @@
+TENT2_Homo_sapiens	XP_025171211.1	588596	Rhizophagus irregularis	31.449	283	56	4.61e-32	130	uncharacterized protein OCT59_015052 [Rhizophagus irregularis]
+TENT2_Homo_sapiens	XP_025174358.2	588596	Rhizophagus irregularis	24.221	289	58	1.25e-15	79.0	uncharacterized protein OCT59_008116 [Rhizophagus irregularis]

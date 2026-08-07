@@ -1,0 +1,3 @@
+TENT2_Homo_sapiens	XP_011391307.1	5270	Mycosarcoma maydis	29.870	308	61	5.53e-33	131	uncharacterized protein UMAG_05013 [Mycosarcoma maydis]
+TENT2_Homo_sapiens	XP_011386925.1	5270	Mycosarcoma maydis	30.137	219	41	3.00e-14	73.9	uncharacterized protein UMAG_00916 [Mycosarcoma maydis]
+TENT2_Homo_sapiens	XP_011387117.1	5270	Mycosarcoma maydis	24.194	186	38	1.93e-11	64.7	uncharacterized protein UMAG_01175 [Mycosarcoma maydis]

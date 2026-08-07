@@ -1,0 +1,3 @@
+TENT2_Homo_sapiens	XP_006680218.1	684364	Batrachochytrium dendrobatidis JAM81	36.585	164	34	7.25e-23	100	uncharacterized protein BATDEDRAFT_89693 [Batrachochytrium dendrobatidis JAM81]
+TENT2_Homo_sapiens	XP_006678984.1	684364	Batrachochytrium dendrobatidis JAM81	22.156	167	31	1.79e-04	42.4	uncharacterized protein BATDEDRAFT_25005 [Batrachochytrium dendrobatidis JAM81]
+TENT2_Homo_sapiens	XP_006677318.1	684364	Batrachochytrium dendrobatidis JAM81	21.622	259	51	0.004	38.1	uncharacterized protein BATDEDRAFT_23561 [Batrachochytrium dendrobatidis JAM81]

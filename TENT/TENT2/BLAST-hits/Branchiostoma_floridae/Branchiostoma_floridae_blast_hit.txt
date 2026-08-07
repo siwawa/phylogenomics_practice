@@ -1,0 +1,7 @@
+TENT2_Homo_sapiens	XP_035667157.1	7739	Branchiostoma floridae	46.012	326	67	1.54e-89	284	poly(A) RNA polymerase GLD2-like [Branchiostoma floridae]
+TENT2_Homo_sapiens	XP_035699267.1	7739	Branchiostoma floridae	30.275	327	66	1.79e-37	147	terminal uridylyltransferase 7-like [Branchiostoma floridae]
+TENT2_Homo_sapiens	XP_035699267.1	7739	Branchiostoma floridae	27.129	317	66	1.44e-27	117	terminal uridylyltransferase 7-like [Branchiostoma floridae]
+TENT2_Homo_sapiens	XP_035657908.1	7739	Branchiostoma floridae	23.158	285	55	5.84e-19	90.5	LOW QUALITY PROTEIN: poly(A) RNA polymerase, mitochondrial-like [Branchiostoma floridae]
+TENT2_Homo_sapiens	XP_035678443.1	7739	Branchiostoma floridae	22.801	307	61	3.21e-14	76.3	terminal nucleotidyltransferase 4B-like isoform X2 [Branchiostoma floridae]
+TENT2_Homo_sapiens	XP_035678442.1	7739	Branchiostoma floridae	22.330	309	61	2.88e-13	73.2	terminal nucleotidyltransferase 4B-like isoform X1 [Branchiostoma floridae]
+TENT2_Homo_sapiens	XP_035658119.1	7739	Branchiostoma floridae	36.082	97	19	8.00e-10	62.4	uncharacterized protein LOC118403501 [Branchiostoma floridae]

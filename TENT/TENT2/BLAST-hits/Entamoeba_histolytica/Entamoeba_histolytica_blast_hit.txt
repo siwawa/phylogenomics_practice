@@ -1,0 +1,5 @@
+TENT2_Homo_sapiens	XP_655604.2	294381	Entamoeba histolytica HM-1:IMSS	21.493	335	68	1.18e-12	67.0	poly(A) polymerase, putative [Entamoeba histolytica HM-1:IMSS]
+TENT2_Homo_sapiens	XP_653361.1	294381	Entamoeba histolytica HM-1:IMSS	25.203	246	44	1.60e-10	61.2	uncharacterized protein EHI_103770 [Entamoeba histolytica HM-1:IMSS]
+TENT2_Homo_sapiens	XP_648697.1	294381	Entamoeba histolytica HM-1:IMSS	23.834	193	39	1.82e-10	60.8	topoisomerase, putative [Entamoeba histolytica HM-1:IMSS]
+TENT2_Homo_sapiens	XP_651039.2	294381	Entamoeba histolytica HM-1:IMSS	24.413	213	43	3.77e-09	56.2	uncharacterized protein EHI_170350 [Entamoeba histolytica HM-1:IMSS]
+TENT2_Homo_sapiens	XP_648914.1	294381	Entamoeba histolytica HM-1:IMSS	27.368	190	38	1.04e-06	48.5	uncharacterized protein EHI_003910 [Entamoeba histolytica HM-1:IMSS]

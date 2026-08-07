@@ -1,0 +1,8 @@
+TENT2_Homo_sapiens	XP_063675007.1	2820187	Bolinopsis microptera	34.564	298	61	2.21e-46	169	poly(A) RNA polymerase GLD2-like [Bolinopsis microptera]
+TENT2_Homo_sapiens	XP_063681749.1	2820187	Bolinopsis microptera	29.006	362	73	1.51e-26	114	uncharacterized protein LOC134816713 isoform X2 [Bolinopsis microptera]
+TENT2_Homo_sapiens	XP_063681748.1	2820187	Bolinopsis microptera	29.006	362	73	1.77e-26	113	uncharacterized protein LOC134816713 isoform X1 [Bolinopsis microptera]
+TENT2_Homo_sapiens	XP_063676426.1	2820187	Bolinopsis microptera	27.419	248	49	8.13e-13	70.5	speckle targeted PIP5K1A-regulated poly(A) polymerase-like [Bolinopsis microptera]
+TENT2_Homo_sapiens	XP_063677412.1	2820187	Bolinopsis microptera	24.483	290	59	4.73e-12	67.8	terminal nucleotidyltransferase 4A-like [Bolinopsis microptera]
+TENT2_Homo_sapiens	XP_063689072.1	2820187	Bolinopsis microptera	25.751	233	46	6.45e-10	61.6	uncharacterized protein LOC134822108 [Bolinopsis microptera]
+TENT2_Homo_sapiens	XP_063681540.1	2820187	Bolinopsis microptera	20.820	317	63	3.83e-07	52.4	uncharacterized protein LOC134816567 isoform X1 [Bolinopsis microptera]
+TENT2_Homo_sapiens	XP_063681541.1	2820187	Bolinopsis microptera	20.820	317	63	4.21e-07	52.4	uncharacterized protein LOC134816567 isoform X2 [Bolinopsis microptera]

@@ -1,0 +1,6 @@
+TENT2_Homo_sapiens	XP_009050864.1	225164	Lottia gigantea	44.868	341	69	3.25e-85	265	hypothetical protein LOTGIDRAFT_64710, partial [Lottia gigantea]
+TENT2_Homo_sapiens	XP_009066325.1	225164	Lottia gigantea	27.232	224	42	2.61e-20	94.0	hypothetical protein LOTGIDRAFT_236894 [Lottia gigantea]
+TENT2_Homo_sapiens	XP_009047891.1	225164	Lottia gigantea	37.008	127	25	1.30e-17	81.3	hypothetical protein LOTGIDRAFT_111955, partial [Lottia gigantea]
+TENT2_Homo_sapiens	XP_009066214.1	225164	Lottia gigantea	22.491	289	58	4.55e-13	70.5	hypothetical protein LOTGIDRAFT_134093 [Lottia gigantea]
+TENT2_Homo_sapiens	XP_009047892.1	225164	Lottia gigantea	28.025	157	32	4.89e-11	60.5	hypothetical protein LOTGIDRAFT_111841, partial [Lottia gigantea]
+TENT2_Homo_sapiens	XP_009066324.1	225164	Lottia gigantea	26.271	236	44	1.37e-10	62.8	hypothetical protein LOTGIDRAFT_236893 [Lottia gigantea]

@@ -1,0 +1,8 @@
+TENT2_Homo_sapiens	XP_024359639.1	3218	Physcomitrium patens	32.292	288	58	1.52e-35	141	uncharacterized protein [Physcomitrium patens]
+TENT2_Homo_sapiens	XP_024362777.1	3218	Physcomitrium patens	27.671	365	69	3.68e-22	100	uncharacterized protein [Physcomitrium patens]
+TENT2_Homo_sapiens	XP_024362778.1	3218	Physcomitrium patens	27.671	365	69	3.73e-22	100	protein HESO1 isoform X2 [Physcomitrium patens]
+TENT2_Homo_sapiens	XP_024362779.1	3218	Physcomitrium patens	27.600	250	48	2.58e-17	85.1	uncharacterized protein [Physcomitrium patens]
+TENT2_Homo_sapiens	XP_073392285.1	3218	Physcomitrium patens	29.070	258	47	1.77e-15	79.7	uncharacterized protein [Physcomitrium patens]
+TENT2_Homo_sapiens	XP_073392286.1	3218	Physcomitrium patens	29.070	258	47	1.86e-15	79.7	uncharacterized protein [Physcomitrium patens]
+TENT2_Homo_sapiens	XP_024384294.1	3218	Physcomitrium patens	29.070	258	47	2.17e-15	79.3	uncharacterized protein [Physcomitrium patens]
+TENT2_Homo_sapiens	XP_024364303.1	3218	Physcomitrium patens	25.087	287	58	2.51e-12	69.7	uncharacterized protein [Physcomitrium patens]

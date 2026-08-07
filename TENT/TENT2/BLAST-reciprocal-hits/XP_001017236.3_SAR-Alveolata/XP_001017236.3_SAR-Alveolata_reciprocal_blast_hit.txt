@@ -1,0 +1,101 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_001017236.3	XP_047290433.1	0	N/A	31.046	306	26	1.83e-26	117	terminal nucleotidyltransferase 4B isoform X6 [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	XP_011521580.1	0	N/A	31.046	306	26	1.89e-26	117	terminal nucleotidyltransferase 4B isoform X5 [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	NP_001035374.2	0	N/A	29.508	305	25	1.28e-25	116	terminal nucleotidyltransferase 4B isoform a [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	XP_011521577.1	0	N/A	29.508	305	25	1.28e-25	116	terminal nucleotidyltransferase 4B isoform X1 [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	NP_001352253.1	0	N/A	29.508	305	25	1.57e-25	116	terminal nucleotidyltransferase 4B isoform d [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	XP_047290432.1	0	N/A	29.508	305	25	1.58e-25	115	terminal nucleotidyltransferase 4B isoform X4 [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	NP_001352252.1	0	N/A	29.508	305	25	1.60e-25	116	terminal nucleotidyltransferase 4B isoform c [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	NP_001035375.2	0	N/A	29.508	305	25	1.61e-25	115	terminal nucleotidyltransferase 4B isoform b [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	XP_011521578.1	0	N/A	29.508	305	25	1.61e-25	115	terminal nucleotidyltransferase 4B isoform X2 [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	XP_047290431.1	0	N/A	29.508	305	25	1.81e-25	115	terminal nucleotidyltransferase 4B isoform X3 [Homo sapiens]	TRUE	TENT4B
+XP_001017236.3	XP_047272622.1	0	N/A	28.058	278	23	3.54e-22	104	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001017236.3	XP_047272621.1	0	N/A	28.058	278	23	3.54e-22	104	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001017236.3	XP_047272620.1	0	N/A	28.058	278	23	3.54e-22	104	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001017236.3	XP_047272623.1	0	N/A	28.058	278	23	3.88e-22	104	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_001017236.3	XP_016864477.1	0	N/A	28.058	278	23	3.88e-22	104	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_001017236.3	XP_047272624.1	0	N/A	28.058	278	23	4.61e-22	104	terminal nucleotidyltransferase 4A isoform X3 [Homo sapiens]	TRUE	TENT4A
+XP_001017236.3	NP_001165276.2	0	N/A	28.479	309	26	4.73e-22	105	terminal nucleotidyltransferase 4A isoform 2 [Homo sapiens]	TRUE	TENT4A
+XP_001017236.3	NP_008930.2	0	N/A	28.479	309	26	4.73e-22	105	terminal nucleotidyltransferase 4A isoform 1 [Homo sapiens]	TRUE	TENT4A
+XP_001017236.3	NP_001317647.1	0	N/A	28.221	163	14	5.18e-11	69.7	terminal uridylyltransferase 7 isoform 3 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_047279823.1	0	N/A	28.221	163	14	8.21e-11	69.3	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_006717346.1	0	N/A	28.221	163	14	8.21e-11	69.3	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_011517318.1	0	N/A	28.221	163	14	8.36e-11	69.3	terminal uridylyltransferase 7 isoform X5 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_016870620.1	0	N/A	28.221	163	14	8.51e-11	69.3	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_016870619.1	0	N/A	28.221	163	14	8.51e-11	69.3	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	NP_078893.2	0	N/A	28.221	163	14	8.51e-11	69.3	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	NP_001171988.1	0	N/A	28.221	163	14	8.51e-11	69.3	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_011517317.1	0	N/A	28.221	163	14	8.78e-11	69.3	terminal uridylyltransferase 7 isoform X3 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_047279825.1	0	N/A	28.221	163	14	9.31e-11	69.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_047279824.1	0	N/A	28.221	163	14	9.31e-11	69.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_005252264.1	0	N/A	28.221	163	14	9.31e-11	69.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_011517316.1	0	N/A	28.221	163	14	1.09e-10	68.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_011517315.1	0	N/A	28.221	163	14	1.09e-10	68.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_011517314.1	0	N/A	28.221	163	14	1.09e-10	68.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_011517313.1	0	N/A	28.221	163	14	1.09e-10	68.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	XP_005252265.1	0	N/A	28.221	163	14	1.27e-10	68.9	terminal uridylyltransferase 7 isoform X7 [Homo sapiens]	TRUE	Tut7
+XP_001017236.3	NP_066956.1	0	N/A	37.815	119	11	8.45e-10	65.9	2-5A-dependent ribonuclease [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047283052.1	0	N/A	37.815	119	11	1.02e-09	65.5	2-5A-dependent ribonuclease isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047283062.1	0	N/A	37.815	119	11	1.03e-09	65.5	2-5A-dependent ribonuclease isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047286352.1	0	N/A	31.492	181	16	3.79e-09	63.5	M-phase phosphoprotein 8 isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047286351.1	0	N/A	31.492	181	16	3.84e-09	63.5	M-phase phosphoprotein 8 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_059990.2	0	N/A	31.492	181	16	4.59e-09	63.5	M-phase phosphoprotein 8 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_016873430.1	0	N/A	32.298	161	14	1.55e-08	59.3	ankyrin repeat domain-containing protein 49 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_060174.2	0	N/A	32.298	161	14	1.55e-08	59.3	ankyrin repeat domain-containing protein 49 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001264262.1	0	N/A	32.051	156	14	1.56e-08	61.6	ankyrin repeat domain-containing protein 62 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_006700.3	0	N/A	31.013	158	14	1.70e-08	61.6	histone-lysine N-methyltransferase EHMT2 isoform a [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001382091.1	0	N/A	31.013	158	14	1.80e-08	61.6	histone-lysine N-methyltransferase EHMT2 isoform h [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_079532.5	0	N/A	31.013	158	14	1.98e-08	61.6	histone-lysine N-methyltransferase EHMT2 isoform b [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001350618.1	0	N/A	31.013	158	14	2.09e-08	61.6	histone-lysine N-methyltransferase EHMT2 isoform e [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001276342.1	0	N/A	31.013	158	14	2.20e-08	61.2	histone-lysine N-methyltransferase EHMT2 isoform c [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001382094.1	0	N/A	31.013	158	14	2.21e-08	61.2	histone-lysine N-methyltransferase EHMT2 isoform k [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279846.1	0	N/A	29.412	153	14	4.37e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X26 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_011517333.1	0	N/A	29.412	153	14	4.37e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X26 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_011517331.1	0	N/A	29.412	153	14	5.98e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X24 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001335660.1	0	N/A	33.121	157	14	6.00e-08	60.1	kinase D-interacting substrate of 220 kDa isoform 3 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_024303445.1	0	N/A	29.412	153	14	6.01e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X18 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001335658.1	0	N/A	33.121	157	14	6.38e-08	60.1	kinase D-interacting substrate of 220 kDa isoform 2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001305762.1	0	N/A	29.268	164	14	6.66e-08	59.7	histone-lysine N-methyltransferase EHMT2 isoform d [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279840.1	0	N/A	29.412	153	14	6.66e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X16 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001335663.1	0	N/A	33.121	157	14	6.73e-08	60.1	kinase D-interacting substrate of 220 kDa isoform 5 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_011517325.1	0	N/A	29.412	153	14	7.00e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X4 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279832.1	0	N/A	29.412	153	14	7.02e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X9 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279835.1	0	N/A	29.412	153	14	7.07e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X11 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_016870627.1	0	N/A	29.412	153	14	7.07e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X11 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279838.1	0	N/A	29.412	153	14	7.22e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X14 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_011517323.1	0	N/A	29.412	153	14	7.25e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001382089.1	0	N/A	29.268	164	14	7.32e-08	59.7	histone-lysine N-methyltransferase EHMT2 isoform f [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279841.1	0	N/A	29.412	153	14	7.33e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X17 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001341192.1	0	N/A	29.412	153	14	7.42e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform 4 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_011517332.1	0	N/A	29.412	153	14	7.54e-08	59.3	histone-lysine N-methyltransferase EHMT1 isoform X25 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279828.1	0	N/A	29.412	153	14	7.68e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X3 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_079033.4	0	N/A	29.412	153	14	7.68e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform 1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279836.1	0	N/A	29.412	153	14	7.69e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X12 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279829.1	0	N/A	29.412	153	14	7.74e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X6 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279839.1	0	N/A	29.412	153	14	7.77e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X15 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279830.1	0	N/A	29.412	153	14	7.92e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X7 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279834.1	0	N/A	29.412	153	14	7.97e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X10 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279833.1	0	N/A	29.412	153	14	7.97e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X10 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_005266167.1	0	N/A	29.412	153	14	7.97e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X10 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279831.1	0	N/A	29.412	153	14	7.98e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X8 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_016870623.1	0	N/A	29.412	153	14	8.08e-08	59.7	histone-lysine N-methyltransferase EHMT1 isoform X5 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001382092.1	0	N/A	29.268	164	14	8.61e-08	59.3	histone-lysine N-methyltransferase EHMT2 isoform i [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_011517324.1	0	N/A	29.412	153	14	9.03e-08	59.3	histone-lysine N-methyltransferase EHMT1 isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_047279837.1	0	N/A	29.412	153	14	9.08e-08	59.3	histone-lysine N-methyltransferase EHMT1 isoform X13 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054186735.1	0	N/A	29.268	164	14	1.02e-07	59.3	histone-lysine N-methyltransferase EHMT2 isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054184419.1	0	N/A	29.268	164	14	1.02e-07	59.3	histone-lysine N-methyltransferase EHMT2 isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054186969.1	0	N/A	29.268	164	14	1.05e-07	59.3	histone-lysine N-methyltransferase EHMT2 isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054186197.1	0	N/A	29.268	164	14	1.05e-07	59.3	histone-lysine N-methyltransferase EHMT2 isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054185700.1	0	N/A	29.268	164	14	1.05e-07	59.3	histone-lysine N-methyltransferase EHMT2 isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_006715038.2	0	N/A	29.268	164	14	1.05e-07	59.3	histone-lysine N-methyltransferase EHMT2 isoform X2 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001335669.1	0	N/A	33.121	157	14	1.08e-07	59.3	kinase D-interacting substrate of 220 kDa isoform 9 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001335668.1	0	N/A	33.121	157	14	1.08e-07	59.3	kinase D-interacting substrate of 220 kDa isoform 9 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054186734.1	0	N/A	29.268	164	14	1.09e-07	59.3	histone-lysine N-methyltransferase EHMT2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054184418.1	0	N/A	29.268	164	14	1.09e-07	59.3	histone-lysine N-methyltransferase EHMT2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054186968.1	0	N/A	29.268	164	14	1.14e-07	58.9	histone-lysine N-methyltransferase EHMT2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054186196.1	0	N/A	29.268	164	14	1.14e-07	58.9	histone-lysine N-methyltransferase EHMT2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_054185699.1	0	N/A	29.268	164	14	1.14e-07	58.9	histone-lysine N-methyltransferase EHMT2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	XP_006715037.2	0	N/A	29.268	164	14	1.14e-07	58.9	histone-lysine N-methyltransferase EHMT2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001335665.1	0	N/A	32.484	157	14	1.25e-07	58.9	kinase D-interacting substrate of 220 kDa isoform 7 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_001335661.1	0	N/A	32.484	157	14	1.26e-07	58.9	kinase D-interacting substrate of 220 kDa isoform 4 [Homo sapiens]	FALSE	NA
+XP_001017236.3	NP_065789.1	0	N/A	32.484	157	14	1.40e-07	58.9	kinase D-interacting substrate of 220 kDa isoform 1 [Homo sapiens]	FALSE	NA

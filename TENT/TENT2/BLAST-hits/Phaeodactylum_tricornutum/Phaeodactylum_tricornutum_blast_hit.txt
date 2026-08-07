@@ -1,0 +1,5 @@
+TENT2_Homo_sapiens	XP_002183822.1	556484	Phaeodactylum tricornutum CCAP 1055/1	26.893	383	61	4.75e-22	98.6	predicted protein [Phaeodactylum tricornutum CCAP 1055/1]
+TENT2_Homo_sapiens	XP_002182622.1	556484	Phaeodactylum tricornutum CCAP 1055/1	24.399	291	52	1.73e-15	77.4	predicted protein [Phaeodactylum tricornutum CCAP 1055/1]
+TENT2_Homo_sapiens	XP_002185169.1	556484	Phaeodactylum tricornutum CCAP 1055/1	23.985	271	54	3.08e-10	60.5	predicted protein [Phaeodactylum tricornutum CCAP 1055/1]
+TENT2_Homo_sapiens	XP_002182621.1	556484	Phaeodactylum tricornutum CCAP 1055/1	34.783	69	14	5.80e-10	54.3	predicted protein, partial [Phaeodactylum tricornutum CCAP 1055/1]
+TENT2_Homo_sapiens	XP_002181176.1	556484	Phaeodactylum tricornutum CCAP 1055/1	24.138	290	57	1.53e-08	55.8	predicted protein [Phaeodactylum tricornutum CCAP 1055/1]

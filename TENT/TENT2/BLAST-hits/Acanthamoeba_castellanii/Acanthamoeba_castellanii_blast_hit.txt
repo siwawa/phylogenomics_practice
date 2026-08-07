@@ -1,0 +1,5 @@
+TENT2_Homo_sapiens	XP_004346582.1	1257118	Acanthamoeba castellanii str. Neff	28.286	350	69	1.52e-37	145	nucleotidyltransferase domain containing protein [Acanthamoeba castellanii str. Neff]
+TENT2_Homo_sapiens	XP_004339627.1	1257118	Acanthamoeba castellanii str. Neff	23.256	301	60	2.57e-14	74.7	nucleotidyltransferase domain containing protein [Acanthamoeba castellanii str. Neff]
+TENT2_Homo_sapiens	XP_004338200.1	1257118	Acanthamoeba castellanii str. Neff	27.568	185	38	1.29e-11	65.5	PAP/25A associated domain containing protein [Acanthamoeba castellanii str. Neff]
+TENT2_Homo_sapiens	XP_004353585.1	1257118	Acanthamoeba castellanii str. Neff	32.000	125	26	2.00e-09	59.3	nucleotidyltransferase domain containing protein [Acanthamoeba castellanii str. Neff]
+TENT2_Homo_sapiens	XP_004334964.1	1257118	Acanthamoeba castellanii str. Neff	23.697	211	39	7.22e-04	41.2	polynucleotide adenylyltransferase [Acanthamoeba castellanii str. Neff]

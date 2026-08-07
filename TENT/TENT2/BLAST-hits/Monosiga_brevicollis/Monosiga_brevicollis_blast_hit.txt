@@ -1,0 +1,1 @@
+TENT2_Homo_sapiens	XP_001749366.1	431895	Monosiga brevicollis MX1	37.264	212	41	1.30e-27	112	uncharacterized protein MONBRDRAFT_28850 [Monosiga brevicollis MX1]

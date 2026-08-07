@@ -1,0 +1,101 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_001350671.1	XP_047272622.1	0	N/A	31.844	179	15	5.05e-20	98.2	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001350671.1	XP_047272621.1	0	N/A	31.844	179	15	5.05e-20	98.2	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001350671.1	XP_047272620.1	0	N/A	31.844	179	15	5.05e-20	98.2	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001350671.1	NP_001165276.2	0	N/A	31.383	188	16	5.17e-20	99.0	terminal nucleotidyltransferase 4A isoform 2 [Homo sapiens]	TRUE	TENT4A
+XP_001350671.1	NP_008930.2	0	N/A	31.383	188	16	5.40e-20	99.0	terminal nucleotidyltransferase 4A isoform 1 [Homo sapiens]	TRUE	TENT4A
+XP_001350671.1	XP_047272623.1	0	N/A	31.765	170	15	1.02e-18	94.0	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_001350671.1	XP_016864477.1	0	N/A	31.765	170	15	1.02e-18	94.0	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_001350671.1	XP_047272624.1	0	N/A	31.765	170	15	1.06e-18	94.0	terminal nucleotidyltransferase 4A isoform X3 [Homo sapiens]	TRUE	TENT4A
+XP_001350671.1	XP_011521580.1	0	N/A	30.539	167	14	1.79e-18	93.2	terminal nucleotidyltransferase 4B isoform X5 [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	NP_001035374.2	0	N/A	30.539	167	14	2.04e-18	93.6	terminal nucleotidyltransferase 4B isoform a [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	XP_011521577.1	0	N/A	30.539	167	14	2.05e-18	93.6	terminal nucleotidyltransferase 4B isoform X1 [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	NP_001352252.1	0	N/A	30.539	167	14	2.34e-18	93.6	terminal nucleotidyltransferase 4B isoform c [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	NP_001352253.1	0	N/A	30.539	167	14	2.50e-18	93.2	terminal nucleotidyltransferase 4B isoform d [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	XP_047290433.1	0	N/A	30.539	167	14	2.91e-18	92.0	terminal nucleotidyltransferase 4B isoform X6 [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	NP_001035375.2	0	N/A	30.539	167	14	3.56e-18	92.8	terminal nucleotidyltransferase 4B isoform b [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	XP_011521578.1	0	N/A	30.539	167	14	3.57e-18	92.8	terminal nucleotidyltransferase 4B isoform X2 [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	XP_047290432.1	0	N/A	30.539	167	14	3.67e-18	92.8	terminal nucleotidyltransferase 4B isoform X4 [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	XP_047290431.1	0	N/A	30.539	167	14	4.12e-18	92.4	terminal nucleotidyltransferase 4B isoform X3 [Homo sapiens]	TRUE	TENT4B
+XP_001350671.1	NP_001317647.1	0	N/A	31.214	173	14	7.12e-15	82.4	terminal uridylyltransferase 7 isoform 3 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_047279825.1	0	N/A	31.214	173	14	1.37e-14	82.0	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_047279824.1	0	N/A	31.214	173	14	1.37e-14	82.0	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_005252264.1	0	N/A	31.214	173	14	1.37e-14	82.0	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_016870620.1	0	N/A	31.214	173	14	1.42e-14	81.6	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_016870619.1	0	N/A	31.214	173	14	1.42e-14	81.6	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	NP_078893.2	0	N/A	31.214	173	14	1.42e-14	81.6	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	NP_001171988.1	0	N/A	31.214	173	14	1.42e-14	81.6	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_011517318.1	0	N/A	31.214	173	14	1.48e-14	81.6	terminal uridylyltransferase 7 isoform X5 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_047279823.1	0	N/A	31.214	173	14	1.58e-14	81.6	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_006717346.1	0	N/A	31.214	173	14	1.58e-14	81.6	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_011517317.1	0	N/A	31.214	173	14	1.80e-14	81.6	terminal uridylyltransferase 7 isoform X3 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_005252265.1	0	N/A	31.214	173	14	1.81e-14	81.3	terminal uridylyltransferase 7 isoform X7 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_011517316.1	0	N/A	31.214	173	14	2.04e-14	81.3	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_011517315.1	0	N/A	31.214	173	14	2.04e-14	81.3	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_011517314.1	0	N/A	31.214	173	14	2.04e-14	81.3	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_011517313.1	0	N/A	31.214	173	14	2.04e-14	81.3	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_016856293.1	0	N/A	29.213	178	14	2.39e-13	77.8	terminal uridylyltransferase 4 isoform X16 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272288.1	0	N/A	29.213	178	14	2.61e-13	77.8	terminal uridylyltransferase 4 isoform X10 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_016856292.1	0	N/A	29.213	178	14	2.81e-13	77.4	terminal uridylyltransferase 4 isoform X9 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272283.1	0	N/A	29.213	178	14	2.97e-13	77.4	terminal uridylyltransferase 4 isoform X6 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_005270737.1	0	N/A	29.213	178	14	2.97e-13	77.4	terminal uridylyltransferase 4 isoform X6 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272282.1	0	N/A	29.213	178	14	3.23e-13	77.4	terminal uridylyltransferase 4 isoform X5 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	NP_056084.1	0	N/A	29.213	178	14	3.23e-13	77.4	terminal uridylyltransferase 4 isoform b [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272285.1	0	N/A	29.213	178	14	3.33e-13	77.4	terminal uridylyltransferase 4 isoform X7 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_016856299.1	0	N/A	29.213	178	14	3.37e-13	77.4	terminal uridylyltransferase 4 isoform X40 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272281.1	0	N/A	29.213	178	14	3.49e-13	77.4	terminal uridylyltransferase 4 isoform X4 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	NP_001009881.1	0	N/A	29.213	178	14	3.49e-13	77.4	terminal uridylyltransferase 4 isoform a [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272280.1	0	N/A	29.213	178	14	3.70e-13	77.0	terminal uridylyltransferase 4 isoform X3 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_005270736.1	0	N/A	29.213	178	14	3.70e-13	77.0	terminal uridylyltransferase 4 isoform X3 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_016856297.1	0	N/A	29.213	178	14	3.86e-13	77.0	terminal uridylyltransferase 4 isoform X36 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272365.1	0	N/A	29.213	178	14	3.89e-13	77.0	terminal uridylyltransferase 4 isoform X38 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_011539399.1	0	N/A	29.213	178	14	3.93e-13	77.0	terminal uridylyltransferase 4 isoform X1 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_005270733.1	0	N/A	29.213	178	14	3.93e-13	77.0	terminal uridylyltransferase 4 isoform X1 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_005270735.1	0	N/A	29.213	178	14	4.10e-13	77.0	terminal uridylyltransferase 4 isoform X2 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_005270739.1	0	N/A	29.213	178	14	4.69e-13	77.0	terminal uridylyltransferase 4 isoform X33 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272345.1	0	N/A	29.213	178	14	5.16e-13	76.6	terminal uridylyltransferase 4 isoform X31 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_011539401.1	0	N/A	29.213	178	14	5.39e-13	76.6	terminal uridylyltransferase 4 isoform X29 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_016856296.1	0	N/A	29.213	178	14	5.44e-13	76.6	terminal uridylyltransferase 4 isoform X28 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272337.1	0	N/A	29.213	178	14	6.56e-13	76.3	terminal uridylyltransferase 4 isoform X27 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_016856295.1	0	N/A	29.213	178	14	6.73e-13	76.3	terminal uridylyltransferase 4 isoform X25 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272325.1	0	N/A	29.213	178	14	7.46e-13	76.3	terminal uridylyltransferase 4 isoform X23 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272384.1	0	N/A	29.213	178	14	1.49e-12	75.1	terminal uridylyltransferase 4 isoform X46 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272305.1	0	N/A	30.000	160	13	8.86e-12	72.8	terminal uridylyltransferase 4 isoform X17 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272295.1	0	N/A	30.000	160	13	1.02e-11	72.4	terminal uridylyltransferase 4 isoform X12 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272286.1	0	N/A	30.000	160	13	1.07e-11	72.4	terminal uridylyltransferase 4 isoform X8 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272296.1	0	N/A	30.000	160	13	1.09e-11	72.4	terminal uridylyltransferase 4 isoform X13 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272290.1	0	N/A	30.000	160	13	1.11e-11	72.4	terminal uridylyltransferase 4 isoform X11 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272372.1	0	N/A	30.000	160	13	1.18e-11	72.4	terminal uridylyltransferase 4 isoform X42 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272350.1	0	N/A	30.000	160	13	1.43e-11	72.0	terminal uridylyltransferase 4 isoform X34 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272344.1	0	N/A	30.000	160	13	1.63e-11	71.6	terminal uridylyltransferase 4 isoform X30 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	NP_001172003.1	0	N/A	34.259	108	9	4.37e-08	60.5	terminal uridylyltransferase 7 isoform 2 [Homo sapiens]	TRUE	Tut7
+XP_001350671.1	XP_047272336.1	0	N/A	26.966	178	14	8.03e-07	56.2	terminal uridylyltransferase 4 isoform X26 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272327.1	0	N/A	28.378	148	12	8.67e-07	56.2	terminal uridylyltransferase 4 isoform X24 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272320.1	0	N/A	28.378	148	12	8.89e-07	56.2	terminal uridylyltransferase 4 isoform X22 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272311.1	0	N/A	28.378	148	12	1.00e-06	56.2	terminal uridylyltransferase 4 isoform X21 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_016856294.1	0	N/A	28.378	148	12	1.10e-06	55.8	terminal uridylyltransferase 4 isoform X20 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272377.1	0	N/A	28.378	148	12	1.13e-06	55.8	terminal uridylyltransferase 4 isoform X44 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272306.1	0	N/A	28.378	148	12	1.14e-06	55.8	terminal uridylyltransferase 4 isoform X18 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272307.1	0	N/A	28.378	148	12	1.15e-06	55.8	terminal uridylyltransferase 4 isoform X19 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272373.1	0	N/A	28.378	148	12	1.17e-06	55.8	terminal uridylyltransferase 4 isoform X43 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272303.1	0	N/A	28.378	148	12	1.21e-06	55.8	terminal uridylyltransferase 4 isoform X15 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_005270738.1	0	N/A	28.378	148	12	1.21e-06	55.8	terminal uridylyltransferase 4 isoform X14 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272369.1	0	N/A	28.378	148	12	1.58e-06	55.5	terminal uridylyltransferase 4 isoform X41 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272367.1	0	N/A	28.378	148	12	1.65e-06	55.5	terminal uridylyltransferase 4 isoform X39 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272362.1	0	N/A	28.378	148	12	1.74e-06	55.5	terminal uridylyltransferase 4 isoform X37 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272354.1	0	N/A	28.378	148	12	1.80e-06	55.1	terminal uridylyltransferase 4 isoform X35 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	XP_047272348.1	0	N/A	28.378	148	12	1.99e-06	55.1	terminal uridylyltransferase 4 isoform X32 [Homo sapiens]	TRUE	Tut4
+XP_001350671.1	NP_001375065.1	0	N/A	22.759	145	12	2.88e-06	53.5	poly(A) RNA polymerase GLD2 isoform 14 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375061.1	0	N/A	21.327	211	17	3.39e-06	53.5	poly(A) RNA polymerase GLD2 isoform 12 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	XP_047272811.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform X4 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	XP_047272810.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform X4 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	XP_047272809.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform X4 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375058.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375057.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375056.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375055.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375054.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375053.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375052.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375051.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2
+XP_001350671.1	NP_001375050.1	0	N/A	21.327	211	17	5.18e-06	53.1	poly(A) RNA polymerase GLD2 isoform 2 [Homo sapiens]	TRUE	TENT2

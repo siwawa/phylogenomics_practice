@@ -1,0 +1,4 @@
+TENT2_Homo_sapiens	XP_001347437.1	36329	Plasmodium falciparum 3D7	27.378	347	68	3.05e-26	110	nucleotidyltransferase, putative [Plasmodium falciparum 3D7]
+TENT2_Homo_sapiens	XP_024329166.1	36329	Plasmodium falciparum 3D7	27.515	338	63	1.58e-22	98.6	nucleotidyltransferase, putative [Plasmodium falciparum 3D7]
+TENT2_Homo_sapiens	XP_001350055.1	36329	Plasmodium falciparum 3D7	25.651	269	53	1.07e-10	62.4	nucleotidyltransferase, putative [Plasmodium falciparum 3D7]
+TENT2_Homo_sapiens	XP_001350671.1	36329	Plasmodium falciparum 3D7	20.261	153	32	3.96e-06	47.8	conserved Plasmodium protein, unknown function [Plasmodium falciparum 3D7]

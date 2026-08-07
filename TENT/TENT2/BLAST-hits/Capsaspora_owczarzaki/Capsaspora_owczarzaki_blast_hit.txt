@@ -1,0 +1,4 @@
+TENT2_Homo_sapiens	XP_004349811.2	595528	Capsaspora owczarzaki ATCC 30864	30.233	301	58	1.77e-35	139	PAP/25A associated domain-containing protein [Capsaspora owczarzaki ATCC 30864]
+TENT2_Homo_sapiens	XP_011270604.1	595528	Capsaspora owczarzaki ATCC 30864	25.153	163	33	2.79e-08	55.1	hypothetical protein CAOG_08933 [Capsaspora owczarzaki ATCC 30864]
+TENT2_Homo_sapiens	XP_004347522.1	595528	Capsaspora owczarzaki ATCC 30864	24.257	202	39	7.74e-06	47.4	hypothetical protein CAOG_04771 [Capsaspora owczarzaki ATCC 30864]
+TENT2_Homo_sapiens	XP_004346269.1	595528	Capsaspora owczarzaki ATCC 30864	21.250	80	17	0.004	38.5	hypothetical protein CAOG_05596 [Capsaspora owczarzaki ATCC 30864]

@@ -1,0 +1,8 @@
+TENT2_Homo_sapiens	XP_081628929.1	34765	Oikopleura dioica	37.705	305	60	8.09e-47	171	uncharacterized protein LOC145695782 isoform X2 [Oikopleura dioica]
+TENT2_Homo_sapiens	XP_081628928.1	34765	Oikopleura dioica	37.705	305	60	8.52e-47	171	uncharacterized protein LOC145695782 isoform X1 [Oikopleura dioica]
+TENT2_Homo_sapiens	XP_081629028.1	34765	Oikopleura dioica	31.923	260	62	7.38e-27	114	terminal uridylyltransferase 4-like [Oikopleura dioica]
+TENT2_Homo_sapiens	XP_081629028.1	34765	Oikopleura dioica	20.930	215	62	2.52e-04	43.1	terminal uridylyltransferase 4-like [Oikopleura dioica]
+TENT2_Homo_sapiens	XP_081636965.1	34765	Oikopleura dioica	25.559	313	62	2.64e-14	74.7	LOW QUALITY PROTEIN: terminal nucleotidyltransferase 4A-like [Oikopleura dioica]
+TENT2_Homo_sapiens	XP_081646052.1	34765	Oikopleura dioica	22.754	334	65	6.48e-14	73.9	uncharacterized protein LOC145712239 [Oikopleura dioica]
+TENT2_Homo_sapiens	XP_081629075.1	34765	Oikopleura dioica	23.490	298	59	1.96e-11	65.1	terminal nucleotidyltransferase 4B-like [Oikopleura dioica]
+TENT2_Homo_sapiens	XP_081631699.1	34765	Oikopleura dioica	28.125	96	17	0.072	33.9	uncharacterized protein LOC145698374 [Oikopleura dioica]

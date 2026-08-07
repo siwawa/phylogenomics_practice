@@ -1,0 +1,4 @@
+TENT2_Homo_sapiens	XP_009494941.1	691883	Fonticula alba	25.697	323	64	5.22e-17	82.8	hypothetical protein H696_02767 [Fonticula alba]
+TENT2_Homo_sapiens	XP_009493312.1	691883	Fonticula alba	23.967	242	41	9.55e-07	49.7	hypothetical protein H696_01155 [Fonticula alba]
+TENT2_Homo_sapiens	XP_009496625.1	691883	Fonticula alba	30.864	81	17	0.004	38.1	hypothetical protein H696_04472 [Fonticula alba]
+TENT2_Homo_sapiens	XP_009494820.1	691883	Fonticula alba	29.333	75	14	0.079	33.9	hypothetical protein H696_02633 [Fonticula alba]

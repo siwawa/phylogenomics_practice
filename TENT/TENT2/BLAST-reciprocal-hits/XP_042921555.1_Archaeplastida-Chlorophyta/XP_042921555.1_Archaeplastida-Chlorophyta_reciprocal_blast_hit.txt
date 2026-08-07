@@ -1,0 +1,43 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_042921555.1	NP_008930.2	0	N/A	31.905	210	8	1.60e-20	102	terminal nucleotidyltransferase 4A isoform 1 [Homo sapiens]	TRUE	TENT4A
+XP_042921555.1	NP_001165276.2	0	N/A	31.905	210	8	1.88e-20	102	terminal nucleotidyltransferase 4A isoform 2 [Homo sapiens]	TRUE	TENT4A
+XP_042921555.1	XP_047290433.1	0	N/A	33.175	211	8	3.70e-17	90.1	terminal nucleotidyltransferase 4B isoform X6 [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	XP_011521580.1	0	N/A	33.175	211	8	3.79e-17	90.1	terminal nucleotidyltransferase 4B isoform X5 [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	XP_047290432.1	0	N/A	33.182	220	8	1.28e-16	89.0	terminal nucleotidyltransferase 4B isoform X4 [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	NP_001352252.1	0	N/A	33.182	220	8	1.30e-16	89.4	terminal nucleotidyltransferase 4B isoform c [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	XP_047290431.1	0	N/A	33.182	220	8	1.47e-16	89.0	terminal nucleotidyltransferase 4B isoform X3 [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	NP_001352253.1	0	N/A	33.182	220	8	1.51e-16	89.0	terminal nucleotidyltransferase 4B isoform d [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	NP_001035374.2	0	N/A	33.182	220	8	4.75e-16	87.4	terminal nucleotidyltransferase 4B isoform a [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	XP_011521577.1	0	N/A	33.182	220	8	4.76e-16	87.4	terminal nucleotidyltransferase 4B isoform X1 [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	NP_001035375.2	0	N/A	33.182	220	8	4.81e-16	87.4	terminal nucleotidyltransferase 4B isoform b [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	XP_011521578.1	0	N/A	33.182	220	8	4.82e-16	87.4	terminal nucleotidyltransferase 4B isoform X2 [Homo sapiens]	TRUE	TENT4B
+XP_042921555.1	XP_047272622.1	0	N/A	31.282	195	7	2.90e-12	74.7	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_042921555.1	XP_047272621.1	0	N/A	31.282	195	7	2.90e-12	74.7	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_042921555.1	XP_047272620.1	0	N/A	31.282	195	7	2.90e-12	74.7	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_042921555.1	XP_047272624.1	0	N/A	31.351	185	7	1.64e-11	72.4	terminal nucleotidyltransferase 4A isoform X3 [Homo sapiens]	TRUE	TENT4A
+XP_042921555.1	XP_047272623.1	0	N/A	31.351	185	7	1.78e-11	72.4	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_042921555.1	XP_016864477.1	0	N/A	31.351	185	7	1.78e-11	72.4	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_042921555.1	XP_016870620.1	0	N/A	28.643	199	7	1.99e-09	66.2	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_016870619.1	0	N/A	28.643	199	7	1.99e-09	66.2	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	NP_078893.2	0	N/A	28.643	199	7	1.99e-09	66.2	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	NP_001171988.1	0	N/A	28.643	199	7	1.99e-09	66.2	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_047279823.1	0	N/A	28.643	199	7	2.31e-09	66.2	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_006717346.1	0	N/A	28.643	199	7	2.31e-09	66.2	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_047279825.1	0	N/A	28.643	199	7	2.41e-09	66.2	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_047279824.1	0	N/A	28.643	199	7	2.41e-09	66.2	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_005252264.1	0	N/A	28.643	199	7	2.41e-09	66.2	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_011517318.1	0	N/A	28.643	199	7	2.54e-09	65.9	terminal uridylyltransferase 7 isoform X5 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_011517317.1	0	N/A	28.643	199	7	2.71e-09	65.9	terminal uridylyltransferase 7 isoform X3 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_011517316.1	0	N/A	28.643	199	7	2.95e-09	65.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_011517315.1	0	N/A	28.643	199	7	2.95e-09	65.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_011517314.1	0	N/A	28.643	199	7	2.95e-09	65.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_011517313.1	0	N/A	28.643	199	7	2.95e-09	65.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_005252265.1	0	N/A	28.643	199	7	5.50e-09	64.7	terminal uridylyltransferase 7 isoform X7 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	NP_001317647.1	0	N/A	30.058	173	6	1.15e-06	57.0	terminal uridylyltransferase 7 isoform 3 [Homo sapiens]	TRUE	Tut7
+XP_042921555.1	XP_047272818.1	0	N/A	26.190	210	8	4.14e-06	54.3	poly(A) RNA polymerase GLD2 isoform X10 [Homo sapiens]	TRUE	TENT2
+XP_042921555.1	NP_001375060.1	0	N/A	26.190	210	8	5.78e-06	54.3	poly(A) RNA polymerase GLD2 isoform 11 [Homo sapiens]	TRUE	TENT2
+XP_042921555.1	XP_047299022.1	0	N/A	25.000	124	5	0.004	45.1	golgin subfamily A member 6-like protein 1 isoform X2, partial [Homo sapiens]	FALSE	NA
+XP_042921555.1	XP_047298901.1	0	N/A	25.000	124	5	0.004	45.1	golgin subfamily A member 6-like protein 1 isoform X2, partial [Homo sapiens]	FALSE	NA
+XP_042921555.1	XP_047289360.1	0	N/A	25.000	124	5	0.008	44.3	golgin subfamily A member 6-like protein 1 isoform X1, partial [Homo sapiens]	FALSE	NA
+XP_042921555.1	XP_035717094.1	0	N/A	25.000	124	5	0.009	43.9	golgin subfamily A member 6-like protein 1, partial [Homo sapiens]	FALSE	NA
+XP_042921555.1	XP_035717017.1	0	N/A	25.000	124	5	0.009	43.9	golgin subfamily A member 6-like protein 1, partial [Homo sapiens]	FALSE	NA

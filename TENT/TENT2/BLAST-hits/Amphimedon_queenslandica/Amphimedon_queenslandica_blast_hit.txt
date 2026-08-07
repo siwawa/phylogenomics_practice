@@ -1,0 +1,5 @@
+TENT2_Homo_sapiens	XP_019857828.1	400682	Amphimedon queenslandica	28.179	291	58	3.44e-35	137	terminal uridylyltransferase 4-like [Amphimedon queenslandica]
+TENT2_Homo_sapiens	XP_019853366.1	400682	Amphimedon queenslandica	25.714	210	36	3.19e-12	68.2	speckle targeted PIP5K1A-regulated poly(A) polymerase-like [Amphimedon queenslandica]
+TENT2_Homo_sapiens	XP_019863494.1	400682	Amphimedon queenslandica	30.189	159	29	5.63e-11	62.0	speckle targeted PIP5K1A-regulated poly(A) polymerase-like, partial [Amphimedon queenslandica]
+TENT2_Homo_sapiens	XP_003384352.1	400682	Amphimedon queenslandica	24.044	183	37	4.22e-09	58.2	non-canonical poly(A) RNA polymerase PAPD5 [Amphimedon queenslandica]
+TENT2_Homo_sapiens	XP_019863359.1	400682	Amphimedon queenslandica	28.571	70	14	6.67e-06	47.8	terminal uridylyltransferase 7-like [Amphimedon queenslandica]

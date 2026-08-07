@@ -1,0 +1,4 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_067519529.1	NP_001375059.1	0	N/A	32.857	70	28	0.091	36.2	poly(A) RNA polymerase GLD2 isoform 10 [Homo sapiens]	TRUE	TENT2
+XP_067519529.1	NP_001375042.1	0	N/A	32.857	70	28	0.093	36.2	poly(A) RNA polymerase GLD2 isoform 16 [Homo sapiens]	TRUE	TENT2
+XP_067519529.1	NP_001375027.1	0	N/A	32.857	70	28	0.098	36.2	poly(A) RNA polymerase GLD2 isoform 7 [Homo sapiens]	TRUE	TENT2

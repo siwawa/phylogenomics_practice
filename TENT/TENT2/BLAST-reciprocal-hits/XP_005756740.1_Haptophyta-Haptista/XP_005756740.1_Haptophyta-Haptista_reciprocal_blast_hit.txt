@@ -1,0 +1,101 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_005756740.1	XP_047289725.1	0	N/A	33.209	268	19	2.44e-11	71.2	NLR family CARD domain-containing protein 3 isoform X1 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_849172.2	0	N/A	33.209	268	19	2.44e-11	71.2	NLR family CARD domain-containing protein 3 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_789780.2	0	N/A	29.787	282	20	3.31e-11	70.9	NACHT, LRR and PYD domains-containing protein 13 isoform 1 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001307986.1	0	N/A	27.213	305	20	3.98e-11	70.5	NACHT, LRR and PYD domains-containing protein 13 isoform 2 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_047290716.1	0	N/A	30.943	265	19	2.17e-10	68.6	protein NLRC5 isoform X1 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_047290720.1	0	N/A	30.943	265	19	2.18e-10	68.6	protein NLRC5 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_047290717.1	0	N/A	30.943	265	19	2.24e-10	68.6	protein NLRC5 isoform X2 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371887.1	0	N/A	30.943	265	19	2.27e-10	68.6	protein NLRC5 isoform 8 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371882.1	0	N/A	30.943	265	19	2.28e-10	68.6	protein NLRC5 isoform 3 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371881.1	0	N/A	30.943	265	19	2.28e-10	68.6	protein NLRC5 isoform 3 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371883.1	0	N/A	30.943	265	19	2.30e-10	68.6	protein NLRC5 isoform 4 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371888.1	0	N/A	30.943	265	19	2.39e-10	68.2	protein NLRC5 isoform 9 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371885.1	0	N/A	30.943	265	19	2.44e-10	68.2	protein NLRC5 isoform 6 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371880.1	0	N/A	30.943	265	19	2.56e-10	68.2	protein NLRC5 isoform 2 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001317481.1	0	N/A	30.943	265	19	2.56e-10	68.2	protein NLRC5 isoform 2 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_115582.4	0	N/A	30.943	265	19	2.57e-10	68.2	protein NLRC5 isoform 1 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371879.1	0	N/A	30.943	265	19	2.57e-10	68.2	protein NLRC5 isoform 1 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_047290718.1	0	N/A	30.943	265	19	2.63e-10	68.2	protein NLRC5 isoform X3 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371884.1	0	N/A	30.943	265	19	2.63e-10	68.2	protein NLRC5 isoform 5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001371886.1	0	N/A	30.943	265	19	2.65e-10	68.2	protein NLRC5 isoform 7 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_047290719.1	0	N/A	30.943	265	19	2.74e-10	68.2	protein NLRC5 isoform X4 [Homo sapiens]	FALSE	NA
+XP_005756740.1	NP_001317647.1	0	N/A	23.166	259	18	8.60e-10	66.2	terminal uridylyltransferase 7 isoform 3 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	NP_001371889.1	0	N/A	32.331	266	19	1.09e-09	66.2	protein NLRC5 isoform 10 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_005252265.1	0	N/A	23.166	259	18	1.59e-09	65.5	terminal uridylyltransferase 7 isoform X7 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_005270739.1	0	N/A	22.868	258	18	1.77e-09	65.5	terminal uridylyltransferase 4 isoform X33 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272325.1	0	N/A	22.868	258	18	1.79e-09	65.5	terminal uridylyltransferase 4 isoform X23 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047279823.1	0	N/A	23.166	259	18	1.80e-09	65.5	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_006717346.1	0	N/A	23.166	259	18	1.80e-09	65.5	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_016856295.1	0	N/A	22.868	258	18	1.89e-09	65.5	terminal uridylyltransferase 4 isoform X25 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_016856297.1	0	N/A	22.868	258	18	1.89e-09	65.5	terminal uridylyltransferase 4 isoform X36 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272344.1	0	N/A	22.868	258	18	1.94e-09	65.5	terminal uridylyltransferase 4 isoform X30 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_011539401.1	0	N/A	22.868	258	18	1.98e-09	65.1	terminal uridylyltransferase 4 isoform X29 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047279825.1	0	N/A	23.166	259	18	1.99e-09	65.1	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_047279824.1	0	N/A	23.166	259	18	1.99e-09	65.1	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_005252264.1	0	N/A	23.166	259	18	1.99e-09	65.1	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_047272345.1	0	N/A	22.868	258	18	2.01e-09	65.1	terminal uridylyltransferase 4 isoform X31 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_016870620.1	0	N/A	23.166	259	18	2.03e-09	65.1	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_016870619.1	0	N/A	23.166	259	18	2.03e-09	65.1	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	NP_078893.2	0	N/A	23.166	259	18	2.03e-09	65.1	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	NP_001171988.1	0	N/A	23.166	259	18	2.03e-09	65.1	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_011517318.1	0	N/A	23.166	259	18	2.11e-09	65.1	terminal uridylyltransferase 7 isoform X5 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_011517317.1	0	N/A	23.166	259	18	2.13e-09	65.1	terminal uridylyltransferase 7 isoform X3 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_011517316.1	0	N/A	23.166	259	18	2.21e-09	65.1	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_011517315.1	0	N/A	23.166	259	18	2.21e-09	65.1	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_011517314.1	0	N/A	23.166	259	18	2.21e-09	65.1	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_011517313.1	0	N/A	23.166	259	18	2.21e-09	65.1	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	NP_001172003.1	0	N/A	23.166	259	18	2.21e-09	65.1	terminal uridylyltransferase 7 isoform 2 [Homo sapiens]	TRUE	Tut7
+XP_005756740.1	XP_011539399.1	0	N/A	22.868	258	18	2.23e-09	65.1	terminal uridylyltransferase 4 isoform X1 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_005270733.1	0	N/A	22.868	258	18	2.23e-09	65.1	terminal uridylyltransferase 4 isoform X1 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_005270735.1	0	N/A	22.868	258	18	2.25e-09	65.1	terminal uridylyltransferase 4 isoform X2 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272365.1	0	N/A	22.868	258	18	2.26e-09	65.1	terminal uridylyltransferase 4 isoform X38 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272280.1	0	N/A	22.868	258	18	2.33e-09	65.1	terminal uridylyltransferase 4 isoform X3 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_005270736.1	0	N/A	22.868	258	18	2.33e-09	65.1	terminal uridylyltransferase 4 isoform X3 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272350.1	0	N/A	22.868	258	18	2.34e-09	65.1	terminal uridylyltransferase 4 isoform X34 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272286.1	0	N/A	22.868	258	18	2.34e-09	65.1	terminal uridylyltransferase 4 isoform X8 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_016856296.1	0	N/A	22.868	258	18	2.35e-09	65.1	terminal uridylyltransferase 4 isoform X28 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272337.1	0	N/A	22.868	258	18	2.37e-09	65.1	terminal uridylyltransferase 4 isoform X27 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272290.1	0	N/A	22.868	258	18	2.38e-09	65.1	terminal uridylyltransferase 4 isoform X11 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272285.1	0	N/A	22.868	258	18	2.40e-09	65.1	terminal uridylyltransferase 4 isoform X7 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272295.1	0	N/A	22.868	258	18	2.42e-09	65.1	terminal uridylyltransferase 4 isoform X12 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272296.1	0	N/A	22.868	258	18	2.48e-09	65.1	terminal uridylyltransferase 4 isoform X13 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272372.1	0	N/A	22.868	258	18	2.53e-09	65.1	terminal uridylyltransferase 4 isoform X42 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_016856292.1	0	N/A	22.868	258	18	2.68e-09	64.7	terminal uridylyltransferase 4 isoform X9 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	NP_631915.2	0	N/A	29.412	238	17	2.71e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform 1 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_016856299.1	0	N/A	22.868	258	18	2.74e-09	64.7	terminal uridylyltransferase 4 isoform X40 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	NP_789792.1	0	N/A	25.959	339	20	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 14 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054189604.1	0	N/A	29.412	238	17	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform X26 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054189506.1	0	N/A	29.412	238	17	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform X23 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054187195.1	0	N/A	29.412	238	17	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform X18 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186917.1	0	N/A	29.412	238	17	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform X15 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186686.1	0	N/A	29.412	238	17	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform X12 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186433.1	0	N/A	29.412	238	17	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform X9 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186120.1	0	N/A	29.412	238	17	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform X6 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054185641.1	0	N/A	29.412	238	17	2.76e-09	64.7	NACHT, LRR and PYD domains-containing protein 7 isoform X2 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_047272283.1	0	N/A	22.868	258	18	2.78e-09	64.7	terminal uridylyltransferase 4 isoform X6 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_005270737.1	0	N/A	22.868	258	18	2.78e-09	64.7	terminal uridylyltransferase 4 isoform X6 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272305.1	0	N/A	22.868	258	18	2.84e-09	64.7	terminal uridylyltransferase 4 isoform X17 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272282.1	0	N/A	22.868	258	18	2.88e-09	64.7	terminal uridylyltransferase 4 isoform X5 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	NP_056084.1	0	N/A	22.868	258	18	2.88e-09	64.7	terminal uridylyltransferase 4 isoform b [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272288.1	0	N/A	22.868	258	18	2.99e-09	64.7	terminal uridylyltransferase 4 isoform X10 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_047272281.1	0	N/A	22.868	258	18	3.00e-09	64.7	terminal uridylyltransferase 4 isoform X4 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	NP_001009881.1	0	N/A	22.868	258	18	3.00e-09	64.7	terminal uridylyltransferase 4 isoform a [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_016856293.1	0	N/A	22.868	258	18	3.14e-09	64.7	terminal uridylyltransferase 4 isoform X16 [Homo sapiens]	TRUE	Tut4
+XP_005756740.1	XP_054187469.1	0	N/A	29.412	238	17	3.40e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054187468.1	0	N/A	29.412	238	17	3.40e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054187467.1	0	N/A	29.412	238	17	3.40e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054189607.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054189606.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054189605.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054189509.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054189508.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054189507.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054187198.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054187197.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054187196.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186920.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186919.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186918.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186689.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA
+XP_005756740.1	XP_054186688.1	0	N/A	29.412	238	17	3.46e-09	64.3	NACHT, LRR and PYD domains-containing protein 7 isoform X5 [Homo sapiens]	FALSE	NA

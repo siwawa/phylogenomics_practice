@@ -1,0 +1,2 @@
+TENT2_Homo_sapiens	XP_002296066.1	296543	Thalassiosira pseudonana CCMP1335	39.130	69	14	2.53e-11	58.2	predicted protein, partial [Thalassiosira pseudonana CCMP1335]
+TENT2_Homo_sapiens	XP_002296060.1	296543	Thalassiosira pseudonana CCMP1335	23.684	152	31	1.13e-04	43.5	predicted protein [Thalassiosira pseudonana CCMP1335]

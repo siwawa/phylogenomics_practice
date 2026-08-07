@@ -1,0 +1,8 @@
+TENT2_Homo_sapiens	XP_011774464.1	679716	Trypanosoma brucei gambiense DAL972	27.064	218	41	1.94e-12	67.4	RNA editing 3' terminal uridylyl transferase 2 [Trypanosoma brucei gambiense DAL972]
+TENT2_Homo_sapiens	XP_011771313.1	679716	Trypanosoma brucei gambiense DAL972	23.874	222	44	9.28e-12	65.1	hypothetical protein, conserved [Trypanosoma brucei gambiense DAL972]
+TENT2_Homo_sapiens	XP_011774797.1	679716	Trypanosoma brucei gambiense DAL972	29.730	148	28	1.63e-11	65.1	KRET1 [Trypanosoma brucei gambiense DAL972]
+TENT2_Homo_sapiens	XP_011775392.1	679716	Trypanosoma brucei gambiense DAL972	24.828	290	59	2.90e-11	64.3	DNA polymerase sigma, putative [Trypanosoma brucei gambiense DAL972]
+TENT2_Homo_sapiens	XP_011777192.1	679716	Trypanosoma brucei gambiense DAL972	22.581	279	52	6.25e-10	59.3	hypothetical protein, conserved [Trypanosoma brucei gambiense DAL972]
+TENT2_Homo_sapiens	XP_011780900.1	679716	Trypanosoma brucei gambiense DAL972	26.165	279	52	9.44e-10	58.5	poly(A) polymerase, putative [Trypanosoma brucei gambiense DAL972]
+TENT2_Homo_sapiens	XP_011778071.1	679716	Trypanosoma brucei gambiense DAL972	26.168	214	38	1.33e-09	58.9	terminal uridylyltransferase 3, putative [Trypanosoma brucei gambiense DAL972]
+TENT2_Homo_sapiens	XP_011780052.1	679716	Trypanosoma brucei gambiense DAL972	25.581	129	26	1.35e-06	49.3	hypothetical protein, conserved [Trypanosoma brucei gambiense DAL972]

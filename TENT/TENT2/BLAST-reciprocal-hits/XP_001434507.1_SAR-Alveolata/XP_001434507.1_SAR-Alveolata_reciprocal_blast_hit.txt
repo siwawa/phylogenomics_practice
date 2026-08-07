@@ -1,0 +1,101 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_001434507.1	NP_001352253.1	0	N/A	25.839	298	45	1.17e-19	95.9	terminal nucleotidyltransferase 4B isoform d [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	XP_047290431.1	0	N/A	25.839	298	45	1.18e-19	95.9	terminal nucleotidyltransferase 4B isoform X3 [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	NP_001352252.1	0	N/A	25.839	298	45	1.34e-19	95.9	terminal nucleotidyltransferase 4B isoform c [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	XP_047290432.1	0	N/A	25.839	298	45	1.38e-19	95.5	terminal nucleotidyltransferase 4B isoform X4 [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	NP_001035374.2	0	N/A	26.102	295	45	1.61e-19	95.5	terminal nucleotidyltransferase 4B isoform a [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	XP_011521577.1	0	N/A	26.102	295	45	1.61e-19	95.5	terminal nucleotidyltransferase 4B isoform X1 [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	NP_001035375.2	0	N/A	25.839	298	45	1.83e-19	95.1	terminal nucleotidyltransferase 4B isoform b [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	XP_011521578.1	0	N/A	25.839	298	45	1.83e-19	95.1	terminal nucleotidyltransferase 4B isoform X2 [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	XP_047290433.1	0	N/A	25.267	281	43	3.54e-19	93.6	terminal nucleotidyltransferase 4B isoform X6 [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	XP_011521580.1	0	N/A	25.887	282	43	4.92e-19	93.6	terminal nucleotidyltransferase 4B isoform X5 [Homo sapiens]	TRUE	TENT4B
+XP_001434507.1	XP_047272622.1	0	N/A	24.219	256	39	2.06e-15	82.0	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001434507.1	XP_047272621.1	0	N/A	24.219	256	39	2.06e-15	82.0	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001434507.1	XP_047272620.1	0	N/A	24.219	256	39	2.06e-15	82.0	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_001434507.1	XP_047272624.1	0	N/A	24.219	256	39	2.13e-15	82.0	terminal nucleotidyltransferase 4A isoform X3 [Homo sapiens]	TRUE	TENT4A
+XP_001434507.1	XP_047272623.1	0	N/A	24.219	256	39	2.13e-15	82.0	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_001434507.1	XP_016864477.1	0	N/A	24.219	256	39	2.13e-15	82.0	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_001434507.1	NP_008930.2	0	N/A	24.219	256	39	5.80e-15	81.3	terminal nucleotidyltransferase 4A isoform 1 [Homo sapiens]	TRUE	TENT4A
+XP_001434507.1	NP_001165276.2	0	N/A	24.219	256	39	6.60e-15	80.9	terminal nucleotidyltransferase 4A isoform 2 [Homo sapiens]	TRUE	TENT4A
+XP_001434507.1	NP_001341198.1	0	N/A	26.061	165	24	1.35e-07	57.8	ankyrin-2 isoform 36 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373086.1	0	N/A	26.061	165	24	1.38e-07	57.8	ankyrin-2 isoform 63 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341206.1	0	N/A	26.061	165	24	1.47e-07	57.8	ankyrin-2 isoform 44 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341202.1	0	N/A	26.061	165	24	1.65e-07	57.4	ankyrin-2 isoform 40 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001307803.1	0	N/A	27.711	166	24	2.57e-07	57.0	ankyrin-3 isoform 5 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001191332.1	0	N/A	27.711	166	24	2.66e-07	57.0	ankyrin-3 isoform 3 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001191333.1	0	N/A	27.711	166	24	2.75e-07	57.0	ankyrin-3 isoform 4 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373087.1	0	N/A	25.301	166	24	2.86e-07	56.6	ankyrin-2 isoform 64 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001120965.1	0	N/A	26.061	165	24	4.25e-07	56.2	ankyrin-2 isoform 3 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341170.1	0	N/A	26.061	165	24	4.25e-07	56.2	ankyrin-2 isoform 14 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373077.1	0	N/A	26.061	165	24	4.40e-07	56.2	ankyrin-2 isoform 55 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341172.1	0	N/A	26.061	165	24	4.40e-07	56.2	ankyrin-2 isoform 16 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341193.1	0	N/A	26.061	165	24	4.42e-07	56.2	ankyrin-2 isoform 31 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373116.1	0	N/A	26.061	165	24	4.42e-07	56.2	ankyrin-2 isoform 70 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373091.1	0	N/A	26.061	165	24	4.43e-07	56.2	ankyrin-2 isoform 43 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341205.1	0	N/A	26.061	165	24	4.43e-07	56.2	ankyrin-2 isoform 43 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341183.1	0	N/A	26.061	165	24	4.47e-07	56.2	ankyrin-2 isoform 23 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341168.1	0	N/A	26.061	165	24	4.48e-07	56.2	ankyrin-2 isoform 12 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341203.1	0	N/A	26.061	165	24	4.52e-07	56.2	ankyrin-2 isoform 41 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373115.1	0	N/A	26.061	165	24	4.53e-07	56.2	ankyrin-2 isoform 69 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373090.1	0	N/A	26.061	165	24	4.54e-07	56.2	ankyrin-2 isoform 25 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341185.1	0	N/A	26.061	165	24	4.54e-07	56.2	ankyrin-2 isoform 25 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341161.1	0	N/A	26.061	165	24	4.60e-07	56.2	ankyrin-2 isoform 8 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341204.1	0	N/A	26.061	165	24	4.63e-07	56.2	ankyrin-2 isoform 42 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341184.1	0	N/A	26.061	165	24	4.66e-07	56.2	ankyrin-2 isoform 24 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341173.1	0	N/A	26.061	165	24	4.67e-07	56.2	ankyrin-2 isoform 17 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341201.1	0	N/A	26.061	165	24	4.67e-07	56.2	ankyrin-2 isoform 39 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373082.1	0	N/A	26.061	165	24	4.68e-07	56.2	ankyrin-2 isoform 60 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341196.1	0	N/A	26.061	165	24	4.69e-07	56.2	ankyrin-2 isoform 33 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341195.1	0	N/A	26.061	165	24	4.69e-07	56.2	ankyrin-2 isoform 33 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341191.1	0	N/A	26.061	165	24	4.69e-07	56.2	ankyrin-2 isoform 30 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341181.1	0	N/A	26.061	165	24	4.70e-07	56.2	ankyrin-2 isoform 21 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373072.1	0	N/A	26.061	165	24	4.77e-07	56.2	ankyrin-2 isoform 51 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_066187.2	0	N/A	26.061	165	24	4.83e-07	55.8	ankyrin-2 isoform 2 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341157.1	0	N/A	26.061	165	24	4.85e-07	55.8	ankyrin-2 isoform 5 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373089.1	0	N/A	26.061	165	24	4.92e-07	55.8	ankyrin-2 isoform 71 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373083.1	0	N/A	26.061	165	24	4.93e-07	55.8	ankyrin-2 isoform 61 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373076.1	0	N/A	26.061	165	24	4.96e-07	55.8	ankyrin-2 isoform 54 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341164.1	0	N/A	26.061	165	24	4.97e-07	55.8	ankyrin-2 isoform 9 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341187.1	0	N/A	26.061	165	24	4.99e-07	55.8	ankyrin-2 isoform 27 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373075.1	0	N/A	26.061	165	24	5.00e-07	55.8	ankyrin-2 isoform 53 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341165.1	0	N/A	26.061	165	24	5.01e-07	55.8	ankyrin-2 isoform 10 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341160.1	0	N/A	26.061	165	24	5.01e-07	55.8	ankyrin-2 isoform 7 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341175.1	0	N/A	26.061	165	24	5.04e-07	55.8	ankyrin-2 isoform 19 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373079.1	0	N/A	26.061	165	24	5.07e-07	55.8	ankyrin-2 isoform 57 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373073.1	0	N/A	26.061	165	24	5.10e-07	55.8	ankyrin-2 isoform 52 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341159.1	0	N/A	26.061	165	24	5.28e-07	55.8	ankyrin-2 isoform 6 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373078.1	0	N/A	26.061	165	24	5.30e-07	55.8	ankyrin-2 isoform 56 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341178.1	0	N/A	26.061	165	24	5.30e-07	55.8	ankyrin-2 isoform 20 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341190.1	0	N/A	26.061	165	24	5.33e-07	55.8	ankyrin-2 isoform 29 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341166.1	0	N/A	26.061	165	24	5.40e-07	55.8	ankyrin-2 isoform 11 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373081.1	0	N/A	26.061	165	24	5.46e-07	55.8	ankyrin-2 isoform 59 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341154.1	0	N/A	26.061	165	24	5.70e-07	55.8	ankyrin-2 isoform 4 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341194.1	0	N/A	26.061	165	24	5.70e-07	55.8	ankyrin-2 isoform 32 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341171.1	0	N/A	26.061	165	24	5.73e-07	55.8	ankyrin-2 isoform 15 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341169.1	0	N/A	26.061	165	24	5.73e-07	55.8	ankyrin-2 isoform 13 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341200.1	0	N/A	25.301	166	24	7.93e-07	55.5	ankyrin-2 isoform 38 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373085.1	0	N/A	25.301	166	24	8.00e-07	55.5	ankyrin-2 isoform 62 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341182.1	0	N/A	25.301	166	24	8.04e-07	55.5	ankyrin-2 isoform 22 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341199.1	0	N/A	25.301	166	24	8.29e-07	55.1	ankyrin-2 isoform 37 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001373080.1	0	N/A	25.301	166	24	8.29e-07	55.1	ankyrin-2 isoform 58 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341189.1	0	N/A	25.301	166	24	8.97e-07	55.1	ankyrin-2 isoform 28 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341197.1	0	N/A	25.301	166	24	9.11e-07	55.1	ankyrin-2 isoform 35 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341174.1	0	N/A	25.301	166	24	9.23e-07	55.1	ankyrin-2 isoform 18 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001341186.1	0	N/A	25.301	166	24	9.29e-07	55.1	ankyrin-2 isoform 26 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335667.1	0	N/A	25.434	173	25	2.94e-06	53.5	kinase D-interacting substrate of 220 kDa isoform 8 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335672.1	0	N/A	25.434	173	25	3.30e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 10 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335671.1	0	N/A	25.434	173	25	3.30e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 10 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335670.1	0	N/A	25.434	173	25	3.30e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 10 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335669.1	0	N/A	25.434	173	25	3.48e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 9 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335668.1	0	N/A	25.434	173	25	3.48e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 9 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335665.1	0	N/A	25.434	173	25	3.64e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 7 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335660.1	0	N/A	25.434	173	25	3.70e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 3 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335658.1	0	N/A	25.434	173	25	3.70e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 2 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335661.1	0	N/A	25.434	173	25	3.83e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 4 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_065789.1	0	N/A	25.434	173	25	3.86e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 1 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335664.1	0	N/A	25.434	173	25	3.91e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 6 [Homo sapiens]	FALSE	NA
+XP_001434507.1	NP_001335663.1	0	N/A	25.434	173	25	4.08e-06	53.1	kinase D-interacting substrate of 220 kDa isoform 5 [Homo sapiens]	FALSE	NA
+XP_001434507.1	XP_047272290.1	0	N/A	22.959	196	29	5.65e-06	52.4	terminal uridylyltransferase 4 isoform X11 [Homo sapiens]	TRUE	Tut4
+XP_001434507.1	XP_047272305.1	0	N/A	22.959	196	29	5.79e-06	52.4	terminal uridylyltransferase 4 isoform X17 [Homo sapiens]	TRUE	Tut4
+XP_001434507.1	XP_047272296.1	0	N/A	22.959	196	29	6.10e-06	52.4	terminal uridylyltransferase 4 isoform X13 [Homo sapiens]	TRUE	Tut4
+XP_001434507.1	XP_047272286.1	0	N/A	22.959	196	29	6.10e-06	52.4	terminal uridylyltransferase 4 isoform X8 [Homo sapiens]	TRUE	Tut4

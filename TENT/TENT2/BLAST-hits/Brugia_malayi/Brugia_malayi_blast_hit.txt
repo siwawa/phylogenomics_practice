@@ -1,0 +1,7 @@
+TENT2_Homo_sapiens	XP_042936366.1	6279	Brugia malayi	41.108	343	67	3.98e-65	227	Uncharacterized protein BM_BM7368 [Brugia malayi]
+TENT2_Homo_sapiens	XP_042930986.1	6279	Brugia malayi	33.136	338	67	1.15e-44	166	Uncharacterized protein BM_BM975 [Brugia malayi]
+TENT2_Homo_sapiens	XP_042933116.1	6279	Brugia malayi	32.721	272	55	1.71e-34	137	Uncharacterized protein BM_BM4985 [Brugia malayi]
+TENT2_Homo_sapiens	XP_042933116.1	6279	Brugia malayi	23.214	168	55	2.65e-06	49.3	Uncharacterized protein BM_BM4985 [Brugia malayi]
+TENT2_Homo_sapiens	XP_001901178.1	6279	Brugia malayi	25.325	308	61	1.40e-16	80.9	Uncharacterized protein BM_BM7570 [Brugia malayi]
+TENT2_Homo_sapiens	XP_042937991.1	6279	Brugia malayi	23.704	270	51	5.30e-14	72.8	Uncharacterized protein BM_BM10556 [Brugia malayi]
+TENT2_Homo_sapiens	XP_001901645.1	6279	Brugia malayi	25.000	224	41	3.87e-12	66.6	Uncharacterized protein BM_BM10556 [Brugia malayi]

@@ -1,0 +1,101 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_002296060.1	NP_001352252.1	0	N/A	31.675	382	49	2.64e-41	164	terminal nucleotidyltransferase 4B isoform c [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	NP_001035374.2	0	N/A	31.783	387	49	3.40e-41	163	terminal nucleotidyltransferase 4B isoform a [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	XP_011521577.1	0	N/A	31.783	387	49	3.43e-41	163	terminal nucleotidyltransferase 4B isoform X1 [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	NP_001352253.1	0	N/A	31.783	387	49	3.50e-41	163	terminal nucleotidyltransferase 4B isoform d [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	XP_047290432.1	0	N/A	31.783	387	49	3.90e-41	162	terminal nucleotidyltransferase 4B isoform X4 [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	XP_047290431.1	0	N/A	31.783	387	49	4.76e-41	162	terminal nucleotidyltransferase 4B isoform X3 [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	NP_001035375.2	0	N/A	31.783	387	49	5.18e-41	162	terminal nucleotidyltransferase 4B isoform b [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	XP_011521578.1	0	N/A	31.783	387	49	5.23e-41	162	terminal nucleotidyltransferase 4B isoform X2 [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	XP_011521580.1	0	N/A	31.733	375	48	7.68e-41	160	terminal nucleotidyltransferase 4B isoform X5 [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	XP_047290433.1	0	N/A	31.733	375	48	1.15e-40	158	terminal nucleotidyltransferase 4B isoform X6 [Homo sapiens]	TRUE	TENT4B
+XP_002296060.1	NP_008930.2	0	N/A	29.024	410	52	4.26e-39	157	terminal nucleotidyltransferase 4A isoform 1 [Homo sapiens]	TRUE	TENT4A
+XP_002296060.1	NP_001165276.2	0	N/A	29.024	410	52	4.56e-39	157	terminal nucleotidyltransferase 4A isoform 2 [Homo sapiens]	TRUE	TENT4A
+XP_002296060.1	XP_047272622.1	0	N/A	28.792	389	50	1.47e-34	141	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_002296060.1	XP_047272621.1	0	N/A	28.792	389	50	1.47e-34	141	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_002296060.1	XP_047272620.1	0	N/A	28.792	389	50	1.47e-34	141	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_002296060.1	XP_047272624.1	0	N/A	28.421	380	48	3.21e-32	134	terminal nucleotidyltransferase 4A isoform X3 [Homo sapiens]	TRUE	TENT4A
+XP_002296060.1	XP_047272623.1	0	N/A	28.421	380	48	3.53e-32	134	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_002296060.1	XP_016864477.1	0	N/A	28.421	380	48	3.53e-32	134	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_002296060.1	NP_001269615.2	0	N/A	33.333	81	10	2.78e-05	48.5	BTB/POZ domain-containing protein KCTD17 isoform 4 [Homo sapiens]	FALSE	NA
+XP_002296060.1	NP_001172003.1	0	N/A	20.270	222	24	3.88e-05	50.1	terminal uridylyltransferase 7 isoform 2 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	NP_001269613.2	0	N/A	33.333	81	10	3.92e-05	48.9	BTB/POZ domain-containing protein KCTD17 isoform 1 [Homo sapiens]	FALSE	NA
+XP_002296060.1	NP_078957.3	0	N/A	33.333	81	10	4.12e-05	48.9	BTB/POZ domain-containing protein KCTD17 isoform 2 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_047297451.1	0	N/A	33.333	81	10	4.40e-05	48.1	BTB/POZ domain-containing protein KCTD17 isoform X9 [Homo sapiens]	FALSE	NA
+XP_002296060.1	NP_001269614.2	0	N/A	33.333	81	10	4.40e-05	48.1	BTB/POZ domain-containing protein KCTD17 isoform 3 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_005261799.3	0	N/A	33.333	81	10	5.36e-05	48.9	BTB/POZ domain-containing protein KCTD17 isoform X4 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_005261800.3	0	N/A	33.333	81	10	5.41e-05	48.5	BTB/POZ domain-containing protein KCTD17 isoform X5 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_047297447.1	0	N/A	33.333	81	10	6.02e-05	48.5	BTB/POZ domain-containing protein KCTD17 isoform X2 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_005252265.1	0	N/A	19.672	305	35	6.19e-05	49.3	terminal uridylyltransferase 7 isoform X7 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	NP_001317647.1	0	N/A	20.270	222	24	6.58e-05	49.3	terminal uridylyltransferase 7 isoform 3 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_011517318.1	0	N/A	19.672	305	35	6.64e-05	49.3	terminal uridylyltransferase 7 isoform X5 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_016870620.1	0	N/A	19.672	305	35	7.17e-05	49.3	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_016870619.1	0	N/A	19.672	305	35	7.17e-05	49.3	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	NP_078893.2	0	N/A	19.672	305	35	7.17e-05	49.3	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	NP_001171988.1	0	N/A	19.672	305	35	7.17e-05	49.3	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_047297448.1	0	N/A	33.333	81	10	7.29e-05	48.5	BTB/POZ domain-containing protein KCTD17 isoform X3 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_047279825.1	0	N/A	19.672	305	35	7.73e-05	49.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_047279824.1	0	N/A	19.672	305	35	7.73e-05	49.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_005252264.1	0	N/A	19.672	305	35	7.73e-05	49.3	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_047279823.1	0	N/A	19.672	305	35	8.32e-05	48.9	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_006717346.1	0	N/A	19.672	305	35	8.32e-05	48.9	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_005261801.2	0	N/A	33.333	81	10	8.63e-05	47.8	BTB/POZ domain-containing protein KCTD17 isoform X6 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_011517316.1	0	N/A	19.672	305	35	8.69e-05	48.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_011517315.1	0	N/A	19.672	305	35	8.69e-05	48.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_011517314.1	0	N/A	19.672	305	35	8.69e-05	48.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_011517313.1	0	N/A	19.672	305	35	8.69e-05	48.9	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_011517317.1	0	N/A	19.672	305	35	9.21e-05	48.9	terminal uridylyltransferase 7 isoform X3 [Homo sapiens]	TRUE	Tut7
+XP_002296060.1	XP_047297450.1	0	N/A	33.333	81	10	1.01e-04	47.4	BTB/POZ domain-containing protein KCTD17 isoform X8 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_047272362.1	0	N/A	26.380	163	20	1.35e-04	48.5	terminal uridylyltransferase 4 isoform X37 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272354.1	0	N/A	26.380	163	20	1.35e-04	48.5	terminal uridylyltransferase 4 isoform X35 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272367.1	0	N/A	26.380	163	20	1.41e-04	48.1	terminal uridylyltransferase 4 isoform X39 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_016856296.1	0	N/A	26.380	163	20	1.46e-04	48.1	terminal uridylyltransferase 4 isoform X28 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272288.1	0	N/A	22.321	224	24	1.47e-04	48.1	terminal uridylyltransferase 4 isoform X10 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_016856293.1	0	N/A	22.321	224	24	1.49e-04	48.1	terminal uridylyltransferase 4 isoform X16 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272337.1	0	N/A	26.380	163	20	1.54e-04	48.1	terminal uridylyltransferase 4 isoform X27 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_016856292.1	0	N/A	22.321	224	24	1.61e-04	48.1	terminal uridylyltransferase 4 isoform X9 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272305.1	0	N/A	22.321	224	24	1.65e-04	48.1	terminal uridylyltransferase 4 isoform X17 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272283.1	0	N/A	22.321	224	24	1.67e-04	48.1	terminal uridylyltransferase 4 isoform X6 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_005270737.1	0	N/A	22.321	224	24	1.67e-04	48.1	terminal uridylyltransferase 4 isoform X6 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272350.1	0	N/A	26.380	163	20	1.67e-04	48.1	terminal uridylyltransferase 4 isoform X34 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272281.1	0	N/A	22.321	224	24	1.70e-04	48.1	terminal uridylyltransferase 4 isoform X4 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	NP_001009881.1	0	N/A	22.321	224	24	1.70e-04	48.1	terminal uridylyltransferase 4 isoform a [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272285.1	0	N/A	22.321	224	24	1.71e-04	48.1	terminal uridylyltransferase 4 isoform X7 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272282.1	0	N/A	22.321	224	24	1.71e-04	48.1	terminal uridylyltransferase 4 isoform X5 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	NP_056084.1	0	N/A	22.321	224	24	1.71e-04	48.1	terminal uridylyltransferase 4 isoform b [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272344.1	0	N/A	26.380	163	20	1.76e-04	48.1	terminal uridylyltransferase 4 isoform X30 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272295.1	0	N/A	22.321	224	24	1.77e-04	48.1	terminal uridylyltransferase 4 isoform X12 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272296.1	0	N/A	22.321	224	24	1.81e-04	48.1	terminal uridylyltransferase 4 isoform X13 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272325.1	0	N/A	26.380	163	20	1.82e-04	48.1	terminal uridylyltransferase 4 isoform X23 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272348.1	0	N/A	26.380	163	20	1.83e-04	47.8	terminal uridylyltransferase 4 isoform X32 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_016856299.1	0	N/A	22.321	224	24	1.88e-04	47.8	terminal uridylyltransferase 4 isoform X40 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_016856295.1	0	N/A	26.380	163	20	1.89e-04	47.8	terminal uridylyltransferase 4 isoform X25 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272372.1	0	N/A	22.321	224	24	1.92e-04	47.8	terminal uridylyltransferase 4 isoform X42 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272365.1	0	N/A	22.321	224	24	1.98e-04	47.8	terminal uridylyltransferase 4 isoform X38 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272286.1	0	N/A	22.321	224	24	1.99e-04	47.8	terminal uridylyltransferase 4 isoform X8 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272290.1	0	N/A	22.321	224	24	2.01e-04	47.8	terminal uridylyltransferase 4 isoform X11 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_005270735.1	0	N/A	22.321	224	24	2.06e-04	47.8	terminal uridylyltransferase 4 isoform X2 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	NP_060104.2	0	N/A	33.333	81	10	2.10e-04	47.0	BTB/POZ domain-containing protein KCTD9 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_011539399.1	0	N/A	22.321	224	24	2.14e-04	47.8	terminal uridylyltransferase 4 isoform X1 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_005270733.1	0	N/A	22.321	224	24	2.14e-04	47.8	terminal uridylyltransferase 4 isoform X1 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272280.1	0	N/A	22.321	224	24	2.17e-04	47.8	terminal uridylyltransferase 4 isoform X3 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_005270736.1	0	N/A	22.321	224	24	2.17e-04	47.8	terminal uridylyltransferase 4 isoform X3 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_016856297.1	0	N/A	22.321	224	24	2.23e-04	47.8	terminal uridylyltransferase 4 isoform X36 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047272345.1	0	N/A	22.321	224	24	2.29e-04	47.8	terminal uridylyltransferase 4 isoform X31 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_005270739.1	0	N/A	22.321	224	24	2.32e-04	47.8	terminal uridylyltransferase 4 isoform X33 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_047277867.1	0	N/A	33.333	81	10	2.42e-04	46.6	BTB/POZ domain-containing protein KCTD9 isoform X1 [Homo sapiens]	FALSE	NA
+XP_002296060.1	NP_751948.1	0	N/A	30.000	80	10	2.64e-04	47.0	A-type voltage-gated potassium channel KCND3 isoform 2 [Homo sapiens]	FALSE	NA
+XP_002296060.1	NP_001365899.1	0	N/A	30.000	80	10	2.64e-04	47.0	A-type voltage-gated potassium channel KCND3 isoform 2 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_011539401.1	0	N/A	22.321	224	24	2.78e-04	47.4	terminal uridylyltransferase 4 isoform X29 [Homo sapiens]	TRUE	Tut4
+XP_002296060.1	XP_011539728.1	0	N/A	30.000	80	10	2.84e-04	46.6	A-type voltage-gated potassium channel KCND3 isoform X3 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_016856733.1	0	N/A	30.000	80	10	3.11e-04	47.0	A-type voltage-gated potassium channel KCND3 isoform X1 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_006710692.1	0	N/A	30.000	80	10	3.11e-04	47.0	A-type voltage-gated potassium channel KCND3 isoform X1 [Homo sapiens]	FALSE	NA
+XP_002296060.1	NP_004971.2	0	N/A	30.000	80	10	3.11e-04	47.0	A-type voltage-gated potassium channel KCND3 isoform 1 [Homo sapiens]	FALSE	NA
+XP_002296060.1	NP_001365898.1	0	N/A	30.000	80	10	3.11e-04	47.0	A-type voltage-gated potassium channel KCND3 isoform 1 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_006710695.1	0	N/A	30.000	80	10	3.13e-04	46.6	A-type voltage-gated potassium channel KCND3 isoform X4 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_011539730.1	0	N/A	30.000	80	10	3.39e-04	46.2	A-type voltage-gated potassium channel KCND3 isoform X6 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_011539729.1	0	N/A	30.000	80	10	3.39e-04	46.2	A-type voltage-gated potassium channel KCND3 isoform X5 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_047297449.1	0	N/A	33.333	81	10	3.41e-04	46.2	BTB/POZ domain-containing protein KCTD17 isoform X7 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_016856734.1	0	N/A	30.000	80	10	3.48e-04	46.6	A-type voltage-gated potassium channel KCND3 isoform X2 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_011539727.1	0	N/A	30.000	80	10	3.48e-04	46.6	A-type voltage-gated potassium channel KCND3 isoform X2 [Homo sapiens]	FALSE	NA
+XP_002296060.1	XP_047272820.1	0	N/A	22.995	187	21	4.64e-04	45.4	poly(A) RNA polymerase GLD2 isoform X11 [Homo sapiens]	TRUE	TENT2

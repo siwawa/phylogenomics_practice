@@ -1,0 +1,19 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_009496625.1	NP_001035375.2	0	N/A	26.054	261	14	4.84e-17	89.7	terminal nucleotidyltransferase 4B isoform b [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	XP_011521578.1	0	N/A	26.054	261	14	4.85e-17	89.7	terminal nucleotidyltransferase 4B isoform X2 [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	NP_001035374.2	0	N/A	26.054	261	14	5.10e-17	89.7	terminal nucleotidyltransferase 4B isoform a [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	XP_011521577.1	0	N/A	26.054	261	14	5.11e-17	89.7	terminal nucleotidyltransferase 4B isoform X1 [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	NP_001352253.1	0	N/A	26.054	261	14	6.65e-17	89.7	terminal nucleotidyltransferase 4B isoform d [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	XP_047290431.1	0	N/A	26.054	261	14	6.76e-17	89.4	terminal nucleotidyltransferase 4B isoform X3 [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	NP_001352252.1	0	N/A	26.792	265	14	8.74e-17	89.0	terminal nucleotidyltransferase 4B isoform c [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	XP_047290432.1	0	N/A	26.054	261	14	8.82e-17	89.0	terminal nucleotidyltransferase 4B isoform X4 [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	NP_008930.2	0	N/A	25.333	225	13	1.35e-13	79.0	terminal nucleotidyltransferase 4A isoform 1 [Homo sapiens]	TRUE	TENT4A
+XP_009496625.1	NP_001165276.2	0	N/A	25.333	225	13	1.50e-13	79.0	terminal nucleotidyltransferase 4A isoform 2 [Homo sapiens]	TRUE	TENT4A
+XP_009496625.1	XP_047272622.1	0	N/A	26.540	211	12	4.45e-13	76.6	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_009496625.1	XP_047272621.1	0	N/A	26.540	211	12	4.45e-13	76.6	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_009496625.1	XP_047272620.1	0	N/A	26.540	211	12	4.45e-13	76.6	terminal nucleotidyltransferase 4A isoform X1 [Homo sapiens]	TRUE	TENT4A
+XP_009496625.1	XP_047272623.1	0	N/A	35.632	87	5	8.65e-12	72.4	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_009496625.1	XP_016864477.1	0	N/A	35.632	87	5	8.65e-12	72.4	terminal nucleotidyltransferase 4A isoform X2 [Homo sapiens]	TRUE	TENT4A
+XP_009496625.1	XP_047272624.1	0	N/A	35.632	87	5	8.70e-12	72.4	terminal nucleotidyltransferase 4A isoform X3 [Homo sapiens]	TRUE	TENT4A
+XP_009496625.1	XP_011521580.1	0	N/A	36.275	102	5	1.27e-09	65.5	terminal nucleotidyltransferase 4B isoform X5 [Homo sapiens]	TRUE	TENT4B
+XP_009496625.1	XP_047290433.1	0	N/A	36.275	102	5	1.98e-09	64.7	terminal nucleotidyltransferase 4B isoform X6 [Homo sapiens]	TRUE	TENT4B

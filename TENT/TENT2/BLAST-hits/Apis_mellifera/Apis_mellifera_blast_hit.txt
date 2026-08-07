@@ -1,0 +1,8 @@
+TENT2_Homo_sapiens	XP_016770423.1	7460	Apis mellifera	42.560	336	67	4.81e-71	238	poly(A) RNA polymerase gld-2 homolog A isoform X2 [Apis mellifera]
+TENT2_Homo_sapiens	XP_016770424.1	7460	Apis mellifera	42.560	336	67	5.64e-71	237	poly(A) RNA polymerase gld-2 homolog A isoform X3 [Apis mellifera]
+TENT2_Homo_sapiens	XP_016770422.1	7460	Apis mellifera	42.560	336	67	6.46e-71	237	poly(A) RNA polymerase gld-2 homolog A isoform X1 [Apis mellifera]
+TENT2_Homo_sapiens	XP_026300859.1	7460	Apis mellifera	27.526	287	56	1.26e-22	100	poly(A) RNA polymerase, mitochondrial isoform X2 [Apis mellifera]
+TENT2_Homo_sapiens	XP_006564876.1	7460	Apis mellifera	27.526	287	56	2.20e-22	100	poly(A) RNA polymerase, mitochondrial isoform X1 [Apis mellifera]
+TENT2_Homo_sapiens	XP_026294736.1	7460	Apis mellifera	30.588	255	50	1.14e-21	98.6	speckle targeted PIP5K1A-regulated poly(A) polymerase isoform X2 [Apis mellifera]
+TENT2_Homo_sapiens	XP_026294735.1	7460	Apis mellifera	30.588	255	50	1.46e-21	98.2	speckle targeted PIP5K1A-regulated poly(A) polymerase isoform X1 [Apis mellifera]
+TENT2_Homo_sapiens	XP_016772964.1	7460	Apis mellifera	23.860	285	56	1.41e-11	66.6	non-canonical poly(A) RNA polymerase PAPD5-like [Apis mellifera]

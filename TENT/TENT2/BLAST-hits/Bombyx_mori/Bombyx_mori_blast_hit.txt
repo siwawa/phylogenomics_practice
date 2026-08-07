@@ -1,0 +1,7 @@
+TENT2_Homo_sapiens	XP_004925449.2	7091	Bombyx mori	38.596	342	67	7.56e-54	187	poly(A) RNA polymerase gld-2 homolog A isoform X1 [Bombyx mori]
+TENT2_Homo_sapiens	XP_012545243.1	7091	Bombyx mori	38.596	342	67	1.14e-53	187	poly(A) RNA polymerase gld-2 homolog A isoform X2 [Bombyx mori]
+TENT2_Homo_sapiens	XP_037873064.1	7091	Bombyx mori	28.912	294	56	1.83e-23	103	poly(A) RNA polymerase, mitochondrial [Bombyx mori]
+TENT2_Homo_sapiens	XP_004928356.1	7091	Bombyx mori	27.178	287	57	9.20e-18	86.7	speckle targeted PIP5K1A-regulated poly(A) polymerase [Bombyx mori]
+TENT2_Homo_sapiens	XP_037873951.1	7091	Bombyx mori	24.823	282	56	1.95e-14	75.9	non-canonical poly(A) RNA polymerase protein Trf4-1 isoform X1 [Bombyx mori]
+TENT2_Homo_sapiens	XP_037873952.1	7091	Bombyx mori	24.823	282	56	2.07e-14	75.9	non-canonical poly(A) RNA polymerase protein Trf4-1 isoform X2 [Bombyx mori]
+TENT2_Homo_sapiens	XP_004928359.1	7091	Bombyx mori	24.354	271	55	1.57e-09	60.1	terminal uridylyltransferase Tailor [Bombyx mori]

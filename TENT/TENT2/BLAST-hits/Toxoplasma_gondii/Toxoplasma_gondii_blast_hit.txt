@@ -1,0 +1,7 @@
+TENT2_Homo_sapiens	XP_018636990.1	508771	Toxoplasma gondii ME49	32.512	203	41	4.18e-22	99.0	polynucleotide adenylyltransferase [Toxoplasma gondii ME49]
+TENT2_Homo_sapiens	XP_002371366.1	508771	Toxoplasma gondii ME49	35.294	153	29	5.48e-18	86.3	polynucleotide adenylyltransferase [Toxoplasma gondii ME49]
+TENT2_Homo_sapiens	XP_018635135.1	508771	Toxoplasma gondii ME49	45.333	75	15	2.99e-09	58.9	polynucleotide adenylyltransferase [Toxoplasma gondii ME49]
+TENT2_Homo_sapiens	XP_002368453.2	508771	Toxoplasma gondii ME49	26.882	93	19	0.002	39.7	hypothetical protein TGME49_290590 [Toxoplasma gondii ME49]
+TENT2_Homo_sapiens	XP_018636501.1	508771	Toxoplasma gondii ME49	32.258	93	19	0.006	38.1	polynucleotide adenylyltransferase [Toxoplasma gondii ME49]
+TENT2_Homo_sapiens	XP_018637814.1	508771	Toxoplasma gondii ME49	22.581	155	32	0.019	36.6	DNA-directed DNA polymerase [Toxoplasma gondii ME49]
+TENT2_Homo_sapiens	XP_002370820.1	508771	Toxoplasma gondii ME49	27.907	129	26	0.058	35.0	hypothetical protein TGME49_214990 [Toxoplasma gondii ME49]

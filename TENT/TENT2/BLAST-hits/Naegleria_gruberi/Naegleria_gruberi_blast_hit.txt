@@ -1,0 +1,3 @@
+TENT2_Homo_sapiens	XP_002678238.1	5762	Naegleria gruberi	25.659	417	71	5.41e-29	119	caffeine-induced death protein 1 [Naegleria gruberi]
+TENT2_Homo_sapiens	XP_002669192.1	5762	Naegleria gruberi	26.685	371	63	2.24e-19	91.3	ribonuclease II family protein [Naegleria gruberi]
+TENT2_Homo_sapiens	XP_002676756.1	5762	Naegleria gruberi	22.302	278	55	5.44e-06	48.1	uncharacterized protein NAEGRDRAFT_68066 [Naegleria gruberi]

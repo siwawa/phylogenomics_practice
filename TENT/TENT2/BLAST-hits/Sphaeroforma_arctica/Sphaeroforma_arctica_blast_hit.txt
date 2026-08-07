@@ -1,0 +1,5 @@
+TENT2_Homo_sapiens	XP_014160402.1	667725	Sphaeroforma arctica JP610	34.737	190	37	3.39e-24	105	hypothetical protein SARC_01371 [Sphaeroforma arctica JP610]
+TENT2_Homo_sapiens	XP_014151004.1	667725	Sphaeroforma arctica JP610	28.522	291	74	4.17e-21	95.9	hypothetical protein SARC_10426 [Sphaeroforma arctica JP610]
+TENT2_Homo_sapiens	XP_014151004.1	667725	Sphaeroforma arctica JP610	25.926	81	74	1.73e-04	43.1	hypothetical protein SARC_10426 [Sphaeroforma arctica JP610]
+TENT2_Homo_sapiens	XP_014149212.1	667725	Sphaeroforma arctica JP610	27.586	261	54	1.11e-20	94.0	hypothetical protein SARC_12162, partial [Sphaeroforma arctica JP610]
+TENT2_Homo_sapiens	XP_014155214.1	667725	Sphaeroforma arctica JP610	21.306	291	56	1.27e-12	68.9	hypothetical protein SARC_06362 [Sphaeroforma arctica JP610]

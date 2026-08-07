@@ -1,0 +1,101 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_646848.1	XP_016882595.1	0	N/A	35.223	494	18	1.74e-59	228	regulator of nonsense transcripts 1 isoform X2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_016882594.1	0	N/A	35.223	494	18	1.86e-59	228	regulator of nonsense transcripts 1 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_002902.2	0	N/A	35.223	494	18	1.91e-59	228	regulator of nonsense transcripts 1 isoform 2 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001284478.1	0	N/A	35.223	494	18	2.11e-59	228	regulator of nonsense transcripts 1 isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047295147.1	0	N/A	35.223	494	18	3.63e-59	227	regulator of nonsense transcripts 1 isoform X3 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271875.1	0	N/A	31.481	432	15	1.03e-44	182	5'-3' DNA helicase ZGRF1 isoform X11 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271874.1	0	N/A	31.481	432	15	1.15e-44	182	5'-3' DNA helicase ZGRF1 isoform X10 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271873.1	0	N/A	31.481	432	15	1.15e-44	182	5'-3' DNA helicase ZGRF1 isoform X10 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011530399.1	0	N/A	31.481	432	15	1.26e-44	181	5'-3' DNA helicase ZGRF1 isoform X16 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271870.1	0	N/A	31.481	432	15	1.36e-44	182	5'-3' DNA helicase ZGRF1 isoform X7 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271869.1	0	N/A	31.481	432	15	1.36e-44	182	5'-3' DNA helicase ZGRF1 isoform X7 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271867.1	0	N/A	31.481	432	15	1.39e-44	182	5'-3' DNA helicase ZGRF1 isoform X5 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001337326.1	0	N/A	31.481	432	15	1.39e-44	182	5'-3' DNA helicase ZGRF1 isoform 2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271866.1	0	N/A	31.481	432	15	1.41e-44	182	5'-3' DNA helicase ZGRF1 isoform X4 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271868.1	0	N/A	31.481	432	15	1.48e-44	182	5'-3' DNA helicase ZGRF1 isoform X6 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_016863859.1	0	N/A	31.481	432	15	1.48e-44	182	5'-3' DNA helicase ZGRF1 isoform X6 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271872.1	0	N/A	31.481	432	15	1.48e-44	182	5'-3' DNA helicase ZGRF1 isoform X9 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271871.1	0	N/A	31.481	432	15	1.50e-44	182	5'-3' DNA helicase ZGRF1 isoform X8 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011530396.1	0	N/A	31.481	432	15	1.50e-44	182	5'-3' DNA helicase ZGRF1 isoform X8 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047271865.1	0	N/A	31.481	432	15	1.56e-44	182	5'-3' DNA helicase ZGRF1 isoform X2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011530393.1	0	N/A	31.481	432	15	1.56e-44	182	5'-3' DNA helicase ZGRF1 isoform X2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_005263172.1	0	N/A	31.481	432	15	1.57e-44	182	5'-3' DNA helicase ZGRF1 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_060862.3	0	N/A	31.481	432	15	1.57e-44	182	5'-3' DNA helicase ZGRF1 isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_016863858.1	0	N/A	31.481	432	15	1.80e-44	181	5'-3' DNA helicase ZGRF1 isoform X3 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011530394.1	0	N/A	31.481	432	15	1.80e-44	181	5'-3' DNA helicase ZGRF1 isoform X3 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011530401.1	0	N/A	31.481	432	15	1.88e-44	180	5'-3' DNA helicase ZGRF1 isoform X18 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011530400.1	0	N/A	31.481	432	15	1.88e-44	180	5'-3' DNA helicase ZGRF1 isoform X18 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047278979.1	0	N/A	36.306	314	11	8.72e-42	173	putative helicase senataxin isoform X2 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_055861.3	0	N/A	36.306	314	11	8.72e-42	173	probable helicase senataxin isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001338456.1	0	N/A	36.306	314	11	8.72e-42	173	probable helicase senataxin isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011516707.1	0	N/A	38.095	294	11	3.82e-40	167	putative helicase senataxin isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011516706.1	0	N/A	38.095	294	11	3.82e-40	167	putative helicase senataxin isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_005272230.1	0	N/A	38.095	294	11	3.82e-40	167	putative helicase senataxin isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_005272229.1	0	N/A	38.095	294	11	3.82e-40	167	putative helicase senataxin isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001338457.1	0	N/A	38.095	294	11	3.82e-40	167	probable helicase senataxin isoform 2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047282837.1	0	N/A	31.797	434	15	1.88e-38	160	DNA-binding protein SMUBP-2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_002171.2	0	N/A	31.797	434	15	2.81e-38	160	DNA-binding protein SMUBP-2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011537719.1	0	N/A	30.569	422	15	3.82e-34	145	DNA replication ATP-dependent helicase/nuclease DNA2 isoform X3 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_016871288.1	0	N/A	30.569	422	15	4.03e-34	145	DNA replication ATP-dependent helicase/nuclease DNA2 isoform X2 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001073918.2	0	N/A	30.569	422	15	6.49e-34	146	DNA replication ATP-dependent helicase/nuclease DNA2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_006717743.1	0	N/A	30.569	422	15	6.67e-34	146	DNA replication ATP-dependent helicase/nuclease DNA2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011516708.1	0	N/A	37.548	261	9	7.30e-32	140	putative helicase senataxin isoform X3 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_005261980.1	0	N/A	31.178	433	15	1.71e-30	135	RNA helicase Mov10l1 isoform X6 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_061868.1	0	N/A	31.178	433	15	1.73e-30	135	RNA helicase Mov10l1 isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001157577.1	0	N/A	31.382	427	15	2.21e-28	128	RNA helicase Mov10l1 isoform 3 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001032412.2	0	N/A	26.884	491	16	1.95e-27	125	3'-5' exoribonuclease HELZ2 isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047277033.1	0	N/A	28.132	455	16	2.21e-27	124	helicase MOV-10 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047277030.1	0	N/A	28.132	455	16	2.21e-27	124	helicase MOV-10 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047277027.1	0	N/A	28.132	455	16	2.21e-27	124	helicase MOV-10 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001376492.1	0	N/A	28.132	455	16	2.21e-27	124	helicase MOV-10 isoform 2 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001376491.1	0	N/A	28.132	455	16	2.21e-27	124	helicase MOV-10 isoform 2 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001273001.1	0	N/A	28.132	455	16	2.21e-27	124	helicase MOV-10 isoform 2 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_208384.3	0	N/A	26.908	498	16	2.50e-27	125	3'-5' exoribonuclease HELZ2 isoform 2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_024307774.1	0	N/A	26.884	491	16	2.57e-27	125	3'-5' exoribonuclease HELZ2 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_066014.1	0	N/A	28.132	455	16	3.21e-27	124	helicase MOV-10 isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001356436.1	0	N/A	28.132	455	16	3.21e-27	124	helicase MOV-10 isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001308253.1	0	N/A	28.132	455	16	3.21e-27	124	helicase MOV-10 isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001123551.1	0	N/A	28.132	455	16	3.21e-27	124	helicase MOV-10 isoform 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_016873159.1	0	N/A	33.571	280	11	1.27e-25	117	DNA-binding protein SMUBP-2 isoform X2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011529002.1	0	N/A	28.931	477	15	1.99e-25	118	RNA helicase Mov10l1 isoform X5 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011529001.1	0	N/A	28.931	477	15	1.99e-25	118	RNA helicase Mov10l1 isoform X5 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011528998.1	0	N/A	28.931	477	15	2.51e-25	118	RNA helicase Mov10l1 isoform X1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011528999.1	0	N/A	28.931	477	15	2.57e-25	118	RNA helicase Mov10l1 isoform X2 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011529000.1	0	N/A	28.931	477	15	2.99e-25	118	RNA helicase Mov10l1 isoform X4 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011516709.1	0	N/A	37.391	230	8	4.96e-24	114	putative helicase senataxin isoform X4 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_047297371.1	0	N/A	29.375	480	15	1.45e-23	111	RNA helicase Mov10l1 isoform X11 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_016884325.1	0	N/A	29.375	480	15	1.45e-23	111	RNA helicase Mov10l1 isoform X11 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_016884324.1	0	N/A	29.375	480	15	1.45e-23	111	RNA helicase Mov10l1 isoform X11 [Homo sapiens]	FALSE	NA
+XP_646848.1	NP_001157578.1	0	N/A	32.404	287	10	2.34e-23	106	RNA helicase Mov10l1 isoform 4 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_011517316.1	0	N/A	24.280	486	17	2.25e-22	108	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_011517315.1	0	N/A	24.280	486	17	2.25e-22	108	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_011517314.1	0	N/A	24.280	486	17	2.25e-22	108	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_011517313.1	0	N/A	24.280	486	17	2.25e-22	108	terminal uridylyltransferase 7 isoform X1 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_047279823.1	0	N/A	26.214	309	12	2.36e-22	108	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_006717346.1	0	N/A	26.214	309	12	2.36e-22	108	terminal uridylyltransferase 7 isoform X2 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_011517317.1	0	N/A	26.214	309	12	2.83e-22	108	terminal uridylyltransferase 7 isoform X3 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	NP_001317647.1	0	N/A	26.214	309	12	2.91e-22	107	terminal uridylyltransferase 7 isoform 3 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_047279825.1	0	N/A	26.214	309	12	3.08e-22	108	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_047279824.1	0	N/A	26.214	309	12	3.08e-22	108	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_005252264.1	0	N/A	26.214	309	12	3.08e-22	108	terminal uridylyltransferase 7 isoform X6 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_005252265.1	0	N/A	26.214	309	12	3.13e-22	108	terminal uridylyltransferase 7 isoform X7 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	NP_066363.1	0	N/A	31.715	309	11	3.51e-22	108	NFX1-type zinc finger-containing protein 1 [Homo sapiens]	FALSE	NA
+XP_646848.1	XP_016870620.1	0	N/A	26.214	309	12	3.67e-22	108	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	XP_016870619.1	0	N/A	26.214	309	12	3.67e-22	108	terminal uridylyltransferase 7 isoform X4 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	NP_078893.2	0	N/A	26.214	309	12	3.67e-22	108	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	NP_001171988.1	0	N/A	26.214	309	12	3.67e-22	108	terminal uridylyltransferase 7 isoform 1 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	NP_001375060.1	0	N/A	27.869	366	14	4.16e-22	104	poly(A) RNA polymerase GLD2 isoform 11 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	XP_011517318.1	0	N/A	26.214	309	12	4.19e-22	107	terminal uridylyltransferase 7 isoform X5 [Homo sapiens]	TRUE	Tut7
+XP_646848.1	NP_001375042.1	0	N/A	27.869	366	14	4.25e-22	105	poly(A) RNA polymerase GLD2 isoform 16 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	XP_047272808.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform X3 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	XP_047272807.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform X3 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	XP_047272806.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform X3 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	NP_776158.2	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	NP_001375041.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	NP_001375040.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	NP_001375039.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	NP_001375038.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	NP_001375037.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	NP_001375036.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2
+XP_646848.1	NP_001375035.1	0	N/A	27.869	366	14	4.69e-22	105	poly(A) RNA polymerase GLD2 isoform 1 [Homo sapiens]	TRUE	TENT2

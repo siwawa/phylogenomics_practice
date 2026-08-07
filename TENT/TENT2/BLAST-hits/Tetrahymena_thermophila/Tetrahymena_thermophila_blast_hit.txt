@@ -1,0 +1,5 @@
+TENT2_Homo_sapiens	XP_001012854.1	312017	Tetrahymena thermophila SB210	23.551	276	49	5.35e-11	65.1	RNA-dependent RNA polymerase-associated nucleotidyltransferase [Tetrahymena thermophila SB210]
+TENT2_Homo_sapiens	XP_001012858.2	312017	Tetrahymena thermophila SB210	22.848	302	52	2.28e-09	59.7	RNA-dependent RNA polymerase-associated nucleotidyltransferase [Tetrahymena thermophila SB210]
+TENT2_Homo_sapiens	XP_001029623.2	312017	Tetrahymena thermophila SB210	24.103	195	38	2.08e-08	57.0	nucleotidyltransferase domain protein, partial [Tetrahymena thermophila SB210]
+TENT2_Homo_sapiens	XP_001017236.3	312017	Tetrahymena thermophila SB210	39.286	56	12	5.31e-06	49.3	nucleotidyltransferase domain protein [Tetrahymena thermophila SB210]
+TENT2_Homo_sapiens	XP_001027646.3	312017	Tetrahymena thermophila SB210	27.711	83	17	4.52e-04	42.7	chitinase class I family protein [Tetrahymena thermophila SB210]

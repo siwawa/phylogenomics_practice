@@ -1,0 +1,1 @@
+TENT2_Homo_sapiens	NP_585909.2	284813	Encephalitozoon cuniculi GB-M1	20.748	294	58	9.25e-08	50.1	topoisomerase 1 [Encephalitozoon cuniculi GB-M1]

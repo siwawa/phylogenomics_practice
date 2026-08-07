@@ -1,0 +1,6 @@
+TENT2_Homo_sapiens	XP_002732726.1	10224	Saccoglossus kowalevskii	38.244	353	68	7.40e-60	206	poly(A) RNA polymerase GLD2-like [Saccoglossus kowalevskii]
+TENT2_Homo_sapiens	XP_006824330.1	10224	Saccoglossus kowalevskii	29.836	305	64	2.88e-32	130	terminal uridylyltransferase 4-like [Saccoglossus kowalevskii]
+TENT2_Homo_sapiens	XP_006824330.1	10224	Saccoglossus kowalevskii	26.740	273	64	8.36e-19	89.7	terminal uridylyltransferase 4-like [Saccoglossus kowalevskii]
+TENT2_Homo_sapiens	XP_002742099.2	10224	Saccoglossus kowalevskii	24.586	362	69	2.21e-24	106	poly(A) RNA polymerase, mitochondrial-like [Saccoglossus kowalevskii]
+TENT2_Homo_sapiens	XP_006825661.1	10224	Saccoglossus kowalevskii	24.251	367	62	9.84e-19	89.0	speckle targeted PIP5K1A-regulated poly(A) polymerase-like [Saccoglossus kowalevskii]
+TENT2_Homo_sapiens	XP_077863534.1	10224	Saccoglossus kowalevskii	24.272	206	40	4.27e-10	61.6	terminal nucleotidyltransferase 4B-like [Saccoglossus kowalevskii]

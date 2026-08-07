@@ -1,0 +1,3 @@
+TENT2_Homo_sapiens	XP_964090.3	367110	Neurospora crassa OR74A	29.107	347	65	4.84e-30	123	PAP/25A associated domain family protein [Neurospora crassa OR74A]
+TENT2_Homo_sapiens	XP_011394085.1	367110	Neurospora crassa OR74A	31.313	198	34	7.37e-20	92.0	hypothetical protein NCU04364 [Neurospora crassa OR74A]
+TENT2_Homo_sapiens	XP_960550.2	367110	Neurospora crassa OR74A	20.000	270	55	7.75e-08	53.5	topoisomerase TRF4 [Neurospora crassa OR74A]

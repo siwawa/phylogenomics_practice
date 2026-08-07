@@ -1,0 +1,2 @@
+qseqid	saccver	staxids	sscinames	pident	length	qcovs	evalue	bitscore	stitle	is_human_TENT	human_TENT
+XP_004990472.1	NP_115642.4	0	N/A	21.860	215	34	1.35e-04	48.1	spermatogenesis-associated protein 31H1 [Homo sapiens]	FALSE	NA

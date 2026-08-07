@@ -1,0 +1,8 @@
+TENT2_Homo_sapiens	XP_030833126.1	7668	Strongylocentrotus purpuratus	38.757	338	66	4.72e-59	204	poly(A) RNA polymerase GLD2 [Strongylocentrotus purpuratus]
+TENT2_Homo_sapiens	XP_030852755.1	7668	Strongylocentrotus purpuratus	31.613	310	63	1.29e-30	127	terminal uridylyltransferase 7 isoform X2 [Strongylocentrotus purpuratus]
+TENT2_Homo_sapiens	XP_030852755.1	7668	Strongylocentrotus purpuratus	24.839	310	63	3.12e-23	104	terminal uridylyltransferase 7 isoform X2 [Strongylocentrotus purpuratus]
+TENT2_Homo_sapiens	XP_030852754.1	7668	Strongylocentrotus purpuratus	31.613	310	63	2.47e-30	126	terminal uridylyltransferase 4 isoform X1 [Strongylocentrotus purpuratus]
+TENT2_Homo_sapiens	XP_030852754.1	7668	Strongylocentrotus purpuratus	24.839	310	63	4.47e-23	103	terminal uridylyltransferase 4 isoform X1 [Strongylocentrotus purpuratus]
+TENT2_Homo_sapiens	XP_030827966.1	7668	Strongylocentrotus purpuratus	29.508	244	43	1.52e-21	99.4	uncharacterized protein LOC105437981 [Strongylocentrotus purpuratus]
+TENT2_Homo_sapiens	XP_792619.4	7668	Strongylocentrotus purpuratus	26.452	310	58	2.86e-21	97.8	poly(A) RNA polymerase, mitochondrial [Strongylocentrotus purpuratus]
+TENT2_Homo_sapiens	XP_030831737.1	7668	Strongylocentrotus purpuratus	25.095	263	53	1.07e-10	64.7	terminal nucleotidyltransferase 4B [Strongylocentrotus purpuratus]

@@ -1,0 +1,5 @@
+TENT2_Homo_sapiens	XP_018646614.1	6183	Schistosoma mansoni	40.533	338	67	2.00e-67	221	poly(A) polymerase cid (pap) (caffein-induced death protein), putative [Schistosoma mansoni]
+TENT2_Homo_sapiens	XP_018649388.1	6183	Schistosoma mansoni	26.471	306	63	1.57e-17	84.7	putative zinc finger protein [Schistosoma mansoni]
+TENT2_Homo_sapiens	XP_018649388.1	6183	Schistosoma mansoni	25.481	208	63	2.71e-07	52.0	putative zinc finger protein [Schistosoma mansoni]
+TENT2_Homo_sapiens	XP_018654326.1	6183	Schistosoma mansoni	23.151	311	61	3.45e-12	67.4	hypothetical protein Smp_145600 [Schistosoma mansoni]
+TENT2_Homo_sapiens	XP_018652643.1	6183	Schistosoma mansoni	50.794	63	12	6.61e-11	60.1	putative poly(A) polymerase cid (pap) (caffein-induced death protein) [Schistosoma mansoni]
