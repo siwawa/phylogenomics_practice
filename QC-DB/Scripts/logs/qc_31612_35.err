@@ -1,0 +1,1534 @@
+[INFO] === taxid=6412 accession=GCA_000326865.1 ===
+[INFO] Step 1: downloading assembly data...
+New version of client (18.34.0) available at https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/datasets.
+Collecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [------------------------------------------------]   0% 0/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.62kB 25.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.76kB 25.5kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.2kB 36.5kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.2kB 36.5kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.2kB 36.5kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.2kB 36.5kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.2kB 36.5kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.9kB 63.2kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8kB 113kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8kB 113kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8kB 113kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8kB 113kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8kB 113kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8kB 113kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.5kB 187kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    98.3kB 212kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    98.3kB 212kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    98.3kB 212kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    98.3kB 212kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    98.3kB 212kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    164kB 312kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    229kB 360kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    229kB 360kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    229kB 360kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    229kB 360kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    229kB 360kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    229kB 360kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    328kB 469kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    459kB 566kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    492kB 604kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    492kB 604kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    492kB 604kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    492kB 604kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    492kB 604kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    721kB 825kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    918kB 931kB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.02MB 1.02MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.02MB 1.02MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.02MB 1.02MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.02MB 1.02MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.02MB 1.02MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.47MB 1.41MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    1.8MB 1.55MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.1MB 1.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.1MB 1.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.1MB 1.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.1MB 1.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.1MB 1.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.79MB 2.28MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    2.98MB 2.43MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    3.57MB 2.67MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.23MB 3.14MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.23MB 3.14MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.23MB 3.14MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.23MB 3.14MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.29MB 3.09MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    4.98MB 3.56MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    5.77MB 4.09MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.03MB 4.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    6.68MB 4.42MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    7.21MB 4.73MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    7.73MB 5.05MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    7.9MB 5.15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    7.9MB 5.15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    8.06MB 5.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    8.59MB 5.45MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.44MB 5.96MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.99MB 6.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.99MB 6.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.99MB 6.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.99MB 6.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.99MB 6.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.99MB 6.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.99MB 6.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    9.99MB 6.27MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10MB 5.98MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    10.6MB 6.31MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    11.2MB 6.62MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    11.9MB 6.95MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    11.9MB 6.95MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    11.9MB 6.95MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    12.1MB 6.94MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    12.6MB 7.19MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.1MB 7.47MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.8MB 7.82MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.8MB 7.82MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.8MB 7.82MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.8MB 7.82MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.8MB 7.82MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.8MB 7.82MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.8MB 7.82MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.8MB 7.82MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    13.9MB 7.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    14.3MB 7.69MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    15.1MB 8.06MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    15.5MB 8.23MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    15.7MB 8.34MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    15.7MB 8.34MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    16.2MB 8.44MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    16.8MB 8.72MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.5MB 9.04MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 9.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 9.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 9.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 9.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 9.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 9.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 9.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 9.16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 8.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    17.8MB 8.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    18.5MB 9.05MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    18.8MB 9.15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    19.7MB 9.52MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    19.7MB 9.52MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    20.1MB 9.63MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    20.8MB 9.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.4MB 10.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.7MB 10.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.7MB 10.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.7MB 10.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.7MB 10.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.7MB 10.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.7MB 10.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.7MB 10.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    21.7MB 10.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    22MB 10MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    22.7MB 10.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    23.2MB 10.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    23.4MB 10.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    23.7MB 10.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    23.7MB 10.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    24.2MB 10.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    24.7MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.3MB 11.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.6MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.6MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.6MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.6MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.6MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.6MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.6MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.6MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.9MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.9MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.9MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.9MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.9MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.9MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.9MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    25.9MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    26.4MB 10.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    27MB 10.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    27.4MB 11.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    28MB 11.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    28.6MB 11.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    29.2MB 11.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    29.5MB 11.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    29.5MB 11.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    29.5MB 11.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    29.9MB 11.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    30.4MB 11.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    30.5MB 11.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    31.4MB 12.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    31.4MB 12.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    31.4MB 12.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    31.9MB 12.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.5MB 12.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    32.8MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    33.1MB 12.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    33.8MB 12.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    34.3MB 12.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    34.8MB 12.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    35.3MB 12.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    35.4MB 12.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.2MB 13MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    36.8MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    37.5MB 12.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    38.2MB 13.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    39MB 13.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    39.3MB 13.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    39.3MB 13.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    39.4MB 13.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40MB 13.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.6MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.7MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.7MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.7MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.7MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.7MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.7MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.7MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.7MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    40.8MB 13.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    41.4MB 13.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    42MB 13.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    42.3MB 13.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    42.8MB 13.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    43.2MB 13.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    43.5MB 13.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    43.5MB 13.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.1MB 14MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.5MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.7MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.7MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.7MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.7MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.7MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.7MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.7MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    44.7MB 14.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    45.3MB 13.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    45.8MB 14MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    46.4MB 14.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    47MB 14.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    47.2MB 14.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    47.3MB 14.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48MB 14.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.6MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    48.8MB 14.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    49.2MB 14.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    49.7MB 14.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    50.3MB 14.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    51MB 14.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    51.1MB 14.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    51.4MB 14.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    51.9MB 14.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.5MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.6MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.6MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.6MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.6MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.6MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.6MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.6MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.6MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    52.8MB 14.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    53.4MB 14.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    53.9MB 14.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    54.4MB 15MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    55MB 15.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    55.1MB 15.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    55.3MB 15.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    55.6MB 15.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.1MB 15.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.6MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.6MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.6MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.6MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.6MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.6MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.6MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.6MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    56.8MB 15.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    57.3MB 15.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    57.9MB 15.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    58.4MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    58.9MB 15.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    59MB 15.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    59.4MB 15.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    59.9MB 15.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.5MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    60.8MB 15.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    61.3MB 15.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    61.7MB 15.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    62.4MB 15.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    62.8MB 15.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    63MB 15.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    63.4MB 15.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.1MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    64.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65MB 15.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    65.7MB 15.9MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    66.4MB 16.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    66.4MB 16.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    66.4MB 16.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    66.5MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    67MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    67.6MB 16.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.2MB 16.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.5MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.5MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.5MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.5MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.5MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.5MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.5MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.5MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    68.8MB 16MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    69.3MB 16.1MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    69.7MB 16.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    70.2MB 16.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    70.4MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    70.4MB 16.2MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    70.9MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    71.3MB 16.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    71.8MB 16.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.2MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.5MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.5MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.5MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.5MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.5MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.5MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.5MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    72.8MB 16.3MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    73.3MB 16.4MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    74.1MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    74.4MB 16.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    74.4MB 16.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    74.6MB 16.5MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    75.3MB 16.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    76.5MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    77MB 16.6MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    77.5MB 16.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78MB 16.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.3MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.3MB 16.8MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.4MB 16.7MB/s
+[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package []
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [============>-----------------------------------]  29% 2/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [===================>----------------------------]  43% 3/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [==========================>---------------------]  57% 4/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [==========================>---------------------]  57% 4/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [==========================>---------------------]  57% 4/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [==========================>---------------------]  57% 4/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [==========================>---------------------]  57% 4/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [==========================>---------------------]  57% 4/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [==========================>---------------------]  57% 4/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB done
+Validating package files [==========================>---------------------]  57% 4/7
+[1A[2K[1A[2K[1A[2KCollecting 1 genome record [================================================] 100% 1/1
+Downloading: ncbi_dataset.zip    78.8MB valid data package
+Validating package files [================================================] 100% 7/7
+[INFO] Raw protein.faa contains 23426 sequences
+[INFO] Step 2: agat longest-isoform filtering...
+[INFO] After filtering: 23426 genes, 23426 mRNA features (should be ~1:1)
+[INFO] Step 3: gffread translation...
+FASTA index file /bank/ncbi/gnathostome/Tmp/6412/01_raw/genomic.fna.fai created.
+[INFO] Filtered protein set contains 23426 sequences
+[INFO] Step 4: basic stats...
+[INFO] Step 5: BUSCO...
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+/rna/liha/miniconda3/envs/busco/bin/busco:25: SyntaxWarning: invalid escape sequence '\w'
+  "cannot import name '(?P<module_name>[\w]+)", err.msg
+[INFO] Step 6: OMArk...
+================================================================================
+
+   _____ _____ _____
+  |     |     |  _  |_____ ___ ___
+  |  |  | | | |     |     | -_|  _|
+  |_____|_|_|_|__|__|_|_|_|___|_|   v2.1.2
+
+  OMAmer is licensed under the GNU Lesser General Public License 3.0 (LGPL-3.0).
+    
+================================================================================
+
+Loading required libraries  [DONE]
+
+================================================================================
+
+Running OMAmer on pichu, using:
+ - database: /bank/ncbi/gnathostome/OMArk/LUCA.h5
+ - query: /bank/ncbi/gnathostome/Tmp/6412/02_filtered/longest_isoform.faa
+ - version: 2.1.2
+
+================================================================================
+
+Loading data required for OMAmer search from database...
+ - taxonomy information (0.0s) [DONE]
+ - family information (0.0s) [DONE]
+ - sub-family information (0.6s) [DONE]
+ - family hierarchy (0.0s) [DONE]
+ - k-mer index (15.3s) [DONE]
+ - family probability estimates (0.0s) [DONE]
+ - sub-family probability estimates (0.1s) [DONE]
+
+Finished loading required data
+
+================================================================================
+
+[?25lSearching -  0 queries in 0s (0.0 queries/s) Searching -  0 queries in 5s (0.0 queries/s) Searching -  0 queries in 10s (0.0 queries/s) Searching -  0 queries in 15s (0.0 queries/s) Searching -  0 queries in 20s (0.0 queries/s) Searching -  0 queries in 25s (0.0 queries/s) Searching -  0 queries in 30s (0.0 queries/s) Searching -  0 queries in 35s (0.0 queries/s) Searching -  0 queries in 40s (0.0 queries/s) Searching -  0 queries in 45s (0.0 queries/s) Searching -  0 queries in 50s (0.0 queries/s) Searching -  0 queries in 55s (0.0 queries/s) Searching -  10000 queries in 1:00 (166.5 queries/s) Searching -  10000 queries in 1:05 (162.7 queries/s) Searching -  10000 queries in 1:10 (156.7 queries/s) Searching -  10000 queries in 1:15 (149.7 queries/s) Searching -  10000 queries in 1:20 (142.3 queries/s) Searching -  10000 queries in 1:25 (134.9 queries/s) Searching -  10000 queries in 1:30 (127.7 queries/s) Searching -  20000 queries in 1:35 (152.5 queries/s) Searching -  20000 queries in 1:40 (166.7 queries/s) Searching -  20000 queries in 1:45 (173.8 queries/s) [?25h[JSearching -  23426 queries in 1:50.0 (185.55 queries/s) 
+
+================================================================================
+
+OMAmer search complete:
+ - results written to: /bank/ncbi/gnathostome/Tmp/6412/05_omark/6412.omamer
+ - total 126.37 seconds
+ - search phase only 222.22 queries/s
+
+
+Note: family p-values are stated in negative log units.
+================================================================================
+
+Thank you for using OMAmer. If you use OMAmer in your research, please cite:
+
+Victor Rossier, Alex Warwick Vesztrocy, Marc Robinson-Rechavi, Christophe Dessimoz, OMAmer: tree-driven and alignment-free protein assignment to subfamilies outperforms closest sequence approaches, Bioinformatics, Volume 37, Issue 18, September 2021, Pages 2866-2873, https://doi.org/10.1093/bioinformatics/btab219
+
+
+OMAmer uses data from the OMA browser. Results can be interpreted further using:
+ - OMA browser website (https://omabrowser.org)
+ - PyOMADB, the Python OMA API client (https://github.com/DessimozLab/pyomadb)
+
+================================================================================
+WARNING: The selected ancestral lineage is from the phylum rank or higher which means the target species' taxonomic division is not well sampled in our database. The results may lack accuracy.
+[INFO] Step 7: saving results to /rna/liha/phylogenomics_practice/QC-DB/Results/Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Annelida_6412 and cleaning up Tmp...
+[DONE] taxid=6412 finished. Results under /rna/liha/phylogenomics_practice/QC-DB/Results/Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Annelida_6412, Tmp cleaned.

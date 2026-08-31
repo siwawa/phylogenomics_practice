@@ -1,0 +1,9 @@
+[INFO] Row 10: taxid 684364 (Batrachochytrium dendrobatidis JAM81)
+curl: (22) The requested URL returned error: 429
+ ERROR:  curl command failed ( Sat Aug  8 12:44:16 PM KST 2026 ) with: 22
+-X GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&WebEnv=MCID_6a76a60d1caa6cacf70c7f40&term=%28%231%29&retmax=0&usehistory=y&tool=edirect&edirect=24.0&edirect_os=Linux&email=liha%40pichu.rna.snu.ac.kr
+HTTP/1.0 429 Too Many Requests
+ WARNING:  FAILURE ( Sat Aug  8 12:44:16 PM KST 2026 )
+nquire -get https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ esearch.fcgi -db protein -WebEnv MCID_6a76a60d1caa6cacf70c7f40 -term \(\#1\) -retmax 0 -usehistory y -tool edirect -edirect 24.0 -edirect_os Linux -email liha@pichu.rna.snu.ac.kr
+EMPTY RESULT
+SECOND ATTEMPT

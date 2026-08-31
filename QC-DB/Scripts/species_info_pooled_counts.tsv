@@ -1,0 +1,73 @@
+Taxonomy	requested_species	selected_taxon	taxid	in_refseq_protein	total	NP_	XP_	WP_	YP_	OTHER	XP_ratio	n_assemblies_exact_taxid	n_proteins_pooled	n_assemblies_pooled
+Amoebozoa-Evosea	Dictyostelium discoideum	Dictyostelium discoideum AX4	352472	YES	13266	0	13266	0	0	0	1.0000	1	13266	14
+Amoebozoa-Evosea	Physarum polycephalum	Badhamia polycephala	5791	YES	20	20	0	0	0	0	0.0000	0	20	0
+Amoebozoa-Evosea	Protostelium aurantium	NA	NA	NO	0	0	0	0	0	0	NA	NA	NA	NA
+Amoebozoa-Evosea	Entamoeba histolytica	Entamoeba histolytica HM-1:IMSS	294381	YES	8151	0	8151	0	0	0	1.0000	1	8151	18
+Amoebozoa-Discosea	Acanthamoeba castellanii	Acanthamoeba castellanii str. Neff	1257118	YES	14969	0	14969	0	0	0	1.0000	1	14969	2
+Amoebozoa-Discosea	Vermamoeba vermiformis	Vermamoeba vermiformis	5778	YES	46	0	0	0	46	0	0.0000	0	46	0
+Obazoa-Apusomonadida	Thecamonas trahens	Thecamonas trahens ATCC 50062	461836	YES	10598	0	10598	0	0	0	1.0000	1	10598	2
+Obazoa-Holomycota-Nucleariida	Fonticula alba	Fonticula alba	691883	YES	6309	0	6309	0	0	0	1.0000	1	6309	2
+Obazoa-Holomycota-Microsporidia	Encephalitozoon cuniculi	Encephalitozoon cuniculi GB-M1	284813	YES	2122	2122	0	0	0	0	0.0000	1	2122	11
+Obazoa-Holomycota-Chytridiomycota	Batrachochytrium dendrobatidis	Batrachochytrium dendrobatidis JAM81	684364	YES	8386	0	8386	0	0	0	1.0000	1	8386	156
+Obazoa-Holomycota-Mucoromycota	Rhizopus delemar	Rhizopus delemar RA 99-880	246409	YES	17459	0	17459	0	0	0	1.0000	1	17459	149
+Obazoa-Holomycota-Glomeromycota	Rhizophagus irregularis	Rhizophagus irregularis	588596	YES	31183	0	31153	0	30	0	0.9990	1	31183	274
+Obazoa-Holomycota-Ascomycota	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C	559292	YES	6021	6021	0	0	0	0	0.0000	1	6021	647
+Obazoa-Holomycota-Ascomycota	Schizosaccharomyces pombe	Schizosaccharomyces pombe	4896	YES	5134	5123	0	0	11	0	0.0000	1	5134	13
+Obazoa-Holomycota-Ascomycota	Neurospora crassa	Neurospora crassa OR74A	367110	YES	10812	0	10784	0	28	0	0.9974	1	10812	3039
+Obazoa-Holomycota-Basidiomycota	Ustilago maydis	Mycosarcoma maydis	5270	YES	6806	0	6780	0	26	0	0.9962	1	6806	77
+Obazoa-Holozoa-Ichthyosporea	Sphaeroforma arctica	Sphaeroforma arctica JP610	667725	YES	18730	0	18730	0	0	0	1.0000	1	18730	2
+Obazoa-Holozoa-Filasterea	Capsaspora owczarzaki	Capsaspora owczarzaki ATCC 30864	595528	YES	8792	0	8792	0	0	0	1.0000	1	8792	4
+Obazoa-Holozoa-Choanoflagellatea	Monosiga brevicollis	Monosiga brevicollis MX1	431895	YES	9170	0	9170	0	0	0	1.0000	1	9170	2
+Obazoa-Holozoa-Choanoflagellatea	Salpingoeca rosetta	Salpingoeca rosetta	946362	YES	11725	0	11725	0	0	0	1.0000	1	11725	2
+Obazoa-Holozoa-Metazoa	Amphimedon queenslandica	Amphimedon queenslandica	400682	YES	23523	46	23464	0	13	0	0.9975	1	23523	2419
+Obazoa-Holozoa-Metazoa	Bolinopsis microptera	Bolinopsis microptera	2820187	YES	21734	0	21734	0	0	0	1.0000	1	21734	4
+Obazoa-Holozoa-Metazoa	Homo sapiens	Homo sapiens	9606	YES	197865	70913	126939	0	13	0	0.6415	2	197865	2973
+Obazoa-Holozoa-Metazoa-Echinodermata	Strongylocentrotus purpuratus	Strongylocentrotus purpuratus	7668	YES	38469	441	38028	0	0	0	0.9885	1	38469	116
+Obazoa-Holozoa-Metazoa-Hemichordata	Saccoglossus kowalevskii	Saccoglossus kowalevskii	10224	YES	23497	474	23010	0	13	0	0.9793	1	23497	2873
+Obazoa-Holozoa-Metazoa-Chordata-Cephalochordata	Branchiostoma floridae	Branchiostoma floridae	7739	YES	43041	13	43028	0	0	0	0.9997	1	43041	2869
+Obazoa-Holozoa-Metazoa-Chordata-Tunicata	Ciona intestinalis	Ciona intestinalis	7719	YES	20522	932	19590	0	0	0	0.9546	1	20522	2636
+Obazoa-Holozoa-Metazoa-Chordata-Tunicata	Oikopleura dioica	Oikopleura dioica	34765	YES	17869	0	17869	0	0	0	1.0000	1	17869	2644
+Obazoa-Holozoa-Metazoa-Chordata-Cyclostomata	Petromyzon marinus	Petromyzon marinus	7757	YES	48284	13	48271	0	0	0	0.9997	1	48284	2594
+Obazoa-Holozoa-Metazoa-Chordata-Chondrichthyes	Callorhinchus milii	Callorhinchus milii	7868	YES	30439	991	29435	0	13	0	0.9670	1	30439	2811
+Obazoa-Holozoa-Metazoa-Chordata-Sarcopterygii	Latimeria chalumnae	Latimeria chalumnae	7897	YES	33756	35	33721	0	0	0	0.9990	1	33756	2829
+Obazoa-Holozoa-Metazoa-Protostomia-Ecdysozoa-Arthropoda-Crustacea	Daphnia pulex	Daphnia pulex	6669	YES	27978	13	27965	0	0	0	0.9995	1	27978	2763
+Obazoa-Holozoa-Metazoa-Protostomia-Ecdysozoa-Arthropoda-Insecta	Apis mellifera	Apis mellifera	7460	YES	23506	598	22895	0	13	0	0.9740	1	23506	2777
+Obazoa-Holozoa-Metazoa-Protostomia-Ecdysozoa-Arthropoda-Insecta	Bombyx mori	Bombyx mori	7091	YES	28376	2402	25974	0	0	0	0.9154	1	28376	2794
+Obazoa-Holozoa-Metazoa-Protostomia-Ecdysozoa-Arthropoda-Chelicerata	Ixodes scapularis	Ixodes scapularis	6945	YES	34248	0	34235	0	13	0	0.9996	1	34248	2779
+Obazoa-Holozoa-Metazoa-Protostomia-Ecdysozoa-Nematoda	Brugia malayi	Brugia malayi	6279	YES	14400	12	14388	0	0	0	0.9992	1	14400	2431
+Obazoa-Holozoa-Metazoa-Protostomia-Ecdysozoa-Priapulida	Priapulus caudatus	Priapulus caudatus	37621	YES	20584	9	20562	0	13	0	0.9989	1	20584	2863
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Annelida	Helobdella robusta	Helobdella robusta	6412	YES	23426	0	23426	0	0	0	1.0000	1	23426	2832
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Brachiopoda	Lingula anatina	Lingula anatina	7574	YES	41376	0	41363	0	13	0	0.9997	1	41376	2872
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Nemertea	Lineus longissimus	Lineus longissimus	88925	YES	34828	0	34828	0	0	0	1.0000	1	34828	2867
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Platyhelminthes	Schistosoma mansoni	Schistosoma mansoni	6183	YES	11679	12	11667	0	0	0	0.9990	1	11679	1832
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Mollusca-Gastropoda	Lottia gigantea	Lottia gigantea	225164	YES	23822	0	23822	0	0	0	1.0000	1	23822	2864
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Mollusca-Gastropoda	Biomphalaria glabrata	Biomphalaria glabrata	6526	YES	53167	65	53102	0	0	0	0.9988	1	53167	2864
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Mollusca-Gastropoda	Pomacea canaliculata	Pomacea canaliculata	400727	YES	40392	1	40378	0	13	0	0.9997	1	40392	2736
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Mollusca-Bivalvia	Magallana gigas	Magallana gigas	29159	YES	51078	159	50919	0	0	0	0.9969	1	51078	2865
+Obazoa-Holozoa-Metazoa-Protostomia-Spiralia-Mollusca-Cephalopoda	Octopus bimaculoides	Octopus bimaculoides	37653	YES	29034	3	29018	0	13	0	0.9994	1	29034	2869
+Discoba-Heterolobosea	Naegleria gruberi	Naegleria gruberi	5762	YES	15757	46	15711	0	0	0	0.9971	1	15757	12
+Discoba-Euglenozoa	Trypanosoma brucei	Trypanosoma brucei gambiense DAL972	679716	YES	9822	0	9822	0	0	0	1.0000	1	9822	23
+Discoba-Euglenozoa	Leishmania major	Leishmania major strain Friedlin	347515	YES	8316	0	8316	0	0	0	1.0000	1	8316	64
+Discoba-Euglenozoa	Leptomonas pyrrhocoris	Leptomonas pyrrhocoris	157538	YES	13893	0	13893	0	0	0	1.0000	1	13893	62
+SAR-Stramenopila	Phaeodactylum tricornutum	Phaeodactylum tricornutum CCAP 1055/1	556484	YES	10408	0	10408	0	0	0	1.0000	1	10408	60
+SAR-Stramenopila	Thalassiosira pseudonana	Thalassiosira pseudonana CCMP1335	296543	YES	11673	0	11673	0	0	0	1.0000	1	11673	83
+SAR-Stramenopila	Phytophthora infestans	Phytophthora infestans T30-4	403677	YES	17797	0	17797	0	0	0	1.0000	1	17797	285
+SAR-Alveolata	Tetrahymena thermophila	Tetrahymena thermophila SB210	312017	YES	26996	0	26996	0	0	0	1.0000	1	26996	8
+SAR-Alveolata	Paramecium tetraurelia	Paramecium tetraurelia	5888	YES	39642	0	39642	0	0	0	1.0000	1	39642	8
+SAR-Alveolata	Plasmodium falciparum	Plasmodium falciparum 3D7	36329	YES	5354	0	5354	0	0	0	1.0000	1	5354	103
+SAR-Alveolata	Toxoplasma gondii	Toxoplasma gondii ME49	508771	YES	8287	0	8287	0	0	0	1.0000	1	8287	29
+SAR-Rhizaria	Bigelowiella natans	Bigelowiella natans	227086	YES	316	0	283	0	33	0	0.8956	1	316	5
+SAR-Rhizaria	Plasmodiophora brassicae	NA	NA	NO	0	0	0	0	0	0	NA	NA	NA	NA
+Archaeplastida-Rhodophyta	Cyanidioschyzon merolae	Cyanidioschyzon merolae strain 10D	280699	YES	5010	207	4803	0	0	0	0.9587	1	5010	7
+Archaeplastida-Rhodophyta	Chondrus crispus	Chondrus crispus	2769	YES	9836	25	9603	0	208	0	0.9763	1	9836	4
+Archaeplastida-Chlorophyta	Chlamydomonas reinhardtii	Chlamydomonas reinhardtii	3055	YES	19604	77	19527	0	0	0	0.9961	1	19604	42
+Archaeplastida-Chlorophyta	Ostreococcus tauri	Ostreococcus tauri	70448	YES	7764	0	7660	0	104	0	0.9866	1	7764	75
+Archaeplastida-Chlorophyta	Micromonas commoda	Micromonas commoda	296587	YES	10137	0	10041	0	96	0	0.9905	1	10137	82
+Archaeplastida-Bryophyta	Marchantia polymorpha	Marchantia polymorpha subsp. ruderalis	1480154	YES	155	0	0	0	155	0	0.0000	0	155	25
+Archaeplastida-Bryophyta	Physcomitrium patens	Physcomitrium patens	3218	YES	47014	56	46832	0	126	0	0.9961	1	47014	905
+Archaeplastida-Angiosperm	Amborella trichopoda	Amborella trichopoda	13333	YES	31382	100	31282	0	0	0	0.9968	1	31382	937
+Archaeplastida-Angiosperm	Oryza sativa	Oryza sativa Japonica Group	39947	YES	42964	4870	38041	0	53	0	0.8854	1	42964	978
+Cryptista	Guillardia theta	Guillardia theta CCMP2712	905079	YES	24822	0	24822	0	0	0	1.0000	1	24822	4
+Haptophyta-Haptista	Emiliania huxleyi	Emiliania huxleyi CCMP1516	280463	YES	38554	0	38554	0	0	0	1.0000	1	38554	51
+Asgard_Archaea	Candidatus Lokiarchaeum ossiferum	Candidatus Lokiarchaeum ossiferum	2951803	YES	9293	0	0	9293	0	0	0.0000	2	9293	4
+Asgard_Archaea	Promethearchaeum syntrophicum	Promethearchaeum syntrophicum	2594042	YES	3859	0	0	3859	0	0	0.0000	3	3862	19

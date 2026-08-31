@@ -1,2 +1,4 @@
 *.2bit
 TENT/Query_structure
+QC-DB/Results
+QC-DB/assembly_summary_refseq.txt

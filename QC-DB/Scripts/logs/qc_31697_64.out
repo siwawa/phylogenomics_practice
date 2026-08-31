@@ -1,0 +1,40 @@
+2026-08-10 12:27:54 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 08/10/2026 12:27:54 *****
+2026-08-10 12:27:54 INFO:	Configuring BUSCO with local environment
+2026-08-10 12:27:54 INFO:	Running proteins mode
+2026-08-10 12:27:54 INFO:	Input file is /bank/ncbi/gnathostome/Tmp/39947/02_filtered/longest_isoform.faa
+2026-08-10 12:27:54 INFO:	Running BUSCO using lineage dataset eukaryota_odb10 (eukaryota, 2024-01-08)
+2026-08-10 12:27:54 INFO:	***** Run HMMER on gene sequences *****
+2026-08-10 12:27:54 INFO:	Running 255 job(s) on hmmsearch, starting at 08/10/2026 12:27:54
+2026-08-10 12:27:55 INFO:	[hmmsearch]	26 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	51 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	77 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	102 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	128 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	153 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	179 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	204 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	230 of 255 task(s) completed
+2026-08-10 12:27:55 INFO:	[hmmsearch]	255 of 255 task(s) completed
+2026-08-10 12:27:56 WARNING:	BUSCO did not find any match. Make sure to check the log files if this is unexpected.
+2026-08-10 12:27:56 INFO:	
+
+    ---------------------------------------------------
+    |Results from dataset eukaryota_odb10              |
+    ---------------------------------------------------
+    |C:0.0%[S:0.0%,D:0.0%],F:0.0%,M:100.0%,n:255       |
+    |0    Complete BUSCOs (C)                          |
+    |0    Complete and single-copy BUSCOs (S)          |
+    |0    Complete and duplicated BUSCOs (D)           |
+    |0    Fragmented BUSCOs (F)                        |
+    |255    Missing BUSCOs (M)                         |
+    |255    Total BUSCO groups searched                |
+    ---------------------------------------------------
+2026-08-10 12:27:56 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2 seconds
+
+***** Summary of warnings: *****
+2026-08-10 12:27:56 WARNING:busco.busco_tools.hmmer	BUSCO did not find any match. Make sure to check the log files if this is unexpected.
+
+2026-08-10 12:27:56 INFO:	Results written in /bank/ncbi/gnathostome/Tmp/39947/04_busco/busco_39947
+2026-08-10 12:27:56 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-08-10 12:27:56 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

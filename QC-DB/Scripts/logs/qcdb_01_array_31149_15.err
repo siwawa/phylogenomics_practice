@@ -1,0 +1,4 @@
+[INFO] Row 15: taxid 367110 (Neurospora crassa OR74A)
+ ERROR:  WebEnv value not found in epost output - WebEnv1 
+ ERROR:  EPost failure
+[WARNING] IPG lookup failed (attempt 1/3) for chunk chunk_an; retrying in 5s...

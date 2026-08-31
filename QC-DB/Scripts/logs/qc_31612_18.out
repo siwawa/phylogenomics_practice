@@ -1,0 +1,35 @@
+2026-08-10 10:39:53 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 08/10/2026 10:39:53 *****
+2026-08-10 10:39:53 INFO:	Configuring BUSCO with local environment
+2026-08-10 10:39:53 INFO:	Running proteins mode
+2026-08-10 10:39:53 INFO:	Input file is /bank/ncbi/gnathostome/Tmp/400682/02_filtered/longest_isoform.faa
+2026-08-10 10:39:53 INFO:	Running BUSCO using lineage dataset eukaryota_odb10 (eukaryota, 2024-01-08)
+2026-08-10 10:39:53 INFO:	***** Run HMMER on gene sequences *****
+2026-08-10 10:39:53 INFO:	Running 255 job(s) on hmmsearch, starting at 08/10/2026 10:39:53
+2026-08-10 10:39:55 INFO:	[hmmsearch]	26 of 255 task(s) completed
+2026-08-10 10:39:56 INFO:	[hmmsearch]	51 of 255 task(s) completed
+2026-08-10 10:39:57 INFO:	[hmmsearch]	77 of 255 task(s) completed
+2026-08-10 10:39:58 INFO:	[hmmsearch]	102 of 255 task(s) completed
+2026-08-10 10:39:59 INFO:	[hmmsearch]	128 of 255 task(s) completed
+2026-08-10 10:40:00 INFO:	[hmmsearch]	153 of 255 task(s) completed
+2026-08-10 10:40:02 INFO:	[hmmsearch]	179 of 255 task(s) completed
+2026-08-10 10:40:04 INFO:	[hmmsearch]	204 of 255 task(s) completed
+2026-08-10 10:40:05 INFO:	[hmmsearch]	230 of 255 task(s) completed
+2026-08-10 10:40:10 INFO:	[hmmsearch]	255 of 255 task(s) completed
+2026-08-10 10:40:11 INFO:	
+
+    ---------------------------------------------------
+    |Results from dataset eukaryota_odb10              |
+    ---------------------------------------------------
+    |C:94.9%[S:89.8%,D:5.1%],F:3.1%,M:2.0%,n:255       |
+    |242    Complete BUSCOs (C)                        |
+    |229    Complete and single-copy BUSCOs (S)        |
+    |13    Complete and duplicated BUSCOs (D)          |
+    |8    Fragmented BUSCOs (F)                        |
+    |5    Missing BUSCOs (M)                           |
+    |255    Total BUSCO groups searched                |
+    ---------------------------------------------------
+2026-08-10 10:40:11 INFO:	BUSCO analysis done. Total running time: 18 seconds
+2026-08-10 10:40:11 INFO:	Results written in /bank/ncbi/gnathostome/Tmp/400682/04_busco/busco_400682
+2026-08-10 10:40:11 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-08-10 10:40:11 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

@@ -1,0 +1,4 @@
+2026-08-10 11:38:15 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 08/10/2026 11:38:15 *****
+2026-08-10 11:38:15 INFO:	Configuring BUSCO with local environment
+2026-08-10 11:38:15 INFO:	Running proteins mode
+2026-08-10 11:38:16 INFO:	Input file is /bank/ncbi/gnathostome/Tmp/1480154/02_filtered/longest_isoform.faa
